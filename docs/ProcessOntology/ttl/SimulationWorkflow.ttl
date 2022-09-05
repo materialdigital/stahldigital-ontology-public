@@ -3,6 +3,7 @@
 <https://w3id.org/steel/ProcessOntology/SimulationWorkflow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/SimulationWorkflow> <http://www.w3.org/2000/01/rdf-schema#label> "Simulation Workflow"@en .
 <https://w3id.org/steel/ProcessOntology/SimulationWorkflow> <http://www.w3.org/2000/01/rdf-schema#label> "Simulationsablauf"@de .
+<https://w3id.org/steel/ProcessOntology/SimulationWorkflow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/steel/ProcessOntology/Workflow> .
 <https://w3id.org/steel/ProcessOntology/SimulationWorkflow> <http://www.w3.org/2004/02/skos/core#preflabel> "Simulation Workflow"@en .
 <https://w3id.org/steel/ProcessOntology/SimulationWorkflow> <http://www.w3.org/2004/02/skos/core#preflabel> "Simulationsablauf"@de .
 
