@@ -4,6 +4,21 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Abaqus">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Simulation Software named Abaqus</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Abaqus">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Abaqus</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Abaqus">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Abaqus</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Abaqus">
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/Solver"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Abaqus">
+    <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Abaqus</ns0:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Abaqus">
+    <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Abaqus</ns0:preflabel>
   </rdf:Description>
 </rdf:RDF>
