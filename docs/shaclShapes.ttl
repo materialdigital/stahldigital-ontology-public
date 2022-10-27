@@ -40,6 +40,13 @@ ex:ClassNoSynonymShape
         sh:sparql       [ sh:select  "\n    SELECT $this\n    WHERE {\n    $this a owl:Class .\n    $this owl:equivalentClass ?other\n    BIND(REPLACE(STR($this), '(#|/)[^#/]*$', '$1' ) as ?ns1) .\n    BIND(REPLACE(STR(?other), '(#|/)[^#/]*$', '$1' ) as ?ns2) .\n    FILTER(?ns1 = ?ns2) .\n    }\n    " ] ;
         sh:targetClass  owl:Class .
 
+ex:ClassNoLowercaseShape
+        rdf:type        sh:NodeShape ;
+        rdfs:comment    "For naming conventions, each owl:Class name must not start with a lowercase letter" ;
+        rdfs:label      "Classes names must not start with a lowercase letter" ;
+        sh:sparql       [ sh:select  "\n    SELECT $this\n    WHERE {\n    $this a owl:Class .\n    BIND(REPLACE(STR($this), '/([a-z][1]?[A-z0-9]*)$', '' ) as ?str1) .\n    FILTER(STR($this) != STR(?str1)) .\n    }\n    " ] ;
+        sh:targetClass  owl:Class .
+
 ex:ClassLabelShape  rdf:type  sh:NodeShape ;
         rdfs:comment    "A class must at least have one label" ;
         rdfs:label      "Label shape" ;
@@ -47,13 +54,6 @@ ex:ClassLabelShape  rdf:type  sh:NodeShape ;
                           sh:minCount  1 ;
                           sh:path      rdfs:label
                         ] ;
-        sh:targetClass  owl:Class .
-
-ex:ClassNoLowercaseShape
-        rdf:type        sh:NodeShape ;
-        rdfs:comment    "For naming conventions, each owl:Class name must not start with a lowercase letter" ;
-        rdfs:label      "Classes names must not start with a lowercase letter" ;
-        sh:sparql       [ sh:select  "\n    SELECT $this\n    WHERE {\n    $this a owl:Class .\n    BIND(REPLACE(STR($this), '/([a-z][1]?[A-z0-9]*)$', '' ) as ?str1) .\n    FILTER(STR($this) != STR(?str1)) .\n    }\n    " ] ;
         sh:targetClass  owl:Class .
 
 ex:PropertyNoInverseShape
@@ -85,13 +85,6 @@ ex:SuperclassShape  rdf:type  sh:NodeShape ;
                         ] ;
         sh:targetClass  owl:Class .
 
-ex:ClassConnectedShape
-        rdf:type        sh:NodeShape ;
-        rdfs:comment    "Check whether a owl:Class (a) is not part of any hierarchy (using rdfs:subClassOf) (b) does not have any definition axiom (using rdfs:subClassOf or owl:equivalentClass and a class restriction expression) (c) does not appear in any other class definition axiom (using rdfs:subClassOf or owl:equivalentClass and a class restriction expression) (d) does not appear in any rdfs:domain or rdfs:range." ;
-        rdfs:label      "Detect unconnected classes" ;
-        sh:sparql       [ sh:select  "\n    SELECT $this WHERE\n    {\n    $this a owl:Class .\n    FILTER NOT EXISTS {$this rdfs:subClassOf ?any1} .\n    FILTER NOT EXISTS {?any2 owl:equivalentClass $this} .\n    FILTER NOT EXISTS {$this owl:equivalentClass ?any3} .\n    FILTER NOT EXISTS {?any4 rdfs:subClassOf $this} .\n    FILTER NOT EXISTS {?any5 rdfs:range $this} .\n    FILTER NOT EXISTS {?any6 rdfs:domain $this} .\n    }\n    " ] ;
-        sh:targetClass  owl:Class .
-
 ex:ClassCommentShape  rdf:type  sh:NodeShape ;
         rdfs:comment    "Each owl:Class must have at least one rdfs:comment, which must be unique for each language." ;
         rdfs:label      "Classes must have a comment" ;
@@ -99,6 +92,13 @@ ex:ClassCommentShape  rdf:type  sh:NodeShape ;
                           sh:minCount  1 ;
                           sh:path      rdfs:comment
                         ] ;
+        sh:targetClass  owl:Class .
+
+ex:ClassConnectedShape
+        rdf:type        sh:NodeShape ;
+        rdfs:comment    "Check whether a owl:Class (a) is not part of any hierarchy (using rdfs:subClassOf) (b) does not have any definition axiom (using rdfs:subClassOf or owl:equivalentClass and a class restriction expression) (c) does not appear in any other class definition axiom (using rdfs:subClassOf or owl:equivalentClass and a class restriction expression) (d) does not appear in any rdfs:domain or rdfs:range." ;
+        rdfs:label      "Detect unconnected classes" ;
+        sh:sparql       [ sh:select  "\n    SELECT $this WHERE\n    {\n    $this a owl:Class .\n    FILTER NOT EXISTS {$this rdfs:subClassOf ?any1} .\n    FILTER NOT EXISTS {?any2 owl:equivalentClass $this} .\n    FILTER NOT EXISTS {$this owl:equivalentClass ?any3} .\n    FILTER NOT EXISTS {?any4 rdfs:subClassOf $this} .\n    FILTER NOT EXISTS {?any5 rdfs:range $this} .\n    FILTER NOT EXISTS {?any6 rdfs:domain $this} .\n    }\n    " ] ;
         sh:targetClass  owl:Class .
 
 ex:ClassCyclesShape  rdf:type  sh:NodeShape ;
