@@ -40,6 +40,13 @@ ex:ClassNoSynonymShape
         sh:sparql       [ sh:select  "\n    SELECT $this\n    WHERE {\n    $this a owl:Class .\n    $this owl:equivalentClass ?other\n    BIND(REPLACE(STR($this), '(#|/)[^#/]*$', '$1' ) as ?ns1) .\n    BIND(REPLACE(STR(?other), '(#|/)[^#/]*$', '$1' ) as ?ns2) .\n    FILTER(?ns1 = ?ns2) .\n    }\n    " ] ;
         sh:targetClass  owl:Class .
 
+ex:ClassNoLowercaseShape
+        rdf:type        sh:NodeShape ;
+        rdfs:comment    "For naming conventions, each owl:Class name must not start with a lowercase letter" ;
+        rdfs:label      "Classes names must not start with a lowercase letter" ;
+        sh:sparql       [ sh:select  "\n    SELECT $this\n    WHERE {\n    $this a owl:Class .\n    BIND(REPLACE(STR($this), '/([a-z][1]?[A-z0-9]*)$', '' ) as ?str1) .\n    FILTER(STR($this) != STR(?str1)) .\n    }\n    " ] ;
+        sh:targetClass  owl:Class .
+
 ex:ClassLabelShape  rdf:type  sh:NodeShape ;
         rdfs:comment    "A class must at least have one label" ;
         rdfs:label      "Label shape" ;
@@ -47,13 +54,6 @@ ex:ClassLabelShape  rdf:type  sh:NodeShape ;
                           sh:minCount  1 ;
                           sh:path      rdfs:label
                         ] ;
-        sh:targetClass  owl:Class .
-
-ex:ClassNoLowercaseShape
-        rdf:type        sh:NodeShape ;
-        rdfs:comment    "For naming conventions, each owl:Class name must not start with a lowercase letter" ;
-        rdfs:label      "Classes names must not start with a lowercase letter" ;
-        sh:sparql       [ sh:select  "\n    SELECT $this\n    WHERE {\n    $this a owl:Class .\n    BIND(REPLACE(STR($this), '/([a-z][1]?[A-z0-9]*)$', '' ) as ?str1) .\n    FILTER(STR($this) != STR(?str1)) .\n    }\n    " ] ;
         sh:targetClass  owl:Class .
 
 ex:PropertyNoInverseShape
