@@ -4,8 +4,10 @@
 <https://w3id.org/steel/ProcessOntology/Code> <http://www.w3.org/2000/01/rdf-schema#comment> "A external general simulation program. e.g. DAMASK or LAMMPS. A Code gets executed by a job"@en .
 <https://w3id.org/steel/ProcessOntology/Code> <http://www.w3.org/2000/01/rdf-schema#label> "Code"@en .
 <https://w3id.org/steel/ProcessOntology/Code> <http://www.w3.org/2000/01/rdf-schema#label> "Code"@de .
+<https://w3id.org/steel/ProcessOntology/Code> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/Software> .
 <https://w3id.org/steel/ProcessOntology/Code> <http://www.w3.org/2004/02/skos/core#altlabel> "Ablauf"@de .
 <https://w3id.org/steel/ProcessOntology/Code> <http://www.w3.org/2004/02/skos/core#preflabel> "Code"@en .
 <https://w3id.org/steel/ProcessOntology/Code> <http://www.w3.org/2004/02/skos/core#preflabel> "Code"@de .
+<https://w3id.org/steel/ProcessOntology/Code> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/Software> .
 
 
