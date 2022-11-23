@@ -120,6 +120,21 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Tester">
     <skos:preflabel xml:lang="en">Tester</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Geometry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Geometry">
+    <rdfs:label xml:lang="en">Geometry</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Geometry">
+    <rdfs:label xml:lang="de">Geometrie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Geometry">
+    <skos:preflabel xml:lang="en">Geometry</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Geometry">
+    <skos:preflabel xml:lang="de">Geometrie</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PropertyOfStructuralRelevance">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -137,21 +152,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PropertyOfStructuralRelevance">
     <skos:preflabel xml:lang="en">Property of structural relevance</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Geometry">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Geometry">
-    <rdfs:label xml:lang="en">Geometry</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Geometry">
-    <rdfs:label xml:lang="de">Geometrie</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Geometry">
-    <skos:preflabel xml:lang="en">Geometry</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Geometry">
-    <skos:preflabel xml:lang="de">Geometrie</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadDisplacement">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -231,18 +231,6 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CodeFileRessource">
     <skos:preflabel xml:lang="de">Datei</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/output">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/output">
-    <rdfs:domain rdf:resource="https://w3id.org/steel/ProcessOntology/Workflow"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/output">
-    <rdfs:label xml:lang="en">output</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/output">
-    <skos:preflabel xml:lang="en">output</skos:preflabel>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FrameRate">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -263,6 +251,18 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FrameRate">
     <skos:preflabel xml:lang="en">FrameRate</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/output">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/output">
+    <rdfs:domain rdf:resource="https://w3id.org/steel/ProcessOntology/Workflow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/output">
+    <rdfs:label xml:lang="en">output</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/output">
+    <skos:preflabel xml:lang="en">output</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStandard">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -468,6 +468,27 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingDirection">
     <skos:preflabel xml:lang="de">Walzrichtung</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
+    <rdfs:comment xml:lang="en">Unique ID (IWM intern)</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
+    <rdfs:label xml:lang="en">SampleIdentifier-2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
+    <skos:altlabel xml:lang="en">Sample identifier 2</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
+    <skos:altlabel xml:lang="de">Probenkennung 2</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
+    <skos:preflabel xml:lang="en">SampleIdentifier-2</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -497,27 +518,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <skos:preflabel xml:lang="en">CrossheadSeparationRate</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
-    <rdfs:comment xml:lang="en">Unique ID (IWM intern)</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
-    <rdfs:label xml:lang="en">SampleIdentifier-2</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
-    <skos:altlabel xml:lang="en">Sample identifier 2</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
-    <skos:altlabel xml:lang="de">Probenkennung 2</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier-2">
-    <skos:preflabel xml:lang="en">SampleIdentifier-2</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasJob">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -930,6 +930,24 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrashTest">
     <skos:preflabel xml:lang="de">Crash Test</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
+    <rdfs:label xml:lang="en">TestPieceLength</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
+    <skos:altlabel xml:lang="en">Test piece length</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
+    <skos:altlabel xml:lang="de">Probengesamtlänge Lt</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
+    <skos:preflabel xml:lang="en">TestPieceLength</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CodeRessource">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -941,30 +959,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CodeRessource">
     <skos:preflabel xml:lang="en">Resource</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <rdfs:comment xml:lang="en">The material used in the experiment.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <rdfs:label xml:lang="en">Material</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <skos:altlabel xml:lang="en">material</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <skos:altlabel xml:lang="de">Werkstoff</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <skos:altlabel xml:lang="en">Material</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <skos:preflabel xml:lang="en">Material</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleCode">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -999,23 +993,29 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength">
     <skos:preflabel xml:lang="en">EstimatedStrainRateOverTheParallelLength</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
-    <rdfs:label xml:lang="en">TestPieceLength</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <rdfs:comment xml:lang="en">The material used in the experiment.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
-    <skos:altlabel xml:lang="en">Test piece length</skos:altlabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <rdfs:label xml:lang="en">Material</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
-    <skos:altlabel xml:lang="de">Probengesamtlänge Lt</skos:altlabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <skos:altlabel xml:lang="en">material</skos:altlabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
-    <skos:preflabel xml:lang="en">TestPieceLength</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <skos:altlabel xml:lang="de">Werkstoff</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <skos:altlabel xml:lang="en">Material</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <skos:preflabel xml:lang="en">Material</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DamaskCode">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -1041,8 +1041,38 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DamaskCode">
     <skos:preflabel xml:lang="de">Damask Code</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Fracture">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Fracture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Fracture">
+    <rdfs:label xml:lang="en">Fracture</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Fracture">
+    <skos:altlabel xml:lang="en">fracture</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Fracture">
+    <skos:preflabel xml:lang="en">Fracture</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/processChainSimulation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalThickness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalThickness">
+    <rdfs:label xml:lang="en">final thickness</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalThickness">
+    <rdfs:label xml:lang="de">Enddicke</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalThickness">
+    <skos:preflabel xml:lang="en">final thickness</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalThickness">
+    <skos:preflabel xml:lang="de">Enddicke</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Standard">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -1061,36 +1091,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Standard">
     <skos:preflabel xml:lang="de">Norm</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalThickness">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalThickness">
-    <rdfs:label xml:lang="en">final thickness</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalThickness">
-    <rdfs:label xml:lang="de">Enddicke</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalThickness">
-    <skos:preflabel xml:lang="en">final thickness</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalThickness">
-    <skos:preflabel xml:lang="de">Enddicke</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Computer-controlledTensileTestingMachine">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Computer-controlledTensileTestingMachine">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Computer-controlledTensileTestingMachine">
-    <rdfs:label xml:lang="en">Computer-controlledTensileTestingMachine</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Computer-controlledTensileTestingMachine">
-    <skos:altlabel xml:lang="en">computer-controlled tensile testing machine</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Computer-controlledTensileTestingMachine">
-    <skos:preflabel xml:lang="en">Computer-controlledTensileTestingMachine</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Benchmark">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -1116,20 +1116,20 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Benchmark">
     <skos:preflabel xml:lang="de">??</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Fracture">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Computer-controlledTensileTestingMachine">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Fracture">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Computer-controlledTensileTestingMachine">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Fracture">
-    <rdfs:label xml:lang="en">Fracture</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Computer-controlledTensileTestingMachine">
+    <rdfs:label xml:lang="en">Computer-controlledTensileTestingMachine</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Fracture">
-    <skos:altlabel xml:lang="en">fracture</skos:altlabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Computer-controlledTensileTestingMachine">
+    <skos:altlabel xml:lang="en">computer-controlled tensile testing machine</skos:altlabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Fracture">
-    <skos:preflabel xml:lang="en">Fracture</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Computer-controlledTensileTestingMachine">
+    <skos:preflabel xml:lang="en">Computer-controlledTensileTestingMachine</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Phase">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -1550,6 +1550,39 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture1">
     <skos:preflabel xml:lang="en">WidthAfterFracture1</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Preload">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Preload">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Preload">
+    <rdfs:comment xml:lang="de">Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet. Eine Korrektur der Dehnung sollte unter Berücksichtigung der Vorkraft vorgenommen werden.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Preload">
+    <rdfs:label xml:lang="en">Preload</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Preload">
+    <skos:preflabel xml:lang="en">Preload</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Coating">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Coating">
+    <rdfs:comment xml:lang="en">Thing that you put on the surface of a specimen that influences the surface behaviour</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Coating">
+    <rdfs:label xml:lang="en">Coating</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Coating">
+    <rdfs:label xml:lang="de">Beschichtung</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Coating">
+    <skos:preflabel xml:lang="en">Coating</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Coating">
+    <skos:preflabel xml:lang="de">Beschichtung</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/draught">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -1570,39 +1603,6 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/draught">
     <skos:preflabel xml:lang="de">Höhenabnahme pro Stich</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Coating">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Coating">
-    <rdfs:comment xml:lang="en">Thing that you put on the surface of a specimen that influences the surface behaviour</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Coating">
-    <rdfs:label xml:lang="en">Coating</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Coating">
-    <rdfs:label xml:lang="de">Beschichtung</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Coating">
-    <skos:preflabel xml:lang="en">Coating</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Coating">
-    <skos:preflabel xml:lang="de">Beschichtung</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Preload">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Preload">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Preload">
-    <rdfs:comment xml:lang="de">Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet. Eine Korrektur der Dehnung sollte unter Berücksichtigung der Vorkraft vorgenommen werden.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Preload">
-    <rdfs:label xml:lang="en">Preload</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Preload">
-    <skos:preflabel xml:lang="en">Preload</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1796,23 +1796,20 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageYieldPointExtension">
     <skos:preflabel xml:lang="en">PercentageYieldPointExtension</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeSeriesSimulation">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ScriptJob">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeSeriesSimulation">
-    <rdfs:comment xml:lang="en">A Simulation that return a time Series</rdfs:comment>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ScriptJob">
+    <rdfs:comment xml:lang="en">a Pyiron job for executing a script like e.g. JupyterNotebook</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeSeriesSimulation">
-    <rdfs:label xml:lang="de">Zeitreihensimulation</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ScriptJob">
+    <rdfs:label xml:lang="en">Script Job</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeSeriesSimulation">
-    <rdfs:label xml:lang="en">Time series simulation</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ScriptJob">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/steel/ProcessOntology/PyironJob"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeSeriesSimulation">
-    <skos:preflabel xml:lang="de">Zeitreihensimulation</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeSeriesSimulation">
-    <skos:preflabel xml:lang="en">Time series simulation</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ScriptJob">
+    <skos:preflabel xml:lang="en">Script Job</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Abaqus">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -1835,20 +1832,23 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Abaqus">
     <skos:preflabel xml:lang="de">Abaqus</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ScriptJob">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeSeriesSimulation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ScriptJob">
-    <rdfs:comment xml:lang="en">a Pyiron job for executing a script like e.g. JupyterNotebook</rdfs:comment>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeSeriesSimulation">
+    <rdfs:comment xml:lang="en">A Simulation that return a time Series</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ScriptJob">
-    <rdfs:label xml:lang="en">Script Job</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeSeriesSimulation">
+    <rdfs:label xml:lang="de">Zeitreihensimulation</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ScriptJob">
-    <rdfs:subClassOf rdf:resource="https://w3id.org/steel/ProcessOntology/PyironJob"/>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeSeriesSimulation">
+    <rdfs:label xml:lang="en">Time series simulation</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ScriptJob">
-    <skos:preflabel xml:lang="en">Script Job</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeSeriesSimulation">
+    <skos:preflabel xml:lang="de">Zeitreihensimulation</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeSeriesSimulation">
+    <skos:preflabel xml:lang="en">Time series simulation</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProjectName">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2066,20 +2066,20 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CharacteristicEngineeringStrainRate">
     <skos:preflabel xml:lang="en">CharacteristicEngineeringStrainRate</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elasticity">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForceNoDiscontinousYielding">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForceNoDiscontinousYielding">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elasticity">
-    <rdfs:label xml:lang="en">Elasticity</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForceNoDiscontinousYielding">
+    <rdfs:label xml:lang="en">MaximumForceNoDiscontinousYielding</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elasticity">
-    <rdfs:label xml:lang="de">Dehnbarkeit</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForceNoDiscontinousYielding">
+    <skos:altlabel xml:lang="en">maximum force "no discontinous yielding"</skos:altlabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elasticity">
-    <skos:preflabel xml:lang="en">Elasticity</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elasticity">
-    <skos:preflabel xml:lang="de">Dehnbarkeit</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForceNoDiscontinousYielding">
+    <skos:preflabel xml:lang="en">MaximumForceNoDiscontinousYielding</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GrainOrientation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -2096,20 +2096,20 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GrainOrientation">
     <skos:preflabel xml:lang="de">Kornausrichtung</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForceNoDiscontinousYielding">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForceNoDiscontinousYielding">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elasticity">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForceNoDiscontinousYielding">
-    <rdfs:label xml:lang="en">MaximumForceNoDiscontinousYielding</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elasticity">
+    <rdfs:label xml:lang="en">Elasticity</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForceNoDiscontinousYielding">
-    <skos:altlabel xml:lang="en">maximum force "no discontinous yielding"</skos:altlabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elasticity">
+    <rdfs:label xml:lang="de">Dehnbarkeit</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForceNoDiscontinousYielding">
-    <skos:preflabel xml:lang="en">MaximumForceNoDiscontinousYielding</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elasticity">
+    <skos:preflabel xml:lang="en">Elasticity</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elasticity">
+    <skos:preflabel xml:lang="de">Dehnbarkeit</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtMaximumForce">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2126,20 +2126,26 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtMaximumForce">
     <skos:preflabel xml:lang="en">PercentageTotalExtensionAtMaximumForce</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stripTension">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stripTension">
-    <rdfs:label xml:lang="en">strip tension</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
+    <rdfs:comment xml:lang="en">true stress at fracture</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stripTension">
-    <rdfs:label xml:lang="de">Bandzug</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
+    <rdfs:label xml:lang="en">TrueStressAtFracture</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stripTension">
-    <skos:preflabel xml:lang="en">strip tension</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
+    <skos:altlabel xml:lang="de">wahre Bruchspannung</skos:altlabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stripTension">
-    <skos:preflabel xml:lang="de">Bandzug</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
+    <skos:altlabel xml:lang="en">True stress at fracture</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
+    <skos:preflabel xml:lang="en">TrueStressAtFracture</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensionAtFracture">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2162,26 +2168,20 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensionAtFracture">
     <skos:preflabel xml:lang="en">ExtensionAtFracture</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stripTension">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
-    <rdfs:comment xml:lang="en">true stress at fracture</rdfs:comment>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stripTension">
+    <rdfs:label xml:lang="en">strip tension</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
-    <rdfs:label xml:lang="en">TrueStressAtFracture</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stripTension">
+    <rdfs:label xml:lang="de">Bandzug</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
-    <skos:altlabel xml:lang="de">wahre Bruchspannung</skos:altlabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stripTension">
+    <skos:preflabel xml:lang="en">strip tension</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
-    <skos:altlabel xml:lang="en">True stress at fracture</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
-    <skos:preflabel xml:lang="en">TrueStressAtFracture</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stripTension">
+    <skos:preflabel xml:lang="de">Bandzug</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FluidSolidTransition">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -2339,6 +2339,24 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GrainSize">
     <skos:preflabel xml:lang="en">Grain size</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Temperature">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Temperature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Temperature">
+    <rdfs:comment xml:lang="de">Versuche unter kontrollierten Bedingungen müssen bei einer Temperatur von (23 ± 5) °C durchgeführt werden.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Temperature">
+    <rdfs:label xml:lang="en">Temperature</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Temperature">
+    <skos:altlabel xml:lang="en">Temperature</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Temperature">
+    <skos:preflabel xml:lang="en">Temperature</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/contactLength">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -2353,24 +2371,6 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/contactLength">
     <skos:preflabel xml:lang="en">contact length</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
-    <rdfs:comment xml:lang="en">Jupyter Pyiron Notebook</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
-    <rdfs:label xml:lang="en">Pyiron notebook</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
-    <rdfs:label xml:lang="de">Pyiron Notebook</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
-    <skos:preflabel xml:lang="en">Pyiron notebook</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
-    <skos:preflabel xml:lang="de">Pyiron Notebook</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -2405,23 +2405,23 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <skos:preflabel xml:lang="en">OriginalWidth</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Temperature">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Temperature">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Temperature">
-    <rdfs:comment xml:lang="de">Versuche unter kontrollierten Bedingungen müssen bei einer Temperatur von (23 ± 5) °C durchgeführt werden.</rdfs:comment>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
+    <rdfs:comment xml:lang="en">Jupyter Pyiron Notebook</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Temperature">
-    <rdfs:label xml:lang="en">Temperature</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
+    <rdfs:label xml:lang="en">Pyiron notebook</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Temperature">
-    <skos:altlabel xml:lang="en">Temperature</skos:altlabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
+    <rdfs:label xml:lang="de">Pyiron Notebook</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Temperature">
-    <skos:preflabel xml:lang="en">Temperature</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
+    <skos:preflabel xml:lang="en">Pyiron notebook</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
+    <skos:preflabel xml:lang="de">Pyiron Notebook</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/usesCode">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -2571,19 +2571,19 @@ or
     <rdfs:comment xml:lang="de">technische Dehnung bezogen auf die Extensometermesslänge</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Strain">
-    <rdfs:label xml:lang="de">Dehnung</rdfs:label>
+    <rdfs:label xml:lang="en">Strain</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Strain">
-    <rdfs:label xml:lang="en">Strain</rdfs:label>
+    <rdfs:label xml:lang="de">Dehnung</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Strain">
     <skos:altlabel xml:lang="en">percentage extension “strain”</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Strain">
-    <skos:preflabel xml:lang="de">Dehnung</skos:preflabel>
+    <skos:preflabel xml:lang="en">Strain</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Strain">
-    <skos:preflabel xml:lang="en">Strain</skos:preflabel>
+    <skos:preflabel xml:lang="de">Dehnung</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongation">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2838,19 +2838,19 @@ or
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
-    <rdfs:label xml:lang="de">Spannung</rdfs:label>
+    <rdfs:label xml:lang="en">Stress</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
-    <rdfs:label xml:lang="en">Stress</rdfs:label>
+    <rdfs:label xml:lang="de">Spannung</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
     <skos:altlabel xml:lang="en">stress</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
-    <skos:preflabel xml:lang="de">Spannung</skos:preflabel>
+    <skos:preflabel xml:lang="en">Stress</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
-    <skos:preflabel xml:lang="en">Stress</skos:preflabel>
+    <skos:preflabel xml:lang="de">Spannung</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStrain">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -2969,6 +2969,21 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobMetadata">
     <skos:preflabel xml:lang="en">Pyiron job metadata</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestSpeed">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestSpeed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestSpeed">
+    <rdfs:comment xml:lang="de">während des Versuchs verwendete Geschwindigkeit(en)</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestSpeed">
+    <rdfs:label xml:lang="en">TestSpeed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestSpeed">
+    <skos:preflabel xml:lang="en">TestSpeed</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Code">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -2995,21 +3010,6 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Code">
     <skos:related rdf:resource="https://w3id.org/steel/ProcessOntology/Software"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestSpeed">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestSpeed">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestSpeed">
-    <rdfs:comment xml:lang="de">während des Versuchs verwendete Geschwindigkeit(en)</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestSpeed">
-    <rdfs:label xml:lang="en">TestSpeed</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestSpeed">
-    <skos:preflabel xml:lang="en">TestSpeed</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ConstitutiveModelParameter">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -3050,23 +3050,20 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollGap">
     <skos:preflabel xml:lang="de">Walzspalt</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHDF">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MachineData">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHDF">
-    <rdfs:domain rdf:resource="https://w3id.org/steel/ProcessOntology/PyironJob"/>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MachineData">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHDF">
-    <rdfs:label xml:lang="en">has hdf</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MachineData">
+    <rdfs:comment xml:lang="de">Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHDF">
-    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/HDF5"/>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MachineData">
+    <rdfs:label xml:lang="en">MachineData</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHDF">
-    <dc:description xml:lang="en">The pyiron jobs has hdf5 file</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHDF">
-    <skos:preflabel xml:lang="en">has hdf</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MachineData">
+    <skos:preflabel xml:lang="en">MachineData</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ModulusOfElasticity">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3110,20 +3107,23 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">
     <skos:preflabel xml:lang="en">FinalGaugeLengthAfterFracture</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MachineData">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHDF">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MachineData">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHDF">
+    <rdfs:domain rdf:resource="https://w3id.org/steel/ProcessOntology/PyironJob"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MachineData">
-    <rdfs:comment xml:lang="de">Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt.</rdfs:comment>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHDF">
+    <rdfs:label xml:lang="en">has hdf</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MachineData">
-    <rdfs:label xml:lang="en">MachineData</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHDF">
+    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/HDF5"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MachineData">
-    <skos:preflabel xml:lang="en">MachineData</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHDF">
+    <dc:description xml:lang="en">The pyiron jobs has hdf5 file</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHDF">
+    <skos:preflabel xml:lang="en">has hdf</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FractureStrain">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -3139,21 +3139,6 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FractureStrain">
     <skos:preflabel xml:lang="de">Bruchdehnung</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/UltimateTensileStrength">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/UltimateTensileStrength">
-    <rdfs:label xml:lang="de">Zugfestigkeit</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/UltimateTensileStrength">
-    <rdfs:label xml:lang="en">Ultimate Tensile Strength</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/UltimateTensileStrength">
-    <skos:preflabel xml:lang="de">Zugfestigkeit</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/UltimateTensileStrength">
-    <skos:preflabel xml:lang="en">Ultimate Tensile Strength</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStress">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3184,6 +3169,21 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStress">
     <skos:preflabel xml:lang="de">wahre Spannung</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/UltimateTensileStrength">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/UltimateTensileStrength">
+    <rdfs:label xml:lang="de">Zugfestigkeit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/UltimateTensileStrength">
+    <rdfs:label xml:lang="en">Ultimate Tensile Strength</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/UltimateTensileStrength">
+    <skos:preflabel xml:lang="de">Zugfestigkeit</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/UltimateTensileStrength">
+    <skos:preflabel xml:lang="en">Ultimate Tensile Strength</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExperimentIdentifier">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3332,6 +3332,42 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TotalElongation">
     <skos:preflabel xml:lang="de">Bruchdehnung</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope">
+    <rdfs:label xml:lang="en">RelativeStandardDeviationOfTheSlope</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope">
+    <skos:altlabel xml:lang="en">relative standard deviation of the slope</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope">
+    <skos:preflabel xml:lang="en">RelativeStandardDeviationOfTheSlope</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
+    <rdfs:comment xml:lang="en">The norm according to which the experiment was conducted.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
+    <rdfs:label xml:lang="en">TestStandard</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
+    <skos:altlabel xml:lang="en">Test standard</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
+    <skos:altlabel xml:lang="de">Prüfnorm</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
+    <skos:preflabel xml:lang="en">TestStandard</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironJob">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -3367,42 +3403,6 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironJob">
     <skos:preflabel xml:lang="de">Pyiron Job</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
-    <rdfs:comment xml:lang="en">The norm according to which the experiment was conducted.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
-    <rdfs:label xml:lang="en">TestStandard</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
-    <skos:altlabel xml:lang="en">Test standard</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
-    <skos:altlabel xml:lang="de">Prüfnorm</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestStandard">
-    <skos:preflabel xml:lang="en">TestStandard</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope">
-    <rdfs:label xml:lang="en">RelativeStandardDeviationOfTheSlope</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope">
-    <skos:altlabel xml:lang="en">relative standard deviation of the slope</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope">
-    <skos:preflabel xml:lang="en">RelativeStandardDeviationOfTheSlope</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FractureStress">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -3677,18 +3677,6 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
     <skos:preflabel xml:lang="en">Material Card</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/input">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/input">
-    <rdfs:domain rdf:resource="https://w3id.org/steel/ProcessOntology/Workflow"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/input">
-    <rdfs:label xml:lang="en">input</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/input">
-    <skos:preflabel xml:lang="en">input</skos:preflabel>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceTransducer">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -3703,6 +3691,18 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceTransducer">
     <skos:preflabel xml:lang="en">ForceTransducer</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/input">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/input">
+    <rdfs:domain rdf:resource="https://w3id.org/steel/ProcessOntology/Workflow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/input">
+    <rdfs:label xml:lang="en">input</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/input">
+    <skos:preflabel xml:lang="en">input</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -4128,34 +4128,34 @@ or
     <rdfs:comment xml:lang="de">Verlängerung (3.3), angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elongation">
-    <rdfs:label xml:lang="de">Dehnung</rdfs:label>
+    <rdfs:label xml:lang="en">Elongation</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elongation">
-    <rdfs:label xml:lang="en">Elongation</rdfs:label>
+    <rdfs:label xml:lang="de">Dehnung</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elongation">
     <skos:altlabel xml:lang="en">elongation</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elongation">
-    <skos:preflabel xml:lang="de">Dehnung</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elongation">
     <skos:preflabel xml:lang="en">Elongation</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Microstructure">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elongation">
+    <skos:preflabel xml:lang="de">Dehnung</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Microstructure">
-    <rdfs:label xml:lang="en">Microstructure</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
+    <rdfs:label xml:lang="en">PercentageTotalExtensionAtFracture</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Microstructure">
-    <rdfs:label xml:lang="de">Gefüge</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
+    <skos:altlabel xml:lang="en">percentage total extension at fracture</skos:altlabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Microstructure">
-    <skos:preflabel xml:lang="en">Microstructure</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Microstructure">
-    <skos:preflabel xml:lang="de">Gefüge</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
+    <skos:preflabel xml:lang="en">PercentageTotalExtensionAtFracture</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeStamp">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -4187,20 +4187,20 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeStamp">
     <skos:preflabel xml:lang="en">TimeStamp</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Microstructure">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
-    <rdfs:label xml:lang="en">PercentageTotalExtensionAtFracture</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Microstructure">
+    <rdfs:label xml:lang="en">Microstructure</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
-    <skos:altlabel xml:lang="en">percentage total extension at fracture</skos:altlabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Microstructure">
+    <rdfs:label xml:lang="de">Gefüge</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
-    <skos:preflabel xml:lang="en">PercentageTotalExtensionAtFracture</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Microstructure">
+    <skos:preflabel xml:lang="en">Microstructure</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Microstructure">
+    <skos:preflabel xml:lang="de">Gefüge</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength%2CPlasticExtension">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -4235,6 +4235,30 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
     <foaf:depiction rdf:resource="https://w3id.org/steel/ProcessOntology/graph.png"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
+    <rdfs:comment xml:lang="en">Absolute position of the crosshead.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
+    <rdfs:comment xml:lang="de">Absolute position der Traverse</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
+    <rdfs:label xml:lang="en">AbsoluteCrossheadTravel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
+    <skos:altlabel xml:lang="de">Traversenweg absolut</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
+    <skos:altlabel xml:lang="en">Absolute crosshead travel</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
+    <skos:preflabel xml:lang="en">AbsoluteCrossheadTravel</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingForce">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -4264,30 +4288,6 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Simulation">
     <skos:preflabel xml:lang="de">Simulation</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
-    <rdfs:comment xml:lang="en">Absolute position of the crosshead.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
-    <rdfs:comment xml:lang="de">Absolute position der Traverse</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
-    <rdfs:label xml:lang="en">AbsoluteCrossheadTravel</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
-    <skos:altlabel xml:lang="de">Traversenweg absolut</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
-    <skos:altlabel xml:lang="en">Absolute crosshead travel</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel">
-    <skos:preflabel xml:lang="en">AbsoluteCrossheadTravel</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DataSamplingFrequency">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
