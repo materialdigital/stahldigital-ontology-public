@@ -1,0 +1,56 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "PercentageReductionOfArea",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Brucheinschn\u00FCrung Z",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Z",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "percentage reduction of area",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "PercentageReductionOfArea",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

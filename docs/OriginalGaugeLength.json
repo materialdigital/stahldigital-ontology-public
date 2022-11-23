@@ -1,0 +1,80 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/OriginalGaugeLength" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Anfangsmessl\u00E4nge ",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "L\u00E4nge zwischen den Marken zur Kennzeichnung der Messl\u00E4nge (3.1) auf der Probe, die vor dem Versuch bei Raumtemperatur gemessen wird",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "The intial gauge length given by the specimen geometry",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "OriginalGaugeLength",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Initial measuring length",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Messl\u00E4nge Lo",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Messl\u00E4nge Standardweg",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Original gauge length ",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "original gauge length",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "OriginalGaugeLength",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

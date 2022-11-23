@@ -1,0 +1,80 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/OriginalThickness" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Original width of the parallel length of a flat test piece",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "The initial thickness of the specimen.",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "The thickness of the specimen.",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "OriginalThickness",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Original thickness",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Probendicke",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Probendicke a",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Probendicke a0",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Specimen thickness",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "OriginalThickness",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }
