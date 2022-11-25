@@ -835,6 +835,11 @@
 <https://w3id.org/steel/ProcessOntology/WidthChange> <http://www.w3.org/2004/02/skos/core#altlabel> "Width change"@en .
 <https://w3id.org/steel/ProcessOntology/WidthChange> <http://www.w3.org/2004/02/skos/core#altlabel> "Breiten\u00E4nderung"@de .
 <https://w3id.org/steel/ProcessOntology/WidthChange> <http://www.w3.org/2004/02/skos/core#preflabel> "WidthChange"@en .
+<https://w3id.org/steel/ProcessOntology/RollingDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/RollingDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/RollingDirection> <http://www.w3.org/2000/01/rdf-schema#label> "RollingDirection"@en .
+<https://w3id.org/steel/ProcessOntology/RollingDirection> <http://www.w3.org/2004/02/skos/core#altlabel> "Walzrichtung"@de .
+<https://w3id.org/steel/ProcessOntology/RollingDirection> <http://www.w3.org/2004/02/skos/core#preflabel> "RollingDirection"@en .
 <https://w3id.org/steel/ProcessOntology/hasInput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/steel/ProcessOntology/hasInput> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/steel/ProcessOntology/Code> .
 <https://w3id.org/steel/ProcessOntology/hasInput> <http://www.w3.org/2000/01/rdf-schema#label> "has input"@en .
@@ -1108,6 +1113,13 @@
 <https://w3id.org/steel/ProcessOntology/TotalElongation> <http://www.w3.org/2000/01/rdf-schema#label> "Bruchdehnung"@de .
 <https://w3id.org/steel/ProcessOntology/TotalElongation> <http://www.w3.org/2004/02/skos/core#preflabel> "Total Elongation"@en .
 <https://w3id.org/steel/ProcessOntology/TotalElongation> <http://www.w3.org/2004/02/skos/core#preflabel> "Bruchdehnung"@de .
+<https://w3id.org/steel/ProcessOntology/TestingDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/TestingDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/TestingDirection> <http://www.w3.org/2000/01/rdf-schema#comment> "testing direction related to the rolling direction"@en .
+<https://w3id.org/steel/ProcessOntology/TestingDirection> <http://www.w3.org/2000/01/rdf-schema#label> "TestingDirection"@en .
+<https://w3id.org/steel/ProcessOntology/TestingDirection> <http://www.w3.org/2004/02/skos/core#altlabel> "testing direction"@en .
+<https://w3id.org/steel/ProcessOntology/TestingDirection> <http://www.w3.org/2004/02/skos/core#altlabel> "Orientierung"@de .
+<https://w3id.org/steel/ProcessOntology/TestingDirection> <http://www.w3.org/2004/02/skos/core#preflabel> "TestingDirection"@en .
 <https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope> <http://www.w3.org/2000/01/rdf-schema#label> "RelativeStandardDeviationOfTheSlope"@en .

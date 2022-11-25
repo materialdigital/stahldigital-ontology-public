@@ -742,6 +742,11 @@
         skos:altlabel   "dB"@de , "Width change"@en , "Breitenänderung"@de ;
         skos:preflabel  "WidthChange"@en .
 
+:RollingDirection  rdf:type  skos:Concept , owl:Class ;
+        rdfs:label      "RollingDirection"@en ;
+        skos:altlabel   "Walzrichtung"@de ;
+        skos:preflabel  "RollingDirection"@en .
+
 :hasInput  rdf:type     owl:ObjectProperty ;
         rdfs:domain     :Code ;
         rdfs:label      "has input"@en ;
@@ -975,6 +980,12 @@
 :TotalElongation  rdf:type  owl:Class ;
         rdfs:label      "Total Elongation"@en , "Bruchdehnung"@de ;
         skos:preflabel  "Total Elongation"@en , "Bruchdehnung"@de .
+
+:TestingDirection  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "testing direction related to the rolling direction"@en ;
+        rdfs:label      "TestingDirection"@en ;
+        skos:altlabel   "testing direction"@en , "Orientierung"@de ;
+        skos:preflabel  "TestingDirection"@en .
 
 :RelativeStandardDeviationOfTheSlope
         rdf:type        skos:Concept , owl:Class ;
