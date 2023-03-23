@@ -286,6 +286,12 @@
         skos:altlabel   "Initial displacement rate v0"@en , "Abzugsgeschw."@de ;
         skos:preflabel  "InitialDisplacementRate"@en .
 
+:Radius  rdf:type       skos:Concept , owl:Class ;
+        rdfs:comment    "Radius of the notch (only for notched shear tensile specimens)"@en , "Kerbradius (nur bei Schrägkerb-Scherzugproben)"@de ;
+        rdfs:label      "Radius"@en ;
+        skos:altlabel   "Radius"@en ;
+        skos:preflabel  "Radius"@en .
+
 :CrashTest  rdf:type    owl:Class ;
         rdfs:label      "Crash Test"@en , "Crash Test"@de ;
         skos:preflabel  "Crash Test"@en , "Crash Test"@de .
@@ -765,6 +771,12 @@
         rdfs:label      "Strain"@en , "Dehnung"@de ;
         skos:altlabel   "percentage extension “strain”"@en ;
         skos:preflabel  "Strain"@en , "Dehnung"@de .
+
+:ShearLength  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "length of the shear zone"@en , "Länge der Scherzone"@de ;
+        rdfs:label      "ShearLength"@en ;
+        skos:altlabel   "ShearLength"@en ;
+        skos:preflabel  "ShearLength"@en .
 
 :PercentageElongation
         rdf:type        skos:Concept , owl:Class ;

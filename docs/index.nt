@@ -303,6 +303,13 @@
 <https://w3id.org/steel/ProcessOntology/InitialDisplacementRate> <http://www.w3.org/2004/02/skos/core#altlabel> "Initial displacement rate v0"@en .
 <https://w3id.org/steel/ProcessOntology/InitialDisplacementRate> <http://www.w3.org/2004/02/skos/core#altlabel> "Abzugsgeschw."@de .
 <https://w3id.org/steel/ProcessOntology/InitialDisplacementRate> <http://www.w3.org/2004/02/skos/core#preflabel> "InitialDisplacementRate"@en .
+<https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/2000/01/rdf-schema#comment> "Radius of the notch (only for notched shear tensile specimens)"@en .
+<https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/2000/01/rdf-schema#comment> "Kerbradius (nur bei Schr\u00E4gkerb-Scherzugproben)"@de .
+<https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/2000/01/rdf-schema#label> "Radius"@en .
+<https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/2004/02/skos/core#altlabel> "Radius"@en .
+<https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/2004/02/skos/core#preflabel> "Radius"@en .
 <https://w3id.org/steel/ProcessOntology/CrashTest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/CrashTest> <http://www.w3.org/2000/01/rdf-schema#label> "Crash Test"@en .
 <https://w3id.org/steel/ProcessOntology/CrashTest> <http://www.w3.org/2000/01/rdf-schema#label> "Crash Test"@de .
@@ -864,6 +871,13 @@
 <https://w3id.org/steel/ProcessOntology/Strain> <http://www.w3.org/2004/02/skos/core#altlabel> "percentage extension \u201Cstrain\u201D"@en .
 <https://w3id.org/steel/ProcessOntology/Strain> <http://www.w3.org/2004/02/skos/core#preflabel> "Strain"@en .
 <https://w3id.org/steel/ProcessOntology/Strain> <http://www.w3.org/2004/02/skos/core#preflabel> "Dehnung"@de .
+<https://w3id.org/steel/ProcessOntology/ShearLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/ShearLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/ShearLength> <http://www.w3.org/2000/01/rdf-schema#comment> "length of the shear zone"@en .
+<https://w3id.org/steel/ProcessOntology/ShearLength> <http://www.w3.org/2000/01/rdf-schema#comment> "L\u00E4nge der Scherzone"@de .
+<https://w3id.org/steel/ProcessOntology/ShearLength> <http://www.w3.org/2000/01/rdf-schema#label> "ShearLength"@en .
+<https://w3id.org/steel/ProcessOntology/ShearLength> <http://www.w3.org/2004/02/skos/core#altlabel> "ShearLength"@en .
+<https://w3id.org/steel/ProcessOntology/ShearLength> <http://www.w3.org/2004/02/skos/core#preflabel> "ShearLength"@en .
 <https://w3id.org/steel/ProcessOntology/PercentageElongation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/PercentageElongation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/PercentageElongation> <http://www.w3.org/2000/01/rdf-schema#comment> "Verl\u00E4ngerung (3.3), angegeben in Prozent, bezogen auf die Anfangsmessl\u00E4nge (3.1.1)"@de .
