@@ -53,15 +53,15 @@
         skos:altlabel   "Tester"@en , "Prüfer"@de ;
         skos:preflabel  "Tester"@en .
 
-:Geometry  rdf:type     owl:Class ;
-        rdfs:label      "Geometry"@en , "Geometrie"@de ;
-        skos:preflabel  "Geometry"@en , "Geometrie"@de .
-
 :PropertyOfStructuralRelevance
         rdf:type        owl:Class ;
         rdfs:comment    "Properties that contribute towards the structural integrity of a component. Example Thickness, negative example Paint/ Color of Paint"@en ;
         rdfs:label      "Strukturrelevante Eigenschaft"@de , "Property of structural relevance"@en ;
         skos:preflabel  "Strukturrelevante Eigenschaft"@de , "Property of structural relevance"@en .
+
+:Geometry  rdf:type     owl:Class ;
+        rdfs:label      "Geometry"@en , "Geometrie"@de ;
+        skos:preflabel  "Geometry"@en , "Geometrie"@de .
 
 :CrossheadDisplacement
         rdf:type        skos:Concept , owl:Class ;
@@ -87,16 +87,16 @@
         rdfs:subClassOf  :CodeRessource ;
         skos:preflabel   "File"@en , "Datei"@de .
 
+:output  rdf:type       owl:DatatypeProperty ;
+        rdfs:domain     :Workflow ;
+        rdfs:label      "output"@en ;
+        skos:preflabel  "output"@en .
+
 :FrameRate  rdf:type    skos:Concept , owl:Class ;
         rdfs:comment    "sampling rate of the strain measuring system (e.g. high speed video recording)"@en ;
         rdfs:label      "FrameRate"@en ;
         skos:altlabel   "Frame rate"@en , "Abtastrate"@de ;
         skos:preflabel  "FrameRate"@en .
-
-:output  rdf:type       owl:DatatypeProperty ;
-        rdfs:domain     :Workflow ;
-        rdfs:label      "output"@en ;
-        skos:preflabel  "output"@en .
 
 :hasStandard  rdf:type  owl:ObjectProperty ;
         rdfs:label      "has standard"@en ;
@@ -158,18 +158,18 @@
         skos:altlabel   "RD"@en ;
         skos:preflabel  "rolling direction"@en , "Walzrichtung"@de .
 
-:SampleIdentifier-2  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "Unique ID (IWM intern)"@en ;
-        rdfs:label      "SampleIdentifier-2"@en ;
-        skos:altlabel   "Sample identifier 2"@en , "Probenkennung 2"@de ;
-        skos:preflabel  "SampleIdentifier-2"@en .
-
 :CrossheadSeparationRate
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "The displacement of the crosshead per time"@en , "The speed of the experiment."@en ;
         rdfs:label      "CrossheadSeparationRate"@en ;
         skos:altlabel   "Test speed"@en , "Prüfgeschwindigkeit"@de , "crosshead separation rate"@en , "Crosshead separation rate vc"@en ;
         skos:preflabel  "CrossheadSeparationRate"@en .
+
+:SampleIdentifier-2  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "Unique ID (IWM intern)"@en ;
+        rdfs:label      "SampleIdentifier-2"@en ;
+        skos:altlabel   "Sample identifier 2"@en , "Probenkennung 2"@de ;
+        skos:preflabel  "SampleIdentifier-2"@en .
 
 :hasJob  rdf:type       owl:ObjectProperty ;
         rdfs:domain     :PyironProject ;
@@ -296,15 +296,16 @@
         rdfs:label      "Crash Test"@en , "Crash Test"@de ;
         skos:preflabel  "Crash Test"@en , "Crash Test"@de .
 
-:TestPieceLength  rdf:type  skos:Concept , owl:Class ;
-        rdfs:label      "TestPieceLength"@en ;
-        skos:altlabel   "Test piece length"@en , "Probengesamtlänge Lt"@de ;
-        skos:preflabel  "TestPieceLength"@en .
-
 :CodeRessource  rdf:type  owl:Class ;
         rdfs:comment    "Input or output of a job"@en ;
         rdfs:label      "Resource"@en ;
         skos:preflabel  "Resource"@en .
+
+:Material  rdf:type     skos:Concept , owl:Class ;
+        rdfs:comment    "The material used in the experiment."@en ;
+        rdfs:label      "Material"@en ;
+        skos:altlabel   "material"@en , "Werkstoff"@de , "Material"@en ;
+        skos:preflabel  "Material"@en .
 
 :SampleCode  rdf:type   skos:Concept , owl:Class ;
         rdfs:label      "SampleCode"@en ;
@@ -317,11 +318,10 @@
         skos:altlabel   "estimated strain rate over the parallel length"@en ;
         skos:preflabel  "EstimatedStrainRateOverTheParallelLength"@en .
 
-:Material  rdf:type     skos:Concept , owl:Class ;
-        rdfs:comment    "The material used in the experiment."@en ;
-        rdfs:label      "Material"@en ;
-        skos:altlabel   "material"@en , "Werkstoff"@de , "Material"@en ;
-        skos:preflabel  "Material"@en .
+:TestPieceLength  rdf:type  skos:Concept , owl:Class ;
+        rdfs:label      "TestPieceLength"@en ;
+        skos:altlabel   "Test piece length"@en , "Probengesamtlänge Lt"@de ;
+        skos:preflabel  "TestPieceLength"@en .
 
 :DamaskCode  rdf:type    owl:Class ;
         rdfs:label       "Damask code"@en , "Damask Code"@de ;
@@ -329,33 +329,33 @@
         skos:altlabel    "code damask"@en , "Damask Ablauf"@de ;
         skos:preflabel   "Damask code"@en , "Damask Code"@de .
 
-:Fracture  rdf:type     skos:Concept , owl:Class ;
-        rdfs:label      "Fracture"@en ;
-        skos:altlabel   "fracture"@en ;
-        skos:preflabel  "Fracture"@en .
-
 :processChainSimulation
         rdf:type  owl:Class .
-
-:FinalThickness  rdf:type  owl:Class ;
-        rdfs:label      "final thickness"@en , "Enddicke"@de ;
-        skos:preflabel  "final thickness"@en , "Enddicke"@de .
 
 :Standard  rdf:type     owl:Class ;
         rdfs:comment    "Standard as described by ISO / DIN / etc"@en ;
         rdfs:label      "Standard"@en , "Norm"@de ;
         skos:preflabel  "Standard"@en , "Norm"@de .
 
-:Benchmark  rdf:type    owl:Class ;
-        rdfs:label      "Benchmark"@en , "??"@de ;
-        skos:altlabel   "Richtwert"@de , " Maßstab"@de , " Bezugspunkt"@de ;
-        skos:preflabel  "Benchmark"@en , "??"@de .
+:FinalThickness  rdf:type  owl:Class ;
+        rdfs:label      "final thickness"@en , "Enddicke"@de ;
+        skos:preflabel  "final thickness"@en , "Enddicke"@de .
 
 :Computer-controlledTensileTestingMachine
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "Computer-controlledTensileTestingMachine"@en ;
         skos:altlabel   "computer-controlled tensile testing machine"@en ;
         skos:preflabel  "Computer-controlledTensileTestingMachine"@en .
+
+:Benchmark  rdf:type    owl:Class ;
+        rdfs:label      "Benchmark"@en , "??"@de ;
+        skos:altlabel   "Richtwert"@de , " Maßstab"@de , " Bezugspunkt"@de ;
+        skos:preflabel  "Benchmark"@en , "??"@de .
+
+:Fracture  rdf:type     skos:Concept , owl:Class ;
+        rdfs:label      "Fracture"@en ;
+        skos:altlabel   "fracture"@en ;
+        skos:preflabel  "Fracture"@en .
 
 :Phase  rdf:type        owl:Class ;
         rdfs:comment    "Region of space (a thermodynamic system), throughout which all physical properties of a material are essentially uniform (Wikipedia)"@en ;
@@ -473,20 +473,20 @@
         skos:altlabel   "Width B1 after fracture"@en , "Probenbreite B1 nach Bruch"@de ;
         skos:preflabel  "WidthAfterFracture1"@en .
 
-:Preload  rdf:type      skos:Concept , owl:Class ;
-        rdfs:comment    "Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet. Eine Korrektur der Dehnung sollte unter Berücksichtigung der Vorkraft vorgenommen werden."@de ;
-        rdfs:label      "Preload"@en ;
-        skos:preflabel  "Preload"@en .
+:draught  rdf:type      owl:Class ;
+        rdfs:label      "draught"@en , "Höhenabnahme pro Stich"@de ;
+        skos:altlabel   "height reduction"@en , "Stichabnahme"@de ;
+        skos:preflabel  "draught"@en , "Höhenabnahme pro Stich"@de .
 
 :Coating  rdf:type      owl:Class ;
         rdfs:comment    "Thing that you put on the surface of a specimen that influences the surface behaviour"@en ;
         rdfs:label      "Coating"@en , "Beschichtung"@de ;
         skos:preflabel  "Coating"@en , "Beschichtung"@de .
 
-:draught  rdf:type      owl:Class ;
-        rdfs:label      "draught"@en , "Höhenabnahme pro Stich"@de ;
-        skos:altlabel   "height reduction"@en , "Stichabnahme"@de ;
-        skos:preflabel  "draught"@en , "Höhenabnahme pro Stich"@de .
+:Preload  rdf:type      skos:Concept , owl:Class ;
+        rdfs:comment    "Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet. Eine Korrektur der Dehnung sollte unter Berücksichtigung der Vorkraft vorgenommen werden."@de ;
+        rdfs:label      "Preload"@en ;
+        skos:preflabel  "Preload"@en .
 
 :PercentageReductionOfArea
         rdf:type        skos:Concept , owl:Class ;
@@ -540,11 +540,11 @@
         skos:altlabel   "percentage yield point extension"@en ;
         skos:preflabel  "PercentageYieldPointExtension"@en .
 
-:ScriptJob  rdf:type     owl:Class ;
-        rdfs:comment     "a Pyiron job for executing a script like e.g. JupyterNotebook"@en ;
-        rdfs:label       "Script Job"@en ;
-        rdfs:subClassOf  :PyironJob ;
-        skos:preflabel   "Script Job"@en .
+:TimeSeriesSimulation
+        rdf:type        owl:Class ;
+        rdfs:comment    "A Simulation that return a time Series"@en ;
+        rdfs:label      "Zeitreihensimulation"@de , "Time series simulation"@en ;
+        skos:preflabel  "Zeitreihensimulation"@de , "Time series simulation"@en .
 
 :Abaqus  rdf:type        owl:Class ;
         rdfs:comment     "Simulation Software named Abaqus"@en ;
@@ -552,11 +552,11 @@
         rdfs:subClassOf  :Solver ;
         skos:preflabel   "Abaqus"@en , "Abaqus"@de .
 
-:TimeSeriesSimulation
-        rdf:type        owl:Class ;
-        rdfs:comment    "A Simulation that return a time Series"@en ;
-        rdfs:label      "Zeitreihensimulation"@de , "Time series simulation"@en ;
-        skos:preflabel  "Zeitreihensimulation"@de , "Time series simulation"@en .
+:ScriptJob  rdf:type     owl:Class ;
+        rdfs:comment     "a Pyiron job for executing a script like e.g. JupyterNotebook"@en ;
+        rdfs:label       "Script Job"@en ;
+        rdfs:subClassOf  :PyironJob ;
+        skos:preflabel   "Script Job"@en .
 
 :ProjectName  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Name of the Project."@en , "Instabilität"@en ;
@@ -617,19 +617,19 @@
         skos:altlabel   "plastische"@de , "Characteristic engineering strain rate"@en ;
         skos:preflabel  "CharacteristicEngineeringStrainRate"@en .
 
-:MaximumForceNoDiscontinousYielding
-        rdf:type        skos:Concept , owl:Class ;
-        rdfs:label      "MaximumForceNoDiscontinousYielding"@en ;
-        skos:altlabel   "maximum force \"no discontinous yielding\""@en ;
-        skos:preflabel  "MaximumForceNoDiscontinousYielding"@en .
+:Elasticity  rdf:type   owl:Class ;
+        rdfs:label      "Elasticity"@en , "Dehnbarkeit"@de ;
+        skos:preflabel  "Elasticity"@en , "Dehnbarkeit"@de .
 
 :GrainOrientation  rdf:type  owl:Class ;
         rdfs:label      "grain orientation"@en , "Kornausrichtung"@de ;
         skos:preflabel  "grain orientation"@en , "Kornausrichtung"@de .
 
-:Elasticity  rdf:type   owl:Class ;
-        rdfs:label      "Elasticity"@en , "Dehnbarkeit"@de ;
-        skos:preflabel  "Elasticity"@en , "Dehnbarkeit"@de .
+:MaximumForceNoDiscontinousYielding
+        rdf:type        skos:Concept , owl:Class ;
+        rdfs:label      "MaximumForceNoDiscontinousYielding"@en ;
+        skos:altlabel   "maximum force \"no discontinous yielding\""@en ;
+        skos:preflabel  "MaximumForceNoDiscontinousYielding"@en .
 
 :PercentageTotalExtensionAtMaximumForce
         rdf:type        skos:Concept , owl:Class ;
@@ -637,12 +637,9 @@
         skos:altlabel   "percentage total extension at maximum force"@en ;
         skos:preflabel  "PercentageTotalExtensionAtMaximumForce"@en .
 
-:TrueStressAtFracture
-        rdf:type        skos:Concept , owl:Class ;
-        rdfs:comment    "true stress at fracture"@en ;
-        rdfs:label      "TrueStressAtFracture"@en ;
-        skos:altlabel   "wahre Bruchspannung"@de , "True stress at fracture"@en ;
-        skos:preflabel  "TrueStressAtFracture"@en .
+:stripTension  rdf:type  owl:Class ;
+        rdfs:label      "strip tension"@en , "Bandzug"@de ;
+        skos:preflabel  "strip tension"@en , "Bandzug"@de .
 
 :ExtensionAtFracture  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Displacement of the extensometer (!) length at fracture"@en ;
@@ -650,9 +647,12 @@
         skos:altlabel   "Extension at fracture"@en , "Bruchverlängerung"@de ;
         skos:preflabel  "ExtensionAtFracture"@en .
 
-:stripTension  rdf:type  owl:Class ;
-        rdfs:label      "strip tension"@en , "Bandzug"@de ;
-        skos:preflabel  "strip tension"@en , "Bandzug"@de .
+:TrueStressAtFracture
+        rdf:type        skos:Concept , owl:Class ;
+        rdfs:comment    "true stress at fracture"@en ;
+        rdfs:label      "TrueStressAtFracture"@en ;
+        skos:altlabel   "wahre Bruchspannung"@de , "True stress at fracture"@en ;
+        skos:preflabel  "TrueStressAtFracture"@en .
 
 :FluidSolidTransition
         rdf:type        owl:Class ;
@@ -698,15 +698,14 @@
         rdfs:label      "Korngröße"@de , "Grain size"@en ;
         skos:preflabel  "Korngröße"@de , "Grain size"@en .
 
-:Temperature  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "Versuche unter kontrollierten Bedingungen müssen bei einer Temperatur von (23 ± 5) °C durchgeführt werden."@de ;
-        rdfs:label      "Temperature"@en ;
-        skos:altlabel   "Temperature"@en ;
-        skos:preflabel  "Temperature"@en .
-
 :contactLength  rdf:type  owl:Class ;
         rdfs:label      "gedrückte Länge"@de , "contact length"@en ;
         skos:preflabel  "gedrückte Länge"@de , "contact length"@en .
+
+:PyironNotebook  rdf:type  owl:Class ;
+        rdfs:comment    "Jupyter Pyiron Notebook"@en ;
+        rdfs:label      "Pyiron notebook"@en , "Pyiron Notebook"@de ;
+        skos:preflabel  "Pyiron notebook"@en , "Pyiron Notebook"@de .
 
 :OriginalWidth  rdf:type  owl:Class , skos:Concept ;
         rdfs:comment    "The width of the specimen."@en , "Original width of the parallel length of a flat test piece"@en ;
@@ -714,10 +713,11 @@
         skos:altlabel   "Probenbreite b"@de , "Specimen width"@en , "Probenbreite"@de , "Probenbreite b0"@de , "Original width"@en ;
         skos:preflabel  "OriginalWidth"@en .
 
-:PyironNotebook  rdf:type  owl:Class ;
-        rdfs:comment    "Jupyter Pyiron Notebook"@en ;
-        rdfs:label      "Pyiron notebook"@en , "Pyiron Notebook"@de ;
-        skos:preflabel  "Pyiron notebook"@en , "Pyiron Notebook"@de .
+:Temperature  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "Versuche unter kontrollierten Bedingungen müssen bei einer Temperatur von (23 ± 5) °C durchgeführt werden."@de ;
+        rdfs:label      "Temperature"@en ;
+        skos:altlabel   "Temperature"@en ;
+        skos:preflabel  "Temperature"@en .
 
 :usesCode  rdf:type     owl:ObjectProperty ;
         rdfs:domain     :Job ;
@@ -768,15 +768,9 @@
 
 :Strain  rdf:type       skos:Concept , owl:Class ;
         rdfs:comment    "technische Dehnung bezogen auf die Extensometermesslänge"@de ;
-        rdfs:label      "Strain"@en , "Dehnung"@de ;
+        rdfs:label      "Dehnung"@de , "Strain"@en ;
         skos:altlabel   "percentage extension “strain”"@en ;
-        skos:preflabel  "Strain"@en , "Dehnung"@de .
-
-:ShearLength  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "length of the shear zone"@en , "Länge der Scherzone"@de ;
-        rdfs:label      "ShearLength"@en ;
-        skos:altlabel   "ShearLength"@en ;
-        skos:preflabel  "ShearLength"@en .
+        skos:preflabel  "Dehnung"@de , "Strain"@en .
 
 :PercentageElongation
         rdf:type        skos:Concept , owl:Class ;
@@ -784,6 +778,12 @@
         rdfs:label      "PercentageElongation"@en ;
         skos:altlabel   "percentage elongation"@en , "Elongation"@en , "Dehnung"@de ;
         skos:preflabel  "PercentageElongation"@en .
+
+:ShearLength  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "length of the shear zone"@en , "Länge der Scherzone"@de ;
+        rdfs:label      "ShearLength"@en ;
+        skos:altlabel   "ShearLength"@en ;
+        skos:preflabel  "ShearLength"@en .
 
 :PercentageElongationAfterFracture
         rdf:type        owl:Class , skos:Concept ;
@@ -850,9 +850,9 @@
         skos:preflabel  "number of passes"@en , "Stichzahl"@de .
 
 :Stress  rdf:type       skos:Concept , owl:Class ;
-        rdfs:label      "Stress"@en , "Spannung"@de ;
+        rdfs:label      "Spannung"@de , "Stress"@en ;
         skos:altlabel   "stress"@en ;
-        skos:preflabel  "Stress"@en , "Spannung"@de .
+        skos:preflabel  "Spannung"@de , "Stress"@en .
 
 :TrueStrain  rdf:type   owl:Class , skos:Concept ;
         rdfs:comment    "true strain"@en ;
@@ -888,11 +888,6 @@
         rdfs:label      "Pyiron job metadata"@en ;
         skos:preflabel  "Pyiron job metadata"@en .
 
-:TestSpeed  rdf:type    skos:Concept , owl:Class ;
-        rdfs:comment    "während des Versuchs verwendete Geschwindigkeit(en)"@de ;
-        rdfs:label      "TestSpeed"@en ;
-        skos:preflabel  "TestSpeed"@en .
-
 :Code   rdf:type        owl:Class ;
         rdfs:comment    "A external general simulation program. e.g. DAMASK or LAMMPS. A Code gets executed by a job"@en ;
         rdfs:label      "Code"@en , "Code"@de ;
@@ -900,6 +895,11 @@
         skos:altlabel   "Ablauf"@de ;
         skos:preflabel  "Code"@en , "Code"@de ;
         skos:related    :Software .
+
+:TestSpeed  rdf:type    skos:Concept , owl:Class ;
+        rdfs:comment    "während des Versuchs verwendete Geschwindigkeit(en)"@de ;
+        rdfs:label      "TestSpeed"@en ;
+        skos:preflabel  "TestSpeed"@en .
 
 :ConstitutiveModelParameter
         rdf:type  owl:Class .
@@ -913,10 +913,12 @@
         rdfs:label      "roll gap"@en , "Walzspalt"@de ;
         skos:preflabel  "roll gap"@en , "Walzspalt"@de .
 
-:MachineData  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt."@de ;
-        rdfs:label      "MachineData"@en ;
-        skos:preflabel  "MachineData"@en .
+:hasHDF  rdf:type       owl:ObjectProperty ;
+        rdfs:domain     :PyironJob ;
+        rdfs:label      "has hdf"@en ;
+        rdfs:range      :HDF5 ;
+        dc:description  "The pyiron jobs has hdf5 file"@en ;
+        skos:preflabel  "has hdf"@en .
 
 :ModulusOfElasticity  rdf:type  skos:Concept , owl:Class ;
         rdfs:label      "ModulusOfElasticity"@en ;
@@ -930,26 +932,24 @@
         skos:altlabel   "final gauge length after fracture"@en ;
         skos:preflabel  "FinalGaugeLengthAfterFracture"@en .
 
-:hasHDF  rdf:type       owl:ObjectProperty ;
-        rdfs:domain     :PyironJob ;
-        rdfs:label      "has hdf"@en ;
-        rdfs:range      :HDF5 ;
-        dc:description  "The pyiron jobs has hdf5 file"@en ;
-        skos:preflabel  "has hdf"@en .
+:MachineData  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt."@de ;
+        rdfs:label      "MachineData"@en ;
+        skos:preflabel  "MachineData"@en .
 
 :FractureStrain  rdf:type  owl:Class ;
         rdfs:label      "Fracture Strain"@en , "Bruchdehnung"@de ;
         skos:preflabel  "Fracture Strain"@en , "Bruchdehnung"@de .
 
-:TrueStress  rdf:type   skos:Concept , owl:Class ;
-        rdfs:label      "TrueStress"@en , "True Stress"@en , "wahre Spannung"@de ;
-        skos:altlabel   "true stress"@en , "Sigw(dL)"@de ;
-        skos:preflabel  "True Stress"@en , "TrueStress"@en , "wahre Spannung"@de .
-
 :UltimateTensileStrength
         rdf:type        owl:Class ;
         rdfs:label      "Zugfestigkeit"@de , "Ultimate Tensile Strength"@en ;
         skos:preflabel  "Zugfestigkeit"@de , "Ultimate Tensile Strength"@en .
+
+:TrueStress  rdf:type   skos:Concept , owl:Class ;
+        rdfs:label      "TrueStress"@en , "True Stress"@en , "wahre Spannung"@de ;
+        skos:altlabel   "true stress"@en , "Sigw(dL)"@de ;
+        skos:preflabel  "True Stress"@en , "TrueStress"@en , "wahre Spannung"@de .
 
 :ExperimentIdentifier
         rdf:type        skos:Concept , owl:Class ;
@@ -993,6 +993,19 @@
         rdfs:label      "Total Elongation"@en , "Bruchdehnung"@de ;
         skos:preflabel  "Total Elongation"@en , "Bruchdehnung"@de .
 
+:PyironJob  rdf:type     owl:Class ;
+        rdfs:comment     "execution information of a Code; can get deferred; can get executed on a batch system. A Pyiron job bundles all required metadata for a Pyiron code execution. Is similar to the context of a process from computer science."@en ;
+        rdfs:label       "Pyiron Job"@en , "Pyiron Job"@de ;
+        rdfs:subClassOf  emmo:process ;
+        skos:altlabel    " Pyiron execution context"@en , " Pyiron Kontext"@de , " Pyiron Prozess"@de , "Pyiron Job"@de , "Pyiron process"@en ;
+        skos:preflabel   "Pyiron Job"@en , "Pyiron Job"@de .
+
+:TestStandard  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "The norm according to which the experiment was conducted."@en ;
+        rdfs:label      "TestStandard"@en ;
+        skos:altlabel   "Test standard"@en , "Prüfnorm"@de ;
+        skos:preflabel  "TestStandard"@en .
+
 :TestingDirection  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "testing direction related to the rolling direction"@en ;
         rdfs:label      "TestingDirection"@en ;
@@ -1004,19 +1017,6 @@
         rdfs:label      "RelativeStandardDeviationOfTheSlope"@en ;
         skos:altlabel   "relative standard deviation of the slope"@en ;
         skos:preflabel  "RelativeStandardDeviationOfTheSlope"@en .
-
-:TestStandard  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "The norm according to which the experiment was conducted."@en ;
-        rdfs:label      "TestStandard"@en ;
-        skos:altlabel   "Test standard"@en , "Prüfnorm"@de ;
-        skos:preflabel  "TestStandard"@en .
-
-:PyironJob  rdf:type     owl:Class ;
-        rdfs:comment     "execution information of a Code; can get deferred; can get executed on a batch system. A Pyiron job bundles all required metadata for a Pyiron code execution. Is similar to the context of a process from computer science."@en ;
-        rdfs:label       "Pyiron Job"@en , "Pyiron Job"@de ;
-        rdfs:subClassOf  emmo:process ;
-        skos:altlabel    " Pyiron execution context"@en , " Pyiron Kontext"@de , " Pyiron Prozess"@de , "Pyiron Job"@de , "Pyiron process"@en ;
-        skos:preflabel   "Pyiron Job"@en , "Pyiron Job"@de .
 
 :FractureStress  rdf:type  owl:Class ;
         rdfs:label      "Fracture Stress"@en , "Bruchspannung"@de ;
@@ -1091,15 +1091,15 @@
         skos:altlabel   "Digitale Werkstoffbeschreibung"@de ;
         skos:preflabel  "Material Karte"@de , "Material Card"@en .
 
-:ForceTransducer  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "Die Kraftmesseinrichtung der Zugprüfmaschine muss im relevanten Bereich mindestens der Klasse 1 nach ISO 7500-1 entsprechen."@de ;
-        rdfs:label      "ForceTransducer"@en ;
-        skos:preflabel  "ForceTransducer"@en .
-
 :input  rdf:type        owl:DatatypeProperty ;
         rdfs:domain     :Workflow ;
         rdfs:label      "input"@en ;
         skos:preflabel  "input"@en .
+
+:ForceTransducer  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "Die Kraftmesseinrichtung der Zugprüfmaschine muss im relevanten Bereich mindestens der Klasse 1 nach ISO 7500-1 entsprechen."@de ;
+        rdfs:label      "ForceTransducer"@en ;
+        skos:preflabel  "ForceTransducer"@en .
 
 :Machine  rdf:type      skos:Concept , owl:Class ;
         rdfs:comment    "Data of the machine used for the experiment."@en , "Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt."@de ;
@@ -1123,12 +1123,12 @@
         skos:altlabel   "alloy"@en , "Legierung"@de ;
         skos:preflabel  "Zusammensetzung"@de , "Composition"@en .
 
+:Lsdyna  rdf:type        owl:Class ;
+        rdfs:subClassOf  :Solver .
+
 :InitialThickness  rdf:type  owl:Class ;
         rdfs:label      "initial thickness"@en , "Anfangsdicke"@de ;
         skos:preflabel  "initial thickness"@en , "Anfangsdicke"@de .
-
-:Lsdyna  rdf:type        owl:Class ;
-        rdfs:subClassOf  :Solver .
 
 :hasSubJob  rdf:type    owl:ObjectProperty ;
         rdfs:domain     :PyironJob ;
@@ -1220,15 +1220,13 @@
 
 :Elongation  rdf:type   skos:Concept , owl:Class ;
         rdfs:comment    "Zunahme der Anfangsmesslänge (3.1.1) zu einem beliebigen Zeitpunkt während des Versuchs"@de , "Verlängerung (3.3), angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)"@de ;
-        rdfs:label      "Elongation"@en , "Dehnung"@de ;
+        rdfs:label      "Dehnung"@de , "Elongation"@en ;
         skos:altlabel   "elongation"@en ;
-        skos:preflabel  "Elongation"@en , "Dehnung"@de .
+        skos:preflabel  "Dehnung"@de , "Elongation"@en .
 
-:PercentageTotalExtensionAtFracture
-        rdf:type        skos:Concept , owl:Class ;
-        rdfs:label      "PercentageTotalExtensionAtFracture"@en ;
-        skos:altlabel   "percentage total extension at fracture"@en ;
-        skos:preflabel  "PercentageTotalExtensionAtFracture"@en .
+:Microstructure  rdf:type  owl:Class ;
+        rdfs:label      "Microstructure"@en , "Gefüge"@de ;
+        skos:preflabel  "Microstructure"@en , "Gefüge"@de .
 
 :TimeStamp  rdf:type    skos:Concept , owl:Class ;
         rdfs:comment    "Date and time when the experiment was conducted."@en , "Date when the experiment was conducted."@en ;
@@ -1236,9 +1234,11 @@
         skos:altlabel   "Date"@en , "Date/Time"@en , "Datum/Uhrzeit"@de , "Datum"@de ;
         skos:preflabel  "TimeStamp"@en .
 
-:Microstructure  rdf:type  owl:Class ;
-        rdfs:label      "Microstructure"@en , "Gefüge"@de ;
-        skos:preflabel  "Microstructure"@en , "Gefüge"@de .
+:PercentageTotalExtensionAtFracture
+        rdf:type        skos:Concept , owl:Class ;
+        rdfs:label      "PercentageTotalExtensionAtFracture"@en ;
+        skos:altlabel   "percentage total extension at fracture"@en ;
+        skos:preflabel  "PercentageTotalExtensionAtFracture"@en .
 
 <https://w3id.org/steel/ProcessOntology/ProofStrength%2CPlasticExtension>
         rdf:type        skos:Concept , owl:Class ;
@@ -1254,13 +1254,6 @@
         skos:prefLabel   "StahlDigital Vocabulary"@en ;
         foaf:depiction   :graph.png .
 
-:AbsoluteCrossheadTravel
-        rdf:type        skos:Concept , owl:Class ;
-        rdfs:comment    "Absolute position of the crosshead."@en , "Absolute position der Traverse"@de ;
-        rdfs:label      "AbsoluteCrossheadTravel"@en ;
-        skos:altlabel   "Traversenweg absolut"@de , "Absolute crosshead travel"@en ;
-        skos:preflabel  "AbsoluteCrossheadTravel"@en .
-
 :rollingForce  rdf:type  owl:Class ;
         rdfs:label      "rolling force"@en , "Walzkraft"@de ;
         skos:preflabel  "rolling force"@en , "Walzkraft"@de .
@@ -1268,6 +1261,13 @@
 :Simulation  rdf:type   owl:Class ;
         rdfs:label      "Simulation"@en , "Simulation"@de ;
         skos:preflabel  "Simulation"@en , "Simulation"@de .
+
+:AbsoluteCrossheadTravel
+        rdf:type        skos:Concept , owl:Class ;
+        rdfs:comment    "Absolute position of the crosshead."@en , "Absolute position der Traverse"@de ;
+        rdfs:label      "AbsoluteCrossheadTravel"@en ;
+        skos:altlabel   "Traversenweg absolut"@de , "Absolute crosshead travel"@en ;
+        skos:preflabel  "AbsoluteCrossheadTravel"@en .
 
 :DataSamplingFrequency
         rdf:type        skos:Concept , owl:Class ;
