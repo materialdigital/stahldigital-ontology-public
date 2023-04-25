@@ -114,7 +114,7 @@
         skos:preflabel  "Yield Stress"@en , "Fließspannung"@de .
 
 :StrainRate  rdf:type   skos:Concept , owl:Class ;
-        rdfs:comment    "strain rate either of the parallel length or of the gauge length/extensometer length (should be specified)"@en ;
+        rdfs:comment    "strain rate either of the parallel length or of the gauge length/extensometer length (should be specified)"@en , "the rate at which a material deforms under applied stress. It is a measure of how quickly the material's shape or dimensions change in response to external forces, such as tension, compression, or shear. Strain rate is typically expressed in units of inverse time (e.g., s^-1 or min^-1)."@en ;
         rdfs:label      "StrainRate"@en ;
         skos:altlabel   "strain rate"@en , "Strain Rate"@en , "Dehngeschwindigkeit"@de ;
         skos:preflabel  "StrainRate"@en .
