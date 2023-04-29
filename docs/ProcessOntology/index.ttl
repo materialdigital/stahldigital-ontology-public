@@ -194,17 +194,20 @@
         skos:altlabel   "Gleichungslöser"@de ;
         skos:preflabel  "Solver"@en , "Solver"@de .
 
+<https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension>
+        rdf:type        skos:Concept , owl:Class ;
+        rdfs:label      "ProofStrength,TotalExtension"@en ;
+        skos:altlabel   "proof strength, total extension"@en ;
+        skos:preflabel  "ProofStrength,TotalExtension"@en .
+
 :Force  rdf:type        owl:Class , skos:Concept ;
         rdfs:comment    "The force measured by the load cell"@en , "The force that is measured using the Force-measuring device."@en , "The force measured with the force measuring system"@en ;
         rdfs:label      "Force"@en , "Kraft"@de ;
         skos:altlabel   "Standardkraft"@de , "F"@de , "Standard force"@en , "Force"@en , "Force-measuring device"@en ;
         skos:preflabel  "Force"@en , "Kraft"@de .
 
-<https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension>
-        rdf:type        skos:Concept , owl:Class ;
-        rdfs:label      "ProofStrength,TotalExtension"@en ;
-        skos:altlabel   "proof strength, total extension"@en ;
-        skos:preflabel  "ProofStrength,TotalExtension"@en .
+<https://w3id.org/steel/ProcessOntology/emmo%3AhasPart>
+        rdf:type  owl:ObjectProperty .
 
 :jobStartTime  rdf:type  owl:DatatypeProperty ;
         rdfs:domain     :Job ;
@@ -452,6 +455,12 @@
         skos:altlabel   "gauge length"@en ;
         skos:preflabel  "GaugeLength"@en .
 
+:hasProjectName  rdf:type  owl:ObjectProperty ;
+        rdfs:domain     :Test ;
+        rdfs:label      "has project name"@en ;
+        rdfs:range      :ProjectName ;
+        skos:preflabel  "has project name"@en .
+
 :sequence  rdf:type     owl:DatatypeProperty ;
         rdfs:domain     :Workflow ;
         rdfs:label      "sequence"@en ;
@@ -668,6 +677,12 @@
         rdfs:label      "rolling schedule"@en , "Stichplan"@de ;
         skos:preflabel  "rolling schedule"@en , "Stichplan"@de .
 
+:hasTestProperty  rdf:type  owl:ObjectProperty ;
+        rdfs:domain     :Test ;
+        rdfs:label      "has test property"@en ;
+        dc:description  "super property for all test properties"@en ;
+        skos:preflabel  "has test property"@en .
+
 :parameters  rdf:type   owl:DatatypeProperty ;
         rdfs:domain     :Workflow ;
         rdfs:label      "parameters"@en ;
@@ -797,6 +812,12 @@
         rdfs:label      "grain boundaries"@en , "Korngrenzen"@de ;
         skos:preflabel  "grain boundaries"@en , "Korngrenzen"@de .
 
+:hasTestingFacility  rdf:type  owl:ObjectProperty ;
+        rdfs:domain     :Test ;
+        rdfs:label      "has testing facility"@en ;
+        rdfs:range      :TestingFacility ;
+        skos:preflabel  "has testing facility"@en .
+
 :CoordinateSystem  rdf:type  owl:Class ;
         rdfs:label      "Koordinatensystem"@de , "Coordinate system"@en ;
         skos:altlabel   "Koordinatensystem?"@de ;
@@ -869,6 +890,12 @@
 :FrameOfReference  rdf:type  owl:Class ;
         rdfs:label      "Referenzrahmen"@de , "Frame of reference"@en ;
         skos:preflabel  "Referenzrahmen"@de , "Frame of reference"@en .
+
+:hasProjectNumber  rdf:type  owl:ObjectProperty ;
+        rdfs:domain     :Test ;
+        rdfs:label      "has project number"@en ;
+        rdfs:range      :ProjectNumber ;
+        skos:preflabel  "has project number"@en .
 
 :PercentagePermanentElongation
         rdf:type        skos:Concept , owl:Class ;

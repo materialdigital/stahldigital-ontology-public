@@ -600,6 +600,21 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Solver">
     <skos:preflabel xml:lang="de">Solver</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension">
+    <rdfs:label xml:lang="en">ProofStrength,TotalExtension</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension">
+    <skos:altlabel xml:lang="en">proof strength, total extension</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension">
+    <skos:preflabel xml:lang="en">ProofStrength,TotalExtension</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -642,20 +657,8 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
     <skos:preflabel xml:lang="de">Kraft</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension">
-    <rdfs:label xml:lang="en">ProofStrength,TotalExtension</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension">
-    <skos:altlabel xml:lang="en">proof strength, total extension</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension">
-    <skos:preflabel xml:lang="en">ProofStrength,TotalExtension</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/emmo%3AhasPart">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/jobStartTime">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -1503,6 +1506,21 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GaugeLength">
     <skos:preflabel xml:lang="en">GaugeLength</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasProjectName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasProjectName">
+    <rdfs:domain rdf:resource="https://w3id.org/steel/ProcessOntology/Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasProjectName">
+    <rdfs:label xml:lang="en">has project name</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasProjectName">
+    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/ProjectName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasProjectName">
+    <skos:preflabel xml:lang="en">has project name</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/sequence">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
@@ -2252,6 +2270,21 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingSchedule">
     <skos:preflabel xml:lang="de">Stichplan</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestProperty">
+    <rdfs:domain rdf:resource="https://w3id.org/steel/ProcessOntology/Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestProperty">
+    <rdfs:label xml:lang="en">has test property</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestProperty">
+    <dc:description xml:lang="en">super property for all test properties</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestProperty">
+    <skos:preflabel xml:lang="en">has test property</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/parameters">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
@@ -2717,6 +2750,21 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GrainBoundaries">
     <skos:preflabel xml:lang="de">Korngrenzen</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestingFacility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestingFacility">
+    <rdfs:domain rdf:resource="https://w3id.org/steel/ProcessOntology/Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestingFacility">
+    <rdfs:label xml:lang="en">has testing facility</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestingFacility">
+    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/TestingFacility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestingFacility">
+    <skos:preflabel xml:lang="en">has testing facility</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CoordinateSystem">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -2980,6 +3028,21 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FrameOfReference">
     <skos:preflabel xml:lang="en">Frame of reference</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasProjectNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasProjectNumber">
+    <rdfs:domain rdf:resource="https://w3id.org/steel/ProcessOntology/Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasProjectNumber">
+    <rdfs:label xml:lang="en">has project number</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasProjectNumber">
+    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/ProjectNumber"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasProjectNumber">
+    <skos:preflabel xml:lang="en">has project number</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentElongation">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
