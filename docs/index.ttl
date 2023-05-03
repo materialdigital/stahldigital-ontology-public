@@ -1152,7 +1152,7 @@
         skos:preflabel  "initial thickness"@en , "Anfangsdicke"@de .
 
 :Lsdyna  rdf:type        owl:Class ;
-        rdfs:comment     "Simulation Software names LSDyna"@en ;
+        rdfs:comment     "Simulation Software named LSDyna"@en ;
         rdfs:label       "LSDyna"@en , "LSDyna"@de ;
         rdfs:subClassOf  :Solver ;
         skos:preflabel   "LSDyna"@en , "LSDyna"@de .
