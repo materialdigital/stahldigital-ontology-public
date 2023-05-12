@@ -1209,7 +1209,7 @@
         skos:altlabel  "MaterialKarte"@de , "MaterialCard"@en .
 
 :TensileStrength  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "tensile strength"@en ;
+        rdfs:comment    "tensile strength"@en , "maximum amount of tensile (pulling) stress that a material can withstand before failure "@en ;
         rdfs:label      "TensileStrength"@en ;
         skos:altlabel   "tensile strength"@en , "Zugfestigkeit Rm"@de ;
         skos:preflabel  "TensileStrength"@en .
