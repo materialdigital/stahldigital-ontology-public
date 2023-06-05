@@ -581,6 +581,13 @@
         skos:altlabel   "parallel length"@en , "parallele Messlänge Lc"@de , "Test length"@en , "Messlänge Lc"@de , "Parallel length"@en , "Versuchslänge"@de ;
         skos:preflabel  "ParallelLength"@en .
 
+:MegaPA-PER-SEC  rdf:type  owl:Class ;
+        rdfs:comment    "Stress rate, e.g. referenced by tensile tests"@en ;
+        rdfs:label      "Mega Pascal pro Sekunde"@de , "Mega Pascal per Second"@en ;
+        rdfs:seeAlso    <qudt:MegaPA> ;
+        skos:preflabel  "Mega Pascal pro Sekunde"@de , "Mega Pascal per Second"@en ;
+        skos:related    <qudt:MegaPA> .
+
 :ForceAtFracture  rdf:type  skos:Concept , owl:Class ;
         rdfs:label      "ForceAtFracture"@en ;
         skos:preflabel  "ForceAtFracture"@en .

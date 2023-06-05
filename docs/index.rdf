@@ -1976,6 +1976,30 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ParallelLength">
     <skos:preflabel xml:lang="en">ParallelLength</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
+    <rdfs:comment xml:lang="en">Stress rate, e.g. referenced by tensile tests</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
+    <rdfs:label xml:lang="de">Mega Pascal pro Sekunde</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
+    <rdfs:label xml:lang="en">Mega Pascal per Second</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
+    <rdfs:seeAlso rdf:resource="qudt:MegaPA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
+    <skos:preflabel xml:lang="de">Mega Pascal pro Sekunde</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
+    <skos:preflabel xml:lang="en">Mega Pascal per Second</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
+    <skos:related rdf:resource="qudt:MegaPA"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceAtFracture">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>

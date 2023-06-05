@@ -524,6 +524,14 @@
 <https://w3id.org/steel/ProcessOntology/MechanicalCard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/MechanicalCard> <http://www.w3.org/2004/02/skos/core#altlabel> "MaterialCard"@en .
 <https://w3id.org/steel/ProcessOntology/MechanicalCard> <http://www.w3.org/2004/02/skos/core#altlabel> "MaterialKarte"@de .
+<https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2000/01/rdf-schema#comment> "Stress rate, e.g. referenced by tensile tests"@en .
+<https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2000/01/rdf-schema#label> "Mega Pascal per Second"@en .
+<https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2000/01/rdf-schema#label> "Mega Pascal pro Sekunde"@de .
+<https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <qudt:MegaPA> .
+<https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2004/02/skos/core#preflabel> "Mega Pascal per Second"@en .
+<https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2004/02/skos/core#preflabel> "Mega Pascal pro Sekunde"@de .
+<https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2004/02/skos/core#related> <qudt:MegaPA> .
 <https://w3id.org/steel/ProcessOntology/Microstructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/Microstructure> <http://www.w3.org/2000/01/rdf-schema#label> "Gef\u00FCge"@de .
 <https://w3id.org/steel/ProcessOntology/Microstructure> <http://www.w3.org/2000/01/rdf-schema#label> "Microstructure"@en .
