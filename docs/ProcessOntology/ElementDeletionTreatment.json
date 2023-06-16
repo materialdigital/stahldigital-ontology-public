@@ -1,0 +1,62 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/ElementDeletionTreatment" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Determines the amount of fully damaged integration points before element deletion:\n>0\u2026Number of integration points which must fail before the element is deleted\n<0\u2026-NUMINT is percentage of integration points/layers which must fail before shell element fails\n=200...Turns off erosion for shells and solids",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "ElementDeletionTreatment",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+        "value" : "https://material-digital.de/pmdco/ValueObject",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "NUMINT",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "ElementDeletionTreatment",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/UnitLabel" : [ {
+        "value" : "-",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSourceEn" : [ {
+        "value" : "LS-DYNA_Manual_Volume_2",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

@@ -1,0 +1,9 @@
+<https://w3id.org/steel/ProcessOntology/DamageTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/DamageTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/DamageTreatment> <http://www.w3.org/2000/01/rdf-schema#comment> "interpreted digit-wise as follows: DTYP = [\U0001D441\U0001D440] = \U0001D440+10\u00D7\U0001D441\nM.EQ.0: Damage is accumulated, but there is no coupling to flow stress and no failure.\nM.EQ.1: Damage is accumulated, and element failure occurs for \U0001D437 = 1. Coupling of damage to flow stress depending on parameters.\nN.EQ.0: Equivalent plastic strain is the driving quantity for the damage.\nN.GT.0: The Nth additional history variable is the driving quantity for damage."@en .
+<https://w3id.org/steel/ProcessOntology/DamageTreatment> <http://www.w3.org/2000/01/rdf-schema#label> "DamageTreatment"@en .
+<https://w3id.org/steel/ProcessOntology/DamageTreatment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
+<https://w3id.org/steel/ProcessOntology/DamageTreatment> <http://www.w3.org/2004/02/skos/core#altlabel> "DTYP"@en .
+<https://w3id.org/steel/ProcessOntology/DamageTreatment> <http://www.w3.org/2004/02/skos/core#preflabel> "DamageTreatment"@en .
+<https://w3id.org/steel/ProcessOntology/DamageTreatment> <https://w3id.org/steel/ProcessOntology/UnitLabel> "1" .
+<https://w3id.org/steel/ProcessOntology/DamageTreatment> <https://w3id.org/steel/ProcessOntology/hasLabelSourceEn> "LS-DYNA_Manual_Volume_2" .

@@ -5,6 +5,18 @@
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
         }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Initial yield stress, if noidentifier for hardening curve (LCSS>0) is prescibed",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -15,6 +27,25 @@
       ,
       {
         "value" : "Yield Stress",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YieldStress",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+        "value" : "https://material-digital.de/pmdco/ValueObject",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "SIGY",
         "lang" : "en",
         "type" : "literal"
         }
@@ -29,6 +60,24 @@
       {
         "value" : "Yield Stress",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YieldStress",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/UnitLabel" : [ {
+        "value" : "MPa",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSourceEn" : [ {
+        "value" : "LS-DYNA_Manual_Volume_2",
         "type" : "literal"
         }
       

@@ -1,0 +1,9 @@
+<https://w3id.org/steel/ProcessOntology/ElementDeletionTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/ElementDeletionTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/ElementDeletionTreatment> <http://www.w3.org/2000/01/rdf-schema#comment> "Determines the amount of fully damaged integration points before element deletion:\n>0\u2026Number of integration points which must fail before the element is deleted\n<0\u2026-NUMINT is percentage of integration points/layers which must fail before shell element fails\n=200...Turns off erosion for shells and solids"@en .
+<https://w3id.org/steel/ProcessOntology/ElementDeletionTreatment> <http://www.w3.org/2000/01/rdf-schema#label> "ElementDeletionTreatment"@en .
+<https://w3id.org/steel/ProcessOntology/ElementDeletionTreatment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
+<https://w3id.org/steel/ProcessOntology/ElementDeletionTreatment> <http://www.w3.org/2004/02/skos/core#altlabel> "NUMINT"@en .
+<https://w3id.org/steel/ProcessOntology/ElementDeletionTreatment> <http://www.w3.org/2004/02/skos/core#preflabel> "ElementDeletionTreatment"@en .
+<https://w3id.org/steel/ProcessOntology/ElementDeletionTreatment> <https://w3id.org/steel/ProcessOntology/UnitLabel> "-" .
+<https://w3id.org/steel/ProcessOntology/ElementDeletionTreatment> <https://w3id.org/steel/ProcessOntology/hasLabelSourceEn> "LS-DYNA_Manual_Volume_2" .

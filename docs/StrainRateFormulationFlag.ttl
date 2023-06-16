@@ -1,0 +1,12 @@
+
+
+<https://w3id.org/steel/ProcessOntology/StrainRateFormulationFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/StrainRateFormulationFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/StrainRateFormulationFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Flag which determines the treatment of strain rate to evaluate yielding:\n=-1.0: Cowper-Symonds with effective deviatoric rate rather than total\n=0.0: Scale yield stress (default)\n=1.0: Viscoplastic formulation\n=3.0: Same as VP = 0, but with filtered effective total strain rates"@en .
+<https://w3id.org/steel/ProcessOntology/StrainRateFormulationFlag> <http://www.w3.org/2000/01/rdf-schema#label> "StrainRateFormulationFlag"@en .
+<https://w3id.org/steel/ProcessOntology/StrainRateFormulationFlag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
+<https://w3id.org/steel/ProcessOntology/StrainRateFormulationFlag> <http://www.w3.org/2004/02/skos/core#altlabel> "VP"@en .
+<https://w3id.org/steel/ProcessOntology/StrainRateFormulationFlag> <http://www.w3.org/2004/02/skos/core#preflabel> "StrainRateFormulationFlag"@en .
+<https://w3id.org/steel/ProcessOntology/StrainRateFormulationFlag> <https://w3id.org/steel/ProcessOntology/hasLabelSourceEn> "LS-DYNA_Manual_Volume_2" .
+
+
