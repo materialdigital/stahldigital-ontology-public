@@ -560,8 +560,8 @@
 
 :FluidSolidTransition
         rdf:type        owl:Class ;
-        rdfs:label      "Fluid solid transition"@en , "?"@de ;
-        skos:preflabel  "Fluid solid transition"@en , "?"@de .
+        rdfs:label      "Fluid solid transition"@en ;
+        skos:preflabel  "Fluid solid transition"@en .
 
 :RelativeStandardDeviationOfTheSlope
         rdf:type        skos:Concept , owl:Class ;
@@ -888,13 +888,13 @@
         skos:preflabel  "MaximumForceNoDiscontinousYielding"@en .
 
 :Benchmark  rdf:type    owl:Class ;
-        rdfs:label      "Benchmark"@en , "??"@de ;
+        rdfs:label      "Messlatte"@de , "Benchmark"@en ;
         skos:altlabel   "Richtwert"@de , " Maßstab"@de , " Bezugspunkt"@de ;
-        skos:preflabel  "Benchmark"@en , "??"@de .
+        skos:preflabel  "Messlatte"@de , "Benchmark"@en .
 
 :FrameOfMaterial  rdf:type  owl:Class ;
-        rdfs:label      "frame of material"@en ;
-        skos:preflabel  "frame of material"@en .
+        rdfs:label      "frame of material"@en , "Rahmenmaterial"@de ;
+        skos:preflabel  "frame of material"@en , "Rahmenmaterial"@de .
 
 :OriginalWidth  rdf:type  owl:Class , skos:Concept ;
         rdfs:comment    "The width of the specimen."@en , "Original width of the parallel length of a flat test piece"@en ;
@@ -998,10 +998,10 @@
 
 :JobInput  rdf:type      owl:Class ;
         rdfs:comment     "the input parameter for a pyiron job"@en ;
-        rdfs:label       "Pyiron job input"@en ;
+        rdfs:label       "Pyiron job input"@en , "Job-Input-Parameter"@de ;
         rdfs:seeAlso     :PyironJob ;
         rdfs:subClassOf  :CodeRessource ;
-        skos:preflabel   "Pyiron job input"@en ;
+        skos:preflabel   "Pyiron job input"@en , "Job-Input-Parameter"@de ;
         skos:related     :PyironJob .
 
 :SimulationWorkflow  rdf:type  owl:Class ;
@@ -1244,8 +1244,8 @@
 
 :JobMetadata  rdf:type  owl:Class ;
         rdfs:comment    "each pyiron job has some metadata which is stored in the central sql database"@en ;
-        rdfs:label      "Pyiron job metadata"@en ;
-        skos:preflabel  "Pyiron job metadata"@en .
+        rdfs:label      "Pyiron job metadata"@en , "Job-Metadaten"@de ;
+        skos:preflabel  "Pyiron job metadata"@en , "Job-Metadaten"@de .
 
 :hasMatPiecewiseLinearPlasticityLogInterpolation
         rdf:type        owl:ObjectProperty ;
@@ -1865,8 +1865,9 @@
         skos:preflabel  "Schaden"@de , "Damage"@en .
 
 :JobOutput  rdf:type    owl:Class ;
-        rdfs:label      "Pyiron job output"@en ;
-        skos:preflabel  "Pyiron job output"@en .
+        rdfs:comment    "the output parameter for a pyiron job"@en ;
+        rdfs:label      "Pyiron job output"@en , "Job-Output-Parameter"@de ;
+        skos:preflabel  "Pyiron job output"@en , "Job-Output-Parameter"@de .
 
 :rollingDirection  rdf:type  owl:Class ;
         rdfs:label      "rolling direction"@en , "Walzrichtung"@de ;

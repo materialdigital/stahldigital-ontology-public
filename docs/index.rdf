@@ -1779,13 +1779,7 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
     <rdfs:label xml:lang="en">Fluid solid transition</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FluidSolidTransition">
-    <rdfs:label xml:lang="de">?</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FluidSolidTransition">
     <skos:preflabel xml:lang="en">Fluid solid transition</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FluidSolidTransition">
-    <skos:preflabel xml:lang="de">?</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2846,10 +2840,10 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Benchmark">
-    <rdfs:label xml:lang="en">Benchmark</rdfs:label>
+    <rdfs:label xml:lang="de">Messlatte</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Benchmark">
-    <rdfs:label xml:lang="de">??</rdfs:label>
+    <rdfs:label xml:lang="en">Benchmark</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Benchmark">
     <skos:altlabel xml:lang="de">Richtwert</skos:altlabel>
@@ -2861,10 +2855,10 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <skos:altlabel xml:lang="de"> Bezugspunkt</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Benchmark">
-    <skos:preflabel xml:lang="en">Benchmark</skos:preflabel>
+    <skos:preflabel xml:lang="de">Messlatte</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Benchmark">
-    <skos:preflabel xml:lang="de">??</skos:preflabel>
+    <skos:preflabel xml:lang="en">Benchmark</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FrameOfMaterial">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -2873,7 +2867,13 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <rdfs:label xml:lang="en">frame of material</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FrameOfMaterial">
+    <rdfs:label xml:lang="de">Rahmenmaterial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FrameOfMaterial">
     <skos:preflabel xml:lang="en">frame of material</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FrameOfMaterial">
+    <skos:preflabel xml:lang="de">Rahmenmaterial</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -3236,6 +3236,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdfs:label xml:lang="en">Pyiron job input</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobInput">
+    <rdfs:label xml:lang="de">Job-Input-Parameter</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobInput">
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/PyironJob"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobInput">
@@ -3243,6 +3246,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobInput">
     <skos:preflabel xml:lang="en">Pyiron job input</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobInput">
+    <skos:preflabel xml:lang="de">Job-Input-Parameter</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobInput">
     <skos:related rdf:resource="https://w3id.org/steel/ProcessOntology/PyironJob"/>
@@ -3976,7 +3982,13 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdfs:label xml:lang="en">Pyiron job metadata</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobMetadata">
+    <rdfs:label xml:lang="de">Job-Metadaten</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobMetadata">
     <skos:preflabel xml:lang="en">Pyiron job metadata</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobMetadata">
+    <skos:preflabel xml:lang="de">Job-Metadaten</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMatPiecewiseLinearPlasticityLogInterpolation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -5915,10 +5927,19 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobOutput">
+    <rdfs:comment xml:lang="en">the output parameter for a pyiron job</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobOutput">
     <rdfs:label xml:lang="en">Pyiron job output</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobOutput">
+    <rdfs:label xml:lang="de">Job-Output-Parameter</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobOutput">
     <skos:preflabel xml:lang="en">Pyiron job output</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobOutput">
+    <skos:preflabel xml:lang="de">Job-Output-Parameter</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingDirection">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>

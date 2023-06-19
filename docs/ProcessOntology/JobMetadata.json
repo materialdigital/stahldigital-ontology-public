@@ -15,6 +15,12 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "Job-Metadaten",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Pyiron job metadata",
         "lang" : "en",
         "type" : "literal"
@@ -22,6 +28,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "Job-Metadaten",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Pyiron job metadata",
         "lang" : "en",
         "type" : "literal"
