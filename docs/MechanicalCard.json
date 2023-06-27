@@ -7,6 +7,19 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "mechanical card",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "meschanische Karte",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "MaterialCard",
         "lang" : "en",
@@ -15,6 +28,19 @@
       ,
       {
         "value" : "MaterialKarte",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "mechanical card",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "meschanische Karte",
         "lang" : "de",
         "type" : "literal"
         }

@@ -571,19 +571,19 @@
     <rdfs:comment xml:lang="de">Verlängerung (3.3), angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elongation">
-    <rdfs:label xml:lang="en">Elongation</rdfs:label>
+    <rdfs:label xml:lang="de">Dehnung</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elongation">
-    <rdfs:label xml:lang="de">Dehnung</rdfs:label>
+    <rdfs:label xml:lang="en">Elongation</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elongation">
     <skos:altlabel xml:lang="en">elongation</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elongation">
-    <skos:preflabel xml:lang="en">Elongation</skos:preflabel>
+    <skos:preflabel xml:lang="de">Dehnung</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Elongation">
-    <skos:preflabel xml:lang="de">Dehnung</skos:preflabel>
+    <skos:preflabel xml:lang="en">Elongation</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFailureTreatment">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -1331,6 +1331,42 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ReferenceJob">
     <skos:preflabel xml:lang="en">Reference Job</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
+    <rdfs:label xml:lang="de">meschanische Karte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
+    <rdfs:label xml:lang="en">mechanical card</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
+    <skos:altlabel xml:lang="de">MaterialKarte</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
+    <skos:altlabel xml:lang="en">MaterialCard</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
+    <skos:preflabel xml:lang="de">meschanische Karte</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
+    <skos:preflabel xml:lang="en">mechanical card</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
+    <rdfs:label xml:lang="de">Chemische Zusammensetzung</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
+    <rdfs:label xml:lang="en">Chemical Composition</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
+    <skos:preflabel xml:lang="de">Chemische Zusammensetzung</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
+    <skos:preflabel xml:lang="en">Chemical Composition</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -1348,30 +1384,6 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceLength">
     <skos:preflabel xml:lang="en">TestPieceLength</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
-    <skos:altlabel xml:lang="de">MaterialKarte</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
-    <skos:altlabel xml:lang="en">MaterialCard</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
-    <rdfs:label xml:lang="de">Chemische Zusammensetzung</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
-    <rdfs:label xml:lang="en">Chemical Composition</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
-    <skos:preflabel xml:lang="de">Chemische Zusammensetzung</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
-    <skos:preflabel xml:lang="en">Chemical Composition</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Remark">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1700,6 +1712,21 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Computer-controlledTensileTestingMachine">
     <skos:preflabel xml:lang="en">Computer-controlledTensileTestingMachine</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/sequence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/sequence">
+    <rdfs:domain rdf:resource="https://w3id.org/steel/ProcessOntology/Workflow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/sequence">
+    <rdfs:label xml:lang="en">sequence</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/sequence">
+    <dc:description xml:lang="en">The sequence of steps</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/sequence">
+    <skos:preflabel xml:lang="en">sequence</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -1756,21 +1783,6 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
     <skos:preflabel xml:lang="en">OriginalGaugeLength</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/sequence">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/sequence">
-    <rdfs:domain rdf:resource="https://w3id.org/steel/ProcessOntology/Workflow"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/sequence">
-    <rdfs:label xml:lang="en">sequence</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/sequence">
-    <dc:description xml:lang="en">The sequence of steps</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/sequence">
-    <skos:preflabel xml:lang="en">sequence</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FluidSolidTransition">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -3690,6 +3702,21 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GaugeLength">
     <skos:preflabel xml:lang="en">GaugeLength</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingSchedule">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingSchedule">
+    <rdfs:label xml:lang="en">rolling schedule</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingSchedule">
+    <rdfs:label xml:lang="de">Stichplan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingSchedule">
+    <skos:preflabel xml:lang="en">rolling schedule</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingSchedule">
+    <skos:preflabel xml:lang="de">Stichplan</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ThicknessAfterFracture2">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -3707,21 +3734,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ThicknessAfterFracture2">
     <skos:preflabel xml:lang="en">ThicknessAfterFracture2</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingSchedule">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingSchedule">
-    <rdfs:label xml:lang="en">rolling schedule</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingSchedule">
-    <rdfs:label xml:lang="de">Stichplan</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingSchedule">
-    <skos:preflabel xml:lang="en">rolling schedule</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingSchedule">
-    <skos:preflabel xml:lang="de">Stichplan</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MachineData">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -4024,19 +4036,19 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
-    <rdfs:label xml:lang="en">Stress</rdfs:label>
+    <rdfs:label xml:lang="de">Spannung</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
-    <rdfs:label xml:lang="de">Spannung</rdfs:label>
+    <rdfs:label xml:lang="en">Stress</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
     <skos:altlabel xml:lang="en">stress</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
-    <skos:preflabel xml:lang="en">Stress</skos:preflabel>
+    <skos:preflabel xml:lang="de">Spannung</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
-    <skos:preflabel xml:lang="de">Spannung</skos:preflabel>
+    <skos:preflabel xml:lang="en">Stress</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ConstitutiveModelParameter">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -4528,10 +4540,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileStrength">
-    <rdfs:comment xml:lang="en">tensile strength</rdfs:comment>
+    <rdfs:comment xml:lang="en">maximum amount of tensile (pulling) stress that a material can withstand before failure </rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileStrength">
-    <rdfs:comment xml:lang="en">maximum amount of tensile (pulling) stress that a material can withstand before failure </rdfs:comment>
+    <rdfs:comment xml:lang="en">tensile strength</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileStrength">
     <rdfs:label xml:lang="en">TensileStrength</rdfs:label>
@@ -4948,19 +4960,19 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdfs:comment xml:lang="de">technische Dehnung bezogen auf die Extensometermesslänge</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Strain">
-    <rdfs:label xml:lang="en">Strain</rdfs:label>
+    <rdfs:label xml:lang="de">Dehnung</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Strain">
-    <rdfs:label xml:lang="de">Dehnung</rdfs:label>
+    <rdfs:label xml:lang="en">Strain</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Strain">
     <skos:altlabel xml:lang="en">percentage extension “strain”</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Strain">
-    <skos:preflabel xml:lang="en">Strain</skos:preflabel>
+    <skos:preflabel xml:lang="de">Dehnung</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Strain">
-    <skos:preflabel xml:lang="de">Dehnung</skos:preflabel>
+    <skos:preflabel xml:lang="en">Strain</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldingIdentifier">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -5109,6 +5121,18 @@ Identifier which relates the Table to descibe the yield stress by using differen
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/processChainSimulation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/processChainSimulation">
+    <rdfs:label xml:lang="de">Prozesskettensimulation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/processChainSimulation">
+    <rdfs:label xml:lang="en">Process chain simulation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/processChainSimulation">
+    <skos:preflabel xml:lang="de">Prozesskettensimulation</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/processChainSimulation">
+    <skos:preflabel xml:lang="en">Process chain simulation</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingDirection">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -5416,17 +5440,20 @@ Identifier which relates the Table to descibe the yield stress by using differen
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMaterialIdentifier">
     <skos:preflabel xml:lang="en">hasMaterialIdentifier</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFailureStrain">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stand">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFailureStrain">
-    <rdfs:label xml:lang="en">hasFailureStrain</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stand">
+    <rdfs:label xml:lang="en">stand</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFailureStrain">
-    <rdfs:range>https://w3id.org/steel/ProcessOntology/FailureStrain</rdfs:range>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stand">
+    <rdfs:label xml:lang="de">Walzgerüst</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFailureStrain">
-    <skos:preflabel xml:lang="en">hasFailureStrain</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stand">
+    <skos:preflabel xml:lang="en">stand</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stand">
+    <skos:preflabel xml:lang="de">Walzgerüst</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentElongation">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -5446,20 +5473,17 @@ Identifier which relates the Table to descibe the yield stress by using differen
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentElongation">
     <skos:preflabel xml:lang="en">PercentagePermanentElongation</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stand">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFailureStrain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stand">
-    <rdfs:label xml:lang="en">stand</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFailureStrain">
+    <rdfs:label xml:lang="en">hasFailureStrain</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stand">
-    <rdfs:label xml:lang="de">Walzgerüst</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFailureStrain">
+    <rdfs:range>https://w3id.org/steel/ProcessOntology/FailureStrain</rdfs:range>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stand">
-    <skos:preflabel xml:lang="en">stand</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stand">
-    <skos:preflabel xml:lang="de">Walzgerüst</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFailureStrain">
+    <skos:preflabel xml:lang="en">hasFailureStrain</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -5765,10 +5789,10 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <rdfs:comment xml:lang="en">strain rate either of the parallel length or of the gauge length/extensometer length (should be specified)</rdfs:comment>
+    <rdfs:comment xml:lang="en">the rate at which a material deforms under applied stress. It is a measure of how quickly the material's shape or dimensions change in response to external forces, such as tension, compression, or shear. Strain rate is typically expressed in units of inverse time (e.g., s^-1 or min^-1).</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <rdfs:comment xml:lang="en">the rate at which a material deforms under applied stress. It is a measure of how quickly the material's shape or dimensions change in response to external forces, such as tension, compression, or shear. Strain rate is typically expressed in units of inverse time (e.g., s^-1 or min^-1).</rdfs:comment>
+    <rdfs:comment xml:lang="en">strain rate either of the parallel length or of the gauge length/extensometer length (should be specified)</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
     <rdfs:label xml:lang="en">StrainRate</rdfs:label>
