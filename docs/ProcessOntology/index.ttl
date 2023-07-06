@@ -195,9 +195,9 @@
 
 :Elongation  rdf:type   skos:Concept , owl:Class ;
         rdfs:comment    "Zunahme der Anfangsmesslänge (3.1.1) zu einem beliebigen Zeitpunkt während des Versuchs"@de , "Verlängerung (3.3), angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)"@de ;
-        rdfs:label      "Dehnung"@de , "Elongation"@en ;
+        rdfs:label      "Elongation"@en , "Dehnung"@de ;
         skos:altlabel   "elongation"@en ;
-        skos:preflabel  "Dehnung"@de , "Elongation"@en .
+        skos:preflabel  "Elongation"@en , "Dehnung"@de .
 
 :hasFailureTreatment  rdf:type  owl:ObjectProperty ;
         rdfs:label      "hasFailureTreatment"@en ;
@@ -430,6 +430,11 @@
         rdfs:subClassOf  :PyironJob ;
         skos:preflabel   "Reference Job"@en .
 
+:TestPieceLength  rdf:type  skos:Concept , owl:Class ;
+        rdfs:label      "TestPieceLength"@en ;
+        skos:altlabel   "Test piece length"@en , "Probengesamtlänge Lt"@de ;
+        skos:preflabel  "TestPieceLength"@en .
+
 :MechanicalCard  rdf:type  owl:Class ;
         rdfs:label      "meschanische Karte"@de , "mechanical card"@en ;
         skos:altlabel   "MaterialKarte"@de , "MaterialCard"@en ;
@@ -438,11 +443,6 @@
 :ChemicalComposition  rdf:type  owl:Class ;
         rdfs:label      "Chemische Zusammensetzung"@de , "Chemical Composition"@en ;
         skos:preflabel  "Chemische Zusammensetzung"@de , "Chemical Composition"@en .
-
-:TestPieceLength  rdf:type  skos:Concept , owl:Class ;
-        rdfs:label      "TestPieceLength"@en ;
-        skos:altlabel   "Test piece length"@en , "Probengesamtlänge Lt"@de ;
-        skos:preflabel  "TestPieceLength"@en .
 
 :Remark  rdf:type       skos:Concept , owl:Class ;
         rdfs:comment    "A specific comment about the experiment."@en ;
@@ -541,12 +541,6 @@
         skos:altlabel   "computer-controlled tensile testing machine"@en ;
         skos:preflabel  "Computer-controlledTensileTestingMachine"@en .
 
-:sequence  rdf:type     owl:DatatypeProperty ;
-        rdfs:domain     :Workflow ;
-        rdfs:label      "sequence"@en ;
-        dc:description  "The sequence of steps"@en ;
-        skos:preflabel  "sequence"@en .
-
 :ExtensionMeasuringSystem
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "Measuring system for measurement of extension in the area of the gauge length"@en ;
@@ -559,6 +553,12 @@
         rdfs:label      "OriginalGaugeLength"@en ;
         skos:altlabel   "Messlänge Lo"@de , "Messlänge Standardweg"@de , "Initial measuring length"@en , "original gauge length"@en , "Original gauge length "@en ;
         skos:preflabel  "OriginalGaugeLength"@en .
+
+:sequence  rdf:type     owl:DatatypeProperty ;
+        rdfs:domain     :Workflow ;
+        rdfs:label      "sequence"@en ;
+        dc:description  "The sequence of steps"@en ;
+        skos:preflabel  "sequence"@en .
 
 :FluidSolidTransition
         rdf:type        owl:Class ;
@@ -1160,15 +1160,15 @@
         skos:altlabel   "gauge length"@en ;
         skos:preflabel  "GaugeLength"@en .
 
-:rollingSchedule  rdf:type  owl:Class ;
-        rdfs:label      "rolling schedule"@en , "Stichplan"@de ;
-        skos:preflabel  "rolling schedule"@en , "Stichplan"@de .
-
 :ThicknessAfterFracture2
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "ThicknessAfterFracture2"@en ;
         skos:altlabel   "Thickness A2 after fracture"@en , "Probendicke A2 nach Bruch"@de ;
         skos:preflabel  "ThicknessAfterFracture2"@en .
+
+:rollingSchedule  rdf:type  owl:Class ;
+        rdfs:label      "rolling schedule"@en , "Stichplan"@de ;
+        skos:preflabel  "rolling schedule"@en , "Stichplan"@de .
 
 :MachineData  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt."@de ;
@@ -1260,9 +1260,9 @@
         skos:preflabel  "strip tension"@en , "Bandzug"@de .
 
 :Stress  rdf:type       skos:Concept , owl:Class ;
-        rdfs:label      "Spannung"@de , "Stress"@en ;
+        rdfs:label      "Stress"@en , "Spannung"@de ;
         skos:altlabel   "stress"@en ;
-        skos:preflabel  "Spannung"@de , "Stress"@en .
+        skos:preflabel  "Stress"@en , "Spannung"@de .
 
 :ConstitutiveModelParameter
         rdf:type  owl:Class .
@@ -1424,7 +1424,7 @@
         skos:preflabel  "CoefficientOfCorrelation"@en .
 
 :TensileStrength  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "maximum amount of tensile (pulling) stress that a material can withstand before failure "@en , "tensile strength"@en ;
+        rdfs:comment    "tensile strength"@en , "maximum amount of tensile (pulling) stress that a material can withstand before failure "@en ;
         rdfs:label      "TensileStrength"@en ;
         skos:altlabel   "tensile strength"@en , "Zugfestigkeit Rm"@de ;
         skos:preflabel  "TensileStrength"@en .
@@ -1467,7 +1467,7 @@
 :TestPiece  rdf:type    owl:Class ;
         rdfs:comment    "Something that a test is perfomed on"@en ;
         rdfs:label      "Test piece"@en , "Probe"@de ;
-        skos:altlabel   "sample, specimen"@en ;
+        skos:altlabel   "sample"@en , " specimen"@en ;
         skos:preflabel  "Test piece"@en , "Probe"@de .
 
 :codeVersion  rdf:type  owl:DatatypeProperty ;
@@ -1559,9 +1559,9 @@
 
 :Strain  rdf:type       skos:Concept , owl:Class ;
         rdfs:comment    "technische Dehnung bezogen auf die Extensometermesslänge"@de ;
-        rdfs:label      "Dehnung"@de , "Strain"@en ;
+        rdfs:label      "Strain"@en , "Dehnung"@de ;
         skos:altlabel   "percentage extension “strain”"@en ;
-        skos:preflabel  "Dehnung"@de , "Strain"@en .
+        skos:preflabel  "Strain"@en , "Dehnung"@de .
 
 :YieldingIdentifier  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment       "Identifier which relates the Load Curve to descibe the yield stress as a function of effective plastic strain.\nIdentifier which relates the Table to descibe the yield stress by using different Load Curves as a function of effective plastic strain and the strain rate (each load curve is related to an individual stain rate)"@en ;
@@ -1715,9 +1715,10 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/MaterialIdentifier" ;
         skos:preflabel  "hasMaterialIdentifier"@en .
 
-:stand  rdf:type        owl:Class ;
-        rdfs:label      "stand"@en , "Walzgerüst"@de ;
-        skos:preflabel  "stand"@en , "Walzgerüst"@de .
+:hasFailureStrain  rdf:type  owl:ObjectProperty ;
+        rdfs:label      "hasFailureStrain"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/FailureStrain" ;
+        skos:preflabel  "hasFailureStrain"@en .
 
 :PercentagePermanentElongation
         rdf:type        skos:Concept , owl:Class ;
@@ -1726,10 +1727,9 @@
         skos:altlabel   "percentage permanent elongation"@en ;
         skos:preflabel  "PercentagePermanentElongation"@en .
 
-:hasFailureStrain  rdf:type  owl:ObjectProperty ;
-        rdfs:label      "hasFailureStrain"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/FailureStrain" ;
-        skos:preflabel  "hasFailureStrain"@en .
+:stand  rdf:type        owl:Class ;
+        rdfs:label      "stand"@en , "Walzgerüst"@de ;
+        skos:preflabel  "stand"@en , "Walzgerüst"@de .
 
 :NominalEngineeringStrainRate
         rdf:type        skos:Concept , owl:Class ;
@@ -1824,7 +1824,7 @@
         skos:preflabel  "MaximumForceDiscontinousYielding"@en .
 
 :StrainRate  rdf:type   skos:Concept , owl:Class ;
-        rdfs:comment    "the rate at which a material deforms under applied stress. It is a measure of how quickly the material's shape or dimensions change in response to external forces, such as tension, compression, or shear. Strain rate is typically expressed in units of inverse time (e.g., s^-1 or min^-1)."@en , "strain rate either of the parallel length or of the gauge length/extensometer length (should be specified)"@en ;
+        rdfs:comment    "strain rate either of the parallel length or of the gauge length/extensometer length (should be specified)"@en , "the rate at which a material deforms under applied stress. It is a measure of how quickly the material's shape or dimensions change in response to external forces, such as tension, compression, or shear. Strain rate is typically expressed in units of inverse time (e.g., s^-1 or min^-1)."@en ;
         rdfs:label      "StrainRate"@en ;
         skos:altlabel   "strain rate"@en , "Strain Rate"@en , "Dehngeschwindigkeit"@de ;
         skos:preflabel  "StrainRate"@en .

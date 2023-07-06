@@ -9301,7 +9301,13 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "sample, specimen",
+        "value" : " specimen",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "sample",
         "lang" : "en",
         "type" : "literal"
         }
