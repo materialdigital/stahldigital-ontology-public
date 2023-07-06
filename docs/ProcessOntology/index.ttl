@@ -1549,6 +1549,7 @@
         :hasLabelSourceEn  "LS-DYNA_Manual_Volume_2" .
 
 :LowerYieldStrength  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "Represents the Lower Yield Strength of a material, which is the stress point at which the material transitions from elastic deformation to plastic deformation, without an increase in applied load. It is a crucial parameter in materials science, used for designing and analyzing the structural integrity and durability of materials under operational loads. The values are typically measured in Pascals (Pa)."@en ;
         rdfs:label      "LowerYieldStrength"@en ;
         skos:altlabel   "lower yield strength"@en , "Dehngrenze ReL"@de , "Dehn-/Streckgr. ReL"@de ;
         skos:preflabel  "LowerYieldStrength"@en .
