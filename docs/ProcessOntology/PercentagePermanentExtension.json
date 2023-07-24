@@ -57,6 +57,22 @@
         "type" : "literal"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/isBasedOn" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/Extension",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/ModulusOfElasticity",
+        "type" : "uri"
+        }
+      
       ]
     }
   }

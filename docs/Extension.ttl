@@ -4,11 +4,19 @@
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#comment> "Displacement of the extensometer (!) length"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#label> "Extension"@en .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem> .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "Standardweg"@de .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "Standard travel"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "extension"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "dL"@de .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "Extension"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#preflabel> "Extension"@en .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem> .
+<https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> .
+<https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> .
 
 

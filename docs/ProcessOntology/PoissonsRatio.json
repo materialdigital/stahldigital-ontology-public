@@ -19,6 +19,27 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/Material",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/ModulusOfElasticity",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/TrueStrain",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/TrueWidthStrain",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Querkontraktion",
         "lang" : "de",
@@ -36,6 +57,27 @@
         "value" : "PoissonsRatio",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#related" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/Material",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/ModulusOfElasticity",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/TrueStrain",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/TrueWidthStrain",
+        "type" : "uri"
         }
       
       ]

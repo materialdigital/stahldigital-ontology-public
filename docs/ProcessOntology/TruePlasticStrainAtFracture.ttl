@@ -4,8 +4,10 @@
 <https://w3id.org/steel/ProcessOntology/TruePlasticStrainAtFracture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/TruePlasticStrainAtFracture> <http://www.w3.org/2000/01/rdf-schema#comment> "true plastic strain at fracture"@en .
 <https://w3id.org/steel/ProcessOntology/TruePlasticStrainAtFracture> <http://www.w3.org/2000/01/rdf-schema#label> "TruePlasticStrainAtFracture"@en .
-<https://w3id.org/steel/ProcessOntology/TruePlasticStrainAtFracture> <http://www.w3.org/2004/02/skos/core#altlabel> "wahre Bruchdehnung"@de .
 <https://w3id.org/steel/ProcessOntology/TruePlasticStrainAtFracture> <http://www.w3.org/2004/02/skos/core#altlabel> "True plastic strain at fracture"@en .
+<https://w3id.org/steel/ProcessOntology/TruePlasticStrainAtFracture> <http://www.w3.org/2004/02/skos/core#altlabel> "wahre Bruchdehnung"@de .
 <https://w3id.org/steel/ProcessOntology/TruePlasticStrainAtFracture> <http://www.w3.org/2004/02/skos/core#preflabel> "TruePlasticStrainAtFracture"@en .
+<https://w3id.org/steel/ProcessOntology/TruePlasticStrainAtFracture> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> .
+<https://w3id.org/steel/ProcessOntology/TruePlasticStrainAtFracture> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture> .
 
 

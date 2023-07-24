@@ -5,7 +5,9 @@
 <https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/2000/01/rdf-schema#comment> "Radius of the notch (only for notched shear tensile specimens)"@en .
 <https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/2000/01/rdf-schema#comment> "Kerbradius (nur bei Schrägkerb-Scherzugproben)"@de .
 <https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/2000/01/rdf-schema#label> "Radius"@en .
+<https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> .
 <https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/2004/02/skos/core#altlabel> "Radius"@en .
 <https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/2004/02/skos/core#preflabel> "Radius"@en .
+<https://w3id.org/steel/ProcessOntology/Radius> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> .
 
 

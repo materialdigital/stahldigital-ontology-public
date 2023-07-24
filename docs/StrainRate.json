@@ -32,6 +32,27 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/ParallelLength",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/PercentageExtension",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/Time",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Dehngeschwindigkeit",
         "lang" : "de",
@@ -55,6 +76,27 @@
         "value" : "StrainRate",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#related" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/ParallelLength",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/PercentageExtension",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/Time",
+        "type" : "uri"
         }
       
       ]

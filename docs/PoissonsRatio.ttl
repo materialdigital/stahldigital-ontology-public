@@ -3,8 +3,16 @@
 <https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/2000/01/rdf-schema#label> "PoissonsRatio"@en .
+<https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/TrueStrain> .
+<https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/TrueWidthStrain> .
+<https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ModulusOfElasticity> .
+<https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/Material> .
 <https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/2004/02/skos/core#altlabel> "poisson`s ratio"@en .
 <https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/2004/02/skos/core#altlabel> "Querkontraktion"@de .
 <https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/2004/02/skos/core#preflabel> "PoissonsRatio"@en .
+<https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/TrueWidthStrain> .
+<https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/ModulusOfElasticity> .
+<https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/Material> .
+<https://w3id.org/steel/ProcessOntology/PoissonsRatio> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/TrueStrain> .
 
 

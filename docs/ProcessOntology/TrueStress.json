@@ -62,6 +62,17 @@
         "type" : "literal"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/isBasedOn" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/EngineeringStress",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/PercentageExtension",
+        "type" : "uri"
+        }
+      
       ]
     }
   }

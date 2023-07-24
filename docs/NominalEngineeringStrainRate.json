@@ -19,6 +19,12 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/StrainRate",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Nominal engineering strain rate",
         "lang" : "en",
@@ -36,6 +42,23 @@
         "value" : "NominalEngineeringStrainRate",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#related" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/StrainRate",
+        "type" : "uri"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/isBasedOn" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/InitialDisplacementRate",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/ParallelLength",
+        "type" : "uri"
         }
       
       ]

@@ -6,5 +6,7 @@
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#altlabel> "engineering stress"@en .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#altlabel> "Sigma-technisch"@de .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#preflabel> "EngineeringStress"@en .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Force> .
 
 

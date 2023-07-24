@@ -33,4 +33,7 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStrain">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">TrueStrain</ns0:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStrain">
+    <ns0:isBasedOn xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://w3id.org/steel/ProcessOntology/PercentageExtension"/>
+  </rdf:Description>
 </rdf:RDF>
