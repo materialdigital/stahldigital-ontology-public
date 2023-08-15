@@ -88,6 +88,14 @@
         skos:preflabel      "hasCrossheadSeparationRate_mm s -1"@en ;
         :hasUnitLabel       "mm s -1" .
 
+:ShearLengthAfterFracture1
+        rdf:type        skos:Concept , owl:Class ;
+        rdfs:label      "ShearLengthAfterFracture1"@en ;
+        rdfs:seeAlso    :ShearLengthAfterFracture1 ;
+        skos:altlabel   "ShearLength B1 after fracture"@en , "Probenbreite B1 nach Bruch"@de ;
+        skos:preflabel  "ShearLengthAfterFracture1"@en ;
+        skos:related    :ShearLengthAfterFracture1 .
+
 :hasPermanentSetStrength_MPa
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasPermanentSetStrength_MPa"@en ;
@@ -495,6 +503,11 @@
         rdfs:label      "Ultimate Tensile Strength"@en , "Zugfestigkeit"@de ;
         skos:preflabel  "Ultimate Tensile Strength"@en , "Zugfestigkeit"@de .
 
+:hasShearLengthAfterFracture1
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasShearLengthAfterFracture1"@en ;
+        skos:preflabel  "hasShearLengthAfterFracture1"@en .
+
 :DamaskCode  rdf:type    owl:Class ;
         rdfs:label       "Damask code"@en , "Damask Code"@de ;
         rdfs:subClassOf  :Code ;
@@ -874,17 +887,17 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/OriginalCrosssection" ;
         skos:preflabel  "hasOriginalCrosssection"@en .
 
-:hasPrincipalStressLimit4PostProcessing
-        rdf:type        owl:ObjectProperty ;
-        rdfs:label      "hasPrincipalStressLimit4PostProcessing"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/PrincipalStressLimit4PostProcessing" ;
-        skos:preflabel  "hasPrincipalStressLimit4PostProcessing"@en .
-
 :hasWidthAfterFracture1Object
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasWidthAfterFracture1"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/WidthAfterFracture1" ;
         skos:preflabel  "hasWidthAfterFracture1"@en .
+
+:hasPrincipalStressLimit4PostProcessing
+        rdf:type        owl:ObjectProperty ;
+        rdfs:label      "hasPrincipalStressLimit4PostProcessing"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/PrincipalStressLimit4PostProcessing" ;
+        skos:preflabel  "hasPrincipalStressLimit4PostProcessing"@en .
 
 :hasMatTabulatedJohnsonCookLogInterpolation
         rdf:type        owl:ObjectProperty ;
@@ -914,6 +927,12 @@
         rdfs:label      "hasParallelLength"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/ParallelLength" ;
         skos:preflabel  "hasParallelLength"@en .
+
+:hasShearLengthAfterFracture2Object
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasShearLengthAfterFracture2"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture2" ;
+        skos:preflabel  "hasShearLengthAfterFracture2"@en .
 
 :PercentagePlasticExtensionAtMaximumForce
         rdf:type        skos:Concept , owl:Class ;
@@ -1831,6 +1850,13 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/ReferenceTemperature" ;
         skos:preflabel  "hasReferenceTemperature"@en .
 
+:hasShearLengthAfterFracture1_mm
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasShearLengthAfterFracture1_mm"@en ;
+        rdfs:subPropertyOf  :hasShearLengthAfterFracture1 ;
+        skos:preflabel      "hasShearLengthAfterFracture1_mm"@en ;
+        :hasUnitLabel       "mm" .
+
 :hasJob  rdf:type       owl:ObjectProperty ;
         rdfs:domain     :PyironProject ;
         rdfs:label      "has job"@en ;
@@ -2303,6 +2329,14 @@
         rdfs:label      "hasProofStrength,TotalExtension"@en ;
         skos:preflabel  "hasProofStrength,TotalExtension"@en .
 
+:ShearLengthAfterFracture2
+        rdf:type        skos:Concept , owl:Class ;
+        rdfs:label      "ShearLengthAfterFracture2"@en ;
+        rdfs:seeAlso    :ShearLengthAfterFracture1 ;
+        skos:altlabel   "ShearLength B2 after fracture"@en , "Probenbreite B2 nach Bruch"@de ;
+        skos:preflabel  "ShearLengthAfterFracture2"@en ;
+        skos:related    :ShearLengthAfterFracture1 .
+
 :hasWidthAfterFracture2Object
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasWidthAfterFracture2"@en ;
@@ -2763,6 +2797,11 @@
         rdfs:label      "InitialDisplacementRate"@en ;
         skos:altlabel   "Initial displacement rate v0"@en , "Abzugsgeschw."@de ;
         skos:preflabel  "InitialDisplacementRate"@en .
+
+:hasShearLengthAfterFracture2
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasShearLengthAfterFracture2"@en ;
+        skos:preflabel  "hasShearLengthAfterFracture2"@en .
 
 :hasCoefficientOfCorrelation_-
         rdf:type            owl:DatatypeProperty , rdf:Property ;
@@ -3450,6 +3489,12 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/TrueStrain" ;
         skos:preflabel  "hasTrueStrain"@en .
 
+:hasShearLengthAfterFracture1Object
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasShearLengthAfterFracture1"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture1" ;
+        skos:preflabel  "hasShearLengthAfterFracture1"@en .
+
 :CrossheadSeparationRate
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "The displacement of the crosshead per time"@en , "The speed of the experiment."@en ;
@@ -3780,3 +3825,10 @@
         skos:preflabel     "FailureStrainIdentifier4MeshDependency"@en ;
         :UnitLabel         "-" ;
         :hasLabelSourceEn  "LS-DYNA_Manual_Volume_2" .
+
+:hasShearLengthAfterFracture2_mm
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasShearLengthAfterFracture2_mm"@en ;
+        rdfs:subPropertyOf  :hasShearLengthAfterFracture2 ;
+        skos:preflabel      "hasShearLengthAfterFracture2_mm"@en ;
+        :hasUnitLabel       "mm" .
