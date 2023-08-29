@@ -1,0 +1,44 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/NumberGrains" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Anzahl an K\u00F6rnern, die mit Hilfe der Euler-Winkel representiert werden.",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "NumberGrains",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Number of grains",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "NumberGrains",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

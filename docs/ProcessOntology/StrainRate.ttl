@@ -5,10 +5,12 @@
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2000/01/rdf-schema#comment> "the rate at which a material deforms under applied stress. It is a measure of how quickly the material's shape or dimensions change in response to external forces, such as tension, compression, or shear. Strain rate is typically expressed in units of inverse time (e.g., s^-1 or min^-1)."@en .
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2000/01/rdf-schema#comment> "strain rate either of the parallel length or of the gauge length/extensometer length (should be specified)"@en .
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2000/01/rdf-schema#label> "StrainRate"@en .
+<https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/EngineeringStress> .
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ParallelLength> .
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/Time> .
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/PercentageExtension> .
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> .
+<https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "Elastische Dehnrate"@de .
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "strain rate"@en .
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "Strain Rate"@en .
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "Dehngeschwindigkeit"@de .
@@ -17,5 +19,6 @@
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/PercentageExtension> .
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/ParallelLength> .
 <https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/Time> .
+<https://w3id.org/steel/ProcessOntology/StrainRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/EngineeringStress> .
 
 

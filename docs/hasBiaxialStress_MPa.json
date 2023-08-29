@@ -1,0 +1,42 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/hasBiaxialStress_MPa" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasBiaxialStress_MPa",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasBiaxialStress",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasBiaxialStress_MPa",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "MPa",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

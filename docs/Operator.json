@@ -5,9 +5,20 @@
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
         }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Person, die den hydraulischen Tiefungsversuch durchgef\u00FChrt hat. ",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "some kind of a step. mathematical Operator",
         "lang" : "en",
         "type" : "literal"
@@ -21,6 +32,13 @@
         }
       ,
       {
+        "value" : "Operator",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Operator",
         "lang" : "en",
         "type" : "literal"

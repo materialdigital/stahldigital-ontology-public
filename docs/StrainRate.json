@@ -38,6 +38,11 @@
         }
       ,
       {
+        "value" : "https://w3id.org/steel/ProcessOntology/EngineeringStress",
+        "type" : "uri"
+        }
+      ,
+      {
         "value" : "https://w3id.org/steel/ProcessOntology/ParallelLength",
         "type" : "uri"
         }
@@ -55,6 +60,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Dehngeschwindigkeit",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Elastische Dehnrate",
         "lang" : "de",
         "type" : "literal"
         }
@@ -81,6 +92,11 @@
       ],
     "http://www.w3.org/2004/02/skos/core#related" : [ {
         "value" : "https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/EngineeringStress",
         "type" : "uri"
         }
       ,

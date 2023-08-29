@@ -1,0 +1,44 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/EulerAngle3" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Einer von drei Winkel, die nach dem Schweizer Mathematiker Leonhard Euler benannt wurden und einen Satz von drei Winkeln darstellen, mit denen die Orientierung (Drehlage) eines festen K\u00F6rpers im dreidimensionalen euklidischen Raum beschrieben werden kann.",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "EulerAngle3",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Third euler angle",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "EulerAngle3",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

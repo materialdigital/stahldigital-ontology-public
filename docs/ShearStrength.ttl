@@ -1,0 +1,12 @@
+
+
+<https://w3id.org/steel/ProcessOntology/ShearStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/ShearStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/ShearStrength> <http://www.w3.org/2000/01/rdf-schema#comment> "shear strength"@en .
+<https://w3id.org/steel/ProcessOntology/ShearStrength> <http://www.w3.org/2000/01/rdf-schema#label> "ShearStrength"@en .
+<https://w3id.org/steel/ProcessOntology/ShearStrength> <http://www.w3.org/2004/02/skos/core#altlabel> "shear strength"@en .
+<https://w3id.org/steel/ProcessOntology/ShearStrength> <http://www.w3.org/2004/02/skos/core#altlabel> "Zugfestigkeit Rm"@de .
+<https://w3id.org/steel/ProcessOntology/ShearStrength> <http://www.w3.org/2004/02/skos/core#preflabel> "ShearStrength"@en .
+<https://w3id.org/steel/ProcessOntology/ShearStrength> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/EngineeringStress> .
+
+

@@ -5,11 +5,29 @@
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
         }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Ausgangsblechdicke",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "Anfangsdicke",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "InitialThickness",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -20,9 +38,22 @@
         }
       
       ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Initial thickness of the sheet",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "Anfangsdicke",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "InitialThickness",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
