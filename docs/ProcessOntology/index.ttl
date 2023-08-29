@@ -344,6 +344,9 @@
         skos:altlabel   "yield strength"@en ;
         skos:preflabel  "YieldStrength"@en .
 
+:InitialFlowStress_g0
+        rdf:type  owl:Class .
+
 :PercentageReductionOfArea
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area"@en ;
@@ -2105,6 +2108,9 @@
         skos:preflabel  "ExtensionAtFracture"@en ;
         :isBasedOn      :Extension .
 
+:FlowStressExponent_a
+        rdf:type  owl:Class .
+
 :ProjectName  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Name of the Project."@en , "Instabilität"@en ;
         rdfs:label      "ProjectName"@en ;
@@ -2716,6 +2722,8 @@
         skos:preflabel      "hasYieldStrength_MPa"@en ;
         :hasUnitLabel       "MPa" .
 
+:YoungModulus  rdf:type  owl:Class .
+
 :TestPieceGeometry  rdf:type  owl:Class , skos:Concept ;
         rdfs:comment    "The type of the specimen."@en ;
         rdfs:label      "TestPieceGeometry"@en ;
@@ -3036,6 +3044,12 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/Tester" ;
         skos:preflabel  "hasTester"@en .
 
+:FinalFlowStress_ginf
+        rdf:type  owl:Class .
+
+:ElasticConstants_C11_C12_C44
+        rdf:type  owl:Class .
+
 :hasNominalEngineeringStrainRate
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasNominalEngineeringStrainRate"@en ;
@@ -3292,12 +3306,16 @@
         skos:preflabel      "hasStandardDeviationOfTheSlope_MPa"@en ;
         :hasUnitLabel       "MPa" .
 
+:HardeningModulus_h0  rdf:type  owl:Class .
+
 <https://w3id.org/steel/ProcessOntology/hasStressRate_MPa%2Fs>
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasStressRate_MPa/s"@en ;
         rdfs:subPropertyOf  :hasStressRate ;
         skos:preflabel      "hasStressRate_MPa/s"@en ;
         :hasUnitLabel       "MPa/s" .
+
+:StressExponent_n  rdf:type  owl:Class .
 
 :hasYieldingIdentifierIsoThermal
         rdf:type        owl:ObjectProperty ;
