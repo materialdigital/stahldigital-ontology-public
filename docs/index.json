@@ -2659,6 +2659,12 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/OriginalCrosssection",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Bruchverl\u00E4ngerung",
         "lang" : "de",
@@ -2676,6 +2682,12 @@
         "value" : "ExtensionAtFracture",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#related" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/OriginalCrosssection",
+        "type" : "uri"
         }
       
       ],
@@ -6411,96 +6423,6 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/NominalStrainRate" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/2002/07/owl#Class",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "strain rate either of the parallel length or of the gauge length/extensometer length (should be specified)",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "NominalStrainRate",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "https://w3id.org/steel/ProcessOntology/ParallelLength",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "https://w3id.org/steel/ProcessOntology/PercentageExtension",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "https://w3id.org/steel/ProcessOntology/Time",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Dehngeschwindigkeit",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Strain Rate",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "NominalStrainRate",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#related" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "https://w3id.org/steel/ProcessOntology/ParallelLength",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "https://w3id.org/steel/ProcessOntology/PercentageExtension",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "https://w3id.org/steel/ProcessOntology/Time",
-        "type" : "uri"
-        }
-      
-      ]
-    }
-  ,
   "https://w3id.org/steel/ProcessOntology/NotchTensileStrength" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -6817,6 +6739,11 @@
       ,
       {
         "value" : "https://w3id.org/steel/ProcessOntology/OriginalWidth",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/ShearLength",
         "type" : "uri"
         }
       
@@ -7549,17 +7476,7 @@
       
       ],
     "https://w3id.org/steel/ProcessOntology/isBasedOn" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/NotchTensileStrength",
-        "type" : "uri"
-        }
-      ,
-      {
         "value" : "https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "https://w3id.org/steel/ProcessOntology/ShearStrength",
         "type" : "uri"
         }
       ,
@@ -7598,6 +7515,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Brucheinschn\u00FCrung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Brucheinschn\u00FCrung Z",
         "lang" : "de",
         "type" : "literal"
@@ -10374,11 +10297,6 @@
         }
       ,
       {
-        "value" : "https://w3id.org/steel/ProcessOntology/EngineeringStress",
-        "type" : "uri"
-        }
-      ,
-      {
         "value" : "https://w3id.org/steel/ProcessOntology/ParallelLength",
         "type" : "uri"
         }
@@ -10396,12 +10314,6 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Dehngeschwindigkeit",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Elastische Dehnrate",
         "lang" : "de",
         "type" : "literal"
         }
@@ -10428,11 +10340,6 @@
       ],
     "http://www.w3.org/2004/02/skos/core#related" : [ {
         "value" : "https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "https://w3id.org/steel/ProcessOntology/EngineeringStress",
         "type" : "uri"
         }
       ,
@@ -19568,108 +19475,6 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/hasNominalStrainRate" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasNominalStrainRate",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasNominalStrainRate",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasNominalStrainRateObject" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasNominalStrainRate",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/NominalStrainRate",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasNominalStrainRate",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasNominalStrainRate_s-1" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasNominalStrainRate_s-1",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/hasNominalStrainRate",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasNominalStrainRate_s-1",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
-        "value" : "s-1",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
   "https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -24691,46 +24496,6 @@
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "hasStrainRateScaleParameterP",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasStrainRate_1%2Fs" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasStrainRate_1/s",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/hasStrainRate",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasStrainRate_1/s",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
-        "value" : "1/s",
         "type" : "literal"
         }
       
