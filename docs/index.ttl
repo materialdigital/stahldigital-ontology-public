@@ -256,6 +256,12 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/RollingDirection" ;
         skos:preflabel  "hasRollingDirection"@en .
 
+:HockettSherbySteadyStateStress
+        rdf:type        owl:Class ;
+        rdfs:comment    "Steady-state flow stress used for the flow curve extrapolation according to Hockett and Sherby (1975)."@en ;
+        rdfs:label      "Hockett Sherby Steady State Stress"@en , "Hockett Sherby Sättigungsfließspannung"@de ;
+        skos:preflabel  "Hockett Sherby Steady State Stress"@en , "Hockett Sherby Sättigungsfließspannung"@de .
+
 :hasForce_N  rdf:type       owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasForce_N"@en ;
         rdfs:subPropertyOf  :hasForce ;
@@ -958,6 +964,12 @@
         skos:altlabel   "Width"@en , "Breite, B"@de ;
         skos:preflabel  "Width"@en .
 
+:HockettSherbyParameterN
+        rdf:type        owl:Class ;
+        rdfs:comment    "Material parameter N used for the flow curve extrapolation according to Hockett and Sherby (1975)."@en ;
+        rdfs:label      "Hockett Sherby Parameter N"@en , "Hochett Sherby Parameter N"@de ;
+        skos:preflabel  "Hockett Sherby Parameter N"@en , "Hochett Sherby Parameter N"@de .
+
 :hasWidthStrain  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasWidthStrain"@en ;
         skos:preflabel  "hasWidthStrain"@en .
@@ -1045,6 +1057,12 @@
         rdfs:label      "hasOriginalCrosssection"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/OriginalCrosssection" ;
         skos:preflabel  "hasOriginalCrosssection"@en .
+
+:HockettSherbyYieldStress
+        rdf:type        owl:Class ;
+        rdfs:comment    "Yield stress used for the flow curve extrapolation according to Hockett and Sherby (1975)."@en ;
+        rdfs:label      "Hockett Sherby Yield Stress"@en , "Hockett Sherby initiale Fließspannung"@de ;
+        skos:preflabel  "Hockett Sherby Yield Stress"@en , "Hockett Sherby initiale Fließspannung"@de .
 
 :hasWidthAfterFracture1Object
         rdf:type        owl:ObjectProperty , rdf:Property ;
@@ -1804,6 +1822,12 @@
         rdfs:label      "hasElementDeletionFlag"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/ElementDeletionFlag" ;
         skos:preflabel  "hasElementDeletionFlag"@en .
+
+:HockettSherbyParameterP
+        rdf:type        owl:Class ;
+        rdfs:comment    "Material parameter p used for the flow curve extrapolation according to Hockett and Sherby (1975)."@en ;
+        rdfs:label      "Hockett Sherby Parameter p"@en , "Hochett Sherby Parameter p"@de ;
+        skos:preflabel  "Hockett Sherby Parameter p"@en , "Hochett Sherby Parameter p"@de .
 
 :PyironNotebook  rdf:type  owl:Class ;
         rdfs:comment    "Jupyter Pyiron Notebook"@en ;
@@ -3139,6 +3163,11 @@
         rdfs:label      "hasStressRate"@en ;
         skos:preflabel  "hasStressRate"@en .
 
+:hasShearLengthAfterFracture2
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasShearLengthAfterFracture2"@en ;
+        skos:preflabel  "hasShearLengthAfterFracture2"@en .
+
 :TestingDirection  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "testing direction related to the rolling direction"@en ;
         rdfs:label      "TestingDirection"@en ;
@@ -3153,11 +3182,6 @@
         rdfs:label      "InitialDisplacementRate"@en ;
         skos:altlabel   "Initial displacement rate v0"@en , "Abzugsgeschw."@de ;
         skos:preflabel  "InitialDisplacementRate"@en .
-
-:hasShearLengthAfterFracture2
-        rdf:type        owl:DatatypeProperty , rdf:Property ;
-        rdfs:label      "hasShearLengthAfterFracture2"@en ;
-        skos:preflabel  "hasShearLengthAfterFracture2"@en .
 
 :hasCoefficientOfCorrelation_-
         rdf:type            owl:DatatypeProperty , rdf:Property ;

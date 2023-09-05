@@ -690,6 +690,24 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasRollingDirectionObject">
     <skos:preflabel xml:lang="en">hasRollingDirection</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbySteadyStateStress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbySteadyStateStress">
+    <rdfs:comment xml:lang="en">Steady-state flow stress used for the flow curve extrapolation according to Hockett and Sherby (1975).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbySteadyStateStress">
+    <rdfs:label xml:lang="en">Hockett Sherby Steady State Stress</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbySteadyStateStress">
+    <rdfs:label xml:lang="de">Hockett Sherby Sättigungsfließspannung</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbySteadyStateStress">
+    <skos:preflabel xml:lang="en">Hockett Sherby Steady State Stress</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbySteadyStateStress">
+    <skos:preflabel xml:lang="de">Hockett Sherby Sättigungsfließspannung</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasForce_N">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
@@ -2716,6 +2734,24 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Width">
     <skos:preflabel xml:lang="en">Width</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyParameterN">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyParameterN">
+    <rdfs:comment xml:lang="en">Material parameter N used for the flow curve extrapolation according to Hockett and Sherby (1975).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyParameterN">
+    <rdfs:label xml:lang="en">Hockett Sherby Parameter N</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyParameterN">
+    <rdfs:label xml:lang="de">Hochett Sherby Parameter N</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyParameterN">
+    <skos:preflabel xml:lang="en">Hockett Sherby Parameter N</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyParameterN">
+    <skos:preflabel xml:lang="de">Hochett Sherby Parameter N</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasWidthStrain">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
@@ -2985,6 +3021,24 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasOriginalCrosssectionObject">
     <skos:preflabel xml:lang="en">hasOriginalCrosssection</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyYieldStress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyYieldStress">
+    <rdfs:comment xml:lang="en">Yield stress used for the flow curve extrapolation according to Hockett and Sherby (1975).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyYieldStress">
+    <rdfs:label xml:lang="en">Hockett Sherby Yield Stress</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyYieldStress">
+    <rdfs:label xml:lang="de">Hockett Sherby initiale Fließspannung</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyYieldStress">
+    <skos:preflabel xml:lang="en">Hockett Sherby Yield Stress</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyYieldStress">
+    <skos:preflabel xml:lang="de">Hockett Sherby initiale Fließspannung</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasWidthAfterFracture1Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -5223,6 +5277,24 @@ Identifier which relates the Table to descibe the yield stress by using differen
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasElementDeletionFlag">
     <skos:preflabel xml:lang="en">hasElementDeletionFlag</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyParameterP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyParameterP">
+    <rdfs:comment xml:lang="en">Material parameter p used for the flow curve extrapolation according to Hockett and Sherby (1975).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyParameterP">
+    <rdfs:label xml:lang="en">Hockett Sherby Parameter p</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyParameterP">
+    <rdfs:label xml:lang="de">Hochett Sherby Parameter p</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyParameterP">
+    <skos:preflabel xml:lang="en">Hockett Sherby Parameter p</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HockettSherbyParameterP">
+    <skos:preflabel xml:lang="de">Hochett Sherby Parameter p</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PyironNotebook">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -9258,6 +9330,18 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStressRate">
     <skos:preflabel xml:lang="en">hasStressRate</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasShearLengthAfterFracture2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasShearLengthAfterFracture2">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasShearLengthAfterFracture2">
+    <rdfs:label xml:lang="en">hasShearLengthAfterFracture2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasShearLengthAfterFracture2">
+    <skos:preflabel xml:lang="en">hasShearLengthAfterFracture2</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingDirection">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -9305,18 +9389,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
     <skos:preflabel xml:lang="en">InitialDisplacementRate</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasShearLengthAfterFracture2">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasShearLengthAfterFracture2">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasShearLengthAfterFracture2">
-    <rdfs:label xml:lang="en">hasShearLengthAfterFracture2</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasShearLengthAfterFracture2">
-    <skos:preflabel xml:lang="en">hasShearLengthAfterFracture2</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCoefficientOfCorrelation_-">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
