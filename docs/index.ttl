@@ -418,7 +418,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area"@en ;
         rdfs:label      "PercentageReductionOfArea"@en ;
-        skos:altlabel   "Z"@en , "Z"@de , "Brucheinschnürung Z"@de , "percentage reduction of area"@en , "Brucheinschnürung"@de ;
+        skos:altlabel   "Z"@en , "Brucheinschnürung Z"@de , "percentage reduction of area"@en , "Brucheinschnürung"@de ;
         skos:preflabel  "PercentageReductionOfArea"@en ;
         :isBasedOn      :MinimumCrosssectionAfterFracture , :OriginalCrosssection .
 
@@ -440,7 +440,7 @@
 :TrueWidthStrain  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "true strain in width direction"@en ;
         rdfs:label      "TrueWidthStrain"@en ;
-        skos:altlabel   "eps-wBreite"@de ;
+        skos:altlabel   "e-wBreite"@de ;
         skos:preflabel  "TrueWidthStrain"@en ;
         :isBasedOn      :WidthStrain .
 
@@ -1116,7 +1116,7 @@
         rdfs:comment    "uniform elongation"@en ;
         rdfs:label      "PercentagePlasticExtensionAtMaximumForce"@en ;
         rdfs:seeAlso    :ModulusOfElasticity ;
-        skos:altlabel   "Dehnung bei Höchstkraft Ag"@de , "Gleichmaßdehnung Ag"@de , "Ag"@en , "percentage plastic extension at maximum force"@en ;
+        skos:altlabel   "Gleichmaßdehnung Ag"@de , "Ag"@en , "percentage plastic extension at maximum force"@en ;
         skos:preflabel  "PercentagePlasticExtensionAtMaximumForce"@en ;
         skos:related    :ModulusOfElasticity ;
         :isBasedOn      :PercentagePermanentExtension , :TensileStrength .
@@ -1304,7 +1304,7 @@
 :LowerYieldStrength  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Represents the Lower Yield Strength of a material, which is the stress point at which the material transitions from elastic deformation to plastic deformation, without an increase in applied load. It is a crucial parameter in materials science, used for designing and analyzing the structural integrity and durability of materials under operational loads. The values are typically measured in Pascals (Pa)."@en ;
         rdfs:label      "LowerYieldStrength"@en ;
-        skos:altlabel   "lower yield strength"@en , "Dehngrenze ReL"@de , "Dehn-/Streckgr. ReL"@de ;
+        skos:altlabel   "lower yield strength"@en , "Dehn-/Streckgr. ReL"@de ;
         skos:preflabel  "LowerYieldStrength"@en ;
         :isBasedOn      :EngineeringStress .
 
@@ -2384,7 +2384,7 @@
         rdfs:comment    "the rate at which a material deforms under applied stress. It is a measure of how quickly the material's shape or dimensions change in response to external forces, such as tension, compression, or shear. Strain rate is typically expressed in units of inverse time (e.g., s^-1 or min^-1)."@en , "strain rate either of the parallel length or of the gauge length/extensometer length (should be specified)"@en ;
         rdfs:label      "StrainRate"@en ;
         rdfs:seeAlso    :ParallelLength , :Time , :PercentageExtension , :CrossheadSeparationRate ;
-        skos:altlabel   "strain rate"@en , "Strain Rate"@en , "Dehngeschwindigkeit"@de ;
+        skos:altlabel   "strain rate"@en , "Strain Rate"@en ;
         skos:preflabel  "StrainRate"@en ;
         skos:related    :CrossheadSeparationRate , :PercentageExtension , :ParallelLength , :Time .
 
@@ -2685,7 +2685,7 @@
 :ModulusOfElasticity  rdf:type  skos:Concept , owl:Class ;
         rdfs:label      "ModulusOfElasticity"@en ;
         rdfs:seeAlso    :PercentageExtension , :EngineeringStress ;
-        skos:altlabel   "EModul"@de , "Elastizitätsmodul"@de , "E-Modul"@de , "modulus of elasticity"@en , "E"@en ;
+        skos:altlabel   "E-Modul"@de , "modulus of elasticity"@en , "E"@en ;
         skos:preflabel  "ModulusOfElasticity"@en ;
         skos:related    :PercentageExtension , :EngineeringStress .
 
@@ -3632,7 +3632,7 @@
 :PoissonsRatio  rdf:type  skos:Concept , owl:Class ;
         rdfs:label      "PoissonsRatio"@en ;
         rdfs:seeAlso    :TrueStrain , :TrueWidthStrain , :ModulusOfElasticity , :Material ;
-        skos:altlabel   "Poisson"@en , "Querkontraktion"@de ;
+        skos:altlabel   "Poisson"@en ;
         skos:preflabel  "PoissonsRatio"@en ;
         skos:related    :TrueWidthStrain , :ModulusOfElasticity , :Material , :TrueStrain .
 
@@ -4138,7 +4138,7 @@
 
 :RValue  rdf:type       skos:Concept , owl:Class ;
         rdfs:label      "RValue"@en ;
-        skos:altlabel   "Rinc"@en , "r"@de ;
+        skos:altlabel   "Rinc"@en ;
         skos:preflabel  "RValue"@en ;
         :isBasedOn      :WidthStrain , :TrueStrain .
 
@@ -4242,7 +4242,7 @@
 :TrueStrain  rdf:type   owl:Class , skos:Concept ;
         rdfs:comment    "true strain"@en ;
         rdfs:label      "True Strain"@en , "TrueStrain"@en , "wahre Dehnung"@de ;
-        skos:altlabel   "Epsilon True"@en , "epsw(dL)"@de ;
+        skos:altlabel   "Epsilon True"@en ;
         skos:preflabel  "True Strain"@en , "wahre Dehnung"@de , "TrueStrain"@en ;
         :isBasedOn      :PercentageExtension .
 
@@ -4257,7 +4257,7 @@
         rdf:type        owl:Class , skos:Concept ;
         rdfs:comment    "bleibende Verlängerung (3.3) der Messlänge nach dem Bruch (Lu − Lo), angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)"@de , "percentage elongation after fracture"@en ;
         rdfs:label      "PercentageElongationAfterFracture"@en ;
-        skos:altlabel   "Bruchdehnung A_20mm"@de , "Bruchdehnung A20mm"@de , "A"@en , "A"@de , "percentage elongation after fracture"@en ;
+        skos:altlabel   "Bruchdehnung A_20mm"@de , "A"@en , "percentage elongation after fracture"@en ;
         skos:preflabel  "PercentageElongationAfterFracture"@en ;
         :isBasedOn      :ModulusOfElasticity , :EngineeringStress , :PercentageExtension .
 

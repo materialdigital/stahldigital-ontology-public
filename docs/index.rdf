@@ -1137,9 +1137,6 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <skos:altlabel xml:lang="en">Z</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea">
-    <skos:altlabel xml:lang="de">Z</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea">
     <skos:altlabel xml:lang="de">Brucheinschnürung Z</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea">
@@ -1206,7 +1203,7 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <rdfs:label xml:lang="en">TrueWidthStrain</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueWidthStrain">
-    <skos:altlabel xml:lang="de">eps-wBreite</skos:altlabel>
+    <skos:altlabel xml:lang="de">e-wBreite</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueWidthStrain">
     <skos:preflabel xml:lang="en">TrueWidthStrain</skos:preflabel>
@@ -3167,9 +3164,6 @@ or
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/ModulusOfElasticity"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePlasticExtensionAtMaximumForce">
-    <skos:altlabel xml:lang="de">Dehnung bei Höchstkraft Ag</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePlasticExtensionAtMaximumForce">
     <skos:altlabel xml:lang="de">Gleichmaßdehnung Ag</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePlasticExtensionAtMaximumForce">
@@ -3726,9 +3720,6 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LowerYieldStrength">
     <skos:altlabel xml:lang="en">lower yield strength</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LowerYieldStrength">
-    <skos:altlabel xml:lang="de">Dehngrenze ReL</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LowerYieldStrength">
     <skos:altlabel xml:lang="de">Dehn-/Streckgr. ReL</skos:altlabel>
@@ -6986,9 +6977,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:altlabel xml:lang="en">Strain Rate</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <skos:altlabel xml:lang="de">Dehngeschwindigkeit</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
     <skos:preflabel xml:lang="en">StrainRate</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
@@ -7871,12 +7859,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ModulusOfElasticity">
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/EngineeringStress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ModulusOfElasticity">
-    <skos:altlabel xml:lang="de">EModul</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ModulusOfElasticity">
-    <skos:altlabel xml:lang="de">Elastizitätsmodul</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ModulusOfElasticity">
     <skos:altlabel xml:lang="de">E-Modul</skos:altlabel>
@@ -10739,9 +10721,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:altlabel xml:lang="en">Poisson</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PoissonsRatio">
-    <skos:altlabel xml:lang="de">Querkontraktion</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PoissonsRatio">
     <skos:preflabel xml:lang="en">PoissonsRatio</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PoissonsRatio">
@@ -12232,9 +12211,6 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <skos:altlabel xml:lang="en">Rinc</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RValue">
-    <skos:altlabel xml:lang="de">r</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RValue">
     <skos:preflabel xml:lang="en">RValue</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RValue">
@@ -12550,9 +12526,6 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <skos:altlabel xml:lang="en">Epsilon True</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStrain">
-    <skos:altlabel xml:lang="de">epsw(dL)</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStrain">
     <skos:preflabel xml:lang="en">True Strain</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStrain">
@@ -12601,13 +12574,7 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <skos:altlabel xml:lang="de">Bruchdehnung A_20mm</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongationAfterFracture">
-    <skos:altlabel xml:lang="de">Bruchdehnung A20mm</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongationAfterFracture">
     <skos:altlabel xml:lang="en">A</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongationAfterFracture">
-    <skos:altlabel xml:lang="de">A</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongationAfterFracture">
     <skos:altlabel xml:lang="en">percentage elongation after fracture</skos:altlabel>
