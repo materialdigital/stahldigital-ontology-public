@@ -958,6 +958,12 @@
         }
       ,
       {
+        "value" : "Machine Displacement",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Maschine",
         "lang" : "de",
         "type" : "literal"
@@ -1037,6 +1043,12 @@
       ,
       {
         "value" : "crosshead separation rate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "v0",
         "lang" : "en",
         "type" : "literal"
         }
@@ -1559,12 +1571,6 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Diameter D1 after fracture",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Probendurchmesser nach Bruch D1",
         "lang" : "de",
         "type" : "literal"
@@ -1612,12 +1618,6 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Diameter D2 after fracture",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Probendurchmesser nach Bruch D2",
         "lang" : "de",
         "type" : "literal"
@@ -2088,6 +2088,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Sigma Tech",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Sigma-technisch",
         "lang" : "de",
         "type" : "literal"
@@ -2426,6 +2432,12 @@
         }
       ,
       {
+        "value" : "Label ID",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Proben-ID",
         "lang" : "de",
         "type" : "literal"
@@ -2567,6 +2579,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Displacement",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Extension",
         "lang" : "en",
         "type" : "literal"
@@ -2667,6 +2685,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Bruchverl\u00E4ngerung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DLBruch",
         "lang" : "de",
         "type" : "literal"
         }
@@ -5271,6 +5295,12 @@
         }
       ,
       {
+        "value" : "Machine Type",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Machine data",
         "lang" : "en",
         "type" : "literal"
@@ -5883,6 +5913,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Fm",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "H\u00F6chstzugkraft Fm",
         "lang" : "de",
         "type" : "literal"
@@ -6285,6 +6321,12 @@
         }
       ,
       {
+        "value" : "SU",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Su",
         "lang" : "de",
         "type" : "literal"
@@ -6407,6 +6449,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "E",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "E-Modul",
         "lang" : "de",
         "type" : "literal"
@@ -6876,8 +6924,8 @@
         }
       ,
       {
-        "value" : "So",
-        "lang" : "de",
+        "value" : "S0",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -6958,6 +7006,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Initial measuring length",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "L0",
         "lang" : "en",
         "type" : "literal"
         }
@@ -7063,6 +7117,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "Thickness",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -7141,6 +7201,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "Width",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -7203,8 +7269,8 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Messl\u00E4nge Lc",
-        "lang" : "de",
+        "value" : "LC",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -7347,6 +7413,12 @@
         }
       ,
       {
+        "value" : "A",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Bruchdehnung A20mm",
         "lang" : "de",
         "type" : "literal"
@@ -7417,6 +7489,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Epsilon Tech",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Time-dependent engineering strain",
         "lang" : "en",
         "type" : "literal"
@@ -7425,18 +7503,6 @@
       {
         "value" : "e-technisch",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "eps-technisch",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "percentage extension",
-        "lang" : "en",
         "type" : "literal"
         }
       
@@ -7536,19 +7602,7 @@
         }
       ,
       {
-        "value" : "eps-plast",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "percentage permanent extension",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "percentage permanent extension ",
         "lang" : "en",
         "type" : "literal"
         }
@@ -7612,6 +7666,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Ag",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Dehnung bei H\u00F6chstkraft Ag",
         "lang" : "de",
         "type" : "literal"
@@ -7697,6 +7757,12 @@
       {
         "value" : "Z",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Z",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -8122,14 +8188,14 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Querkontraktion",
-        "lang" : "de",
+        "value" : "Poisson",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "poisson`s ratio",
-        "lang" : "en",
+        "value" : "Querkontraktion",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -8508,6 +8574,12 @@
         }
       ,
       {
+        "value" : "Project Name",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Project name",
         "lang" : "en",
         "type" : "literal"
@@ -8562,6 +8634,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Project No.",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Project number",
         "lang" : "en",
         "type" : "literal"
@@ -8681,12 +8759,6 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Rp0.2",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "proof strength, 0.2 %",
         "lang" : "en",
         "type" : "literal"
         }
@@ -8745,12 +8817,6 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Rp1",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "proof strength, 1 %",
         "lang" : "en",
         "type" : "literal"
         }
@@ -9006,14 +9072,14 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "r",
-        "lang" : "de",
+        "value" : "Rinc",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "r-value",
-        "lang" : "en",
+        "value" : "r",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -9590,6 +9656,12 @@
       ,
       {
         "value" : "Sample identifier",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Specimen Name",
         "lang" : "en",
         "type" : "literal"
         }
@@ -11119,6 +11191,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Rm",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Zugfestigkeit Rm",
         "lang" : "de",
         "type" : "literal"
@@ -11335,6 +11413,12 @@
         }
       ,
       {
+        "value" : "Specimen Type",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Specimen type",
         "lang" : "en",
         "type" : "literal"
@@ -11490,6 +11574,12 @@
       ,
       {
         "value" : "Test standard",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Testing Standard",
         "lang" : "en",
         "type" : "literal"
         }
@@ -12487,14 +12577,14 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "epsw(dL)",
-        "lang" : "de",
+        "value" : "Epsilon True",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "true strain",
-        "lang" : "en",
+        "value" : "epsw(dL)",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -12558,6 +12648,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Sigma True",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Sigw(dL)",
         "lang" : "de",
         "type" : "literal"
@@ -12732,12 +12828,6 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "eps-wBreite",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "true width strain",
-        "lang" : "en",
         "type" : "literal"
         }
       
@@ -13035,14 +13125,8 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Breite, B",
+        "value" : "B",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Width",
-        "lang" : "en",
         "type" : "literal"
         }
       
@@ -13255,13 +13339,7 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "engineering width strain",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "eps-Breite",
+        "value" : "e-Breite",
         "lang" : "de",
         "type" : "literal"
         }
@@ -13386,12 +13464,6 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Fp0.2",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "yield force, 0.2%",
-        "lang" : "en",
         "type" : "literal"
         }
       

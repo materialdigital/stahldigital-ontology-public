@@ -22,7 +22,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "minimum cross-sectional area after fracture"@en ;
         rdfs:label      "MinimumCrosssectionAfterFracture"@en ;
-        skos:altlabel   "Su"@de , "Minimum cross-sectional area after fracture"@en , "Bruchquerschnitt Su"@de ;
+        skos:altlabel   "Su"@de , "Minimum cross-sectional area after fracture"@en , "SU"@en , "Bruchquerschnitt Su"@de ;
         skos:preflabel  "MinimumCrosssectionAfterFracture"@en ;
         :isBasedOn      :ThicknessAfterFracture1 , :WidthAfterFracture2 , :ShearLengthAfterFracture2 , :DiameterAfterFracture1 , :WidthAfterFracture1 , :ShearLengthAfterFracture1 , :ThicknessAfterFracture2 , :DiameterAfterFracture2 .
 
@@ -83,7 +83,7 @@
 :YieldForce_0.2Percentage
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "YieldForce_0.2Percentage"@en ;
-        skos:altlabel   "yield force, 0.2%"@en , "Fp0.2"@de ;
+        skos:altlabel   "Fp0.2"@de ;
         skos:preflabel  "YieldForce_0.2Percentage"@en ;
         :isBasedOn      :PercentageExtension , :ModulusOfElasticity , :Force .
 
@@ -418,7 +418,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area"@en ;
         rdfs:label      "PercentageReductionOfArea"@en ;
-        skos:altlabel   "Z"@de , "Brucheinschnürung Z"@de , "percentage reduction of area"@en , "Brucheinschnürung"@de ;
+        skos:altlabel   "Z"@en , "Z"@de , "Brucheinschnürung Z"@de , "percentage reduction of area"@en , "Brucheinschnürung"@de ;
         skos:preflabel  "PercentageReductionOfArea"@en ;
         :isBasedOn      :MinimumCrosssectionAfterFracture , :OriginalCrosssection .
 
@@ -440,7 +440,7 @@
 :TrueWidthStrain  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "true strain in width direction"@en ;
         rdfs:label      "TrueWidthStrain"@en ;
-        skos:altlabel   "true width strain"@en , "eps-wBreite"@de ;
+        skos:altlabel   "eps-wBreite"@de ;
         skos:preflabel  "TrueWidthStrain"@en ;
         :isBasedOn      :WidthStrain .
 
@@ -502,7 +502,7 @@
 
 :EngineeringStress  rdf:type  skos:Concept , owl:Class ;
         rdfs:label      "EngineeringStress"@en ;
-        skos:altlabel   "engineering stress"@en , "Sigma-technisch"@de ;
+        skos:altlabel   "engineering stress"@en , "Sigma Tech"@en , "Sigma-technisch"@de ;
         skos:preflabel  "EngineeringStress"@en ;
         :isBasedOn      :OriginalCrosssection , :Force .
 
@@ -909,7 +909,7 @@
 :MaximumForce  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "highest force that the test piece withstands during the test"@en ;
         rdfs:label      "MaximumForce"@en ;
-        skos:altlabel   "maximum force"@en , "Höchstzugkraft Fm"@de ;
+        skos:altlabel   "maximum force"@en , "Höchstzugkraft Fm"@de , "Fm"@de ;
         skos:preflabel  "MaximumForce"@en ;
         :isBasedOn      :Force .
 
@@ -961,7 +961,7 @@
 :Width  rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "width of the extensometer gauge length in thickness direction"@en ;
         rdfs:label      "Width"@en ;
-        skos:altlabel   "Width"@en , "Breite, B"@de ;
+        skos:altlabel   "B"@de ;
         skos:preflabel  "Width"@en .
 
 :HockettSherbyParameterN
@@ -1022,7 +1022,7 @@
         rdfs:comment    "The length of the experiment (description replaced by Zugversuch Instron)"@en , "Länge des parallelen reduzierten Querschnitts der Probe"@de , "The length of the parallel part of the specimen"@en ;
         rdfs:label      "ParallelLength"@en ;
         rdfs:seeAlso    :TestPieceGeometry ;
-        skos:altlabel   "parallel length"@en , "parallele Messlänge Lc"@de , "Test length"@en , "Messlänge Lc"@de , "Parallel length"@en , "Versuchslänge"@de ;
+        skos:altlabel   "LC"@en , "parallel length"@en , "parallele Messlänge Lc"@de , "Test length"@en , "Parallel length"@en , "Versuchslänge"@de ;
         skos:preflabel  "ParallelLength"@en ;
         skos:related    :TestPieceGeometry .
 
@@ -1116,7 +1116,7 @@
         rdfs:comment    "uniform elongation"@en ;
         rdfs:label      "PercentagePlasticExtensionAtMaximumForce"@en ;
         rdfs:seeAlso    :ModulusOfElasticity ;
-        skos:altlabel   "Dehnung bei Höchstkraft Ag"@de , "Gleichmaßdehnung Ag"@de , "percentage plastic extension at maximum force"@en ;
+        skos:altlabel   "Dehnung bei Höchstkraft Ag"@de , "Gleichmaßdehnung Ag"@de , "Ag"@en , "percentage plastic extension at maximum force"@en ;
         skos:preflabel  "PercentagePlasticExtensionAtMaximumForce"@en ;
         skos:related    :ModulusOfElasticity ;
         :isBasedOn      :PercentagePermanentExtension , :TensileStrength .
@@ -1311,7 +1311,7 @@
 :PercentageExtension  rdf:type  owl:Class , skos:Concept ;
         rdfs:comment    "engineering strain"@en ;
         rdfs:label      "PercentageExtension"@en ;
-        skos:altlabel   "e-technisch"@de , "Time-dependent engineering strain"@en , "percentage extension"@en , "eps-technisch"@de ;
+        skos:altlabel   "e-technisch"@de , "Time-dependent engineering strain"@en , "Epsilon Tech"@en ;
         skos:preflabel  "PercentageExtension"@en ;
         :isBasedOn      :ExtensometerGaugeLength , :Extension .
 
@@ -1385,9 +1385,9 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "yield strength, 0.2 %"@en ;
         rdfs:label      "ProofStrength_0.2Percentage"@en ;
-        skos:altlabel   "Rp0.2"@de , "proof strength, 0.2 %"@en ;
+        skos:altlabel   "Rp0.2"@en ;
         skos:preflabel  "ProofStrength_0.2Percentage"@en ;
-        :isBasedOn      :PercentageExtension , :EngineeringStress , :ModulusOfElasticity .
+        :isBasedOn      :PercentageExtension , :ModulusOfElasticity , :EngineeringStress .
 
 :StressRate  rdf:type   skos:Concept , owl:Class ;
         rdfs:comment    "stress rate"@en ;
@@ -1691,14 +1691,14 @@
 
 :TrueStress  rdf:type   skos:Concept , owl:Class ;
         rdfs:label      "TrueStress"@en , "True Stress"@en , "wahre Spannung"@de ;
-        skos:altlabel   "true stress"@en , "Sigw(dL)"@de ;
+        skos:altlabel   "Sigma True"@en , "true stress"@en , "Sigw(dL)"@de ;
         skos:preflabel  "True Stress"@en , "TrueStress"@en , "wahre Spannung"@de ;
         :isBasedOn      :PercentageExtension , :EngineeringStress .
 
 :ExperimentIdentifier
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "ExperimentIdentifier"@en ;
-        skos:altlabel   "Identifier based on Label-System"@en , "Proben-ID"@de ;
+        skos:altlabel   "Label ID"@en , "Identifier based on Label-System"@en , "Proben-ID"@de ;
         skos:preflabel  "ExperimentIdentifier"@en .
 
 :hasMaximumForceNoDiscontinousYielding_N
@@ -1788,7 +1788,7 @@
 :WidthStrain  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "engineering strain in width direction"@en ;
         rdfs:label      "WidthStrain"@en ;
-        skos:altlabel   "engineering width strain"@en , "eps-Breite"@de ;
+        skos:altlabel   "e-Breite"@de ;
         skos:preflabel  "WidthStrain"@en ;
         :isBasedOn      :WidthChange , :OriginalWidth .
 
@@ -1975,7 +1975,7 @@
 :OriginalGaugeLength  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "The intial gauge length given by the specimen geometry"@en , "Anfangsmesslänge "@de , "Länge zwischen den Marken zur Kennzeichnung der Messlänge (3.1) auf der Probe, die vor dem Versuch bei Raumtemperatur gemessen wird"@de ;
         rdfs:label      "OriginalGaugeLength"@en ;
-        skos:altlabel   "Messlänge Lo"@de , "Messlänge Standardweg"@de , "Initial measuring length"@en , "original gauge length"@en , "Original gauge length "@en ;
+        skos:altlabel   "Messlänge Lo"@de , "Messlänge Standardweg"@de , "L0"@en , "Initial measuring length"@en , "original gauge length"@en , "Original gauge length "@en ;
         skos:preflabel  "OriginalGaugeLength"@en .
 
 :hasPercentageElongationAfterFracture
@@ -2058,12 +2058,12 @@
         skos:preflabel  "Tester"@en .
 
 :ProofStrength_1Percentage
-        rdf:type        owl:Class , skos:Concept ;
+        rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "yield strength, 1 %"@en ;
         rdfs:label      "ProofStrength_1Percentage"@en ;
-        skos:altlabel   "Rp1"@de , "proof strength, 1 %"@en ;
+        skos:altlabel   "Rp1"@en ;
         skos:preflabel  "ProofStrength_1Percentage"@en ;
-        :isBasedOn      :EngineeringStress , :PercentageExtension , :ModulusOfElasticity .
+        :isBasedOn      :PercentageExtension , :ModulusOfElasticity , :EngineeringStress .
 
 :NumberFailedIntegrationPoints
         rdf:type           skos:Concept , owl:Class ;
@@ -2167,9 +2167,9 @@
         :hasUnitLabel       "kN" .
 
 :TensileStrength  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "tensile strength"@en , "maximum amount of tensile (pulling) stress that a material can withstand before failure "@en ;
+        rdfs:comment    "maximum amount of tensile (pulling) stress that a material can withstand before failure "@en , "tensile strength"@en ;
         rdfs:label      "TensileStrength"@en ;
-        skos:altlabel   "tensile strength"@en , "Zugfestigkeit Rm"@de ;
+        skos:altlabel   "tensile strength"@en , "Zugfestigkeit Rm"@de , "Rm"@en ;
         skos:preflabel  "TensileStrength"@en ;
         :isBasedOn      :EngineeringStress .
 
@@ -2275,7 +2275,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "DiameterAfterFracture2"@en ;
         rdfs:seeAlso    :DiameterAfterFracture1 ;
-        skos:altlabel   "Diameter D2 after fracture"@en , "Probendurchmesser nach Bruch D2"@de ;
+        skos:altlabel   "Probendurchmesser nach Bruch D2"@de ;
         skos:preflabel  "DiameterAfterFracture2"@en ;
         skos:related    :DiameterAfterFracture1 .
 
@@ -2397,7 +2397,7 @@
         rdfs:comment    "Displacement of the extensometer (!) length at fracture"@en ;
         rdfs:label      "ExtensionAtFracture"@en ;
         rdfs:seeAlso    :OriginalCrosssection ;
-        skos:altlabel   "Extension at fracture"@en , "Bruchverlängerung"@de ;
+        skos:altlabel   "Extension at fracture"@en , "Bruchverlängerung"@de , "DLBruch"@de ;
         skos:preflabel  "ExtensionAtFracture"@en ;
         skos:related    :OriginalCrosssection ;
         :isBasedOn      :Extension .
@@ -2408,7 +2408,7 @@
 :ProjectName  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Name of the Project."@en , "Instabilität"@en ;
         rdfs:label      "ProjectName"@en ;
-        skos:altlabel   "Projektname"@de , "Project name"@en , "Projekt"@de , "Project"@en ;
+        skos:altlabel   "Projektname"@de , "Project name"@en , "Projekt"@de , "Project Name"@en , "Project"@en ;
         skos:preflabel  "ProjectName"@en .
 
 :Temperature  rdf:type  skos:Concept , owl:Class ;
@@ -2685,7 +2685,7 @@
 :ModulusOfElasticity  rdf:type  skos:Concept , owl:Class ;
         rdfs:label      "ModulusOfElasticity"@en ;
         rdfs:seeAlso    :PercentageExtension , :EngineeringStress ;
-        skos:altlabel   "EModul"@de , "Elastizitätsmodul"@de , "E-Modul"@de , "modulus of elasticity"@en ;
+        skos:altlabel   "EModul"@de , "Elastizitätsmodul"@de , "E-Modul"@de , "modulus of elasticity"@en , "E"@en ;
         skos:preflabel  "ModulusOfElasticity"@en ;
         skos:related    :PercentageExtension , :EngineeringStress .
 
@@ -2850,7 +2850,7 @@
 :ProjectNumber  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Project identification number."@en ;
         rdfs:label      "ProjectNumber"@en ;
-        skos:altlabel   "Project number"@en , "Projektnummer"@de ;
+        skos:altlabel   "Project number"@en , "Project No."@en , "Projektnummer"@de ;
         skos:preflabel  "ProjectNumber"@en .
 
 :Coating  rdf:type      owl:Class ;
@@ -2918,9 +2918,9 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "plastic engineering strain"@en ;
         rdfs:label      "PercentagePermanentExtension"@en ;
-        skos:altlabel   "eps-plast"@de , "percentage permanent extension "@en , "e-plast"@de , "percentage permanent extension"@en ;
+        skos:altlabel   "e-plast"@de , "percentage permanent extension"@en ;
         skos:preflabel  "PercentagePermanentExtension"@en ;
-        :isBasedOn      :ModulusOfElasticity , :ExtensometerGaugeLength , :Extension .
+        :isBasedOn      :ModulusOfElasticity , :Extension , :ExtensometerGaugeLength .
 
 :hasTestingDirection  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasTestingDirection"@en ;
@@ -2945,7 +2945,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "original crosssection area of the parallel length"@en , "Crosssection of the sample."@en , "original cross-sectional area of the parallel length"@en ;
         rdfs:label      "OriginalCrosssection"@en ;
-        skos:altlabel   "Original cross section"@en , "Anfangsquerschnitt So"@de , "Querschnitt"@de , "Crosssection"@en , "original cross-sectional area of the parallel length"@en , "Anfangsquerschnitt S0"@de , "So"@de ;
+        skos:altlabel   "Original cross section"@en , "Anfangsquerschnitt So"@de , "Querschnitt"@de , "Crosssection"@en , "S0"@en , "original cross-sectional area of the parallel length"@en , "Anfangsquerschnitt S0"@de ;
         skos:preflabel  "OriginalCrosssection"@en ;
         :isBasedOn      :Diameter , :ShearLength , :OriginalThickness , :OriginalWidth .
 
@@ -2967,7 +2967,7 @@
 :OriginalThickness  rdf:type  owl:Class , skos:Concept ;
         rdfs:comment    "Original width of the parallel length of a flat test piece"@en , "The thickness of the specimen."@en , "The initial thickness of the specimen."@en ;
         rdfs:label      "OriginalThickness"@en ;
-        skos:altlabel   "Probendicke a"@de , "Specimen thickness"@en , "Probendicke a0"@de , "Original thickness"@en , "Probendicke"@de ;
+        skos:altlabel   "Thickness"@en , "Probendicke a"@de , "Specimen thickness"@en , "Probendicke a0"@de , "Original thickness"@en , "Probendicke"@de ;
         skos:preflabel  "OriginalThickness"@en .
 
 :hasStress_MPa  rdf:type    owl:DatatypeProperty , rdf:Property ;
@@ -3095,7 +3095,7 @@
         rdfs:comment    "The type of the specimen."@en ;
         rdfs:label      "TestPieceGeometry"@en ;
         rdfs:seeAlso    :TestStandard ;
-        skos:altlabel   "Specimen type"@en , "Probentyp"@de , "Probenform"@de , "Test piece geometry"@en ;
+        skos:altlabel   "Specimen type"@en , "Probentyp"@de , "Specimen Type"@en , "Probenform"@de , "Test piece geometry"@en ;
         skos:preflabel  "TestPieceGeometry"@en ;
         skos:related    :TestStandard .
 
@@ -3453,7 +3453,7 @@
         rdfs:comment    "Displacement of the actuator"@en ;
         rdfs:label      "CrossheadDisplacement"@en ;
         rdfs:seeAlso    :Machine ;
-        skos:altlabel   "Crosshead displacement"@en , "Maschine"@de ;
+        skos:altlabel   "Machine Displacement"@en , "Crosshead displacement"@en , "Maschine"@de ;
         skos:preflabel  "CrossheadDisplacement"@en ;
         skos:related    :Machine .
 
@@ -3483,7 +3483,7 @@
 :Machine  rdf:type      skos:Concept , owl:Class ;
         rdfs:comment    "Data of the machine used for the experiment."@en , "Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt."@de ;
         rdfs:label      "Machine"@en ;
-        skos:altlabel   "Testing Machine"@en , "Machine data"@en , "Prüfmaschine"@de , "Prüfmasch."@de , "Maschinendaten"@de , "Machine"@en ;
+        skos:altlabel   "Testing Machine"@en , "Machine data"@en , "Prüfmaschine"@de , "Machine Type"@en , "Prüfmasch."@de , "Maschinendaten"@de , "Machine"@en ;
         skos:preflabel  "Machine"@en .
 
 :Stress  rdf:type       skos:Concept , owl:Class ;
@@ -3632,7 +3632,7 @@
 :PoissonsRatio  rdf:type  skos:Concept , owl:Class ;
         rdfs:label      "PoissonsRatio"@en ;
         rdfs:seeAlso    :TrueStrain , :TrueWidthStrain , :ModulusOfElasticity , :Material ;
-        skos:altlabel   "poisson`s ratio"@en , "Querkontraktion"@de ;
+        skos:altlabel   "Poisson"@en , "Querkontraktion"@de ;
         skos:preflabel  "PoissonsRatio"@en ;
         skos:related    :TrueWidthStrain , :ModulusOfElasticity , :Material , :TrueStrain .
 
@@ -3973,7 +3973,7 @@
         rdfs:comment    "The displacement of the crosshead per time"@en , "The speed of the experiment."@en ;
         rdfs:label      "CrossheadSeparationRate"@en ;
         rdfs:seeAlso    :ParallelLength ;
-        skos:altlabel   "Test speed"@en , "Prüfgeschwindigkeit"@de , "crosshead separation rate"@en , "Crosshead separation rate vc"@en ;
+        skos:altlabel   "Test speed"@en , "Prüfgeschwindigkeit"@de , "v0"@en , "crosshead separation rate"@en , "Crosshead separation rate vc"@en ;
         skos:preflabel  "CrossheadSeparationRate"@en ;
         skos:related    :ParallelLength .
 
@@ -4012,14 +4012,14 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "DiameterAfterFracture1"@en ;
         rdfs:seeAlso    :DiameterAfterFracture2 ;
-        skos:altlabel   "Diameter D1 after fracture"@en , "Probendurchmesser nach Bruch D1"@de ;
+        skos:altlabel   "Probendurchmesser nach Bruch D1"@de ;
         skos:preflabel  "DiameterAfterFracture1"@en ;
         skos:related    :DiameterAfterFracture2 .
 
 :SampleIdentifier  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Unique ID (IWM intern)"@en ;
         rdfs:label      "SampleIdentifier"@en ;
-        skos:altlabel   "Sample identifier"@en , "Probennummer"@de , "Proben-Nr."@de ;
+        skos:altlabel   "Specimen Name"@en , "Sample identifier"@en , "Probennummer"@de , "Proben-Nr."@de ;
         skos:preflabel  "SampleIdentifier"@en .
 
 :hasOperator  rdf:type  owl:DatatypeProperty , rdf:Property ;
@@ -4047,7 +4047,7 @@
         rdfs:comment    "The width of the specimen."@en , "Original width of the parallel length of a flat test piece"@en ;
         rdfs:label      "OriginalWidth"@en ;
         rdfs:seeAlso    :TestPieceGeometry ;
-        skos:altlabel   "Probenbreite b"@de , "Specimen width"@en , "Probenbreite"@de , "Probenbreite b0"@de , "Original width"@en ;
+        skos:altlabel   "Probenbreite b"@de , "Specimen width"@en , "Probenbreite"@de , "Probenbreite b0"@de , "Original width"@en , "Width"@en ;
         skos:preflabel  "OriginalWidth"@en ;
         skos:related    :TestPieceGeometry .
 
@@ -4109,7 +4109,7 @@
 :TestStandard  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Test Standard unter dem der hydraulische Tiefungsversuch durchgeführt wurde."@de , "The norm according to which the experiment was conducted."@en ;
         rdfs:label      "TestStandard"@en ;
-        skos:altlabel   "Test standard"@en , "Prüfnorm"@de ;
+        skos:altlabel   "Testing Standard"@en , "Test standard"@en , "Prüfnorm"@de ;
         skos:preflabel  "TestStandard"@en .
 
 :hasCharacteristicEngineeringStrainRate_s-1
@@ -4138,7 +4138,7 @@
 
 :RValue  rdf:type       skos:Concept , owl:Class ;
         rdfs:label      "RValue"@en ;
-        skos:altlabel   "r-value"@en , "r"@de ;
+        skos:altlabel   "Rinc"@en , "r"@de ;
         skos:preflabel  "RValue"@en ;
         :isBasedOn      :WidthStrain , :TrueStrain .
 
@@ -4242,7 +4242,7 @@
 :TrueStrain  rdf:type   owl:Class , skos:Concept ;
         rdfs:comment    "true strain"@en ;
         rdfs:label      "True Strain"@en , "TrueStrain"@en , "wahre Dehnung"@de ;
-        skos:altlabel   "epsw(dL)"@de , "true strain"@en ;
+        skos:altlabel   "Epsilon True"@en , "epsw(dL)"@de ;
         skos:preflabel  "True Strain"@en , "wahre Dehnung"@de , "TrueStrain"@en ;
         :isBasedOn      :PercentageExtension .
 
@@ -4257,7 +4257,7 @@
         rdf:type        owl:Class , skos:Concept ;
         rdfs:comment    "bleibende Verlängerung (3.3) der Messlänge nach dem Bruch (Lu − Lo), angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)"@de , "percentage elongation after fracture"@en ;
         rdfs:label      "PercentageElongationAfterFracture"@en ;
-        skos:altlabel   "Bruchdehnung A_20mm"@de , "Bruchdehnung A20mm"@de , "A"@de , "percentage elongation after fracture"@en ;
+        skos:altlabel   "Bruchdehnung A_20mm"@de , "Bruchdehnung A20mm"@de , "A"@en , "A"@de , "percentage elongation after fracture"@en ;
         skos:preflabel  "PercentageElongationAfterFracture"@en ;
         :isBasedOn      :ModulusOfElasticity , :EngineeringStress , :PercentageExtension .
 
@@ -4300,7 +4300,7 @@
         rdfs:comment    "Displacement of the extensometer (!) length"@en ;
         rdfs:label      "Extension"@en ;
         rdfs:seeAlso    :ExtensionMeasuringSystem , :ExtensometerGaugeLength , :DisplacementTransducer ;
-        skos:altlabel   "Standardweg"@de , "Standard travel"@en , "extension"@en , "dL"@de , "Extension"@en ;
+        skos:altlabel   "Standardweg"@de , "Displacement"@en , "Standard travel"@en , "extension"@en , "dL"@de , "Extension"@en ;
         skos:preflabel  "Extension"@en ;
         skos:related    :DisplacementTransducer , :ExtensometerGaugeLength , :ExtensionMeasuringSystem ;
         :isBasedOn      :ExtensometerGaugeLength , :OriginalGaugeLength .
