@@ -2438,6 +2438,12 @@
         }
       ,
       {
+        "value" : "Label-ID",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Proben-ID",
         "lang" : "de",
         "type" : "literal"
@@ -2816,6 +2822,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Extensometer gauge length ",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "L0",
         "lang" : "en",
         "type" : "literal"
         }
@@ -6648,14 +6660,8 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Zugfestigkeit Rm",
+        "value" : "Rm",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "notch tensile strength",
-        "lang" : "en",
         "type" : "literal"
         }
       
@@ -6901,6 +6907,12 @@
       ,
       {
         "value" : "Querschnitt",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "S0",
         "lang" : "de",
         "type" : "literal"
         }
@@ -9608,6 +9620,12 @@
       ,
       {
         "value" : "Specimen Name",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Specimen name",
         "lang" : "en",
         "type" : "literal"
         }
@@ -13104,12 +13122,6 @@
         "lang" : "de",
         "type" : "literal"
         }
-      ,
-      {
-        "value" : "Width B1 after fracture",
-        "lang" : "en",
-        "type" : "literal"
-        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -13155,12 +13167,6 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Probenbreite B2 nach Bruch",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Width B2 after fracture",
-        "lang" : "en",
         "type" : "literal"
         }
       

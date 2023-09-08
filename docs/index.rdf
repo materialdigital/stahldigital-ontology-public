@@ -2126,10 +2126,7 @@ or
     <rdfs:label xml:lang="en">NotchTensileStrength</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
-    <skos:altlabel xml:lang="en">notch tensile strength</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
-    <skos:altlabel xml:lang="de">Zugfestigkeit Rm</skos:altlabel>
+    <skos:altlabel xml:lang="de">Rm</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
     <skos:preflabel xml:lang="en">NotchTensileStrength</skos:preflabel>
@@ -4387,9 +4384,6 @@ or
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/WidthAfterFracture1"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture2">
-    <skos:altlabel xml:lang="en">Width B2 after fracture</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture2">
     <skos:altlabel xml:lang="de">Probenbreite B2 nach Bruch</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture2">
@@ -4911,6 +4905,9 @@ Identifier which relates the Table to descibe the yield stress by using differen
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExperimentIdentifier">
     <rdfs:label xml:lang="en">ExperimentIdentifier</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExperimentIdentifier">
+    <skos:altlabel xml:lang="en">Label-ID</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExperimentIdentifier">
     <skos:altlabel xml:lang="en">Label ID</skos:altlabel>
@@ -8662,6 +8659,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:altlabel xml:lang="en">S0</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
+    <skos:altlabel xml:lang="de">S0</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
     <skos:altlabel xml:lang="en">original cross-sectional area of the parallel length</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
@@ -9788,9 +9788,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture1">
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/WidthAfterFracture2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture1">
-    <skos:altlabel xml:lang="en">Width B1 after fracture</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture1">
     <skos:altlabel xml:lang="de">Probenbreite B1 nach Bruch</skos:altlabel>
@@ -11842,16 +11839,19 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <rdfs:label xml:lang="en">SampleIdentifier</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <skos:altlabel xml:lang="en">Specimen Name</skos:altlabel>
+    <skos:altlabel xml:lang="en">Sample identifier</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <skos:altlabel xml:lang="en">Sample identifier</skos:altlabel>
+    <skos:altlabel xml:lang="en">Specimen name</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <skos:altlabel xml:lang="de">Proben-Nr.</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
     <skos:altlabel xml:lang="de">Probennummer</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <skos:altlabel xml:lang="de">Proben-Nr.</skos:altlabel>
+    <skos:altlabel xml:lang="en">Specimen Name</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
     <skos:preflabel xml:lang="en">SampleIdentifier</skos:preflabel>
@@ -12476,6 +12476,9 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
     <skos:altlabel xml:lang="de">Messlänge Lo</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <skos:altlabel xml:lang="en">L0</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
     <skos:preflabel xml:lang="en">ExtensometerGaugeLength</skos:preflabel>

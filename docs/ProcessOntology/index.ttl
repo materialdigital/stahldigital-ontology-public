@@ -760,7 +760,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "notch tensile strength"@en ;
         rdfs:label      "NotchTensileStrength"@en ;
-        skos:altlabel   "notch tensile strength"@en , "Zugfestigkeit Rm"@de ;
+        skos:altlabel   "Rm"@de ;
         skos:preflabel  "NotchTensileStrength"@en ;
         :isBasedOn      :EngineeringStress .
 
@@ -1525,7 +1525,7 @@
 :WidthAfterFracture2  rdf:type  skos:Concept , owl:Class ;
         rdfs:label      "WidthAfterFracture2"@en ;
         rdfs:seeAlso    :WidthAfterFracture1 ;
-        skos:altlabel   "Width B2 after fracture"@en , "Probenbreite B2 nach Bruch"@de ;
+        skos:altlabel   "Probenbreite B2 nach Bruch"@de ;
         skos:preflabel  "WidthAfterFracture2"@en ;
         skos:related    :WidthAfterFracture1 .
 
@@ -1698,7 +1698,7 @@
 :ExperimentIdentifier
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "ExperimentIdentifier"@en ;
-        skos:altlabel   "Label ID"@en , "Identifier based on Label-System"@en , "Proben-ID"@de ;
+        skos:altlabel   "Label-ID"@en , "Label ID"@en , "Identifier based on Label-System"@en , "Proben-ID"@de ;
         skos:preflabel  "ExperimentIdentifier"@en .
 
 :hasMaximumForceNoDiscontinousYielding_N
@@ -2945,7 +2945,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "original crosssection area of the parallel length"@en , "Crosssection of the sample."@en , "original cross-sectional area of the parallel length"@en ;
         rdfs:label      "OriginalCrosssection"@en ;
-        skos:altlabel   "Original cross section"@en , "Anfangsquerschnitt So"@de , "Querschnitt"@de , "Crosssection"@en , "S0"@en , "original cross-sectional area of the parallel length"@en , "Anfangsquerschnitt S0"@de ;
+        skos:altlabel   "Original cross section"@en , "Anfangsquerschnitt So"@de , "Querschnitt"@de , "Crosssection"@en , "S0"@en , "S0"@de , "original cross-sectional area of the parallel length"@en , "Anfangsquerschnitt S0"@de ;
         skos:preflabel  "OriginalCrosssection"@en ;
         :isBasedOn      :Diameter , :ShearLength , :OriginalThickness , :OriginalWidth .
 
@@ -3320,7 +3320,7 @@
 :WidthAfterFracture1  rdf:type  skos:Concept , owl:Class ;
         rdfs:label      "WidthAfterFracture1"@en ;
         rdfs:seeAlso    :WidthAfterFracture2 ;
-        skos:altlabel   "Width B1 after fracture"@en , "Probenbreite B1 nach Bruch"@de ;
+        skos:altlabel   "Probenbreite B1 nach Bruch"@de ;
         skos:preflabel  "WidthAfterFracture1"@en ;
         skos:related    :WidthAfterFracture2 .
 
@@ -4019,7 +4019,7 @@
 :SampleIdentifier  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Unique ID (IWM intern)"@en ;
         rdfs:label      "SampleIdentifier"@en ;
-        skos:altlabel   "Specimen Name"@en , "Sample identifier"@en , "Probennummer"@de , "Proben-Nr."@de ;
+        skos:altlabel   "Sample identifier"@en , "Specimen name"@en , "Proben-Nr."@de , "Probennummer"@de , "Specimen Name"@en ;
         skos:preflabel  "SampleIdentifier"@en .
 
 :hasOperator  rdf:type  owl:DatatypeProperty , rdf:Property ;
@@ -4230,7 +4230,7 @@
         rdfs:comment    "The intial gauge length Le used for measurement of extension by means of an extensometer"@en , "The intial gauge length used for measurement of extension by means of an extensometer"@en ;
         rdfs:label      "ExtensometerGaugeLength"@en ;
         rdfs:seeAlso    :ExtensionMeasuringSystem , :OriginalGaugeLength ;
-        skos:altlabel   "extensometer gauge length"@en , "Extensometer gauge length "@en , "Messlänge L0"@de , "Messlänge Lo"@de ;
+        skos:altlabel   "extensometer gauge length"@en , "Extensometer gauge length "@en , "Messlänge L0"@de , "Messlänge Lo"@de , "L0"@en ;
         skos:preflabel  "ExtensometerGaugeLength"@en ;
         skos:related    :OriginalGaugeLength , :ExtensionMeasuringSystem .
 
