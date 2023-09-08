@@ -180,6 +180,12 @@
         rdfs:label      "hasSampleCode"@en ;
         skos:preflabel  "hasSampleCode"@en .
 
+:hasComputerControlledTensileTestingMachineObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasComputerControlledTensileTestingMachine"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/ComputerControlledTensileTestingMachine" ;
+        skos:preflabel  "hasComputerControlledTensileTestingMachine"@en .
+
 :EulerAngleConvention
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "Verwendte Konvention zur beschreibung der Euler Winkel"@de ;
@@ -683,6 +689,13 @@
         skos:preflabel      "hasPercentagePermanentElongation_%"@en ;
         :hasUnitLabel       "%" .
 
+:hasProofStrengthPlasticExtension_MPa
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasProofStrengthPlasticExtension_MPa"@en ;
+        rdfs:subPropertyOf  :hasProofStrengthPlasticExtension ;
+        skos:preflabel      "hasProofStrengthPlasticExtension_MPa"@en ;
+        :hasUnitLabel       "MPa" .
+
 :hasParallelLength_mm
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasParallelLength_mm"@en ;
@@ -846,6 +859,11 @@
 :GrainSize  rdf:type    owl:Class ;
         rdfs:label      "Grain size"@en , "Korngröße"@de ;
         skos:preflabel  "Grain size"@en , "Korngröße"@de .
+
+:hasProofStrengthPlasticExtension
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasProofStrengthPlasticExtension"@en ;
+        skos:preflabel  "hasProofStrengthPlasticExtension"@en .
 
 :hasExtensionAtFracture
         rdf:type        owl:DatatypeProperty , rdf:Property ;
@@ -1380,6 +1398,12 @@
         :hasUnitLabel       "mm" .
 
 :ConstitutiveModel  rdf:type  owl:Class .
+
+:ComputerControlledTensileTestingMachine
+        rdf:type        skos:Concept , owl:Class ;
+        rdfs:label      "ComputerControlledTensileTestingMachine"@en ;
+        skos:altlabel   "computer-controlled tensile testing machine"@en ;
+        skos:preflabel  "ComputerControlledTensileTestingMachine"@en .
 
 :ProofStrength_0.2Percentage
         rdf:type        skos:Concept , owl:Class ;
@@ -1994,6 +2018,12 @@
         rdfs:label      "hasEulerAngle2"@en ;
         skos:preflabel  "hasEulerAngle2"@en .
 
+:hasProofStrengthTotalExtensionObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasProofStrengthTotalExtension"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension" ;
+        skos:preflabel  "hasProofStrengthTotalExtension"@en .
+
 :hasForce  rdf:type     owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasForce"@en ;
         skos:preflabel  "hasForce"@en .
@@ -2065,6 +2095,11 @@
         skos:preflabel  "ProofStrength_1Percentage"@en ;
         :isBasedOn      :PercentageExtension , :ModulusOfElasticity , :EngineeringStress .
 
+:hasComputerControlledTensileTestingMachine
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasComputerControlledTensileTestingMachine"@en ;
+        skos:preflabel  "hasComputerControlledTensileTestingMachine"@en .
+
 :NumberFailedIntegrationPoints
         rdf:type           skos:Concept , owl:Class ;
         rdfs:comment       "Number or percentage of failed integration points prior to element deletion.\nGT.0.0: Number of integration points which must fail before element is deleted.\nLT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must fail before an element is deleted. For shell formulations with 4 integration points per layer, the layer is considered failed if any of the integration points in the layer fails."@en ;
@@ -2074,12 +2109,6 @@
         skos:preflabel     "NumberFailedIntegrationPoints"@en ;
         :UnitLabel         "1" ;
         :hasLabelSourceEn  "LS-DYNA_Manual_Volume_2" .
-
-<https://w3id.org/steel/ProcessOntology/hasProofStrength%2CPlasticExtensionObject>
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasProofStrength,PlasticExtension"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/ProofStrength,PlasticExtension" ;
-        skos:preflabel  "hasProofStrength,PlasticExtension"@en .
 
 :Radius  rdf:type       skos:Concept , owl:Class ;
         rdfs:comment    "Radius of the notch (only for notched shear tensile specimens)"@en , "Kerbradius (nur bei Schrägkerb-Scherzugproben)"@de ;
@@ -2224,12 +2253,6 @@
         rdfs:label      "Coordinate system"@en , "Koordinatensystem"@de ;
         skos:altlabel   "Koordinatensystem?"@de ;
         skos:preflabel  "Coordinate system"@en , "Koordinatensystem"@de .
-
-:Computer-controlledTensileTestingMachine
-        rdf:type        skos:Concept , owl:Class ;
-        rdfs:label      "Computer-controlledTensileTestingMachine"@en ;
-        skos:altlabel   "computer-controlled tensile testing machine"@en ;
-        skos:preflabel  "Computer-controlledTensileTestingMachine"@en .
 
 :ShearLength  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "length of the shear zone"@en , "Länge der Scherzone"@de ;
@@ -2463,6 +2486,12 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/MatPiecewiseLinearPlasticity" ;
         skos:preflabel  "hasMatPiecewiseLinearPlasticity"@en .
 
+:hasProofStrengthPlasticExtensionObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasProofStrengthPlasticExtension"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension" ;
+        skos:preflabel  "hasProofStrengthPlasticExtension"@en .
+
 :hasModulusOfElasticityObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasModulusOfElasticity"@en ;
@@ -2498,12 +2527,6 @@
         rdfs:label      "hasYieldingIdentifier"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/YieldingIdentifier" ;
         skos:preflabel  "hasYieldingIdentifier"@en .
-
-:hasComputer-controlledTensileTestingMachineObject
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasComputer-controlledTensileTestingMachine"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/Computer-controlledTensileTestingMachine" ;
-        skos:preflabel  "hasComputer-controlledTensileTestingMachine"@en .
 
 :TaylorQuinneyCoefficient
         rdf:type           skos:Concept , owl:Class ;
@@ -2608,11 +2631,6 @@
         rdfs:label      "hasTime"@en ;
         skos:preflabel  "hasTime"@en .
 
-:hasComputer-controlledTensileTestingMachine
-        rdf:type        owl:DatatypeProperty , rdf:Property ;
-        rdfs:label      "hasComputer-controlledTensileTestingMachine"@en ;
-        skos:preflabel  "hasComputer-controlledTensileTestingMachine"@en .
-
 :hasProofStrength_1Percentage
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasProofStrength_1Percentage"@en ;
@@ -2646,11 +2664,6 @@
         rdfs:label      "hasUser"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/User" ;
         skos:preflabel  "hasUser"@en .
-
-<https://w3id.org/steel/ProcessOntology/hasProofStrength%2CTotalExtension>
-        rdf:type        owl:DatatypeProperty , rdf:Property ;
-        rdfs:label      "hasProofStrength,TotalExtension"@en ;
-        skos:preflabel  "hasProofStrength,TotalExtension"@en .
 
 :ShearLengthAfterFracture2
         rdf:type        skos:Concept , owl:Class ;
@@ -2842,11 +2855,6 @@
         skos:preflabel      "hasNominalEngineeringStrainRate_s-1"@en ;
         :hasUnitLabel       "s-1" .
 
-<https://w3id.org/steel/ProcessOntology/hasProofStrength%2CPlasticExtension>
-        rdf:type        owl:DatatypeProperty , rdf:Property ;
-        rdfs:label      "hasProofStrength,PlasticExtension"@en ;
-        skos:preflabel  "hasProofStrength,PlasticExtension"@en .
-
 :ProjectNumber  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Project identification number."@en ;
         rdfs:label      "ProjectNumber"@en ;
@@ -2987,12 +2995,6 @@
         skos:preflabel      "hasPressureChamber_MPa"@en ;
         :hasUnitLabel       "MPa" .
 
-<https://w3id.org/steel/ProcessOntology/ProofStrength%2CPlasticExtension>
-        rdf:type        skos:Concept , owl:Class ;
-        rdfs:label      "ProofStrength,PlasticExtension"@en ;
-        skos:altlabel   "proof strength, plastic extension"@en ;
-        skos:preflabel  "ProofStrength,PlasticExtension"@en .
-
 :hasOriginalThicknessObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasOriginalThickness"@en ;
@@ -3114,12 +3116,6 @@
         rdfs:label       "Experimental workflow"@en , "Experimenteller Arbeitsablauf"@de ;
         rdfs:subClassOf  :Workflow ;
         skos:preflabel   "Experimental workflow"@en , "Experimenteller Arbeitsablauf"@de .
-
-<https://w3id.org/steel/ProcessOntology/hasProofStrength%2CTotalExtensionObject>
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasProofStrength,TotalExtension"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/ProofStrength,TotalExtension" ;
-        skos:preflabel  "hasProofStrength,TotalExtension"@en .
 
 :hasTrueThicknessStrain
         rdf:type        owl:DatatypeProperty , rdf:Property ;
@@ -3338,6 +3334,11 @@
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasThicknessAfterFracture1"@en ;
         skos:preflabel  "hasThicknessAfterFracture1"@en .
+
+:hasProofStrengthTotalExtension
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasProofStrengthTotalExtension"@en ;
+        skos:preflabel  "hasProofStrengthTotalExtension"@en .
 
 :SheetThickness  rdf:type  owl:Class ;
         rdfs:label      "Sheet thickness"@en , "Blechstärke"@de ;
@@ -3671,20 +3672,6 @@
         :UnitLabel         "K" ;
         :hasLabelSourceEn  "LS-DYNA_Manual_Volume_2" .
 
-<https://w3id.org/steel/ProcessOntology/hasProofStrength%2CPlasticExtension_MPa>
-        rdf:type            owl:DatatypeProperty , rdf:Property ;
-        rdfs:label          "hasProofStrength,PlasticExtension_MPa"@en ;
-        rdfs:subPropertyOf  <https://w3id.org/steel/ProcessOntology/hasProofStrength%2CPlasticExtension> ;
-        skos:preflabel      "hasProofStrength,PlasticExtension_MPa"@en ;
-        :hasUnitLabel       "MPa" .
-
-<https://w3id.org/steel/ProcessOntology/hasProofStrength%2CTotalExtension_MPa>
-        rdf:type            owl:DatatypeProperty , rdf:Property ;
-        rdfs:label          "hasProofStrength,TotalExtension_MPa"@en ;
-        rdfs:subPropertyOf  <https://w3id.org/steel/ProcessOntology/hasProofStrength%2CTotalExtension> ;
-        skos:preflabel      "hasProofStrength,TotalExtension_MPa"@en ;
-        :hasUnitLabel       "MPa" .
-
 :hasMaximumForceNoDiscontinousYieldingObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasMaximumForceNoDiscontinousYielding"@en ;
@@ -3727,6 +3714,12 @@
         :hasUnitLabel       "MPa" .
 
 :HardeningModulus_h0  rdf:type  owl:Class .
+
+:ProofStrengthTotalExtension
+        rdf:type        skos:Concept , owl:Class ;
+        rdfs:label      "ProofStrengthTotalExtension"@en ;
+        skos:altlabel   "proof strength, total extension"@en ;
+        skos:preflabel  "ProofStrengthTotalExtension"@en .
 
 :TruePlasticThicknessStrain
         rdf:type        skos:Concept , owl:Class ;
@@ -3811,6 +3804,12 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/PostProcessingSoftware" ;
         skos:preflabel  "hasPostProcessingSoftware"@en .
 
+:ProofStrengthPlasticExtension
+        rdf:type        skos:Concept , owl:Class ;
+        rdfs:label      "ProofStrengthPlasticExtension"@en ;
+        skos:altlabel   "proof strength, plastic extension"@en ;
+        skos:preflabel  "ProofStrengthPlasticExtension"@en .
+
 :hasWidthAfterFracture2_mm
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasWidthAfterFracture2_mm"@en ;
@@ -3823,12 +3822,6 @@
         rdfs:label      "EvaluationMethod"@en ;
         skos:altlabel   "Evaluation method"@en ;
         skos:preflabel  "EvaluationMethod"@en .
-
-<https://w3id.org/steel/ProcessOntology/ProofStrength%2CTotalExtension>
-        rdf:type        skos:Concept , owl:Class ;
-        rdfs:label      "ProofStrength,TotalExtension"@en ;
-        skos:altlabel   "proof strength, total extension"@en ;
-        skos:preflabel  "ProofStrength,TotalExtension"@en .
 
 :hasTestingFacilityObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
@@ -4195,6 +4188,13 @@
         skos:altlabel      "Mat224"@en ;
         skos:preflabel     "MatTabulatedJohnsonCook"@en ;
         :hasLabelSourceEn  "LS-DYNA_Manual_Volume_2" .
+
+:hasProofStrengthTotalExtension_MPa
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasProofStrengthTotalExtension_MPa"@en ;
+        rdfs:subPropertyOf  :hasProofStrengthTotalExtension ;
+        skos:preflabel      "hasProofStrengthTotalExtension_MPa"@en ;
+        :hasUnitLabel       "MPa" .
 
 :rollingSpeed  rdf:type  owl:Class ;
         rdfs:label      "rolling speed"@en , "Walzgeschwindigkeit"@de ;
