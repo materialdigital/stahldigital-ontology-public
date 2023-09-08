@@ -3272,7 +3272,7 @@
         rdfs:comment    "The force measured by the load cell"@en , "The force that is measured using the Force-measuring device."@en , "The force measured with the force measuring system"@en ;
         rdfs:label      "Force"@en , "Kraft"@de ;
         rdfs:seeAlso    :ForceMeasuringSystem , :ForceMeasuringDevice ;
-        skos:altlabel   "Standardkraft"@de , "F"@de , "Standard force"@en , "Force"@en , "Force-measuring device"@en ;
+        skos:altlabel   "Standardkraft"@de , "F"@de , "Standard force"@en , "Force"@en , "Force-measuring device"@en , "force"@en ;
         skos:preflabel  "Force"@en , "Kraft"@de ;
         skos:related    :ForceMeasuringDevice , :ForceMeasuringSystem .
 
