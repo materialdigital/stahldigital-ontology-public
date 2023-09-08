@@ -5,6 +5,11 @@
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
         }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -25,6 +30,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "TestPiece",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
@@ -38,6 +49,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "test piece",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -48,6 +65,12 @@
       ,
       {
         "value" : "Test piece",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "TestPiece",
         "lang" : "en",
         "type" : "literal"
         }

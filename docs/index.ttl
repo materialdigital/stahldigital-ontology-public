@@ -949,6 +949,10 @@
         rdfs:label      "hasTrueStressAtFracture"@en ;
         skos:preflabel  "hasTrueStressAtFracture"@en .
 
+:hasTestPiece  rdf:type  owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasTestPiece"@en ;
+        skos:preflabel  "hasTestPiece"@en .
+
 :related  rdf:type      owl:ObjectProperty ;
         rdfs:label      "is related to"@en ;
         dc:description  "some things are related"@en ;
@@ -2379,11 +2383,11 @@
         rdfs:label      "hasMaximumForceNoDiscontinousYielding"@en ;
         skos:preflabel  "hasMaximumForceNoDiscontinousYielding"@en .
 
-:TestPiece  rdf:type    owl:Class ;
+:TestPiece  rdf:type    skos:Concept , owl:Class ;
         rdfs:comment    "Something that a test is perfomed on"@en ;
-        rdfs:label      "Test piece"@en , "Probe"@de ;
-        skos:altlabel   "sample"@en , " specimen"@en ;
-        skos:preflabel  "Test piece"@en , "Probe"@de .
+        rdfs:label      "TestPiece"@en , "Test piece"@en , "Probe"@de ;
+        skos:altlabel   "test piece"@en , " specimen"@en , "sample"@en ;
+        skos:preflabel  "Test piece"@en , "Probe"@de , "TestPiece"@en .
 
 :hasFinalGaugeLengthAfterFracture
         rdf:type        owl:DatatypeProperty , rdf:Property ;
@@ -3491,6 +3495,11 @@
         rdfs:label      "Stress"@en , "Spannung"@de ;
         skos:altlabel   "stress"@en ;
         skos:preflabel  "Stress"@en , "Spannung"@de .
+
+:hasTestPieceObject  rdf:type  owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasTestPiece"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/TestPiece" ;
+        skos:preflabel  "hasTestPiece"@en .
 
 :hasStandardDeviationOfTheSlope
         rdf:type        owl:DatatypeProperty , rdf:Property ;

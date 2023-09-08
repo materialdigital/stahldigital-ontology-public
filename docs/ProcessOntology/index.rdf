@@ -2689,6 +2689,18 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueStressAtFracture">
     <skos:preflabel xml:lang="en">hasTrueStressAtFracture</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestPiece">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestPiece">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestPiece">
+    <rdfs:label xml:lang="en">hasTestPiece</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestPiece">
+    <skos:preflabel xml:lang="en">hasTestPiece</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/related">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
@@ -6929,10 +6941,16 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:preflabel xml:lang="en">hasMaximumForceNoDiscontinousYielding</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPiece">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPiece">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPiece">
     <rdfs:comment xml:lang="en">Something that a test is perfomed on</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPiece">
+    <rdfs:label xml:lang="en">TestPiece</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPiece">
     <rdfs:label xml:lang="en">Test piece</rdfs:label>
@@ -6941,16 +6959,22 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdfs:label xml:lang="de">Probe</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPiece">
-    <skos:altlabel xml:lang="en">sample</skos:altlabel>
+    <skos:altlabel xml:lang="en">test piece</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPiece">
     <skos:altlabel xml:lang="en"> specimen</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPiece">
+    <skos:altlabel xml:lang="en">sample</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPiece">
     <skos:preflabel xml:lang="en">Test piece</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPiece">
     <skos:preflabel xml:lang="de">Probe</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPiece">
+    <skos:preflabel xml:lang="en">TestPiece</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFinalGaugeLengthAfterFracture">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -10287,6 +10311,21 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
     <skos:preflabel xml:lang="de">Spannung</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestPieceObject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestPieceObject">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestPieceObject">
+    <rdfs:label xml:lang="en">hasTestPiece</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestPieceObject">
+    <rdfs:range>https://w3id.org/steel/ProcessOntology/TestPiece</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestPieceObject">
+    <skos:preflabel xml:lang="en">hasTestPiece</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStandardDeviationOfTheSlope">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
