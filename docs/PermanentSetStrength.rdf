@@ -7,6 +7,9 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PermanentSetStrength">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Spannun, bei der nach Wegnahme der Kraft eine vorgegebene bleibende Dehnung oder Extensometer-Dehnung , angegeben jeweils als Prozentanteil der Anfangsmesslänge oder der Extensometer-Messlänge, nicht überschritten wurde</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PermanentSetStrength">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">PermanentSetStrength</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PermanentSetStrength">

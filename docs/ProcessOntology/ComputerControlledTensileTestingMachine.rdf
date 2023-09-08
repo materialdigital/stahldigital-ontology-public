@@ -7,6 +7,9 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComputerControlledTensileTestingMachine">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Maschine, bei der die Regelung und Überwachung des Versuches, die Messungen und die Datenverarbeitung von einem Computer durchgeführt werden</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComputerControlledTensileTestingMachine">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">ComputerControlledTensileTestingMachine</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComputerControlledTensileTestingMachine">

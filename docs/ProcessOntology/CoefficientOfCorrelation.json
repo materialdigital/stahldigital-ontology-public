@@ -12,6 +12,13 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "zus\u00E4tzliches Ergebnis der linearen Regression, welches die Qualit\u00E4t der Spannung-Dehnung-Kurve in dem untersuchten Bereich beschreibt",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "CoefficientOfCorrelation",
         "lang" : "en",

@@ -13,6 +13,12 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "(Anfangs-)Dicke einer Flachprobe oder Wanddicke eines Rohres",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Original width of the parallel length of a flat test piece",
         "lang" : "en",
         "type" : "literal"
@@ -70,6 +76,12 @@
       ,
       {
         "value" : "Thickness",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "original thickness",
         "lang" : "en",
         "type" : "literal"
         }

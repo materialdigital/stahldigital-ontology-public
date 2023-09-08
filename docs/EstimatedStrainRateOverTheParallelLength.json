@@ -12,6 +12,13 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Zunahme der Dehnung \u00FCber die parallele L\u00E4nge der Probe je Zeiteinheit, basierend auf der Traversengeschwindigkeit und der parallelen L\u00E4nge der Probe",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "EstimatedStrainRateOverTheParallelLength",
         "lang" : "en",

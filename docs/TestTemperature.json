@@ -23,6 +23,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "Versuche unter kontrollierten Bedingungen m\u00FCssen bei einer Temperatur von (23 \u00B1 5) \u00B0C durchgef\u00FChrt werden.",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -52,6 +58,12 @@
       ,
       {
         "value" : "Test temperature",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "test temperature",
         "lang" : "en",
         "type" : "literal"
         }

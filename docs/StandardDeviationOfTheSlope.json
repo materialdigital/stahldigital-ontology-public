@@ -12,6 +12,13 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "zus\u00E4tzliches Ergebnis der linearen Regression, welches den Unterschied der Spannungswerte von der Ausgleichsgeraden f\u00FCr die gegebenen Extensometer-Dehnungswerte in dem untersuchten Bereich beschreibt",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "StandardDeviationOfTheSlope",
         "lang" : "en",
