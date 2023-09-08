@@ -3089,9 +3089,6 @@ or
     <skos:altlabel xml:lang="de">parallele Messlänge Lc</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ParallelLength">
-    <skos:altlabel xml:lang="en">Test length</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ParallelLength">
     <skos:altlabel xml:lang="en">Parallel length</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ParallelLength">
@@ -5702,9 +5699,6 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <skos:altlabel xml:lang="de">Kraftaufnehmer</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice">
-    <skos:altlabel xml:lang="en">Force transducer</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice">
     <skos:altlabel xml:lang="en">force-measuring device</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice">
@@ -6018,9 +6012,6 @@ Identifier which relates the Table to descibe the yield stress by using differen
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
     <skos:altlabel xml:lang="en">L0</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
-    <skos:altlabel xml:lang="en">Initial measuring length</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
     <skos:altlabel xml:lang="en">original gauge length</skos:altlabel>
@@ -6918,9 +6909,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Time">
     <skos:altlabel xml:lang="en">Time</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Time">
-    <skos:altlabel xml:lang="en">Test time</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Time">
     <skos:altlabel xml:lang="de">Prüfzeit</skos:altlabel>
@@ -8296,9 +8284,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:altlabel xml:lang="en">percentage elongation</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongation">
-    <skos:altlabel xml:lang="en">Elongation</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongation">
     <skos:altlabel xml:lang="de">Dehnung</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongation">
@@ -8309,6 +8294,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
+    <rdfs:comment xml:lang="de">Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <rdfs:comment xml:lang="en">"Vorkraft" in DIN EN ISO 6892-1</rdfs:comment>
@@ -8326,10 +8314,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:altlabel xml:lang="en">Preliminary force</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
-    <skos:altlabel xml:lang="en">Preload</skos:altlabel>
+    <skos:altlabel xml:lang="de">Vorkraft</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
-    <skos:altlabel xml:lang="de">Vorkraft</skos:altlabel>
+    <skos:altlabel xml:lang="en">preliminary force</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <skos:preflabel xml:lang="en">PreliminaryForce</skos:preflabel>
@@ -9098,9 +9086,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <skos:altlabel xml:lang="en">original thickness</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <skos:altlabel xml:lang="en">Specimen thickness</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <skos:altlabel xml:lang="de">Probendicke a0</skos:altlabel>
@@ -9980,9 +9965,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
     <skos:altlabel xml:lang="de">F</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
-    <skos:altlabel xml:lang="en">Standard force</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
     <skos:altlabel xml:lang="en">Force</skos:altlabel>
@@ -12088,9 +12070,6 @@ GT.0.0: Constant fading exponent</rdfs:comment>
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/ParallelLength"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
-    <skos:altlabel xml:lang="en">Test speed</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <skos:altlabel xml:lang="de">Prüfgeschwindigkeit</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
@@ -12353,9 +12332,6 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <skos:altlabel xml:lang="de">Probenbreite b</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <skos:altlabel xml:lang="en">Specimen width</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <skos:altlabel xml:lang="en">original width</skos:altlabel>
@@ -13141,7 +13117,13 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
+    <rdfs:comment xml:lang="en">increase in the extensometer gauge length (3.5), at any moment during the test</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
     <rdfs:comment xml:lang="de">Zunahme der Extensometer-Messlänge zu einem beliebigen Zeitpunkt des Versuchs</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
+    <rdfs:comment xml:lang="de">Verlängerung (der Extensometer-Messlänge)</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
     <rdfs:comment xml:lang="en">Displacement of the extensometer (!) length</rdfs:comment>
@@ -13163,9 +13145,6 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
     <skos:altlabel xml:lang="en">Displacement</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
-    <skos:altlabel xml:lang="en">Standard travel</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
     <skos:altlabel xml:lang="en">extension</skos:altlabel>

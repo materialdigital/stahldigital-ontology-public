@@ -1056,12 +1056,6 @@
         }
       ,
       {
-        "value" : "Test speed",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "crosshead separation rate",
         "lang" : "en",
         "type" : "literal"
@@ -2595,8 +2589,20 @@
         }
       ,
       {
+        "value" : "Verl\u00E4ngerung (der Extensometer-Messl\u00E4nge)",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Zunahme der Extensometer-Messl\u00E4nge zu einem beliebigen Zeitpunkt des Versuchs",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "increase in the extensometer gauge length (3.5), at any moment during the test",
+        "lang" : "en",
         "type" : "literal"
         }
       
@@ -2632,12 +2638,6 @@
       ,
       {
         "value" : "Extension",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Standard travel",
         "lang" : "en",
         "type" : "literal"
         }
@@ -3779,12 +3779,6 @@
         }
       ,
       {
-        "value" : "Standard force",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Standardkraft",
         "lang" : "de",
         "type" : "literal"
@@ -3908,12 +3902,6 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Force transducer",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Kraftaufnehmer",
         "lang" : "de",
         "type" : "literal"
@@ -7252,12 +7240,6 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Initial measuring length",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "L0",
         "lang" : "en",
         "type" : "literal"
@@ -7366,12 +7348,6 @@
         }
       ,
       {
-        "value" : "Specimen thickness",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Thickness",
         "lang" : "en",
         "type" : "literal"
@@ -7462,12 +7438,6 @@
         }
       ,
       {
-        "value" : "Specimen width",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Width",
         "lang" : "en",
         "type" : "literal"
@@ -7552,12 +7522,6 @@
         }
       ,
       {
-        "value" : "Test length",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Versuchsl\u00E4nge",
         "lang" : "de",
         "type" : "literal"
@@ -7620,12 +7584,6 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Dehnung",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Elongation",
-        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -8618,6 +8576,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht \u00FCberschreitet",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -8640,12 +8604,6 @@
         }
       ,
       {
-        "value" : "Preload",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Vorkraft",
         "lang" : "de",
         "type" : "literal"
@@ -8654,6 +8612,12 @@
       {
         "value" : "Vorlast",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "preliminary force",
+        "lang" : "en",
         "type" : "literal"
         }
       
@@ -12540,12 +12504,6 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Pr\u00FCfzeit",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Test time",
-        "lang" : "en",
         "type" : "literal"
         }
       ,

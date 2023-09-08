@@ -1085,7 +1085,7 @@
         rdfs:comment    "The length of the experiment (description replaced by Zugversuch Instron)"@en , "Länge des parallelen reduzierten Querschnitts der Probe"@de , "The length of the parallel part of the specimen"@en ;
         rdfs:label      "ParallelLength"@en ;
         rdfs:seeAlso    :TestPieceGeometry ;
-        skos:altlabel   "LC"@en , "parallel length"@en , "parallele Messlänge Lc"@de , "Test length"@en , "Parallel length"@en , "Versuchslänge"@de ;
+        skos:altlabel   "LC"@en , "parallel length"@en , "parallele Messlänge Lc"@de , "Parallel length"@en , "Versuchslänge"@de ;
         skos:preflabel  "ParallelLength"@en ;
         skos:related    :TestPieceGeometry .
 
@@ -1968,7 +1968,7 @@
         rdf:type        owl:Class , skos:Concept ;
         rdfs:comment    "Die Kraftmesseinrichtung der Zugprüfmaschine muss im relevanten Bereich mindestens der Klasse 1 nach ISO 7500-1 entsprechen."@de , "Genauigkeit der Prüfeinrichtungen: Die Kraftmesseinrichtung der Prüfmaschine muss mindestens der Klasse 1 nach ISO 7500-1 entsprechen."@de , "Type of the force transducer. (description replaced by Zugversuch Instron)"@en , "Type of the force measurement (force transducer, strain gauges, ....)"@en ;
         rdfs:label      "ForceMeasuringDevice"@en ;
-        skos:altlabel   "Kraftaufnehmer"@de , "Force transducer"@en , "force-measuring device"@en , "force-measuring system"@en , "Kraftmesseinrichtung"@de ;
+        skos:altlabel   "Kraftaufnehmer"@de , "force-measuring device"@en , "force-measuring system"@en , "Kraftmesseinrichtung"@de ;
         skos:preflabel  "ForceMeasuringDevice"@en .
 
 :sequence  rdf:type     owl:DatatypeProperty ;
@@ -2075,7 +2075,7 @@
 :OriginalGaugeLength  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "The intial gauge length given by the specimen geometry"@en , "Anfangsmesslänge "@de , "Länge zwischen den Marken zur Kennzeichnung der Messlänge (3.1) auf der Probe, die vor dem Versuch bei Raumtemperatur gemessen wird"@de ;
         rdfs:label      "OriginalGaugeLength"@en ;
-        skos:altlabel   "Messlänge Lo"@de , "Messlänge Standardweg"@de , "L0"@en , "Initial measuring length"@en , "original gauge length"@en , "Original gauge length "@en ;
+        skos:altlabel   "Messlänge Lo"@de , "Messlänge Standardweg"@de , "L0"@en , "original gauge length"@en , "Original gauge length "@en ;
         skos:preflabel  "OriginalGaugeLength"@en .
 
 :hasPercentageElongationAfterFracture
@@ -2374,7 +2374,7 @@
 :Time   rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "Authors"@de , "Zeit während des hydraulischen Tiefungsversuchs."@de , "The time when the data point is recorded in relation to the start. "@en , "0.694"@en ;
         rdfs:label      "Time"@en ;
-        skos:altlabel   "Zeit"@de , "Time"@en , "Test time"@en , "Prüfzeit"@de , "time"@en ;
+        skos:altlabel   "Zeit"@de , "Time"@en , "Prüfzeit"@de , "time"@en ;
         skos:preflabel  "Time"@en .
 
 :DiameterAfterFracture2
@@ -2829,14 +2829,14 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "Verlängerung (3.3), angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)"@de ;
         rdfs:label      "PercentageElongation"@en ;
-        skos:altlabel   "percentage elongation"@en , "Elongation"@en , "Dehnung"@de ;
+        skos:altlabel   "percentage elongation"@en , "Dehnung"@de ;
         skos:preflabel  "PercentageElongation"@en .
 
 :PreliminaryForce  rdf:type  owl:Class , skos:Concept ;
-        rdfs:comment    "\"Vorkraft\" in DIN EN ISO 6892-1"@en ;
+        rdfs:comment    "Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet"@de , "\"Vorkraft\" in DIN EN ISO 6892-1"@en ;
         rdfs:label      "PreliminaryForce"@en ;
         rdfs:seeAlso    :ForceMeasuringDevice ;
-        skos:altlabel   "Vorlast"@de , "Preliminary force"@en , "Preload"@en , "Vorkraft"@de ;
+        skos:altlabel   "Vorlast"@de , "Preliminary force"@en , "Vorkraft"@de , "preliminary force"@en ;
         skos:preflabel  "PreliminaryForce"@en ;
         skos:related    :ForceMeasuringDevice .
 
@@ -3079,7 +3079,7 @@
 :OriginalThickness  rdf:type  owl:Class , skos:Concept ;
         rdfs:comment    "Original width of the parallel length of a flat test piece"@en , "The thickness of the specimen."@en , "(Anfangs-)Dicke einer Flachprobe oder Wanddicke eines Rohres"@de , "The initial thickness of the specimen."@en ;
         rdfs:label      "OriginalThickness"@en ;
-        skos:altlabel   "Thickness"@en , "Probendicke a"@de , "original thickness"@en , "Specimen thickness"@en , "Probendicke a0"@de , "Original thickness"@en , "Probendicke"@de ;
+        skos:altlabel   "Thickness"@en , "Probendicke a"@de , "original thickness"@en , "Probendicke a0"@de , "Original thickness"@en , "Probendicke"@de ;
         skos:preflabel  "OriginalThickness"@en .
 
 :hasStress_MPa  rdf:type    owl:DatatypeProperty , rdf:Property ;
@@ -3374,7 +3374,7 @@
         rdfs:comment    "The force measured by the load cell"@en , "The force that is measured using the Force-measuring device."@en , "The force measured with the force measuring system"@en ;
         rdfs:label      "Force"@en , "Kraft"@de ;
         rdfs:seeAlso    :ForceMeasuringSystem , :ForceMeasuringDevice ;
-        skos:altlabel   "Standardkraft"@de , "F"@de , "Standard force"@en , "Force"@en , "Force-measuring device"@en , "force"@en ;
+        skos:altlabel   "Standardkraft"@de , "F"@de , "Force"@en , "Force-measuring device"@en , "force"@en ;
         skos:preflabel  "Force"@en , "Kraft"@de ;
         skos:related    :ForceMeasuringDevice , :ForceMeasuringSystem .
 
@@ -4095,7 +4095,7 @@
         rdfs:comment    "The displacement of the crosshead per time"@en , "Traversenweg je Zeiteinheit"@de , "The speed of the experiment."@en ;
         rdfs:label      "CrossheadSeparationRate"@en ;
         rdfs:seeAlso    :ParallelLength ;
-        skos:altlabel   "Test speed"@en , "Prüfgeschwindigkeit"@de , "v0"@en , "crosshead separation rate"@en , "Crosshead separation rate vc"@en ;
+        skos:altlabel   "Prüfgeschwindigkeit"@de , "v0"@en , "crosshead separation rate"@en , "Crosshead separation rate vc"@en ;
         skos:preflabel  "CrossheadSeparationRate"@en ;
         skos:related    :ParallelLength .
 
@@ -4175,7 +4175,7 @@
         rdfs:comment    "(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes"@de , "The width of the specimen."@en , "Original width of the parallel length of a flat test piece"@en ;
         rdfs:label      "OriginalWidth"@en ;
         rdfs:seeAlso    :TestPieceGeometry ;
-        skos:altlabel   "Probenbreite b"@de , "Specimen width"@en , "original width"@en , "Probenbreite"@de , "Probenbreite b0"@de , "Original width"@en , "Width"@en ;
+        skos:altlabel   "Probenbreite b"@de , "original width"@en , "Probenbreite"@de , "Probenbreite b0"@de , "Original width"@en , "Width"@en ;
         skos:preflabel  "OriginalWidth"@en ;
         skos:related    :TestPieceGeometry .
 
@@ -4433,10 +4433,10 @@
         :hasUnitLabel       "s-1" .
 
 :Extension  rdf:type    skos:Concept , owl:Class ;
-        rdfs:comment    "Zunahme der Extensometer-Messlänge zu einem beliebigen Zeitpunkt des Versuchs"@de , "Displacement of the extensometer (!) length"@en ;
+        rdfs:comment    "increase in the extensometer gauge length (3.5), at any moment during the test"@en , "Zunahme der Extensometer-Messlänge zu einem beliebigen Zeitpunkt des Versuchs"@de , "Verlängerung (der Extensometer-Messlänge)"@de , "Displacement of the extensometer (!) length"@en ;
         rdfs:label      "Extension"@en ;
         rdfs:seeAlso    :ExtensionMeasuringSystem , :ExtensometerGaugeLength , :DisplacementTransducer ;
-        skos:altlabel   "Standardweg"@de , "Displacement"@en , "Standard travel"@en , "extension"@en , "dL"@de , "Extension"@en ;
+        skos:altlabel   "Standardweg"@de , "Displacement"@en , "extension"@en , "dL"@de , "Extension"@en ;
         skos:preflabel  "Extension"@en ;
         skos:related    :DisplacementTransducer , :ExtensometerGaugeLength , :ExtensionMeasuringSystem ;
         :isBasedOn      :ExtensometerGaugeLength , :OriginalGaugeLength .

@@ -2,7 +2,9 @@
 
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#comment> "increase in the extensometer gauge length (3.5), at any moment during the test"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#comment> "Zunahme der Extensometer-Messlänge zu einem beliebigen Zeitpunkt des Versuchs"@de .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#comment> "Verlängerung (der Extensometer-Messlänge)"@de .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#comment> "Displacement of the extensometer (!) length"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#label> "Extension"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem> .
@@ -10,7 +12,6 @@
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "Standardweg"@de .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "Displacement"@en .
-<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "Standard travel"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "extension"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "dL"@de .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "Extension"@en .

@@ -17,6 +17,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht \u00FCberschreitet",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -39,12 +45,6 @@
         }
       ,
       {
-        "value" : "Preload",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Vorkraft",
         "lang" : "de",
         "type" : "literal"
@@ -53,6 +53,12 @@
       {
         "value" : "Vorlast",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "preliminary force",
+        "lang" : "en",
         "type" : "literal"
         }
       
