@@ -3829,9 +3829,9 @@
 
 :TensileTestingMachine
         rdf:type        skos:Concept , owl:Class ;
-        rdfs:comment    "Data of the machine used for the experiment."@en , "Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt."@de ;
+        rdfs:comment    "Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt."@de , "Data of the machine used for the experiment."@en ;
         rdfs:label      "TensileTestingMachine"@en ;
-        skos:altlabel   "tensile testing machine"@en , "Maschinendaten"@de ;
+        skos:altlabel   "tensile testing machine"@en , "Maschinendaten"@de , "Prüfmaschine"@de , "Machine Type"@en ;
         skos:preflabel  "TensileTestingMachine"@en .
 
 :HardeningModulus_h0  rdf:type  owl:Class .
