@@ -1,0 +1,56 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/FLCDetermination" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Die Bestimmung der FLC aus den Messungen sollte mit Hilfe des  \u201Epositionsabh\u00E4ngigen\u201C Verfahrens durchgef\u00FChrt werden.",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "FLCDetermination",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "FLC determination",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "FLC-Bestimmung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "FLCDetermination",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/isBasedOn" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/TestStandard",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

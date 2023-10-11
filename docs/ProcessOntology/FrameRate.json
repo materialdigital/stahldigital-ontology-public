@@ -13,6 +13,12 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Bildrate f\u00FCr die Videoaufnahmen ",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "sampling rate of the strain measuring system (e.g. high speed video recording)",
         "lang" : "en",
         "type" : "literal"
@@ -34,6 +40,12 @@
       ,
       {
         "value" : "Frame rate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Framerate",
         "lang" : "en",
         "type" : "literal"
         }

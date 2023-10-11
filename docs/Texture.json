@@ -5,6 +5,18 @@
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
         }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Textur des Mikrostrukturmodells, wird durch drei Eulerwinkel definiert",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -23,6 +35,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Oberfl\u00E4chenbeschaffenheit",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Texture",
+        "lang" : "en",
         "type" : "literal"
         }
       

@@ -5,9 +5,20 @@
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
         }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Eine Materialkarten beschreibt das Materialverhalten eines Werkstoffes in Form von Daten und Parametern",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "The MaterialCard is a digital representation of a real world steel; for example HCT980X. It contains all information to reproduce the behaviour steel within a simulation as close as possible to it's real world counter part.",
         "lang" : "en",
         "type" : "literal"
@@ -25,11 +36,23 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "MaterialCard",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Digitale Werkstoffbeschreibung",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Material Card",
+        "lang" : "en",
         "type" : "literal"
         }
       
@@ -43,6 +66,12 @@
       {
         "value" : "Material Karte",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "MaterialCard",
+        "lang" : "en",
         "type" : "literal"
         }
       
