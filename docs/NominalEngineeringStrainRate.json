@@ -12,6 +12,19 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "nominal engineering strain rate = vo/Lc",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "nominelle technische Dehnrate = vo/Lc",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "NominalEngineeringStrainRate",
         "lang" : "en",
@@ -27,6 +40,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Nominal engineering strain rate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "nominal engineering strain rate",
         "lang" : "en",
         "type" : "literal"
         }

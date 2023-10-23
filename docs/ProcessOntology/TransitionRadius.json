@@ -1,0 +1,50 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/TransitionRadius" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "transition radius between parallel part and clamping part of the test piece",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\u00DCbergangsradius zwischewn dem Parallelen Bereich und dem Kopfbereich der Probe",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "TransitionRadius",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "transition radius",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "TransitionRadius",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

@@ -1,9 +1,0 @@
-
-
-<https://w3id.org/steel/ProcessOntology/MachineData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/MachineData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/MachineData> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt."@de .
-<https://w3id.org/steel/ProcessOntology/MachineData> <http://www.w3.org/2000/01/rdf-schema#label> "MachineData"@en .
-<https://w3id.org/steel/ProcessOntology/MachineData> <http://www.w3.org/2004/02/skos/core#preflabel> "MachineData"@en .
-
-

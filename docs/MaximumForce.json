@@ -13,7 +13,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Maximalkraft",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "highest force that the test piece withstands during the test",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "maximum force",
         "lang" : "en",
         "type" : "literal"
         }

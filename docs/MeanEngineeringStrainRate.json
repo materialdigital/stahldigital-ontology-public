@@ -12,6 +12,19 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "mean engineering strain rate = A/tf",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "mittlere technische Dehnrate = A/tf",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "MeanEngineeringStrainRate",
         "lang" : "en",
@@ -27,6 +40,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Mean engineering strain rate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "mean engineering strain rate",
         "lang" : "en",
         "type" : "literal"
         }

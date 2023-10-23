@@ -13,12 +13,6 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Anfangsmessl\u00E4nge ",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "L\u00E4nge zwischen den Marken zur Kennzeichnung der Messl\u00E4nge (3.1) auf der Probe, die vor dem Versuch bei Raumtemperatur gemessen wird",
         "lang" : "de",
         "type" : "literal"
@@ -26,6 +20,12 @@
       ,
       {
         "value" : "The intial gauge length given by the specimen geometry",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "length between gauge length marks on the test piece measured at room temperature before the test",
         "lang" : "en",
         "type" : "literal"
         }

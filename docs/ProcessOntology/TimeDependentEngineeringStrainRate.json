@@ -12,6 +12,19 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "time-dependent engineering strain rate = de(t)/dt",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "zeitabh\u00E4ngige technische Dehnrate = de(t)/dt",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "TimeDependentEngineeringStrainRate",
         "lang" : "en",
@@ -33,6 +46,12 @@
       ,
       {
         "value" : "Time-dependent engineering strain rate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "time dependent engineering strain rate",
         "lang" : "en",
         "type" : "literal"
         }

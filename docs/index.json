@@ -2099,12 +2099,6 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Dehnungsaufnehmers (Extensometer)",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Type of the displacement transducer.",
         "lang" : "en",
         "type" : "literal"
@@ -2145,6 +2139,54 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "DisplacementTransducer",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/DynamometerArea" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Querschnitt auf der fest eingespannten Seite der Probe, in der lediglich elastische Verformungen w\u00E4hrend des Versuchs erlaubt sind",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "area on the fixed side of the test piece where only elastic deformations are required during the test",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "DynamometerArea",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "dynamometer area",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "DynamometerArea",
         "lang" : "en",
         "type" : "literal"
         }
@@ -2630,14 +2672,14 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Verl\u00E4ngerung (3.3), angegeben in Prozent, bezogen auf die Anfangsmessl\u00E4nge (3.1.1)",
+        "value" : "Zunahme der Anfangsmessl\u00E4nge (3.1.1) zu einem beliebigen Zeitpunkt w\u00E4hrend des Versuchs",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Zunahme der Anfangsmessl\u00E4nge (3.1.1) zu einem beliebigen Zeitpunkt w\u00E4hrend des Versuchs",
-        "lang" : "de",
+        "value" : "increase in the original gauge length (3.1.1) at any moment during the test",
+        "lang" : "en",
         "type" : "literal"
         }
       
@@ -2677,6 +2719,54 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/EngineeringStrain" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "time dependent engineering strain ",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "zeitabh\u00E4ngige technische Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "EngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "engineering strain ",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "EngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/EngineeringStress" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -2686,6 +2776,19 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "engineering stress",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "technische Spannung",
+        "lang" : "de",
+        "type" : "literal"
         }
       
       ],
@@ -3431,6 +3534,12 @@
       ,
       {
         "value" : "The intial gauge length used for measurement of extension by means of an extensometer",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "initial extensometer gauge length used for measurement of extension by means of an extensometer",
         "lang" : "en",
         "type" : "literal"
         }
@@ -4262,6 +4371,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "length between gauge length (3.1) marks on the test piece measured after rupture, at room temperature, the two pieces having been carefully fitted back together so that their axes lie in a straight line",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -4667,41 +4782,6 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/ForceTransducer" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/2002/07/owl#Class",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Die Kraftmesseinrichtung der Zugpr\u00FCfmaschine muss im relevanten Bereich mindestens der Klasse 1 nach ISO 7500-1 entsprechen.",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "ForceTransducer",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "ForceTransducer",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
   "https://w3id.org/steel/ProcessOntology/FormingLimitCurve" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -4745,6 +4825,17 @@
         "value" : "FormingLimitCurve",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/isBasedOn" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/MajorLimitStrain",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/MinorLimitStrain",
+        "type" : "uri"
         }
       
       ]
@@ -5055,6 +5146,12 @@
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
         "value" : "L\u00E4nge des parallelen Teils der Probe, an dem zu einem beliebigen Zeitpunkt w\u00E4hrend des Versuchs die Verl\u00E4ngerung gemessen wird",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "length of the parallel portion of the test piece on which elongation is measured at any moment during the test",
+        "lang" : "en",
         "type" : "literal"
         }
       
@@ -5867,7 +5964,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Pr\u00FCfgeschwindigkeit, die als Auftreffgeschwindigkeit bei Versuchsbeginn nominell eingestellt wurde ",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "The velocity of the actuator",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "initial displacement rate",
         "lang" : "en",
         "type" : "literal"
         }
@@ -5888,6 +5997,12 @@
       ,
       {
         "value" : "Initial displacement rate v0",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "initial displacement rate",
         "lang" : "en",
         "type" : "literal"
         }
@@ -6331,7 +6446,7 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/Labatory" : {
+  "https://w3id.org/steel/ProcessOntology/Laboratory" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
@@ -6344,28 +6459,28 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Pr\u00FCflabor, das den hydraulischen Tiefungsversuch durchgef\u00FChrt hat.",
+        "value" : "Pr\u00FCflabor, das die Werte des hydraulischen Tiefungsversuchs gemessen hat.",
         "lang" : "de",
         "type" : "literal"
         }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "Labatory",
+        "value" : "Laboratory",
         "lang" : "en",
         "type" : "literal"
         }
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Labatory",
+        "value" : "Laboratory",
         "lang" : "en",
         "type" : "literal"
         }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "Labatory",
+        "value" : "Laboratory",
         "lang" : "en",
         "type" : "literal"
         }
@@ -6436,6 +6551,12 @@
       {
         "value" : "kleinste Spannung w\u00E4hrend des plastischen Flie\u00DFens, wobei Einschwingerscheinungen nicht ber\u00FCcksichtigt werden",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "lowest value of stress during plastic yielding, ignoring any initial transient effects",
+        "lang" : "en",
         "type" : "literal"
         }
       
@@ -6663,41 +6784,6 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "Machine",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/MachineData" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/2002/07/owl#Class",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Die Pr\u00FCfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausger\u00FCstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden k\u00F6nnen. Der Pr\u00FCfmaschinenhersteller sollte Auskunft \u00FCber die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verl\u00E4ngerung (der Extensometer-Messl\u00E4nge), den Traversenweg, die Zeit und die Probenma\u00DFe beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt.",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "MachineData",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "MachineData",
         "lang" : "en",
         "type" : "literal"
         }
@@ -7312,7 +7398,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Maximalkraft",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "highest force that the test piece withstands during the test",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "maximum force",
         "lang" : "en",
         "type" : "literal"
         }
@@ -7455,6 +7553,19 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "mean engineering strain rate = A/tf",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "mittlere technische Dehnrate = A/tf",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "MeanEngineeringStrainRate",
         "lang" : "en",
@@ -7470,6 +7581,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Mean engineering strain rate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "mean engineering strain rate",
         "lang" : "en",
         "type" : "literal"
         }
@@ -7507,6 +7624,54 @@
       {
         "value" : "https://w3id.org/steel/ProcessOntology/Time",
         "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/MeanPlasticStrainRate" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Mittelwert der zeitabh\u00E4ngigen technischen Dehnrate: de(t)/dt im Bereich zwischen Flie\u00DFbeginn oder 1% Dehnung und Dehnung bei Maximalkraft",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "mean value of the time dependent engineering strain rate: de(t)/dt in the range between start of yield point or 1% strain and strain ar maximum force",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "MeanPlasticStrainRate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "mean plastic strain rate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "MeanPlasticStrainRate",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ]
@@ -8027,6 +8192,18 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Elastizit\u00E4tsmodul",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Modulus of elasticity",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Quotient der \u00C4nderung der Spannung \u0394R und \u00C4nderung der prozentualen Dehnung \u0394e in dem untersuchten Bereich multipliziert mit 100 %",
         "lang" : "de",
         "type" : "literal"
@@ -8178,6 +8355,19 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "nominal engineering strain rate = vo/Lc",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "nominelle technische Dehnrate = vo/Lc",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "NominalEngineeringStrainRate",
         "lang" : "en",
@@ -8193,6 +8383,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Nominal engineering strain rate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "nominal engineering strain rate",
         "lang" : "en",
         "type" : "literal"
         }
@@ -8501,6 +8697,12 @@
         }
       ,
       {
+        "value" : "original cross-sectional area of the parallel length",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "original crosssection area of the parallel length",
         "lang" : "en",
         "type" : "literal"
@@ -8724,12 +8926,6 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Anfangsmessl\u00E4nge ",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "L\u00E4nge zwischen den Marken zur Kennzeichnung der Messl\u00E4nge (3.1) auf der Probe, die vor dem Versuch bei Raumtemperatur gemessen wird",
         "lang" : "de",
         "type" : "literal"
@@ -8737,6 +8933,12 @@
       ,
       {
         "value" : "The intial gauge length given by the specimen geometry",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "length between gauge length marks on the test piece measured at room temperature before the test",
         "lang" : "en",
         "type" : "literal"
         }
@@ -9004,6 +9206,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "length of the parallel reduced section of the test piece",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -9133,6 +9341,12 @@
       ,
       {
         "value" : "percentage elongation after fracture",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "permanent elongation of the gauge length after fracture, (Lu \u2212 Lo), expressed as a percentage of the original gauge length (3.1.1)",
         "lang" : "en",
         "type" : "literal"
         }
@@ -9379,6 +9593,18 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "percentage plastic extension at maximum force, Fm",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "plastische Verl\u00E4ngerung der Extensometer-Messl\u00E4nge bei H\u00F6chstkraft, angegeben in Prozent",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "plastische Verl\u00E4ngerung der Extensometer-Messl\u00E4nge bei H\u00F6chstkraft, angegeben in Prozent, bezogen auf die Extensometer-Messl\u00E4nge",
         "lang" : "de",
         "type" : "literal"
@@ -9581,7 +9807,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Percentage total extension at maximum force Fm (total strain at maximum force, Fm)",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "gesamte Verl\u00E4ngerung (elastische plus plastische Verl\u00E4ngerung) der Extensometer-Messl\u00E4nge bei H\u00F6chstkraft, angegeben in Prozent, bezogen auf die Extensometer-Messl\u00E4nge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "gesamte Verl\u00E4ngerung der Extensometer-Messl\u00E4nge bei H\u00F6chstkraft, angegeben in Prozent, bezogen auf die Extensometer-Messl\u00E4nge",
         "lang" : "de",
         "type" : "literal"
         }
@@ -9784,7 +10022,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Geschwindigkeit des Kolben w\u00E4hrend des hydraulischen Tiefungsversuchs.",
+        "value" : "Geschwindigkeit des Kolbens w\u00E4hrend des hydraulischen Tiefungsversuchs.",
         "lang" : "de",
         "type" : "literal"
         }
@@ -9806,6 +10044,54 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "PistonSpeed",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/PlasticEngineeringStrain" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "plastic engineering strain ",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "plastische technische Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "PlasticEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "plastic engineering strain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "PlasticEngineeringStrain",
         "lang" : "en",
         "type" : "literal"
         }
@@ -10147,41 +10433,6 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/Preload" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/2002/07/owl#Class",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht \u00FCberschreitet. Eine Korrektur der Dehnung sollte unter Ber\u00FCcksichtigung der Vorkraft vorgenommen werden.",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "Preload",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "Preload",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
   "https://w3id.org/steel/ProcessOntology/PressureChamber" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -10425,6 +10676,12 @@
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
         "value" : "Spannung, bei der die plastische Extensometer-Dehnung einem vorgegebenen Prozentanteil der Extensometer-Messl\u00E4nge entspricht",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "stress at which the plastic extension is equal to a specified percentage of the extensometer gauge length",
+        "lang" : "en",
         "type" : "literal"
         }
       
@@ -12261,6 +12518,54 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Slope of the elastic pasrt of the stress-strain curve: in the elastic pasrt of the stress-strain curve the value of the slope can closely agree with the value of the modulus of elasticity if optimal conditions are used (high resolution, double-sided averaging extensometers, proper alignment of the test piece, etc.)",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "die Steigung des elastischen Teils der Spannungs-Dehnungs Kurve: die Steigung des elastischen Teils der Spannungs-Dehnungs-Kurve kann sehr nah mit dem Wert f\u00FCr das Elastizit\u00E4tsmodul \u00FCbereinstimmen, wenn optimale Bedingunge vorliegen (hohe Aufl\u00F6sung, doppelseitige Mittelung ders Extensometers, genaue Probenausrichtung, etc.)",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "SlopeElasticPartStressStrainCurve",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "slope of the elastic part of the stress-strain curve",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "SlopeElasticPartStressStrainCurve",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/Software" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -12665,6 +12970,12 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "extension expressed as a percentage of the extensometer gauge length",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "in Prozent angegebene Verl\u00E4ngerung der Extensometer-Messl\u00E4nge",
         "lang" : "de",
         "type" : "literal"
@@ -13348,41 +13659,6 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/Temperature" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/2002/07/owl#Class",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Versuche unter kontrollierten Bedingungen m\u00FCssen bei einer Temperatur von (23 \u00B1 5) \u00B0C durchgef\u00FChrt werden.",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "Temperature",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "Temperature",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
   "https://w3id.org/steel/ProcessOntology/TensileStrength" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -13403,6 +13679,12 @@
       ,
       {
         "value" : "maximum amount of tensile (pulling) stress that a material can withstand before failure ",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "stress corresponding to the maximum force",
         "lang" : "en",
         "type" : "literal"
         }
@@ -13867,41 +14149,6 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/TestSpeed" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/2002/07/owl#Class",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "w\u00E4hrend des Versuchs verwendete Geschwindigkeit(en)",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "TestSpeed",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "TestSpeed",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
   "https://w3id.org/steel/ProcessOntology/TestStandard" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -14080,6 +14327,54 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "TestTemperature",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/TestTime" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Duration from beginning of test to moment of fracture initiation",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Zeit zwischen Versuchsbeginn und Zeitpunkt der Bruchinitiierung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "TestTime",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "test time",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "TestTime",
         "lang" : "en",
         "type" : "literal"
         }
@@ -14583,6 +14878,19 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "time-dependent engineering strain rate = de(t)/dt",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "zeitabh\u00E4ngige technische Dehnrate = de(t)/dt",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "TimeDependentEngineeringStrainRate",
         "lang" : "en",
@@ -14604,6 +14912,12 @@
       ,
       {
         "value" : "Time-dependent engineering strain rate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "time dependent engineering strain rate",
         "lang" : "en",
         "type" : "literal"
         }
@@ -14847,6 +15161,54 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/TotalEngineeringStrain" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "gesamte (elastische und plastische) technische Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "total engineering strain ",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "TotalEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "total engineering strain ",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "TotalEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/TotalLength" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -14882,6 +15244,102 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "TotalLength",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/TransitionRadius" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "transition radius between parallel part and clamping part of the test piece",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\u00DCbergangsradius zwischewn dem Parallelen Bereich und dem Kopfbereich der Probe",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "TransitionRadius",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "transition radius",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "TransitionRadius",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/TruePlastic%20Strain" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "true plastic strain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "wahre plastische Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "TruePlastic Strain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "true plastic strain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "TruePlastic Strain",
         "lang" : "en",
         "type" : "literal"
         }
@@ -15074,6 +15532,19 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "true stress",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "wahre Spannung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "True Stress",
         "lang" : "en",
@@ -15238,6 +15709,54 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "TrueThicknessStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/TrueTotalStrain" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "gesamte wahre Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "true total strain ",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "TrueTotalStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "true total strain ",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "TrueTotalStrain",
         "lang" : "en",
         "type" : "literal"
         }
@@ -19183,6 +19702,108 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/hasDynamometerArea" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasDynamometerArea",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasDynamometerArea",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasDynamometerAreaObject" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasDynamometerArea",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/DynamometerArea",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasDynamometerArea",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasDynamometerArea_mm2" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasDynamometerArea_mm2",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasDynamometerArea",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasDynamometerArea_mm2",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "mm2",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/hasEbsdFileName" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -19795,7 +20416,7 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/hasElongation_%25" : {
+  "https://w3id.org/steel/ProcessOntology/hasElongation_mm" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
         "type" : "uri"
@@ -19808,7 +20429,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasElongation_%",
+        "value" : "hasElongation_mm",
         "lang" : "en",
         "type" : "literal"
         }
@@ -19821,7 +20442,109 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasElongation_%",
+        "value" : "hasElongation_mm",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "mm",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasEngineeringStrain" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasEngineeringStrainObject" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/EngineeringStrain",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasEngineeringStrain_%25" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasEngineeringStrain_%",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasEngineeringStrain",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasEngineeringStrain_%",
         "lang" : "en",
         "type" : "literal"
         }
@@ -19829,46 +20552,6 @@
       ],
     "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
         "value" : "%",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasElongation_1" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasElongation_1",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/hasElongation",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasElongation_1",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
-        "value" : "1",
         "type" : "literal"
         }
       
@@ -21663,68 +22346,6 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/hasForceTransducer" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasForceTransducer",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasForceTransducer",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasForceTransducerObject" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasForceTransducer",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/ForceTransducer",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasForceTransducer",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
   "https://w3id.org/steel/ProcessOntology/hasForce_N" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -23057,6 +23678,46 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/hasInitialDisplacementRate_mm%20s%20-1" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasInitialDisplacementRate_mm s -1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasInitialDisplacementRate",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasInitialDisplacementRate_mm s -1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "mm s -1",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/hasInitialDisplacementRate_mm%2Fs%20or%20m%2Fs" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -23691,7 +24352,7 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/hasLabatory" : {
+  "https://w3id.org/steel/ProcessOntology/hasLaboratory" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
         "type" : "uri"
@@ -23704,14 +24365,14 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasLabatory",
+        "value" : "hasLaboratory",
         "lang" : "en",
         "type" : "literal"
         }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasLabatory",
+        "value" : "hasLaboratory",
         "lang" : "en",
         "type" : "literal"
         }
@@ -23719,7 +24380,7 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/hasLabatoryObject" : {
+  "https://w3id.org/steel/ProcessOntology/hasLaboratoryObject" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
         "type" : "uri"
@@ -23732,20 +24393,20 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasLabatory",
+        "value" : "hasLaboratory",
         "lang" : "en",
         "type" : "literal"
         }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/Labatory",
+        "value" : "https://w3id.org/steel/ProcessOntology/Laboratory",
         "type" : "literal"
         }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasLabatory",
+        "value" : "hasLaboratory",
         "lang" : "en",
         "type" : "literal"
         }
@@ -24029,68 +24690,6 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "hasMachine",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasMachineData" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasMachineData",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasMachineData",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasMachineDataObject" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasMachineData",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/MachineData",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasMachineData",
         "lang" : "en",
         "type" : "literal"
         }
@@ -24827,6 +25426,46 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/hasMaximumForce_N" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasMaximumForce_N",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasMaximumForce",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasMaximumForce_N",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "N",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/hasMaximumForce_kN" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -24956,6 +25595,108 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "hasMeanEngineeringStrainRate_s-1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "s-1",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasMeanPlasticStrainRate" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasMeanPlasticStrainRate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasMeanPlasticStrainRate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasMeanPlasticStrainRateObject" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasMeanPlasticStrainRate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/MeanPlasticStrainRate",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasMeanPlasticStrainRate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasMeanPlasticStrainRate_s-1" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasMeanPlasticStrainRate_s-1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasMeanPlasticStrainRate",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasMeanPlasticStrainRate_s-1",
         "lang" : "en",
         "type" : "literal"
         }
@@ -27941,6 +28682,108 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/hasPlasticEngineeringStrain" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasPlasticEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasPlasticEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasPlasticEngineeringStrainObject" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasPlasticEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/PlasticEngineeringStrain",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasPlasticEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasPlasticEngineeringStrain_%25" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasPlasticEngineeringStrain_%",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasPlasticEngineeringStrain",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasPlasticEngineeringStrain_%",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "%",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/hasPoissonRatio" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
@@ -28270,68 +29113,6 @@
       ],
     "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
         "value" : "kN",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasPreload" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasPreload",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasPreload",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasPreloadObject" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasPreload",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/Preload",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasPreload",
-        "lang" : "en",
         "type" : "literal"
         }
       
@@ -30979,6 +31760,108 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasSlopeElasticPartStressStrainCurve",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasSlopeElasticPartStressStrainCurve",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurveObject" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasSlopeElasticPartStressStrainCurve",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasSlopeElasticPartStressStrainCurve",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve_MPa" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasSlopeElasticPartStressStrainCurve_MPa",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasSlopeElasticPartStressStrainCurve_MPa",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "MPa",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/hasSoftware" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -32140,108 +33023,6 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/hasTemperature" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasTemperature",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasTemperature",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasTemperatureObject" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasTemperature",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/Temperature",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasTemperature",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasTemperature_%C2%B0C" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasTemperature_\u00B0C",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/hasTemperature",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasTemperature_\u00B0C",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
-        "value" : "\u00B0C",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
   "https://w3id.org/steel/ProcessOntology/hasTensileStrength" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -32730,68 +33511,6 @@
       ]
     }
   ,
-  "https://w3id.org/steel/ProcessOntology/hasTestSpeed" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasTestSpeed",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasTestSpeed",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasTestSpeedObject" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasTestSpeed",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/TestSpeed",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasTestSpeed",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
   "https://w3id.org/steel/ProcessOntology/hasTestStandard" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -33012,6 +33731,108 @@
       ],
     "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
         "value" : "\u00B0C",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTestTime" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTestTime",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTestTime",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTestTimeObject" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTestTime",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/TestTime",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTestTime",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTestTime_s" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTestTime_s",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasTestTime",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTestTime_s",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "s",
         "type" : "literal"
         }
       
@@ -33827,6 +34648,108 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/hasTotalEngineeringStrain" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTotalEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTotalEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTotalEngineeringStrainObject" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTotalEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/TotalEngineeringStrain",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTotalEngineeringStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTotalEngineeringStrain_%25" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTotalEngineeringStrain_%",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasTotalEngineeringStrain",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTotalEngineeringStrain_%",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "%",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/hasTotalLength" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -33923,6 +34846,210 @@
       ],
     "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
         "value" : "mm",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTransitionRadius" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTransitionRadius",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTransitionRadius",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTransitionRadiusObject" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTransitionRadius",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/TransitionRadius",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTransitionRadius",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTransitionRadius_mm" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTransitionRadius_mm",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasTransitionRadius",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTransitionRadius_mm",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "mm",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTruePlastic%20Strain" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTruePlastic Strain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTruePlastic Strain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTruePlastic%20StrainObject" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTruePlastic Strain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/TruePlastic Strain",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTruePlastic Strain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTruePlastic%20Strain_1" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTruePlastic Strain_1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasTruePlastic%20Strain",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTruePlastic Strain_1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "1",
         "type" : "literal"
         }
       
@@ -34455,6 +35582,108 @@
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "hasTrueThicknessStrain",
         "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTrueTotalStrain" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTrueTotalStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTrueTotalStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTrueTotalStrainObject" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTrueTotalStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/TrueTotalStrain",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTrueTotalStrain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTrueTotalStrain_1" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasTrueTotalStrain_1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasTrueTotalStrain",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasTrueTotalStrain_1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "1",
         "type" : "literal"
         }
       

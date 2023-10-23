@@ -13,7 +13,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Pr\u00FCfgeschwindigkeit, die als Auftreffgeschwindigkeit bei Versuchsbeginn nominell eingestellt wurde ",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "The velocity of the actuator",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "initial displacement rate",
         "lang" : "en",
         "type" : "literal"
         }
@@ -34,6 +46,12 @@
       ,
       {
         "value" : "Initial displacement rate v0",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "initial displacement rate",
         "lang" : "en",
         "type" : "literal"
         }

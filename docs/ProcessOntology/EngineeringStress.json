@@ -12,6 +12,19 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "engineering stress",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "technische Spannung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "EngineeringStress",
         "lang" : "en",

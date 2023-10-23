@@ -1,0 +1,50 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Slope of the elastic pasrt of the stress-strain curve: in the elastic pasrt of the stress-strain curve the value of the slope can closely agree with the value of the modulus of elasticity if optimal conditions are used (high resolution, double-sided averaging extensometers, proper alignment of the test piece, etc.)",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "die Steigung des elastischen Teils der Spannungs-Dehnungs Kurve: die Steigung des elastischen Teils der Spannungs-Dehnungs-Kurve kann sehr nah mit dem Wert f\u00FCr das Elastizit\u00E4tsmodul \u00FCbereinstimmen, wenn optimale Bedingunge vorliegen (hohe Aufl\u00F6sung, doppelseitige Mittelung ders Extensometers, genaue Probenausrichtung, etc.)",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "SlopeElasticPartStressStrainCurve",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "slope of the elastic part of the stress-strain curve",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "SlopeElasticPartStressStrainCurve",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }
