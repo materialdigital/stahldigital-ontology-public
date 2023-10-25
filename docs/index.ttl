@@ -1151,6 +1151,12 @@
         rdfs:label      "hasDiameter"@en ;
         skos:preflabel  "hasDiameter"@en .
 
+<https://w3id.org/steel/ProcessOntology/Elastoplastic%20model>
+        rdf:type         skos:Concept , owl:Class ;
+        rdfs:label       "Elastoplastic model"@en ;
+        rdfs:subClassOf  "https://material-digital.de/pmdco/ValueObject" ;
+        skos:preflabel   "Elastoplastic model"@en .
+
 :hasSpecificPlasticWorkValue
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasSpecificPlasticWorkValue"@en ;
@@ -2851,6 +2857,12 @@
         rdfs:label      "hasReferenceTemperature"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/ReferenceTemperature" ;
         skos:preflabel  "hasReferenceTemperature"@en .
+
+<https://w3id.org/steel/ProcessOntology/hasElastoplastic%20model>
+        rdf:type        owl:ObjectProperty ;
+        rdfs:label      "hasElastoplastic model"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/Elastoplastic model" ;
+        skos:preflabel  "hasElastoplastic model"@en .
 
 :MajorTrueStrain  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "major true strain"@en , "Größere Formänderung"@de ;
@@ -5382,6 +5394,12 @@
         rdfs:label      "hasInnerDiameterBlankHolder"@en ;
         skos:preflabel  "hasInnerDiameterBlankHolder"@en .
 
+:hasHardeningLawObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasHardeningLaw"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/HardeningLaw" ;
+        skos:preflabel  "hasHardeningLaw"@en .
+
 :hasElasticConstantC11Object
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasElasticConstantC11"@en ;
@@ -5391,12 +5409,6 @@
 <https://w3id.org/steel/ProcessOntology/emmo%3AProgrammingLanguage>
         rdf:type      owl:Class ;
         rdfs:comment  "A language object that follows syntactic rules of a programming language."@en .
-
-:hasHardeningLawObject
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasHardeningLaw"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/HardeningLaw" ;
-        skos:preflabel  "hasHardeningLaw"@en .
 
 :DefaultValue  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "unterer oder oberer Wert für die Spannung beziehungsweise Extensometer-Dehnung, der für die Beschreibung des Bereichs, in dem der Elastizitätsmodul berechnet wird, benutzt wird"@de ;
