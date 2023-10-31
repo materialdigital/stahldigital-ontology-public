@@ -850,6 +850,7 @@
         skos:preflabel  "hasProofStrength_1Percentage"@en .
 
 :LatentHardeningQ0  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "Parameter, der in der Interaktionsmatrix die Fremdverfestigung (latent hardning) eines Gleitsystems innerhalb der gleichen Gleitsystem-Familie beschreibt"@de ;
         rdfs:label      "LatentHardeningQ0"@en ;
         skos:altlabel   "LatentHardening q0"@en ;
         skos:preflabel  "LatentHardeningQ0"@en .
@@ -4303,6 +4304,7 @@
         :hasUnitLabel       "MPa" .
 
 :LatentHardeningQ1  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "Parameter, der in der Interaktionsmatrix die Fremdverfestigung (latent hardning) eines Gleitsystems infolge eines Gleitsystems aus einer anderen Gleitsystem-Familie beschreibt"@de ;
         rdfs:label      "LatentHardeningQ1"@en ;
         skos:altlabel   "LatentHardening q1"@en ;
         skos:preflabel  "LatentHardeningQ1"@en .
