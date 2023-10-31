@@ -158,7 +158,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Datei mit Informationen zu den verwendeten Amplituden",
+        "value" : "Datei mit Informationen zu den verwendeten Amplituden f\u00FCr die Mikrostruktursimulation",
         "lang" : "de",
         "type" : "literal"
         }
@@ -380,7 +380,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Datei mit Informationen zu den verwendeten Randbedingungen",
+        "value" : "Datei mit Informationen zu den verwendeten Randbedingungen f\u00FCr die Mikrostruktursimulation",
         "lang" : "de",
         "type" : "literal"
         }
@@ -2057,7 +2057,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Diskritisierung bzw. die Anzahl an Elementen f\u00FCr das Mikrostrukturmodell",
+        "value" : "Diskretisierung bzw. die Anzahl an Elementen f\u00FCr das Mikrostrukturmodell",
         "lang" : "de",
         "type" : "literal"
         }
@@ -5569,7 +5569,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Tabellarische Darstellung des Verfestigungsgesetzes in Form von Spannungs-Dehnungs-Daten",
+        "value" : "Tabellarische Darstellung des Verfestigungsgesetzes auf der Gleiteebene in Form von Spannungs-Dehnungs-Daten ",
         "lang" : "de",
         "type" : "literal"
         }
@@ -5611,7 +5611,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Verfestigungsgesetz, das f\u00FCr das Kristalplastizit\u00E4tsmodell des Mikrostrukturmodells verwendet wird",
+        "value" : "Verfestigungsgesetz auf der Gleitebene, das f\u00FCr das Kristalplastizit\u00E4tsmodell des Mikrostrukturmodells verwendet wird",
         "lang" : "de",
         "type" : "literal"
         }
@@ -5662,7 +5662,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Verfestigungsparameter, der im Kristallplastizit\u00E4tsmodell verwendet wird",
+        "value" : "Verfestigungsparameter, f\u00FCr das Voce-typ Verfestigungsmodell, welches im Kristallplastizit\u00E4tsmodell verwendet wird",
         "lang" : "de",
         "type" : "literal"
         }
@@ -5704,7 +5704,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Verfestigungsparameter, der im Kristallplastizit\u00E4tsmodell verwendet wird",
+        "value" : "Verfestigungsparameter, f\u00FCr das Voce-typ Verfestigungsmodell, welches im Kristallplastizit\u00E4tsmodell verwendet wird",
         "lang" : "de",
         "type" : "literal"
         }
@@ -5746,7 +5746,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Verfestigungsparameter, der im Kristallplastizit\u00E4tsmodell verwendet wird",
+        "value" : "Verfestigungsparameter, f\u00FCr das Voce-typ Verfestigungsmodell, welches im Kristallplastizit\u00E4tsmodell verwendet wird",
         "lang" : "de",
         "type" : "literal"
         }
@@ -5788,7 +5788,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Verfestigungsparameter, der im Kristallplastizit\u00E4tsmodell verwendet wird",
+        "value" : "Verfestigungsparameter, f\u00FCr das Voce-typ Verfestigungsmodell, welches im Kristallplastizit\u00E4tsmodell verwendet wird",
         "lang" : "de",
         "type" : "literal"
         }
@@ -7945,7 +7945,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Input-Datei eines Mikrostrukturmodells f\u00FCr das Programm Abaqus",
+        "value" : "Input-Datei eines Mikrostrukturmodells f\u00FCr den jeweiligen Solver",
         "lang" : "de",
         "type" : "literal"
         }
@@ -12878,7 +12878,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Daten f\u00FCr die spezifische plastische Arbeit des durchgef\u00FChrten Mikrostruktursimulation",
+        "value" : "Daten f\u00FCr die spezifische plastische Arbeit der durchgef\u00FChrten Mikrostruktursimulation",
         "lang" : "de",
         "type" : "literal"
         }
@@ -20046,6 +20046,46 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/hasEffecticStrain_-" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasEffecticStrain_-",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasEffecticStrain",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasEffecticStrain_-",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "-",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/hasEffectiveStress" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -20102,6 +20142,46 @@
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "hasEffectiveStress",
         "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasEffectiveStress_MPa" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasEffectiveStress_MPa",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasEffectiveStress",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasEffectiveStress_MPa",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "MPa",
         "type" : "literal"
         }
       
@@ -32951,6 +33031,46 @@
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "hasStrainRateScaleParameterP",
         "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasStrainRate_1%2Fs" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasStrainRate_1/s",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasStrainRate",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasStrainRate_1/s",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "1/s",
         "type" : "literal"
         }
       

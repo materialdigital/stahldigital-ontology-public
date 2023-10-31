@@ -386,7 +386,7 @@ A set of quantites being attributed to a measurand (measured quantitative proper
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningParameterTau0">
-    <rdfs:comment xml:lang="de">Verfestigungsparameter, der im Kristallplastizitätsmodell verwendet wird</rdfs:comment>
+    <rdfs:comment xml:lang="de">Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningParameterTau0">
     <rdfs:label xml:lang="en">HardeningParameterTau0</rdfs:label>
@@ -1250,7 +1250,7 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MicrostructureModel">
-    <rdfs:comment xml:lang="de">Input-Datei eines Mikrostrukturmodells für das Programm Abaqus</rdfs:comment>
+    <rdfs:comment xml:lang="de">Input-Datei eines Mikrostrukturmodells für den jeweiligen Solver</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MicrostructureModel">
     <rdfs:label xml:lang="en">MicrostructureModel</rdfs:label>
@@ -2273,6 +2273,24 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasShearLengthAfterFracture1">
     <skos:preflabel xml:lang="en">hasShearLengthAfterFracture1</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEffectiveStress_MPa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEffectiveStress_MPa">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEffectiveStress_MPa">
+    <rdfs:label xml:lang="en">hasEffectiveStress_MPa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEffectiveStress_MPa">
+    <rdfs:subPropertyOf rdf:resource="https://w3id.org/steel/ProcessOntology/hasEffectiveStress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEffectiveStress_MPa">
+    <skos:preflabel xml:lang="en">hasEffectiveStress_MPa</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEffectiveStress_MPa">
+    <hasUnitLabel>MPa</hasUnitLabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DamaskCode">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -2847,7 +2865,7 @@ or
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0">
-    <rdfs:comment xml:lang="de">Verfestigungsparameter, der im Kristallplastizitätsmodell verwendet wird</rdfs:comment>
+    <rdfs:comment xml:lang="de">Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0">
     <rdfs:label xml:lang="en">HardeningParameterTheta0</rdfs:label>
@@ -3873,7 +3891,7 @@ or
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SpecificPlasticWork">
-    <rdfs:comment xml:lang="de">Daten für die spezifische plastische Arbeit des durchgeführten Mikrostruktursimulation</rdfs:comment>
+    <rdfs:comment xml:lang="de">Daten für die spezifische plastische Arbeit der durchgeführten Mikrostruktursimulation</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SpecificPlasticWork">
     <rdfs:label xml:lang="en">SpecificPlasticWork</rdfs:label>
@@ -7203,7 +7221,7 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningLaw">
-    <rdfs:comment xml:lang="de">Verfestigungsgesetz, das für das Kristalplastizitätsmodell des Mikrostrukturmodells verwendet wird</rdfs:comment>
+    <rdfs:comment xml:lang="de">Verfestigungsgesetz auf der Gleitebene, das für das Kristalplastizitätsmodell des Mikrostrukturmodells verwendet wird</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningLaw">
     <rdfs:label xml:lang="en">HardeningLaw</rdfs:label>
@@ -8393,7 +8411,7 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AmplitudeFile">
-    <rdfs:comment xml:lang="de">Datei mit Informationen zu den verwendeten Amplituden</rdfs:comment>
+    <rdfs:comment xml:lang="de">Datei mit Informationen zu den verwendeten Amplituden für die Mikrostruktursimulation</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AmplitudeFile">
     <rdfs:label xml:lang="en">AmplitudeFile</rdfs:label>
@@ -10102,7 +10120,7 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningParameterTau1">
-    <rdfs:comment xml:lang="de">Verfestigungsparameter, der im Kristallplastizitätsmodell verwendet wird</rdfs:comment>
+    <rdfs:comment xml:lang="de">Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningParameterTau1">
     <rdfs:label xml:lang="en">HardeningParameterTau1</rdfs:label>
@@ -10300,7 +10318,7 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningCurve">
-    <rdfs:comment xml:lang="de">Tabellarische Darstellung des Verfestigungsgesetzes in Form von Spannungs-Dehnungs-Daten</rdfs:comment>
+    <rdfs:comment xml:lang="de">Tabellarische Darstellung des Verfestigungsgesetzes auf der Gleiteebene in Form von Spannungs-Dehnungs-Daten </rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningCurve">
     <rdfs:label xml:lang="en">HardeningCurve</rdfs:label>
@@ -10549,7 +10567,7 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/BoundaryFile">
-    <rdfs:comment xml:lang="de">Datei mit Informationen zu den verwendeten Randbedingungen</rdfs:comment>
+    <rdfs:comment xml:lang="de">Datei mit Informationen zu den verwendeten Randbedingungen für die Mikrostruktursimulation</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/BoundaryFile">
     <rdfs:label xml:lang="en">BoundaryFile</rdfs:label>
@@ -12804,6 +12822,24 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMaximumForceDiscontinousYielding">
     <skos:preflabel xml:lang="en">hasMaximumForceDiscontinousYielding</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStrainRate_1%2Fs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStrainRate_1%2Fs">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStrainRate_1%2Fs">
+    <rdfs:label xml:lang="en">hasStrainRate_1/s</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStrainRate_1%2Fs">
+    <rdfs:subPropertyOf rdf:resource="https://w3id.org/steel/ProcessOntology/hasStrainRate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStrainRate_1%2Fs">
+    <skos:preflabel xml:lang="en">hasStrainRate_1/s</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStrainRate_1%2Fs">
+    <hasUnitLabel>1/s</hasUnitLabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasThicknessAfterFracture1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
@@ -12886,7 +12922,7 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningParameterTheta1">
-    <rdfs:comment xml:lang="de">Verfestigungsparameter, der im Kristallplastizitätsmodell verwendet wird</rdfs:comment>
+    <rdfs:comment xml:lang="de">Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningParameterTheta1">
     <rdfs:label xml:lang="en">HardeningParameterTheta1</rdfs:label>
@@ -15148,7 +15184,7 @@ GT.0.0: Constant fading exponent</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Discretization">
-    <rdfs:comment xml:lang="de">Diskritisierung bzw. die Anzahl an Elementen für das Mikrostrukturmodell</rdfs:comment>
+    <rdfs:comment xml:lang="de">Diskretisierung bzw. die Anzahl an Elementen für das Mikrostrukturmodell</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Discretization">
     <rdfs:label xml:lang="en">Discretization</rdfs:label>
@@ -16007,6 +16043,24 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasElasticConstantC44Object">
     <skos:preflabel xml:lang="en">hasElasticConstantC44</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEffecticStrain_-">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEffecticStrain_-">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEffecticStrain_-">
+    <rdfs:label xml:lang="en">hasEffecticStrain_-</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEffecticStrain_-">
+    <rdfs:subPropertyOf rdf:resource="https://w3id.org/steel/ProcessOntology/hasEffecticStrain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEffecticStrain_-">
+    <skos:preflabel xml:lang="en">hasEffecticStrain_-</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEffecticStrain_-">
+    <hasUnitLabel>-</hasUnitLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasAmplitudeFileObject">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>

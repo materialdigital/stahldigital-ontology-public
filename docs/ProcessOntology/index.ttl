@@ -146,7 +146,7 @@
 
 :HardeningParameterTau0
         rdf:type        skos:Concept , owl:Class ;
-        rdfs:comment    "Verfestigungsparameter, der im Kristallplastizitätsmodell verwendet wird"@de ;
+        rdfs:comment    "Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird"@de ;
         rdfs:label      "HardeningParameterTau0"@en ;
         skos:altlabel   "Hardening parameter tau0"@en ;
         skos:preflabel  "HardeningParameterTau0"@en .
@@ -457,7 +457,7 @@
         skos:preflabel  "hasMaterialIdentifier"@en .
 
 :MicrostructureModel  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "Input-Datei eines Mikrostrukturmodells für das Programm Abaqus"@de ;
+        rdfs:comment    "Input-Datei eines Mikrostrukturmodells für den jeweiligen Solver"@de ;
         rdfs:label      "MicrostructureModel"@en ;
         skos:altlabel   "Microstructure model"@en ;
         skos:preflabel  "MicrostructureModel"@en .
@@ -824,6 +824,13 @@
         rdfs:label      "hasShearLengthAfterFracture1"@en ;
         skos:preflabel  "hasShearLengthAfterFracture1"@en .
 
+:hasEffectiveStress_MPa
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasEffectiveStress_MPa"@en ;
+        rdfs:subPropertyOf  :hasEffectiveStress ;
+        skos:preflabel      "hasEffectiveStress_MPa"@en ;
+        :hasUnitLabel       "MPa" .
+
 :DamaskCode  rdf:type    owl:Class ;
         rdfs:label       "Damask code"@en , "Damask Code"@de ;
         rdfs:subClassOf  :Code ;
@@ -1030,7 +1037,7 @@
 
 :HardeningParameterTheta0
         rdf:type        skos:Concept , owl:Class ;
-        rdfs:comment    "Verfestigungsparameter, der im Kristallplastizitätsmodell verwendet wird"@de ;
+        rdfs:comment    "Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird"@de ;
         rdfs:label      "HardeningParameterTheta0"@en ;
         skos:altlabel   "Hardening parameter theta0"@en ;
         skos:preflabel  "HardeningParameterTheta0"@en .
@@ -1388,7 +1395,7 @@
         skos:preflabel  "hasFailureStrainIdentifier4StrainRate"@en .
 
 :SpecificPlasticWork  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "Daten für die spezifische plastische Arbeit des durchgeführten Mikrostruktursimulation"@de ;
+        rdfs:comment    "Daten für die spezifische plastische Arbeit der durchgeführten Mikrostruktursimulation"@de ;
         rdfs:label      "SpecificPlasticWork"@en ;
         skos:altlabel   "Specific plastic work"@en ;
         skos:preflabel  "SpecificPlasticWork"@en .
@@ -2536,7 +2543,7 @@
         skos:preflabel  "sequence"@en .
 
 :HardeningLaw  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "Verfestigungsgesetz, das für das Kristalplastizitätsmodell des Mikrostrukturmodells verwendet wird"@de ;
+        rdfs:comment    "Verfestigungsgesetz auf der Gleitebene, das für das Kristalplastizitätsmodell des Mikrostrukturmodells verwendet wird"@de ;
         rdfs:label      "HardeningLaw"@en ;
         skos:altlabel   "Hardening law"@en ;
         skos:preflabel  "HardeningLaw"@en .
@@ -2956,7 +2963,7 @@
         :hasLabelSourceEn  "LS-DYNA_Manual_Volume_2" .
 
 :AmplitudeFile  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "Datei mit Informationen zu den verwendeten Amplituden"@de ;
+        rdfs:comment    "Datei mit Informationen zu den verwendeten Amplituden für die Mikrostruktursimulation"@de ;
         rdfs:label      "AmplitudeFile"@en ;
         skos:altlabel   "Amplitude file"@en ;
         skos:preflabel  "AmplitudeFile"@en .
@@ -3538,7 +3545,7 @@
 
 :HardeningParameterTau1
         rdf:type        skos:Concept , owl:Class ;
-        rdfs:comment    "Verfestigungsparameter, der im Kristallplastizitätsmodell verwendet wird"@de ;
+        rdfs:comment    "Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird"@de ;
         rdfs:label      "HardeningParameterTau1"@en ;
         skos:altlabel   "Hardening parameter tau1"@en ;
         skos:preflabel  "HardeningParameterTau1"@en .
@@ -3600,7 +3607,7 @@
         skos:preflabel  "hasHardeningParameterTau1"@en .
 
 :HardeningCurve  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "Tabellarische Darstellung des Verfestigungsgesetzes in Form von Spannungs-Dehnungs-Daten"@de ;
+        rdfs:comment    "Tabellarische Darstellung des Verfestigungsgesetzes auf der Gleiteebene in Form von Spannungs-Dehnungs-Daten "@de ;
         rdfs:label      "HardeningCurve"@en ;
         skos:altlabel   "Hardening curve"@en ;
         skos:preflabel  "HardeningCurve"@en .
@@ -3687,7 +3694,7 @@
         skos:preflabel  "hasOriginalGaugeLength"@en .
 
 :BoundaryFile  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "Datei mit Informationen zu den verwendeten Randbedingungen"@de ;
+        rdfs:comment    "Datei mit Informationen zu den verwendeten Randbedingungen für die Mikrostruktursimulation"@de ;
         rdfs:label      "BoundaryFile"@en ;
         skos:altlabel   "Boundary file"@en ;
         skos:preflabel  "BoundaryFile"@en .
@@ -4451,6 +4458,13 @@
         rdfs:label      "hasMaximumForceDiscontinousYielding"@en ;
         skos:preflabel  "hasMaximumForceDiscontinousYielding"@en .
 
+<https://w3id.org/steel/ProcessOntology/hasStrainRate_1%2Fs>
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasStrainRate_1/s"@en ;
+        rdfs:subPropertyOf  :hasStrainRate ;
+        skos:preflabel      "hasStrainRate_1/s"@en ;
+        :hasUnitLabel       "1/s" .
+
 :hasThicknessAfterFracture1
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasThicknessAfterFracture1"@en ;
@@ -4480,7 +4494,7 @@
 
 :HardeningParameterTheta1
         rdf:type        skos:Concept , owl:Class ;
-        rdfs:comment    "Verfestigungsparameter, der im Kristallplastizitätsmodell verwendet wird"@de ;
+        rdfs:comment    "Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird"@de ;
         rdfs:label      "HardeningParameterTheta1"@en ;
         skos:altlabel   "Hardening parameter theta1"@en ;
         skos:preflabel  "HardeningParameterTheta1"@en .
@@ -5268,7 +5282,7 @@
         skos:preflabel  "hasMeanPlasticStrainRate"@en .
 
 :Discretization  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "Diskritisierung bzw. die Anzahl an Elementen für das Mikrostrukturmodell"@de ;
+        rdfs:comment    "Diskretisierung bzw. die Anzahl an Elementen für das Mikrostrukturmodell"@de ;
         rdfs:label      "Discretization"@en ;
         skos:altlabel   "Discretization"@en ;
         skos:preflabel  "Discretization"@en .
@@ -5562,6 +5576,12 @@
         rdfs:label      "hasElasticConstantC44"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/ElasticConstantC44" ;
         skos:preflabel  "hasElasticConstantC44"@en .
+
+:hasEffecticStrain_-  rdf:type  owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasEffecticStrain_-"@en ;
+        rdfs:subPropertyOf  :hasEffecticStrain ;
+        skos:preflabel      "hasEffecticStrain_-"@en ;
+        :hasUnitLabel       "-" .
 
 :hasAmplitudeFileObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
