@@ -849,6 +849,11 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/ProofStrength_1Percentage" ;
         skos:preflabel  "hasProofStrength_1Percentage"@en .
 
+:LatentHardeningQ0  rdf:type  skos:Concept , owl:Class ;
+        rdfs:label      "LatentHardeningQ0"@en ;
+        skos:altlabel   "LatentHardening q0"@en ;
+        skos:preflabel  "LatentHardeningQ0"@en .
+
 :hasNominalEngineeringStrainRateObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasNominalEngineeringStrainRate"@en ;
@@ -1387,6 +1392,13 @@
         skos:altlabel   "Specific plastic work"@en ;
         skos:preflabel  "SpecificPlasticWork"@en .
 
+:hasLatentHardeningQ1_-
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasLatentHardeningQ1_-"@en ;
+        rdfs:subPropertyOf  :hasLatentHardeningQ1 ;
+        skos:preflabel      "hasLatentHardeningQ1_-"@en ;
+        :hasUnitLabel       "-" .
+
 :hasYieldForce_0.2PercentageObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasYieldForce_0.2Percentage"@en ;
@@ -1433,6 +1445,12 @@
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasTimeDependentEngineeringStrainRate"@en ;
         skos:preflabel  "hasTimeDependentEngineeringStrainRate"@en .
+
+:hasLatentHardeningQ1Object
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasLatentHardeningQ1"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/LatentHardeningQ1" ;
+        skos:preflabel  "hasLatentHardeningQ1"@en .
 
 :hasElementDeletionTreatment
         rdf:type        owl:ObjectProperty ;
@@ -1979,6 +1997,11 @@
         rdfs:label      "hasExtensometerGaugeLength"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength" ;
         skos:preflabel  "hasExtensometerGaugeLength"@en .
+
+:hasLatentHardeningQ1
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasLatentHardeningQ1"@en ;
+        skos:preflabel  "hasLatentHardeningQ1"@en .
 
 :hasPistonSpeed  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasPistonSpeed"@en ;
@@ -4279,6 +4302,11 @@
         skos:preflabel      "hasModulusOfElasticity_MPa"@en ;
         :hasUnitLabel       "MPa" .
 
+:LatentHardeningQ1  rdf:type  skos:Concept , owl:Class ;
+        rdfs:label      "LatentHardeningQ1"@en ;
+        skos:altlabel   "LatentHardening q1"@en ;
+        skos:preflabel  "LatentHardeningQ1"@en .
+
 :hasInitialSheetThicknessObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasInitialSheetThickness"@en ;
@@ -4310,6 +4338,11 @@
         rdfs:comment    "Properties that contribute towards the structural integrity of a component. Example Thickness, negative example Paint/ Color of Paint"@en ;
         rdfs:label      "Property of structural relevance"@en , "Strukturrelevante Eigenschaft"@de ;
         skos:preflabel  "Property of structural relevance"@en , "Strukturrelevante Eigenschaft"@de .
+
+:hasLatentHardeningQ0
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasLatentHardeningQ0"@en ;
+        skos:preflabel  "hasLatentHardeningQ0"@en .
 
 :SpecimenWidth  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "verbleibende Breite des Schnittteils"@de ;
@@ -4684,6 +4717,13 @@
         rdfs:subPropertyOf  :hasNotchTensileStrength ;
         skos:preflabel      "hasNotchTensileStrength_MPa"@en ;
         :hasUnitLabel       "MPa" .
+
+:hasLatentHardeningQ0_-
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasLatentHardeningQ0_-"@en ;
+        rdfs:subPropertyOf  :hasLatentHardeningQ0 ;
+        skos:preflabel      "hasLatentHardeningQ0_-"@en ;
+        :hasUnitLabel       "-" .
 
 :hasExtensionAtFracture_mm
         rdf:type            owl:DatatypeProperty , rdf:Property ;
@@ -5212,6 +5252,12 @@
         rdfs:label      "hasPercentageElongationAfterFracture"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/PercentageElongationAfterFracture" ;
         skos:preflabel  "hasPercentageElongationAfterFracture"@en .
+
+:hasLatentHardeningQ0Object
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasLatentHardeningQ0"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/LatentHardeningQ0" ;
+        skos:preflabel  "hasLatentHardeningQ0"@en .
 
 :hasMeanPlasticStrainRateObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
