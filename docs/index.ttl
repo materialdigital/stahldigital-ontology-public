@@ -50,10 +50,6 @@
         rdfs:label      "stand"@en , "Walzgerüst"@de ;
         skos:preflabel  "stand"@en , "Walzgerüst"@de .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AMeasurementResult>
-        rdf:type      owl:Class ;
-        rdfs:comment  "Result of a measurement.\n\nA set of quantites being attributed to a measurand (measured quantitative property) together with any other available relevant information, like measurement uncertainty.\n\n-- VIM"@en .
-
 :PyironProject  rdf:type  owl:Class ;
         rdfs:comment    "A frame where all pyiron jobs are done on top of this frame. It encloses a number of jobs. It also provides utility functions for creatig python objects for these jobs."@en ;
         rdfs:label      "Pyiron project"@en , "Pyiron Projekt"@de ;
@@ -202,12 +198,6 @@
         skos:preflabel      "hasPercentageExtension_1"@en ;
         :hasUnitLabel       "1" .
 
-:hasHardeningParameterTau1Object
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasHardeningParameterTau1"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/HardeningParameterTau1" ;
-        skos:preflabel  "hasHardeningParameterTau1"@en .
-
 :FailureStrainIdentifier4StrainRate
         rdf:type           skos:Concept , owl:Class ;
         rdfs:comment       "Load curve ID defining plastic failure strain as a function of plastic strain rate"@en ;
@@ -217,6 +207,12 @@
         skos:preflabel     "FailureStrainIdentifier4StrainRate"@en ;
         :UnitLabel         "-" ;
         :hasLabelSourceEn  "LS-DYNA_Manual_Volume_2" .
+
+:hasHardeningParameterTau1Object
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasHardeningParameterTau1"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/HardeningParameterTau1" ;
+        skos:preflabel  "hasHardeningParameterTau1"@en .
 
 :hasTime_s  rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasTime_s"@en ;
@@ -232,11 +228,6 @@
 :hasSampleCode  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasSampleCode"@en ;
         skos:preflabel  "hasSampleCode"@en .
-
-<https://w3id.org/steel/ProcessOntology/hasRateSensitivityOfSlip%20>
-        rdf:type        owl:DatatypeProperty , rdf:Property ;
-        rdfs:label      "hasRateSensitivityOfSlip "@en ;
-        skos:preflabel  "hasRateSensitivityOfSlip "@en .
 
 :hasComputerControlledTensileTestingMachineObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
@@ -347,13 +338,6 @@
         rdfs:label      "Hockett Sherby Steady State Stress"@en , "Hockett Sherby Sättigungsfließspannung"@de ;
         skos:preflabel  "Hockett Sherby Steady State Stress"@en , "Hockett Sherby Sättigungsfließspannung"@de .
 
-<https://w3id.org/steel/ProcessOntology/TruePlastic%20Strain>
-        rdf:type        skos:Concept , owl:Class ;
-        rdfs:comment    "true plastic strain"@en , "wahre plastische Dehnung"@de ;
-        rdfs:label      "TruePlastic Strain"@en ;
-        skos:altlabel   "true plastic strain"@en ;
-        skos:preflabel  "TruePlastic Strain"@en .
-
 :hasWork_kJ  rdf:type       owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasWork_kJ"@en ;
         rdfs:subPropertyOf  :hasWork ;
@@ -389,9 +373,6 @@
         rdfs:subPropertyOf  :hasReferenceShearRate ;
         skos:preflabel      "hasReferenceShearRate_-"@en ;
         :hasUnitLabel       "-" .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AMathematicalConstruct>
-        rdf:type  owl:Class .
 
 :hasTestingDirectionObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
@@ -501,10 +482,6 @@
 :hasTensileStrength  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasTensileStrength"@en ;
         skos:preflabel  "hasTensileStrength"@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AMathematical>
-        rdf:type      owl:Class ;
-        rdfs:comment  "The class of general mathematical symbolic objects respecting mathematical syntactic rules."@en .
 
 :hasDamageTreatment  rdf:type  owl:ObjectProperty ;
         rdfs:label      "hasDamageTreatment"@en ;
@@ -668,10 +645,6 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/TestingRate" ;
         skos:preflabel  "hasTestingRate"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AMaterialLaw>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A law that provides a connection between a material property and other properties of the object."@en .
-
 :hasFailureTreatment  rdf:type  owl:ObjectProperty ;
         rdfs:label      "hasFailureTreatment"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/FailureTreatment" ;
@@ -799,9 +772,6 @@
         skos:preflabel      "hasProofStrength_0.2Percentage_MPa"@en ;
         :hasUnitLabel       "MPa" .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AChemicalCompositionQuantity>
-        rdf:type  owl:Class .
-
 :hasInitialDisplacementRate
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasInitialDisplacementRate"@en ;
@@ -924,10 +894,6 @@
         skos:preflabel      "hasParallelLength_mm"@en ;
         :hasUnitLabel       "mm" .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AMaterialSynthesis>
-        rdf:type      owl:Class ;
-        rdfs:comment  "The creation of a material entity starting from fundamental substances, involving chemical phenomena (e.g. reaction, bonding)."@en .
-
 :hasTotalLength_mm  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasTotalLength_mm"@en ;
         rdfs:subPropertyOf  :hasTotalLength ;
@@ -969,10 +935,6 @@
 :FrameOfMaterial  rdf:type  owl:Class ;
         rdfs:label      "frame of material"@en , "Rahmenmaterial"@de ;
         skos:preflabel  "frame of material"@en , "Rahmenmaterial"@de .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3APhysicsBasedSimulation>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A simulation that relies on physics based models, according to the Review of Materials Modelling and CWA 17284:2018."@en .
 
 :hasClamping  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasClamping"@en ;
@@ -1142,18 +1104,18 @@
         rdfs:label      "Geometry"@en , "Geometrie"@de ;
         skos:preflabel  "Geometry"@en , "Geometrie"@de .
 
-:hasLubricationSystemObject
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasLubricationSystem"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/LubricationSystem" ;
-        skos:preflabel  "hasLubricationSystem"@en .
-
 :hasStep  rdf:type      owl:ObjectProperty ;
         rdfs:domain     :DigitalWorkflow ;
         rdfs:label      "has Step"@en ;
         rdfs:range      :WorkflowStep ;
         dc:description  "The relation between digital workflows and workflow steps"@en ;
         skos:preflabel  "has Step"@en .
+
+:hasLubricationSystemObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasLubricationSystem"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/LubricationSystem" ;
+        skos:preflabel  "hasLubricationSystem"@en .
 
 :MorphologicalTexture
         rdf:type        owl:Class ;
@@ -1193,11 +1155,6 @@
         rdfs:label      "hasExtensionAtFracture"@en ;
         skos:preflabel  "hasExtensionAtFracture"@en .
 
-:hasPercentageReductionOfArea
-        rdf:type        owl:DatatypeProperty , rdf:Property ;
-        rdfs:label      "hasPercentageReductionOfArea"@en ;
-        skos:preflabel  "hasPercentageReductionOfArea"@en .
-
 :hasHardeningParameterTau1_MPa
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasHardeningParameterTau1_MPa"@en ;
@@ -1211,9 +1168,10 @@
         skos:altlabel   "Third euler angle"@en ;
         skos:preflabel  "EulerAngle3"@en .
 
-:hasOriginalWidth  rdf:type  owl:DatatypeProperty , rdf:Property ;
-        rdfs:label      "hasOriginalWidth"@en ;
-        skos:preflabel  "hasOriginalWidth"@en .
+:hasPercentageReductionOfArea
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasPercentageReductionOfArea"@en ;
+        skos:preflabel  "hasPercentageReductionOfArea"@en .
 
 :UpperYieldStrength  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "höchste Spannung, bevor der erste Kraftabfall auftritt"@de ;
@@ -1221,9 +1179,9 @@
         skos:altlabel   "upper yield strength"@en ;
         skos:preflabel  "UpperYieldStrength"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AMeasurement>
-        rdf:type      owl:Class ;
-        rdfs:comment  "An 'observation' that results in a quantitative comparison of a 'property' of an 'object' with a standard reference based on a well defined mesurement procedure."@en .
+:hasOriginalWidth  rdf:type  owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasOriginalWidth"@en ;
+        skos:preflabel  "hasOriginalWidth"@en .
 
 :metadata  rdf:type     owl:DatatypeProperty ;
         rdfs:domain     :Workflow ;
@@ -1313,10 +1271,6 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/TrueStressAtFracture" ;
         skos:preflabel  "hasTrueStressAtFracture"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AStrain>
-        rdf:type      owl:Class ;
-        rdfs:comment  "Change of the relative positions of parts of a body, excluding a displacement of the body as a whole."@en .
-
 :hasCharacteristicEngineeringStrainRate
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasCharacteristicEngineeringStrainRate"@en ;
@@ -1372,16 +1326,14 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/OriginalDiameter" ;
         skos:preflabel  "hasOriginalDiameter"@en .
 
+:hasRateSensitivityOfSlip
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasRateSensitivityOfSlip"@en ;
+        skos:preflabel  "hasRateSensitivityOfSlip"@en .
+
 :hasMaximumForce  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasMaximumForce"@en ;
         skos:preflabel  "hasMaximumForce"@en .
-
-<https://w3id.org/steel/ProcessOntology/hasRateSensitivityOfSlip%20_->
-        rdf:type            owl:DatatypeProperty , rdf:Property ;
-        rdfs:label          "hasRateSensitivityOfSlip _-"@en ;
-        rdfs:subPropertyOf  <https://w3id.org/steel/ProcessOntology/hasRateSensitivityOfSlip%20> ;
-        skos:preflabel      "hasRateSensitivityOfSlip _-"@en ;
-        :hasUnitLabel       "-" .
 
 :executedBy  rdf:type   owl:DatatypeProperty ;
         rdfs:domain     :Workflow ;
@@ -1418,9 +1370,6 @@
         rdfs:label      "Test"@en , "Test"@de ;
         skos:preflabel  "Test"@en , "Test"@de .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3APhysicsBasedSimulationSoftware>
-        rdf:type  owl:Class .
-
 :hasEffectiveStressObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasEffectiveStress"@en ;
@@ -1454,11 +1403,10 @@
         rdfs:label      "hasTimeDependentEngineeringStrainRate"@en ;
         skos:preflabel  "hasTimeDependentEngineeringStrainRate"@en .
 
-:hasLatentHardeningQ1Object
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasLatentHardeningQ1"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/LatentHardeningQ1" ;
-        skos:preflabel  "hasLatentHardeningQ1"@en .
+:GrainBoundaries  rdf:type  owl:Class ;
+        rdfs:comment    "need at least two grains"@en ;
+        rdfs:label      "grain boundaries"@en , "Korngrenzen"@de ;
+        skos:preflabel  "grain boundaries"@en , "Korngrenzen"@de .
 
 :hasElementDeletionTreatment
         rdf:type        owl:ObjectProperty ;
@@ -1466,10 +1414,11 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/ElementDeletionTreatment" ;
         skos:preflabel  "hasElementDeletionTreatment"@en .
 
-:GrainBoundaries  rdf:type  owl:Class ;
-        rdfs:comment    "need at least two grains"@en ;
-        rdfs:label      "grain boundaries"@en , "Korngrenzen"@de ;
-        skos:preflabel  "grain boundaries"@en , "Korngrenzen"@de .
+:hasLatentHardeningQ1Object
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasLatentHardeningQ1"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/LatentHardeningQ1" ;
+        skos:preflabel  "hasLatentHardeningQ1"@en .
 
 :TransitionRadius  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "transition radius between parallel part and clamping part of the test piece"@en , "Übergangsradius zwischewn dem Parallelen Bereich und dem Kopfbereich der Probe"@de ;
@@ -1640,12 +1589,6 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/NumberGrains" ;
         skos:preflabel  "hasNumberGrains"@en .
 
-<https://w3id.org/steel/ProcessOntology/hasRateSensitivityOfSlip%20Object>
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasRateSensitivityOfSlip "@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip " ;
-        skos:preflabel  "hasRateSensitivityOfSlip "@en .
-
 :hasRelativeStandardDeviationOfTheSlopeObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasRelativeStandardDeviationOfTheSlope"@en ;
@@ -1751,10 +1694,6 @@
         rdfs:label      "hasTestTemperatur"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/TestTemperatur" ;
         skos:preflabel  "hasTestTemperatur"@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AMaterial>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A matter individual that stands for a real world object representing an amount of a physical substance (or mixture of substances) in different states of matter or phases."@en .
 
 :hasNumberGrains  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasNumberGrains"@en ;
@@ -1947,9 +1886,6 @@
         skos:preflabel      "hasAbsoluteCrossheadTravel_mm"@en ;
         :hasUnitLabel       "mm" .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AAlgebricExpression>
-        rdf:type  owl:Class .
-
 :hasRemarkObject  rdf:type  owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasRemark"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/Remark" ;
@@ -1992,10 +1928,6 @@
         :UnitLabel         "-" ;
         :hasLabelSourceEn  "LS-DYNA_Manual_Volume_2" .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AEmpiricalSimulationSoftware>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A computational application that uses an empiric equation to predict the behaviour of a system without relying on the knowledge of the actual physical phenomena occurring in the object."@en .
-
 :Deformation  rdf:type  owl:Class ;
         rdfs:label      "Deformation"@en , "Verfomung"@de ;
         skos:preflabel  "Deformation"@en , "Verfomung"@de .
@@ -2030,10 +1962,6 @@
         rdfs:subPropertyOf  :hasMinimumCrossSectionAfterFracture ;
         skos:preflabel      "hasMinimumCrossSectionAfterFracture_mm2"@en ;
         :hasUnitLabel       "mm2" .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3APhysicsMathematicalComputation>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A functional icon that imitates the behaviour of the object through mathematical evaluations of some mathematical construct."@en .
 
 :PoissonRatio  rdf:type    skos:Concept , owl:Class ;
         rdfs:comment       "Poission Ratio to determine the linear elasticity"@en ;
@@ -2142,9 +2070,6 @@
         rdfs:label      "hasMicrostructureModel"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/MicrostructureModel" ;
         skos:preflabel  "hasMicrostructureModel"@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3ATest>
-        rdf:type  owl:Class .
 
 :ThicknessAfterFracture1
         rdf:type        skos:Concept , owl:Class ;
@@ -2298,12 +2223,6 @@
         skos:preflabel      "hasMaximumForceNoDiscontinousYielding_N"@en ;
         :hasUnitLabel       "N" .
 
-:hasInteractionMatrixObject
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasInteractionMatrix"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/InteractionMatrix" ;
-        skos:preflabel  "hasInteractionMatrix"@en .
-
 :TrueStress  rdf:type   skos:Concept , owl:Class ;
         rdfs:comment    "wahre Spannung"@de , "true stress"@en ;
         rdfs:label      "TrueStress"@en , "True Stress"@en , "wahre Spannung"@de ;
@@ -2317,9 +2236,11 @@
         skos:altlabel   "Label-ID"@en , "Label ID"@en , "Identifier based on Label-System"@en , "Proben-ID"@de ;
         skos:preflabel  "ExperimentIdentifier"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3APhysicsBasedModel>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A mathematical entity based on a fundamental physics theory which defines the relations between physics quantities of an entity."@en .
+:hasInteractionMatrixObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasInteractionMatrix"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/InteractionMatrix" ;
+        skos:preflabel  "hasInteractionMatrix"@en .
 
 :hasProjectName  rdf:type  owl:DatatypeProperty , rdf:Property , owl:ObjectProperty ;
         rdfs:domain     :Test ;
@@ -2375,16 +2296,16 @@
         rdfs:label      "hasTexture"@en ;
         skos:preflabel  "hasTexture"@en .
 
-:hasInitialSheetThickness
-        rdf:type        owl:DatatypeProperty , rdf:Property ;
-        rdfs:label      "hasInitialSheetThickness"@en ;
-        skos:preflabel  "hasInitialSheetThickness"@en .
-
 :Strain  rdf:type       skos:Concept , owl:Class ;
         rdfs:comment    "extension expressed as a percentage of the extensometer gauge length"@en , "in Prozent angegebene Verlängerung der Extensometer-Messlänge"@de ;
         rdfs:label      "Strain"@en , "Dehnung"@de ;
         skos:altlabel   "percentage extension “strain”"@en ;
         skos:preflabel  "Strain"@en , "Dehnung"@de .
+
+:hasInitialSheetThickness
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasInitialSheetThickness"@en ;
+        skos:preflabel  "hasInitialSheetThickness"@en .
 
 <https://w3id.org/steel/ProcessOntology/hasStrain_%25>
         rdf:type            owl:DatatypeProperty , rdf:Property ;
@@ -2443,23 +2364,15 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/SampleIdentifier-2" ;
         skos:preflabel  "hasSampleIdentifier-2"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AMaterialsProcessing>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A manufacturing process aimed to modify the precursor objects through a physical process (involving other materials, energy, manipulation) to change its material properties."@en .
-
-:hasDynamometerArea  rdf:type  owl:DatatypeProperty , rdf:Property ;
-        rdfs:label      "hasDynamometerArea"@en ;
-        skos:preflabel  "hasDynamometerArea"@en .
-
 :ElasticConstantC11  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Elastische Konstant, um das richtungsabhängige elastische Materialverhalten zu beschreiben"@de ;
         rdfs:label      "ElasticConstantC11"@en ;
         skos:altlabel   "Elastic constant C11"@en ;
         skos:preflabel  "ElasticConstantC11"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3ASoftware>
-        rdf:type      owl:Class ;
-        rdfs:comment  "All or part of the programs, procedures, rules, and associated documentation of an information processing system."@en .
+:hasDynamometerArea  rdf:type  owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasDynamometerArea"@en ;
+        skos:preflabel  "hasDynamometerArea"@en .
 
 :hasTestPieceLength_mm
         rdf:type            owl:DatatypeProperty , rdf:Property ;
@@ -2526,10 +2439,6 @@
         skos:altlabel   "Kraftaufnehmer"@de , "force-measuring device"@en , "force-measuring system"@en , "Kraftmesseinrichtung"@de ;
         skos:preflabel  "ForceMeasuringDevice"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AExperiment>
-        rdf:type      owl:Class ;
-        rdfs:comment  "An experiment is a process that is intended to replicate a physical phenomenon in a controlled environment."@en .
-
 :hasPunchVelocityObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasPunchVelocity"@en ;
@@ -2560,6 +2469,12 @@
         rdfs:label      "hasTestPieceLength"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/TestPieceLength" ;
         skos:preflabel  "hasTestPieceLength"@en .
+
+:hasRateSensitivityOfSlipObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasRateSensitivityOfSlip"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip" ;
+        skos:preflabel  "hasRateSensitivityOfSlip"@en .
 
 :hasMeanEngineeringStrainRate
         rdf:type        owl:DatatypeProperty , rdf:Property ;
@@ -2596,10 +2511,6 @@
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasWidthAfterFracture2"@en ;
         skos:preflabel  "hasWidthAfterFracture2"@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3ASimulationApplication>
-        rdf:type      owl:Class ;
-        rdfs:comment  "An application aimed to functionally reproduce an object."@en .
 
 :hasStress  rdf:type    owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasStress"@en ;
@@ -2700,10 +2611,6 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope" ;
         skos:preflabel  "hasStandardDeviationOfTheSlope"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AMaterialRelation>
-        rdf:type      owl:Class ;
-        rdfs:comment  "An 'equation' that stands for a physical assumption specific to a material, and provides an expression for a 'physics_quantity' (the dependent variable) as function of other variables, physics_quantity or data (independent variables)."@en .
-
 :stripTension  rdf:type  owl:Class ;
         rdfs:label      "strip tension"@en , "Bandzug"@de ;
         skos:preflabel  "strip tension"@en , "Bandzug"@de .
@@ -2727,13 +2634,6 @@
 :FeedbackLoop  rdf:type  owl:Class ;
         rdfs:label      "Feedback Loop"@en , "Rückkopplung"@de ;
         skos:preflabel  "Feedback Loop"@en , "Rückkopplung"@de .
-
-<https://w3id.org/steel/ProcessOntology/hasTruePlastic%20Strain_1>
-        rdf:type            owl:DatatypeProperty , rdf:Property ;
-        rdfs:label          "hasTruePlastic Strain_1"@en ;
-        rdfs:subPropertyOf  <https://w3id.org/steel/ProcessOntology/hasTruePlastic%20Strain> ;
-        skos:preflabel      "hasTruePlastic Strain_1"@en ;
-        :hasUnitLabel       "1" .
 
 :hasLubricationSystem
         rdf:type        owl:DatatypeProperty , rdf:Property ;
@@ -2782,12 +2682,6 @@
         skos:altlabel   "Tester"@en , "Prüfer"@de ;
         skos:preflabel  "Tester"@en .
 
-<https://w3id.org/steel/ProcessOntology/hasTruePlastic%20StrainObject>
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasTruePlastic Strain"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/TruePlastic Strain" ;
-        skos:preflabel  "hasTruePlastic Strain"@en .
-
 :ProofStrength_1Percentage
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "yield strength, 1 %"@en ;
@@ -2810,15 +2704,6 @@
         skos:preflabel     "NumberFailedIntegrationPoints"@en ;
         :UnitLabel         "1" ;
         :hasLabelSourceEn  "LS-DYNA_Manual_Volume_2" .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AModelledQuantitativeProperty>
-        rdf:type  owl:Class .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AMathematicalSymbol>
-        rdf:type  owl:Class .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AAlgebricEquation>
-        rdf:type  owl:Class .
 
 :CrystalPlasticityParameterFile
         rdf:type        skos:Concept , owl:Class ;
@@ -2852,16 +2737,16 @@
         skos:altlabel   "Biaxial stress"@en ;
         skos:preflabel  "BiaxialStress"@en .
 
+:Experiment  rdf:type   owl:Class ;
+        rdfs:label      "Experiment"@en , "Experiment"@de ;
+        skos:preflabel  "Experiment"@en , "Experiment"@de .
+
 :hasLowerYieldStrength_MPa
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasLowerYieldStrength_MPa"@en ;
         rdfs:subPropertyOf  :hasLowerYieldStrength ;
         skos:preflabel      "hasLowerYieldStrength_MPa"@en ;
         :hasUnitLabel       "MPa" .
-
-:Experiment  rdf:type   owl:Class ;
-        rdfs:label      "Experiment"@en , "Experiment"@de ;
-        skos:preflabel  "Experiment"@en , "Experiment"@de .
 
 :hasMaximumForceObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
@@ -3069,10 +2954,6 @@
         skos:preflabel  "DiameterAfterFracture2"@en ;
         skos:related    :DiameterAfterFracture1 .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AMeasuringInstrument>
-        rdf:type      owl:Class ;
-        rdfs:comment  "Device used for making measurements, alone or in conjunction with one or more supplementary devices.\n\n-- VIM"@en .
-
 :Validation  rdf:type   owl:Class ;
         rdfs:label      "Validation"@en , "Validierung"@de ;
         skos:altlabel   "Nachweis"@de , " Gültigkeitserklärung"@de ;
@@ -3141,31 +3022,16 @@
         rdfs:label      "Phase Boundary"@en , "Phasengrenze"@de ;
         skos:preflabel  "Phase Boundary"@en , "Phasengrenze"@de .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3ASimulation>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A estimation of a property using a functional icon."@en .
-
 :hasDiameterAfterFracture2
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasDiameterAfterFracture2"@en ;
         skos:preflabel  "hasDiameterAfterFracture2"@en .
-
-<https://w3id.org/steel/ProcessOntology/hasExtension_mm%20>
-        rdf:type            owl:DatatypeProperty , rdf:Property ;
-        rdfs:label          "hasExtension_mm "@en ;
-        rdfs:subPropertyOf  :hasExtension ;
-        skos:preflabel      "hasExtension_mm "@en ;
-        :hasUnitLabel       "mm " .
 
 :hasWidthStrain_1  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasWidthStrain_1"@en ;
         rdfs:subPropertyOf  :hasWidthStrain ;
         skos:preflabel      "hasWidthStrain_1"@en ;
         :hasUnitLabel       "1" .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AMaterialTreatment>
-        rdf:type      owl:Class ;
-        rdfs:comment  "The processing of a material aimed to transform its structure by means of any type of treatment, without involving relevant synthesis phenomena."@en .
 
 :hasNumberOfVirtualExperiments
         rdf:type        owl:DatatypeProperty , rdf:Property ;
@@ -3272,16 +3138,6 @@
         skos:preflabel  "Diameter"@en ;
         skos:related    :TestPieceGeometry .
 
-<https://w3id.org/steel/ProcessOntology/hasExtensometerGaugeLength_mm%20>
-        rdf:type            owl:DatatypeProperty , rdf:Property ;
-        rdfs:label          "hasExtensometerGaugeLength_mm "@en ;
-        rdfs:subPropertyOf  :hasExtensometerGaugeLength ;
-        skos:preflabel      "hasExtensometerGaugeLength_mm "@en ;
-        :hasUnitLabel       "mm " .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AMetallicMaterial>
-        rdf:type  owl:Class .
-
 :Precipitation  rdf:type  owl:Class ;
         rdfs:label      "Percipation"@en , "??"@de ;
         skos:altlabel   "Ausscheidungshärtung"@de ;
@@ -3325,6 +3181,12 @@
         rdfs:comment    "the output parameter for a pyiron job"@en ;
         rdfs:label      "Pyiron job output"@en , "Job-Output-Parameter"@de ;
         skos:preflabel  "Pyiron job output"@en , "Job-Output-Parameter"@de .
+
+:hasTruePlasticStrainObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasTruePlasticStrain"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/TruePlasticStrain" ;
+        skos:preflabel  "hasTruePlasticStrain"@en .
 
 <https://w3id.org/steel/ProcessOntology/hasCrossheadSeparationRate_mm%2Fs>
         rdf:type            owl:DatatypeProperty , rdf:Property ;
@@ -3472,6 +3334,13 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/FormingLimitDiagram" ;
         skos:preflabel  "hasFormingLimitDiagram"@en .
 
+:hasTruePlasticStrain_1
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasTruePlasticStrain_1"@en ;
+        rdfs:subPropertyOf  :hasTruePlasticStrain ;
+        skos:preflabel      "hasTruePlasticStrain_1"@en ;
+        :hasUnitLabel       "1" .
+
 :hasTime  rdf:type      owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasTime"@en ;
         skos:preflabel  "hasTime"@en .
@@ -3521,10 +3390,6 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/User" ;
         skos:preflabel  "hasUser"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AMeasurementUncertainty>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A non-negative parameter characterising the dispersion of the quantity being measured."@en .
-
 :ShearLengthAfterFracture2
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "ShearLengthAfterFracture2"@en ;
@@ -3532,10 +3397,6 @@
         skos:altlabel   "ShearLength B2 after fracture"@en , "Probenbreite B2 nach Bruch"@de ;
         skos:preflabel  "ShearLengthAfterFracture2"@en ;
         skos:related    :ShearLengthAfterFracture1 .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AMeasurer>
-        rdf:type      owl:Class ;
-        rdfs:comment  "An observer that makes use of a measurement tool and provides a quantitative property."@en .
 
 :hasEulerAngle1Object
         rdf:type        owl:ObjectProperty , rdf:Property ;
@@ -3601,23 +3462,11 @@
         rdfs:label      "hasInnerDiameterDie"@en ;
         skos:preflabel  "hasInnerDiameterDie"@en .
 
-:hasHardeningParameterTau1
-        rdf:type        owl:DatatypeProperty , rdf:Property ;
-        rdfs:label      "hasHardeningParameterTau1"@en ;
-        skos:preflabel  "hasHardeningParameterTau1"@en .
-
 :HardeningCurve  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Tabellarische Darstellung des Verfestigungsgesetzes auf der Gleiteebene in Form von Spannungs-Dehnungs-Daten "@de ;
         rdfs:label      "HardeningCurve"@en ;
         skos:altlabel   "Hardening curve"@en ;
         skos:preflabel  "HardeningCurve"@en .
-
-:PercentageElongation
-        rdf:type        skos:Concept , owl:Class ;
-        rdfs:comment    "Verlängerung (3.3), angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)"@de ;
-        rdfs:label      "PercentageElongation"@en ;
-        skos:altlabel   "percentage elongation"@en , "Dehnung"@de ;
-        skos:preflabel  "PercentageElongation"@en .
 
 :PreliminaryForce  rdf:type  owl:Class , skos:Concept ;
         rdfs:comment    "Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet"@de , "\"Vorkraft\" in DIN EN ISO 6892-1"@en ;
@@ -3626,6 +3475,18 @@
         skos:altlabel   "Vorlast"@de , "Preliminary force"@en , "Vorkraft"@de , "preliminary force"@en ;
         skos:preflabel  "PreliminaryForce"@en ;
         skos:related    :ForceMeasuringDevice .
+
+:PercentageElongation
+        rdf:type        skos:Concept , owl:Class ;
+        rdfs:comment    "Verlängerung (3.3), angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)"@de ;
+        rdfs:label      "PercentageElongation"@en ;
+        skos:altlabel   "percentage elongation"@en , "Dehnung"@de ;
+        skos:preflabel  "PercentageElongation"@en .
+
+:hasHardeningParameterTau1
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasHardeningParameterTau1"@en ;
+        skos:preflabel  "hasHardeningParameterTau1"@en .
 
 :hasStrainRateScaleIdendifier
         rdf:type        owl:ObjectProperty ;
@@ -3693,18 +3554,15 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/OriginalGaugeLength" ;
         skos:preflabel  "hasOriginalGaugeLength"@en .
 
+:hasGrainNumber  rdf:type  owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasGrainNumber"@en ;
+        skos:preflabel  "hasGrainNumber"@en .
+
 :BoundaryFile  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Datei mit Informationen zu den verwendeten Randbedingungen für die Mikrostruktursimulation"@de ;
         rdfs:label      "BoundaryFile"@en ;
         skos:altlabel   "Boundary file"@en ;
         skos:preflabel  "BoundaryFile"@en .
-
-:hasGrainNumber  rdf:type  owl:DatatypeProperty , rdf:Property ;
-        rdfs:label      "hasGrainNumber"@en ;
-        skos:preflabel  "hasGrainNumber"@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AStress>
-        rdf:type  owl:Class .
 
 :hasStressObject  rdf:type  owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasStress"@en ;
@@ -3776,10 +3634,6 @@
         skos:preflabel      "hasNominalEngineeringStrainRate_s-1"@en ;
         :hasUnitLabel       "s-1" .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AForce>
-        rdf:type      owl:Class ;
-        rdfs:comment  "Any interaction that, when unopposed, will change the motion of an object"@en .
-
 :TrueTotalStrain  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "true total strain "@en , "gesamte wahre Dehnung"@de ;
         rdfs:label      "TrueTotalStrain"@en ;
@@ -3834,10 +3688,6 @@
         skos:altlabel   "Richtwert"@de , " Maßstab"@de , " Bezugspunkt"@de ;
         skos:preflabel  "Benchmark"@en , "Messlatte"@de .
 
-:FractureStress  rdf:type  owl:Class ;
-        rdfs:label      "Fracture Stress"@en , "Bruchspannung"@de ;
-        skos:preflabel  "Fracture Stress"@en , "Bruchspannung"@de .
-
 :workflowSteps  rdf:type  owl:DatatypeProperty ;
         rdfs:domain     :Workflow ;
         rdfs:label      "steps"@en ;
@@ -3848,14 +3698,14 @@
         rdfs:label      "hasBoundaryFile"@en ;
         skos:preflabel  "hasBoundaryFile"@en .
 
+:FractureStress  rdf:type  owl:Class ;
+        rdfs:label      "Fracture Stress"@en , "Bruchspannung"@de ;
+        skos:preflabel  "Fracture Stress"@en , "Bruchspannung"@de .
+
 :hasDataSamplingFrequency
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasDataSamplingFrequency"@en ;
         skos:preflabel  "hasDataSamplingFrequency"@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AMathematicalOperator>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A mapping that acts on elements of one space and produces elements of another space."@en .
 
 :hasExtension  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasExtension"@en ;
@@ -3971,19 +3821,12 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/OriginalThickness" ;
         skos:preflabel  "hasOriginalThickness"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AJavaScript>
-        rdf:type  owl:Class .
-
 :hasTrueWidthStrain_1
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasTrueWidthStrain_1"@en ;
         rdfs:subPropertyOf  :hasTrueWidthStrain ;
         skos:preflabel      "hasTrueWidthStrain_1"@en ;
         :hasUnitLabel       "1" .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AModeller>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A estimator that uses modelling to declare a property of an object (i.e. infer a property from other properties)."@en .
 
 :SlopeElasticPartStressStrainCurve
         rdf:type        skos:Concept , owl:Class ;
@@ -4114,21 +3957,12 @@
         rdfs:label      "hasYieldForce_0.2Percentage"@en ;
         skos:preflabel  "hasYieldForce_0.2Percentage"@en .
 
-<https://w3id.org/steel/ProcessOntology/hasTruePlastic%20Strain>
-        rdf:type        owl:DatatypeProperty , rdf:Property ;
-        rdfs:label      "hasTruePlastic Strain"@en ;
-        skos:preflabel  "hasTruePlastic Strain"@en .
-
 :hasDynamometerArea_mm2
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasDynamometerArea_mm2"@en ;
         rdfs:subPropertyOf  :hasDynamometerArea ;
         skos:preflabel      "hasDynamometerArea_mm2"@en ;
         :hasUnitLabel       "mm2" .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3APhysicsEquation>
-        rdf:type      owl:Class ;
-        rdfs:comment  "An 'equation' that stands for a 'physical_law' by mathematically defining the relations between physics_quantities."@en .
 
 :hasFracture  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasFracture"@en ;
@@ -4172,21 +4006,10 @@
         rdfs:label      "hasEngineeringStress"@en ;
         skos:preflabel  "hasEngineeringStress"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AMathematicalFunction>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A function defined using functional notation."@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AAlgebricOperator>
-        rdf:type  owl:Class .
-
 :hasStressRateObject  rdf:type  owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasStressRate"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/StressRate" ;
         skos:preflabel  "hasStressRate"@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3ASourceCode>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A programming language entity expressing a formal detailed plan of what a software is intended to do."@en .
 
 :ExperimentalWorkflow
         rdf:type         owl:Class ;
@@ -4649,12 +4472,15 @@
         skos:preflabel     "StrainRateFormulationFlag"@en ;
         :hasLabelSourceEn  "LS-DYNA_Manual_Volume_2" .
 
+:TruePlasticStrain  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "true plastic strain"@en , "wahre plastische Dehnung"@de ;
+        rdfs:label      "TruePlasticStrain"@en ;
+        skos:altlabel   "true plastic strain"@en ;
+        skos:preflabel  "TruePlasticStrain"@en .
+
 :TimeIncrementStep  rdf:type  owl:Class ;
         rdfs:label      "time increment step"@en ;
         skos:preflabel  "time increment step"@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AComputerScience>
-        rdf:type  owl:Class .
 
 :hasMaterial  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasMaterial"@en ;
@@ -4761,10 +4587,6 @@
         skos:altlabel   "Material Card"@en , "Digitale Werkstoffbeschreibung"@de ;
         skos:preflabel  "Material Card"@en , "MaterialCard"@en , "Material Karte"@de .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3ALanguage>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A language object is a discrete data entity respecting a specific language syntactic rules (a well-formed formula)."@en .
-
 <https://w3id.org/steel/ProcessOntology/hasPunchVelocity_mm%2Fs>
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasPunchVelocity_mm/s"@en ;
@@ -4801,13 +4623,6 @@
         rdfs:label      "hasEstimatedStrainRateOverTheParallelLength"@en ;
         skos:preflabel  "hasEstimatedStrainRateOverTheParallelLength"@en .
 
-:hasTrueStressAtFracture_MPa
-        rdf:type            owl:DatatypeProperty , rdf:Property ;
-        rdfs:label          "hasTrueStressAtFracture_MPa"@en ;
-        rdfs:subPropertyOf  :hasTrueStressAtFracture ;
-        skos:preflabel      "hasTrueStressAtFracture_MPa"@en ;
-        :hasUnitLabel       "MPa" .
-
 :DynamometerArea  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "area on the fixed side of the test piece where only elastic deformations are required during the test"@en , "Querschnitt auf der fest eingespannten Seite der Probe, in der lediglich elastische Verformungen während des Versuchs erlaubt sind"@de ;
         rdfs:label      "DynamometerArea"@en ;
@@ -4830,9 +4645,12 @@
         skos:altlabel   "elongation"@en ;
         skos:preflabel  "Elongation"@en , "Dehnung"@de .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AMaterialsModel>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A solvable set of one Physics Equation and one or more Materials Relations."@en .
+:hasTrueStressAtFracture_MPa
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasTrueStressAtFracture_MPa"@en ;
+        rdfs:subPropertyOf  :hasTrueStressAtFracture ;
+        skos:preflabel      "hasTrueStressAtFracture_MPa"@en ;
+        :hasUnitLabel       "MPa" .
 
 :hasMaterialCardObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
@@ -4956,10 +4774,6 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/HardeningParameterTheta1" ;
         skos:preflabel  "hasHardeningParameterTheta1"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3ADataProcessing>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A computation that provides a data output following the elaboration of some input data, using a data processing application."@en .
-
 :hasStandardDeviationOfTheSlope_MPa
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasStandardDeviationOfTheSlope_MPa"@en ;
@@ -5016,12 +4830,6 @@
         skos:preflabel  "hasInteractionMatrix"@en .
 
 :StressExponent_n  rdf:type  owl:Class .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3ACSharp>
-        rdf:type  owl:Class .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3ACompositeMaterial>
-        rdf:type  owl:Class .
 
 :hasFLCDetermination  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasFLCDetermination"@en ;
@@ -5150,9 +4958,6 @@
         rdfs:label      "roll gap"@en , "Walzspalt"@de ;
         skos:preflabel  "roll gap"@en , "Walzspalt"@de .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3APython>
-        rdf:type  owl:Class .
-
 :hasTestPieceGeometry
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasTestPieceGeometry"@en ;
@@ -5162,9 +4967,6 @@
         rdfs:label      "hasStrain"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/Strain" ;
         skos:preflabel  "hasStrain"@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AModel>
-        rdf:type  owl:Class .
 
 :FormingLimitDiagram  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Grenzformänderungsdiagramm"@de ;
@@ -5225,9 +5027,6 @@
         rdfs:label      "hasInitialDisplacementRate"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/InitialDisplacementRate" ;
         skos:preflabel  "hasInitialDisplacementRate"@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AJava>
-        rdf:type  owl:Class .
 
 :FadingExponent  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment       "Exponent for damage-related stress fadeout:\nLT.0.0: |FADEXP| is a load curve ID defining element-size dependent fading exponent.\nGT.0.0: Constant fading exponent"@en ;
@@ -5340,10 +5139,6 @@
         rdfs:label      "rolling force"@en , "Walzkraft"@de ;
         skos:preflabel  "rolling force"@en , "Walzkraft"@de .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3ACPlusPlus>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A language object respecting the syntactic rules of C++."@en .
-
 :FLCDetermination  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Die Bestimmung der FLC aus den Messungen sollte mit Hilfe des  „positionsabhängigen“ Verfahrens durchgeführt werden."@de ;
         rdfs:label      "FLCDetermination"@en ;
@@ -5362,22 +5157,11 @@
         skos:preflabel  "ShearStrength"@en ;
         :isBasedOn      :EngineeringStress .
 
-<https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip%20>
-        rdf:type        skos:Concept , owl:Class ;
-        rdfs:comment    "Scherratensensitivität, die im Kristallplastizitätsmodell verwendet wurde"@de ;
-        rdfs:label      "RateSensitivityOfSlip "@en ;
-        skos:altlabel   "Rate sensitivity of slip "@en ;
-        skos:preflabel  "RateSensitivityOfSlip "@en .
-
 :hasTotalLengthObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasTotalLength"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/TotalLength" ;
         skos:preflabel  "hasTotalLength"@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3APhysicsEquationSolution>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A function solution of a physics equation that provides a methods for the prediction of some quantitiative properties of an object."@en .
 
 :MaterialInstabilityStrain
         rdf:type           skos:Concept , owl:Class ;
@@ -5406,10 +5190,6 @@
         rdfs:label      "SampleIdentifier"@en ;
         skos:altlabel   "Sample identifier"@en , "Specimen name"@en , "Proben-Nr."@de , "Probennummer"@de , "Specimen Name"@en ;
         skos:preflabel  "SampleIdentifier"@en .
-
-<https://w3id.org/steel/ProcessOntology/emmo%3AMathematicalModel>
-        rdf:type      owl:Class ;
-        rdfs:comment  "An analogical icon expressed in mathematical language."@en .
 
 :hasCrossheadDisplacement_mm
         rdf:type            owl:DatatypeProperty , rdf:Property ;
@@ -5445,22 +5225,10 @@
         skos:preflabel  "OriginalWidth"@en ;
         skos:related    :TestPieceGeometry .
 
-:hasLowerYieldStrengthObject
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasLowerYieldStrength"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/LowerYieldStrength" ;
-        skos:preflabel  "hasLowerYieldStrength"@en .
-
 :hasInnerDiameterBlankHolder
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasInnerDiameterBlankHolder"@en ;
         skos:preflabel  "hasInnerDiameterBlankHolder"@en .
-
-:hasHardeningLawObject
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasHardeningLaw"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/HardeningLaw" ;
-        skos:preflabel  "hasHardeningLaw"@en .
 
 :hasElasticConstantC11Object
         rdf:type        owl:ObjectProperty , rdf:Property ;
@@ -5468,9 +5236,11 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/ElasticConstantC11" ;
         skos:preflabel  "hasElasticConstantC11"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AProgrammingLanguage>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A language object that follows syntactic rules of a programming language."@en .
+:hasHardeningLawObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasHardeningLaw"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/HardeningLaw" ;
+        skos:preflabel  "hasHardeningLaw"@en .
 
 :DefaultValue  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "unterer oder oberer Wert für die Spannung beziehungsweise Extensometer-Dehnung, der für die Beschreibung des Bereichs, in dem der Elastizitätsmodul berechnet wird, benutzt wird"@de ;
@@ -5497,9 +5267,11 @@
         rdfs:label      "hasEffecticStrain"@en ;
         skos:preflabel  "hasEffecticStrain"@en .
 
-<https://w3id.org/steel/ProcessOntology/emmo%3AApplicationProgram>
-        rdf:type      owl:Class ;
-        rdfs:comment  "A program aimed to provide a specific high level function to the user, usually hiding lower level procedures."@en .
+:hasLowerYieldStrengthObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasLowerYieldStrength"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/LowerYieldStrength" ;
+        skos:preflabel  "hasLowerYieldStrength"@en .
 
 :hasTrueThicknessStrainObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
@@ -5523,6 +5295,13 @@
         rdfs:subPropertyOf  :hasPercentagePermanentExtension ;
         skos:preflabel      "hasPercentagePermanentExtension_1"@en ;
         :hasUnitLabel       "1" .
+
+:RateSensitivityOfSlip
+        rdf:type        skos:Concept , owl:Class ;
+        rdfs:comment    "Scherratensensitivität, die im Kristallplastizitätsmodell verwendet wurde"@de ;
+        rdfs:label      "RateSensitivityOfSlip"@en ;
+        skos:altlabel   "Rate sensitivity of slip "@en ;
+        skos:preflabel  "RateSensitivityOfSlip"@en .
 
 :Grid   rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "Art des Gitters, welches für die DIC-Messungen verwendet wurde."@de ;
@@ -5689,6 +5468,13 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/CoefficientOfCorrelation" ;
         skos:preflabel  "hasCoefficientOfCorrelation"@en .
 
+:hasRateSensitivityOfSlip_-
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasRateSensitivityOfSlip_-"@en ;
+        rdfs:subPropertyOf  :hasRateSensitivityOfSlip ;
+        skos:preflabel      "hasRateSensitivityOfSlip_-"@en ;
+        :hasUnitLabel       "-" .
+
 :ExtensometerGaugeLength
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "Anfangsmesslänge des Dehnungsaufnehmers (Extensometer), die zum Messen der Verlängerung (3.6) benutzt wird"@de , "The intial gauge length Le used for measurement of extension by means of an extensometer"@en , "The intial gauge length used for measurement of extension by means of an extensometer"@en , "initial extensometer gauge length used for measurement of extension by means of an extensometer"@en ;
@@ -5728,6 +5514,11 @@
         rdfs:subPropertyOf  :hasPercentageTotalExtensionAtMaximumForce ;
         skos:preflabel      "hasPercentageTotalExtensionAtMaximumForce_%"@en ;
         :hasUnitLabel       "%" .
+
+:hasTruePlasticStrain
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasTruePlasticStrain"@en ;
+        skos:preflabel  "hasTruePlasticStrain"@en .
 
 :PercentageElongationAfterFracture
         rdf:type        owl:Class , skos:Concept ;
