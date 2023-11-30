@@ -13,6 +13,9 @@
     <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Genauigkeit der Prüfeinrichtungen: Die Kraftmesseinrichtung der Prüfmaschine muss mindestens der Klasse 1 nach ISO 7500-1 entsprechen.</ns0:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Type of the force transducer</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice">
     <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Type of the force transducer. (description replaced by Zugversuch Instron)</ns0:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice">
