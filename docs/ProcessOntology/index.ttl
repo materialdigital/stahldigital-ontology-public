@@ -3700,6 +3700,10 @@
         skos:preflabel      "hasNominalEngineeringStrainRate_s-1"@en ;
         :hasUnitLabel       "s-1" .
 
+:BulgeTest  rdf:type    owl:Class ;
+        rdfs:label      "bulge test"@en , "Bulgeversuch"@de ;
+        skos:preflabel  "bulge test"@en , "Bulgeversuch"@de .
+
 :TrueTotalStrain  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "true total strain "@en , "gesamte wahre Dehnung"@de ;
         rdfs:label      "TrueTotalStrain"@en ;
