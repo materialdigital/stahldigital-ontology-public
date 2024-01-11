@@ -12,6 +12,19 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Schmiermittelschicht zwischen Stempel und Probe",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "lubrication layer between specimen and punch",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "LubricationSystem",
         "lang" : "en",
@@ -22,6 +35,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Schmiersystem",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "lubrication system",
+        "lang" : "en",
         "type" : "literal"
         }
       

@@ -367,6 +367,66 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/BlankHolderForce" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Draw-in shall be prevented as much as possible",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Kraft zum Halten des Schnittteils, das Einschn\u00FCren muss sowie wie m\u00F6glich verhindert werden",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "BlankHolderForce",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Clamping force",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Haltekraft des Schnittteils",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "blank holder force",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "BlankHolderForce",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/BoundaryFile" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -614,13 +674,6 @@
         }
       
       ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Einspannvariante (mit/ohne Sicke)",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "Clamping",
         "lang" : "en",
@@ -653,13 +706,6 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Klemmkraft",
-        "lang" : "de",
-        "type" : "literal"
         }
       
       ],
@@ -5294,12 +5340,6 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Bildrate f\u00FCr die Videoaufnahmen ",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "sampling rate of the strain measuring system (e.g. high speed video recording)",
         "lang" : "en",
         "type" : "literal"
@@ -5682,6 +5722,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Rastergr\u00F6\u00DFe",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "grid size",
         "lang" : "en",
         "type" : "literal"
@@ -6263,6 +6309,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Ausgangsblechdicke",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Thickness",
         "lang" : "en",
         "type" : "literal"
@@ -6956,6 +7008,19 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Schmiermittelschicht zwischen Stempel und Probe",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "lubrication layer between specimen and punch",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "LubricationSystem",
         "lang" : "en",
@@ -6966,6 +7031,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Schmiersystem",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "lubrication system",
+        "lang" : "en",
         "type" : "literal"
         }
       
@@ -7034,12 +7105,6 @@
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
         "value" : "Data of the machine used for the experiment.",
         "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Pr\u00FCfmaschine",
-        "lang" : "de",
         "type" : "literal"
         }
       
@@ -7130,7 +7195,19 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Hauptform\u00E4nderung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "major limit strain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "major true strain",
         "lang" : "en",
         "type" : "literal"
         }
@@ -8435,7 +8512,19 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Nebenform\u00E4nderung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "minor limit strain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "minor true strain",
         "lang" : "en",
         "type" : "literal"
         }
@@ -11265,6 +11354,19 @@
         }
       
       ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Stempeldurchmesser",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "punch diameter",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "PunchDiameter",
         "lang" : "en",
@@ -11348,8 +11450,14 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "v0",
+        "value" : "Stempelgeschwindigkeit",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "punch velocity",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -12208,7 +12316,7 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Identifier based on Label-System",
+        "value" : "Label ID",
         "lang" : "en",
         "type" : "literal"
         }
@@ -13200,6 +13308,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Breite",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Width",
         "lang" : "en",
         "type" : "literal"
@@ -14302,6 +14416,18 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Pr\u00FCfrichtung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "test direction ",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "testing direction",
         "lang" : "en",
         "type" : "literal"
@@ -15472,12 +15598,6 @@
         "lang" : "en",
         "type" : "literal"
         }
-      ,
-      {
-        "value" : "Datum der Pr\u00FCfung",
-        "lang" : "de",
-        "type" : "literal"
-        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -16096,7 +16216,19 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Dickenform\u00E4nderung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "True thickness strain",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "true thickness strain",
         "lang" : "en",
         "type" : "literal"
         }
@@ -16729,6 +16861,13 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "deformation work",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ],
@@ -17812,6 +17951,108 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/hasBlankHolderForce" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasBlankHolderForce",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasBlankHolderForce",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasBlankHolderForceObject" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasBlankHolderForce",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/BlankHolderForce",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasBlankHolderForce",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasBlankHolderForce_kN" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "hasBlankHolderForce_kN",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasBlankHolderForce",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "hasBlankHolderForce_kN",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "kN",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/hasBoundaryFile" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -18162,46 +18403,6 @@
       ],
     "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
         "value" : "N",
-        "type" : "literal"
-        }
-      
-      ]
-    }
-  ,
-  "https://w3id.org/steel/ProcessOntology/hasClampingForce_kN" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasClampingForce_kN",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/hasClampingForce",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasClampingForce_kN",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
-        "value" : "kN",
         "type" : "literal"
         }
       

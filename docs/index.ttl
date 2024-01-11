@@ -151,6 +151,12 @@
         rdfs:label      "hasStrain"@en ;
         skos:preflabel  "hasStrain"@en .
 
+:BlankHolderForce  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "Draw-in shall be prevented as much as possible"@en , "Kraft zum Halten des Schnittteils, das Einschnüren muss sowie wie möglich verhindert werden"@de ;
+        rdfs:label      "BlankHolderForce"@en ;
+        skos:altlabel   "blank holder force"@en , "Clamping force"@en , "Haltekraft des Schnittteils"@de ;
+        skos:preflabel  "BlankHolderForce"@en .
+
 :hasGrid  rdf:type      owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasGrid"@en ;
         skos:preflabel  "hasGrid"@en .
@@ -292,7 +298,6 @@
         skos:preflabel  "RelativeStandardDeviationOfTheSlope"@en .
 
 :ClampingForce  rdf:type  skos:Concept , owl:Class ;
-        rdfs:comment    "Klemmkraft"@de ;
         rdfs:label      "ClampingForce"@en ;
         skos:altlabel   "Clamping force"@en , "Klemmkraft"@de ;
         skos:preflabel  "ClampingForce"@en .
@@ -383,7 +388,7 @@
 :TrueThicknessStrain  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Umformgrad in Dickenrichtung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs."@de ;
         rdfs:label      "TrueThicknessStrain"@en ;
-        skos:altlabel   "True thickness strain"@en ;
+        skos:altlabel   "true thickness strain"@en , "True thickness strain"@en , "Dickenformänderung"@de ;
         skos:preflabel  "TrueThicknessStrain"@en .
 
 :Fracture  rdf:type     skos:Concept , owl:Class ;
@@ -1232,7 +1237,7 @@
         skos:preflabel  "hasEffecticStrain"@en .
 
 :FrameRate  rdf:type    skos:Concept , owl:Class ;
-        rdfs:comment    "sampling rate of the strain measuring system (e.g. high speed video recording)"@en , "Bildrate für die Videoaufnahmen "@de ;
+        rdfs:comment    "sampling rate of the strain measuring system (e.g. high speed video recording)"@en ;
         rdfs:label      "FrameRate"@en ;
         skos:altlabel   "Framerate"@en , "Frame rate"@en , "Abtastrate"@de ;
         skos:preflabel  "FrameRate"@en .
@@ -1630,7 +1635,7 @@
         skos:preflabel  "hasPercentageElongation"@en .
 
 :TimeStamp  rdf:type    skos:Concept , owl:Class ;
-        rdfs:comment    "Datum der Prüfung"@de , "Date and time when the experiment was conducted."@en , "Date when the experiment was conducted."@en ;
+        rdfs:comment    "Date and time when the experiment was conducted."@en , "Date when the experiment was conducted."@en ;
         rdfs:label      "TimeStamp"@en ;
         skos:altlabel   "Date"@en , "Date/Time"@en , "Datum/Uhrzeit"@de , "Datum"@de ;
         skos:preflabel  "TimeStamp"@en .
@@ -1767,6 +1772,13 @@
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasEngineeringStrain"@en ;
         skos:preflabel  "hasEngineeringStrain"@en .
+
+:hasBlankHolderForce_kN
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasBlankHolderForce_kN"@en ;
+        rdfs:subPropertyOf  :hasBlankHolderForce ;
+        skos:preflabel      "hasBlankHolderForce_kN"@en ;
+        :hasUnitLabel       "kN" .
 
 :hasTimeStampObject  rdf:type  owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasTimeStamp"@en ;
@@ -2641,12 +2653,6 @@
         rdfs:label      "hasForce"@en ;
         skos:preflabel  "hasForce"@en .
 
-:hasStandardDeviationOfTheSlopeObject
-        rdf:type        owl:ObjectProperty , rdf:Property ;
-        rdfs:label      "hasStandardDeviationOfTheSlope"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope" ;
-        skos:preflabel  "hasStandardDeviationOfTheSlope"@en .
-
 :stripTension  rdf:type  owl:Class ;
         rdfs:label      "strip tension"@en , "Bandzug"@de ;
         skos:preflabel  "strip tension"@en , "Bandzug"@de .
@@ -2656,11 +2662,11 @@
         skos:altlabel   "Target Clamping force"@en , "Klemmkraft (FC)"@de ;
         skos:preflabel  "TargetClampingForce"@en .
 
-:hasClampingForce_kN  rdf:type  owl:DatatypeProperty , rdf:Property ;
-        rdfs:label          "hasClampingForce_kN"@en ;
-        rdfs:subPropertyOf  :hasClampingForce ;
-        skos:preflabel      "hasClampingForce_kN"@en ;
-        :hasUnitLabel       "kN" .
+:hasStandardDeviationOfTheSlopeObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasStandardDeviationOfTheSlope"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope" ;
+        skos:preflabel  "hasStandardDeviationOfTheSlope"@en .
 
 :FinalThickness  rdf:type  owl:Class ;
         rdfs:label      "final thickness"@en , "Enddicke"@de ;
@@ -2837,7 +2843,7 @@
 :MajorTrueStrain  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "major true strain"@en , "Größere Formänderung"@de ;
         rdfs:label      "MajorTrueStrain"@en ;
-        skos:altlabel   "major limit strain"@en ;
+        skos:altlabel   "major true strain"@en , "major limit strain"@en , "Hauptformänderung"@de ;
         skos:preflabel  "MajorTrueStrain"@en .
 
 :hasShearLengthAfterFracture1_mm
@@ -2880,6 +2886,7 @@
         skos:preflabel  "PistonSpeed"@en .
 
 :Work   rdf:type        skos:Concept , owl:Class ;
+        rdfs:comment    "deformation work"@en ;
         rdfs:label      "Work"@en ;
         skos:altlabel   "Work"@en ;
         skos:preflabel  "Work"@en .
@@ -3126,6 +3133,10 @@
         dc:description  "code used by a job"@en ;
         skos:preflabel  "uses Code"@en .
 
+:hasBlankHolderForce  rdf:type  owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasBlankHolderForce"@en ;
+        skos:preflabel  "hasBlankHolderForce"@en .
+
 :StrainRate  rdf:type   owl:Class , skos:Concept ;
         rdfs:comment    "the rate at which a material deforms under applied stress. It is a measure of how quickly the material's shape or dimensions change in response to external forces, such as tension, compression, or shear. Strain rate is typically expressed in units of inverse time (e.g., s^-1 or min^-1)."@en , "Zunahme der mit einem Extensometer in der Extensometer-Messlänge gemessenen Dehnung je Zeiteinheit"@de , "Dehnrate, die für die Mikrostruktursimulation verwendet wurde"@de , "strain rate either of the parallel length or of the gauge length/extensometer length (should be specified)"@en ;
         rdfs:label      "StrainRate"@en ;
@@ -3142,7 +3153,7 @@
 :PunchVelocity  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "punch velocity"@en , "Stempelgeschwindigkeit"@de ;
         rdfs:label      "PunchVelocity"@en ;
-        skos:altlabel   "v0"@en , "v0"@de ;
+        skos:altlabel   "v0"@en , "punch velocity"@en , "Stempelgeschwindigkeit"@de ;
         skos:preflabel  "PunchVelocity"@en .
 
 :ExtensionAtFracture  rdf:type  owl:Class , skos:Concept ;
@@ -3568,7 +3579,7 @@
 
 :SampleCode  rdf:type   skos:Concept , owl:Class ;
         rdfs:label      "SampleCode"@en ;
-        skos:altlabel   "QR-Code from Label System"@en , "Identifier based on Label-System"@en , "QR-Code"@de ;
+        skos:altlabel   "QR-Code from Label System"@en , "Label ID"@en , "QR-Code"@de ;
         skos:preflabel  "SampleCode"@en .
 
 :ReferenceJob  rdf:type  owl:Class ;
@@ -3643,7 +3654,7 @@
 :GridSize  rdf:type     skos:Concept , owl:Class ;
         rdfs:comment    "Rastergröße"@de ;
         rdfs:label      "GridSize"@en ;
-        skos:altlabel   "grid size"@en ;
+        skos:altlabel   "grid size"@en , "Rastergröße"@de ;
         skos:preflabel  "GridSize"@en .
 
 <https://w3id.org/steel/ProcessOntology/hasPercentageReductionOfArea_%25>
@@ -3915,7 +3926,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "Ausgangsblechdicke"@de ;
         rdfs:label      "InitialSheetThickness"@en ;
-        skos:altlabel   "Thickness"@en ;
+        skos:altlabel   "Thickness"@en , "Ausgangsblechdicke"@de ;
         skos:preflabel  "InitialSheetThickness"@en .
 
 :hasOriginalThickness_mm
@@ -3958,6 +3969,7 @@
 :PunchDiameter  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "Stempeldurchmesser "@de ;
         rdfs:label      "PunchDiameter"@en ;
+        skos:altlabel   "punch diameter"@en , "Stempeldurchmesser"@de ;
         skos:preflabel  "PunchDiameter"@en ;
         :isBasedOn      :TestStandard .
 
@@ -4260,7 +4272,7 @@
 :SpecimenWidth  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "verbleibende Breite des Schnittteils"@de ;
         rdfs:label      "SpecimenWidth"@en ;
-        skos:altlabel   "Width"@en ;
+        skos:altlabel   "Width"@en , "Breite"@de ;
         skos:preflabel  "SpecimenWidth"@en .
 
 :hasRadius_mm  rdf:type     owl:DatatypeProperty , rdf:Property ;
@@ -4545,7 +4557,7 @@
 :MinorTrueStrain  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "minor true strain"@en , "Kleinere Formänderung"@de ;
         rdfs:label      "MinorTrueStrain"@en ;
-        skos:altlabel   "minor limit strain"@en ;
+        skos:altlabel   "minor true strain"@en , "minor limit strain"@en , "Nebenformänderung"@de ;
         skos:preflabel  "MinorTrueStrain"@en .
 
 :StrainRateFormulationFlag
@@ -4578,7 +4590,7 @@
         skos:preflabel  "GrainNumber"@en .
 
 :Machine  rdf:type      skos:Concept , owl:Class ;
-        rdfs:comment    "Data of the machine used for the experiment."@en , "Prüfmaschine"@de ;
+        rdfs:comment    "Data of the machine used for the experiment."@en ;
         rdfs:label      "Machine"@en ;
         skos:altlabel   "Testing Machine"@en , "Prüfmaschine"@de , "Machine Type"@en , "Prüfmasch."@de , "Maschinendaten"@de , "Machine"@en ;
         skos:preflabel  "Machine"@en .
@@ -4697,6 +4709,12 @@
 :ComponentTest  rdf:type  owl:Class ;
         rdfs:label      "Component test"@en , "Komponententest"@de ;
         skos:preflabel  "Component test"@en , "Komponententest"@de .
+
+:hasBlankHolderForceObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasBlankHolderForce"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/BlankHolderForce" ;
+        skos:preflabel  "hasBlankHolderForce"@en .
 
 :hasUpperYieldStrength
         rdf:type        owl:DatatypeProperty , rdf:Property ;
@@ -4955,8 +4973,9 @@
         skos:preflabel  "hasFailureStrainIdentifier4MeshDependency"@en .
 
 :LubricationSystem  rdf:type  skos:Concept , owl:Class ;
+        rdfs:comment    "lubrication layer between specimen and punch"@en , "Schmiermittelschicht zwischen Stempel und Probe"@de ;
         rdfs:label      "LubricationSystem"@en ;
-        skos:altlabel   "Schmiersystem"@de ;
+        skos:altlabel   "lubrication system"@en , "Schmiersystem"@de ;
         skos:preflabel  "LubricationSystem"@en .
 
 :TensileTest  rdf:type  owl:Class ;
@@ -5378,7 +5397,6 @@
         skos:preflabel  "hasTrueThicknessStrain"@en .
 
 :Clamping  rdf:type     skos:Concept , owl:Class ;
-        rdfs:comment    "Einspannvariante (mit/ohne Sicke)"@de ;
         rdfs:label      "Clamping"@en ;
         skos:altlabel   "Clamping"@en ;
         skos:preflabel  "Clamping"@en .
@@ -5524,7 +5542,7 @@
 :TestDirection  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "die Orientierung der Proben muss die Richtung der geringsten Grenzformänderung sein (Stahl Aussparungsrichtung quer zur WR, Aluminium Aussparungsrichtung längs zur WR)"@de ;
         rdfs:label      "TestDirection"@en ;
-        skos:altlabel   "testing direction"@en ;
+        skos:altlabel   "testing direction"@en , "test direction "@en , "Prüfrichtung"@de ;
         skos:preflabel  "TestDirection"@en .
 
 :hasProofStrengthTotalExtension_MPa
