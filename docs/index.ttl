@@ -681,7 +681,7 @@
 :EngineeringStress  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "technische Spannung"@de , "engineering stress"@en ;
         rdfs:label      "EngineeringStress"@en ;
-        skos:altlabel   "Sigma Tech"@en , "engineering stress"@en , "Sigma-technisch"@de , "Sigma tech"@en ;
+        skos:altlabel   "Sigma Tech"@en , "engineering stress"@en , "Sigma-technisch"@de ;
         skos:preflabel  "EngineeringStress"@en ;
         :isBasedOn      :Force , :OriginalCrosssection .
 
@@ -3578,6 +3578,7 @@
         skos:preflabel  "hasPreliminaryForce"@en .
 
 :SampleCode  rdf:type   skos:Concept , owl:Class ;
+        rdfs:comment    "QR-Code from Label System"@en ;
         rdfs:label      "SampleCode"@en ;
         skos:altlabel   "QR-Code from Label System"@en , "Label ID"@en , "QR-Code"@de ;
         skos:preflabel  "SampleCode"@en .
@@ -4544,7 +4545,7 @@
         rdfs:comment    "Displacement of the actuator"@en ;
         rdfs:label      "CrossheadDisplacement"@en ;
         rdfs:seeAlso    :Machine ;
-        skos:altlabel   "Machine Displacement"@en , "Macine Displacement"@en , "Maschine"@de ;
+        skos:altlabel   "Machine Displacement"@en , "Maschine"@de ;
         skos:preflabel  "CrossheadDisplacement"@en ;
         skos:related    :Machine .
 

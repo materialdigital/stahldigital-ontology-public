@@ -1311,12 +1311,6 @@
         }
       ,
       {
-        "value" : "Macine Displacement",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Maschine",
         "lang" : "de",
         "type" : "literal"
@@ -3039,12 +3033,6 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Sigma Tech",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Sigma tech",
         "lang" : "en",
         "type" : "literal"
         }
@@ -12269,6 +12257,13 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "QR-Code from Label System",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ],
