@@ -28,7 +28,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "minimum cross-sectional area after fracture"@en ;
         rdfs:label      "MinimumCrosssectionAfterFracture"@en ;
-        skos:altlabel   "Su"@de , "Su"@en , "Minimum cross-sectional area after fracture"@en , "Bruchquerschnitt Su"@de ;
+        skos:altlabel   "Su"@de , "Minimum cross-sectional area after fracture"@en , "SU"@en , "Bruchquerschnitt Su"@de ;
         skos:preflabel  "MinimumCrosssectionAfterFracture"@en ;
         :isBasedOn      :ThicknessAfterFracture1 , :WidthAfterFracture2 , :ShearLengthAfterFracture2 , :DiameterAfterFracture1 , :WidthAfterFracture1 , :ShearLengthAfterFracture1 , :ThicknessAfterFracture2 , :DiameterAfterFracture2 .
 
@@ -146,6 +146,12 @@
         rdfs:label      "HardeningParameterTau0"@en ;
         skos:altlabel   "Hardening parameter tau0"@en ;
         skos:preflabel  "HardeningParameterTau0"@en .
+
+:hasTrueFractureStrainObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasTrueFractureStrain"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/TrueFractureStrain" ;
+        skos:preflabel  "hasTrueFractureStrain"@en .
 
 :hasStrain  rdf:type    owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasStrain"@en ;
@@ -1257,6 +1263,12 @@
 :hasTestPiece  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasTestPiece"@en ;
         skos:preflabel  "hasTestPiece"@en .
+
+:TrueFractureStrain  rdf:type  skos:Concept , owl:Class ;
+        rdfs:label      "TrueFractureStrain"@en ;
+        skos:altlabel   "Epsilon True Frac"@en ;
+        skos:preflabel  "TrueFractureStrain"@en ;
+        :isBasedOn      :TrueStrain .
 
 :related  rdf:type      owl:ObjectProperty ;
         rdfs:label      "is related to"@en ;
@@ -2487,6 +2499,11 @@
         skos:altlabel   "Kraftaufnehmer"@de , "force-measuring device"@en , "force-measuring system"@en , "Kraftmesseinrichtung"@de ;
         skos:preflabel  "ForceMeasuringDevice"@en .
 
+:hasTrueFractureStrain
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasTrueFractureStrain"@en ;
+        skos:preflabel  "hasTrueFractureStrain"@en .
+
 :hasPunchVelocityObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasPunchVelocity"@en ;
@@ -2796,6 +2813,13 @@
         rdfs:label      "BiaxialStress"@en ;
         skos:altlabel   "Biaxial stress"@en ;
         skos:preflabel  "BiaxialStress"@en .
+
+:hasTrueFractureStress_MPa
+        rdf:type            owl:DatatypeProperty , rdf:Property ;
+        rdfs:label          "hasTrueFractureStress_MPa"@en ;
+        rdfs:subPropertyOf  :hasTrueFractureStress ;
+        skos:preflabel      "hasTrueFractureStress_MPa"@en ;
+        :hasUnitLabel       "MPa" .
 
 :hasLowerYieldStrength_MPa
         rdf:type            owl:DatatypeProperty , rdf:Property ;
@@ -3608,6 +3632,12 @@
         rdfs:subClassOf  :Solver ;
         skos:preflabel   "Abaqus"@en , "Abaqus"@de .
 
+:TrueFractureStress  rdf:type  skos:Concept , owl:Class ;
+        rdfs:label      "TrueFractureStress"@en ;
+        skos:altlabel   "Sigma True Frac"@en ;
+        skos:preflabel  "TrueFractureStress"@en ;
+        :isBasedOn      :TrueStress .
+
 :hasInput  rdf:type     owl:ObjectProperty ;
         rdfs:domain     :Code ;
         rdfs:label      "has input"@en ;
@@ -4401,6 +4431,12 @@
         skos:altlabel   "Blechdicke"@de ;
         skos:preflabel  "Sheet thickness"@en , "Blechstärke"@de .
 
+:hasTrueFractureStressObject
+        rdf:type        owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasTrueFractureStress"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/TrueFractureStress" ;
+        skos:preflabel  "hasTrueFractureStress"@en .
+
 :hasForce_kN  rdf:type      owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasForce_kN"@en ;
         rdfs:subPropertyOf  :hasForce ;
@@ -4726,6 +4762,11 @@
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasEstimatedStrainRateOverTheParallelLength"@en ;
         skos:preflabel  "hasEstimatedStrainRateOverTheParallelLength"@en .
+
+:hasTrueFractureStress
+        rdf:type        owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasTrueFractureStress"@en ;
+        skos:preflabel  "hasTrueFractureStress"@en .
 
 :DynamometerArea  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "area on the fixed side of the test piece where only elastic deformations are required during the test"@en , "Querschnitt auf der fest eingespannten Seite der Probe, in der lediglich elastische Verformungen während des Versuchs erlaubt sind"@de ;

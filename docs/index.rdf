@@ -34,10 +34,10 @@
     <skos:altlabel xml:lang="de">Su</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture">
-    <skos:altlabel xml:lang="en">Su</skos:altlabel>
+    <skos:altlabel xml:lang="en">Minimum cross-sectional area after fracture</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture">
-    <skos:altlabel xml:lang="en">Minimum cross-sectional area after fracture</skos:altlabel>
+    <skos:altlabel xml:lang="en">SU</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture">
     <skos:altlabel xml:lang="de">Bruchquerschnitt Su</skos:altlabel>
@@ -386,6 +386,21 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningParameterTau0">
     <skos:preflabel xml:lang="en">HardeningParameterTau0</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStrainObject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStrainObject">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStrainObject">
+    <rdfs:label xml:lang="en">hasTrueFractureStrain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStrainObject">
+    <rdfs:range>https://w3id.org/steel/ProcessOntology/TrueFractureStrain</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStrainObject">
+    <skos:preflabel xml:lang="en">hasTrueFractureStrain</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStrain">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -3585,6 +3600,24 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestPiece">
     <skos:preflabel xml:lang="en">hasTestPiece</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueFractureStrain">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueFractureStrain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueFractureStrain">
+    <rdfs:label xml:lang="en">TrueFractureStrain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueFractureStrain">
+    <skos:altlabel xml:lang="en">Epsilon True Frac</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueFractureStrain">
+    <skos:preflabel xml:lang="en">TrueFractureStrain</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueFractureStrain">
+    <isBasedOn rdf:resource="https://w3id.org/steel/ProcessOntology/TrueStrain"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/related">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -7186,6 +7219,18 @@ Identifier which relates the Table to descibe the yield stress by using differen
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice">
     <skos:preflabel xml:lang="en">ForceMeasuringDevice</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStrain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStrain">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStrain">
+    <rdfs:label xml:lang="en">hasTrueFractureStrain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStrain">
+    <skos:preflabel xml:lang="en">hasTrueFractureStrain</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasPunchVelocityObject">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
@@ -8087,6 +8132,24 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/BiaxialStress">
     <skos:preflabel xml:lang="en">BiaxialStress</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStress_MPa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStress_MPa">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStress_MPa">
+    <rdfs:label xml:lang="en">hasTrueFractureStress_MPa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStress_MPa">
+    <rdfs:subPropertyOf rdf:resource="https://w3id.org/steel/ProcessOntology/hasTrueFractureStress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStress_MPa">
+    <skos:preflabel xml:lang="en">hasTrueFractureStress_MPa</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStress_MPa">
+    <hasUnitLabel>MPa</hasUnitLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLowerYieldStrength_MPa">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -10509,6 +10572,24 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Abaqus">
     <skos:preflabel xml:lang="de">Abaqus</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueFractureStress">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueFractureStress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueFractureStress">
+    <rdfs:label xml:lang="en">TrueFractureStress</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueFractureStress">
+    <skos:altlabel xml:lang="en">Sigma True Frac</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueFractureStress">
+    <skos:preflabel xml:lang="en">TrueFractureStress</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueFractureStress">
+    <isBasedOn rdf:resource="https://w3id.org/steel/ProcessOntology/TrueStress"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInput">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
@@ -12909,6 +12990,21 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SheetThickness">
     <skos:preflabel xml:lang="de">Blechstärke</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStressObject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStressObject">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStressObject">
+    <rdfs:label xml:lang="en">hasTrueFractureStress</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStressObject">
+    <rdfs:range>https://w3id.org/steel/ProcessOntology/TrueFractureStress</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStressObject">
+    <skos:preflabel xml:lang="en">hasTrueFractureStress</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasForce_kN">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
@@ -13854,6 +13950,18 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEstimatedStrainRateOverTheParallelLength">
     <skos:preflabel xml:lang="en">hasEstimatedStrainRateOverTheParallelLength</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStress">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStress">
+    <rdfs:label xml:lang="en">hasTrueFractureStress</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStress">
+    <skos:preflabel xml:lang="en">hasTrueFractureStress</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DynamometerArea">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
