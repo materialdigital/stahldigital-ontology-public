@@ -34,6 +34,9 @@
     <skos:altlabel xml:lang="de">Su</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture">
+    <skos:altlabel xml:lang="en">Su</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture">
     <skos:altlabel xml:lang="en">Minimum cross-sectional area after fracture</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture">
@@ -323,9 +326,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture1">
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture1">
-    <skos:altlabel xml:lang="en">ShearLength B1 after fracture</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture1">
     <skos:altlabel xml:lang="de">Probenbreite B1 nach Bruch</skos:altlabel>
@@ -1929,6 +1929,9 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <skos:altlabel xml:lang="de">Sigma-technisch</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
+    <skos:altlabel xml:lang="en">Sigma tech</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
     <skos:preflabel xml:lang="en">EngineeringStress</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
@@ -2894,13 +2897,16 @@ or
     <rdfs:label xml:lang="en">Remark</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Remark">
+    <skos:altlabel xml:lang="de">Bemerkungen</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Remark">
+    <skos:altlabel xml:lang="en">Testing Comment</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Remark">
     <skos:altlabel xml:lang="en">Remark</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Remark">
     <skos:altlabel xml:lang="de">Kommentar</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Remark">
-    <skos:altlabel xml:lang="de">Bemerkungen</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Remark">
     <skos:altlabel xml:lang="de">Bemerkung</skos:altlabel>
@@ -6079,9 +6085,6 @@ or
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/ThicknessAfterFracture2"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ThicknessAfterFracture1">
-    <skos:altlabel xml:lang="en">Thickness A1 after fracture</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ThicknessAfterFracture1">
     <skos:altlabel xml:lang="de">Probendicke A1 nach Bruch</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ThicknessAfterFracture1">
@@ -6347,9 +6350,6 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <skos:altlabel xml:lang="en">Temperature</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <skos:altlabel xml:lang="en">Test temperature</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
     <skos:altlabel xml:lang="de">Temperatur</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
@@ -6572,13 +6572,7 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <rdfs:label xml:lang="en">ExperimentIdentifier</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExperimentIdentifier">
-    <skos:altlabel xml:lang="en">Label-ID</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExperimentIdentifier">
     <skos:altlabel xml:lang="en">Label ID</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExperimentIdentifier">
-    <skos:altlabel xml:lang="en">Identifier based on Label-System</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExperimentIdentifier">
     <skos:altlabel xml:lang="de">Proben-ID</skos:altlabel>
@@ -7566,9 +7560,6 @@ Identifier which relates the Table to descibe the yield stress by using differen
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
     <skos:altlabel xml:lang="en">original gauge length</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
-    <skos:altlabel xml:lang="en">Original gauge length </skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
     <skos:preflabel xml:lang="en">OriginalGaugeLength</skos:preflabel>
@@ -8585,7 +8576,7 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/TestPieceGeometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ShearLength">
-    <skos:altlabel xml:lang="en">ShearLength</skos:altlabel>
+    <skos:altlabel xml:lang="en">shear length</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ShearLength">
     <skos:preflabel xml:lang="en">ShearLength</skos:preflabel>
@@ -9225,9 +9216,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensionAtFracture">
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/OriginalCrosssection"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensionAtFracture">
-    <skos:altlabel xml:lang="en">Extension at fracture</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensionAtFracture">
     <skos:altlabel xml:lang="de">Bruchverlängerung</skos:altlabel>
@@ -10114,9 +10102,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture1"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture2">
-    <skos:altlabel xml:lang="en">ShearLength B2 after fracture</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture2">
     <skos:altlabel xml:lang="de">Probenbreite B2 nach Bruch</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture2">
@@ -10364,9 +10349,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <skos:altlabel xml:lang="de">Vorlast</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
-    <skos:altlabel xml:lang="en">Preliminary force</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <skos:altlabel xml:lang="de">Vorkraft</skos:altlabel>
@@ -11288,9 +11270,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
     <skos:altlabel xml:lang="de">S0</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
-    <skos:altlabel xml:lang="en">original cross-sectional area of the parallel length</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
     <skos:altlabel xml:lang="de">Anfangsquerschnitt S0</skos:altlabel>
@@ -12682,9 +12661,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:altlabel xml:lang="en">Force</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
-    <skos:altlabel xml:lang="en">Force-measuring device</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
     <skos:altlabel xml:lang="en">force</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
@@ -13336,7 +13312,7 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:altlabel xml:lang="en">Machine Displacement</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadDisplacement">
-    <skos:altlabel xml:lang="en">Crosshead displacement</skos:altlabel>
+    <skos:altlabel xml:lang="en">Macine Displacement</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadDisplacement">
     <skos:altlabel xml:lang="de">Maschine</skos:altlabel>
@@ -13503,9 +13479,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <skos:altlabel xml:lang="de">Maschinendaten</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
-    <skos:altlabel xml:lang="en">Machine</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <skos:preflabel xml:lang="en">Machine</skos:preflabel>
@@ -15406,9 +15379,6 @@ GT.0.0: Constant fading exponent</rdfs:comment>
     <skos:altlabel xml:lang="en">crosshead separation rate</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
-    <skos:altlabel xml:lang="en">Crosshead separation rate vc</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <skos:preflabel xml:lang="en">CrossheadSeparationRate</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
@@ -15494,9 +15464,6 @@ GT.0.0: Constant fading exponent</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ShearStrength">
     <rdfs:label xml:lang="en">ShearStrength</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ShearStrength">
-    <skos:altlabel xml:lang="en">shear strength</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ShearStrength">
     <skos:altlabel xml:lang="de">Zugfestigkeit Rm</skos:altlabel>
@@ -16010,9 +15977,6 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ThicknessAfterFracture2">
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/ThicknessAfterFracture1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ThicknessAfterFracture2">
-    <skos:altlabel xml:lang="en">Thickness A2 after fracture</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ThicknessAfterFracture2">
     <skos:altlabel xml:lang="de">Probendicke A2 nach Bruch</skos:altlabel>

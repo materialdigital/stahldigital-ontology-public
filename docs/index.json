@@ -1305,13 +1305,13 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Crosshead displacement",
+        "value" : "Machine Displacement",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Machine Displacement",
+        "value" : "Macine Displacement",
         "lang" : "en",
         "type" : "literal"
         }
@@ -1383,12 +1383,6 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Crosshead separation rate vc",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Pr\u00FCfgeschwindigkeit",
         "lang" : "de",
         "type" : "literal"
@@ -3050,6 +3044,12 @@
         }
       ,
       {
+        "value" : "Sigma tech",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Sigma-technisch",
         "lang" : "de",
         "type" : "literal"
@@ -3389,19 +3389,7 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Identifier based on Label-System",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Label ID",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Label-ID",
         "lang" : "en",
         "type" : "literal"
         }
@@ -3673,12 +3661,6 @@
       {
         "value" : "DLBruch",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Extension at fracture",
-        "lang" : "en",
         "type" : "literal"
         }
       
@@ -4811,12 +4793,6 @@
       ,
       {
         "value" : "Force",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Force-measuring device",
         "lang" : "en",
         "type" : "literal"
         }
@@ -7117,12 +7093,6 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Machine",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Machine Type",
         "lang" : "en",
         "type" : "literal"
@@ -8427,6 +8397,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "Su",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -9240,12 +9216,6 @@
         "lang" : "en",
         "type" : "literal"
         }
-      ,
-      {
-        "value" : "original cross-sectional area of the parallel length",
-        "lang" : "en",
-        "type" : "literal"
-        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -9373,12 +9343,6 @@
       {
         "value" : "Messl\u00E4nge Standardweg",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Original gauge length ",
-        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -10807,12 +10771,6 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Preliminary force",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Vorkraft",
         "lang" : "de",
         "type" : "literal"
@@ -12161,6 +12119,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "Testing Comment",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -12538,7 +12502,7 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "ShearLength",
+        "value" : "shear length",
         "lang" : "en",
         "type" : "literal"
         }
@@ -12589,12 +12553,6 @@
         "lang" : "de",
         "type" : "literal"
         }
-      ,
-      {
-        "value" : "ShearLength B1 after fracture",
-        "lang" : "en",
-        "type" : "literal"
-        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -12640,12 +12598,6 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Probenbreite B2 nach Bruch",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "ShearLength B2 after fracture",
-        "lang" : "en",
         "type" : "literal"
         }
       
@@ -12694,12 +12646,6 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Zugfestigkeit Rm",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "shear strength",
-        "lang" : "en",
         "type" : "literal"
         }
       
@@ -14828,12 +14774,6 @@
         }
       ,
       {
-        "value" : "Test temperature",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "test temperature",
         "lang" : "en",
         "type" : "literal"
@@ -15227,12 +15167,6 @@
         "lang" : "de",
         "type" : "literal"
         }
-      ,
-      {
-        "value" : "Thickness A1 after fracture",
-        "lang" : "en",
-        "type" : "literal"
-        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -15278,12 +15212,6 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Probendicke A2 nach Bruch",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Thickness A2 after fracture",
-        "lang" : "en",
         "type" : "literal"
         }
       

@@ -28,7 +28,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "minimum cross-sectional area after fracture"@en ;
         rdfs:label      "MinimumCrosssectionAfterFracture"@en ;
-        skos:altlabel   "Su"@de , "Minimum cross-sectional area after fracture"@en , "Bruchquerschnitt Su"@de ;
+        skos:altlabel   "Su"@de , "Su"@en , "Minimum cross-sectional area after fracture"@en , "Bruchquerschnitt Su"@de ;
         skos:preflabel  "MinimumCrosssectionAfterFracture"@en ;
         :isBasedOn      :ThicknessAfterFracture1 , :WidthAfterFracture2 , :ShearLengthAfterFracture2 , :DiameterAfterFracture1 , :WidthAfterFracture1 , :ShearLengthAfterFracture1 , :ThicknessAfterFracture2 , :DiameterAfterFracture2 .
 
@@ -123,7 +123,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "ShearLengthAfterFracture1"@en ;
         rdfs:seeAlso    :ShearLengthAfterFracture1 ;
-        skos:altlabel   "ShearLength B1 after fracture"@en , "Probenbreite B1 nach Bruch"@de ;
+        skos:altlabel   "Probenbreite B1 nach Bruch"@de ;
         skos:preflabel  "ShearLengthAfterFracture1"@en ;
         skos:related    :ShearLengthAfterFracture1 .
 
@@ -681,7 +681,7 @@
 :EngineeringStress  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "technische Spannung"@de , "engineering stress"@en ;
         rdfs:label      "EngineeringStress"@en ;
-        skos:altlabel   "Sigma Tech"@en , "engineering stress"@en , "Sigma-technisch"@de ;
+        skos:altlabel   "Sigma Tech"@en , "engineering stress"@en , "Sigma-technisch"@de , "Sigma tech"@en ;
         skos:preflabel  "EngineeringStress"@en ;
         :isBasedOn      :Force , :OriginalCrosssection .
 
@@ -1026,7 +1026,7 @@
 :Remark  rdf:type       skos:Concept , owl:Class ;
         rdfs:comment    "A specific comment about the experiment."@en ;
         rdfs:label      "Remark"@en ;
-        skos:altlabel   "Remark"@en , "Kommentar"@de , "Bemerkungen"@de , "Bemerkung"@de ;
+        skos:altlabel   "Bemerkungen"@de , "Testing Comment"@en , "Remark"@en , "Kommentar"@de , "Bemerkung"@de ;
         skos:preflabel  "Remark"@en .
 
 :TotalEngineeringStrain
@@ -2123,7 +2123,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "ThicknessAfterFracture1"@en ;
         rdfs:seeAlso    :ThicknessAfterFracture2 ;
-        skos:altlabel   "Thickness A1 after fracture"@en , "Probendicke A1 nach Bruch"@de ;
+        skos:altlabel   "Probendicke A1 nach Bruch"@de ;
         skos:preflabel  "ThicknessAfterFracture1"@en ;
         skos:related    :ThicknessAfterFracture2 .
 
@@ -2210,7 +2210,7 @@
 :TestTemperature  rdf:type  owl:Class , skos:Concept ;
         rdfs:comment    "The temperature during the experiment."@en , "Prüftemperatur"@de , "The initial test temperature during the experiment (neglecting adiabatic heating)"@en , "Versuche unter kontrollierten Bedingungen müssen bei einer Temperatur von (23 ± 5) °C durchgeführt werden."@de ;
         rdfs:label      "TestTemperature"@en ;
-        skos:altlabel   "test temperature"@en , "Temperature"@en , "Test temperature"@en , "Temperatur"@de , "Prüftemperatur"@de ;
+        skos:altlabel   "test temperature"@en , "Temperature"@en , "Temperatur"@de , "Prüftemperatur"@de ;
         skos:preflabel  "TestTemperature"@en .
 
 :hasMatTabulatedJohnsonCook
@@ -2281,7 +2281,7 @@
 :ExperimentIdentifier
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "ExperimentIdentifier"@en ;
-        skos:altlabel   "Label-ID"@en , "Label ID"@en , "Identifier based on Label-System"@en , "Proben-ID"@de ;
+        skos:altlabel   "Label ID"@en , "Proben-ID"@de ;
         skos:preflabel  "ExperimentIdentifier"@en .
 
 :hasInteractionMatrixObject
@@ -2612,7 +2612,7 @@
 :OriginalGaugeLength  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "The intial gauge length given by the specimen geometry"@en , "length between gauge length marks on the test piece measured at room temperature before the test"@en , "Länge zwischen den Marken zur Kennzeichnung der Messlänge (3.1) auf der Probe, die vor dem Versuch bei Raumtemperatur gemessen wird"@de ;
         rdfs:label      "OriginalGaugeLength"@en ;
-        skos:altlabel   "Messlänge Lo"@de , "Messlänge Standardweg"@de , "L0"@en , "original gauge length"@en , "Original gauge length "@en ;
+        skos:altlabel   "Messlänge Lo"@de , "Messlänge Standardweg"@de , "L0"@en , "original gauge length"@en ;
         skos:preflabel  "OriginalGaugeLength"@en .
 
 :hasPercentageElongationAfterFracture
@@ -2960,7 +2960,7 @@
         rdfs:comment    "length of the shear zone"@en , "Länge der Scherzone"@de ;
         rdfs:label      "ShearLength"@en ;
         rdfs:seeAlso    :TestPieceGeometry ;
-        skos:altlabel   "ShearLength"@en ;
+        skos:altlabel   "shear length"@en ;
         skos:preflabel  "ShearLength"@en ;
         skos:related    :TestPieceGeometry .
 
@@ -3160,7 +3160,7 @@
         rdfs:comment    "Displacement of the extensometer (!) length at fracture"@en ;
         rdfs:label      "ExtensionAtFracture"@en ;
         rdfs:seeAlso    :OriginalCrosssection ;
-        skos:altlabel   "Extension at fracture"@en , "Bruchverlängerung"@de , "DLBruch"@de ;
+        skos:altlabel   "Bruchverlängerung"@de , "DLBruch"@de ;
         skos:preflabel  "ExtensionAtFracture"@en ;
         skos:related    :OriginalCrosssection ;
         :isBasedOn      :Extension .
@@ -3471,7 +3471,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "ShearLengthAfterFracture2"@en ;
         rdfs:seeAlso    :ShearLengthAfterFracture1 ;
-        skos:altlabel   "ShearLength B2 after fracture"@en , "Probenbreite B2 nach Bruch"@de ;
+        skos:altlabel   "Probenbreite B2 nach Bruch"@de ;
         skos:preflabel  "ShearLengthAfterFracture2"@en ;
         skos:related    :ShearLengthAfterFracture1 .
 
@@ -3549,7 +3549,7 @@
         rdfs:comment    "Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet"@de , "\"Vorkraft\" in DIN EN ISO 6892-1"@en ;
         rdfs:label      "PreliminaryForce"@en ;
         rdfs:seeAlso    :ForceMeasuringDevice ;
-        skos:altlabel   "Vorlast"@de , "Preliminary force"@en , "Vorkraft"@de , "preliminary force"@en ;
+        skos:altlabel   "Vorlast"@de , "Vorkraft"@de , "preliminary force"@en ;
         skos:preflabel  "PreliminaryForce"@en ;
         skos:related    :ForceMeasuringDevice .
 
@@ -3849,7 +3849,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:comment    "original crosssection area of the parallel length"@en , "Crosssection of the sample."@en , "original cross-sectional area of the parallel length"@en ;
         rdfs:label      "OriginalCrosssection"@en ;
-        skos:altlabel   "Original cross section"@en , "Anfangsquerschnitt So"@de , "Querschnitt"@de , "Crosssection"@en , "S0"@en , "S0"@de , "original cross-sectional area of the parallel length"@en , "Anfangsquerschnitt S0"@de ;
+        skos:altlabel   "Original cross section"@en , "Anfangsquerschnitt So"@de , "Querschnitt"@de , "Crosssection"@en , "S0"@en , "S0"@de , "Anfangsquerschnitt S0"@de ;
         skos:preflabel  "OriginalCrosssection"@en ;
         :isBasedOn      :Diameter , :ShearLength , :OriginalThickness , :OriginalWidth .
 
@@ -4306,7 +4306,7 @@
         rdfs:comment    "The force measured by the load cell"@en , "The force that is measured using the Force-measuring device."@en , "The force measured with the force measuring system"@en ;
         rdfs:label      "Force"@en , "Kraft"@de ;
         rdfs:seeAlso    :ForceMeasuringSystem , :ForceMeasuringDevice ;
-        skos:altlabel   "Standardkraft"@de , "Tiefungskraft"@de , "F"@de , "Force"@en , "Force-measuring device"@en , "force"@en ;
+        skos:altlabel   "Standardkraft"@de , "Tiefungskraft"@de , "F"@de , "Force"@en , "force"@en ;
         skos:preflabel  "Force"@en , "Kraft"@de ;
         skos:related    :ForceMeasuringDevice , :ForceMeasuringSystem .
 
@@ -4544,7 +4544,7 @@
         rdfs:comment    "Displacement of the actuator"@en ;
         rdfs:label      "CrossheadDisplacement"@en ;
         rdfs:seeAlso    :Machine ;
-        skos:altlabel   "Machine Displacement"@en , "Crosshead displacement"@en , "Maschine"@de ;
+        skos:altlabel   "Machine Displacement"@en , "Macine Displacement"@en , "Maschine"@de ;
         skos:preflabel  "CrossheadDisplacement"@en ;
         skos:related    :Machine .
 
@@ -4592,7 +4592,7 @@
 :Machine  rdf:type      skos:Concept , owl:Class ;
         rdfs:comment    "Data of the machine used for the experiment."@en ;
         rdfs:label      "Machine"@en ;
-        skos:altlabel   "Testing Machine"@en , "Prüfmaschine"@de , "Machine Type"@en , "Prüfmasch."@de , "Maschinendaten"@de , "Machine"@en ;
+        skos:altlabel   "Testing Machine"@en , "Prüfmaschine"@de , "Machine Type"@en , "Prüfmasch."@de , "Maschinendaten"@de ;
         skos:preflabel  "Machine"@en .
 
 :Stress  rdf:type       skos:Concept , owl:Class ;
@@ -5236,7 +5236,7 @@
         rdfs:comment    "The displacement of the crosshead per time"@en , "Traversenweg je Zeiteinheit"@de , "The speed of the experiment."@en ;
         rdfs:label      "CrossheadSeparationRate"@en ;
         rdfs:seeAlso    :ParallelLength ;
-        skos:altlabel   "Prüfgeschwindigkeit"@de , "v0"@en , "crosshead separation rate"@en , "Crosshead separation rate vc"@en ;
+        skos:altlabel   "Prüfgeschwindigkeit"@de , "v0"@en , "crosshead separation rate"@en ;
         skos:preflabel  "CrossheadSeparationRate"@en ;
         skos:related    :ParallelLength .
 
@@ -5264,7 +5264,7 @@
 :ShearStrength  rdf:type  skos:Concept , owl:Class ;
         rdfs:comment    "shear strength"@en ;
         rdfs:label      "ShearStrength"@en ;
-        skos:altlabel   "shear strength"@en , "Zugfestigkeit Rm"@de ;
+        skos:altlabel   "Zugfestigkeit Rm"@de ;
         skos:preflabel  "ShearStrength"@en ;
         :isBasedOn      :EngineeringStress .
 
@@ -5435,7 +5435,7 @@
         rdf:type        skos:Concept , owl:Class ;
         rdfs:label      "ThicknessAfterFracture2"@en ;
         rdfs:seeAlso    :ThicknessAfterFracture1 ;
-        skos:altlabel   "Thickness A2 after fracture"@en , "Probendicke A2 nach Bruch"@de ;
+        skos:altlabel   "Probendicke A2 nach Bruch"@de ;
         skos:preflabel  "ThicknessAfterFracture2"@en ;
         skos:related    :ThicknessAfterFracture1 .
 
