@@ -3742,6 +3742,21 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Width">
     <skos:preflabel xml:lang="en">Width</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Failure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Failure">
+    <rdfs:label xml:lang="en">failure</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Failure">
+    <rdfs:label xml:lang="de">Versagen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Failure">
+    <skos:preflabel xml:lang="en">failure</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Failure">
+    <skos:preflabel xml:lang="de">Versagen</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasOriginalDiameter_mm">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
@@ -7466,13 +7481,13 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <rdfs:label xml:lang="en">Testing machine</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingMachine">
-    <rdfs:label xml:lang="de">Prüfmaschiene</rdfs:label>
+    <rdfs:label xml:lang="de">Prüfmaschine</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingMachine">
     <skos:preflabel xml:lang="en">Testing machine</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingMachine">
-    <skos:preflabel xml:lang="de">Prüfmaschiene</skos:preflabel>
+    <skos:preflabel xml:lang="de">Prüfmaschine</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasRelativeStandardDeviationOfTheSlope">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -7947,6 +7962,21 @@ Identifier which relates the Table to descibe the yield stress by using differen
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Tester">
     <skos:preflabel xml:lang="en">Tester</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Steel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Steel">
+    <rdfs:label xml:lang="en">steel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Steel">
+    <rdfs:label xml:lang="de">Stahl</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Steel">
+    <skos:preflabel xml:lang="en">steel</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Steel">
+    <skos:preflabel xml:lang="de">Stahl</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength_1Percentage">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -10170,6 +10200,21 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture2">
     <skos:related rdf:resource="https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture1"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Ductility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Ductility">
+    <rdfs:label xml:lang="en">ductility</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Ductility">
+    <rdfs:label xml:lang="de">Duktilität</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Ductility">
+    <skos:preflabel xml:lang="en">ductility</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Ductility">
+    <skos:preflabel xml:lang="de">Duktilität</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEulerAngle1Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
@@ -10481,6 +10526,21 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasPreliminaryForceObject">
     <skos:preflabel xml:lang="en">hasPreliminaryForce</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DuctileFailure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DuctileFailure">
+    <rdfs:label xml:lang="en">ductile failure</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DuctileFailure">
+    <rdfs:label xml:lang="de">duktiles Versagen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DuctileFailure">
+    <skos:preflabel xml:lang="en">ductile failure</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DuctileFailure">
+    <skos:preflabel xml:lang="de">duktiles Versagen</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleCode">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>

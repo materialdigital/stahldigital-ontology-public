@@ -1314,6 +1314,10 @@
         skos:altlabel   "B"@de ;
         skos:preflabel  "Width"@en .
 
+:Failure  rdf:type      owl:Class ;
+        rdfs:label      "failure"@en , "Versagen"@de ;
+        skos:preflabel  "failure"@en , "Versagen"@de .
+
 :hasOriginalDiameter_mm
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasOriginalDiameter_mm"@en ;
@@ -2587,8 +2591,8 @@
 
 :TestingMachine  rdf:type  owl:Class ;
         rdfs:comment    "A machine pervorming an experimental test"@en ;
-        rdfs:label      "Testing machine"@en , "Prüfmaschiene"@de ;
-        skos:preflabel  "Testing machine"@en , "Prüfmaschiene"@de .
+        rdfs:label      "Testing machine"@en , "Prüfmaschine"@de ;
+        skos:preflabel  "Testing machine"@en , "Prüfmaschine"@de .
 
 :hasRelativeStandardDeviationOfTheSlope
         rdf:type        owl:DatatypeProperty , rdf:Property ;
@@ -2752,6 +2756,10 @@
         rdfs:label      "Tester"@en ;
         skos:altlabel   "Tester"@en , "Prüfer"@de ;
         skos:preflabel  "Tester"@en .
+
+:Steel  rdf:type        owl:Class ;
+        rdfs:label      "steel"@en , "Stahl"@de ;
+        skos:preflabel  "steel"@en , "Stahl"@de .
 
 :ProofStrength_1Percentage
         rdf:type        skos:Concept , owl:Class ;
@@ -3499,6 +3507,10 @@
         skos:preflabel  "ShearLengthAfterFracture2"@en ;
         skos:related    :ShearLengthAfterFracture1 .
 
+:Ductility  rdf:type    owl:Class ;
+        rdfs:label      "ductility"@en , "Duktilität"@de ;
+        skos:preflabel  "ductility"@en , "Duktilität"@de .
+
 :hasEulerAngle1Object
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasEulerAngle1"@en ;
@@ -3600,6 +3612,10 @@
         rdfs:label      "hasPreliminaryForce"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/PreliminaryForce" ;
         skos:preflabel  "hasPreliminaryForce"@en .
+
+:DuctileFailure  rdf:type  owl:Class ;
+        rdfs:label      "ductile failure"@en , "duktiles Versagen"@de ;
+        skos:preflabel  "ductile failure"@en , "duktiles Versagen"@de .
 
 :SampleCode  rdf:type   skos:Concept , owl:Class ;
         rdfs:comment    "QR-Code from Label System"@en ;
