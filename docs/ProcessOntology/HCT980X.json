@@ -1,0 +1,61 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/HCT980X" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "HCT980X",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/DualPhaseSteel",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "1.0944",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "CR590Y980T-DP",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "HCT980X",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "HCT980X",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#related" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/DualPhaseSteel",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }
