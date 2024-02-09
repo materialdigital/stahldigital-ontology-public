@@ -15569,6 +15569,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdfs:label xml:lang="en">TensileTestingMachine</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileTestingMachine">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/Machine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileTestingMachine">
     <skos:altlabel xml:lang="en">tensile testing machine</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileTestingMachine">
@@ -15582,6 +15585,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileTestingMachine">
     <skos:preflabel xml:lang="en">TensileTestingMachine</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileTestingMachine">
+    <skos:related rdf:resource="https://w3id.org/steel/ProcessOntology/Machine"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningModulus_h0">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
