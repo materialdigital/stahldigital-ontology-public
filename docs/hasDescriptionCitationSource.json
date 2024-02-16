@@ -1,8 +1,8 @@
 
 {
-  "https://w3id.org/steel/ProcessOntology/hasDescriptionSource" : {
+  "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : {
     "http://purl.org/dc/elements/1.1/description" : [ {
-        "value" : "has description source",
+        "value" : "When a description of a resource is a citation, this attribute can be used to mark it as citation and give the source for the citation. The language tag denotes the language of the citation this source is for.",
         "lang" : "en",
         "type" : "literal"
         }
@@ -15,14 +15,14 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "has description source",
+        "value" : "has description citation source",
         "lang" : "en",
         "type" : "literal"
         }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "has description source",
+        "value" : "has description citation source",
         "lang" : "en",
         "type" : "literal"
         }

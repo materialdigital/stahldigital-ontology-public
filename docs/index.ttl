@@ -3704,12 +3704,6 @@
         rdfs:label      "hasTime"@en ;
         skos:preflabel  "hasTime"@en .
 
-:hasDescriptionSource
-        rdf:type        owl:DatatypeProperty ;
-        rdfs:label      "has description source"@en ;
-        dc:description  "has description source"@en ;
-        skos:preflabel  "has description source"@en .
-
 :hasProofStrength_1Percentage
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasProofStrength_1Percentage"@en ;
@@ -5458,6 +5452,11 @@
         rdfs:label      "hasHardeningParameterTheta1"@en ;
         skos:preflabel  "hasHardeningParameterTheta1"@en .
 
+:hasLabelSource  rdf:type  owl:DatatypeProperty ;
+        rdfs:label      "has label source"@en ;
+        dc:description  "The source for the resource label (rdfs:label or skos:preflabel)"@en ;
+        skos:preflabel  "has label source"@en .
+
 :hasWidthAfterFracture2_mm
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasWidthAfterFracture2_mm"@en ;
@@ -5729,6 +5728,12 @@
         rdfs:label      "SampleIdentifier"@en ;
         skos:altlabel   "Sample identifier"@en , "Specimen name"@en , "Proben-Nr."@de , "NAME"@de , "Probennummer"@de , "Probenbezeichnung"@de , "Specimen Name"@en ;
         skos:preflabel  "SampleIdentifier"@en .
+
+:hasDescriptionCitationSource
+        rdf:type        owl:DatatypeProperty ;
+        rdfs:label      "has description citation source"@en ;
+        dc:description  "When a description of a resource is a citation, this attribute can be used to mark it as citation and give the source for the citation. The language tag denotes the language of the citation this source is for."@en ;
+        skos:preflabel  "has description citation source"@en .
 
 :hasCrossheadDisplacement_mm
         rdf:type            owl:DatatypeProperty , rdf:Property ;
