@@ -1,12 +1,14 @@
 
 
-<https://w3id.org/steel/ProcessOntology/TestDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/TestDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/TestDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/TestDirection> <http://www.w3.org/2000/01/rdf-schema#comment> "die Orientierung der Proben muss die Richtung der geringsten Grenzformänderung sein (Stahl Aussparungsrichtung quer zur WR, Aluminium Aussparungsrichtung längs zur WR)"@de .
 <https://w3id.org/steel/ProcessOntology/TestDirection> <http://www.w3.org/2000/01/rdf-schema#label> "TestDirection"@en .
-<https://w3id.org/steel/ProcessOntology/TestDirection> <http://www.w3.org/2004/02/skos/core#altlabel> "testing direction"@en .
 <https://w3id.org/steel/ProcessOntology/TestDirection> <http://www.w3.org/2004/02/skos/core#altlabel> "test direction "@en .
 <https://w3id.org/steel/ProcessOntology/TestDirection> <http://www.w3.org/2004/02/skos/core#altlabel> "Prüfrichtung"@de .
+<https://w3id.org/steel/ProcessOntology/TestDirection> <http://www.w3.org/2004/02/skos/core#altlabel> "testing direction"@en .
 <https://w3id.org/steel/ProcessOntology/TestDirection> <http://www.w3.org/2004/02/skos/core#preflabel> "TestDirection"@en .
+<https://w3id.org/steel/ProcessOntology/TestDirection> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 12004-2: 2021_07, 5"@de .
+<https://w3id.org/steel/ProcessOntology/TestDirection> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 12004-2: 2021_07, 5"@en .
 
 

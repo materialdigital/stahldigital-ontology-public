@@ -46,12 +46,12 @@
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
+            <td>http://www.w3.org/2002/07/owl#Class</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2002/07/owl#Class</td>
+            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
           </tr>
         
           <tr>
@@ -75,13 +75,18 @@
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/isBasedOn</td>
-            <td>https://w3id.org/steel/ProcessOntology/OriginalCrosssection</td>
+            <td>https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource</td>
+            <td>Authors</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/isBasedOn</td>
             <td>https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/isBasedOn</td>
+            <td>https://w3id.org/steel/ProcessOntology/OriginalCrosssection</td>
           </tr>
         
         </table>
@@ -90,16 +95,6 @@
           <h3>Linked Resources</h3>
 
 <ul>
-    
-    <li>
-        <a
-            title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
-            >Concept</a> via
-        <a
-            href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            >type</a>
-    </li>
     
     <li>
         <a
@@ -113,9 +108,19 @@
     
     <li>
         <a
+            title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
+            >Concept</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            >type</a>
+    </li>
+    
+    <li>
+        <a
             title="https://w3id.org/steel/ProcessOntology/isBasedOn"
-            href=".//ProcessOntology/OriginalCrosssection"
-            >OriginalCrosssection</a> via
+            href=".//ProcessOntology/MinimumCrosssectionAfterFracture"
+            >MinimumCrosssectionAfterFracture</a> via
         <a
             href=".//ProcessOntology/isBasedOn"
             >isBasedOn</a>
@@ -124,8 +129,8 @@
     <li>
         <a
             title="https://w3id.org/steel/ProcessOntology/isBasedOn"
-            href=".//ProcessOntology/MinimumCrosssectionAfterFracture"
-            >MinimumCrosssectionAfterFracture</a> via
+            href=".//ProcessOntology/OriginalCrosssection"
+            >OriginalCrosssection</a> via
         <a
             href=".//ProcessOntology/isBasedOn"
             >isBasedOn</a>
