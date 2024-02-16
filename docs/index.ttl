@@ -3704,6 +3704,12 @@
         rdfs:label      "hasTime"@en ;
         skos:preflabel  "hasTime"@en .
 
+:hasDescriptionSource
+        rdf:type        owl:DatatypeProperty ;
+        rdfs:label      "has description source"@en ;
+        dc:description  "has description source"@en ;
+        skos:preflabel  "has description source"@en .
+
 :hasProofStrength_1Percentage
         rdf:type        owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasProofStrength_1Percentage"@en ;
