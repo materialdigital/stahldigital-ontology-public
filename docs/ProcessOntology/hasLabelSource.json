@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/hasLabelSource" : {
     "http://purl.org/dc/elements/1.1/description" : [ {
-        "value" : "The source for the resource label (rdfs:label or skos:preflabel)",
+        "value" : "The source for the resource label (rdfs:label or skos:preflabel). The language tag denotes the language of the label this source is for.",
         "lang" : "en",
         "type" : "literal"
         }

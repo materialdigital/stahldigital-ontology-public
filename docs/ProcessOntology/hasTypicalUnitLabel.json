@@ -1,8 +1,8 @@
 
 {
-  "https://w3id.org/steel/ProcessOntology/hasLabelSource" : {
+  "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : {
     "http://purl.org/dc/elements/1.1/description" : [ {
-        "value" : "The source for the resource label (rdfs:label or skos:preflabel). The language tag denotes the language of the label this source is for.",
+        "value" : "A typical unit label for the resource",
         "lang" : "en",
         "type" : "literal"
         }
@@ -15,14 +15,14 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "has label source",
+        "value" : "has typical unit label",
         "lang" : "en",
         "type" : "literal"
         }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "has label source",
+        "value" : "has typical unit label",
         "lang" : "en",
         "type" : "literal"
         }

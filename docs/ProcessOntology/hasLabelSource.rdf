@@ -7,7 +7,7 @@
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">has label source</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLabelSource">
-    <ns0:description xmlns:ns0="http://purl.org/dc/elements/1.1/" xml:lang="en">The source for the resource label (rdfs:label or skos:preflabel)</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/elements/1.1/" xml:lang="en">The source for the resource label (rdfs:label or skos:preflabel). The language tag denotes the language of the label this source is for.</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLabelSource">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">has label source</ns0:preflabel>

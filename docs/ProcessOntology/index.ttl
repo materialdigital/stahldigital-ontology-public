@@ -907,6 +907,11 @@
         skos:altlabel    "code damask"@en , "Damask Ablauf"@de ;
         skos:preflabel   "Damask code"@en , "Damask Code"@de .
 
+:hasTypicalUnitLabel  rdf:type  owl:DatatypeProperty ;
+        rdfs:label      "has typical unit label"@en ;
+        dc:description  "A typical unit label for the resource"@en ;
+        skos:preflabel  "has typical unit label"@en .
+
 :hasInnerDiameterBlankHolder_mm
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasInnerDiameterBlankHolder_mm"@en ;
@@ -1467,6 +1472,9 @@
         rdfs:comment    "Material parameter N used for the flow curve extrapolation according to Hockett and Sherby (1975)."@en ;
         rdfs:label      "Hockett Sherby Parameter N"@en , "Hochett Sherby Parameter N"@de ;
         skos:preflabel  "Hockett Sherby Parameter N"@en , "Hochett Sherby Parameter N"@de .
+
+:hasSymbolLatex  rdf:type  owl:DatatypeProperty ;
+        dc:description  "The typical formula symbol used in latex notation"@en .
 
 :hasMeanPlasticStrainRate
         rdf:type        owl:DatatypeProperty , rdf:Property ;
@@ -5622,7 +5630,7 @@
 
 :hasLabelSource  rdf:type  owl:DatatypeProperty ;
         rdfs:label      "has label source"@en ;
-        dc:description  "The source for the resource label (rdfs:label or skos:preflabel)"@en ;
+        dc:description  "The source for the resource label (rdfs:label or skos:preflabel). The language tag denotes the language of the label this source is for."@en ;
         skos:preflabel  "has label source"@en .
 
 :hasWidthAfterFracture2_mm
@@ -5710,6 +5718,9 @@
         rdfs:label      "transverse direction"@en , "Querrichtung"@de ;
         skos:altlabel   "TD"@en ;
         skos:preflabel  "transverse direction"@en , "Querrichtung"@de .
+
+:hasExampleData  rdf:type  owl:DatatypeProperty ;
+        dc:description  "example data for the given concept"@en .
 
 :hasFrameRate  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasFrameRate"@en ;
@@ -6242,6 +6253,9 @@
         skos:preflabel                 "True Strain"@en , "wahre Dehnung"@de , "TrueStrain"@en ;
         :hasDescriptionCitationSource  "Authors"@en ;
         :isBasedOn                     :PercentageExtension .
+
+:hasSymbol  rdf:type    owl:DatatypeProperty ;
+        dc:description  "The typical formula symbol used"@en .
 
 :hasGrainNumberObject
         rdf:type        owl:ObjectProperty , rdf:Property ;

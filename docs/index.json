@@ -25545,6 +25545,22 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/hasExampleData" : {
+    "http://purl.org/dc/elements/1.1/description" : [ {
+        "value" : "example data for the given concept",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/hasExperimentIdentifier" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -29057,7 +29073,7 @@
   ,
   "https://w3id.org/steel/ProcessOntology/hasLabelSource" : {
     "http://purl.org/dc/elements/1.1/description" : [ {
-        "value" : "The source for the resource label (rdfs:label or skos:preflabel)",
+        "value" : "The source for the resource label (rdfs:label or skos:preflabel). The language tag denotes the language of the label this source is for.",
         "lang" : "en",
         "type" : "literal"
         }
@@ -38642,6 +38658,38 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/hasSymbol" : {
+    "http://purl.org/dc/elements/1.1/description" : [ {
+        "value" : "The typical formula symbol used",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : {
+    "http://purl.org/dc/elements/1.1/description" : [ {
+        "value" : "The typical formula symbol used in latex notation",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/hasTangentYieldModulus" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
@@ -41729,6 +41777,36 @@
       ],
     "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
         "value" : "1",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : {
+    "http://purl.org/dc/elements/1.1/description" : [ {
+        "value" : "A typical unit label for the resource",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "has typical unit label",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "has typical unit label",
+        "lang" : "en",
         "type" : "literal"
         }
       
