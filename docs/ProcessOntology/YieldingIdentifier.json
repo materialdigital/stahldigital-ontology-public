@@ -52,14 +52,32 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/UnitLabel" : [ {
-        "value" : "-",
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "1",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "7",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "LS-DYNA_Manual_Volume_2",
+        "lang" : "en",
         "type" : "literal"
         }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSourceEn" : [ {
         "value" : "LS-DYNA_Manual_Volume_2",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "-",
         "type" : "literal"
         }
       

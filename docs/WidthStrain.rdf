@@ -22,6 +22,21 @@
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthStrain">
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">0.003</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthStrain">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">AFZ1-Fz-S1Q.xlm</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthStrain">
+    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">eps-Breite</ns0:hasSymbol>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthStrain">
+    <ns0:hasSymbolLatex xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">eps-Breite</ns0:hasSymbolLatex>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthStrain">
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">1</ns0:hasTypicalUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthStrain">
     <ns0:isBasedOn xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://w3id.org/steel/ProcessOntology/WidthChange"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthStrain">

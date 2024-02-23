@@ -34,9 +34,15 @@
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">YieldStress</ns0:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldStress">
-    <ns0:UnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">MPa</ns0:UnitLabel>
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">290</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldStress">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">LS-DYNA_Manual_Volume_2</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldStress">
     <ns0:hasLabelSourceEn xmlns:ns0="https://w3id.org/steel/ProcessOntology/">LS-DYNA_Manual_Volume_2</ns0:hasLabelSourceEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldStress">
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">MPa</ns0:hasTypicalUnitLabel>
   </rdf:Description>
 </rdf:RDF>

@@ -88,6 +88,109 @@
         "type" : "literal"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "20",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "30",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "80",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "AFZ1-Fz-S1Q.xlm",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "AFZ1-Fz-S1Q.xlsx",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.1.1",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.1.1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DX56_D_FZ2_WR00_43.TXT",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-Sz0\u00B0-S1L",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
+        "value" : "L0",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Lo",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
+        "value" : "L_0",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "L_o",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "mm",
+        "type" : "literal"
+        }
+      
       ]
     }
   }

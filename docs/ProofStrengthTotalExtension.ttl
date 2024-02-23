@@ -1,12 +1,17 @@
 
 
-<https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <http://www.w3.org/2000/01/rdf-schema#comment> "Spannung, bei der die gesamte Extensometer-Dehnung (elastische und plastische Extensometer-Dehnung) einem vorgegebenen Prozentanteil der Extensometer-Messlänge entspricht"@de .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <http://www.w3.org/2000/01/rdf-schema#label> "ProofStrengthTotalExtension"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <http://www.w3.org/2004/02/skos/core#altlabel> "proof strength, total extension"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <http://www.w3.org/2004/02/skos/core#preflabel> "ProofStrengthTotalExtension"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.10.4"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.10.4"@de .
+<https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.10.4"@de .
+<https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.10.4"@en .
+<https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Rt"@en .
+<https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "R_{t}"@en .
+<https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
 
 

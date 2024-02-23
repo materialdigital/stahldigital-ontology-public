@@ -70,6 +70,31 @@
         "type" : "literal"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 6892-1, 3.3",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.3",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "mm",
+        "type" : "literal"
+        }
+      
       ]
     }
   }

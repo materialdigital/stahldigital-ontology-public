@@ -18,4 +18,13 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DieTool">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">DieTool</ns0:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DieTool">
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">Bulge DM100</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DieTool">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">deepl translator</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DieTool">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">AFZ-BU-S1.TXT</ns0:hasLabelSource>
+  </rdf:Description>
 </rdf:RDF>

@@ -18,4 +18,7 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Grade">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Grade</ns0:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Grade">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">K-Item</ns0:hasLabelSource>
+  </rdf:Description>
 </rdf:RDF>

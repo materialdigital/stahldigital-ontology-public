@@ -64,6 +64,49 @@
         "type" : "literal"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "14786",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "AFZ1-Fz-101Q.xlm",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "AFZ1-Fz-S1Q.xlsx",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "AFZ1-ST-D1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-Sz0\u00B0-S1L",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "mm",
+        "type" : "literal"
+        }
+      
       ]
     }
   }

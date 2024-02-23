@@ -52,6 +52,33 @@
         "type" : "literal"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "General Knowledge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "General Knowledge",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
+        "value" : "\u03D5_1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
+        "value" : "varphi_1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
       ]
     }
   }

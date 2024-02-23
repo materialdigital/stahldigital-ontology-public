@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialInstabilityStrain">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialInstabilityStrain">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialInstabilityStrain">
     <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Critical plastic strain (material instability)
@@ -25,9 +25,15 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">MaterialInstabilityStrain</ns0:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialInstabilityStrain">
-    <ns0:UnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">-</ns0:UnitLabel>
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">3</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialInstabilityStrain">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">LS-DYNA_Manual_Volume_2</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialInstabilityStrain">
     <ns0:hasLabelSourceEn xmlns:ns0="https://w3id.org/steel/ProcessOntology/">LS-DYNA_Manual_Volume_2</ns0:hasLabelSourceEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialInstabilityStrain">
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">-</ns0:hasTypicalUnitLabel>
   </rdf:Description>
 </rdf:RDF>

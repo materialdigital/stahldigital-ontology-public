@@ -11,7 +11,9 @@
 <https://w3id.org/steel/ProcessOntology/YieldStress> <http://www.w3.org/2004/02/skos/core#preflabel> "Yield Stress"@en .
 <https://w3id.org/steel/ProcessOntology/YieldStress> <http://www.w3.org/2004/02/skos/core#preflabel> "Fließspannung"@de .
 <https://w3id.org/steel/ProcessOntology/YieldStress> <http://www.w3.org/2004/02/skos/core#preflabel> "YieldStress"@en .
-<https://w3id.org/steel/ProcessOntology/YieldStress> <https://w3id.org/steel/ProcessOntology/UnitLabel> "MPa" .
+<https://w3id.org/steel/ProcessOntology/YieldStress> <https://w3id.org/steel/ProcessOntology/hasExampleData> "290" .
+<https://w3id.org/steel/ProcessOntology/YieldStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "LS-DYNA_Manual_Volume_2"@en .
 <https://w3id.org/steel/ProcessOntology/YieldStress> <https://w3id.org/steel/ProcessOntology/hasLabelSourceEn> "LS-DYNA_Manual_Volume_2" .
+<https://w3id.org/steel/ProcessOntology/YieldStress> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
 
 

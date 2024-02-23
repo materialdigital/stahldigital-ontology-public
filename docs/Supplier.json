@@ -44,6 +44,24 @@
         "type" : "literal"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "Zwick GmbH",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "voestalpine",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "standard definition specific",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
       ]
     }
   }

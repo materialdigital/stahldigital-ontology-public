@@ -83,6 +83,75 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "14.98",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "AFZ1-Fz-S1Q.xlm",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "AFZ1-Fz-S1Q.xlsx",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, Tabelle 1",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, Table 1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
+        "value" : "S0",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "So",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
+        "value" : "S_{0}",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "S_{o}",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "mm2",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/isBasedOn" : [ {
         "value" : "https://w3id.org/steel/ProcessOntology/Diameter",
         "type" : "uri"

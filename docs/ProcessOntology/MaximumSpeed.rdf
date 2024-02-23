@@ -21,4 +21,10 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumSpeed">
     <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="https://w3id.org/steel/ProcessOntology/MeasuringRange"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumSpeed">
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">10 m/s</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumSpeed">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">K-Item</ns0:hasLabelSource>
+  </rdf:Description>
 </rdf:RDF>

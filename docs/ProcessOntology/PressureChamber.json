@@ -58,6 +58,50 @@
         "type" : "literal"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "AFZ-BU-S1.TXT",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 16808:2022-08, 12",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 16808:2022-08, 4",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
+        "value" : "p",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
+        "value" : "p",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "MPa",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "N/mm2",
+        "type" : "literal"
+        }
+      
       ]
     }
   }

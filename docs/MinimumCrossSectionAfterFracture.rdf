@@ -34,6 +34,30 @@
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, Table 1</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">4879</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-Fz-S1Q.xlm</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, Table 1</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-Fz-S1Q.xlsx</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
+    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Su</ns0:hasSymbol>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
+    <ns0:hasSymbolLatex xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">S_{u}</ns0:hasSymbolLatex>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">mm2</ns0:hasTypicalUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <ns0:isBasedOn xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://w3id.org/steel/ProcessOntology/ThicknessAfterFracture2"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">

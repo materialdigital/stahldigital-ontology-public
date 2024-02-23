@@ -1,13 +1,18 @@
 
 
-<https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <http://www.w3.org/2000/01/rdf-schema#comment> "length between gauge length (3.1) marks on the test piece measured after rupture, at room temperature, the two pieces having been carefully fitted back together so that their axes lie in a straight line"@en .
+<https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <http://www.w3.org/2000/01/rdf-schema#comment> "Länge zwischen den Marken zur Kennzeichnung der Messlänge (3.1) auf der Probe, die nach dem Bruch bei Raumtemperatur gemessen wird, nachdem die beiden Probenbruchstücke sorgfältig so zusammengefügt wurden, dass ihre Achsen in einer Geraden liegen"@de .
+<https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <http://www.w3.org/2000/01/rdf-schema#comment> "length between gauge length (3.1) marks on the test piece measured after rupture, at room temperature, the two pieces having been carefully fitted back together so that their axes lie in a straight line"@en .
 <https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <http://www.w3.org/2000/01/rdf-schema#label> "FinalGaugeLengthAfterFracture"@en .
 <https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <http://www.w3.org/2004/02/skos/core#altlabel> "final gauge length after fracture"@en .
 <https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <http://www.w3.org/2004/02/skos/core#preflabel> "FinalGaugeLengthAfterFracture"@en .
-<https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.1.2"@en .
 <https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.1.2"@de .
+<https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.1.2"@en .
+<https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.1.2"@en .
+<https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.1.2"@de .
+<https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Lu"@en .
+<https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "L_u"@en .
+<https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
 
 

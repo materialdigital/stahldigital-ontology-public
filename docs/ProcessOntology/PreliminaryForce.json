@@ -88,6 +88,59 @@
         "type" : "literal"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "0.105",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "2",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 6892-1, 10.2",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 10.2",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DX56_D_FZ2_WR00_43.TXT",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-Sz0\u00B0-S1L",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "MPa",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "kN",
+        "type" : "literal"
+        }
+      
       ]
     }
   }

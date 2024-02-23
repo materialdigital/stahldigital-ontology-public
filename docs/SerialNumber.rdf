@@ -15,4 +15,10 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SerialNumber">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">SerialNumber</ns0:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SerialNumber">
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">707680 2256611</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SerialNumber">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">Messmitteldatenbank</ns0:hasLabelSource>
+  </rdf:Description>
 </rdf:RDF>

@@ -31,6 +31,27 @@
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthChange">
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">0.001</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthChange">
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">1.14004e-06</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthChange">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">AFZ1-Fz-S1Q.xlm</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthChange">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DX56_D_FZ2_WR00_43.TXT</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthChange">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">deepl translator</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthChange">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">AFZ1-Fz-S1Q.xlsx</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthChange">
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">mm</ns0:hasTypicalUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthChange">
     <ns0:isBasedOn xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://w3id.org/steel/ProcessOntology/Width"/>
   </rdf:Description>
 </rdf:RDF>

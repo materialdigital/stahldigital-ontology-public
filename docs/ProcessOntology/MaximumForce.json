@@ -101,6 +101,96 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "500 kN",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "7008",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "7690",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "AFZ1-Fz-S1Q.xlm",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "AFZ1-Fz-S1Q.xlsx",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "K-Item",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Standard definition specific",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-Sz0\u00B0-S1L",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
+        "value" : "Fm",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
+        "value" : "F_{m}",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Fm",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "N",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "kN",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/isBasedOn" : [ {
         "value" : "https://w3id.org/steel/ProcessOntology/Force",
         "type" : "uri"

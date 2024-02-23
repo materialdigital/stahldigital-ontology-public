@@ -28,6 +28,18 @@
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 12004-2: 2021_07, 19</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FLCDetermination">
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">intersection line method</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FLCDetermination">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 12004-2: 2021_07, 19</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FLCDetermination">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-NZ50-25-D1Q</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FLCDetermination">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">AFZ1-NZ50-25-D1Q</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FLCDetermination">
     <ns0:isBasedOn xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://w3id.org/steel/ProcessOntology/TestStandard"/>
   </rdf:Description>
 </rdf:RDF>

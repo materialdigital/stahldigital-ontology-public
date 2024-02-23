@@ -46,6 +46,32 @@
         "type" : "literal"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "General Knowledge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "General Knowledge",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
+        "value" : "q_0",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "-",
+        "type" : "literal"
+        }
+      
       ]
     }
   }

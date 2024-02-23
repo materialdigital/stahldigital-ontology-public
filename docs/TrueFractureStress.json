@@ -33,6 +33,25 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "AFZ1-Fz-S1Q.xlm",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "AFZ1-Fz-S1Q.xlsx",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "MPa",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/isBasedOn" : [ {
         "value" : "https://w3id.org/steel/ProcessOntology/TrueStress",
         "type" : "uri"

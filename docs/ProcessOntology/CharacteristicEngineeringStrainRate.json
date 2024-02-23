@@ -65,6 +65,25 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "0.8",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "YS1-Fz-D1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "s-1",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/isBasedOn" : [ {
         "value" : "https://w3id.org/steel/ProcessOntology/Extension",
         "type" : "uri"

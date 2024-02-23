@@ -95,6 +95,80 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "14.98",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "15.05",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "Author",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Author",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-Fz-D1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-Sz0\u00B0-S1L",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
+        "value" : "S0",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "S_{0}",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
+        "value" : "S_{0}",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "mm2",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/isBasedOn" : [ {
         "value" : "https://w3id.org/steel/ProcessOntology/Diameter",
         "type" : "uri"

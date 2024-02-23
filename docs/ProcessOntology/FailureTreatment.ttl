@@ -1,13 +1,15 @@
 
 
-<https://w3id.org/steel/ProcessOntology/FailureTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/FailureTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/FailureTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/FailureTreatment> <http://www.w3.org/2000/01/rdf-schema#comment> "Descibes the treatment of failure:\n<0…User defined failure subroutine, matusr_24 in dyn21.F\n=0…no failure is taken into account\n>0…constant failure strain"@en .
 <https://w3id.org/steel/ProcessOntology/FailureTreatment> <http://www.w3.org/2000/01/rdf-schema#label> "FailureTreatment"@en .
 <https://w3id.org/steel/ProcessOntology/FailureTreatment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
 <https://w3id.org/steel/ProcessOntology/FailureTreatment> <http://www.w3.org/2004/02/skos/core#altlabel> "FAIL"@en .
 <https://w3id.org/steel/ProcessOntology/FailureTreatment> <http://www.w3.org/2004/02/skos/core#preflabel> "FailureTreatment"@en .
-<https://w3id.org/steel/ProcessOntology/FailureTreatment> <https://w3id.org/steel/ProcessOntology/UnitLabel> "1" .
+<https://w3id.org/steel/ProcessOntology/FailureTreatment> <https://w3id.org/steel/ProcessOntology/hasExampleData> "1.17" .
+<https://w3id.org/steel/ProcessOntology/FailureTreatment> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "LS-DYNA_Manual_Volume_2"@en .
 <https://w3id.org/steel/ProcessOntology/FailureTreatment> <https://w3id.org/steel/ProcessOntology/hasLabelSourceEn> "LS-DYNA_Manual_Volume_2" .
+<https://w3id.org/steel/ProcessOntology/FailureTreatment> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "1" .
 
 

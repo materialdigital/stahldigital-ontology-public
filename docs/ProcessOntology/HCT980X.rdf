@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HCT980X">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HCT980X">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HCT980X">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">HCT980X</ns0:label>
@@ -13,18 +13,27 @@
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/DualPhaseSteel"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HCT980X">
-    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">HCT980X</ns0:altlabel>
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">1.0944</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HCT980X">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">CR590Y980T-DP</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HCT980X">
-    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">1.0944</ns0:altlabel>
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">HCT980X</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HCT980X">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">HCT980X</ns0:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HCT980X">
     <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="https://w3id.org/steel/ProcessOntology/DualPhaseSteel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HCT980X">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">VDA 239-100</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HCT980X">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN 10346_2015</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HCT980X">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN 10346_2015</ns0:hasLabelSource>
   </rdf:Description>
 </rdf:RDF>

@@ -112,6 +112,97 @@
         "type" : "literal"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "10040",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "10054",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "20.04",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "AFZ1-Fz-S1Q.xlm",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "AFZ1-Fz-S1Q.xlsx",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, Tabelle 1",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, Table 1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DX56_D_FZ2_WR00_43.TXT",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-Fz-D1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
+        "value" : "b_{0}",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "bo",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
+        "value" : "b_o",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "mm",
+        "type" : "literal"
+        }
+      
       ]
     }
   }

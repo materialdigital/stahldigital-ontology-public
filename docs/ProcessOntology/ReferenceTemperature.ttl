@@ -1,13 +1,15 @@
 
 
-<https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <http://www.w3.org/2000/01/rdf-schema#comment> "Slope of linear hardening, if noidentifier for hardening curve (LCSS>0) is prescibed"@en .
 <https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "ReferenceTemperature"@en .
 <https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
 <https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <http://www.w3.org/2004/02/skos/core#altlabel> "TR"@en .
 <https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <http://www.w3.org/2004/02/skos/core#preflabel> "ReferenceTemperature"@en .
-<https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <https://w3id.org/steel/ProcessOntology/UnitLabel> "K" .
+<https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <https://w3id.org/steel/ProcessOntology/hasExampleData> "293.14999999999998" .
+<https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "LS-DYNA_Manual_Volume_2"@en .
 <https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSourceEn> "LS-DYNA_Manual_Volume_2" .
+<https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "K" .
 
 

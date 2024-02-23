@@ -43,6 +43,27 @@
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">ISO 26203-2, 2011, 4</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate">
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">1.0</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">YS1-Fz-D1Q</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">ISO 26203-2, 2011, 4</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">Standard definition specific</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate">
+    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">emean</ns0:hasSymbol>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate">
+    <ns0:hasSymbolLatex xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">dot{e}_{mean}</ns0:hasSymbolLatex>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate">
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">s-1</ns0:hasTypicalUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate">
     <ns0:isBasedOn xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://w3id.org/steel/ProcessOntology/Time"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate">

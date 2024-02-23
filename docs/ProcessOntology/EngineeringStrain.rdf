@@ -7,10 +7,10 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStrain">
-    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">time dependent engineering strain </ns0:comment>
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">zeitabhängige technische Dehnung</ns0:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStrain">
-    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">zeitabhängige technische Dehnung</ns0:comment>
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">time dependent engineering strain </ns0:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStrain">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">EngineeringStrain</ns0:label>
@@ -26,5 +26,20 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStrain">
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">Authors</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStrain">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">Standard definition specific</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStrain">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">ISO 26203-2, 2011, 4</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStrain">
+    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">e</ns0:hasSymbol>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStrain">
+    <ns0:hasSymbolLatex xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">e</ns0:hasSymbolLatex>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStrain">
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">%</ns0:hasTypicalUnitLabel>
   </rdf:Description>
 </rdf:RDF>

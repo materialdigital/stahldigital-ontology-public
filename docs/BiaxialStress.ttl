@@ -1,12 +1,17 @@
 
 
-<https://w3id.org/steel/ProcessOntology/BiaxialStress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/BiaxialStress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/BiaxialStress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/BiaxialStress> <http://www.w3.org/2000/01/rdf-schema#comment> "Biaxiale Spannung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs."@de .
 <https://w3id.org/steel/ProcessOntology/BiaxialStress> <http://www.w3.org/2000/01/rdf-schema#label> "BiaxialStress"@en .
 <https://w3id.org/steel/ProcessOntology/BiaxialStress> <http://www.w3.org/2004/02/skos/core#altlabel> "Biaxial stress"@en .
 <https://w3id.org/steel/ProcessOntology/BiaxialStress> <http://www.w3.org/2004/02/skos/core#preflabel> "BiaxialStress"@en .
 <https://w3id.org/steel/ProcessOntology/BiaxialStress> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@en .
 <https://w3id.org/steel/ProcessOntology/BiaxialStress> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@de .
+<https://w3id.org/steel/ProcessOntology/BiaxialStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 4"@de .
+<https://w3id.org/steel/ProcessOntology/BiaxialStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 4"@en .
+<https://w3id.org/steel/ProcessOntology/BiaxialStress> <https://w3id.org/steel/ProcessOntology/hasSymbol> "σ_B"@en .
+<https://w3id.org/steel/ProcessOntology/BiaxialStress> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "sigma_B"@en .
+<https://w3id.org/steel/ProcessOntology/BiaxialStress> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
 
 

@@ -7,7 +7,9 @@
 <https://w3id.org/steel/ProcessOntology/SpecificHeatCapacity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
 <https://w3id.org/steel/ProcessOntology/SpecificHeatCapacity> <http://www.w3.org/2004/02/skos/core#altlabel> "CP"@en .
 <https://w3id.org/steel/ProcessOntology/SpecificHeatCapacity> <http://www.w3.org/2004/02/skos/core#preflabel> "SpecificHeatCapacity"@en .
-<https://w3id.org/steel/ProcessOntology/SpecificHeatCapacity> <https://w3id.org/steel/ProcessOntology/UnitLabel> "J/(g*K)" .
+<https://w3id.org/steel/ProcessOntology/SpecificHeatCapacity> <https://w3id.org/steel/ProcessOntology/hasExampleData> "0.49" .
+<https://w3id.org/steel/ProcessOntology/SpecificHeatCapacity> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "LS-DYNA_Manual_Volume_2"@en .
 <https://w3id.org/steel/ProcessOntology/SpecificHeatCapacity> <https://w3id.org/steel/ProcessOntology/hasLabelSourceEn> "LS-DYNA_Manual_Volume_2" .
+<https://w3id.org/steel/ProcessOntology/SpecificHeatCapacity> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "J/(g*K)" .
 
 

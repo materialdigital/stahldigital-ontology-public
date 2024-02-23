@@ -13,18 +13,33 @@
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">PistonSpeed</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PistonSpeed">
-    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Piston Speed</ns0:altlabel>
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Tiefziehgeschwindigkeit (VD)</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PistonSpeed">
-    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Tiefziehgeschwindigkeit (VD)</ns0:altlabel>
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Piston Speed</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PistonSpeed">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">PistonSpeed</ns0:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PistonSpeed">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 16808:2022-08, 12</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PistonSpeed">
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 16808:2022-08, 12</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PistonSpeed">
-    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 16808:2022-08, 12</ns0:hasDescriptionCitationSource>
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">0.15</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PistonSpeed">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 16808:2022-08, 12</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PistonSpeed">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 16808:2022-08, 12</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PistonSpeed">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">AFZ-BU-S1.TXT</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PistonSpeed">
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">mm/s</ns0:hasTypicalUnitLabel>
   </rdf:Description>
 </rdf:RDF>

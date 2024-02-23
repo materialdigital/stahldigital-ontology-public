@@ -38,6 +38,31 @@
         "type" : "literal"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "600",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "AFZ-BU-S1.TXT",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "deepl translator",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "kN",
+        "type" : "literal"
+        }
+      
       ]
     }
   }

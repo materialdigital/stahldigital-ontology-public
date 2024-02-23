@@ -50,6 +50,25 @@
         "type" : "uri"
         }
       
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "Validierung vor Gebrauch",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "K-Item",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Messmitteldatenbank",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
       ]
     }
   }
