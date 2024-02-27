@@ -1530,6 +1530,10 @@
         :hasTypicalUnitLabel           "N" , "kN" ;
         :isBasedOn                     :Force .
 
+:hasH340LAD  rdf:type   owl:DatatypeProperty , rdf:Property ;
+        rdfs:label      "hasH340LAD"@en ;
+        skos:preflabel  "hasH340LAD"@en .
+
 :hasEffecticStrainObject
         rdf:type        owl:ObjectProperty , rdf:Property ;
         rdfs:label      "hasEffecticStrain"@en ;
@@ -4515,6 +4519,11 @@
         rdfs:range      "https://w3id.org/steel/ProcessOntology/OriginalGaugeLength" ;
         skos:preflabel  "hasOriginalGaugeLength"@en .
 
+:hasH340LADObject  rdf:type  owl:ObjectProperty , rdf:Property ;
+        rdfs:label      "hasH340LAD"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/H340LAD" ;
+        skos:preflabel  "hasH340LAD"@en .
+
 :hasGrainNumber  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasGrainNumber"@en ;
         skos:preflabel  "hasGrainNumber"@en .
@@ -4685,6 +4694,13 @@
         rdfs:subPropertyOf  :hasPercentagePlasticExtensionAtMaximumForce ;
         skos:preflabel      "hasPercentagePlasticExtensionAtMaximumForce_%"@en ;
         :hasUnitLabel       "%" .
+
+:H340LAD  rdf:type      skos:Concept , owl:Class ;
+        rdfs:label      "H340LAD"@en ;
+        rdfs:seeAlso    :MicroalloyedSteel ;
+        skos:altlabel   "H340LAD"@en ;
+        skos:preflabel  "H340LAD"@en ;
+        skos:related    :MicroalloyedSteel .
 
 :Benchmark  rdf:type    owl:Class ;
         rdfs:label      "Benchmark"@en , "Messlatte"@de ;
