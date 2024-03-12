@@ -5178,11 +5178,6 @@
         :hasExampleData                "Fraunhofer IWM" ;
         :hasLabelSource                "AFZ-BU-S1.TXT"@de , "K-Item"@en , "deepl translator"@en , "DX56_D_FZ2_WR00_43.TXT"@de .
 
-:MechanicalCard  rdf:type  owl:Class ;
-        rdfs:label      "mechanical card"@en , "Materialkarte"@de ;
-        skos:altlabel   "MaterialCard"@en , "MaterialKarte"@de ;
-        skos:preflabel  "mechanical card"@en , "Materialkarte"@de .
-
 <https://w3id.org/steel/ProcessOntology/hasInitialDisplacementRate_mm%20s%20-1>
         rdf:type            owl:DatatypeProperty , rdf:Property ;
         rdfs:label          "hasInitialDisplacementRate_mm s -1"@en ;
@@ -5837,9 +5832,9 @@
 
 :MaterialCard  rdf:type                owl:Class , skos:Concept ;
         rdfs:comment                   "The MaterialCard is a digital representation of a real world steel; for example HCT980X. It contains all information to reproduce the behaviour steel within a simulation as close as possible to it's real world counter part."@en , "Eine Materialkarten beschreibt das Materialverhalten eines Werkstoffes in Form von Daten und Parametern"@de ;
-        rdfs:label                     "MaterialCard"@en , "Material Card"@en , "Material Karte"@de ;
-        skos:altlabel                  "Material Card"@en , "Digitale Werkstoffbeschreibung"@de ;
-        skos:preflabel                 "Material Card"@en , "MaterialCard"@en , "Material Karte"@de ;
+        rdfs:label                     "MaterialCard"@en , "Material Card"@en , "Materialkarte"@de , "Material Karte"@de , "material card"@en ;
+        skos:altlabel                  "MaterialCard"@en , "Material Card"@en , "Digitale Werkstoffbeschreibung"@de , "MaterialKarte"@de ;
+        skos:preflabel                 "Material Card"@en , "MaterialCard"@en , "material card"@en , "Materialkarte"@de , "Material Karte"@de ;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
 

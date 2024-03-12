@@ -16848,27 +16848,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingFacility">
     <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
-    <rdfs:label xml:lang="en">mechanical card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
-    <rdfs:label xml:lang="de">Materialkarte</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
-    <skos:altlabel xml:lang="en">MaterialCard</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
-    <skos:altlabel xml:lang="de">MaterialKarte</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
-    <skos:preflabel xml:lang="en">mechanical card</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MechanicalCard">
-    <skos:preflabel xml:lang="de">Materialkarte</skos:preflabel>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInitialDisplacementRate_mm%20s%20-1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
@@ -19013,7 +18992,16 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdfs:label xml:lang="en">Material Card</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
+    <rdfs:label xml:lang="de">Materialkarte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
     <rdfs:label xml:lang="de">Material Karte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
+    <rdfs:label xml:lang="en">material card</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
+    <skos:altlabel xml:lang="en">MaterialCard</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
     <skos:altlabel xml:lang="en">Material Card</skos:altlabel>
@@ -19022,10 +19010,19 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:altlabel xml:lang="de">Digitale Werkstoffbeschreibung</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
+    <skos:altlabel xml:lang="de">MaterialKarte</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
     <skos:preflabel xml:lang="en">Material Card</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
     <skos:preflabel xml:lang="en">MaterialCard</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
+    <skos:preflabel xml:lang="en">material card</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
+    <skos:preflabel xml:lang="de">Materialkarte</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
     <skos:preflabel xml:lang="de">Material Karte</skos:preflabel>
