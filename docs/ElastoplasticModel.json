@@ -1,6 +1,6 @@
 
 {
-  "https://w3id.org/steel/ProcessOntology/Elastoplastic%20model" : {
+  "https://w3id.org/steel/ProcessOntology/ElastoplasticModel" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
@@ -13,7 +13,7 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "Elastoplastic model",
+        "value" : "ElastoplasticModel",
         "lang" : "en",
         "type" : "literal"
         }
@@ -26,7 +26,7 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "Elastoplastic model",
+        "value" : "ElastoplasticModel",
         "lang" : "en",
         "type" : "literal"
         }

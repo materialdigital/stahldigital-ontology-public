@@ -1258,6 +1258,12 @@
         :hasTypicalUnitLabel           "MPa" ;
         :isBasedOn                     :EngineeringStress .
 
+:hasElastoplasticModel
+        rdf:type        owl:ObjectProperty ;
+        rdfs:label      "hasElastoplasticModel"@en ;
+        rdfs:range      "https://w3id.org/steel/ProcessOntology/ElastoplasticModel" ;
+        skos:preflabel  "hasElastoplasticModel"@en .
+
 :HardeningParameterTheta0
         rdf:type                       skos:Concept , owl:Class ;
         rdfs:comment                   "Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird"@de ;
@@ -1411,12 +1417,6 @@
 :hasDiameter  rdf:type  owl:DatatypeProperty , rdf:Property ;
         rdfs:label      "hasDiameter"@en ;
         skos:preflabel  "hasDiameter"@en .
-
-<https://w3id.org/steel/ProcessOntology/Elastoplastic%20model>
-        rdf:type         skos:Concept , owl:Class ;
-        rdfs:label       "Elastoplastic model"@en ;
-        rdfs:subClassOf  "https://material-digital.de/pmdco/ValueObject" ;
-        skos:preflabel   "Elastoplastic model"@en .
 
 :hasSpecificPlasticWorkValue
         rdf:type        owl:DatatypeProperty , rdf:Property ;
@@ -3532,12 +3532,6 @@
         rdfs:label      "hasReferenceTemperature"@en ;
         rdfs:range      "https://w3id.org/steel/ProcessOntology/ReferenceTemperature" ;
         skos:preflabel  "hasReferenceTemperature"@en .
-
-<https://w3id.org/steel/ProcessOntology/hasElastoplastic%20model>
-        rdf:type        owl:ObjectProperty ;
-        rdfs:label      "hasElastoplastic model"@en ;
-        rdfs:range      "https://w3id.org/steel/ProcessOntology/Elastoplastic model" ;
-        skos:preflabel  "hasElastoplastic model"@en .
 
 :MajorTrueStrain  rdf:type             skos:Concept , owl:Class ;
         rdfs:comment                   "Größere Formänderung"@de , "major true strain"@en ;
@@ -7124,6 +7118,11 @@
         rdfs:subPropertyOf  :hasMeanPlasticStrainRate ;
         skos:preflabel      "hasMeanPlasticStrainRate_s-1"@en ;
         :hasUnitLabel       "s-1" .
+
+:ElastoplasticModel  rdf:type  skos:Concept , owl:Class ;
+        rdfs:label       "ElastoplasticModel"@en ;
+        rdfs:subClassOf  "https://material-digital.de/pmdco/ValueObject" ;
+        skos:preflabel   "ElastoplasticModel"@en .
 
 :hasShearLengthAfterFracture2_mm
         rdf:type            owl:DatatypeProperty , rdf:Property ;
