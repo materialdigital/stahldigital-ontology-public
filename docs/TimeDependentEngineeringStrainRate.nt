@@ -1,7 +1,7 @@
+<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://purl.org/dc/terms/description> "time-dependent engineering strain rate = de(t)/dt"@en .
+<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://purl.org/dc/terms/description> "zeitabh\u00E4ngige technische Dehnrate = de(t)/dt"@de .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#comment> "time-dependent engineering strain rate = de(t)/dt"@en .
-<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#comment> "zeitabh\u00E4ngige technische Dehnrate = de(t)/dt"@de .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#label> "TimeDependentEngineeringStrainRate"@en .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/StrainRate> .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "Dehnrate"@de .
@@ -9,9 +9,6 @@
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "time dependent engineering strain rate"@en .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#preflabel> "TimeDependentEngineeringStrainRate"@en .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/StrainRate> .
-<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
-<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
-<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "ISO 26203-2, 2011, 4"@en .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "0.019" .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "Standard definition specific"@de .

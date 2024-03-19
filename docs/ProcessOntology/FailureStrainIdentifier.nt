@@ -1,6 +1,6 @@
+<https://w3id.org/steel/ProcessOntology/FailureStrainIdentifier> <http://purl.org/dc/terms/description> "The load curve ID defines plastic failure strain as a function of triaxiality. The table ID defines for each Lode parameter a load curve ID giving the plastic failure strain versus triaxiality for that Lode parameter"@en .
 <https://w3id.org/steel/ProcessOntology/FailureStrainIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/FailureStrainIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/FailureStrainIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "The load curve ID defines plastic failure strain as a function of triaxiality. The table ID defines for each Lode parameter a load curve ID giving the plastic failure strain versus triaxiality for that Lode parameter"@en .
 <https://w3id.org/steel/ProcessOntology/FailureStrainIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "FailureStrainIdentifier"@en .
 <https://w3id.org/steel/ProcessOntology/FailureStrainIdentifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
 <https://w3id.org/steel/ProcessOntology/FailureStrainIdentifier> <http://www.w3.org/2004/02/skos/core#altlabel> "LCF"@en .

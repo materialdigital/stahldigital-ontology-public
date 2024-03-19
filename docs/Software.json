@@ -1,6 +1,13 @@
 
 {
   "https://w3id.org/steel/ProcessOntology/Software" : {
+    "http://purl.org/dc/terms/description" : [ {
+        "value" : "Software, die f\u00FCr die Versuchsdurchf\u00FChrung und Datenverarbeitung verwendet wurde.",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
@@ -9,13 +16,6 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Software, die f\u00FCr die Versuchsdurchf\u00FChrung und Datenverarbeitung verwendet wurde.",
-        "lang" : "de",
-        "type" : "literal"
         }
       
       ],
@@ -65,19 +65,6 @@
       ,
       {
         "value" : "software",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
-        "value" : "DIN EN ISO 16808:2022-08, 12",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 16808:2022-08, 12",
         "lang" : "en",
         "type" : "literal"
         }

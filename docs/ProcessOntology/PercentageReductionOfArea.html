@@ -23,7 +23,7 @@
         <div class="jumbotron">
   <h1 class="display-3">PercentageReductionOfArea</h1>
   <p class="lead subtitle"></p>
-  <p class="lead">maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area</p>
+  <p class="lead"></p>
   <hr class="my-4">
   <p>
     <dl></dl>
@@ -60,13 +60,18 @@
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Z</td>
+            <td>http://purl.org/dc/terms/description</td>
+            <td>maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area</td>
+          </tr>
+        
+          <tr>
+            <td>http://purl.org/dc/terms/description</td>
+            <td>größte während des Versuchs aufgetretene Änderung des Querschnitts, angegeben in Prozent, bezogen auf den Anfangsquerschnitt</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Brucheinschnürung Z</td>
+            <td>Brucheinschnürung</td>
           </tr>
         
           <tr>
@@ -76,7 +81,12 @@
         
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Brucheinschnürung</td>
+            <td>Brucheinschnürung Z</td>
+          </tr>
+        
+          <tr>
+            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
+            <td>Z</td>
           </tr>
         
           <tr>
@@ -85,33 +95,13 @@
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource</td>
-            <td>DIN EN ISO 6892-1, 3.8</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource</td>
-            <td>DIN EN ISO 6892-1, 3.8</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource</td>
-            <td>Authors</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasExampleData</td>
-            <td>67.42</td>
-          </tr>
-        
-          <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasExampleData</td>
             <td>78.0</td>
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>AFZ1-Fz-S1Q.xlm</td>
+            <td>https://w3id.org/steel/ProcessOntology/hasExampleData</td>
+            <td>67.42</td>
           </tr>
         
           <tr>
@@ -121,7 +111,12 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>YS1-Sz0°-S1L</td>
+            <td>DIN EN ISO 6892-1, 3.8</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
+            <td>DIN EN ISO 6892-1, 3.8</td>
           </tr>
         
           <tr>
@@ -131,12 +126,7 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>DIN EN ISO 6892-1, 3.8</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>DIN EN ISO 6892-1, 3.8</td>
+            <td>YS1-Sz0°-S1L</td>
           </tr>
         
           <tr>
@@ -156,12 +146,12 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/isBasedOn</td>
-            <td>https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture</td>
+            <td>https://w3id.org/steel/ProcessOntology/OriginalCrosssection</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/isBasedOn</td>
-            <td>https://w3id.org/steel/ProcessOntology/OriginalCrosssection</td>
+            <td>https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture</td>
           </tr>
         
         </table>
@@ -194,8 +184,8 @@
     <li>
         <a
             title="https://w3id.org/steel/ProcessOntology/isBasedOn"
-            href=".//ProcessOntology/MinimumCrosssectionAfterFracture"
-            >MinimumCrosssectionAfterFracture</a> via
+            href=".//ProcessOntology/OriginalCrosssection"
+            >OriginalCrosssection</a> via
         <a
             href=".//ProcessOntology/isBasedOn"
             >isBasedOn</a>
@@ -204,8 +194,8 @@
     <li>
         <a
             title="https://w3id.org/steel/ProcessOntology/isBasedOn"
-            href=".//ProcessOntology/OriginalCrosssection"
-            >OriginalCrosssection</a> via
+            href=".//ProcessOntology/MinimumCrosssectionAfterFracture"
+            >MinimumCrosssectionAfterFracture</a> via
         <a
             href=".//ProcessOntology/isBasedOn"
             >isBasedOn</a>
@@ -216,6 +206,16 @@
 <h3>Resources linking here</h3>
 
 <ul>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#range"
+            href=".//ProcessOntology/hasPercentageReductionOfAreaObject"
+            >hasPercentageReductionOfArea</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
+            >range</a>
+    </li>
     
 </ul>
 

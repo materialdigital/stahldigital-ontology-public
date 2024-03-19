@@ -1,6 +1,13 @@
 
 {
   "https://w3id.org/steel/ProcessOntology/LatentHardeningQ1" : {
+    "http://purl.org/dc/terms/description" : [ {
+        "value" : "Parameter, der in der Interaktionsmatrix die Fremdverfestigung (latent hardning) eines Gleitsystems infolge eines Gleitsystems aus einer anderen Gleitsystem-Familie beschreibt",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
@@ -9,13 +16,6 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Parameter, der in der Interaktionsmatrix die Fremdverfestigung (latent hardning) eines Gleitsystems infolge eines Gleitsystems aus einer anderen Gleitsystem-Familie beschreibt",
-        "lang" : "de",
-        "type" : "literal"
         }
       
       ],
@@ -36,13 +36,6 @@
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "LatentHardeningQ1",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
-        "value" : "General Knowledge",
-        "lang" : "de",
         "type" : "literal"
         }
       

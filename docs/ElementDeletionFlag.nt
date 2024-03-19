@@ -1,6 +1,6 @@
+<https://w3id.org/steel/ProcessOntology/ElementDeletionFlag> <http://purl.org/dc/terms/description> "Erosion flag (only for solid elements):\n=0.0: default, element erosion is allowed\n=1.0: element does not erode; deviatoric stresses set to 0 when element fails"@en .
 <https://w3id.org/steel/ProcessOntology/ElementDeletionFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/ElementDeletionFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/ElementDeletionFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Erosion flag (only for solid elements):\n=0.0: default, element erosion is allowed\n=1.0: element does not erode; deviatoric stresses set to 0 when element fails"@en .
 <https://w3id.org/steel/ProcessOntology/ElementDeletionFlag> <http://www.w3.org/2000/01/rdf-schema#label> "ElementDeletionFlag"@en .
 <https://w3id.org/steel/ProcessOntology/ElementDeletionFlag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
 <https://w3id.org/steel/ProcessOntology/ElementDeletionFlag> <http://www.w3.org/2004/02/skos/core#altlabel> "ERODE"@en .

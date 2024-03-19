@@ -1,18 +1,7 @@
 
 {
   "https://w3id.org/steel/ProcessOntology/TestTemperature" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/2002/07/owl#Class",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "http://purl.org/dc/terms/description" : [ {
         "value" : "Pr\u00FCftemperatur",
         "lang" : "de",
         "type" : "literal"
@@ -34,6 +23,17 @@
         "value" : "Versuche unter kontrollierten Bedingungen m\u00FCssen bei einer Temperatur von (23 \u00B1 5) \u00B0C durchgef\u00FChrt werden.",
         "lang" : "de",
         "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
         }
       
       ],
@@ -76,31 +76,6 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
-        "value" : "Authors",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 12004-2: 2021_07, 5",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 12004-2: 2021_07, 5",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 6892-1",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "22",
         "type" : "literal"
@@ -113,12 +88,6 @@
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : "AFZ1-Fz-S1Q.xlm",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "AFZ1-Fz-S1Q.xlsx",
         "lang" : "de",
         "type" : "literal"

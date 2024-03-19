@@ -1,6 +1,6 @@
+<https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://purl.org/dc/terms/description> "Unique ID (IWM intern)"@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Unique ID (IWM intern)"@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "SampleIdentifier"@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/2004/02/skos/core#altlabel> "NAME"@de .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/2004/02/skos/core#altlabel> "Proben-Nr."@de .
@@ -10,8 +10,6 @@
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/2004/02/skos/core#altlabel> "Specimen Name"@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/2004/02/skos/core#altlabel> "Specimen name"@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/2004/02/skos/core#preflabel> "SampleIdentifier"@en .
-<https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
-<https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Unique ID (IWM intern)"@de .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasExampleData> "AFZ-BU-S1" .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasExampleData> "AFZ1-Fz-101Q" .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasExampleData> "AFZ1-NZ50-25-D1Q" .
@@ -20,7 +18,6 @@
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasExampleData> "YS1-FzR4-S1Q" .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> " "@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
-<https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlm"@de .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-NZ50-25-D1Q"@de .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-NZ50-25-D1Q"@en .

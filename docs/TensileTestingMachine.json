@@ -1,18 +1,7 @@
 
 {
   "https://w3id.org/steel/ProcessOntology/TensileTestingMachine" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/2002/07/owl#Class",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "http://purl.org/dc/terms/description" : [ {
         "value" : "Data of the machine used for the experiment.",
         "lang" : "en",
         "type" : "literal"
@@ -22,6 +11,17 @@
         "value" : "Die Pr\u00FCfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausger\u00FCstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden k\u00F6nnen. Der Pr\u00FCfmaschinenhersteller sollte Auskunft \u00FCber die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verl\u00E4ngerung (der Extensometer-Messl\u00E4nge), den Traversenweg, die Zeit und die Probenma\u00DFe beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt.",
         "lang" : "de",
         "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
         }
       
       ],
@@ -41,12 +41,6 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Machine Type",
         "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Maschinendaten",
-        "lang" : "de",
         "type" : "literal"
         }
       ,
@@ -76,43 +70,13 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
-        "value" : "Authors",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 6892-1",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 6892-1, A.2.1",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "Instron 5985",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "ZwickRoell Kappa50DS",
         "type" : "literal"
         }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : "AFZ1-Fz-S1Q.xlm",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "AFZ1-Fz-S1Q.xlsx",
         "lang" : "de",
         "type" : "literal"
@@ -127,12 +91,6 @@
       {
         "value" : "DIN EN ISO 6892-1, A.2.1",
         "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DX56_D_FZ2_WR00_43.TXT",
-        "lang" : "de",
         "type" : "literal"
         }
       

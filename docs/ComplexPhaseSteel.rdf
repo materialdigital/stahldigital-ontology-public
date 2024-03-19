@@ -7,13 +7,13 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComplexPhaseSteel">
-    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Stahl mit einer Mehrphasenmikrostruktur, die hauptsächlich Ferrit und Bainit enthält, wobei Martensit, angelassener Martensit, Restaustenit und Perlit als Zusatzphasen vorhanden sein können</ns0:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComplexPhaseSteel">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">ComplexPhaseSteel</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComplexPhaseSteel">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComplexPhaseSteel">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">Stahl mit einer Mehrphasenmikrostruktur, die hauptsächlich Ferrit und Bainit enthält, wobei Martensit, angelassener Martensit, Restaustenit und Perlit als Zusatzphasen vorhanden sein können</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComplexPhaseSteel">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Komplexphasenstahl</ns0:altlabel>
@@ -23,9 +23,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComplexPhaseSteel">
     <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="https://w3id.org/steel/ProcessOntology/Grade"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComplexPhaseSteel">
-    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN 10346_2015</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComplexPhaseSteel">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">HCT980C</ns0:hasExampleData>

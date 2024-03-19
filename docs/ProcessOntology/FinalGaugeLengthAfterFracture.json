@@ -1,18 +1,7 @@
 
 {
   "https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture" : {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-        "value" : "http://www.w3.org/2002/07/owl#Class",
-        "type" : "uri"
-        }
-      ,
-      {
-        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "http://purl.org/dc/terms/description" : [ {
         "value" : "L\u00E4nge zwischen den Marken zur Kennzeichnung der Messl\u00E4nge (3.1) auf der Probe, die nach dem Bruch bei Raumtemperatur gemessen wird, nachdem die beiden Probenbruchst\u00FCcke sorgf\u00E4ltig so zusammengef\u00FCgt wurden, dass ihre Achsen in einer Geraden liegen",
         "lang" : "de",
         "type" : "literal"
@@ -22,6 +11,17 @@
         "value" : "length between gauge length (3.1) marks on the test piece measured after rupture, at room temperature, the two pieces having been carefully fitted back together so that their axes lie in a straight line",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
         }
       
       ],
@@ -41,19 +41,6 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "FinalGaugeLengthAfterFracture",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
-        "value" : "DIN EN ISO 6892-1, 3.1.2",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 6892-1, 3.1.2",
         "lang" : "en",
         "type" : "literal"
         }

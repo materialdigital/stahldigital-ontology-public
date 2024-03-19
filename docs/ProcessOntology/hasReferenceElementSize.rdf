@@ -7,7 +7,7 @@
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">hasReferenceElementSize</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasReferenceElementSize">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">https://w3id.org/steel/ProcessOntology/ReferenceElementSize</ns0:range>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/ReferenceElementSize"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasReferenceElementSize">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">hasReferenceElementSize</ns0:preflabel>

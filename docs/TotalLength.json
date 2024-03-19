@@ -1,6 +1,13 @@
 
 {
   "https://w3id.org/steel/ProcessOntology/TotalLength" : {
+    "http://purl.org/dc/terms/description" : [ {
+        "value" : "Gesamtl\u00E4nge der Probe",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
@@ -9,13 +16,6 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Gesamtl\u00E4nge der Probe",
-        "lang" : "de",
-        "type" : "literal"
         }
       
       ],
@@ -35,19 +35,6 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "TotalLength",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
-        "value" : "DIN EN ISO 6892-1, Tabelle 1",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 6892-1, Table 1",
         "lang" : "en",
         "type" : "literal"
         }

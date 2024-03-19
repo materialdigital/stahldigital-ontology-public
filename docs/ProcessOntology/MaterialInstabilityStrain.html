@@ -23,10 +23,7 @@
         <div class="jumbotron">
   <h1 class="display-3">MaterialInstabilityStrain</h1>
   <p class="lead subtitle"></p>
-  <p class="lead">Critical plastic strain (material instability)
-LT.0.0: |ECRIT| is either a load curve ID defining critical equivalent plastic strain versus triaxiality or a table ID defining critical equivalent plastic strain as a function of triaxiality and Lode parameter (as in LCSDG). With HISVN ≠ 0, a 3D table can be used, where critical strain is a function of the history variable (TABLE_3D), Lode parameter (TABLE), and triaxiality (CURVE). With HISVN = 0, a 3D table introduces thermal effects, that is, critical strain is a function of temperature (TABLE_3D), Lode parameter (TABLE), and triaxiality (CURVE).
-EQ.0.0: Fixed value DCRIT defining critical damage is read (see below).
-GT.0.0: Fixed value for stress-state independent critical equivalent plastic strain.</p>
+  <p class="lead"></p>
   <hr class="my-4">
   <p>
     <dl></dl>
@@ -49,12 +46,12 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2002/07/owl#Class</td>
+            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
+            <td>http://www.w3.org/2002/07/owl#Class</td>
           </tr>
         
           <tr>
@@ -65,6 +62,14 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
           <tr>
             <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
             <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
+            <td>http://purl.org/dc/terms/description</td>
+            <td>Critical plastic strain (material instability)
+LT.0.0: |ECRIT| is either a load curve ID defining critical equivalent plastic strain versus triaxiality or a table ID defining critical equivalent plastic strain as a function of triaxiality and Lode parameter (as in LCSDG). With HISVN ≠ 0, a 3D table can be used, where critical strain is a function of the history variable (TABLE_3D), Lode parameter (TABLE), and triaxiality (CURVE). With HISVN = 0, a 3D table introduces thermal effects, that is, critical strain is a function of temperature (TABLE_3D), Lode parameter (TABLE), and triaxiality (CURVE).
+EQ.0.0: Fixed value DCRIT defining critical damage is read (see below).
+GT.0.0: Fixed value for stress-state independent critical equivalent plastic strain.</td>
           </tr>
         
           <tr>
@@ -107,8 +112,8 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <li>
         <a
             title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href=".//rdfsites/http/www.w3.org/2002/07/owl#Class"
-            >Class</a> via
+            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
+            >Concept</a> via
         <a
             href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
             >type</a>
@@ -117,8 +122,8 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <li>
         <a
             title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
-            >Concept</a> via
+            href=".//rdfsites/http/www.w3.org/2002/07/owl#Class"
+            >Class</a> via
         <a
             href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
             >type</a>
@@ -129,6 +134,16 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
 <h3>Resources linking here</h3>
 
 <ul>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#range"
+            href=".//ProcessOntology/hasMaterialInstabilityStrain"
+            >hasMaterialInstabilityStrain</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
+            >range</a>
+    </li>
     
 </ul>
 

@@ -23,11 +23,7 @@
         <div class="jumbotron">
   <h1 class="display-3">StrainRateFormulationFlag</h1>
   <p class="lead subtitle"></p>
-  <p class="lead">Flag which determines the treatment of strain rate to evaluate yielding:
-=-1.0: Cowper-Symonds with effective deviatoric rate rather than total
-=0.0: Scale yield stress (default)
-=1.0: Viscoplastic formulation
-=3.0: Same as VP = 0, but with filtered effective total strain rates</p>
+  <p class="lead"></p>
   <hr class="my-4">
   <p>
     <dl></dl>
@@ -50,12 +46,12 @@
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
+            <td>http://www.w3.org/2002/07/owl#Class</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2002/07/owl#Class</td>
+            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
           </tr>
         
           <tr>
@@ -66,6 +62,15 @@
           <tr>
             <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
             <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
+            <td>http://purl.org/dc/terms/description</td>
+            <td>Flag which determines the treatment of strain rate to evaluate yielding:
+=-1.0: Cowper-Symonds with effective deviatoric rate rather than total
+=0.0: Scale yield stress (default)
+=1.0: Viscoplastic formulation
+=3.0: Same as VP = 0, but with filtered effective total strain rates</td>
           </tr>
         
           <tr>
@@ -103,8 +108,8 @@
     <li>
         <a
             title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
-            >Concept</a> via
+            href=".//rdfsites/http/www.w3.org/2002/07/owl#Class"
+            >Class</a> via
         <a
             href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
             >type</a>
@@ -113,8 +118,8 @@
     <li>
         <a
             title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href=".//rdfsites/http/www.w3.org/2002/07/owl#Class"
-            >Class</a> via
+            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
+            >Concept</a> via
         <a
             href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
             >type</a>
@@ -125,6 +130,16 @@
 <h3>Resources linking here</h3>
 
 <ul>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#range"
+            href=".//ProcessOntology/hasStrainRateFormulationFlag"
+            >hasStrainRateFormulationFlag</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
+            >range</a>
+    </li>
     
 </ul>
 

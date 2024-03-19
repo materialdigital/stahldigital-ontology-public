@@ -23,7 +23,7 @@
         <div class="jumbotron">
   <h1 class="display-3">LowerYieldStrength</h1>
   <p class="lead subtitle"></p>
-  <p class="lead">Represents the Lower Yield Strength of a material, which is the stress point at which the material transitions from elastic deformation to plastic deformation, without an increase in applied load. It is a crucial parameter in materials science, used for designing and analyzing the structural integrity and durability of materials under operational loads. The values are typically measured in Pascals (Pa).</p>
+  <p class="lead"></p>
   <hr class="my-4">
   <p>
     <dl></dl>
@@ -60,8 +60,13 @@
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>lower yield strength</td>
+            <td>http://purl.org/dc/terms/description</td>
+            <td>lowest value of stress during plastic yielding, ignoring any initial transient effects</td>
+          </tr>
+        
+          <tr>
+            <td>http://purl.org/dc/terms/description</td>
+            <td>kleinste Spannung während des plastischen Fließens, wobei Einschwingerscheinungen nicht berücksichtigt werden</td>
           </tr>
         
           <tr>
@@ -70,18 +75,13 @@
           </tr>
         
           <tr>
+            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
+            <td>lower yield strength</td>
+          </tr>
+        
+          <tr>
             <td>http://www.w3.org/2004/02/skos/core#preflabel</td>
             <td>LowerYieldStrength</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource</td>
-            <td>DIN EN ISO 6892-1, 3.10.2.2</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource</td>
-            <td>DIN EN ISO 6892-1, 3.10.2.2</td>
           </tr>
         
           <tr>
@@ -91,12 +91,7 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>DIN EN ISO 6892-1, 3.10.2.2</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>DIN EN ISO 6892-1, 3.10.2.2</td>
+            <td>ISO 26203-2, 2011, 4</td>
           </tr>
         
           <tr>
@@ -106,17 +101,22 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>ISO 26203-2, 2011, 4</td>
+            <td>DIN EN ISO 6892-1, 3.10.2.2</td>
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
-            <td>R_{eL}</td>
+            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
+            <td>DIN EN ISO 6892-1, 3.10.2.2</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
             <td>ReL</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
+            <td>R_{eL}</td>
           </tr>
         
           <tr>
@@ -176,6 +176,16 @@
 <h3>Resources linking here</h3>
 
 <ul>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#range"
+            href=".//ProcessOntology/hasLowerYieldStrengthObject"
+            >hasLowerYieldStrength</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
+            >range</a>
+    </li>
     
 </ul>
 

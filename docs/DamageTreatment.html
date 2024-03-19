@@ -23,11 +23,7 @@
         <div class="jumbotron">
   <h1 class="display-3">DamageTreatment</h1>
   <p class="lead subtitle"></p>
-  <p class="lead">interpreted digit-wise as follows: DTYP = [𝑁𝑀] = 𝑀+10×𝑁
-M.EQ.0: Damage is accumulated, but there is no coupling to flow stress and no failure.
-M.EQ.1: Damage is accumulated, and element failure occurs for 𝐷 = 1. Coupling of damage to flow stress depending on parameters.
-N.EQ.0: Equivalent plastic strain is the driving quantity for the damage.
-N.GT.0: The Nth additional history variable is the driving quantity for damage.</p>
+  <p class="lead"></p>
   <hr class="my-4">
   <p>
     <dl></dl>
@@ -50,12 +46,12 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2002/07/owl#Class</td>
+            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
+            <td>http://www.w3.org/2002/07/owl#Class</td>
           </tr>
         
           <tr>
@@ -66,6 +62,15 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
           <tr>
             <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
             <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
+            <td>http://purl.org/dc/terms/description</td>
+            <td>interpreted digit-wise as follows: DTYP = [𝑁𝑀] = 𝑀+10×𝑁
+M.EQ.0: Damage is accumulated, but there is no coupling to flow stress and no failure.
+M.EQ.1: Damage is accumulated, and element failure occurs for 𝐷 = 1. Coupling of damage to flow stress depending on parameters.
+N.EQ.0: Equivalent plastic strain is the driving quantity for the damage.
+N.GT.0: The Nth additional history variable is the driving quantity for damage.</td>
           </tr>
         
           <tr>
@@ -108,8 +113,8 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <li>
         <a
             title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href=".//rdfsites/http/www.w3.org/2002/07/owl#Class"
-            >Class</a> via
+            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
+            >Concept</a> via
         <a
             href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
             >type</a>
@@ -118,8 +123,8 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <li>
         <a
             title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
-            >Concept</a> via
+            href=".//rdfsites/http/www.w3.org/2002/07/owl#Class"
+            >Class</a> via
         <a
             href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
             >type</a>
@@ -130,6 +135,16 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
 <h3>Resources linking here</h3>
 
 <ul>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#range"
+            href=".//ProcessOntology/hasDamageTreatment"
+            >hasDamageTreatment</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
+            >range</a>
+    </li>
     
 </ul>
 

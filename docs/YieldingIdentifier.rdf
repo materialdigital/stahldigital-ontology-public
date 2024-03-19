@@ -7,14 +7,14 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldingIdentifier">
-    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Identifier which relates the Load Curve to descibe the yield stress as a function of effective plastic strain.
-Identifier which relates the Table to descibe the yield stress by using different Load Curves as a function of effective plastic strain and the strain rate (each load curve is related to an individual stain rate)</ns0:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldingIdentifier">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">YieldingIdentifier</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldingIdentifier">
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">https://material-digital.de/pmdco/ValueObject</ns0:subClassOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldingIdentifier">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">Identifier which relates the Load Curve to descibe the yield stress as a function of effective plastic strain.
+Identifier which relates the Table to descibe the yield stress by using different Load Curves as a function of effective plastic strain and the strain rate (each load curve is related to an individual stain rate)</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldingIdentifier">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">LCK1</ns0:altlabel>

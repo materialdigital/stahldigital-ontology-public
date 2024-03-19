@@ -23,7 +23,7 @@
         <div class="jumbotron">
   <h1 class="display-3">TestTemperature</h1>
   <p class="lead subtitle"></p>
-  <p class="lead">The temperature during the experiment.</p>
+  <p class="lead"></p>
   <hr class="my-4">
   <p>
     <dl></dl>
@@ -46,12 +46,12 @@
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2002/07/owl#Class</td>
+            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
+            <td>http://www.w3.org/2002/07/owl#Class</td>
           </tr>
         
           <tr>
@@ -60,13 +60,28 @@
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>test temperature</td>
+            <td>http://purl.org/dc/terms/description</td>
+            <td>Versuche unter kontrollierten Bedingungen müssen bei einer Temperatur von (23 ± 5) °C durchgeführt werden.</td>
+          </tr>
+        
+          <tr>
+            <td>http://purl.org/dc/terms/description</td>
+            <td>The temperature during the experiment.</td>
+          </tr>
+        
+          <tr>
+            <td>http://purl.org/dc/terms/description</td>
+            <td>The initial test temperature during the experiment (neglecting adiabatic heating)</td>
+          </tr>
+        
+          <tr>
+            <td>http://purl.org/dc/terms/description</td>
+            <td>Prüftemperatur</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Temperature</td>
+            <td>Prüftemperatur</td>
           </tr>
         
           <tr>
@@ -76,32 +91,17 @@
         
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Prüftemperatur</td>
+            <td>Temperature</td>
+          </tr>
+        
+          <tr>
+            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
+            <td>test temperature</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#preflabel</td>
             <td>TestTemperature</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource</td>
-            <td>DIN EN ISO 6892-1</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource</td>
-            <td>DIN EN ISO 12004-2: 2021_07, 5</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource</td>
-            <td>DIN EN ISO 12004-2: 2021_07, 5</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource</td>
-            <td>Authors</td>
           </tr>
         
           <tr>
@@ -136,22 +136,7 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>DIN EN ISO 6892-1, 5</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>DIN EN ISO 12004-2: 2021_07, 5</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>AFZ1-Fz-S1Q.xlsx</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>DX56_D_FZ2_WR00_43.TXT</td>
+            <td>YS1-Sz0°-S1L</td>
           </tr>
         
           <tr>
@@ -161,12 +146,22 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>AFZ1-Fz-S1Q.xlm</td>
+            <td>DX56_D_FZ2_WR00_43.TXT</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>YS1-Sz0°-S1L</td>
+            <td>AFZ1-Fz-S1Q.xlsx</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
+            <td>DIN EN ISO 12004-2: 2021_07, 5</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
+            <td>DIN EN ISO 6892-1, 5</td>
           </tr>
         
           <tr>
@@ -194,8 +189,8 @@
     <li>
         <a
             title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href=".//rdfsites/http/www.w3.org/2002/07/owl#Class"
-            >Class</a> via
+            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
+            >Concept</a> via
         <a
             href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
             >type</a>
@@ -204,8 +199,8 @@
     <li>
         <a
             title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
-            >Concept</a> via
+            href=".//rdfsites/http/www.w3.org/2002/07/owl#Class"
+            >Class</a> via
         <a
             href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
             >type</a>
@@ -216,6 +211,16 @@
 <h3>Resources linking here</h3>
 
 <ul>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#range"
+            href=".//ProcessOntology/hasTestTemperatureObject"
+            >hasTestTemperature</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
+            >range</a>
+    </li>
     
 </ul>
 
