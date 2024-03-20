@@ -1,19 +1,19 @@
 
 
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalGaugeLength"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://purl.org/dc/terms/description> "length between gauge length marks on the test piece measured at room temperature before the test"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://purl.org/dc/terms/description> "Länge zwischen den Marken zur Kennzeichnung der Messlänge (3.1) auf der Probe, die vor dem Versuch bei Raumtemperatur gemessen wird"@de .
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://purl.org/dc/terms/description> "The intial gauge length given by the specimen geometry"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "80" .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "20" .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "30" .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://www.w3.org/2004/02/skos/core#preflabel> "OriginalGaugeLength"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://www.w3.org/2004/02/skos/core#altlabel> "original gauge length"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://www.w3.org/2004/02/skos/core#altlabel> "L0"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://www.w3.org/2004/02/skos/core#altlabel> "Messlänge Standardweg"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://www.w3.org/2004/02/skos/core#altlabel> "Messlänge Lo"@de .
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://www.w3.org/2004/02/skos/core#preflabel> "OriginalGaugeLength"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "80" .
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "20" .
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "30" .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://purl.org/dc/terms/description> "length between gauge length marks on the test piece measured at room temperature before the test"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://purl.org/dc/terms/description> "Länge zwischen den Marken zur Kennzeichnung der Messlänge (3.1) auf der Probe, die vor dem Versuch bei Raumtemperatur gemessen wird"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://purl.org/dc/terms/description> "The intial gauge length given by the specimen geometry"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalGaugeLength"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
@@ -22,10 +22,10 @@
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0°-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasSymbol> "L0"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Lo"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "L_o"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "L_0"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasSymbol> "L0"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Lo"@en .
 
 
