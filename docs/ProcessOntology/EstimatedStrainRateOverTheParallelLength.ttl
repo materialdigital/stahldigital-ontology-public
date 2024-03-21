@@ -1,13 +1,13 @@
 
 
-<https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <http://www.w3.org/2000/01/rdf-schema#label> "EstimatedStrainRateOverTheParallelLength"@en .
 <https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <http://purl.org/dc/terms/description> "Zunahme der Dehnung über die parallele Länge der Probe je Zeiteinheit, basierend auf der Traversengeschwindigkeit und der parallelen Länge der Probe"@de .
 <https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <http://www.w3.org/2004/02/skos/core#altlabel> "estimated strain rate over the parallel length"@en .
 <https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <http://www.w3.org/2004/02/skos/core#preflabel> "EstimatedStrainRateOverTheParallelLength"@en .
+<https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.7.2"@en .
 <https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.7.2"@de .
+<https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <http://www.w3.org/2000/01/rdf-schema#label> "EstimatedStrainRateOverTheParallelLength"@en .
 <https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <https://w3id.org/steel/ProcessOntology/hasSymbol> "eLc"@en .
 <https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "dot{e}_{L_c}"@en .
 <https://w3id.org/steel/ProcessOntology/EstimatedStrainRateOverTheParallelLength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s-1" .
