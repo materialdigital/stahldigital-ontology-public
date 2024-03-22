@@ -1,21 +1,21 @@
 
 
-<https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Instabilität" .
-<https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Crashartig" .
-<https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasExampleData> "PMD-Refrenzprozess" .
-<https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasExampleData> "MATERIALDIGITAL" .
-<https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2004/02/skos/core#preflabel> "ProjectName"@en .
+<https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2000/01/rdf-schema#label> "ProjectName"@en .
+<https://w3id.org/steel/ProcessOntology/ProjectName> <http://purl.org/dc/terms/description> "Name of the Project."@en .
+<https://w3id.org/steel/ProcessOntology/ProjectName> <http://purl.org/dc/terms/description> "Instabilität"@en .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2004/02/skos/core#altlabel> "Project"@en .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2004/02/skos/core#altlabel> "PROJECT_NAME"@en .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2004/02/skos/core#altlabel> "Project Name"@en .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2004/02/skos/core#altlabel> "Projekt"@de .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2004/02/skos/core#altlabel> "Project name"@en .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2004/02/skos/core#altlabel> "Projektname"@de .
-<https://w3id.org/steel/ProcessOntology/ProjectName> <http://purl.org/dc/terms/description> "Name of the Project."@en .
-<https://w3id.org/steel/ProcessOntology/ProjectName> <http://purl.org/dc/terms/description> "Instabilität"@en .
-<https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2000/01/rdf-schema#label> "ProjectName"@en .
-<https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2004/02/skos/core#preflabel> "ProjectName"@en .
+<https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Instabilität" .
+<https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Crashartig" .
+<https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasExampleData> "PMD-Refrenzprozess" .
+<https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasExampleData> "MATERIALDIGITAL" .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "deepl translator"@en .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
