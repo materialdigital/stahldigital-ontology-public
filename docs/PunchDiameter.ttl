@@ -1,5 +1,9 @@
 
 
+<https://w3id.org/steel/ProcessOntology/PunchDiameter> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "D"@en .
+<https://w3id.org/steel/ProcessOntology/PunchDiameter> <https://w3id.org/steel/ProcessOntology/hasSymbol> "D"@en .
+<https://w3id.org/steel/ProcessOntology/PunchDiameter> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/TestStandard> .
+<https://w3id.org/steel/ProcessOntology/PunchDiameter> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
 <https://w3id.org/steel/ProcessOntology/PunchDiameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/PunchDiameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/PunchDiameter> <http://www.w3.org/2000/01/rdf-schema#label> "PunchDiameter"@en .
@@ -10,9 +14,5 @@
 <https://w3id.org/steel/ProcessOntology/PunchDiameter> <https://w3id.org/steel/ProcessOntology/hasExampleData> "100" .
 <https://w3id.org/steel/ProcessOntology/PunchDiameter> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 12004-2: 2021_07, 8"@en .
 <https://w3id.org/steel/ProcessOntology/PunchDiameter> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 12004-2: 2021_07, 8"@de .
-<https://w3id.org/steel/ProcessOntology/PunchDiameter> <https://w3id.org/steel/ProcessOntology/hasSymbol> "D"@en .
-<https://w3id.org/steel/ProcessOntology/PunchDiameter> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "D"@en .
-<https://w3id.org/steel/ProcessOntology/PunchDiameter> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
-<https://w3id.org/steel/ProcessOntology/PunchDiameter> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/TestStandard> .
 
 
