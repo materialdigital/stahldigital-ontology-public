@@ -14,6 +14,12 @@
         }
       ,
       {
+        "value" : "The initial thickness of the specimen.",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "The thickness of the specimen.",
         "lang" : "en",
         "type" : "literal"
@@ -39,6 +45,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Original thickness",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Probendicke",
         "lang" : "de",
         "type" : "literal"
@@ -46,6 +58,12 @@
       ,
       {
         "value" : "Probendicke a",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Probendicke a0",
         "lang" : "de",
         "type" : "literal"
         }
@@ -84,6 +102,11 @@
         "value" : "1490",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "1499",
+        "type" : "literal"
+        }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
@@ -109,9 +132,39 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "YS1-Fz-D1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-Sz0\u00B0-S1L",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
+        "value" : "a_{0}",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "ao",
         "lang" : "en",
         "type" : "literal"

@@ -45,6 +45,12 @@
         }
       ,
       {
+        "value" : "Bruchdehnung A_20mm",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "percentage elongation after fracture",
         "lang" : "en",
         "type" : "literal"
@@ -60,6 +66,11 @@
       ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "35.6",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "37.8",
         "type" : "literal"
         }
       
@@ -87,6 +98,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "YS1-Fz-D1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
@@ -97,6 +114,12 @@
       ,
       {
         "value" : "A20mm",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "A_{20mm}",
         "lang" : "en",
         "type" : "literal"
         }

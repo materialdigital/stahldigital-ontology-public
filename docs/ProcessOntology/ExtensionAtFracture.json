@@ -26,7 +26,19 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/OriginalCrosssection",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Bruchverl\u00E4ngerung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "DLBruch",
         "lang" : "de",
         "type" : "literal"
@@ -40,8 +52,26 @@
         }
       
       ],
+    "http://www.w3.org/2004/02/skos/core#related" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/OriginalCrosssection",
+        "type" : "uri"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "AFZ1-Fz-S1Q.xlsx",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-Sz0\u00B0-S1L",
         "lang" : "de",
         "type" : "literal"
         }

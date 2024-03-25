@@ -32,7 +32,25 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/StrainRate",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Dehnrate",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Time-dependent engineering strain rate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "time dependent engineering strain rate",
         "lang" : "en",
         "type" : "literal"
@@ -46,6 +64,18 @@
         }
       
       ],
+    "http://www.w3.org/2004/02/skos/core#related" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/StrainRate",
+        "type" : "uri"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "0.019",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "ISO 26203-2, 2011, 4",
         "lang" : "en",
@@ -54,6 +84,12 @@
       ,
       {
         "value" : "Standard definition specific",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-Fz-D1Q",
         "lang" : "de",
         "type" : "literal"
         }
@@ -76,6 +112,22 @@
     "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
         "value" : "s-1",
         "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/isBasedOn" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/Extension",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/Time",
+        "type" : "uri"
         }
       
       ]

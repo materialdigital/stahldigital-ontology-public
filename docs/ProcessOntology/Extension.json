@@ -50,6 +50,11 @@
         }
       ,
       {
+        "value" : "https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem",
+        "type" : "uri"
+        }
+      ,
+      {
         "value" : "https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength",
         "type" : "uri"
         }
@@ -62,7 +67,19 @@
         }
       ,
       {
+        "value" : "Extension",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Standardweg",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "dL",
         "lang" : "de",
         "type" : "literal"
         }
@@ -87,6 +104,11 @@
         }
       ,
       {
+        "value" : "https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem",
+        "type" : "uri"
+        }
+      ,
+      {
         "value" : "https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength",
         "type" : "uri"
         }
@@ -99,6 +121,11 @@
       ,
       {
         "value" : "0.001",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "0.026",
         "type" : "literal"
         }
       
@@ -124,6 +151,37 @@
       {
         "value" : "DX56_D_FZ2_WR00_43.TXT",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-Fz-D1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-FzR4-S1Q",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "YS1-Sz0\u00B0-S1L",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
+        "value" : "dL",
+        "lang" : "en",
         "type" : "literal"
         }
       

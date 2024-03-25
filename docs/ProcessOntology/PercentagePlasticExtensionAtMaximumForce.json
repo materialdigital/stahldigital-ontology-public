@@ -57,6 +57,12 @@
         }
       ,
       {
+        "value" : "Gleichma\u00DFdehnung Ag",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "percentage plastic extension at maximum force",
         "lang" : "en",
         "type" : "literal"
@@ -77,6 +83,11 @@
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "14",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "16.34",
         "type" : "literal"
         }
@@ -105,9 +116,21 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "YS1-Fz-D1Q",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
+        "value" : "A_{g}",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Ag",
         "lang" : "en",
         "type" : "literal"
