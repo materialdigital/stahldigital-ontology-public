@@ -1,12 +1,12 @@
 
 
-<https://w3id.org/steel/ProcessOntology/Laboratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/Laboratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/Laboratory> <http://www.w3.org/2000/01/rdf-schema#label> "Laboratory"@en .
 <https://w3id.org/steel/ProcessOntology/Laboratory> <http://purl.org/dc/terms/description> "Prüflabor, das die Werte des hydraulischen Tiefungsversuchs gemessen hat."@de .
 <https://w3id.org/steel/ProcessOntology/Laboratory> <http://www.w3.org/2004/02/skos/core#altlabel> "Laboratory"@en .
 <https://w3id.org/steel/ProcessOntology/Laboratory> <http://www.w3.org/2004/02/skos/core#preflabel> "Laboratory"@en .
+<https://w3id.org/steel/ProcessOntology/Laboratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/Laboratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/Laboratory> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 12"@de .
 <https://w3id.org/steel/ProcessOntology/Laboratory> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 12"@en .
+<https://w3id.org/steel/ProcessOntology/Laboratory> <http://www.w3.org/2000/01/rdf-schema#label> "Laboratory"@en .
 
 
