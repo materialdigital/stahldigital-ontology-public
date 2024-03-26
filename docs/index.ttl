@@ -659,7 +659,8 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         skos:preflabel  "hasSlopeElasticPartStressStrainCurve"@en .
 
 :InitialFlowStress_g0
-        rdf:type  owl:Class .
+        rdf:type      owl:Class;
+        rdfs:comment  "DAMASK phenopower law parameter"@en .
 
 :hasDeliveryDate  rdf:type  owl:DatatypeProperty , rdf:Property;
         rdfs:label      "hasDeliveryDate"@en;
@@ -3833,7 +3834,8 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         :isBasedOn            :Extension .
 
 :FlowStressExponent_a
-        rdf:type  owl:Class .
+        rdf:type      owl:Class;
+        rdfs:comment  "DAMASK phenopower law parameter"@en .
 
 :hasSheetThickness  rdf:type  owl:DatatypeProperty , rdf:Property;
         rdfs:label      "hasSheetThickness"@en;
@@ -5463,7 +5465,8 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         skos:preflabel  "hasCrystalPlasticityParameterFile"@en .
 
 :FinalFlowStress_ginf
-        rdf:type  owl:Class .
+        rdf:type      owl:Class;
+        rdfs:comment  "DAMASK phenopower law parameter"@en .
 
 :hasNominalEngineeringStrainRate
         rdf:type        owl:DatatypeProperty , rdf:Property;
@@ -5926,7 +5929,8 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         :hasExampleData      "Instron 5985";
         :hasLabelSource      "AFZ1-Fz-S1Q.xlsx"@de , "DIN EN ISO 6892-1, A.2.1"@de , "DIN EN ISO 6892-1, A.2.1"@en .
 
-:HardeningModulus_h0  rdf:type  owl:Class .
+:HardeningModulus_h0  rdf:type  owl:Class;
+        rdfs:comment  "DAMASK phenopower law parameter"@en .
 
 :HX340LAD  rdf:type      owl:Class , skos:Concept;
         rdfs:label       "HX340LAD"@en;
@@ -5982,7 +5986,8 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         rdfs:label      "hasInteractionMatrix"@en;
         skos:preflabel  "hasInteractionMatrix"@en .
 
-:StressExponent_n  rdf:type  owl:Class .
+:StressExponent_n  rdf:type  owl:Class;
+        rdfs:comment  "DAMASK phenopower law parameter"@en .
 
 :hasFLCDetermination  rdf:type  owl:DatatypeProperty , rdf:Property;
         rdfs:label      "hasFLCDetermination"@en;
@@ -6714,7 +6719,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         rdf:type          owl:Ontology;
         rdfs:label        "StahlDigital Vocabulary"@en;
         dc11:description  "Vocabulary of project StahlDigital"@en;
-        dcterms:date      "2024-03-26T12:24:05+00:00";
+        dcterms:date      "2024-03-26T13:23:59+00:00";
         owl:versionInfo   "0.1 (preliminary)"@en;
         skos:prefLabel    "StahlDigital Vocabulary"@en .
 

@@ -3,4 +3,7 @@
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FlowStressExponent_a">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FlowStressExponent_a">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">DAMASK phenopower law parameter</ns0:comment>
+  </rdf:Description>
 </rdf:RDF>
