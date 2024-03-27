@@ -1,23 +1,23 @@
 
 
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2000/01/rdf-schema#label> "TestPieceGeometry"@en .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/TestStandard> .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://purl.org/dc/terms/description> "The type of the specimen."@en .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Test piece geometry"@en .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Probengeometrie"@de .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Probenform"@de .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Specimen Type"@en .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Probentyp"@de .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#preflabel> "TestPieceGeometry"@en .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/TestStandard> .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Notched Flat tensile Specimen" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Crashbox" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "FzA20" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Sz0°" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Nakajima Specimen" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Flach-Zug" .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/TestStandard> .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#preflabel> "TestPieceGeometry"@en .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Test piece geometry"@en .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Probengeometrie"@de .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Probenform"@de .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Specimen Type"@en .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Probentyp"@de .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://purl.org/dc/terms/description> "The type of the specimen."@en .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/TestStandard> .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2000/01/rdf-schema#label> "TestPieceGeometry"@en .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-NZ50-25-D1Q"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-ST-D1"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> " "@en .
