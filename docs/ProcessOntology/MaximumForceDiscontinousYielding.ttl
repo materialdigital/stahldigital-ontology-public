@@ -1,13 +1,13 @@
 
 
-<https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <http://www.w3.org/2000/01/rdf-schema#label> "MaximumForceDiscontinousYielding"@en .
 <https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <http://purl.org/dc/terms/description> "<bei Werkstoffen, die ein diskontinuierliches Fließen zeigen> größte Kraft, der die Probe während des Versuchs nach dem Beginn der Verfestigung standhält"@de .
 <https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <http://www.w3.org/2004/02/skos/core#altlabel> "maximum force \"discontinous yielding\""@en .
 <https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <http://www.w3.org/2004/02/skos/core#preflabel> "MaximumForceDiscontinousYielding"@en .
+<https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.9.2"@de .
 <https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.9.2"@en .
+<https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <http://www.w3.org/2000/01/rdf-schema#label> "MaximumForceDiscontinousYielding"@en .
 <https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Fm"@en .
 <https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "F_m"@en .
 <https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "N" .
