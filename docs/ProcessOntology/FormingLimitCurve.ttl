@@ -1,14 +1,14 @@
 
 
+<https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <http://www.w3.org/2000/01/rdf-schema#label> "FormingLimitCurve"@en .
+<https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <http://purl.org/dc/terms/description> "Grenzformänderungskurve"@de .
 <https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <http://www.w3.org/2004/02/skos/core#altlabel> "Grenzformänderungskurve"@de .
 <https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <http://www.w3.org/2004/02/skos/core#altlabel> "FLC"@en .
 <https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <http://www.w3.org/2004/02/skos/core#preflabel> "FormingLimitCurve"@en .
-<https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 12004-2: 2021_07, 7"@en .
 <https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 12004-2: 2021_07, 7"@de .
-<https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <http://www.w3.org/2000/01/rdf-schema#label> "FormingLimitCurve"@en .
-<https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <http://purl.org/dc/terms/description> "Grenzformänderungskurve"@de .
 <https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/MinorLimitStrain> .
 <https://w3id.org/steel/ProcessOntology/FormingLimitCurve> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/MajorLimitStrain> .
 
