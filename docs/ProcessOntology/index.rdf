@@ -17558,9 +17558,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
-    <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
@@ -17582,7 +17579,7 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasLabelSource xml:lang="en">deepl translator</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
-    <hasTypicalUnitLabel>einheitslos</hasTypicalUnitLabel>
+    <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -21220,7 +21217,7 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <dc11:description xml:lang="en">Vocabulary of project StahlDigital</dc11:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
-    <dcterms:date>2024-03-30T07:24:17+00:00</dcterms:date>
+    <dcterms:date>2024-03-30T10:24:38+00:00</dcterms:date>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
     <owl:versionInfo xml:lang="en">0.1 (preliminary)</owl:versionInfo>
@@ -21638,24 +21635,6 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasRollingDirection">
     <skos:preflabel xml:lang="en">hasRollingDirection</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMachine_einheitslos">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMachine_einheitslos">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMachine_einheitslos">
-    <rdfs:label xml:lang="en">hasMachine_einheitslos</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMachine_einheitslos">
-    <rdfs:subPropertyOf rdf:resource="https://w3id.org/steel/ProcessOntology/hasMachine"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMachine_einheitslos">
-    <skos:preflabel xml:lang="en">hasMachine_einheitslos</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMachine_einheitslos">
-    <hasUnitLabel>einheitslos</hasUnitLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRateScaleParameterC">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
