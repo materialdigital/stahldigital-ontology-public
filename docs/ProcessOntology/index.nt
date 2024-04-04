@@ -475,7 +475,9 @@
 <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <http://www.w3.org/2004/02/skos/core#preflabel> "DisplacementTransducer"@en .
 <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Clip gauge" .
 <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Tiefungskolben" .
+<https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <https://w3id.org/steel/ProcessOntology/hasExampleData> "makroXtens" .
 <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
+<https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "deepl translator"@en .
 <https://w3id.org/steel/ProcessOntology/DrawingSpeed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/DrawingSpeed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -3336,10 +3338,12 @@
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Probengeometrie"@de .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Probentyp"@de .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Specimen Type"@en .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Specimen type"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#altlabel> "Test piece geometry"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#preflabel> "TestPieceGeometry"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/TestStandard> .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Crashbox" .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "FZ2 (L0=80_b0=20_R20)" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Flach-Zug" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "FzA20" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Nakajima Specimen" .
@@ -3351,10 +3355,12 @@
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-ST-D1"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 12004-2: 2021_07, 11"@de .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 12004-2: 2021_07, 11"@en .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "deepl translator"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/TestPieceLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/TestPieceLength> <http://www.w3.org/2000/01/rdf-schema#label> "TestPieceLength"@en .
@@ -7309,7 +7315,7 @@
 <https://w3id.org/steel/ProcessOntology/workflowSteps> <http://www.w3.org/2000/01/rdf-schema#label> "steps"@en .
 <https://w3id.org/steel/ProcessOntology/workflowSteps> <http://www.w3.org/2004/02/skos/core#preflabel> "steps"@en .
 <https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/elements/1.1/description> "Vocabulary of project StahlDigital"@en .
-<https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/date> "2024-04-04T09:24:04+00:00" .
+<https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/date> "2024-04-04T10:23:56+00:00" .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/2000/01/rdf-schema#label> "StahlDigital Vocabulary"@en .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/2002/07/owl#versionInfo> "0.1 (preliminary)"@en .

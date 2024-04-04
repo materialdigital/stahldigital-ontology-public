@@ -9,7 +9,7 @@
       
       ],
     "http://purl.org/dc/terms/date" : [ {
-        "value" : "2024-04-04T09:24:04+00:00",
+        "value" : "2024-04-04T10:23:56+00:00",
         "type" : "literal"
         }
       
@@ -3244,10 +3244,21 @@
         "value" : "Tiefungskolben",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "makroXtens",
+        "type" : "literal"
+        }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "AFZ-BU-S1.TXT",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DX56_D_FZ2_WR00_43.TXT",
         "lang" : "de",
         "type" : "literal"
         }
@@ -22095,6 +22106,12 @@
         }
       ,
       {
+        "value" : "Specimen type",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Test piece geometry",
         "lang" : "en",
         "type" : "literal"
@@ -22116,6 +22133,11 @@
       ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "Crashbox",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "FZ2 (L0=80_b0=20_R20)",
         "type" : "literal"
         }
       ,
@@ -22182,6 +22204,12 @@
         }
       ,
       {
+        "value" : "DX56_D_FZ2_WR00_43.TXT",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "YS1-Fz-D1Q",
         "lang" : "de",
         "type" : "literal"
@@ -22202,6 +22230,12 @@
       {
         "value" : "YS1-Sz0\u00B0-S1L",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "deepl translator",
+        "lang" : "en",
         "type" : "literal"
         }
       
