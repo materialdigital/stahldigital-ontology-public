@@ -1,7 +1,5 @@
 
 
-<https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/2000/01/rdf-schema#label> "PoissonRatio"@en .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://purl.org/dc/terms/description> "Poission Ratio to determine the linear elasticity"@en .
@@ -10,6 +8,8 @@
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <https://w3id.org/steel/ProcessOntology/hasExampleData> "0.3" .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "LS-DYNA_Manual_Volume_2"@en .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <https://w3id.org/steel/ProcessOntology/hasLabelSourceEn> "LS-DYNA_Manual_Volume_2" .
+<https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "1" .
 
 
