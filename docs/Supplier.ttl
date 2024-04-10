@@ -1,8 +1,5 @@
 
 
-<https://w3id.org/steel/ProcessOntology/Supplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/Supplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/Supplier> <http://www.w3.org/2000/01/rdf-schema#label> "Supplier"@en .
 <https://w3id.org/steel/ProcessOntology/Supplier> <http://www.w3.org/2004/02/skos/core#altlabel> "supplier"@en .
 <https://w3id.org/steel/ProcessOntology/Supplier> <http://www.w3.org/2004/02/skos/core#altlabel> "Hersteller"@de .
 <https://w3id.org/steel/ProcessOntology/Supplier> <http://www.w3.org/2004/02/skos/core#altlabel> "Lieferant"@de .
@@ -10,5 +7,8 @@
 <https://w3id.org/steel/ProcessOntology/Supplier> <https://w3id.org/steel/ProcessOntology/hasExampleData> "voestalpine" .
 <https://w3id.org/steel/ProcessOntology/Supplier> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Zwick GmbH" .
 <https://w3id.org/steel/ProcessOntology/Supplier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "standard definition specific"@de .
+<https://w3id.org/steel/ProcessOntology/Supplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/Supplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/Supplier> <http://www.w3.org/2000/01/rdf-schema#label> "Supplier"@en .
 
 
