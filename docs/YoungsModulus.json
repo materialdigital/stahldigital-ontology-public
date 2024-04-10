@@ -19,7 +19,20 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Modulus of elasticity",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "Young's modulus",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "YoungsModulus",
         "lang" : "en",
         "type" : "literal"
@@ -40,6 +53,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "Young's modulus",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "YoungsModulus",
         "lang" : "en",
         "type" : "literal"

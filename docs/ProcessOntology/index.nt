@@ -2446,9 +2446,11 @@
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://purl.org/dc/terms/description> "Poission Ratio to determine the linear elasticity"@en .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/2000/01/rdf-schema#label> "Poisson ratio"@en .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/2000/01/rdf-schema#label> "PoissonRatio"@en .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/2004/02/skos/core#altlabel> "PR"@en .
+<https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/2004/02/skos/core#preflabel> "Poisson ratio"@en .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <http://www.w3.org/2004/02/skos/core#preflabel> "PoissonRatio"@en .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <https://w3id.org/steel/ProcessOntology/hasExampleData> "0.3" .
 <https://w3id.org/steel/ProcessOntology/PoissonRatio> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "LS-DYNA_Manual_Volume_2"@en .
@@ -3976,13 +3978,15 @@
 <https://w3id.org/steel/ProcessOntology/YieldingIdentifierIsoThermal> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "LS-DYNA_Manual_Volume_2"@en .
 <https://w3id.org/steel/ProcessOntology/YieldingIdentifierIsoThermal> <https://w3id.org/steel/ProcessOntology/hasLabelSourceEn> "LS-DYNA_Manual_Volume_2" .
 <https://w3id.org/steel/ProcessOntology/YieldingIdentifierIsoThermal> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "-" .
-<https://w3id.org/steel/ProcessOntology/YoungModulus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://purl.org/dc/terms/description> "Linear Elastic Modulus to determine the linear elasticity"@en .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/2000/01/rdf-schema#comment> "Modulus of elasticity"@en .
+<https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/2000/01/rdf-schema#label> "Young's modulus"@en .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/2000/01/rdf-schema#label> "YoungsModulus"@en .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/2004/02/skos/core#altlabel> "E"@en .
+<https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/2004/02/skos/core#preflabel> "Young's modulus"@en .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/2004/02/skos/core#preflabel> "YoungsModulus"@en .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <https://w3id.org/steel/ProcessOntology/hasExampleData> "210000" .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "LS-DYNA_Manual_Volume_2"@en .
@@ -7316,7 +7320,7 @@
 <https://w3id.org/steel/ProcessOntology/workflowSteps> <http://www.w3.org/2004/02/skos/core#preflabel> "steps"@en .
 <https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/elements/1.1/description> "Vocabulary of project StahlDigital"@en .
 <https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/contributor> "Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm" .
-<https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/date> "2024-04-10T05:24:10+00:00" .
+<https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/date> "2024-04-10T06:24:01+00:00" .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/2000/01/rdf-schema#label> "StahlDigital Vocabulary"@en .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/2002/07/owl#versionInfo> "0.1 (preliminary)"@en .
