@@ -21,6 +21,12 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "has typical unit label",
         "lang" : "en",

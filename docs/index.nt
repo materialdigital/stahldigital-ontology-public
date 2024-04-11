@@ -7033,10 +7033,24 @@
 <https://w3id.org/steel/ProcessOntology/hasTrueWidthStrain_1> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/steel/ProcessOntology/hasTrueWidthStrain> .
 <https://w3id.org/steel/ProcessOntology/hasTrueWidthStrain_1> <http://www.w3.org/2004/02/skos/core#preflabel> "hasTrueWidthStrain_1"@en .
 <https://w3id.org/steel/ProcessOntology/hasTrueWidthStrain_1> <https://w3id.org/steel/ProcessOntology/hasUnitLabel> "1" .
+<https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://purl.org/dc/elements/1.1/description> "A typical unit associated with the resource"@en .
+<https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://www.w3.org/2000/01/rdf-schema#label> "has typical unit"@en .
+<https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://www.w3.org/2004/02/skos/core#preflabel> "has typical unit"@en .
 <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> <http://purl.org/dc/elements/1.1/description> "A typical unit label for the resource"@en .
 <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> <http://www.w3.org/2000/01/rdf-schema#label> "has typical unit label"@en .
+<https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> <http://www.w3.org/2004/02/skos/core#preflabel> "has typical unit label"@en .
+<https://w3id.org/steel/ProcessOntology/hasUnit> <http://purl.org/dc/elements/1.1/description> "the unit associated with the resource. More than one property of this kind for one resource should be only used if the units are equivalent"@en .
+<https://w3id.org/steel/ProcessOntology/hasUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/steel/ProcessOntology/hasUnit> <http://www.w3.org/2000/01/rdf-schema#label> "has unit"@en .
+<https://w3id.org/steel/ProcessOntology/hasUnit> <http://www.w3.org/2004/02/skos/core#preflabel> "has unit"@en .
+<https://w3id.org/steel/ProcessOntology/hasUnitLabel> <http://purl.org/dc/elements/1.1/description> "The specific unit label for the resource. More than one property of this kind for one resource should be only used if the units are equivalent"@en .
+<https://w3id.org/steel/ProcessOntology/hasUnitLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/steel/ProcessOntology/hasUnitLabel> <http://www.w3.org/2000/01/rdf-schema#label> "has unit label"@en .
+<https://w3id.org/steel/ProcessOntology/hasUnitLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/steel/ProcessOntology/hasUnitLabel> <http://www.w3.org/2004/02/skos/core#preflabel> "has unit label"@en .
 <https://w3id.org/steel/ProcessOntology/hasUpperYieldStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/steel/ProcessOntology/hasUpperYieldStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasUpperYieldStrength> <http://www.w3.org/2000/01/rdf-schema#label> "hasUpperYieldStrength"@en .
@@ -7320,7 +7334,7 @@
 <https://w3id.org/steel/ProcessOntology/workflowSteps> <http://www.w3.org/2004/02/skos/core#preflabel> "steps"@en .
 <https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/elements/1.1/description> "Vocabulary of project StahlDigital"@en .
 <https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/contributor> "Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm" .
-<https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/date> "2024-04-11T06:24:04+00:00" .
+<https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/date> "2024-04-11T07:24:02+00:00" .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/2000/01/rdf-schema#label> "StahlDigital Vocabulary"@en .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/2002/07/owl#versionInfo> "0.1 (preliminary)"@en .
