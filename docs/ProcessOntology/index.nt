@@ -94,33 +94,6 @@
 <https://w3id.org/steel/ProcessOntology/BulgeTest> <http://www.w3.org/2000/01/rdf-schema#label> "bulge test"@en .
 <https://w3id.org/steel/ProcessOntology/BulgeTest> <http://www.w3.org/2004/02/skos/core#preflabel> "Bulgeversuch"@de .
 <https://w3id.org/steel/ProcessOntology/BulgeTest> <http://www.w3.org/2004/02/skos/core#preflabel> "bulge test"@en .
-<https://w3id.org/steel/ProcessOntology/C_11> <http://purl.org/dc/terms/description> "11 component of stiffness matrix"@en .
-<https://w3id.org/steel/ProcessOntology/C_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/C_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/C_11> <http://www.w3.org/2000/01/rdf-schema#label> "C_11"@en .
-<https://w3id.org/steel/ProcessOntology/C_11> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/Hooke> .
-<https://w3id.org/steel/ProcessOntology/C_11> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
-<https://w3id.org/steel/ProcessOntology/C_11> <http://www.w3.org/2004/02/skos/core#preflabel> "C_11"@en .
-<https://w3id.org/steel/ProcessOntology/C_11> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/Hooke> .
-<https://w3id.org/steel/ProcessOntology/C_11> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "Pa" .
-<https://w3id.org/steel/ProcessOntology/C_12> <http://purl.org/dc/terms/description> "12 component of stiffness matrix"@en .
-<https://w3id.org/steel/ProcessOntology/C_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/C_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/C_12> <http://www.w3.org/2000/01/rdf-schema#label> "C_12"@en .
-<https://w3id.org/steel/ProcessOntology/C_12> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/Hooke> .
-<https://w3id.org/steel/ProcessOntology/C_12> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
-<https://w3id.org/steel/ProcessOntology/C_12> <http://www.w3.org/2004/02/skos/core#preflabel> "C_12"@en .
-<https://w3id.org/steel/ProcessOntology/C_12> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/Hooke> .
-<https://w3id.org/steel/ProcessOntology/C_12> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "Pa" .
-<https://w3id.org/steel/ProcessOntology/C_44> <http://purl.org/dc/terms/description> "44 component of stiffness matrix"@en .
-<https://w3id.org/steel/ProcessOntology/C_44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/C_44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/C_44> <http://www.w3.org/2000/01/rdf-schema#label> "C_44"@en .
-<https://w3id.org/steel/ProcessOntology/C_44> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/Hooke> .
-<https://w3id.org/steel/ProcessOntology/C_44> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
-<https://w3id.org/steel/ProcessOntology/C_44> <http://www.w3.org/2004/02/skos/core#preflabel> "C_44"@en .
-<https://w3id.org/steel/ProcessOntology/C_44> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/Hooke> .
-<https://w3id.org/steel/ProcessOntology/C_44> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "Pa" .
 <https://w3id.org/steel/ProcessOntology/CalibrationComponents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/CalibrationComponents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/CalibrationComponents> <http://www.w3.org/2000/01/rdf-schema#label> "CalibrationComponents"@en .
@@ -282,6 +255,15 @@
 <https://w3id.org/steel/ProcessOntology/CrashTest> <http://www.w3.org/2000/01/rdf-schema#label> "Crash Test"@en .
 <https://w3id.org/steel/ProcessOntology/CrashTest> <http://www.w3.org/2004/02/skos/core#preflabel> "Crash Test"@de .
 <https://w3id.org/steel/ProcessOntology/CrashTest> <http://www.w3.org/2004/02/skos/core#preflabel> "Crash Test"@en .
+<https://w3id.org/steel/ProcessOntology/CrossHardeningParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/CrossHardeningParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/CrossHardeningParameter> <http://www.w3.org/2000/01/rdf-schema#label> "CrossHardeningParameter"@en .
+<https://w3id.org/steel/ProcessOntology/CrossHardeningParameter> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/CrossHardeningParameter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
+<https://w3id.org/steel/ProcessOntology/CrossHardeningParameter> <http://www.w3.org/2004/02/skos/core#altlabel> "h_sl-sl"@en .
+<https://w3id.org/steel/ProcessOntology/CrossHardeningParameter> <http://www.w3.org/2004/02/skos/core#preflabel> "CrossHardeningParameter"@en .
+<https://w3id.org/steel/ProcessOntology/CrossHardeningParameter> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/CrossHardeningParameter> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "1" .
 <https://w3id.org/steel/ProcessOntology/CrossheadDisplacement> <http://purl.org/dc/terms/description> "Displacement of the actuator"@en .
 <https://w3id.org/steel/ProcessOntology/CrossheadDisplacement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/CrossheadDisplacement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -1009,6 +991,16 @@
 <https://w3id.org/steel/ProcessOntology/FeedbackLoop> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00FCckkopplung"@de .
 <https://w3id.org/steel/ProcessOntology/FeedbackLoop> <http://www.w3.org/2004/02/skos/core#preflabel> "Feedback Loop"@en .
 <https://w3id.org/steel/ProcessOntology/FeedbackLoop> <http://www.w3.org/2004/02/skos/core#preflabel> "R\u00FCckkopplung"@de .
+<https://w3id.org/steel/ProcessOntology/FinalCriticalStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/FinalCriticalStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/FinalCriticalStrength> <http://www.w3.org/2000/01/rdf-schema#label> "FinalCriticalStrength"@en .
+<https://w3id.org/steel/ProcessOntology/FinalCriticalStrength> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/FinalCriticalStrength> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
+<https://w3id.org/steel/ProcessOntology/FinalCriticalStrength> <http://www.w3.org/2004/02/skos/core#altlabel> "xi_inf_sl"@en .
+<https://w3id.org/steel/ProcessOntology/FinalCriticalStrength> <http://www.w3.org/2004/02/skos/core#preflabel> "FinalCriticalStrength"@en .
+<https://w3id.org/steel/ProcessOntology/FinalCriticalStrength> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/FinalCriticalStrength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "[222.e+6, 412.e+6]" .
+<https://w3id.org/steel/ProcessOntology/FinalCriticalStrength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "Pa" .
 <https://w3id.org/steel/ProcessOntology/FinalFlowStress_ginf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/FinalFlowStress_ginf> <http://www.w3.org/2000/01/rdf-schema#comment> "DAMASK phenopower law parameter"@en .
 <https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture> <http://purl.org/dc/terms/description> "L\u00E4nge zwischen den Marken zur Kennzeichnung der Messl\u00E4nge (3.1) auf der Probe, die nach dem Bruch bei Raumtemperatur gemessen wird, nachdem die beiden Probenbruchst\u00FCcke sorgf\u00E4ltig so zusammengef\u00FCgt wurden, dass ihre Achsen in einer Geraden liegen"@de .
@@ -1290,6 +1282,17 @@
 <https://w3id.org/steel/ProcessOntology/HardeningCurve> <http://www.w3.org/2004/02/skos/core#preflabel> "HardeningCurve"@en .
 <https://w3id.org/steel/ProcessOntology/HardeningCurve> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@de .
 <https://w3id.org/steel/ProcessOntology/HardeningCurve> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@en .
+<https://w3id.org/steel/ProcessOntology/HardeningExponent> <http://purl.org/dc/terms/description> "List of hardening exponent"@en .
+<https://w3id.org/steel/ProcessOntology/HardeningExponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/HardeningExponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/HardeningExponent> <http://www.w3.org/2000/01/rdf-schema#label> "HardeningExponent"@en .
+<https://w3id.org/steel/ProcessOntology/HardeningExponent> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/HardeningExponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
+<https://w3id.org/steel/ProcessOntology/HardeningExponent> <http://www.w3.org/2004/02/skos/core#altlabel> "a_sl"@en .
+<https://w3id.org/steel/ProcessOntology/HardeningExponent> <http://www.w3.org/2004/02/skos/core#preflabel> "HardeningExponent"@en .
+<https://w3id.org/steel/ProcessOntology/HardeningExponent> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/HardeningExponent> <https://w3id.org/steel/ProcessOntology/hasExampleData> "[2.25, 2.25]" .
+<https://w3id.org/steel/ProcessOntology/HardeningExponent> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "1" .
 <https://w3id.org/steel/ProcessOntology/HardeningLaw> <http://purl.org/dc/terms/description> "Verfestigungsgesetz auf der Gleitebene, das f\u00FCr das Kristalplastizit\u00E4tsmodell des Mikrostrukturmodells verwendet wird"@de .
 <https://w3id.org/steel/ProcessOntology/HardeningLaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/HardeningLaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -1371,6 +1374,16 @@
 <https://w3id.org/steel/ProcessOntology/HomogenizationModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
 <https://w3id.org/steel/ProcessOntology/HomogenizationModel> <http://www.w3.org/2004/02/skos/core#altlabel> "pass"@en .
 <https://w3id.org/steel/ProcessOntology/HomogenizationModel> <http://www.w3.org/2004/02/skos/core#preflabel> "HomogenizationModel"@en .
+<https://w3id.org/steel/ProcessOntology/InitialCriticalStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/InitialCriticalStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/InitialCriticalStrength> <http://www.w3.org/2000/01/rdf-schema#label> "InitialCriticalStrength"@en .
+<https://w3id.org/steel/ProcessOntology/InitialCriticalStrength> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/InitialCriticalStrength> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
+<https://w3id.org/steel/ProcessOntology/InitialCriticalStrength> <http://www.w3.org/2004/02/skos/core#altlabel> "xi_0_sl"@en .
+<https://w3id.org/steel/ProcessOntology/InitialCriticalStrength> <http://www.w3.org/2004/02/skos/core#preflabel> "InitialCriticalStrength"@en .
+<https://w3id.org/steel/ProcessOntology/InitialCriticalStrength> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/InitialCriticalStrength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "[95.e+6, 96.e+6]" .
+<https://w3id.org/steel/ProcessOntology/InitialCriticalStrength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "Pa" .
 <https://w3id.org/steel/ProcessOntology/InitialDisplacementRate> <http://purl.org/dc/terms/description> "Pr\u00FCfgeschwindigkeit, die als Auftreffgeschwindigkeit bei Versuchsbeginn nominell eingestellt wurde "@de .
 <https://w3id.org/steel/ProcessOntology/InitialDisplacementRate> <http://purl.org/dc/terms/description> "The velocity of the actuator"@en .
 <https://w3id.org/steel/ProcessOntology/InitialDisplacementRate> <http://purl.org/dc/terms/description> "initial displacement rate"@en .
@@ -1391,6 +1404,16 @@
 <https://w3id.org/steel/ProcessOntology/InitialDisplacementRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm/s or m/s" .
 <https://w3id.org/steel/ProcessOntology/InitialFlowStress_g0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/InitialFlowStress_g0> <http://www.w3.org/2000/01/rdf-schema#comment> "DAMASK phenopower law parameter"@en .
+<https://w3id.org/steel/ProcessOntology/InitialHardening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/InitialHardening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/InitialHardening> <http://www.w3.org/2000/01/rdf-schema#label> "InitialHardening"@en .
+<https://w3id.org/steel/ProcessOntology/InitialHardening> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/InitialHardening> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
+<https://w3id.org/steel/ProcessOntology/InitialHardening> <http://www.w3.org/2004/02/skos/core#altlabel> "h_0_sl-sl"@en .
+<https://w3id.org/steel/ProcessOntology/InitialHardening> <http://www.w3.org/2004/02/skos/core#preflabel> "InitialHardening"@en .
+<https://w3id.org/steel/ProcessOntology/InitialHardening> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/InitialHardening> <https://w3id.org/steel/ProcessOntology/hasExampleData> "[1.0e+9, 1.0e+9]" .
+<https://w3id.org/steel/ProcessOntology/InitialHardening> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "Pa/1" .
 <https://w3id.org/steel/ProcessOntology/InitialSheetThickness> <http://purl.org/dc/terms/description> "Ausgangsblechdicke"@de .
 <https://w3id.org/steel/ProcessOntology/InitialSheetThickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/InitialSheetThickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -1455,6 +1478,17 @@
 <https://w3id.org/steel/ProcessOntology/InteractionMatrix> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@en .
 <https://w3id.org/steel/ProcessOntology/InteractionMatrix> <https://w3id.org/steel/ProcessOntology/hasSymbol> "q_ab"@en .
 <https://w3id.org/steel/ProcessOntology/InteractionMatrix> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "-" .
+<https://w3id.org/steel/ProcessOntology/Inv_ShearRateSensitivity> <http://purl.org/dc/terms/description> "List of inverse strain rate sensitivity"@en .
+<https://w3id.org/steel/ProcessOntology/Inv_ShearRateSensitivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/Inv_ShearRateSensitivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/Inv_ShearRateSensitivity> <http://www.w3.org/2000/01/rdf-schema#label> "Inv_ShearRateSensitivity"@en .
+<https://w3id.org/steel/ProcessOntology/Inv_ShearRateSensitivity> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/Inv_ShearRateSensitivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
+<https://w3id.org/steel/ProcessOntology/Inv_ShearRateSensitivity> <http://www.w3.org/2004/02/skos/core#altlabel> "n_sl"@en .
+<https://w3id.org/steel/ProcessOntology/Inv_ShearRateSensitivity> <http://www.w3.org/2004/02/skos/core#preflabel> "Inv_ShearRateSensitivity"@en .
+<https://w3id.org/steel/ProcessOntology/Inv_ShearRateSensitivity> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/Inv_ShearRateSensitivity> <https://w3id.org/steel/ProcessOntology/hasExampleData> "[20, 20]" .
+<https://w3id.org/steel/ProcessOntology/Inv_ShearRateSensitivity> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "1" .
 <https://w3id.org/steel/ProcessOntology/InventoryNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/InventoryNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/InventoryNumber> <http://www.w3.org/2000/01/rdf-schema#label> "InventoryNumber"@en .
@@ -2007,12 +2041,6 @@
 <https://w3id.org/steel/ProcessOntology/MorphologicalTexture> <http://www.w3.org/2000/01/rdf-schema#label> "Morphologische Beschaffenheit"@de .
 <https://w3id.org/steel/ProcessOntology/MorphologicalTexture> <http://www.w3.org/2004/02/skos/core#preflabel> "Morphological Texture"@en .
 <https://w3id.org/steel/ProcessOntology/MorphologicalTexture> <http://www.w3.org/2004/02/skos/core#preflabel> "Morphologische Beschaffenheit"@de .
-<https://w3id.org/steel/ProcessOntology/N_sl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/N_sl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/N_sl> <http://www.w3.org/2000/01/rdf-schema#label> "N_sl"@en .
-<https://w3id.org/steel/ProcessOntology/N_sl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
-<https://w3id.org/steel/ProcessOntology/N_sl> <http://www.w3.org/2004/02/skos/core#altlabel> "number"@en .
-<https://w3id.org/steel/ProcessOntology/N_sl> <http://www.w3.org/2004/02/skos/core#preflabel> "N_sl"@en .
 <https://w3id.org/steel/ProcessOntology/NakajimaTest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/NakajimaTest> <http://www.w3.org/2000/01/rdf-schema#label> "Nakajima Test"@de .
 <https://w3id.org/steel/ProcessOntology/NakajimaTest> <http://www.w3.org/2000/01/rdf-schema#label> "Nakajima Test"@en .
@@ -2078,6 +2106,17 @@
 <https://w3id.org/steel/ProcessOntology/NumberOfVirtualExperiments> <http://www.w3.org/2004/02/skos/core#preflabel> "NumberOfVirtualExperiments"@en .
 <https://w3id.org/steel/ProcessOntology/NumberOfVirtualExperiments> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@de .
 <https://w3id.org/steel/ProcessOntology/NumberOfVirtualExperiments> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@en .
+<https://w3id.org/steel/ProcessOntology/NumberSlipSystems> <http://purl.org/dc/terms/description> "List of number of slip systems per slip system family"@en .
+<https://w3id.org/steel/ProcessOntology/NumberSlipSystems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/NumberSlipSystems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/NumberSlipSystems> <http://www.w3.org/2000/01/rdf-schema#label> "NumberSlipSystems"@en .
+<https://w3id.org/steel/ProcessOntology/NumberSlipSystems> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/NumberSlipSystems> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
+<https://w3id.org/steel/ProcessOntology/NumberSlipSystems> <http://www.w3.org/2004/02/skos/core#altlabel> "N_sl"@en .
+<https://w3id.org/steel/ProcessOntology/NumberSlipSystems> <http://www.w3.org/2004/02/skos/core#preflabel> "NumberSlipSystems"@en .
+<https://w3id.org/steel/ProcessOntology/NumberSlipSystems> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/NumberSlipSystems> <https://w3id.org/steel/ProcessOntology/hasExampleData> "[12, 12]" .
+<https://w3id.org/steel/ProcessOntology/NumberSlipSystems> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "1" .
 <https://w3id.org/steel/ProcessOntology/Operator> <http://purl.org/dc/terms/description> "Person performed the hydraulic bulge test."@en .
 <https://w3id.org/steel/ProcessOntology/Operator> <http://purl.org/dc/terms/description> "Person, die den hydraulischen Tiefungsversuch durchgef\u00FChrt hat. "@de .
 <https://w3id.org/steel/ProcessOntology/Operator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2839,6 +2878,17 @@
 <https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "LS-DYNA_Manual_Volume_2"@en .
 <https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSourceEn> "LS-DYNA_Manual_Volume_2" .
 <https://w3id.org/steel/ProcessOntology/ReferenceTemperature> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "K" .
+<https://w3id.org/steel/ProcessOntology/RefernceShearRate> <http://purl.org/dc/terms/description> "List of reference shear rate per slip family"@en .
+<https://w3id.org/steel/ProcessOntology/RefernceShearRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/RefernceShearRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/RefernceShearRate> <http://www.w3.org/2000/01/rdf-schema#label> "RefernceShearRate"@en .
+<https://w3id.org/steel/ProcessOntology/RefernceShearRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/RefernceShearRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
+<https://w3id.org/steel/ProcessOntology/RefernceShearRate> <http://www.w3.org/2004/02/skos/core#altlabel> "dot_gamma_0_sl"@en .
+<https://w3id.org/steel/ProcessOntology/RefernceShearRate> <http://www.w3.org/2004/02/skos/core#preflabel> "RefernceShearRate"@en .
+<https://w3id.org/steel/ProcessOntology/RefernceShearRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/phenopowerlaw> .
+<https://w3id.org/steel/ProcessOntology/RefernceShearRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "[0.001, 0.001]" .
+<https://w3id.org/steel/ProcessOntology/RefernceShearRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "1/s" .
 <https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope> <http://purl.org/dc/terms/description> "Quotient der Standardabweichung der Steigung und der Steigung im untersuchten Bereich multipliziert mit 100 %"@de .
 <https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/RelativeStandardDeviationOfTheSlope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -3135,6 +3185,20 @@
 <https://w3id.org/steel/ProcessOntology/Steel> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/Grade> .
 <https://w3id.org/steel/ProcessOntology/Steel> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Dualphasenstahl" .
 <https://w3id.org/steel/ProcessOntology/Steel> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN 10346_2015"@de .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://purl.org/dc/terms/description> "11 component of stiffness matrix"@en .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://purl.org/dc/terms/description> "12 component of stiffness matrix"@en .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://purl.org/dc/terms/description> "44 component of stiffness matrix"@en .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://www.w3.org/2000/01/rdf-schema#label> "StiffnessComponent"@en .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/Hooke> .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "https://material-digital.de/pmdco/ValueObject" .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://www.w3.org/2004/02/skos/core#altlabel> "C_11"@en .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://www.w3.org/2004/02/skos/core#altlabel> "C_12"@en .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://www.w3.org/2004/02/skos/core#altlabel> "C_44"@en .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://www.w3.org/2004/02/skos/core#preflabel> "StiffnessComponent"@en .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/Hooke> .
+<https://w3id.org/steel/ProcessOntology/StiffnessComponent> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "Pa" .
 <https://w3id.org/steel/ProcessOntology/Strain> <http://purl.org/dc/terms/description> "extension expressed as a percentage of the extensometer gauge length"@en .
 <https://w3id.org/steel/ProcessOntology/Strain> <http://purl.org/dc/terms/description> "in Prozent angegebene Verl\u00E4ngerung der Extensometer-Messl\u00E4nge"@de .
 <https://w3id.org/steel/ProcessOntology/Strain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -4157,18 +4221,6 @@
 <https://w3id.org/steel/ProcessOntology/hasBoundaryFileObject> <http://www.w3.org/2000/01/rdf-schema#label> "hasBoundaryFile"@en .
 <https://w3id.org/steel/ProcessOntology/hasBoundaryFileObject> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/BoundaryFile> .
 <https://w3id.org/steel/ProcessOntology/hasBoundaryFileObject> <http://www.w3.org/2004/02/skos/core#preflabel> "hasBoundaryFile"@en .
-<https://w3id.org/steel/ProcessOntology/hasC_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/steel/ProcessOntology/hasC_11> <http://www.w3.org/2000/01/rdf-schema#label> "hasC_11"@en .
-<https://w3id.org/steel/ProcessOntology/hasC_11> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/C_11> .
-<https://w3id.org/steel/ProcessOntology/hasC_11> <http://www.w3.org/2004/02/skos/core#preflabel> "hasC_11"@en .
-<https://w3id.org/steel/ProcessOntology/hasC_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/steel/ProcessOntology/hasC_12> <http://www.w3.org/2000/01/rdf-schema#label> "hasC_12"@en .
-<https://w3id.org/steel/ProcessOntology/hasC_12> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/C_12> .
-<https://w3id.org/steel/ProcessOntology/hasC_12> <http://www.w3.org/2004/02/skos/core#preflabel> "hasC_12"@en .
-<https://w3id.org/steel/ProcessOntology/hasC_44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/steel/ProcessOntology/hasC_44> <http://www.w3.org/2000/01/rdf-schema#label> "hasC_44"@en .
-<https://w3id.org/steel/ProcessOntology/hasC_44> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/C_44> .
-<https://w3id.org/steel/ProcessOntology/hasC_44> <http://www.w3.org/2004/02/skos/core#preflabel> "hasC_44"@en .
 <https://w3id.org/steel/ProcessOntology/hasCalibrationComponents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/steel/ProcessOntology/hasCalibrationComponents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasCalibrationComponents> <http://www.w3.org/2000/01/rdf-schema#label> "hasCalibrationComponents"@en .
@@ -4277,6 +4329,10 @@
 <https://w3id.org/steel/ProcessOntology/hasComputerControlledTensileTestingMachineObject> <http://www.w3.org/2000/01/rdf-schema#label> "hasComputerControlledTensileTestingMachine"@en .
 <https://w3id.org/steel/ProcessOntology/hasComputerControlledTensileTestingMachineObject> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/ComputerControlledTensileTestingMachine> .
 <https://w3id.org/steel/ProcessOntology/hasComputerControlledTensileTestingMachineObject> <http://www.w3.org/2004/02/skos/core#preflabel> "hasComputerControlledTensileTestingMachine"@en .
+<https://w3id.org/steel/ProcessOntology/hasCrossHardeningParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/steel/ProcessOntology/hasCrossHardeningParameter> <http://www.w3.org/2000/01/rdf-schema#label> "hasCrossHardeningParameter"@en .
+<https://w3id.org/steel/ProcessOntology/hasCrossHardeningParameter> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/CrossHardeningParameter> .
+<https://w3id.org/steel/ProcessOntology/hasCrossHardeningParameter> <http://www.w3.org/2004/02/skos/core#preflabel> "hasCrossHardeningParameter"@en .
 <https://w3id.org/steel/ProcessOntology/hasCrossheadDisplacement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/steel/ProcessOntology/hasCrossheadDisplacement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasCrossheadDisplacement> <http://www.w3.org/2000/01/rdf-schema#label> "hasCrossheadDisplacement"@en .
@@ -4833,6 +4889,10 @@
 <https://w3id.org/steel/ProcessOntology/hasFailureTreatment> <http://www.w3.org/2000/01/rdf-schema#label> "hasFailureTreatment"@en .
 <https://w3id.org/steel/ProcessOntology/hasFailureTreatment> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/FailureTreatment> .
 <https://w3id.org/steel/ProcessOntology/hasFailureTreatment> <http://www.w3.org/2004/02/skos/core#preflabel> "hasFailureTreatment"@en .
+<https://w3id.org/steel/ProcessOntology/hasFinalCriticalStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/steel/ProcessOntology/hasFinalCriticalStrength> <http://www.w3.org/2000/01/rdf-schema#label> "hasFinalCriticalStrength"@en .
+<https://w3id.org/steel/ProcessOntology/hasFinalCriticalStrength> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/FinalCriticalStrength> .
+<https://w3id.org/steel/ProcessOntology/hasFinalCriticalStrength> <http://www.w3.org/2004/02/skos/core#preflabel> "hasFinalCriticalStrength"@en .
 <https://w3id.org/steel/ProcessOntology/hasFinalGaugeLengthAfterFracture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/steel/ProcessOntology/hasFinalGaugeLengthAfterFracture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasFinalGaugeLengthAfterFracture> <http://www.w3.org/2000/01/rdf-schema#label> "hasFinalGaugeLengthAfterFracture"@en .
@@ -5037,6 +5097,10 @@
 <https://w3id.org/steel/ProcessOntology/hasHardeningCurveObject> <http://www.w3.org/2000/01/rdf-schema#label> "hasHardeningCurve"@en .
 <https://w3id.org/steel/ProcessOntology/hasHardeningCurveObject> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/HardeningCurve> .
 <https://w3id.org/steel/ProcessOntology/hasHardeningCurveObject> <http://www.w3.org/2004/02/skos/core#preflabel> "hasHardeningCurve"@en .
+<https://w3id.org/steel/ProcessOntology/hasHardeningExponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/steel/ProcessOntology/hasHardeningExponent> <http://www.w3.org/2000/01/rdf-schema#label> "hasHardeningExponent"@en .
+<https://w3id.org/steel/ProcessOntology/hasHardeningExponent> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/HardeningExponent> .
+<https://w3id.org/steel/ProcessOntology/hasHardeningExponent> <http://www.w3.org/2004/02/skos/core#preflabel> "hasHardeningExponent"@en .
 <https://w3id.org/steel/ProcessOntology/hasHardeningLaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/steel/ProcessOntology/hasHardeningLaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasHardeningLaw> <http://www.w3.org/2000/01/rdf-schema#label> "hasHardeningLaw"@en .
@@ -5110,6 +5174,10 @@
 <https://w3id.org/steel/ProcessOntology/hasHomogenizationModel> <http://www.w3.org/2000/01/rdf-schema#label> "hasHomogenizationModel"@en .
 <https://w3id.org/steel/ProcessOntology/hasHomogenizationModel> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/HomogenizationModel> .
 <https://w3id.org/steel/ProcessOntology/hasHomogenizationModel> <http://www.w3.org/2004/02/skos/core#preflabel> "hasHomogenizationModel"@en .
+<https://w3id.org/steel/ProcessOntology/hasInitialCriticalStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/steel/ProcessOntology/hasInitialCriticalStrength> <http://www.w3.org/2000/01/rdf-schema#label> "hasInitialCriticalStrength"@en .
+<https://w3id.org/steel/ProcessOntology/hasInitialCriticalStrength> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/InitialCriticalStrength> .
+<https://w3id.org/steel/ProcessOntology/hasInitialCriticalStrength> <http://www.w3.org/2004/02/skos/core#preflabel> "hasInitialCriticalStrength"@en .
 <https://w3id.org/steel/ProcessOntology/hasInitialDisplacementRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/steel/ProcessOntology/hasInitialDisplacementRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasInitialDisplacementRate> <http://www.w3.org/2000/01/rdf-schema#label> "hasInitialDisplacementRate"@en .
@@ -5131,6 +5199,10 @@
 <https://w3id.org/steel/ProcessOntology/hasInitialDisplacementRate_mm%2Fs%20or%20m%2Fs> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/steel/ProcessOntology/hasInitialDisplacementRate> .
 <https://w3id.org/steel/ProcessOntology/hasInitialDisplacementRate_mm%2Fs%20or%20m%2Fs> <http://www.w3.org/2004/02/skos/core#preflabel> "hasInitialDisplacementRate_mm/s or m/s"@en .
 <https://w3id.org/steel/ProcessOntology/hasInitialDisplacementRate_mm%2Fs%20or%20m%2Fs> <https://w3id.org/steel/ProcessOntology/hasUnitLabel> "mm/s or m/s" .
+<https://w3id.org/steel/ProcessOntology/hasInitialHardening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/steel/ProcessOntology/hasInitialHardening> <http://www.w3.org/2000/01/rdf-schema#label> "hasInitialHardening"@en .
+<https://w3id.org/steel/ProcessOntology/hasInitialHardening> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/InitialHardening> .
+<https://w3id.org/steel/ProcessOntology/hasInitialHardening> <http://www.w3.org/2004/02/skos/core#preflabel> "hasInitialHardening"@en .
 <https://w3id.org/steel/ProcessOntology/hasInitialSheetThickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/steel/ProcessOntology/hasInitialSheetThickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasInitialSheetThickness> <http://www.w3.org/2000/01/rdf-schema#label> "hasInitialSheetThickness"@en .
@@ -5212,6 +5284,10 @@
 <https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_-> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/steel/ProcessOntology/hasInteractionMatrix> .
 <https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_-> <http://www.w3.org/2004/02/skos/core#preflabel> "hasInteractionMatrix_-"@en .
 <https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_-> <https://w3id.org/steel/ProcessOntology/hasUnitLabel> "-" .
+<https://w3id.org/steel/ProcessOntology/hasInv_ShearRateSensitivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/steel/ProcessOntology/hasInv_ShearRateSensitivity> <http://www.w3.org/2000/01/rdf-schema#label> "hasInv_ShearRateSensitivity"@en .
+<https://w3id.org/steel/ProcessOntology/hasInv_ShearRateSensitivity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/Inv_ShearRateSensitivity> .
+<https://w3id.org/steel/ProcessOntology/hasInv_ShearRateSensitivity> <http://www.w3.org/2004/02/skos/core#preflabel> "hasInv_ShearRateSensitivity"@en .
 <https://w3id.org/steel/ProcessOntology/hasInventoryNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/steel/ProcessOntology/hasInventoryNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasInventoryNumber> <http://www.w3.org/2000/01/rdf-schema#label> "hasInventoryNumber"@en .
@@ -5597,10 +5673,6 @@
 <https://w3id.org/steel/ProcessOntology/hasModulusOfElasticity_MPa> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/steel/ProcessOntology/hasModulusOfElasticity> .
 <https://w3id.org/steel/ProcessOntology/hasModulusOfElasticity_MPa> <http://www.w3.org/2004/02/skos/core#preflabel> "hasModulusOfElasticity_MPa"@en .
 <https://w3id.org/steel/ProcessOntology/hasModulusOfElasticity_MPa> <https://w3id.org/steel/ProcessOntology/hasUnitLabel> "MPa" .
-<https://w3id.org/steel/ProcessOntology/hasN_sl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/steel/ProcessOntology/hasN_sl> <http://www.w3.org/2000/01/rdf-schema#label> "hasN_sl"@en .
-<https://w3id.org/steel/ProcessOntology/hasN_sl> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/N_sl> .
-<https://w3id.org/steel/ProcessOntology/hasN_sl> <http://www.w3.org/2004/02/skos/core#preflabel> "hasN_sl"@en .
 <https://w3id.org/steel/ProcessOntology/hasNominalEngineeringStrainRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/steel/ProcessOntology/hasNominalEngineeringStrainRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasNominalEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#label> "hasNominalEngineeringStrainRate"@en .
@@ -5653,6 +5725,10 @@
 <https://w3id.org/steel/ProcessOntology/hasNumberOfVirtualExperimentsObject> <http://www.w3.org/2000/01/rdf-schema#label> "hasNumberOfVirtualExperiments"@en .
 <https://w3id.org/steel/ProcessOntology/hasNumberOfVirtualExperimentsObject> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/NumberOfVirtualExperiments> .
 <https://w3id.org/steel/ProcessOntology/hasNumberOfVirtualExperimentsObject> <http://www.w3.org/2004/02/skos/core#preflabel> "hasNumberOfVirtualExperiments"@en .
+<https://w3id.org/steel/ProcessOntology/hasNumberSlipSystems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/steel/ProcessOntology/hasNumberSlipSystems> <http://www.w3.org/2000/01/rdf-schema#label> "hasNumberSlipSystems"@en .
+<https://w3id.org/steel/ProcessOntology/hasNumberSlipSystems> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/NumberSlipSystems> .
+<https://w3id.org/steel/ProcessOntology/hasNumberSlipSystems> <http://www.w3.org/2004/02/skos/core#preflabel> "hasNumberSlipSystems"@en .
 <https://w3id.org/steel/ProcessOntology/hasOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/steel/ProcessOntology/hasOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasOperator> <http://www.w3.org/2000/01/rdf-schema#label> "hasOperator"@en .
@@ -6294,6 +6370,10 @@
 <https://w3id.org/steel/ProcessOntology/hasReferenceTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "hasReferenceTemperature"@en .
 <https://w3id.org/steel/ProcessOntology/hasReferenceTemperature> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/ReferenceTemperature> .
 <https://w3id.org/steel/ProcessOntology/hasReferenceTemperature> <http://www.w3.org/2004/02/skos/core#preflabel> "hasReferenceTemperature"@en .
+<https://w3id.org/steel/ProcessOntology/hasRefernceShearRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/steel/ProcessOntology/hasRefernceShearRate> <http://www.w3.org/2000/01/rdf-schema#label> "hasRefernceShearRate"@en .
+<https://w3id.org/steel/ProcessOntology/hasRefernceShearRate> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/RefernceShearRate> .
+<https://w3id.org/steel/ProcessOntology/hasRefernceShearRate> <http://www.w3.org/2004/02/skos/core#preflabel> "hasRefernceShearRate"@en .
 <https://w3id.org/steel/ProcessOntology/hasRelativeStandardDeviationOfTheSlope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/steel/ProcessOntology/hasRelativeStandardDeviationOfTheSlope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasRelativeStandardDeviationOfTheSlope> <http://www.w3.org/2000/01/rdf-schema#label> "hasRelativeStandardDeviationOfTheSlope"@en .
@@ -6547,6 +6627,10 @@
 <https://w3id.org/steel/ProcessOntology/hasStep> <http://www.w3.org/2000/01/rdf-schema#label> "has Step"@en .
 <https://w3id.org/steel/ProcessOntology/hasStep> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/WorkflowStep> .
 <https://w3id.org/steel/ProcessOntology/hasStep> <http://www.w3.org/2004/02/skos/core#preflabel> "has Step"@en .
+<https://w3id.org/steel/ProcessOntology/hasStiffnessComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/steel/ProcessOntology/hasStiffnessComponent> <http://www.w3.org/2000/01/rdf-schema#label> "hasStiffnessComponent"@en .
+<https://w3id.org/steel/ProcessOntology/hasStiffnessComponent> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/StiffnessComponent> .
+<https://w3id.org/steel/ProcessOntology/hasStiffnessComponent> <http://www.w3.org/2004/02/skos/core#preflabel> "hasStiffnessComponent"@en .
 <https://w3id.org/steel/ProcessOntology/hasStrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/steel/ProcessOntology/hasStrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasStrain> <http://www.w3.org/2000/01/rdf-schema#label> "hasStrain"@en .
@@ -7407,7 +7491,7 @@
 <https://w3id.org/steel/ProcessOntology/workflowSteps> <http://www.w3.org/2004/02/skos/core#preflabel> "steps"@en .
 <https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/elements/1.1/description> "Vocabulary of project StahlDigital"@en .
 <https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/contributor> "Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm" .
-<https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/date> "2024-04-12T15:24:01+00:00" .
+<https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/date> "2024-04-12T16:23:58+00:00" .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/2000/01/rdf-schema#label> "StahlDigital Vocabulary"@en .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/2002/07/owl#versionInfo> "0.1 (preliminary)"@en .

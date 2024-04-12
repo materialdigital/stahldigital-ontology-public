@@ -1,0 +1,92 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/StiffnessComponent" : {
+    "http://purl.org/dc/terms/description" : [ {
+        "value" : "11 component of stiffness matrix",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "12 component of stiffness matrix",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "44 component of stiffness matrix",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "StiffnessComponent",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/Hooke",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+        "value" : "https://material-digital.de/pmdco/ValueObject",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "C_11",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "C_12",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "C_44",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "StiffnessComponent",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#related" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/Hooke",
+        "type" : "uri"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
+        "value" : "Pa",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }
