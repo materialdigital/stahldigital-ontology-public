@@ -1,21 +1,21 @@
 
 
-<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#label> "Extension"@en .
-<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> .
-<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem> .
-<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> .
-<https://w3id.org/steel/ProcessOntology/Extension> <http://purl.org/dc/terms/description> "Verlängerung (der Extensometer-Messlänge)"@de .
-<https://w3id.org/steel/ProcessOntology/Extension> <http://purl.org/dc/terms/description> "Displacement of the extensometer (!) length"@en .
-<https://w3id.org/steel/ProcessOntology/Extension> <http://purl.org/dc/terms/description> "increase in the extensometer gauge length (3.5), at any moment during the test"@en .
-<https://w3id.org/steel/ProcessOntology/Extension> <http://purl.org/dc/terms/description> "Zunahme der Extensometer-Messlänge zu einem beliebigen Zeitpunkt des Versuchs"@de .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#preflabel> "Extension"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "Standardweg"@de .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "Displacement"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "extension"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "dL"@de .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#altlabel> "Extension"@en .
-<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#preflabel> "Extension"@en .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://purl.org/dc/terms/description> "Verlängerung (der Extensometer-Messlänge)"@de .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://purl.org/dc/terms/description> "Displacement of the extensometer (!) length"@en .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://purl.org/dc/terms/description> "increase in the extensometer gauge length (3.5), at any moment during the test"@en .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://purl.org/dc/terms/description> "Zunahme der Extensometer-Messlänge zu einem beliebigen Zeitpunkt des Versuchs"@de .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem> .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2000/01/rdf-schema#label> "Extension"@en .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem> .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> .
 <https://w3id.org/steel/ProcessOntology/Extension> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> .
@@ -30,10 +30,10 @@
 <https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0°-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
-<https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasSymbol> "dL"@en .
-<https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "dL"@en .
-<https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
 <https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> .
 <https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> .
+<https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
+<https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "dL"@en .
+<https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasSymbol> "dL"@en .
 
 
