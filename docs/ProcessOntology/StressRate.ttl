@@ -1,26 +1,26 @@
 
 
-<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "19.63" .
-<https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/EngineeringStress> .
-<https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/Time> .
-<https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2004/02/skos/core#preflabel> "StressRate"@en .
-<https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2004/02/skos/core#altlabel> "Geschw."@de .
-<https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2004/02/skos/core#altlabel> "stress rate"@en .
-<https://w3id.org/steel/ProcessOntology/StressRate> <http://purl.org/dc/terms/description> "Zunahme der Spannung je Zeiteinheit"@de .
-<https://w3id.org/steel/ProcessOntology/StressRate> <http://purl.org/dc/terms/description> "stress rate"@en .
-<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa s -1" .
-<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa/s" .
-<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "dSig/dt"@en .
-<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "dot{R}"@en .
-<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasSymbol> "dSig/dt"@en .
-<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasSymbol> "R"@en .
-<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlm"@de .
-<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.7.4"@de .
-<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.7.4"@en .
 <https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2000/01/rdf-schema#label> "StressRate"@en .
 <https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/EngineeringStress> .
 <https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/Time> .
+<https://w3id.org/steel/ProcessOntology/StressRate> <http://purl.org/dc/terms/description> "Zunahme der Spannung je Zeiteinheit"@de .
+<https://w3id.org/steel/ProcessOntology/StressRate> <http://purl.org/dc/terms/description> "stress rate"@en .
+<https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2004/02/skos/core#altlabel> "Geschw."@de .
+<https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2004/02/skos/core#altlabel> "stress rate"@en .
+<https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2004/02/skos/core#preflabel> "StressRate"@en .
+<https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/EngineeringStress> .
+<https://w3id.org/steel/ProcessOntology/StressRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/Time> .
+<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "19.63" .
+<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlm"@de .
+<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.7.4"@de .
+<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.7.4"@en .
+<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasSymbol> "dSig/dt"@en .
+<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasSymbol> "R"@en .
+<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "dSig/dt"@en .
+<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "dot{R}"@en .
+<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa s -1" .
+<https://w3id.org/steel/ProcessOntology/StressRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa/s" .
 
 
