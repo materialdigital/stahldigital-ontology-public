@@ -1,7 +1,5 @@
 
 
-<https://w3id.org/steel/ProcessOntology/Texture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/Texture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/Texture> <http://www.w3.org/2000/01/rdf-schema#label> "Texture"@en .
 <https://w3id.org/steel/ProcessOntology/Texture> <http://www.w3.org/2000/01/rdf-schema#label> "Textur"@de .
 <https://w3id.org/steel/ProcessOntology/Texture> <http://purl.org/dc/terms/description> "Textur des Mikrostrukturmodells, wird durch drei Eulerwinkel definiert"@de .
@@ -9,6 +7,8 @@
 <https://w3id.org/steel/ProcessOntology/Texture> <http://www.w3.org/2004/02/skos/core#altlabel> "Texture"@en .
 <https://w3id.org/steel/ProcessOntology/Texture> <http://www.w3.org/2004/02/skos/core#preflabel> "Textur"@de .
 <https://w3id.org/steel/ProcessOntology/Texture> <http://www.w3.org/2004/02/skos/core#preflabel> "Texture"@en .
+<https://w3id.org/steel/ProcessOntology/Texture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/Texture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/Texture> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@en .
 <https://w3id.org/steel/ProcessOntology/Texture> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@de .
 

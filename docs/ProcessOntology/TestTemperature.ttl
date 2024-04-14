@@ -1,17 +1,17 @@
 
 
-<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "TestTemperature"@en .
-<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://purl.org/dc/terms/description> "Versuche unter kontrollierten Bedingungen müssen bei einer Temperatur von (23 ± 5) °C durchgeführt werden."@de .
-<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://purl.org/dc/terms/description> "The temperature during the experiment."@en .
-<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://purl.org/dc/terms/description> "The initial test temperature during the experiment (neglecting adiabatic heating)"@en .
-<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://purl.org/dc/terms/description> "Prüftemperatur"@de .
+<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://www.w3.org/2004/02/skos/core#preflabel> "TestTemperature"@en .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <http://www.w3.org/2004/02/skos/core#altlabel> "Prüftemperatur"@de .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <http://www.w3.org/2004/02/skos/core#altlabel> "Temperatur"@de .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <http://www.w3.org/2004/02/skos/core#altlabel> "Temperature"@en .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <http://www.w3.org/2004/02/skos/core#altlabel> "test temperature"@en .
-<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://www.w3.org/2004/02/skos/core#preflabel> "TestTemperature"@en .
+<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://purl.org/dc/terms/description> "Versuche unter kontrollierten Bedingungen müssen bei einer Temperatur von (23 ± 5) °C durchgeführt werden."@de .
+<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://purl.org/dc/terms/description> "The temperature during the experiment."@en .
+<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://purl.org/dc/terms/description> "The initial test temperature during the experiment (neglecting adiabatic heating)"@en .
+<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://purl.org/dc/terms/description> "Prüftemperatur"@de .
+<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "TestTemperature"@en .
+<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/TestTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasExampleData> "22" .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasExampleData> "25" .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
@@ -24,8 +24,8 @@
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 12004-2: 2021_07, 5"@en .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 5"@de .
-<https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasSymbol> "T"@en .
-<https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "T"@en .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "°C" .
+<https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "T"@en .
+<https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasSymbol> "T"@en .
 
 
