@@ -1,11 +1,11 @@
 
 
-<https://w3id.org/steel/ProcessOntology/DataSamplingFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/DataSamplingFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/DataSamplingFrequency> <http://www.w3.org/2000/01/rdf-schema#label> "DataSamplingFrequency"@en .
 <https://w3id.org/steel/ProcessOntology/DataSamplingFrequency> <http://purl.org/dc/terms/description> "Die Frequenz-Bandweite jedes Messkanals sowie die Messwerterfassungsfrequenz sollten ausreichend hoch sein, damit die zu bestimmenden Werkstoffkenngrößen aufgezeichnet werden können. So kann z. B. bei Ermittlung von ReH die Gleichung (A.1) zur Bestimmung der in 1/Sekunde angegebenen Mindestmesswert-erfassungsgrenze fmin verwendet werden:"@de .
 <https://w3id.org/steel/ProcessOntology/DataSamplingFrequency> <http://www.w3.org/2004/02/skos/core#altlabel> "data sampling frequency"@en .
 <https://w3id.org/steel/ProcessOntology/DataSamplingFrequency> <http://www.w3.org/2004/02/skos/core#preflabel> "DataSamplingFrequency"@en .
+<https://w3id.org/steel/ProcessOntology/DataSamplingFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/DataSamplingFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/DataSamplingFrequency> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, A.2.2"@de .
 <https://w3id.org/steel/ProcessOntology/DataSamplingFrequency> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, A.2.2"@en .
 
