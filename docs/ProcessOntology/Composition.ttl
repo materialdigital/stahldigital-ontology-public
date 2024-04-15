@@ -1,5 +1,7 @@
 
 
+<https://w3id.org/steel/ProcessOntology/Composition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/Composition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/Composition> <http://www.w3.org/2000/01/rdf-schema#label> "Zusammensetzung"@de .
 <https://w3id.org/steel/ProcessOntology/Composition> <http://www.w3.org/2000/01/rdf-schema#label> "Composition"@en .
 <https://w3id.org/steel/ProcessOntology/Composition> <http://purl.org/dc/terms/description> "Elementzusammensetzung des Werkstoffs"@de .
@@ -8,8 +10,6 @@
 <https://w3id.org/steel/ProcessOntology/Composition> <http://www.w3.org/2004/02/skos/core#altlabel> "Chemische Zusammensetzung"@de .
 <https://w3id.org/steel/ProcessOntology/Composition> <http://www.w3.org/2004/02/skos/core#preflabel> "Zusammensetzung"@de .
 <https://w3id.org/steel/ProcessOntology/Composition> <http://www.w3.org/2004/02/skos/core#preflabel> "Composition"@en .
-<https://w3id.org/steel/ProcessOntology/Composition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/Composition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/Composition> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "K-Item"@de .
 
 
