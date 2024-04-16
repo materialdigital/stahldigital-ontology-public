@@ -1,22 +1,22 @@
 
 
-<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://www.w3.org/2000/01/rdf-schema#label> "ForceMeasuringDevice"@en .
-<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://purl.org/dc/terms/description> "Type of the force measurement (force transducer, strain gauges, ....)"@en .
-<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://purl.org/dc/terms/description> "Genauigkeit der Prüfeinrichtungen: Die Kraftmesseinrichtung der Prüfmaschine muss mindestens der Klasse 1 nach ISO 7500-1 entsprechen."@de .
-<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://purl.org/dc/terms/description> "Die Kraftmesseinrichtung der Zugprüfmaschine muss im relevanten Bereich mindestens der Klasse 1 nach ISO 7500-1 entsprechen."@de .
-<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://purl.org/dc/terms/description> "Type of the force transducer"@en .
+<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://www.w3.org/2004/02/skos/core#preflabel> "ForceMeasuringDevice"@en .
 <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://www.w3.org/2004/02/skos/core#altlabel> "Kraftmesseinrichtung"@de .
 <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://www.w3.org/2004/02/skos/core#altlabel> "force-measuring system"@en .
 <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://www.w3.org/2004/02/skos/core#altlabel> "force-measuring device"@en .
 <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://www.w3.org/2004/02/skos/core#altlabel> "Kraftaufnehmer"@de .
-<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://www.w3.org/2004/02/skos/core#preflabel> "ForceMeasuringDevice"@en .
-<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Bulge Druck: Öldruckaufnehmer in der Kammer unterhalb der Probe, Tiefungskraft: Öldruckaufnehmer am Tiefungskolben" .
+<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://purl.org/dc/terms/description> "Type of the force measurement (force transducer, strain gauges, ....)"@en .
+<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://purl.org/dc/terms/description> "Genauigkeit der Prüfeinrichtungen: Die Kraftmesseinrichtung der Prüfmaschine muss mindestens der Klasse 1 nach ISO 7500-1 entsprechen."@de .
+<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://purl.org/dc/terms/description> "Die Kraftmesseinrichtung der Zugprüfmaschine muss im relevanten Bereich mindestens der Klasse 1 nach ISO 7500-1 entsprechen."@de .
+<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://purl.org/dc/terms/description> "Type of the force transducer"@en .
+<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://www.w3.org/2000/01/rdf-schema#label> "ForceMeasuringDevice"@en .
 <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 9"@de .
 <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 9"@en .
 <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, G.3.1.1"@de .
 <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, G.3.1.1"@en .
+<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Bulge Druck: Öldruckaufnehmer in der Kammer unterhalb der Probe, Tiefungskraft: Öldruckaufnehmer am Tiefungskolben" .
+<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 
 
