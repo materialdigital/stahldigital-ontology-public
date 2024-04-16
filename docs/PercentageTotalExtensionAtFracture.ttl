@@ -1,13 +1,13 @@
 
 
+<https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <http://www.w3.org/2000/01/rdf-schema#label> "PercentageTotalExtensionAtFracture"@en .
 <https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <http://purl.org/dc/terms/description> "gesamte Verlängerung (elastische plus plastische Verlängerung) der Extensometer-Messlänge beim Bruch, angegeben in Prozent, bezogen auf die Extensometer-Messlänge"@de .
 <https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <http://www.w3.org/2004/02/skos/core#altlabel> "percentage total extension at fracture"@en .
 <https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <http://www.w3.org/2004/02/skos/core#preflabel> "PercentageTotalExtensionAtFracture"@en .
-<https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.6.6"@en .
 <https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.6.6"@de .
-<https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <http://www.w3.org/2000/01/rdf-schema#label> "PercentageTotalExtensionAtFracture"@en .
 <https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <https://w3id.org/steel/ProcessOntology/hasSymbol> "At"@en .
 <https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "A_t"@en .
 <https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "%" .

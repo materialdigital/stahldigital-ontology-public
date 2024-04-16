@@ -1,29 +1,29 @@
 
 
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0°-S1L"@de .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasExampleData> "15.05" .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasExampleData> "14.98" .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#preflabel> "OriginalCrosssection"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalCrosssection"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://purl.org/dc/terms/description> "original cross-sectional area of the parallel length"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://purl.org/dc/terms/description> "original crosssection area of the parallel length"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#altlabel> "Anfangsquerschnitt S0"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#altlabel> "S0"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#altlabel> "S0"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#altlabel> "Anfangsquerschnitt So"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#altlabel> "Original cross section"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://purl.org/dc/terms/description> "original cross-sectional area of the parallel length"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://purl.org/dc/terms/description> "original crosssection area of the parallel length"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#preflabel> "OriginalCrosssection"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasExampleData> "15.05" .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasExampleData> "14.98" .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0°-S1L"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasSymbol> "S_{0}"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasSymbol> "S0"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "S_{0}"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm2" .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/OriginalWidth> .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/OriginalThickness> .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/ShearLength> .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Diameter> .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm2" .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "S_{0}"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasSymbol> "S_{0}"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasSymbol> "S0"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalCrosssection"@en .
 
 
