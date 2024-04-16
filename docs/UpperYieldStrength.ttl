@@ -1,13 +1,13 @@
 
 
+<https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <http://www.w3.org/2000/01/rdf-schema#label> "UpperYieldStrength"@en .
 <https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <http://purl.org/dc/terms/description> "höchste Spannung, bevor der erste Kraftabfall auftritt"@de .
 <https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <http://www.w3.org/2004/02/skos/core#altlabel> "upper yield strength"@en .
 <https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <http://www.w3.org/2004/02/skos/core#preflabel> "UpperYieldStrength"@en .
-<https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.10.2.1"@en .
 <https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.10.2.1"@de .
-<https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <http://www.w3.org/2000/01/rdf-schema#label> "UpperYieldStrength"@en .
 <https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <https://w3id.org/steel/ProcessOntology/hasSymbol> "ReH"@en .
 <https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "R_{eH}"@en .
 <https://w3id.org/steel/ProcessOntology/UpperYieldStrength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
