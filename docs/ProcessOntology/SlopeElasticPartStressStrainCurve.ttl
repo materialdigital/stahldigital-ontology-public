@@ -1,14 +1,14 @@
 
 
-<https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <http://www.w3.org/2000/01/rdf-schema#label> "SlopeElasticPartStressStrainCurve"@en .
 <https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <http://purl.org/dc/terms/description> "Slope of the elastic pasrt of the stress-strain curve: in the elastic pasrt of the stress-strain curve the value of the slope can closely agree with the value of the modulus of elasticity if optimal conditions are used (high resolution, double-sided averaging extensometers, proper alignment of the test piece, etc.)"@en .
 <https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <http://purl.org/dc/terms/description> "die Steigung des elastischen Teils der Spannungs-Dehnungs Kurve: die Steigung des elastischen Teils der Spannungs-Dehnungs-Kurve kann sehr nah mit dem Wert für das Elastizitätsmodul übereinstimmen, wenn optimale Bedingunge vorliegen (hohe Auflösung, doppelseitige Mittelung ders Extensometers, genaue Probenausrichtung, etc.)"@de .
 <https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <http://www.w3.org/2004/02/skos/core#altlabel> "slope of the elastic part of the stress-strain curve"@en .
 <https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <http://www.w3.org/2004/02/skos/core#preflabel> "SlopeElasticPartStressStrainCurve"@en .
+<https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "Authors"@de .
 <https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
+<https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <http://www.w3.org/2000/01/rdf-schema#label> "SlopeElasticPartStressStrainCurve"@en .
 <https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <https://w3id.org/steel/ProcessOntology/hasSymbol> "mE"@en .
 <https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "m_{E}"@en .
 <https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
