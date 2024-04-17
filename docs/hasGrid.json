@@ -13,16 +13,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasGrid",
-        "lang" : "en",
+        "value" : "has Grid",
         "type" : "literal"
         }
       
       ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasGrid",
-        "lang" : "en",
-        "type" : "literal"
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/Grid",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasGrid_Object",
+        "type" : "uri"
         }
       
       ]

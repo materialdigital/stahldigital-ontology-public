@@ -69,7 +69,7 @@
             <td>Failure strain curve/table or function
 GT.0.0: Load curve ID or table ID. As a load curve, it defines equivalent plastic strain to failure as a function of triaxiality. As a table, it defines for each Lode parameter value (between -1 and 1) a load curve ID giving the
 equivalent plastic strain to failure as a function of triaxiality for that Lode parameter value. With HISVN ≠ 0, a 3D table can be used, where failure strain is a function of the history variable (TABLE_3D), Lode parameter (TABLE), and triaxiality (CURVE). With HISVN = 0, a 3D table introduces thermal effects, that is, failure strain is a function of temperature (TABLE_3D), Lode parameter (TABLE), and triaxiality (CURVE).
-LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments triaxiality and Lode parameter: 𝑓 (𝜂, 𝐿).</td>
+LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments triaxiality and Lode parameter: ?? (??, ??).</td>
           </tr>
         
           <tr>
@@ -93,8 +93,8 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSourceEn</td>
-            <td>LS-DYNA_Manual_Volume_2</td>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>FailureStrain</td>
           </tr>
         
           <tr>
@@ -129,6 +129,16 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
             >type</a>
     </li>
     
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
 </ul>
 
 <h3>Resources linking here</h3>
@@ -138,7 +148,7 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasFailureStrain"
+            href=".//ProcessOntology/hasFailureStrain_Object"
             >hasFailureStrain</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"

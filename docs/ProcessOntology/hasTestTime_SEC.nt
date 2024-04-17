@@ -1,0 +1,7 @@
+<https://w3id.org/steel/ProcessOntology/hasTestTime_SEC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://w3id.org/steel/ProcessOntology/hasTestTime_SEC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/steel/ProcessOntology/hasTestTime_SEC> <http://www.w3.org/2000/01/rdf-schema#label> "has TestTime" .
+<https://w3id.org/steel/ProcessOntology/hasTestTime_SEC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/TestTime> .
+<https://w3id.org/steel/ProcessOntology/hasTestTime_SEC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/hasTestTime_Object> .
+<https://w3id.org/steel/ProcessOntology/hasTestTime_SEC> <https://w3id.org/steel/ProcessOntology/hasUnit> <http://qudt.org/vocab/unit/SEC> .
+<https://w3id.org/steel/ProcessOntology/hasTestTime_SEC> <https://w3id.org/steel/ProcessOntology/hasUnitLabel> "s" .

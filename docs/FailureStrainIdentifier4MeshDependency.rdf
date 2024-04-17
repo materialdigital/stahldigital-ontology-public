@@ -10,7 +10,7 @@
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">FailureStrainIdentifier4MeshDependency</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FailureStrainIdentifier4MeshDependency">
-    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">https://material-digital.de/pmdco/ValueObject</ns0:subClassOf>
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FailureStrainIdentifier4MeshDependency">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">The load curve ID defines plastic failure strain as a function of element size. The table ID defines for each triaxiality a load curve ID giving the plastic failure strain versus element size for that triaxiality. If a three dimensional table ID is referred, plastic failure strain can be a function of Lode parameter (TABLE_
@@ -29,7 +29,7 @@
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">LS-DYNA_Manual_Volume_2</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FailureStrainIdentifier4MeshDependency">
-    <ns0:hasLabelSourceEn xmlns:ns0="https://w3id.org/steel/ProcessOntology/">LS-DYNA_Manual_Volume_2</ns0:hasLabelSourceEn>
+    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">FailureStrainIdentifier4MeshDependency</ns0:hasShortId>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FailureStrainIdentifier4MeshDependency">
     <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">-</ns0:hasTypicalUnitLabel>

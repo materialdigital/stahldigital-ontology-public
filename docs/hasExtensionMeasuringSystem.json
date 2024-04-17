@@ -13,16 +13,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasExtensionMeasuringSystem",
-        "lang" : "en",
+        "value" : "has ExtensionMeasuringSystem",
         "type" : "literal"
         }
       
       ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasExtensionMeasuringSystem",
-        "lang" : "en",
-        "type" : "literal"
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasExtensionMeasuringSystem_Object",
+        "type" : "uri"
         }
       
       ]

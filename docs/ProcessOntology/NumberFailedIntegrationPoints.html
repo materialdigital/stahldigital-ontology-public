@@ -92,8 +92,13 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSourceEn</td>
-            <td>LS-DYNA_Manual_Volume_2</td>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>NumberFailedIntegrationPoints</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>https://qudt.org/vocab/unit/UNITLESS</td>
           </tr>
         
           <tr>
@@ -128,6 +133,26 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
             >type</a>
     </li>
     
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/https/qudt.org/vocab/unit/UNITLESS"
+            >UNITLESS</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
+    </li>
+    
 </ul>
 
 <h3>Resources linking here</h3>
@@ -136,8 +161,18 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasNumberFailedIntegrationPoints_UNITLESS"
+            >has NumberFailedIntegrationPoints</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasNumberFailedIntegrationPoints"
+            href=".//ProcessOntology/hasNumberFailedIntegrationPoints_Object"
             >hasNumberFailedIntegrationPoints</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"

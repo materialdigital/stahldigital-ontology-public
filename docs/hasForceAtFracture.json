@@ -13,16 +13,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasForceAtFracture",
-        "lang" : "en",
+        "value" : "has ForceAtFracture",
         "type" : "literal"
         }
       
       ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasForceAtFracture",
-        "lang" : "en",
-        "type" : "literal"
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/ForceAtFracture",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasForceAtFracture_Object",
+        "type" : "uri"
         }
       
       ]

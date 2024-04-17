@@ -13,16 +13,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasTestingRate",
-        "lang" : "en",
+        "value" : "has TestingRate",
         "type" : "literal"
         }
       
       ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasTestingRate",
-        "lang" : "en",
-        "type" : "literal"
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/TestingRate",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasTestingRate_Object",
+        "type" : "uri"
         }
       
       ]

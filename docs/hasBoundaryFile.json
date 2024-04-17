@@ -13,16 +13,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasBoundaryFile",
-        "lang" : "en",
+        "value" : "has BoundaryFile",
         "type" : "literal"
         }
       
       ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasBoundaryFile",
-        "lang" : "en",
-        "type" : "literal"
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/BoundaryFile",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasBoundaryFile_Object",
+        "type" : "uri"
         }
       
       ]

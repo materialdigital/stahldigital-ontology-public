@@ -1,0 +1,23 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/J-Per-Gm-K" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://qudt.org/schema/qudt/Unit",
+        "type" : "uri"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
+        "value" : "J-Per-Gm-K",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "J/(g*K)",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

@@ -4,6 +4,7 @@
 <https://w3id.org/steel/ProcessOntology/Steel> <http://www.w3.org/2000/01/rdf-schema#label> "Steel"@en .
 <https://w3id.org/steel/ProcessOntology/Steel> <http://www.w3.org/2000/01/rdf-schema#label> "steel"@en .
 <https://w3id.org/steel/ProcessOntology/Steel> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/Grade> .
+<https://w3id.org/steel/ProcessOntology/Steel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/Steel> <http://www.w3.org/2004/02/skos/core#altlabel> "Stahlsorte"@de .
 <https://w3id.org/steel/ProcessOntology/Steel> <http://www.w3.org/2004/02/skos/core#preflabel> "Stahl"@de .
 <https://w3id.org/steel/ProcessOntology/Steel> <http://www.w3.org/2004/02/skos/core#preflabel> "Steel"@en .
@@ -11,3 +12,4 @@
 <https://w3id.org/steel/ProcessOntology/Steel> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/Grade> .
 <https://w3id.org/steel/ProcessOntology/Steel> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Dualphasenstahl" .
 <https://w3id.org/steel/ProcessOntology/Steel> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN 10346_2015"@de .
+<https://w3id.org/steel/ProcessOntology/Steel> <https://w3id.org/steel/ProcessOntology/hasShortId> "Steel" .

@@ -60,8 +60,8 @@
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Label ID</td>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
           </tr>
         
           <tr>
@@ -72,6 +72,11 @@
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
             <td>Proben-ID</td>
+          </tr>
+        
+          <tr>
+            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
+            <td>Label ID</td>
           </tr>
         
           <tr>
@@ -90,8 +95,8 @@
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>YS1-FzR4-S1Q</td>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>ExperimentIdentifier</td>
           </tr>
         
         </table>
@@ -121,6 +126,16 @@
             >type</a>
     </li>
     
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
 </ul>
 
 <h3>Resources linking here</h3>
@@ -129,8 +144,18 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasExperimentIdentifier"
+            >has ExperimentIdentifier</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasExperimentIdentifierObject"
+            href=".//ProcessOntology/hasExperimentIdentifier_Object"
             >hasExperimentIdentifier</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"

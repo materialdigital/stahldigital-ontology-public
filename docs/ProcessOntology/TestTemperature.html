@@ -60,6 +60,11 @@
           </tr>
         
           <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
             <td>http://purl.org/dc/terms/description</td>
             <td>Versuche unter kontrollierten Bedingungen müssen bei einer Temperatur von (23 ± 5) °C durchgeführt werden.</td>
           </tr>
@@ -116,27 +121,7 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>YS1-FzR4-S1Q</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>YS1-FzR4-S1Q</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
             <td>DIN EN ISO 12004-2: 2021_07, 13</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>DIN EN ISO 6892-1, K.4</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>YS1-Sz0°-S1L</td>
           </tr>
         
           <tr>
@@ -165,6 +150,16 @@
           </tr>
         
           <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
+            <td>DIN EN ISO 6892-1, K.4</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>TestTemperature</td>
+          </tr>
+        
+          <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
             <td>T</td>
           </tr>
@@ -172,6 +167,11 @@
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbolLatex</td>
             <td>T</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/DEG_C</td>
           </tr>
         
           <tr>
@@ -206,6 +206,26 @@
             >type</a>
     </li>
     
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/DEG_C"
+            >DEG_C</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
+    </li>
+    
 </ul>
 
 <h3>Resources linking here</h3>
@@ -215,11 +235,21 @@
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasTestTemperatureObject"
+            href=".//ProcessOntology/hasTestTemperature_Object"
             >hasTestTemperature</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
             >range</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasTestTemperature_DEG_C"
+            >has TestTemperature</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
     </li>
     
 </ul>

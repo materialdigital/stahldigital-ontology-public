@@ -43,6 +43,12 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+        "value" : "https://material-digital.de/pmdco/ValueObject",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Geschw.",
         "lang" : "de",
@@ -99,6 +105,12 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
+        "value" : "StressRate",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
         "value" : "R",
         "lang" : "en",
@@ -113,13 +125,13 @@
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
-        "value" : "dSig/dt",
+        "value" : "\\dot{R}",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "dot{R}",
+        "value" : "dSig/dt",
         "lang" : "en",
         "type" : "literal"
         }

@@ -13,22 +13,25 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasMaximumForce_N",
-        "lang" : "en",
+        "value" : "has MaximumForce",
         "type" : "literal"
         }
       
       ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/hasMaximumForce",
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/MaximumForce",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasMaximumForce_Object",
         "type" : "uri"
         }
       
       ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasMaximumForce_N",
-        "lang" : "en",
-        "type" : "literal"
+    "https://w3id.org/steel/ProcessOntology/hasUnit" : [ {
+        "value" : "http://qudt.org/vocab/unit/N",
+        "type" : "uri"
         }
       
       ],

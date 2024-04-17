@@ -3,6 +3,7 @@
 <https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2000/01/rdf-schema#label> "ProjectName"@en .
+<https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2004/02/skos/core#altlabel> "PROJECT_NAME"@en .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2004/02/skos/core#altlabel> "Project Name"@en .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <http://www.w3.org/2004/02/skos/core#altlabel> "Project name"@en .
@@ -23,3 +24,4 @@
 <https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "deepl translator"@en .
+<https://w3id.org/steel/ProcessOntology/ProjectName> <https://w3id.org/steel/ProcessOntology/hasShortId> "ProjectName" .

@@ -2,8 +2,20 @@
 {
   "https://w3id.org/steel/ProcessOntology/TestPieceGeometry" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "The specimen geometry including nominal dimensions",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "The type of the specimen.",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "die Probengeometrie incl. Sollabmessungen",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -27,7 +39,18 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/SampleType",
+        "type" : "uri"
+        }
+      ,
+      {
         "value" : "https://w3id.org/steel/ProcessOntology/TestStandard",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+        "value" : "https://material-digital.de/pmdco/ValueObject",
         "type" : "uri"
         }
       
@@ -77,6 +100,11 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#related" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/SampleType",
+        "type" : "uri"
+        }
+      ,
+      {
         "value" : "https://w3id.org/steel/ProcessOntology/TestStandard",
         "type" : "uri"
         }
@@ -106,16 +134,6 @@
         "value" : "Nakajima Specimen",
         "type" : "literal"
         }
-      ,
-      {
-        "value" : "Notched Flat tensile Specimen",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Sz0\u00B0",
-        "type" : "literal"
-        }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
@@ -127,6 +145,12 @@
       {
         "value" : "AFZ1-Fz-S1Q.xlsx",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "AFZ1-Fz-S1Q.xlsx",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -167,26 +191,14 @@
         }
       ,
       {
-        "value" : "YS1-FzR4-S1Q",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "YS1-FzR4-S1Q",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "YS1-Sz0\u00B0-S1L",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "deepl translator",
         "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
+        "value" : "TestPieceGeometry",
         "type" : "literal"
         }
       

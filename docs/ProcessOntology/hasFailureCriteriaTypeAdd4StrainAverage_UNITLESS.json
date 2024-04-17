@@ -1,0 +1,45 @@
+
+{
+  "https://w3id.org/steel/ProcessOntology/hasFailureCriteriaTypeAdd4StrainAverage_UNITLESS" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "has FailureCriteriaTypeAdd4StrainAverage",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/FailureCriteriaTypeAdd4StrainAverage",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasFailureCriteriaTypeAdd4StrainAverage_Object",
+        "type" : "uri"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnit" : [ {
+        "value" : "https://qudt.org/vocab/unit/UNITLESS",
+        "type" : "uri"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {
+        "value" : "1",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

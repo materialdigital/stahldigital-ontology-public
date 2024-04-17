@@ -60,6 +60,11 @@
           </tr>
         
           <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
             <td>http://purl.org/dc/terms/description</td>
             <td>zusätzliches Ergebnis der linearen Regression, welches den Unterschied der Spannungswerte von der Ausgleichsgeraden für die gegebenen Extensometer-Dehnungswerte in dem untersuchten Bereich beschreibt</td>
           </tr>
@@ -85,6 +90,11 @@
           </tr>
         
           <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>StandardDeviationOfTheSlope</td>
+          </tr>
+        
+          <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
             <td>Sm</td>
           </tr>
@@ -92,6 +102,11 @@
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbolLatex</td>
             <td>S_m</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/MegaPA</td>
           </tr>
         
           <tr>
@@ -126,6 +141,26 @@
             >type</a>
     </li>
     
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/MegaPA"
+            >MegaPA</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
+    </li>
+    
 </ul>
 
 <h3>Resources linking here</h3>
@@ -134,8 +169,18 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasStandardDeviationOfTheSlope_MegaPA"
+            >has StandardDeviationOfTheSlope</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasStandardDeviationOfTheSlopeObject"
+            href=".//ProcessOntology/hasStandardDeviationOfTheSlope_Object"
             >hasStandardDeviationOfTheSlope</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"

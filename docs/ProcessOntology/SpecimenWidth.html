@@ -60,6 +60,11 @@
           </tr>
         
           <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
             <td>http://purl.org/dc/terms/description</td>
             <td>verbleibende Breite des Schnittteils</td>
           </tr>
@@ -91,22 +96,27 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>DIN EN ISO 12004-2: 2021_07, 12</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
             <td>DIN EN ISO 12004-2: 2021_07, 11</td>
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
-            <td>b</td>
+            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
+            <td>DIN EN ISO 12004-2: 2021_07, 12</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>SpecimenWidth</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
             <td>B</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
+            <td>b</td>
           </tr>
         
           <tr>
@@ -117,6 +127,11 @@
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbolLatex</td>
             <td>B</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/MilliM</td>
           </tr>
         
           <tr>
@@ -151,6 +166,26 @@
             >type</a>
     </li>
     
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/MilliM"
+            >MilliM</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
+    </li>
+    
 </ul>
 
 <h3>Resources linking here</h3>
@@ -159,8 +194,18 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasSpecimenWidth_MilliM"
+            >has SpecimenWidth</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasSpecimenWidthObject"
+            href=".//ProcessOntology/hasSpecimenWidth_Object"
             >hasSpecimenWidth</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"

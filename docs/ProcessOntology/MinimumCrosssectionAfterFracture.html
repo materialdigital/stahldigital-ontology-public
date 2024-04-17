@@ -60,18 +60,13 @@
           </tr>
         
           <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
             <td>http://purl.org/dc/terms/description</td>
             <td>minimum cross-sectional area after fracture</td>
-          </tr>
-        
-          <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Bruchquerschnitt Su</td>
-          </tr>
-        
-          <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>SU</td>
           </tr>
         
           <tr>
@@ -81,7 +76,7 @@
         
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Su</td>
+            <td>Bruchquerschnitt Su</td>
           </tr>
         
           <tr>
@@ -100,8 +95,8 @@
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>YS1-Sz0°-S1L</td>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>MinimumCrosssectionAfterFracture</td>
           </tr>
         
           <tr>
@@ -110,13 +105,8 @@
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
-            <td>Su</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasSymbolLatex</td>
-            <td>S_{u}</td>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/MilliM2</td>
           </tr>
         
           <tr>
@@ -136,22 +126,12 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/isBasedOn</td>
-            <td>https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture1</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/isBasedOn</td>
             <td>https://w3id.org/steel/ProcessOntology/WidthAfterFracture1</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/isBasedOn</td>
             <td>https://w3id.org/steel/ProcessOntology/DiameterAfterFracture1</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/isBasedOn</td>
-            <td>https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture2</td>
           </tr>
         
           <tr>
@@ -193,6 +173,26 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/MilliM2"
+            >MilliM2</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
+    </li>
+    
+    <li>
+        <a
             title="https://w3id.org/steel/ProcessOntology/isBasedOn"
             href=".//ProcessOntology/DiameterAfterFracture2"
             >DiameterAfterFracture2</a> via
@@ -214,16 +214,6 @@
     <li>
         <a
             title="https://w3id.org/steel/ProcessOntology/isBasedOn"
-            href=".//ProcessOntology/ShearLengthAfterFracture1"
-            >ShearLengthAfterFracture1</a> via
-        <a
-            href=".//ProcessOntology/isBasedOn"
-            >isBasedOn</a>
-    </li>
-    
-    <li>
-        <a
-            title="https://w3id.org/steel/ProcessOntology/isBasedOn"
             href=".//ProcessOntology/WidthAfterFracture1"
             >WidthAfterFracture1</a> via
         <a
@@ -236,16 +226,6 @@
             title="https://w3id.org/steel/ProcessOntology/isBasedOn"
             href=".//ProcessOntology/DiameterAfterFracture1"
             >DiameterAfterFracture1</a> via
-        <a
-            href=".//ProcessOntology/isBasedOn"
-            >isBasedOn</a>
-    </li>
-    
-    <li>
-        <a
-            title="https://w3id.org/steel/ProcessOntology/isBasedOn"
-            href=".//ProcessOntology/ShearLengthAfterFracture2"
-            >ShearLengthAfterFracture2</a> via
         <a
             href=".//ProcessOntology/isBasedOn"
             >isBasedOn</a>
@@ -289,8 +269,18 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasMinimumCrosssectionAfterFracture_MilliM2"
+            >has MinimumCrosssectionAfterFracture</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasMinimumCrosssectionAfterFractureObject"
+            href=".//ProcessOntology/hasMinimumCrosssectionAfterFracture_Object"
             >hasMinimumCrosssectionAfterFracture</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"

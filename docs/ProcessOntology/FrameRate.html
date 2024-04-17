@@ -60,6 +60,11 @@
           </tr>
         
           <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
             <td>http://purl.org/dc/terms/description</td>
             <td>sampling rate of the strain measuring system (e.g. high speed video recording)</td>
           </tr>
@@ -96,12 +101,22 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>AFZ1-NZ50-25-D1Q</td>
+            <td>YS1-Fz-D1Q</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>YS1-Fz-D1Q</td>
+            <td>AFZ1-NZ50-25-D1Q</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>FrameRate</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/PER-SEC</td>
           </tr>
         
           <tr>
@@ -136,6 +151,26 @@
             >type</a>
     </li>
     
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/PER-SEC"
+            >PER-SEC</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
+    </li>
+    
 </ul>
 
 <h3>Resources linking here</h3>
@@ -145,11 +180,21 @@
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasFrameRateObject"
+            href=".//ProcessOntology/hasFrameRate_Object"
             >hasFrameRate</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
             >range</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasFrameRate_PER-SEC"
+            >has FrameRate</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
     </li>
     
 </ul>

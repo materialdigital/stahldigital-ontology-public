@@ -1,6 +1,7 @@
 
 
 <https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> .
 <https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2000/01/rdf-schema#comment> "Stress rate, e.g. referenced by tensile tests"@en .
 <https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2000/01/rdf-schema#label> "Mega Pascal per Second"@en .
 <https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2000/01/rdf-schema#label> "Mega Pascal pro Sekunde"@de .
@@ -8,5 +9,7 @@
 <https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2004/02/skos/core#preflabel> "Mega Pascal per Second"@en .
 <https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2004/02/skos/core#preflabel> "Mega Pascal pro Sekunde"@de .
 <https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <http://www.w3.org/2004/02/skos/core#related> <http://qudt.org/vocab/unit/MegaPA> .
+<https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <https://w3id.org/steel/ProcessOntology/hasShortId> "MegaPA-PER-SEC" .
+<https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC> <https://w3id.org/steel/ProcessOntology/hasUnitLabel> "MPa/s" .
 
 

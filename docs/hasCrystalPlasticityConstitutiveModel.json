@@ -13,16 +13,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasCrystalPlasticityConstitutiveModel",
-        "lang" : "en",
+        "value" : "has CrystalPlasticityConstitutiveModel",
         "type" : "literal"
         }
       
       ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasCrystalPlasticityConstitutiveModel",
-        "lang" : "en",
-        "type" : "literal"
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/CrystalPlasticityConstitutiveModel",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel_Object",
+        "type" : "uri"
         }
       
       ]

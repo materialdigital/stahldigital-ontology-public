@@ -19,6 +19,12 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+        "value" : "https://material-digital.de/pmdco/ValueObject",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "LABELS_ID",
         "lang" : "en",
@@ -56,10 +62,10 @@
         "lang" : "de",
         "type" : "literal"
         }
-      ,
-      {
-        "value" : "YS1-FzR4-S1Q",
-        "lang" : "en",
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
+        "value" : "ExperimentIdentifier",
         "type" : "literal"
         }
       

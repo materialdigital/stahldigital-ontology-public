@@ -65,6 +65,11 @@
           </tr>
         
           <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
             <td>http://purl.org/dc/terms/description</td>
             <td>Maximalkraft</td>
           </tr>
@@ -81,22 +86,17 @@
         
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Höchstzugkraft Fm</td>
-          </tr>
-        
-          <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
             <td>Fm</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Maximalkraft</td>
+            <td>maximum force</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>maximum force</td>
+            <td>Maximalkraft</td>
           </tr>
         
           <tr>
@@ -111,32 +111,12 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasExampleData</td>
-            <td>7690</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasExampleData</td>
             <td>500 kN</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasExampleData</td>
             <td>7008</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>K-Item</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>YS1-FzR4-S1Q</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>YS1-Sz0°-S1L</td>
           </tr>
         
           <tr>
@@ -155,6 +135,16 @@
           </tr>
         
           <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
+            <td>K-Item</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>MaximumForce</td>
+          </tr>
+        
+          <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
             <td>Fm</td>
           </tr>
@@ -167,6 +157,16 @@
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbolLatex</td>
             <td>Fm</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/N</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/KiloN</td>
           </tr>
         
           <tr>
@@ -223,12 +223,42 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2004/02/skos/core#related"
             href=".//ProcessOntology/MeasuringRange"
             >MeasuringRange</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2004/02/skos/core#related"
             >related</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/N"
+            >N</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/KiloN"
+            >KiloN</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
     </li>
     
     <li>
@@ -249,8 +279,28 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasMaximumForce_KiloN"
+            >has MaximumForce</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasMaximumForce_N"
+            >has MaximumForce</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasMaximumForceObject"
+            href=".//ProcessOntology/hasMaximumForce_Object"
             >hasMaximumForce</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"

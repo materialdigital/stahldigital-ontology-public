@@ -80,6 +80,11 @@
           </tr>
         
           <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
             <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
             <td>Poisson</td>
           </tr>
@@ -91,12 +96,7 @@
         
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#related</td>
-            <td>https://w3id.org/steel/ProcessOntology/TrueWidthStrain</td>
-          </tr>
-        
-          <tr>
-            <td>http://www.w3.org/2004/02/skos/core#related</td>
-            <td>https://w3id.org/steel/ProcessOntology/ModulusOfElasticity</td>
+            <td>https://w3id.org/steel/ProcessOntology/TrueStrain</td>
           </tr>
         
           <tr>
@@ -106,12 +106,22 @@
         
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#related</td>
-            <td>https://w3id.org/steel/ProcessOntology/TrueStrain</td>
+            <td>https://w3id.org/steel/ProcessOntology/ModulusOfElasticity</td>
+          </tr>
+        
+          <tr>
+            <td>http://www.w3.org/2004/02/skos/core#related</td>
+            <td>https://w3id.org/steel/ProcessOntology/TrueWidthStrain</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
             <td>AFZ1-Fz-S1Q.xlsx</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>PoissonsRatio</td>
           </tr>
         
           <tr>
@@ -122,6 +132,11 @@
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbolLatex</td>
             <td>nue</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/UNITLESS</td>
           </tr>
         
           <tr>
@@ -198,19 +213,19 @@
     
     <li>
         <a
-            title="http://www.w3.org/2004/02/skos/core#related"
-            href=".//ProcessOntology/TrueWidthStrain"
-            >TrueWidthStrain</a> via
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
         <a
-            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#related"
-            >related</a>
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
     </li>
     
     <li>
         <a
             title="http://www.w3.org/2004/02/skos/core#related"
-            href=".//ProcessOntology/ModulusOfElasticity"
-            >ModulusOfElasticity</a> via
+            href=".//ProcessOntology/TrueStrain"
+            >True Strain</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2004/02/skos/core#related"
             >related</a>
@@ -229,11 +244,31 @@
     <li>
         <a
             title="http://www.w3.org/2004/02/skos/core#related"
-            href=".//ProcessOntology/TrueStrain"
-            >True Strain</a> via
+            href=".//ProcessOntology/ModulusOfElasticity"
+            >ModulusOfElasticity</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2004/02/skos/core#related"
             >related</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2004/02/skos/core#related"
+            href=".//ProcessOntology/TrueWidthStrain"
+            >TrueWidthStrain</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#related"
+            >related</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/UNITLESS"
+            >UNITLESS</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
     </li>
     
 </ul>
@@ -245,11 +280,21 @@
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasPoissonsRatioObject"
+            href=".//ProcessOntology/hasPoissonsRatio_Object"
             >hasPoissonsRatio</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
             >range</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasPoissonsRatio_UNITLESS"
+            >has PoissonsRatio</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
     </li>
     
 </ul>

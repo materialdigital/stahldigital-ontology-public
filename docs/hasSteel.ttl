@@ -1,8 +1,9 @@
 
 
-<https://w3id.org/steel/ProcessOntology/hasSteel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasSteel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://w3id.org/steel/ProcessOntology/hasSteel> <http://www.w3.org/2000/01/rdf-schema#label> "hasSteel"@en .
-<https://w3id.org/steel/ProcessOntology/hasSteel> <http://www.w3.org/2004/02/skos/core#preflabel> "hasSteel"@en .
+<https://w3id.org/steel/ProcessOntology/hasSteel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/steel/ProcessOntology/hasSteel> <http://www.w3.org/2000/01/rdf-schema#label> "has Steel" .
+<https://w3id.org/steel/ProcessOntology/hasSteel> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/Steel> .
+<https://w3id.org/steel/ProcessOntology/hasSteel> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/hasSteel_Object> .
 
 

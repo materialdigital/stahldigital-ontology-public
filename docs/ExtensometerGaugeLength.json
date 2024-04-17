@@ -55,14 +55,14 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+        "value" : "https://material-digital.de/pmdco/ValueObject",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Extensometer gauge length ",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "L0",
         "lang" : "en",
         "type" : "literal"
         }
@@ -150,22 +150,10 @@
         "lang" : "de",
         "type" : "literal"
         }
-      ,
-      {
-        "value" : "YS1-FzR4-S1Q",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "YS1-FzR4-S1Q",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "YS1-Sz0\u00B0-S1L",
-        "lang" : "de",
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
+        "value" : "ExtensometerGaugeLength",
         "type" : "literal"
         }
       
@@ -187,6 +175,12 @@
         "value" : "L_e",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnit" : [ {
+        "value" : "http://qudt.org/vocab/unit/MilliM",
+        "type" : "uri"
         }
       
       ],

@@ -65,6 +65,11 @@
           </tr>
         
           <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
             <td>http://purl.org/dc/terms/description</td>
             <td>Displacement of the actuator</td>
           </tr>
@@ -72,11 +77,6 @@
           <tr>
             <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
             <td>Machine Displacement</td>
-          </tr>
-        
-          <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Maschine</td>
           </tr>
         
           <tr>
@@ -96,22 +96,22 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
+            <td>AFZ1-ST-D1</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
             <td>AFZ1-Fz-S1Q.xlsx</td>
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>YS1-Sz0°-S1L</td>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>CrossheadDisplacement</td>
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>YS1-FzR4-S1Q</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>AFZ1-ST-D1</td>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/MilliM</td>
           </tr>
         
           <tr>
@@ -158,12 +158,32 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2004/02/skos/core#related"
             href=".//ProcessOntology/Machine"
             >Machine</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2004/02/skos/core#related"
             >related</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/MilliM"
+            >MilliM</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
     </li>
     
 </ul>
@@ -174,8 +194,18 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasCrossheadDisplacement_MilliM"
+            >has CrossheadDisplacement</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasCrossheadDisplacementObject"
+            href=".//ProcessOntology/hasCrossheadDisplacement_Object"
             >hasCrossheadDisplacement</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"

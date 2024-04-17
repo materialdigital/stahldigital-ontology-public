@@ -46,17 +46,22 @@
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2002/07/owl#Class</td>
+            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
+            <td>http://www.w3.org/2002/07/owl#Class</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/2000/01/rdf-schema#label</td>
             <td>OriginalCrossSection</td>
+          </tr>
+        
+          <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
           </tr>
         
           <tr>
@@ -96,12 +101,12 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>DIN EN ISO 6892-1, Tabelle 1</td>
+            <td>ISO 26203-2, 2011, 4</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>ISO 26203-2, 2011, 4</td>
+            <td>DIN EN ISO 6892-1, Tabelle 1</td>
           </tr>
         
           <tr>
@@ -112,6 +117,11 @@
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
             <td>AFZ1-Fz-S1Q.xlsx</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>OriginalCrossSection</td>
           </tr>
         
           <tr>
@@ -132,6 +142,11 @@
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbolLatex</td>
             <td>S_{o}</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/MilliM2</td>
           </tr>
         
           <tr>
@@ -164,6 +179,16 @@
     <li>
         <a
             title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
+            >Concept</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            >type</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
             href=".//rdfsites/http/www.w3.org/2002/07/owl#Class"
             >Class</a> via
         <a
@@ -173,12 +198,22 @@
     
     <li>
         <a
-            title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
-            >Concept</a> via
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
         <a
-            href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            >type</a>
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/MilliM2"
+            >MilliM2</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
     </li>
     
     <li>
@@ -219,8 +254,18 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasOriginalCrossSection_MilliM2"
+            >has OriginalCrossSection</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasOriginalCrossSectionObject"
+            href=".//ProcessOntology/hasOriginalCrossSection_Object"
             >hasOriginalCrossSection</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"

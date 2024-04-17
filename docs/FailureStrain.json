@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/FailureStrain" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Failure strain curve/table or function\nGT.0.0: Load curve ID or table ID. As a load curve, it defines equivalent plastic strain to failure as a function of triaxiality. As a table, it defines for each Lode parameter value (between -1 and 1) a load curve ID giving the\nequivalent plastic strain to failure as a function of triaxiality for that Lode parameter value. With HISVN \u2260 0, a 3D table can be used, where failure strain is a function of the history variable (TABLE_3D), Lode parameter (TABLE), and triaxiality (CURVE). With HISVN = 0, a 3D table introduces thermal effects, that is, failure strain is a function of temperature (TABLE_3D), Lode parameter (TABLE), and triaxiality (CURVE).\nLT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments triaxiality and Lode parameter: \U0001D453 (\U0001D702, \U0001D43F).",
+        "value" : "Failure strain curve/table or function\nGT.0.0: Load curve ID or table ID. As a load curve, it defines equivalent plastic strain to failure as a function of triaxiality. As a table, it defines for each Lode parameter value (between -1 and 1) a load curve ID giving the\nequivalent plastic strain to failure as a function of triaxiality for that Lode parameter value. With HISVN \u2260 0, a 3D table can be used, where failure strain is a function of the history variable (TABLE_3D), Lode parameter (TABLE), and triaxiality (CURVE). With HISVN = 0, a 3D table introduces thermal effects, that is, failure strain is a function of temperature (TABLE_3D), Lode parameter (TABLE), and triaxiality (CURVE).\nLT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments triaxiality and Lode parameter: ?? (??, ??).",
         "lang" : "en",
         "type" : "literal"
         }
@@ -28,7 +28,7 @@
       ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
         "value" : "https://material-digital.de/pmdco/ValueObject",
-        "type" : "literal"
+        "type" : "uri"
         }
       
       ],
@@ -59,8 +59,8 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSourceEn" : [ {
-        "value" : "LS-DYNA_Manual_Volume_2",
+    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
+        "value" : "FailureStrain",
         "type" : "literal"
         }
       

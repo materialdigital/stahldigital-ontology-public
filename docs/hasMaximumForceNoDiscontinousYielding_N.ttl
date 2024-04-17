@@ -1,10 +1,11 @@
 
 
-<https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_N> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_N> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_N> <http://www.w3.org/2000/01/rdf-schema#label> "hasMaximumForceNoDiscontinousYielding_N"@en .
-<https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_N> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding> .
-<https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_N> <http://www.w3.org/2004/02/skos/core#preflabel> "hasMaximumForceNoDiscontinousYielding_N"@en .
+<https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_N> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_N> <http://www.w3.org/2000/01/rdf-schema#label> "has MaximumForceNoDiscontinousYielding" .
+<https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_N> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/MaximumForceNoDiscontinousYielding> .
+<https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_N> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_Object> .
+<https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_N> <https://w3id.org/steel/ProcessOntology/hasUnit> <http://qudt.org/vocab/unit/N> .
 <https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_N> <https://w3id.org/steel/ProcessOntology/hasUnitLabel> "N" .
 
 

@@ -2,6 +2,7 @@
 <https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <http://www.w3.org/2000/01/rdf-schema#label> "TrueThicknessStrain"@en .
+<https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <http://www.w3.org/2004/02/skos/core#altlabel> "Dickenform\u00E4nderung"@de .
 <https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <http://www.w3.org/2004/02/skos/core#altlabel> "True thickness strain"@en .
 <https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <http://www.w3.org/2004/02/skos/core#altlabel> "true thickness strain"@en .
@@ -10,6 +11,7 @@
 <https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 12004-2: 2021_07, 8"@en .
 <https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 4"@de .
 <https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 4"@en .
+<https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <https://w3id.org/steel/ProcessOntology/hasShortId> "TrueThicknessStrain" .
 <https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <https://w3id.org/steel/ProcessOntology/hasSymbol> "\u03B5_3"@en .
+<https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "\\epsilon_3"@en .
 <https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "\u03B5_3"@en .
-<https://w3id.org/steel/ProcessOntology/TrueThicknessStrain> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "epsilon_3"@en .

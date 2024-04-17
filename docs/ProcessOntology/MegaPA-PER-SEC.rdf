@@ -4,6 +4,9 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
+    <rdf:type rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
     <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Stress rate, e.g. referenced by tensile tests</ns0:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
@@ -23,5 +26,11 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
     <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://qudt.org/vocab/unit/MegaPA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
+    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">MegaPA-PER-SEC</ns0:hasShortId>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MegaPA-PER-SEC">
+    <ns0:hasUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">MPa/s</ns0:hasUnitLabel>
   </rdf:Description>
 </rdf:RDF>

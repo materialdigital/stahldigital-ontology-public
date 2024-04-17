@@ -21,7 +21,7 @@
   <div class="row">
       <main role="main" class="container col-sm-9 col-md-10 col-lg-8 col-xl-7">
         <div class="jumbotron">
-  <h1 class="display-3">software</h1>
+  <h1 class="display-3">Software</h1>
   <p class="lead subtitle"></p>
   <p class="lead"></p>
   <hr class="my-4">
@@ -61,12 +61,17 @@
         
           <tr>
             <td>http://www.w3.org/2000/01/rdf-schema#label</td>
-            <td>software</td>
+            <td>Software</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/2000/01/rdf-schema#label</td>
-            <td>Software</td>
+            <td>software</td>
+          </tr>
+        
+          <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
           </tr>
         
           <tr>
@@ -109,6 +114,11 @@
             <td>DIN EN ISO 16808:2022-08, 12</td>
           </tr>
         
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>Software</td>
+          </tr>
+        
         </table>
 
         
@@ -136,6 +146,16 @@
             >type</a>
     </li>
     
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
 </ul>
 
 <h3>Resources linking here</h3>
@@ -145,11 +165,21 @@
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasSoftwareObject"
+            href=".//ProcessOntology/hasSoftware_Object"
             >hasSoftware</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
             >range</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasSoftware"
+            >has Software</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
     </li>
     
     <li>

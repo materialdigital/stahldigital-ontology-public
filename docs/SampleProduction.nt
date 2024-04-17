@@ -1,0 +1,13 @@
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <http://purl.org/dc/terms/description> "der Herstellungsprozess der Probe"@de .
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <http://purl.org/dc/terms/description> "the production type for the manufactoring of the sample"@en .
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <http://www.w3.org/2000/01/rdf-schema#label> "SampleProduction"@en .
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <http://www.w3.org/2004/02/skos/core#altlabel> "Probenherstellung"@de .
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <http://www.w3.org/2004/02/skos/core#altlabel> "sample production"@en .
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <http://www.w3.org/2004/02/skos/core#preflabel> "SampleProduction"@en .
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Wasserstrahlschneiden" .
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "K-Item"@de .
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "linguee"@en .
+<https://w3id.org/steel/ProcessOntology/SampleProduction> <https://w3id.org/steel/ProcessOntology/hasShortId> "SampleProduction" .

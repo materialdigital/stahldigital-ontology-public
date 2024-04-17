@@ -90,8 +90,13 @@
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSourceEn</td>
-            <td>LS-DYNA_Manual_Volume_2</td>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>MassDensity</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>https://qudt.org/vocab/unit/GM-PER-CentiM3</td>
           </tr>
         
           <tr>
@@ -126,6 +131,26 @@
             >type</a>
     </li>
     
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/https/qudt.org/vocab/unit/GM-PER-CentiM3"
+            >GM-PER-CentiM3</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
+    </li>
+    
 </ul>
 
 <h3>Resources linking here</h3>
@@ -134,8 +159,18 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasMassDensity_GM-PER-CentiM3"
+            >has MassDensity</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasMassDensity"
+            href=".//ProcessOntology/hasMassDensity_Object"
             >hasMassDensity</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"

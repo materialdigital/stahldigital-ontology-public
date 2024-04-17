@@ -95,6 +95,16 @@
           </tr>
         
           <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>Inv_ShearRateSensitivity</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>https://qudt.org/vocab/unit/UNITLESS</td>
+          </tr>
+        
+          <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel</td>
             <td>1</td>
           </tr>
@@ -138,12 +148,32 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2004/02/skos/core#related"
             href=".//ProcessOntology/phenopowerlaw"
             >phenopowerlaw</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2004/02/skos/core#related"
             >related</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/https/qudt.org/vocab/unit/UNITLESS"
+            >UNITLESS</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
     </li>
     
 </ul>
@@ -155,11 +185,21 @@
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasInv_ShearRateSensitivity"
+            href=".//ProcessOntology/hasInv_ShearRateSensitivity_Object"
             >hasInv_ShearRateSensitivity</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
             >range</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasInv_ShearRateSensitivity_UNITLESS"
+            >has Inv_ShearRateSensitivity</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
     </li>
     
 </ul>

@@ -56,12 +56,17 @@
         
           <tr>
             <td>http://www.w3.org/2000/01/rdf-schema#label</td>
-            <td>Spannung</td>
+            <td>Stress</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/2000/01/rdf-schema#label</td>
-            <td>Stress</td>
+            <td>Spannung</td>
+          </tr>
+        
+          <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
           </tr>
         
           <tr>
@@ -95,6 +100,11 @@
           </tr>
         
           <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>Stress</td>
+          </tr>
+        
+          <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
             <td>R</td>
           </tr>
@@ -102,6 +112,11 @@
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbolLatex</td>
             <td>R</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/MegaPA</td>
           </tr>
         
           <tr>
@@ -136,6 +151,26 @@
             >type</a>
     </li>
     
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/MegaPA"
+            >MegaPA</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
+    </li>
+    
 </ul>
 
 <h3>Resources linking here</h3>
@@ -145,11 +180,21 @@
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasStressObject"
+            href=".//ProcessOntology/hasStress_Object"
             >hasStress</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
             >range</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasStress_MegaPA"
+            >has Stress</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
     </li>
     
 </ul>

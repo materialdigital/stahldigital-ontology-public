@@ -24,13 +24,12 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "has project number",
-        "lang" : "en",
+        "value" : "has ProjectNumber",
         "type" : "literal"
         }
       ,
       {
-        "value" : "hasProjectNumber",
+        "value" : "has project number",
         "lang" : "en",
         "type" : "literal"
         }
@@ -42,14 +41,19 @@
         }
       
       ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "has project number",
-        "lang" : "en",
-        "type" : "literal"
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/ProjectNumber",
+        "type" : "uri"
         }
       ,
       {
-        "value" : "hasProjectNumber",
+        "value" : "https://w3id.org/steel/ProcessOntology/hasProjectNumber_Object",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "has project number",
         "lang" : "en",
         "type" : "literal"
         }

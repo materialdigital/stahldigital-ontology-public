@@ -13,16 +13,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "hasCrystalPlasticityParameterFile",
-        "lang" : "en",
+        "value" : "has CrystalPlasticityParameterFile",
         "type" : "literal"
         }
       
       ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "hasCrystalPlasticityParameterFile",
-        "lang" : "en",
-        "type" : "literal"
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/CrystalPlasticityParameterFile",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityParameterFile_Object",
+        "type" : "uri"
         }
       
       ]

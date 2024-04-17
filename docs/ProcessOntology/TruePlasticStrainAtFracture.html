@@ -60,6 +60,11 @@
           </tr>
         
           <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
             <td>http://purl.org/dc/terms/description</td>
             <td>true plastic strain at fracture</td>
           </tr>
@@ -90,8 +95,18 @@
           </tr>
         
           <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>TruePlasticStrainAtFracture</td>
+          </tr>
+        
+          <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
             <td>e_{w Bruch}</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/PERCENT</td>
           </tr>
         
           <tr>
@@ -101,12 +116,12 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/isBasedOn</td>
-            <td>https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture</td>
+            <td>https://w3id.org/steel/ProcessOntology/OriginalCrosssection</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/isBasedOn</td>
-            <td>https://w3id.org/steel/ProcessOntology/OriginalCrosssection</td>
+            <td>https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture</td>
           </tr>
         
         </table>
@@ -138,9 +153,29 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/PERCENT"
+            >PERCENT</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
+    </li>
+    
+    <li>
+        <a
             title="https://w3id.org/steel/ProcessOntology/isBasedOn"
-            href=".//ProcessOntology/MinimumCrosssectionAfterFracture"
-            >MinimumCrosssectionAfterFracture</a> via
+            href=".//ProcessOntology/OriginalCrosssection"
+            >OriginalCrosssection</a> via
         <a
             href=".//ProcessOntology/isBasedOn"
             >isBasedOn</a>
@@ -149,8 +184,8 @@
     <li>
         <a
             title="https://w3id.org/steel/ProcessOntology/isBasedOn"
-            href=".//ProcessOntology/OriginalCrosssection"
-            >OriginalCrosssection</a> via
+            href=".//ProcessOntology/MinimumCrosssectionAfterFracture"
+            >MinimumCrosssectionAfterFracture</a> via
         <a
             href=".//ProcessOntology/isBasedOn"
             >isBasedOn</a>
@@ -164,8 +199,18 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasTruePlasticStrainAtFracture_PERCENT"
+            >has TruePlasticStrainAtFracture</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasTruePlasticStrainAtFractureObject"
+            href=".//ProcessOntology/hasTruePlasticStrainAtFracture_Object"
             >hasTruePlasticStrainAtFracture</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"

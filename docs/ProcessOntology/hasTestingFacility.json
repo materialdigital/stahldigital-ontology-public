@@ -24,13 +24,12 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "has testing facility",
-        "lang" : "en",
+        "value" : "has TestingFacility",
         "type" : "literal"
         }
       ,
       {
-        "value" : "hasTestingFacility",
+        "value" : "has testing facility",
         "lang" : "en",
         "type" : "literal"
         }
@@ -42,14 +41,19 @@
         }
       
       ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "has testing facility",
-        "lang" : "en",
-        "type" : "literal"
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/TestingFacility",
+        "type" : "uri"
         }
       ,
       {
-        "value" : "hasTestingFacility",
+        "value" : "https://w3id.org/steel/ProcessOntology/hasTestingFacility_Object",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
+        "value" : "has testing facility",
         "lang" : "en",
         "type" : "literal"
         }

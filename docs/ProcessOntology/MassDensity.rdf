@@ -10,7 +10,7 @@
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">MassDensity</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MassDensity">
-    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">https://material-digital.de/pmdco/ValueObject</ns0:subClassOf>
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MassDensity">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">Mass densisty of the material</ns0:description>
@@ -28,7 +28,10 @@
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">LS-DYNA_Manual_Volume_2</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MassDensity">
-    <ns0:hasLabelSourceEn xmlns:ns0="https://w3id.org/steel/ProcessOntology/">LS-DYNA_Manual_Volume_2</ns0:hasLabelSourceEn>
+    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">MassDensity</ns0:hasShortId>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MassDensity">
+    <ns0:hasTypicalUnit xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://qudt.org/vocab/unit/GM-PER-CentiM3"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MassDensity">
     <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">g/cm^3</ns0:hasTypicalUnitLabel>

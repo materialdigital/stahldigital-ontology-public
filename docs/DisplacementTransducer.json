@@ -26,13 +26,13 @@
         }
       
       ],
-    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Dehnungsaufnehmer",
-        "lang" : "de",
-        "type" : "literal"
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+        "value" : "https://material-digital.de/pmdco/ValueObject",
+        "type" : "uri"
         }
-      ,
-      {
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Displacement transducer",
         "lang" : "en",
         "type" : "literal"
@@ -41,12 +41,6 @@
       {
         "value" : "Wegaufnehmer",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "extensometer system",
-        "lang" : "en",
         "type" : "literal"
         }
       
@@ -89,6 +83,12 @@
       {
         "value" : "deepl translator",
         "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
+        "value" : "DisplacementTransducer",
         "type" : "literal"
         }
       

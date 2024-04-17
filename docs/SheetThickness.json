@@ -31,6 +31,12 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+        "value" : "https://material-digital.de/pmdco/ValueObject",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Blechdicke",
         "lang" : "de",
@@ -66,6 +72,12 @@
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "K-Item",
         "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
+        "value" : "SheetThickness",
         "type" : "literal"
         }
       

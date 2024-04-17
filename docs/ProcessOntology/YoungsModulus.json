@@ -41,7 +41,7 @@
       ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
         "value" : "https://material-digital.de/pmdco/ValueObject",
-        "type" : "literal"
+        "type" : "uri"
         }
       
       ],
@@ -78,9 +78,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSourceEn" : [ {
-        "value" : "LS-DYNA_Manual_Volume_2",
+    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
+        "value" : "YoungsModulus",
         "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasTypicalUnit" : [ {
+        "value" : "https://qudt.org/vocab/unit/MegaPA",
+        "type" : "uri"
         }
       
       ],

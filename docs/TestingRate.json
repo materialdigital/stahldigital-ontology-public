@@ -26,6 +26,12 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+        "value" : "https://material-digital.de/pmdco/ValueObject",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Testing rate",
         "lang" : "en",
@@ -49,6 +55,12 @@
       {
         "value" : "DIN EN ISO 6892-1, 3.7",
         "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
+        "value" : "TestingRate",
         "type" : "literal"
         }
       

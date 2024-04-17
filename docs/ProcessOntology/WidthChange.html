@@ -60,6 +60,11 @@
           </tr>
         
           <tr>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
+          </tr>
+        
+          <tr>
             <td>http://purl.org/dc/terms/description</td>
             <td>Change of the sample width.</td>
           </tr>
@@ -91,12 +96,12 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasExampleData</td>
-            <td>0.001</td>
+            <td>1.14004e-06</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasExampleData</td>
-            <td>1.14004e-06</td>
+            <td>0.001</td>
           </tr>
         
           <tr>
@@ -112,6 +117,16 @@
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
             <td>DX56_D_FZ2_WR00_43.TXT</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>WidthChange</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/MilliM</td>
           </tr>
         
           <tr>
@@ -153,6 +168,26 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/MilliM"
+            >MilliM</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
+    </li>
+    
+    <li>
+        <a
             title="https://w3id.org/steel/ProcessOntology/isBasedOn"
             href=".//ProcessOntology/Width"
             >Width</a> via
@@ -170,7 +205,7 @@
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasWidthChangeObject"
+            href=".//ProcessOntology/hasWidthChange_Object"
             >hasWidthChange</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
@@ -185,6 +220,16 @@
         <a
             href=".//ProcessOntology/isBasedOn"
             >isBasedOn</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasWidthChange_MilliM"
+            >has WidthChange</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
     </li>
     
 </ul>

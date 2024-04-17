@@ -10,7 +10,7 @@
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">MatTabulatedJohnsonCook</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MatTabulatedJohnsonCook">
-    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">https://material-digital.de/pmdco/ValueObject</ns0:subClassOf>
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MatTabulatedJohnsonCook">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">Simple incompressible plasticity model with adiabatic approach</ns0:description>
@@ -25,6 +25,6 @@
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">LS-DYNA_Manual_Volume_2</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MatTabulatedJohnsonCook">
-    <ns0:hasLabelSourceEn xmlns:ns0="https://w3id.org/steel/ProcessOntology/">LS-DYNA_Manual_Volume_2</ns0:hasLabelSourceEn>
+    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">MatTabulatedJohnsonCook</ns0:hasShortId>
   </rdf:Description>
 </rdf:RDF>

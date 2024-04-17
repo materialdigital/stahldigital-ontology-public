@@ -1,0 +1,8 @@
+<https://w3id.org/steel/ProcessOntology/hasStrainRate_PER-SEC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://w3id.org/steel/ProcessOntology/hasStrainRate_PER-SEC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/steel/ProcessOntology/hasStrainRate_PER-SEC> <http://www.w3.org/2000/01/rdf-schema#label> "has StrainRate" .
+<https://w3id.org/steel/ProcessOntology/hasStrainRate_PER-SEC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/StrainRate> .
+<https://w3id.org/steel/ProcessOntology/hasStrainRate_PER-SEC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/hasStrainRate_Object> .
+<https://w3id.org/steel/ProcessOntology/hasStrainRate_PER-SEC> <https://w3id.org/steel/ProcessOntology/hasUnit> <http://qudt.org/vocab/unit/PER-SEC> .
+<https://w3id.org/steel/ProcessOntology/hasStrainRate_PER-SEC> <https://w3id.org/steel/ProcessOntology/hasUnitLabel> "1/s" .
+<https://w3id.org/steel/ProcessOntology/hasStrainRate_PER-SEC> <https://w3id.org/steel/ProcessOntology/hasUnitLabel> "s-1" .

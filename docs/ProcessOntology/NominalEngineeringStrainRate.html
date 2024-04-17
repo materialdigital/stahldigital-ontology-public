@@ -65,13 +65,18 @@
           </tr>
         
           <tr>
-            <td>http://purl.org/dc/terms/description</td>
-            <td>nominal engineering strain rate = vo/Lc</td>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
           </tr>
         
           <tr>
             <td>http://purl.org/dc/terms/description</td>
             <td>nominelle technische Dehnrate = vo/Lc</td>
+          </tr>
+        
+          <tr>
+            <td>http://purl.org/dc/terms/description</td>
+            <td>nominal engineering strain rate = vo/Lc</td>
           </tr>
         
           <tr>
@@ -106,11 +111,6 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>ISO 26203-2, 2011, 4</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
             <td>Standard definition specific</td>
           </tr>
         
@@ -120,13 +120,28 @@
           </tr>
         
           <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
+            <td>ISO 26203-2, 2011, 4</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasShortId</td>
+            <td>NominalEngineeringStrainRate</td>
+          </tr>
+        
+          <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
             <td>enom</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbolLatex</td>
-            <td>dot{e}_{nom}</td>
+            <td>\dot{e}_{nom}</td>
+          </tr>
+        
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasTypicalUnit</td>
+            <td>http://qudt.org/vocab/unit/PER-SEC</td>
           </tr>
         
           <tr>
@@ -183,12 +198,32 @@
     
     <li>
         <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
+    
+    <li>
+        <a
             title="http://www.w3.org/2004/02/skos/core#related"
             href=".//ProcessOntology/StrainRate"
             >StrainRate</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2004/02/skos/core#related"
             >related</a>
+    </li>
+    
+    <li>
+        <a
+            title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
+            href=".//rdfsites/http/qudt.org/vocab/unit/PER-SEC"
+            >PER-SEC</a> via
+        <a
+            href=".//ProcessOntology/hasTypicalUnit"
+            >has typical unit</a>
     </li>
     
     <li>
@@ -220,11 +255,21 @@
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//ProcessOntology/hasNominalEngineeringStrainRateObject"
+            href=".//ProcessOntology/hasNominalEngineeringStrainRate_Object"
             >hasNominalEngineeringStrainRate</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
             >range</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//ProcessOntology/hasNominalEngineeringStrainRate_PER-SEC"
+            >has NominalEngineeringStrainRate</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
     </li>
     
 </ul>

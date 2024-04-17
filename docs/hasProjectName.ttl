@@ -1,13 +1,14 @@
 
 
+<https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/steel/ProcessOntology/Test> .
-<https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/2000/01/rdf-schema#label> "hasProjectName"@en .
 <https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/2000/01/rdf-schema#label> "has project name"@en .
+<https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/2000/01/rdf-schema#label> "has ProjectName" .
 <https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/ProjectName> .
-<https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/2004/02/skos/core#preflabel> "hasProjectName"@en .
+<https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ProjectName> .
+<https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/hasProjectName_Object> .
 <https://w3id.org/steel/ProcessOntology/hasProjectName> <http://www.w3.org/2004/02/skos/core#preflabel> "has project name"@en .
 
 
