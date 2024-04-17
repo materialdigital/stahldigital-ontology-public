@@ -17482,10 +17482,13 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:altlabel xml:lang="en">Organization</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingFacility">
+    <skos:altlabel xml:lang="en">Testing facility</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingFacility">
     <skos:altlabel xml:lang="de">Prüfinstitut</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingFacility">
-    <skos:altlabel xml:lang="en">Testing facility</skos:altlabel>
+    <skos:altlabel xml:lang="de">Pruefinstitut</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingFacility">
     <skos:preflabel xml:lang="en">TestingFacility</skos:preflabel>
@@ -17500,13 +17503,13 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasExampleData>Fraunhofer IWM</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingFacility">
-    <hasLabelSource xml:lang="en">K-Item</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingFacility">
     <hasLabelSource xml:lang="de">AFZ-BU-S1.TXT</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingFacility">
     <hasLabelSource xml:lang="en">deepl translator</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestingFacility">
+    <hasLabelSource xml:lang="en">K-Item</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFinalGaugeLengthAfterFracture_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -17719,7 +17722,7 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:altlabel xml:lang="en">initial displacement rate</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
-    <skos:altlabel xml:lang="de">Abzugsgeschw.</skos:altlabel>
+    <skos:altlabel xml:lang="de">Abzugsgeschwindigkeit</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
     <skos:preflabel xml:lang="en">InitialDisplacementRate</skos:preflabel>
@@ -19349,9 +19352,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:altlabel xml:lang="de">Maschinendaten</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
-    <skos:altlabel xml:lang="de">Prüfmasch.</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <skos:altlabel xml:lang="en">Machine Type</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
@@ -19367,13 +19367,13 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
+    <hasExampleData>ZwickRoell Blechumformprüfmaschine 600kN - BUP600</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <hasExampleData>SZM500</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <hasExampleData>Instron 5985</hasExampleData>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
-    <hasExampleData>ZwickRoell Blechumformprüfmaschine 600kN - BUP600</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <hasExampleData>SZM100</hasExampleData>
@@ -23410,7 +23410,7 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <dcterms:contributor>Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm</dcterms:contributor>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
-    <dcterms:date>2024-04-17T19:24:02+00:00</dcterms:date>
+    <dcterms:date>2024-04-17T20:24:00+00:00</dcterms:date>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
     <owl:versionInfo xml:lang="en">0.1 (preliminary)</owl:versionInfo>

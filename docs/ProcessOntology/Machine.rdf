@@ -25,9 +25,6 @@
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Maschinendaten</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
-    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Prüfmasch.</ns0:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Machine Type</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
@@ -43,13 +40,13 @@
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">ZwickRoell Blechumformprüfmaschine 600kN - BUP600</ns0:hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">SZM500</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">Instron 5985</ns0:hasExampleData>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
-    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">ZwickRoell Blechumformprüfmaschine 600kN - BUP600</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">SZM100</ns0:hasExampleData>

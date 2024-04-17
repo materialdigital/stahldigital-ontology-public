@@ -15,7 +15,7 @@
       
       ],
     "http://purl.org/dc/terms/date" : [ {
-        "value" : "2024-04-17T19:24:02+00:00",
+        "value" : "2024-04-17T20:24:00+00:00",
         "type" : "literal"
         }
       
@@ -10682,7 +10682,7 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Abzugsgeschw.",
+        "value" : "Abzugsgeschwindigkeit",
         "lang" : "de",
         "type" : "literal"
         }
@@ -12492,12 +12492,6 @@
       ,
       {
         "value" : "Maschinendaten",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Pr\u00FCfmasch.",
         "lang" : "de",
         "type" : "literal"
         }
@@ -27238,6 +27232,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Organization",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Pruefinstitut",
+        "lang" : "de",
         "type" : "literal"
         }
       ,
