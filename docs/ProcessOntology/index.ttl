@@ -1,6 +1,7 @@
 PREFIX : <https://w3id.org/steel/ProcessOntology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX qudtUnit: <http://qudt.org/vocab/unit/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -20,13 +21,13 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class ;
         :hasSymbol                     "C_44"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :MinimumCrosssectionAfterFracture
         :isBasedOn                     :ThicknessAfterFracture1 ;
         :hasTypicalUnitLabel           "mm2" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM2> ;
+        :hasTypicalUnit                qudtUnit:MilliM2 ;
         :hasSymbol                     "S_{u}"@en ;
         :isBasedOn                     :DiameterAfterFracture2 ;
         :isBasedOn                     :ThicknessAfterFracture2 ;
@@ -68,7 +69,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has Width" ;
         rdfs:seeAlso   :Width ;
         rdfs:seeAlso   :hasWidth_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :ElasticConstantC12  rdf:type          owl:Class ;
@@ -83,7 +84,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept ;
         :hasSymbol                     "C_12"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :stand  rdf:type        owl:Class ;
@@ -210,7 +211,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has BlankHolderForce" ;
         rdfs:seeAlso   :BlankHolderForce ;
         rdfs:seeAlso   :hasBlankHolderForce_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/KiloN> ;
+        :hasUnit       qudtUnit:KiloN ;
         :hasUnitLabel  "kN" .
 
 :MeasuringDevice  rdf:type  owl:Class ;
@@ -253,7 +254,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type              owl:Class ;
         :hasSymbol            "Fp02"@en ;
         :hasSymbolLatex       "F_{p02}"@en ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/KiloN> ;
+        :hasTypicalUnit       qudtUnit:KiloN ;
         :hasTypicalUnitLabel  "kN" ;
         :isBasedOn            :PercentageExtension ;
         :isBasedOn            :Force ;
@@ -265,7 +266,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TrueTotalStrain" ;
         rdfs:seeAlso   :TrueTotalStrain ;
         rdfs:seeAlso   :hasTrueTotalStrain_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "1" .
 
 :hasWidthChange_Object
@@ -297,7 +298,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has Work" ;
         rdfs:seeAlso   :Work ;
         rdfs:seeAlso   :hasWork_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/KiloJ> ;
+        :hasUnit       qudtUnit:KiloJ ;
         :hasUnitLabel  "kJ" .
 
 :hasMinTimeStep4ElementDel_SEC
@@ -322,7 +323,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class ;
         :hasSymbolLatex                "\\tau_0"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :BlankHolderForce  :hasLabelSource     "DIN EN ISO 12004-2: 2021_07, 13"@de ;
@@ -332,7 +333,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 13"@de ;
         :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 5"@en ;
         :hasTypicalUnitLabel           "kN" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/KiloN> ;
+        :hasTypicalUnit                qudtUnit:KiloN ;
         :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 5"@en ;
         :hasLabelSource                "AFZ1-NZ50-25-D1Q"@en ;
         rdf:type                       skos:Concept ;
@@ -381,8 +382,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "EulerAngle1"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept ;
         :hasSymbol                     "ϕ_1"@en ;
         :hasSymbolLatex                "\\varphi_1"@en .
@@ -471,8 +472,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "EulerAngleConvention"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept .
 
 :hasPercentageTotalExtensionAtFracture_PERCENT
@@ -481,7 +482,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PercentageTotalExtensionAtFracture" ;
         rdfs:seeAlso   :PercentageTotalExtensionAtFracture ;
         rdfs:seeAlso   :hasPercentageTotalExtensionAtFracture_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :hasElasticityModel  rdf:type  rdf:Property ;
@@ -555,7 +556,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       owl:Class ;
         :hasSymbol                     "Sm(rel)"@en ;
         :hasSymbolLatex                "S_m(rel)"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         :hasTypicalUnitLabel           "%" .
 
 :hasPostProcessingSoftware
@@ -575,8 +576,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 :TimeDependentEngineeringStrainRate
         :hasExampleData                "0.019" ;
         :hasDescriptionCitationSource  "Authors"@en ;
-        :hasDescriptionCitationSource  "Authors"@de ;
         :hasDescriptionCitationSource  "ISO 26203-2, 2011, 4"@en ;
+        :hasDescriptionCitationSource  "Authors"@de ;
         skos:related                   :StrainRate ;
         skos:preflabel                 "TimeDependentEngineeringStrainRate"@en ;
         skos:altlabel                  "Dehnrate"@de ;
@@ -589,7 +590,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :ExtensometerGaugeLength ;
         :isBasedOn                     :Time ;
         :hasTypicalUnitLabel           "s-1" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasTypicalUnit                qudtUnit:PER-SEC ;
         :hasSymbolLatex                "\\dot{e(t)}"@en ;
         :hasSymbol                     "e(t)"@en ;
         :hasLabelSource                "Standard definition specific"@de ;
@@ -609,7 +610,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource       "AFZ-BU-S1.TXT"@de ;
         :hasLabelSource       "deepl translator"@en ;
         rdf:type              owl:Class ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/N> ;
+        :hasTypicalUnit       qudtUnit:N ;
         :hasTypicalUnitLabel  "N" .
 
 :PlasticityModel  rdf:type   skos:Concept ;
@@ -640,7 +641,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has Force" ;
         rdfs:seeAlso   :Force ;
         rdfs:seeAlso   :hasForce_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/N> ;
+        :hasUnit       qudtUnit:N ;
         :hasUnitLabel  "N" .
 
 :TimeSeries  rdf:type   owl:Class ;
@@ -649,7 +650,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel  "Time series"@en ;
         skos:preflabel  "Zeitreihe"@de .
 
-:TestTime  :hasTypicalUnit             <http://qudt.org/vocab/unit/SEC> ;
+:TestTime  :hasTypicalUnit             qudtUnit:SEC ;
         :hasTypicalUnitLabel           "s" ;
         rdf:type                       skos:Concept ;
         rdf:type                       owl:Class ;
@@ -714,8 +715,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "Fracture"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.11"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.11"@de ;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.11"@de ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.11"@en ;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.11"@de ;
         rdf:type                       skos:Concept .
 
 :LatticeStructure  rdf:type            skos:Concept ;
@@ -726,8 +727,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "LatticeStructure"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class .
 
 :hasSerialNumber_Object
@@ -760,8 +761,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "NumberOfVirtualExperiments"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept .
 
 :hasElongation_Object
@@ -779,8 +780,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "MicrostructureModel"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class .
 
 :hasMatPiecewiseLinearPlasticityLogInterpolation_Object
@@ -828,7 +829,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel        "PunchDisplacement"@en ;
         :hasLabelSource       "AFZ1-NZ50-25-D1Q"@en ;
         rdf:type              owl:Class ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit       qudtUnit:MilliM ;
         :hasTypicalUnitLabel  "mm" .
 
 :hasTestingDirection_Object
@@ -882,7 +883,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has MeanEngineeringStrainRate" ;
         rdfs:seeAlso   :MeanEngineeringStrainRate ;
         rdfs:seeAlso   :hasMeanEngineeringStrainRate_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasUnit       qudtUnit:PER-SEC ;
         :hasUnitLabel  "s-1" .
 
 :YieldingIdentifierIsoThermal
@@ -903,7 +904,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has InnerDiameterDie" ;
         rdfs:seeAlso   :InnerDiameterDie ;
         rdfs:seeAlso   :hasInnerDiameterDie_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasPlasticEngineeringStrain_PERCENT
@@ -912,7 +913,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PlasticEngineeringStrain" ;
         rdfs:seeAlso   :PlasticEngineeringStrain ;
         rdfs:seeAlso   :hasPlasticEngineeringStrain_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :hasHX340LAD  rdf:type  rdf:Property ;
@@ -958,7 +959,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PercentagePermanentElongation" ;
         rdfs:seeAlso   :PercentagePermanentElongation ;
         rdfs:seeAlso   :hasPercentagePermanentElongation_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :hasRadiusCurvature_MilliM
@@ -967,7 +968,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has RadiusCurvature" ;
         rdfs:seeAlso   :RadiusCurvature ;
         rdfs:seeAlso   :hasRadiusCurvature_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasBoundaryFile_Object
@@ -988,7 +989,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "DIN EN ISO 6892-1, 3.10.2"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.10.2"@de ;
         rdf:type                       owl:Class ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :hasHomogenizationModel_Object
@@ -1023,7 +1024,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :OriginalCrosssection ;
         :isBasedOn                     :MinimumCrosssectionAfterFracture ;
         :hasTypicalUnitLabel           "%" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         :hasSymbolLatex                "Z"@en ;
         :hasSymbol                     "Z"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.8"@de ;
@@ -1054,7 +1055,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ThicknessAfterFracture2" ;
         rdfs:seeAlso   :ThicknessAfterFracture2 ;
         rdfs:seeAlso   :hasThicknessAfterFracture2_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :MatTabulatedJohnsonCookLogInterpolation
@@ -1073,7 +1074,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has MaximumForce" ;
         rdfs:seeAlso   :MaximumForce ;
         rdfs:seeAlso   :hasMaximumForce_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/KiloN> ;
+        :hasUnit       qudtUnit:KiloN ;
         :hasUnitLabel  "kN" .
 
 :hasComplexPhaseSteel
@@ -1108,7 +1109,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       skos:Concept ;
         :hasSymbol                     "eps-wBreite"@en ;
         :hasSymbolLatex                "eps-wBreite"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasTypicalUnitLabel           "1" ;
         :isBasedOn                     :WidthStrain .
 
@@ -1138,12 +1139,12 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "InnerDiameterDie"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 4"@de ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 4"@en ;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@en ;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@de ;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@en ;
         rdf:type                       skos:Concept ;
         :hasSymbol                     "d_die"@en ;
         :hasSymbolLatex                "d_die"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasTypicalUnitLabel           "mm" .
 
 :hasMildSteel  rdf:type  rdf:Property ;
@@ -1164,7 +1165,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept ;
         :hasSymbolLatex                "\\dot{\\vargamma}_{0}"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasTypicalUnitLabel           "-" .
 
 :hasHCT980X  rdf:type  rdf:Property ;
@@ -1195,7 +1196,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 :GaugeLength  :hasSymbolLatex          "L"@en ;
         :hasSymbol                     "L"@en ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         rdf:type                       skos:Concept ;
         rdf:type                       owl:Class ;
         rdfs:label                     "GaugeLength"@en ;
@@ -1215,7 +1216,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PercentageTotalExtensionAtMaximumForce" ;
         rdfs:seeAlso   :PercentageTotalExtensionAtMaximumForce ;
         rdfs:seeAlso   :hasPercentageTotalExtensionAtMaximumForce_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :PyironJob  rdf:type     owl:Class ;
@@ -1246,7 +1247,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :OriginalCrosssection ;
         :isBasedOn                     :Force ;
         :hasTypicalUnitLabel           "MPa" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasSymbolLatex                "Sig-technisch"@en ;
         :hasSymbolLatex                "R"@en ;
         :hasSymbol                     "Sig-technisch"@en ;
@@ -1277,7 +1278,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PercentageExtension" ;
         rdfs:seeAlso   :PercentageExtension ;
         rdfs:seeAlso   :hasPercentageExtension_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "1" .
 
 :hasDiameter_MilliM  rdf:type  rdf:Property ;
@@ -1285,7 +1286,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has Diameter" ;
         rdfs:seeAlso   :Diameter ;
         rdfs:seeAlso   :hasDiameter_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :ScriptJob  rdf:type     owl:Class ;
@@ -1308,7 +1309,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has CrossheadSeparationRate" ;
         rdfs:seeAlso   :CrossheadSeparationRate ;
         rdfs:seeAlso   :hasCrossheadSeparationRate_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM-PER-SEC> ;
+        :hasUnit       qudtUnit:MilliM-PER-SEC ;
         :hasUnitLabel  "mm/s" ;
         :hasUnitLabel  "mm s -1" .
 
@@ -1362,8 +1363,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "Laboratory"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@de ;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@de ;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en ;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@de ;
         rdf:type                       skos:Concept .
 
 :hasMildSteel_Object  rdf:type  owl:ObjectProperty ;
@@ -1392,7 +1393,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has EngineeringStrain" ;
         rdfs:seeAlso   :EngineeringStrain ;
         rdfs:seeAlso   :hasEngineeringStrain_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :DamaskCode  rdf:type    owl:Class ;
@@ -1427,7 +1428,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@en ;
         rdf:type                       owl:Class ;
         :hasSymbolLatex                "\\q_0"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasTypicalUnitLabel           "-" .
 
 :ElementDeletionTreatment
@@ -1473,17 +1474,17 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "42CrMoS4" ;
         :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@de ;
         :hasLabelSource                "AFZ-BU-S1.TXT"@de ;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en ;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@de ;
-        :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en ;
         :hasLabelSource                "General Knowledge"@de ;
+        :hasLabelSource                "General Knowledge"@en ;
         :hasLabelSource                "AFZ1-ST-D1"@en ;
         :hasLabelSource                "DIN EN ISO 12004-2: 2021_07"@en ;
         :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 7"@de ;
         :hasLabelSource                "YS1-Fz-D1Q"@de ;
         :hasLabelSource                "AWA_1_01_Rz-46N171"@de ;
-        :hasLabelSource                "AFZ1-NZ50-25-D1Q"@de ;
-        :hasLabelSource                "AFZ1-NZ50-25-D1Q"@en .
+        :hasLabelSource                "AFZ1-NZ50-25-D1Q"@en ;
+        :hasLabelSource                "AFZ1-NZ50-25-D1Q"@de .
 
 :TotalLength  rdf:type                 skos:Concept ;
         rdfs:label                     "TotalLength"@en ;
@@ -1498,7 +1499,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       owl:Class ;
         :hasSymbol                     "Lt"@en ;
         :hasSymbolLatex                "L_t"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasTypicalUnitLabel           "mm" .
 
 :stripWidth  rdf:type   owl:Class ;
@@ -1519,7 +1520,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TruePlasticStrain" ;
         rdfs:seeAlso   :TruePlasticStrain ;
         rdfs:seeAlso   :hasTruePlasticStrain_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "1" .
 
 :hasFailureStrainIdentifier_Object
@@ -1534,7 +1535,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has OriginalDiameter" ;
         rdfs:seeAlso   :OriginalDiameter ;
         rdfs:seeAlso   :hasOriginalDiameter_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasMaximumForceNoDiscontinousYielding_Object
@@ -1550,7 +1551,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ProofStrength_1Percentage" ;
         rdfs:seeAlso   :ProofStrength_1Percentage ;
         rdfs:seeAlso   :hasProofStrength_1Percentage_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasMeasuringDevice  rdf:type  rdf:Property ;
@@ -1565,7 +1566,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has RateSensitivityOfSlip" ;
         rdfs:seeAlso   :RateSensitivityOfSlip ;
         rdfs:seeAlso   :hasRateSensitivityOfSlip_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "-" .
 
 :TestTemperatur  rdf:type              skos:Concept ;
@@ -1626,7 +1627,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PunchDiameter" ;
         rdfs:seeAlso   :PunchDiameter ;
         rdfs:seeAlso   :hasPunchDiameter_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :HCT980C  rdf:type       skos:Concept ;
@@ -1651,7 +1652,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has HardeningParameterTau0" ;
         rdfs:seeAlso   :HardeningParameterTau0 ;
         rdfs:seeAlso   :hasHardeningParameterTau0_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :EbsdFileName  rdf:type                owl:Class ;
@@ -1662,8 +1663,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "EbsdFileName"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept .
 
 :HardeningParameterTheta0
@@ -1679,7 +1680,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept ;
         :hasSymbolLatex                "\\theta_0"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :hasDamageExponent_UNITLESS
@@ -1698,7 +1699,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel  "Simulation"@de .
 
 :TotalEngineeringStrain
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         :hasTypicalUnitLabel           "%" ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
@@ -1774,8 +1775,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "SlipSystemNumber"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class .
 
 :hasAmplitudeFile  rdf:type  rdf:Property ;
@@ -1856,7 +1857,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has DiameterAfterFracture1" ;
         rdfs:seeAlso   :DiameterAfterFracture1 ;
         rdfs:seeAlso   :hasDiameterAfterFracture1_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :EulerAngle3  rdf:type                 owl:Class ;
@@ -1893,7 +1894,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       owl:Class ;
         :hasSymbol                     "ReH"@en ;
         :hasSymbolLatex                "R_{eH}"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :MaximumForceDiscontinousYielding
@@ -1910,7 +1911,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       owl:Class ;
         :hasSymbol                     "Fm"@en ;
         :hasSymbolLatex                "F_m"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/N> ;
+        :hasTypicalUnit                qudtUnit:N ;
         :hasTypicalUnitLabel           "N" .
 
 :metadata  rdf:type     owl:DatatypeProperty ;
@@ -1922,7 +1923,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasSymbolLatex                "L_u"@en ;
         :hasSymbol                     "Lu"@en ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
         rdfs:label                     "FinalGaugeLengthAfterFracture"@en ;
@@ -1951,7 +1952,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "Anfangsdicke"@de ;
         skos:altlabel                  "Dicke der Probe"@de ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasSymbolLatex                "t_0"@en ;
         :hasSymbol                     "t_0"@en ;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@en ;
@@ -1971,8 +1972,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:related                   :MeasuringRange ;
         skos:preflabel                 "MaximumForce"@en ;
         skos:altlabel                  "Fm"@de ;
-        skos:altlabel                  "Maximalkraft"@de ;
         skos:altlabel                  "maximum force"@en ;
+        skos:altlabel                  "Maximalkraft"@de ;
         dcterms:description            "\"Maximalkraft\" [Authors]"@de ;
         dcterms:description            "\"maximum force\" [ISO 26203-2, 2011, 4]"@en ;
         dcterms:description            "\"highest force that the test piece withstands during the test\" [Authors]"@en ;
@@ -1985,8 +1986,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :Force ;
         :hasTypicalUnitLabel           "kN" ;
         :hasTypicalUnitLabel           "N" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/N> ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/KiloN> ;
+        :hasTypicalUnit                qudtUnit:N ;
+        :hasTypicalUnit                qudtUnit:KiloN ;
         :hasSymbolLatex                "F_{m}"@en ;
         :hasSymbolLatex                "Fm"@en ;
         :hasSymbol                     "Fm"@en ;
@@ -1997,7 +1998,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "7008" .
 
 :FrameRate  :hasTypicalUnitLabel       "s-1" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasTypicalUnit                qudtUnit:PER-SEC ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
         rdfs:label                     "FrameRate"@en ;
@@ -2054,7 +2055,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource       "deepl translator"@en ;
         :hasLabelSource       "AFZ-BU-S1.TXT"@de ;
         rdf:type              skos:Concept ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit       qudtUnit:MilliM ;
         :hasTypicalUnitLabel  "mm" .
 
 :Width  rdf:type                       skos:Concept ;
@@ -2069,7 +2070,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       owl:Class ;
         :hasSymbol                     "B"@en ;
         :hasSymbolLatex                "B"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasTypicalUnitLabel           "mm" .
 
 :Failure  rdf:type      owl:Class ;
@@ -2127,7 +2128,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PreliminaryForce" ;
         rdfs:seeAlso   :PreliminaryForce ;
         rdfs:seeAlso   :hasPreliminaryForce_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/KiloN> ;
+        :hasUnit       qudtUnit:KiloN ;
         :hasUnitLabel  "kN" .
 
 :hasSymbolLatex  rdf:type  owl:DatatypeProperty ;
@@ -2145,7 +2146,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ModulusOfElasticity" ;
         rdfs:seeAlso   :ModulusOfElasticity ;
         rdfs:seeAlso   :hasModulusOfElasticity_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasTestDirection  rdf:type  rdf:Property ;
@@ -2216,7 +2217,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ElasticConstantC11" ;
         rdfs:seeAlso   :ElasticConstantC11 ;
         rdfs:seeAlso   :hasElasticConstantC11_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :executedBy  rdf:type   owl:DatatypeProperty ;
@@ -2232,8 +2233,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "SpecificPlasticWork"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class .
 
 :Test   rdf:type        owl:Class ;
@@ -2299,7 +2300,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "25" ;
         :hasExampleData                "120" ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasSymbolLatex                "L_c"@en ;
         :hasSymbol                     "Lc"@en ;
         :hasSymbol                     "L_{c}"@en ;
@@ -2316,7 +2317,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel  "number of passes"@en ;
         skos:preflabel  "Stichzahl"@de .
 
-:TransitionRadius  :hasTypicalUnit     <http://qudt.org/vocab/unit/MilliM> ;
+:TransitionRadius  :hasTypicalUnit     qudtUnit:MilliM ;
         :hasTypicalUnitLabel           "mm" ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
@@ -2326,8 +2327,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         dcterms:description            "\"transition radius between parallel part and clamping part of the test piece\" [Authors]"@en ;
         skos:altlabel                  "transition radius"@en ;
         skos:preflabel                 "TransitionRadius"@en ;
-        :hasDescriptionCitationSource  "Authors"@en ;
         :hasDescriptionCitationSource  "Authors"@de ;
+        :hasDescriptionCitationSource  "Authors"@en ;
         :hasLabelSource                "ISO 26203-2, 2011, 4"@en ;
         :hasLabelSource                "Linguee"@de ;
         :hasSymbol                     "r"@en ;
@@ -2368,7 +2369,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept ;
         :hasSymbol                     "q_ab"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasTypicalUnitLabel           "-" .
 
 :MaximumSpeed  rdf:type  skos:Concept ;
@@ -2395,7 +2396,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has LatentHardeningQ0" ;
         rdfs:seeAlso   :LatentHardeningQ0 ;
         rdfs:seeAlso   :hasLatentHardeningQ0_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "-" .
 
 :hasMinimumCrosssectionAfterFracture_MilliM2
@@ -2404,7 +2405,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has MinimumCrosssectionAfterFracture" ;
         rdfs:seeAlso   :MinimumCrosssectionAfterFracture ;
         rdfs:seeAlso   :hasMinimumCrosssectionAfterFracture_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM2> ;
+        :hasUnit       qudtUnit:MilliM2 ;
         :hasUnitLabel  "mm2" .
 
 :HockettSherbyYieldStress
@@ -2459,7 +2460,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ReferenceShearRate" ;
         rdfs:seeAlso   :ReferenceShearRate ;
         rdfs:seeAlso   :hasReferenceShearRate_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "-" .
 
 :hasTester_Object  rdf:type  owl:ObjectProperty ;
@@ -2493,7 +2494,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :TensileStrength ;
         :isBasedOn                     :PercentagePermanentExtension ;
         :hasTypicalUnitLabel           "%" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         :hasSymbolLatex                "A_g"@en ;
         :hasSymbolLatex                "A_{g}"@en ;
         :hasSymbol                     "Ag"@en ;
@@ -2511,8 +2512,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "NumberGrains"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class ;
         :hasSymbol                     "N"@en ;
         :hasSymbolLatex                "N"@en .
@@ -2536,10 +2537,10 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:comment    "Stress rate, e.g. referenced by tensile tests"@en ;
         rdfs:label      "Mega Pascal per Second"@en ;
         rdfs:label      "Mega Pascal pro Sekunde"@de ;
-        rdfs:seeAlso    <http://qudt.org/vocab/unit/MegaPA> ;
+        rdfs:seeAlso    qudtUnit:MegaPA ;
         skos:preflabel  "Mega Pascal per Second"@en ;
         skos:preflabel  "Mega Pascal pro Sekunde"@de ;
-        skos:related    <http://qudt.org/vocab/unit/MegaPA> ;
+        skos:related    qudtUnit:MegaPA ;
         :hasUnitLabel   "MPa/s" .
 
 :hasDiscretization  rdf:type  rdf:Property ;
@@ -2554,7 +2555,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ElasticConstantC44" ;
         rdfs:seeAlso   :ElasticConstantC44 ;
         rdfs:seeAlso   :hasElasticConstantC44_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasRadius_MilliM  rdf:type  rdf:Property ;
@@ -2562,7 +2563,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has Radius" ;
         rdfs:seeAlso   :Radius ;
         rdfs:seeAlso   :hasRadius_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasTestingRate_Object
@@ -2609,8 +2610,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "CrystalPlasticityConstitutiveModel"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class .
 
 :hasSampleCode_Object
@@ -2665,7 +2666,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has GaugeLength" ;
         rdfs:seeAlso   :GaugeLength ;
         rdfs:seeAlso   :hasGaugeLength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :MassDensity  rdfs:label      "MassDensity"@en ;
@@ -2686,7 +2687,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has CrossheadDisplacement" ;
         rdfs:seeAlso   :CrossheadDisplacement ;
         rdfs:seeAlso   :hasCrossheadDisplacement_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasMicroalloyedSteel_Object
@@ -2777,16 +2778,16 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "DIN EN ISO 6892-1, 3.10.2.2"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.10.2.2"@de ;
         :hasExampleData                "420" ;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.2.2"@de ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.2.2"@en ;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.2.2"@de ;
         skos:preflabel                 "LowerYieldStrength"@en ;
-        skos:altlabel                  "lower yield strength"@en ;
         skos:altlabel                  "Dehn-/Streckgr. ReL"@de ;
+        skos:altlabel                  "lower yield strength"@en ;
         dcterms:description            "\"kleinste Spannung während des plastischen Fließens, wobei Einschwingerscheinungen nicht berücksichtigt werden\" [DIN EN ISO 6892-1, 3.10.2.2]"@de ;
         dcterms:description            "\"lowest value of stress during plastic yielding, ignoring any initial transient effects\" [DIN EN ISO 6892-1, 3.10.2.2]"@en ;
         :isBasedOn                     :EngineeringStress ;
         :hasTypicalUnitLabel           "MPa" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasSymbolLatex                "R_{eL}"@en ;
         :hasSymbol                     "ReL"@en ;
         :hasSymbol                     "R_{eL}"@en ;
@@ -2808,7 +2809,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :ExtensometerGaugeLength ;
         :hasTypicalUnitLabel           "1" ;
         :hasTypicalUnitLabel           "- " ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasSymbolLatex                "eps-technisch"@en ;
         :hasSymbol                     "eps-technisch"@en ;
         rdf:type                       owl:Class ;
@@ -2833,7 +2834,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has OriginalWidth" ;
         rdfs:seeAlso   :OriginalWidth ;
         rdfs:seeAlso   :hasOriginalWidth_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasProofStrength_1Percentage_Object
@@ -2851,8 +2852,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "FEMSolver"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept .
 
 :hasTestTime_Object  rdf:type  owl:ObjectProperty ;
@@ -2878,7 +2879,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :Extension ;
         :isBasedOn                     :Time ;
         :hasTypicalUnitLabel           "s-1" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasTypicalUnit                qudtUnit:PER-SEC ;
         :hasSymbolLatex                "\\dot{e}_{mean}"@en ;
         :hasSymbol                     "emean"@en ;
         :hasLabelSource                "Standard definition specific"@de ;
@@ -2901,7 +2902,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TruePlasticStrainAtFracture" ;
         rdfs:seeAlso   :TruePlasticStrainAtFracture ;
         rdfs:seeAlso   :hasTruePlasticStrainAtFracture_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :hasFormingLimitCurve
@@ -2917,7 +2918,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TestTemperature" ;
         rdfs:seeAlso   :TestTemperature ;
         rdfs:seeAlso   :hasTestTemperature_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/DEG_C> ;
+        :hasUnit       qudtUnit:DEG_C ;
         :hasUnitLabel  "°C" .
 
 :PercentagePermanentElongation
@@ -2932,7 +2933,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "DIN EN ISO 6892-1, 3.4.1"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.4.1"@de ;
         rdf:type                       owl:Class ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         :hasTypicalUnitLabel           "%" .
 
 :hasHardeningParameterTau0_Object
@@ -2960,8 +2961,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "ComputerControlledTensileTestingMachine"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.12"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.12"@de ;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.12"@de ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.12"@en ;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.12"@de ;
         rdf:type                       owl:Class .
 
 :hasMeanPlasticStrainRate_PER-SEC
@@ -2970,7 +2971,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has MeanPlasticStrainRate" ;
         rdfs:seeAlso   :MeanPlasticStrainRate ;
         rdfs:seeAlso   :hasMeanPlasticStrainRate_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasUnit       qudtUnit:PER-SEC ;
         :hasUnitLabel  "s-1" .
 
 :hasTime_Object  rdf:type  owl:ObjectProperty ;
@@ -2996,13 +2997,13 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@en ;
         :hasSymbol                     "Rp02"@en ;
         :hasSymbolLatex                "R_{p02}"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> .
+        :hasTypicalUnit                qudtUnit:MegaPA .
 
 :StressRate  :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.7.4"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.7.4"@de ;
         :hasDescriptionCitationSource  "Authors"@en ;
-        skos:related                   :EngineeringStress ;
         skos:related                   :Time ;
+        skos:related                   :EngineeringStress ;
         skos:preflabel                 "StressRate"@en ;
         skos:altlabel                  "Geschw."@de ;
         skos:altlabel                  "stress rate"@en ;
@@ -3084,7 +3085,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       owl:Class ;
         :hasSymbol                     "Fm"@en ;
         :hasSymbolLatex                "F_m"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/N> ;
+        :hasTypicalUnit                qudtUnit:N ;
         :hasTypicalUnitLabel           "N" .
 
 :hasStrainRate_PER-SEC
@@ -3093,7 +3094,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has StrainRate" ;
         rdfs:seeAlso   :StrainRate ;
         rdfs:seeAlso   :hasStrainRate_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasUnit       qudtUnit:PER-SEC ;
         :hasUnitLabel  "s-1" ;
         :hasUnitLabel  "1/s" .
 
@@ -3130,7 +3131,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has LatentHardeningQ1" ;
         rdfs:seeAlso   :LatentHardeningQ1 ;
         rdfs:seeAlso   :hasLatentHardeningQ1_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "-" .
 
 :Deformation  rdf:type  owl:Class ;
@@ -3176,7 +3177,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has OriginalCrossSection" ;
         rdfs:seeAlso   :OriginalCrossSection ;
         rdfs:seeAlso   :hasOriginalCrossSection_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM2> ;
+        :hasUnit       qudtUnit:MilliM2 ;
         :hasUnitLabel  "mm2" .
 
 :OriginalDiameter  rdf:type            skos:Concept ;
@@ -3192,7 +3193,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       owl:Class ;
         :hasSymbol                     "do"@en ;
         :hasSymbolLatex                "d_o"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasTypicalUnitLabel           "mm" .
 
 :hasTrueStressAtFracture_MegaPA
@@ -3201,7 +3202,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TrueStressAtFracture" ;
         rdfs:seeAlso   :TrueStressAtFracture ;
         rdfs:seeAlso   :hasTrueStressAtFracture_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasNominalEngineeringStrainRate_PER-SEC
@@ -3210,7 +3211,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has NominalEngineeringStrainRate" ;
         rdfs:seeAlso   :NominalEngineeringStrainRate ;
         rdfs:seeAlso   :hasNominalEngineeringStrainRate_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasUnit       qudtUnit:PER-SEC ;
         :hasUnitLabel  "s-1" .
 
 :MeasuringRange  rdf:type  skos:Concept ;
@@ -3227,7 +3228,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has StandardDeviationOfTheSlope" ;
         rdfs:seeAlso   :StandardDeviationOfTheSlope ;
         rdfs:seeAlso   :hasStandardDeviationOfTheSlope_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :codeVersion  rdf:type  owl:DatatypeProperty ;
@@ -3238,7 +3239,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel  "version"@en .
 
 :AbsoluteCrossheadTravel
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasTypicalUnitLabel           "mm" ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
@@ -3269,7 +3270,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       skos:Concept ;
         :hasSymbol                     "Rr"@en ;
         :hasSymbolLatex                "R_{r}"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :hasDX56D  rdf:type   rdf:Property ;
@@ -3285,7 +3286,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "0.001" ;
         :isBasedOn                     :Width ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
         rdfs:label                     "WidthChange"@en ;
@@ -3307,7 +3308,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:related          :WidthAfterFracture1 ;
         :hasLabelSource       "AFZ1-Fz-S1Q.xlsx"@de ;
         rdf:type              skos:Concept ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit       qudtUnit:MilliM ;
         :hasTypicalUnitLabel  "mm" .
 
 :hasDiameterAfterFracture1_Object
@@ -3351,7 +3352,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:related          :ThicknessAfterFracture2 ;
         :hasLabelSource       "AFZ1-Fz-S1Q.xlsx"@de ;
         rdf:type              owl:Class ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit       qudtUnit:MilliM ;
         :hasTypicalUnitLabel  "mm" .
 
 :rollingSchedule  rdf:type  owl:Class ;
@@ -3375,8 +3376,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "CameraSystem"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@de ;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@de ;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en ;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@de ;
         rdf:type                       skos:Concept .
 
 :hasMaximumForce_N  rdf:type  rdf:Property ;
@@ -3384,7 +3385,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has MaximumForce" ;
         rdfs:seeAlso   :MaximumForce ;
         rdfs:seeAlso   :hasMaximumForce_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/N> ;
+        :hasUnit       qudtUnit:N ;
         :hasUnitLabel  "N" .
 
 :hasDrawingSpeed_Object
@@ -3408,8 +3409,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:altlabel                  "data sampling frequency"@en ;
         skos:preflabel                 "DataSamplingFrequency"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1"@de ;
-        :hasLabelSource                "DIN EN ISO 6892-1, A.2.2"@de ;
         :hasLabelSource                "DIN EN ISO 6892-1, A.2.2"@en ;
+        :hasLabelSource                "DIN EN ISO 6892-1, A.2.2"@de ;
         rdf:type                       owl:Class .
 
 :Damage  rdf:type       owl:Class ;
@@ -3492,7 +3493,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "22" ;
         :hasExampleData                "25" ;
         :hasTypicalUnitLabel           "°C" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/DEG_C> ;
+        :hasTypicalUnit                qudtUnit:DEG_C ;
         :hasSymbolLatex                "T"@en ;
         :hasSymbol                     "T"@en ;
         :hasLabelSource                "AFZ1-NZ50-25-D1Q"@en ;
@@ -3542,7 +3543,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has CoefficientOfCorrelation" ;
         rdfs:seeAlso   :CoefficientOfCorrelation ;
         rdfs:seeAlso   :hasCoefficientOfCorrelation_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "-" .
 
 :hasElasticConstantC11_Object
@@ -3589,7 +3590,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :EngineeringStress ;
         :isBasedOn                     :PercentageExtension ;
         :hasTypicalUnitLabel           "MPa" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasSymbolLatex                "Sig{w}"@en ;
         :hasSymbol                     "Sigw"@en ;
         :hasLabelSource                "Standard definition specific"@de ;
@@ -3625,7 +3626,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has MaximumForceNoDiscontinousYielding" ;
         rdfs:seeAlso   :MaximumForceNoDiscontinousYielding ;
         rdfs:seeAlso   :hasMaximumForceNoDiscontinousYielding_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/N> ;
+        :hasUnit       qudtUnit:N ;
         :hasUnitLabel  "N" .
 
 :hasProjectName  rdf:type  owl:ObjectProperty ;
@@ -3662,7 +3663,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PercentageReductionOfArea" ;
         rdfs:seeAlso   :PercentageReductionOfArea ;
         rdfs:seeAlso   :hasPercentageReductionOfArea_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :hasCameraSystem  rdf:type  rdf:Property ;
@@ -3675,7 +3676,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "DIN EN ISO 6892-1, 3.6.4"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.6.4"@de ;
         :hasTypicalUnitLabel           "%" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         :hasSymbolLatex                "A_{gt}"@en ;
         :hasSymbol                     "Agt"@en ;
         rdf:type                       owl:Class ;
@@ -3702,7 +3703,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "DIN EN ISO 6892-1, 3.6.1"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.1"@de ;
         :hasTypicalUnitLabel           "%" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         :hasSymbolLatex                "e"@en ;
         :hasSymbol                     "e"@en ;
         rdf:type                       owl:Class ;
@@ -3795,7 +3796,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "AFZ1-Fz-S1Q.xlm"@de ;
         :hasSymbol                     "eps-Breite"@en ;
         :hasSymbolLatex                "eps-Breite"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasTypicalUnitLabel           "1" .
 
 :CrossHardeningParameter
@@ -3822,7 +3823,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept ;
         :hasSymbol                     "C_11"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :hasHX340LAD_Object  rdf:type  owl:ObjectProperty ;
@@ -3914,7 +3915,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has LowerYieldStrength" ;
         rdfs:seeAlso   :LowerYieldStrength ;
         rdfs:seeAlso   :hasLowerYieldStrength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasForce_Object  rdf:type  owl:ObjectProperty ;
@@ -3984,8 +3985,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "HardeningLaw"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class .
 
 :hasExperimentIdentifier_Object
@@ -4031,12 +4032,12 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:altlabel                  "nominell"@de ;
         skos:altlabel                  "Nominal engineering strain rate"@en ;
         skos:altlabel                  "nominal engineering strain rate"@en ;
-        dcterms:description            "\"nominelle technische Dehnrate = vo/Lc\" [Authors]"@de ;
         dcterms:description            "\"nominal engineering strain rate = vo/Lc\" [ISO 26203-2, 2011, 4]"@en ;
+        dcterms:description            "\"nominelle technische Dehnrate = vo/Lc\" [Authors]"@de ;
         :isBasedOn                     :ParallelLength ;
         :isBasedOn                     :InitialDisplacementRate ;
         :hasTypicalUnitLabel           "s-1" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasTypicalUnit                qudtUnit:PER-SEC ;
         :hasSymbolLatex                "\\dot{e}_{nom}"@en ;
         :hasSymbol                     "enom"@en ;
         :hasLabelSource                "Standard definition specific"@de ;
@@ -4060,7 +4061,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has DynamometerArea" ;
         rdfs:seeAlso   :DynamometerArea ;
         rdfs:seeAlso   :hasDynamometerArea_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM2> ;
+        :hasUnit       qudtUnit:MilliM2 ;
         :hasUnitLabel  "mm2" .
 
 :SpecificHeatCapacity
@@ -4141,7 +4142,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ParallelLength" ;
         rdfs:seeAlso   :ParallelLength ;
         rdfs:seeAlso   :hasParallelLength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasInitialSheetThickness_MilliM
@@ -4150,7 +4151,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has InitialSheetThickness" ;
         rdfs:seeAlso   :InitialSheetThickness ;
         rdfs:seeAlso   :hasInitialSheetThickness_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasFailureTreatment_UNITLESS
@@ -4168,7 +4169,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ThicknessAfterFracture1" ;
         rdfs:seeAlso   :ThicknessAfterFracture1 ;
         rdfs:seeAlso   :hasThicknessAfterFracture1_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :TestingMachine  rdf:type  owl:Class ;
@@ -4184,7 +4185,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PreliminaryForce" ;
         rdfs:seeAlso   :PreliminaryForce ;
         rdfs:seeAlso   :hasPreliminaryForce_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasLatentHardeningQ0_Object
@@ -4224,7 +4225,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       skos:Concept ;
         :hasExampleData                "80" ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasSymbolLatex                "L_o"@en ;
         :hasSymbolLatex                "L_0"@en ;
         :hasSymbol                     "L0"@en ;
@@ -4252,8 +4253,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "PostProcessingSoftware"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class .
 
 :hasEulerAngle2  rdf:type  rdf:Property ;
@@ -4288,7 +4289,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PercentageElongation" ;
         rdfs:seeAlso   :PercentageElongation ;
         rdfs:seeAlso   :hasPercentageElongation_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :TargetClampingForce  rdf:type  owl:Class ;
@@ -4301,7 +4302,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource       "deepl translator"@en ;
         :hasLabelSource       "AFZ-BU-S1.TXT"@de ;
         rdf:type              skos:Concept ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/KiloN> ;
+        :hasTypicalUnit       qudtUnit:KiloN ;
         :hasTypicalUnitLabel  "kN" .
 
 :stripTension  rdf:type  owl:Class ;
@@ -4351,7 +4352,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TestPieceLength" ;
         rdfs:seeAlso   :TestPieceLength ;
         rdfs:seeAlso   :hasTestPieceLength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :FeedbackLoop  rdf:type  owl:Class ;
@@ -4401,12 +4402,12 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "StandardDeviationOfTheSlope"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.16"@de ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.16"@en ;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.16"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.16"@de ;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.16"@en ;
         rdf:type                       skos:Concept ;
         :hasSymbol                     "Sm"@en ;
         :hasSymbolLatex                "S_m"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :hasCharacteristicEngineeringStrainRate_Object
@@ -4489,7 +4490,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@en ;
         :hasSymbol                     "Rp1"@en ;
         :hasSymbolLatex                "R_{p1}"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" ;
         :isBasedOn                     :EngineeringStress .
 
@@ -4554,7 +4555,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "4" ;
         :hasExampleData                "2" ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
         rdfs:label                     "Radius"@en ;
@@ -4577,8 +4578,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "CrystalPlasticityParameterFile"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept .
 
 :Composition  rdf:type                 skos:Concept ;
@@ -4609,7 +4610,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       owl:Class ;
         :hasSymbol                     "σ_B"@en ;
         :hasSymbolLatex                "\\sigma_B"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :Experiment  rdf:type   owl:Class ;
@@ -4714,7 +4715,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has HardeningParameterTheta1" ;
         rdfs:seeAlso   :HardeningParameterTheta1 ;
         rdfs:seeAlso   :hasHardeningParameterTheta1_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasSpecificHeatCapacity_J-Per-Gm-K
@@ -4727,7 +4728,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasUnitLabel  "J/(g*K)" .
 
 :PistonSpeed  :hasTypicalUnitLabel     "mm/s" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM-PER-SEC> ;
+        :hasTypicalUnit                qudtUnit:MilliM-PER-SEC ;
         rdf:type                       skos:Concept ;
         rdf:type                       owl:Class ;
         rdfs:label                     "PistonSpeed"@en ;
@@ -4752,14 +4753,14 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasDescriptionCitationSource  "Authors"@en ;
         :hasLabelSource                "AFZ1-ST-D1"@en ;
         rdf:type                       owl:Class ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/KiloJ> ;
+        :hasTypicalUnit                qudtUnit:KiloJ ;
         :hasTypicalUnitLabel           "kJ" .
 
 :TensileStrength  :hasExampleData      "496" ;
         :hasExampleData                "468" ;
         :hasDescriptionCitationSource  "Authors"@en ;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.1"@de ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.1"@en ;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.1"@de ;
         skos:preflabel                 "TensileStrength"@en ;
         skos:altlabel                  "Rm"@en ;
         skos:altlabel                  "Zugfestigkeit Rm"@de ;
@@ -4773,7 +4774,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       skos:Concept ;
         :isBasedOn                     :EngineeringStress ;
         :hasTypicalUnitLabel           "MPa" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasSymbolLatex                "R_{m}"@en ;
         :hasSymbolLatex                "R_m"@en ;
         :hasSymbol                     "R_{m}"@en ;
@@ -4805,8 +4806,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "AmplitudeFile"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept .
 
 :hasInitialThickness_MilliM
@@ -4815,7 +4816,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has InitialThickness" ;
         rdfs:seeAlso   :InitialThickness ;
         rdfs:seeAlso   :hasInitialThickness_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :DamageTreatment  rdf:type    skos:Concept ;
@@ -4836,7 +4837,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has UpperYieldStrength" ;
         rdfs:seeAlso   :UpperYieldStrength ;
         rdfs:seeAlso   :hasUpperYieldStrength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :jobStartTime  rdf:type  owl:DatatypeProperty ;
@@ -4859,7 +4860,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       owl:Class ;
         :hasSymbol                     "R_1"@en ;
         :hasSymbolLatex                "R_1"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasTypicalUnitLabel           "mm" .
 
 :StrainRateScaleIdendifier
@@ -4888,7 +4889,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel  "Coordinate system"@en ;
         skos:preflabel  "Koordinatensystem"@de .
 
-:ShearLength  :hasTypicalUnit          <http://qudt.org/vocab/unit/MilliM> ;
+:ShearLength  :hasTypicalUnit          qudtUnit:MilliM ;
         :hasTypicalUnitLabel           "mm" ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
@@ -4934,8 +4935,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "SpecificPlasticWorkValue"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept .
 
 :hasMaximumForceDiscontinousYielding_Object
@@ -4976,8 +4977,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "s" ;
         :hasExampleData                "0.05" ;
         :hasLabelSource                "YS1-Fz-D1Q"@de ;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en ;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@de ;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en ;
         :hasLabelSource                "Authors"@de ;
         :hasLabelSource                "DX56_D_FZ2_WR00_43.TXT"@de ;
         :hasLabelSource                "ISO 26203-2, 2011, 4"@en ;
@@ -4985,7 +4986,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "DIN EN ISO 6892-1, Fig. 9"@en ;
         :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@de ;
         :hasTypicalUnitLabel           "s" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/SEC> ;
+        :hasTypicalUnit                qudtUnit:SEC ;
         :hasSymbolLatex                "t"@en ;
         :hasSymbol                     "t"@en ;
         :hasLabelSource                "AFZ1-NZ50-25-D1Q"@en ;
@@ -5013,7 +5014,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel        "DiameterAfterFracture2"@en ;
         skos:related          :DiameterAfterFracture1 ;
         rdf:type              owl:Class ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit       qudtUnit:MilliM ;
         :hasTypicalUnitLabel  "mm" .
 
 :hasLatentHardeningQ1_Object
@@ -5052,7 +5053,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       skos:Concept ;
         :hasSymbol                     "R2"@en ;
         :hasSymbolLatex                "R^2"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasTypicalUnitLabel           "-" .
 
 :hasDamageTreatment_UNITLESS
@@ -5070,7 +5071,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has MaximumForceDiscontinousYielding" ;
         rdfs:seeAlso   :MaximumForceDiscontinousYielding ;
         rdfs:seeAlso   :hasMaximumForceDiscontinousYielding_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/N> ;
+        :hasUnit       qudtUnit:N ;
         :hasUnitLabel  "N" .
 
 :PhaseBoundary  rdf:type  owl:Class ;
@@ -5092,7 +5093,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TrueStress" ;
         rdfs:seeAlso   :TrueStress ;
         rdfs:seeAlso   :hasTrueStress_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasNumberOfVirtualExperiments
@@ -5108,7 +5109,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has EffectiveStress" ;
         rdfs:seeAlso   :EffectiveStress ;
         rdfs:seeAlso   :hasEffectiveStress_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :TestPiece  rdf:type     owl:Class ;
@@ -5139,7 +5140,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TargetClampingForce" ;
         rdfs:seeAlso   :TargetClampingForce ;
         rdfs:seeAlso   :hasTargetClampingForce_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/KiloN> ;
+        :hasUnit       qudtUnit:KiloN ;
         :hasUnitLabel  "kN" .
 
 :hasReferenceShearRate_Object
@@ -5188,7 +5189,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasDescriptionCitationSource  "Authors"@en ;
         :hasTypicalUnitLabel           "s-1" ;
         :hasTypicalUnitLabel           "1/s" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasTypicalUnit                qudtUnit:PER-SEC ;
         :hasSymbolLatex                "\\dot{e}_{L_e}"@en ;
         :hasSymbol                     "eLe"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.7.1"@en ;
@@ -5207,7 +5208,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 13"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 13"@de ;
         :hasTypicalUnitLabel           "mm/s" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM-PER-SEC> ;
+        :hasTypicalUnit                qudtUnit:MilliM-PER-SEC ;
         :hasSymbolLatex                "v_0"@en ;
         :hasSymbol                     "v_0"@en ;
         rdf:type                       owl:Class ;
@@ -5231,7 +5232,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@de ;
         rdf:type                       owl:Class ;
         :hasSymbolLatex                "dLBruch"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasTypicalUnitLabel           "mm" ;
         :isBasedOn                     :Extension .
 
@@ -5326,7 +5327,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has RelativeStandardDeviationOfTheSlope" ;
         rdfs:seeAlso   :RelativeStandardDeviationOfTheSlope ;
         rdfs:seeAlso   :hasRelativeStandardDeviationOfTheSlope_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :RadiusCurvature  rdf:type             owl:Class ;
@@ -5342,7 +5343,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       skos:Concept ;
         :hasSymbol                     "ρ"@en ;
         :hasSymbolLatex                "\\rho"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasTypicalUnitLabel           "mm" .
 
 :hasLowerYieldStrength_Object
@@ -5363,7 +5364,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel        "Diameter"@en ;
         skos:related          :TestPieceGeometry ;
         rdf:type              skos:Concept ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit       qudtUnit:MilliM ;
         :hasTypicalUnitLabel  "mm" .
 
 :hasInnerDiameterBlankHolder_MilliM
@@ -5372,7 +5373,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has InnerDiameterBlankHolder" ;
         rdfs:seeAlso   :InnerDiameterBlankHolder ;
         rdfs:seeAlso   :hasInnerDiameterBlankHolder_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasTrueStrain_UNITLESS
@@ -5381,7 +5382,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TrueStrain" ;
         rdfs:seeAlso   :TrueStrain ;
         rdfs:seeAlso   :hasTrueStrain_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "1" .
 
 :hasFrameRate_PER-SEC
@@ -5390,7 +5391,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has FrameRate" ;
         rdfs:seeAlso   :FrameRate ;
         rdfs:seeAlso   :hasFrameRate_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasUnit       qudtUnit:PER-SEC ;
         :hasUnitLabel  "s-1" .
 
 :Precipitation  rdf:type  owl:Class ;
@@ -5420,7 +5421,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PoissonsRatio" ;
         rdfs:seeAlso   :PoissonsRatio ;
         rdfs:seeAlso   :hasPoissonsRatio_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "1" .
 
 :Microstructure  rdf:type  owl:Class ;
@@ -5448,7 +5449,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has BiaxialStress" ;
         rdfs:seeAlso   :BiaxialStress ;
         rdfs:seeAlso   :hasBiaxialStress_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasTime_SEC  rdf:type  rdf:Property ;
@@ -5456,7 +5457,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has Time" ;
         rdfs:seeAlso   :Time ;
         rdfs:seeAlso   :hasTime_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/SEC> ;
+        :hasUnit       qudtUnit:SEC ;
         :hasUnitLabel  "s" .
 
 :TrueStressAtFracture
@@ -5474,7 +5475,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "1526" ;
         :hasLabelSource                "YS1-Fz-D1Q"@de ;
         :hasSymbol                     "Sig_{w Bruch}"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :hasPercentagePermanentExtension_UNITLESS
@@ -5483,7 +5484,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PercentagePermanentExtension" ;
         rdfs:seeAlso   :PercentagePermanentExtension ;
         rdfs:seeAlso   :hasPercentagePermanentExtension_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "1" .
 
 :JobOutput  rdf:type    owl:Class ;
@@ -5526,7 +5527,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has FinalGaugeLengthAfterFracture" ;
         rdfs:seeAlso   :FinalGaugeLengthAfterFracture ;
         rdfs:seeAlso   :hasFinalGaugeLengthAfterFracture_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :workRollDiameter  rdf:type  owl:Class ;
@@ -5574,7 +5575,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       skos:Concept ;
         :hasSymbol                     "Ae"@en ;
         :hasSymbolLatex                "A_e"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         :hasTypicalUnitLabel           "%" .
 
 :Strip  rdf:type        owl:Class ;
@@ -5612,7 +5613,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@en ;
         :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasTypicalUnitLabel           "-" .
 
 :hasParallelLength_Object
@@ -5642,7 +5643,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ShearLength" ;
         rdfs:seeAlso   :ShearLength ;
         rdfs:seeAlso   :hasShearLength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :FailureTreatment  rdf:type   skos:Concept ;
@@ -5669,7 +5670,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PercentageYieldPointExtension" ;
         rdfs:seeAlso   :PercentageYieldPointExtension ;
         rdfs:seeAlso   :hasPercentageYieldPointExtension_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :SimulationCode  rdf:type  owl:Class ;
@@ -5693,7 +5694,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has Extension" ;
         rdfs:seeAlso   :Extension ;
         rdfs:seeAlso   :hasExtension_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :draught  rdf:type      owl:Class ;
@@ -5717,7 +5718,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has WidthAfterFracture2" ;
         rdfs:seeAlso   :WidthAfterFracture2 ;
         rdfs:seeAlso   :hasWidthAfterFracture2_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasStrainRateFormulationFlag_Object
@@ -5741,7 +5742,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PunchDisplacement" ;
         rdfs:seeAlso   :PunchDisplacement ;
         rdfs:seeAlso   :hasPunchDisplacement_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasPercentageElongation_Object
@@ -5783,7 +5784,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class ;
         :hasSymbolLatex                "\\tau_1"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :hasTruePlasticStrain_Object
@@ -5845,8 +5846,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "187170" ;
         :hasTypicalUnitLabel           "MPa" ;
         :hasTypicalUnitLabel           "GPa" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/GigaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
+        :hasTypicalUnit                qudtUnit:GigaPA ;
         :hasSymbolLatex                "E"@en ;
         :hasSymbol                     "E"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.13"@en ;
@@ -5895,7 +5896,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has OriginalThickness" ;
         rdfs:seeAlso   :OriginalThickness ;
         rdfs:seeAlso   :hasOriginalThickness_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :EulerAngle2  rdf:type                 skos:Concept ;
@@ -5906,8 +5907,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "EulerAngle2"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class ;
         :hasSymbol                     "φ"@en ;
         :hasSymbolLatex                "\\phi"@en .
@@ -5923,8 +5924,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "DIN EN ISO 6892-1, 3.4"@de ;
         :hasTypicalUnitLabel           "%" ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         rdf:type                       skos:Concept ;
         rdf:type                       owl:Class ;
         rdfs:label                     "PercentageElongation"@en ;
@@ -5933,8 +5934,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:altlabel                  "percentage elongation"@en ;
         skos:altlabel                  "Dehnung"@de ;
         skos:preflabel                 "PercentageElongation"@en ;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.4"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.4"@de ;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.4"@en ;
         :hasExampleData                "-3.93633e-05" ;
         :hasLabelSource                "DX56_D_FZ2_WR00_43.TXT"@de .
 
@@ -5946,8 +5947,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "HardeningCurve"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class .
 
 :PreliminaryForce  :hasExampleData     "2" ;
@@ -5962,8 +5963,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         dcterms:description            "\"Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet\" [DIN EN ISO 6892-1, 10.2]"@de ;
         :hasTypicalUnitLabel           "kN" ;
         :hasTypicalUnitLabel           "MPa" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/KiloN> ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:KiloN ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasLabelSource                "DIN EN ISO 6892-1, 10.2"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 10.2"@de ;
         :hasLabelSource                "DX56_D_FZ2_WR00_43.TXT"@de ;
@@ -6043,7 +6044,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel        "TrueFractureStress"@en ;
         :hasLabelSource       "AFZ1-Fz-S1Q.xlsx"@en ;
         rdf:type              skos:Concept ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit       qudtUnit:MegaPA ;
         :hasTypicalUnitLabel  "MPa" ;
         :isBasedOn            :TrueStress .
 
@@ -6075,13 +6076,13 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "BoundaryFile"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept .
 
 :GridSize  :hasSymbol                  "L_0"@en ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasSymbolLatex                "L_0"@en ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
@@ -6091,8 +6092,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:altlabel                  "grid size"@en ;
         skos:altlabel                  "Rastergröße"@de ;
         skos:preflabel                 "GridSize"@en ;
-        :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 12"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 12"@de ;
+        :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 12"@en ;
         :hasLabelSource                "AFZ1-NZ50-25-D1Q"@en ;
         :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 12"@en ;
         :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 12"@de .
@@ -6111,7 +6112,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ModulusOfElasticity" ;
         rdfs:seeAlso   :ModulusOfElasticity ;
         rdfs:seeAlso   :hasModulusOfElasticity_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/GigaPA> ;
+        :hasUnit       qudtUnit:GigaPA ;
         :hasUnitLabel  "GPa" .
 
 :hasPercentageElongation_PERCENT
@@ -6120,7 +6121,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PercentageElongation" ;
         rdfs:seeAlso   :PercentageElongation ;
         rdfs:seeAlso   :hasPercentageElongation_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :hasUpperYieldStrength_Object
@@ -6179,8 +6180,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "AnisotropicYieldFunction"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept .
 
 :Standard  rdf:type     owl:Class ;
@@ -6229,7 +6230,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "ISO 26203-2, 2011, 4"@en ;
         :hasLabelSource                "Standard definition specific"@de ;
         rdf:type                       owl:Class ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasTypicalUnitLabel           "1" .
 
 :ProjectNumber  :hasExampleData        "324116" ;
@@ -6350,7 +6351,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TestTime" ;
         rdfs:seeAlso   :TestTime ;
         rdfs:seeAlso   :hasTestTime_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/SEC> ;
+        :hasUnit       qudtUnit:SEC ;
         :hasUnitLabel  "s" .
 
 :PercentagePermanentExtension
@@ -6358,8 +6359,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "DIN EN ISO 6892-1, 3.6.2"@de ;
         :hasLabelSource                "AFZ1-Fz-S1Q.xlm"@de ;
         :hasExampleData                "0.001" ;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.2"@de ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.2"@en ;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.2"@de ;
         :hasDescriptionCitationSource  "Authors"@en ;
         skos:preflabel                 "PercentagePermanentExtension"@en ;
         skos:altlabel                  "percentage permanent extension"@en ;
@@ -6370,8 +6371,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :ModulusOfElasticity ;
         :hasTypicalUnitLabel           "1" ;
         :hasTypicalUnitLabel           "%" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasSymbolLatex                "eps-plast"@en ;
         :hasSymbol                     "eps-plast"@en ;
         rdf:type                       skos:Concept ;
@@ -6407,7 +6408,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :OriginalWidth ;
         :isBasedOn                     :Diameter ;
         :hasTypicalUnitLabel           "mm2" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM2> ;
+        :hasTypicalUnit                qudtUnit:MilliM2 ;
         :hasSymbolLatex                "S_{0}"@en ;
         :hasSymbolLatex                "S_{o}"@en ;
         :hasSymbol                     "So"@en ;
@@ -6422,7 +6423,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has YieldStrength" ;
         rdfs:seeAlso   :YieldStrength ;
         rdfs:seeAlso   :hasYieldStrength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :Lsdyna  rdf:type        owl:Class ;
@@ -6439,7 +6440,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ProofStrengthTotalExtension" ;
         rdfs:seeAlso   :ProofStrengthTotalExtension ;
         rdfs:seeAlso   :hasProofStrengthTotalExtension_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :YoungsModulus  rdfs:comment  "Modulus of elasticity"@en ;
@@ -6474,7 +6475,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "14.98" ;
         :hasLabelSource                "YS1-Fz-D1Q"@de ;
         :hasSymbol                     "S_{0}"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM2> .
+        :hasTypicalUnit                qudtUnit:MilliM2 .
 
 :FailureCriteriaTypeAdd4StrainAverage
         rdf:type              owl:Class ;
@@ -6518,7 +6519,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "1.5" ;
         :hasExampleData                "1.55" ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasSymbolLatex                "a_o"@en ;
         :hasSymbol                     "ao"@en ;
         :hasSymbol                     "a_{0}"@en ;
@@ -6537,7 +6538,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel  "hasSpecificPlasticWork"@en .
 
 :SlopeElasticPartStressStrainCurve
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" ;
         rdf:type                       skos:Concept ;
         rdf:type                       owl:Class ;
@@ -6558,7 +6559,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 8"@en ;
         :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 9"@de ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasSymbolLatex                "t_0"@en ;
         :hasSymbol                     "t_0"@en ;
         rdf:type                       owl:Class ;
@@ -6569,8 +6570,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:altlabel                  "Ausgangsblechdicke"@de ;
         skos:altlabel                  "Thickness"@en ;
         skos:preflabel                 "InitialSheetThickness"@en ;
-        :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 9"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 9"@de ;
+        :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 9"@en ;
         :hasExampleData                "1,5" ;
         :hasLabelSource                "AFZ1-NZ50-25-D1Q"@en .
 
@@ -6582,15 +6583,15 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "ResultsFile"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept .
 
 :PunchDiameter  :hasSymbol             "D"@en ;
         :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 8"@en ;
         :isBasedOn                     :TestStandard ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasSymbolLatex                "D"@en ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
@@ -6600,8 +6601,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:altlabel                  "Stempeldurchmesser"@de ;
         skos:altlabel                  "punch diameter"@en ;
         skos:preflabel                 "PunchDiameter"@en ;
-        :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 8"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 8"@de ;
+        :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 8"@en ;
         :hasExampleData                "100" ;
         :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 8"@de .
 
@@ -6614,12 +6615,12 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "PercentageTotalExtensionAtFracture"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.6"@de ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.6"@en ;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.6.6"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.6.6"@de ;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.6.6"@en ;
         rdf:type                       owl:Class ;
         :hasSymbol                     "At"@en ;
         :hasSymbolLatex                "A_t"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         :hasTypicalUnitLabel           "%" .
 
 :JobInput  rdf:type      owl:Class ;
@@ -6650,7 +6651,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TrueWidthStrain" ;
         rdfs:seeAlso   :TrueWidthStrain ;
         rdfs:seeAlso   :hasTrueWidthStrain_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "1" .
 
 :hasTruePlasticStrainAtFracture_Object
@@ -6687,7 +6688,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TransitionRadius" ;
         rdfs:seeAlso   :TransitionRadius ;
         rdfs:seeAlso   :hasTransitionRadius_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasInnerDiameterBlankHolder_Object
@@ -6722,10 +6723,10 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has OriginalCrosssection" ;
         rdfs:seeAlso   :OriginalCrosssection ;
         rdfs:seeAlso   :hasOriginalCrosssection_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM2> ;
+        :hasUnit       qudtUnit:MilliM2 ;
         :hasUnitLabel  "mm2" .
 
-:EngineeringStrain  :hasTypicalUnit    <http://qudt.org/vocab/unit/PERCENT> ;
+:EngineeringStrain  :hasTypicalUnit    qudtUnit:PERCENT ;
         :hasTypicalUnitLabel           "%" ;
         rdf:type                       skos:Concept ;
         rdf:type                       owl:Class ;
@@ -6785,7 +6786,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TotalEngineeringStrain" ;
         rdfs:seeAlso   :TotalEngineeringStrain ;
         rdfs:seeAlso   :hasTotalEngineeringStrain_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :hasSlipSystemNumber  rdf:type  rdf:Property ;
@@ -6892,7 +6893,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has Force" ;
         rdfs:seeAlso   :Force ;
         rdfs:seeAlso   :hasForce_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/KiloN> ;
+        :hasUnit       qudtUnit:KiloN ;
         :hasUnitLabel  "kN" .
 
 :ForceAtFracture  rdf:type             skos:Concept ;
@@ -6909,7 +6910,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has RValue" ;
         rdfs:seeAlso   :RValue ;
         rdfs:seeAlso   :hasRValue_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "1" .
 
 :hasTrueThicknessStrain
@@ -6957,7 +6958,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has Strain" ;
         rdfs:seeAlso   :Strain ;
         rdfs:seeAlso   :hasStrain_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :hasPistonSpeed_MilliM-PER-SEC
@@ -6966,7 +6967,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PistonSpeed" ;
         rdfs:seeAlso   :PistonSpeed ;
         rdfs:seeAlso   :hasPistonSpeed_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM-PER-SEC> ;
+        :hasUnit       qudtUnit:MilliM-PER-SEC ;
         :hasUnitLabel  "mm/s" .
 
 :ReferenceElementSize
@@ -7033,7 +7034,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:altlabel                  "Abzugsgeschw."@de ;
         :hasTypicalUnitLabel           "mm s -1" ;
         :hasTypicalUnitLabel           "mm/s or m/s" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM-PER-SEC> ;
+        :hasTypicalUnit                qudtUnit:MilliM-PER-SEC ;
         :hasSymbolLatex                "v_{o}"@en ;
         :hasSymbol                     "vo"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.7"@de ;
@@ -7079,7 +7080,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has CharacteristicEngineeringStrainRate" ;
         rdfs:seeAlso   :CharacteristicEngineeringStrainRate ;
         rdfs:seeAlso   :hasCharacteristicEngineeringStrainRate_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasUnit       qudtUnit:PER-SEC ;
         :hasUnitLabel  "s-1" .
 
 :LatentHardeningQ1  rdf:type           owl:Class ;
@@ -7093,7 +7094,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@en ;
         rdf:type                       skos:Concept ;
         :hasSymbolLatex                "\\q_1"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasTypicalUnitLabel           "-" .
 
 :DrawingSpeed  rdf:type       skos:Concept ;
@@ -7122,7 +7123,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       owl:Class ;
         :hasSymbol                     "eLc"@en ;
         :hasSymbolLatex                "\\dot{e}_{L_c}"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasTypicalUnit                qudtUnit:PER-SEC ;
         :hasTypicalUnitLabel           "s-1" .
 
 :hasPercentagePermanentExtension_PERCENT
@@ -7131,7 +7132,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PercentagePermanentExtension" ;
         rdfs:seeAlso   :PercentagePermanentExtension ;
         rdfs:seeAlso   :hasPercentagePermanentExtension_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :hasShearLength_Object
@@ -7164,7 +7165,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 12"@de ;
         :hasExampleData                "50" ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasSymbolLatex                "b"@en ;
         :hasSymbolLatex                "B"@en ;
         :hasSymbol                     "B"@en ;
@@ -7177,8 +7178,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:altlabel                  "Width"@en ;
         skos:altlabel                  "Breite"@de ;
         skos:preflabel                 "SpecimenWidth"@en ;
-        :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 11"@en ;
-        :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 11"@de .
+        :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 11"@de ;
+        :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 11"@en .
 
 :hasEstimatedStrainRateOverTheParallelLength_PER-SEC
         rdf:type       rdf:Property ;
@@ -7186,7 +7187,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has EstimatedStrainRateOverTheParallelLength" ;
         rdfs:seeAlso   :EstimatedStrainRateOverTheParallelLength ;
         rdfs:seeAlso   :hasEstimatedStrainRateOverTheParallelLength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasUnit       qudtUnit:PER-SEC ;
         :hasUnitLabel  "s-1" .
 
 :hasTotalLength_MilliM
@@ -7195,7 +7196,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TotalLength" ;
         rdfs:seeAlso   :TotalLength ;
         rdfs:seeAlso   :hasTotalLength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasCrossHardeningParameter_UNITLESS
@@ -7256,8 +7257,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "deepl translator"@en ;
         :hasTypicalUnitLabel           "kN" ;
         :hasTypicalUnitLabel           "N" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/KiloN> ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/N> ;
+        :hasTypicalUnit                qudtUnit:KiloN ;
+        :hasTypicalUnit                qudtUnit:N ;
         :hasSymbolLatex                "F"@en ;
         :hasSymbol                     "F"@en ;
         :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@de ;
@@ -7303,7 +7304,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PressureChamber" ;
         rdfs:seeAlso   :PressureChamber ;
         rdfs:seeAlso   :hasPressureChamber_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasPermanentSetStrength_MegaPA
@@ -7312,7 +7313,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PermanentSetStrength" ;
         rdfs:seeAlso   :PermanentSetStrength ;
         rdfs:seeAlso   :hasPermanentSetStrength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasCrossHardeningParameter_Object
@@ -7327,7 +7328,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has InitialDisplacementRate" ;
         rdfs:seeAlso   :InitialDisplacementRate ;
         rdfs:seeAlso   :hasInitialDisplacementRate_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM-PER-SEC> ;
+        :hasUnit       qudtUnit:MilliM-PER-SEC ;
         :hasUnitLabel  "mm s -1" .
 
 :WidthAfterFracture1  rdf:type  skos:Concept ;
@@ -7339,7 +7340,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:related          :WidthAfterFracture2 ;
         :hasLabelSource       "AFZ1-Fz-S1Q.xlsx"@de ;
         rdf:type              owl:Class ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit       qudtUnit:MilliM ;
         :hasTypicalUnitLabel  "mm" .
 
 :hasTimeDependentEngineeringStrainRate_Object
@@ -7408,7 +7409,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class ;
         :hasSymbolLatex                "\\theta_1"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :hasGridSize_MilliM  rdf:type  rdf:Property ;
@@ -7416,7 +7417,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has GridSize" ;
         rdfs:seeAlso   :GridSize ;
         rdfs:seeAlso   :hasGridSize_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasTestDirection_Object
@@ -7441,7 +7442,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "151.3" ;
         :hasLabelSource                "YS1-Fz-D1Q"@de ;
         :hasSymbol                     "e_{w Bruch}"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         :hasTypicalUnitLabel           "%" .
 
 :FailureStrainIdentifier4Temperature
@@ -7502,18 +7503,18 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel  "uri"@en .
 
 :MinimumCrossSectionAfterFracture
+        :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, Table 1"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, Tabelle 1"@de ;
-        :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@en ;
         :hasExampleData                "4879" ;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, Tabelle 1"@de ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, Table 1"@en ;
         :hasDescriptionCitationSource  "Authors"@en ;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, Tabelle 1"@de ;
         skos:preflabel                 "MinimumCrossSectionAfterFracture"@en ;
         skos:altlabel                  "SU"@en ;
         skos:altlabel                  "minimum cross-sectional area after fracture"@en ;
-        dcterms:description            "\"minimum cross-sectional area after fracture\" [Authors]"@en ;
         dcterms:description            "\"kleinster Querschnitt nach dem Bruch\" [DIN EN ISO 6892-1, Tabelle 1]"@de ;
+        dcterms:description            "\"minimum cross-sectional area after fracture\" [Authors]"@en ;
         :isBasedOn                     :ThicknessAfterFracture1 ;
         :isBasedOn                     :DiameterAfterFracture1 ;
         :isBasedOn                     :DiameterAfterFracture2 ;
@@ -7521,7 +7522,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :WidthAfterFracture1 ;
         :isBasedOn                     :ThicknessAfterFracture2 ;
         :hasTypicalUnitLabel           "mm2" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM2> ;
+        :hasTypicalUnit                qudtUnit:MilliM2 ;
         :hasSymbolLatex                "S_{u}"@en ;
         :hasSymbol                     "Su"@en ;
         rdf:type                       skos:Concept ;
@@ -7549,7 +7550,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TrueFractureStress" ;
         rdfs:seeAlso   :TrueFractureStress ;
         rdfs:seeAlso   :hasTrueFractureStress_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :AnisotropicYieldFunctionParameters
@@ -7561,12 +7562,12 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "AnisotropicYieldFunctionParameters"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept .
 
 :CrossheadDisplacement
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasTypicalUnitLabel           "mm" ;
         rdf:type                       skos:Concept ;
         rdf:type                       owl:Class ;
@@ -7607,7 +7608,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TensileStrength" ;
         rdfs:seeAlso   :TensileStrength ;
         rdfs:seeAlso   :hasTensileStrength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :StrainRateFormulationFlag
@@ -7627,7 +7628,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ProofStrengthPlasticExtension" ;
         rdfs:seeAlso   :ProofStrengthPlasticExtension ;
         rdfs:seeAlso   :hasProofStrengthPlasticExtension_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :TruePlasticStrain  rdf:type           skos:Concept ;
@@ -7642,7 +7643,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "ISO 26203-2, 2011, 4"@en ;
         :hasLabelSource                "Standard definition specific"@de ;
         rdf:type                       owl:Class ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasTypicalUnitLabel           "1" .
 
 :TimeIncrementStep  rdf:type  owl:Class ;
@@ -7661,7 +7662,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:seeAlso  :Material ;
         rdfs:seeAlso  :hasMaterial_Object .
 
-:GrainNumber  rdf:type                 skos:Concept ;
+:GrainNumber  rdf:type                 owl:Class ;
         rdfs:label                     "GrainNumber"@en ;
         rdfs:subClassOf                pmdco:ValueObject ;
         dcterms:description            "\"Anzahl der Körner im Mikrostrukturmodell\" [General Knowledge]"@de ;
@@ -7671,7 +7672,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasDescriptionCitationSource  "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
         :hasLabelSource                "General Knowledge"@de ;
-        rdf:type                       owl:Class .
+        rdf:type                       skos:Concept .
 
 :Machine  :hasExampleData              "SZM500" ;
         :hasExampleData                "Instron 5985" ;
@@ -7691,9 +7692,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       skos:Concept ;
         :hasExampleData                "ZwickRoell Blechumformprüfmaschine 600kN - BUP600" ;
         :hasExampleData                "SZM100" ;
-        :hasLabelSource                "YS1-Sz0°-S1L"@de ;
-        :hasLabelSource                "YS1-FzR4-S1Q"@en ;
         :hasLabelSource                "YS1-FzR4-S1Q"@de ;
+        :hasLabelSource                "YS1-FzR4-S1Q"@en ;
         :hasLabelSource                "YS1-Fz-D1Q"@de ;
         :hasLabelSource                "AFZ-BU-S1.TXT"@de ;
         :hasLabelSource                "K-Type"@en ;
@@ -7701,12 +7701,13 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "standard definition specific"@en ;
         :hasLabelSource                "AFZ1-ST-D1"@en ;
         :hasLabelSource                "deepl translator"@en ;
-        :hasLabelSource                "AFZ1-NZ50-25-D1Q"@en .
+        :hasLabelSource                "AFZ1-NZ50-25-D1Q"@en ;
+        :hasLabelSource                "YS1-Sz0°-S1L"@de .
 
 :Stress  :hasSymbolLatex               "R"@en ;
         :hasSymbol                     "R"@en ;
         :hasTypicalUnitLabel           "MPa" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         rdf:type                       skos:Concept ;
         rdf:type                       owl:Class ;
         rdfs:label                     "Stress"@en ;
@@ -7722,7 +7723,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "DIN EN ISO 6892-1, 3.10"@en .
 
 :PlasticEngineeringStrain
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         :hasTypicalUnitLabel           "%" ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
@@ -7788,7 +7789,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "AFZ-BU-S1.TXT"@de ;
         :hasTypicalUnitLabel           "N/mm2" ;
         :hasTypicalUnitLabel           "MPa" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasSymbolLatex                "p"@en ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
@@ -7798,8 +7799,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:altlabel                  "Pressure in the Chamber"@en ;
         skos:altlabel                  "Bulge Druck"@de ;
         skos:preflabel                 "PressureChamber"@en ;
-        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@de ;
+        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en ;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en ;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@de .
 
@@ -7809,7 +7810,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ExtensometerGaugeLength" ;
         rdfs:seeAlso   :ExtensometerGaugeLength ;
         rdfs:seeAlso   :hasExtensometerGaugeLength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :MaterialCard  skos:preflabel          "MaterialCard"@en ;
@@ -7860,7 +7861,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has SpecimenWidth" ;
         rdfs:seeAlso   :SpecimenWidth ;
         rdfs:seeAlso   :hasSpecimenWidth_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :ComponentTest  rdf:type  owl:Class ;
@@ -7892,7 +7893,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has HardeningParameterTau1" ;
         rdfs:seeAlso   :HardeningParameterTau1 ;
         rdfs:seeAlso   :hasHardeningParameterTau1_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasPercentagePlasticExtensionAtMaximumForce_Object
@@ -7902,7 +7903,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:range      :PercentagePlasticExtensionAtMaximumForce ;
         skos:preflabel  "hasPercentagePlasticExtensionAtMaximumForce"@en .
 
-:DynamometerArea  :hasTypicalUnit      <http://qudt.org/vocab/unit/MilliM2> ;
+:DynamometerArea  :hasTypicalUnit      qudtUnit:MilliM2 ;
         :hasTypicalUnitLabel           "mm2" ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
@@ -7921,7 +7922,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 
 :CharacteristicEngineeringStrainRate
         :hasTypicalUnitLabel           "s-1" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasTypicalUnit                qudtUnit:PER-SEC ;
         :hasLabelSource                "YS1-Fz-D1Q"@de ;
         :isBasedOn                     :Time ;
         :isBasedOn                     :ExtensometerGaugeLength ;
@@ -7943,7 +7944,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 :Elongation  :hasLabelSource           "ISO 26203-2, 2011, 4"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.3"@de ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
         rdfs:label                     "Elongation"@en ;
@@ -7979,7 +7980,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       skos:Concept ;
         :hasSymbol                     "d_BH"@en ;
         :hasSymbolLatex                "d_BH"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasTypicalUnitLabel           "mm" .
 
 :Plasticity  rdf:type   owl:Class ;
@@ -7994,7 +7995,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has SlopeElasticPartStressStrainCurve" ;
         rdfs:seeAlso   :SlopeElasticPartStressStrainCurve ;
         rdfs:seeAlso   :hasSlopeElasticPartStressStrainCurve_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :YieldStress  rdf:type        owl:Class ;
@@ -8028,7 +8029,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:related                   :Material ;
         skos:related                   :ModulusOfElasticity ;
         :hasTypicalUnitLabel           "1" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasSymbolLatex                "nue"@en ;
         :hasSymbol                     "nue"@en ;
         rdf:type                       skos:Concept ;
@@ -8108,7 +8109,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has HardeningParameterTheta0" ;
         rdfs:seeAlso   :HardeningParameterTheta0 ;
         rdfs:seeAlso   :hasHardeningParameterTheta0_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasMaterialCard  rdf:type  rdf:Property ;
@@ -8192,8 +8193,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1"@de ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, A.2.1"@en ;
         skos:related                   :Machine ;
-        :hasLabelSource                "DIN EN ISO 6892-1, A.2.1"@de ;
         :hasLabelSource                "DIN EN ISO 6892-1, A.2.1"@en ;
+        :hasLabelSource                "DIN EN ISO 6892-1, A.2.1"@de ;
         :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@de ;
         rdf:type                       skos:Concept ;
         rdf:type                       owl:Class ;
@@ -8223,8 +8224,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "TruePlasticThicknessStrain"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@de ;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@de ;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@en ;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@de ;
         rdf:type                       skos:Concept ;
         :hasSymbol                     "ε_3^pl"@en ;
         :hasSymbolLatex                "ε_3^pl"@en .
@@ -8262,7 +8263,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       owl:Class ;
         :hasSymbol                     "Rt"@en ;
         :hasSymbolLatex                "R_{t}"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :hasYieldForce_0.2Percentage_KiloN
@@ -8271,7 +8272,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has YieldForce_0.2Percentage" ;
         rdfs:seeAlso   :YieldForce_0.2Percentage ;
         rdfs:seeAlso   :hasYieldForce_0.2Percentage_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/KiloN> ;
+        :hasUnit       qudtUnit:KiloN ;
         :hasUnitLabel  "kN" .
 
 :hasSampleIdentifier_Object
@@ -8287,7 +8288,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has DiameterAfterFracture2" ;
         rdfs:seeAlso   :DiameterAfterFracture2 ;
         rdfs:seeAlso   :hasDiameterAfterFracture2_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasOriginalCrossSection_Object
@@ -8357,7 +8358,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has WidthChange" ;
         rdfs:seeAlso   :WidthChange ;
         rdfs:seeAlso   :hasWidthChange_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :LubricationSystem  rdf:type           owl:Class ;
@@ -8417,7 +8418,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 :ProofStrengthPlasticExtension
         :hasSymbol                     "Rp"@en ;
         :hasTypicalUnitLabel           "MPa" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasSymbolLatex                "R_{p}"@en ;
         rdf:type                       skos:Concept ;
         rdf:type                       owl:Class ;
@@ -8427,8 +8428,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         dcterms:description            "\"Spannung, bei der die plastische Extensometer-Dehnung einem vorgegebenen Prozentanteil der Extensometer-Messlänge entspricht\" [DIN EN ISO 6892-1, 3.10.3]"@de ;
         skos:altlabel                  "proof strength, plastic extension"@en ;
         skos:preflabel                 "ProofStrengthPlasticExtension"@en ;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.3"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.3"@de ;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.3"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.10.3"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.10.3"@de ;
         :hasLabelSource                "ISO 26203-2, 2011, 4"@en .
@@ -8452,8 +8453,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "EvaluationMethod"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@de ;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@de ;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en ;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@de ;
         rdf:type                       skos:Concept .
 
 :hasExtensionAtFracture_MilliM
@@ -8462,7 +8463,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ExtensionAtFracture" ;
         rdfs:seeAlso   :ExtensionAtFracture ;
         rdfs:seeAlso   :hasExtensionAtFracture_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasOperator_Object  rdf:type  owl:ObjectProperty ;
@@ -8483,7 +8484,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PercentageElongationAfterFracture" ;
         rdfs:seeAlso   :PercentageElongationAfterFracture ;
         rdfs:seeAlso   :hasPercentageElongationAfterFracture_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :hasTestPieceGeometry
@@ -8499,7 +8500,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has InteractionMatrix" ;
         rdfs:seeAlso   :InteractionMatrix ;
         rdfs:seeAlso   :hasInteractionMatrix_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "-" .
 
 :hasInitialCriticalStrength_Object
@@ -8533,7 +8534,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has TimeDependentEngineeringStrainRate" ;
         rdfs:seeAlso   :TimeDependentEngineeringStrainRate ;
         rdfs:seeAlso   :hasTimeDependentEngineeringStrainRate_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasUnit       qudtUnit:PER-SEC ;
         :hasUnitLabel  "s-1" .
 
 :TestPieceLength  rdf:type    skos:Concept ;
@@ -8547,7 +8548,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource       "YS1-Fz-D1Q"@de ;
         rdf:type              owl:Class ;
         :hasSymbol            "L_{t}"@en ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit       qudtUnit:MilliM ;
         :hasTypicalUnitLabel  "mm" .
 
 :hasProofStrength_0.2Percentage_MegaPA
@@ -8556,7 +8557,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ProofStrength_0.2Percentage" ;
         rdfs:seeAlso   :ProofStrength_0.2Percentage ;
         rdfs:seeAlso   :hasProofStrength_0.2Percentage_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasComputerControlledTensileTestingMachine_Object
@@ -8598,7 +8599,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has OriginalGaugeLength" ;
         rdfs:seeAlso   :OriginalGaugeLength ;
         rdfs:seeAlso   :hasOriginalGaugeLength_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasPermanentSetStrength_Object
@@ -8614,7 +8615,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ElasticConstantC12" ;
         rdfs:seeAlso   :ElasticConstantC12 ;
         rdfs:seeAlso   :hasElasticConstantC12_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :transverseDirection  rdf:type  owl:Class ;
@@ -8639,7 +8640,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PercentagePlasticExtensionAtMaximumForce" ;
         rdfs:seeAlso   :PercentagePlasticExtensionAtMaximumForce ;
         rdfs:seeAlso   :hasPercentagePlasticExtensionAtMaximumForce_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasUnit       qudtUnit:PERCENT ;
         :hasUnitLabel  "%" .
 
 :InventoryNumber  rdf:type  skos:Concept ;
@@ -8701,8 +8702,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "Discretization"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@en ;
         :hasDescriptionCitationSource  "General Knowledge"@de ;
-        :hasLabelSource                "General Knowledge"@de ;
         :hasLabelSource                "General Knowledge"@en ;
+        :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       owl:Class .
 
 :Solver  rdf:type       owl:Class ;
@@ -8726,7 +8727,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has Elongation" ;
         rdfs:seeAlso   :Elongation ;
         rdfs:seeAlso   :hasElongation_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasPunchVelocity_MilliM-PER-SEC
@@ -8735,7 +8736,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has PunchVelocity" ;
         rdfs:seeAlso   :PunchVelocity ;
         rdfs:seeAlso   :hasPunchVelocity_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM-PER-SEC> ;
+        :hasUnit       qudtUnit:MilliM-PER-SEC ;
         :hasUnitLabel  "mm/s" .
 
 :CrossheadSeparationRate
@@ -8758,7 +8759,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "0.1" ;
         :hasTypicalUnitLabel           "mm s -1" ;
         :hasTypicalUnitLabel           "mm/s" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM-PER-SEC> ;
+        :hasTypicalUnit                qudtUnit:MilliM-PER-SEC ;
         :hasSymbolLatex                "\\nu_c"@en ;
         :hasSymbol                     "vc"@en ;
         :hasLabelSource                "AFZ1-ST-D1"@en ;
@@ -8797,8 +8798,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:altlabel                  "FLC-Bestimmung"@de ;
         skos:altlabel                  "FLC determination"@en ;
         skos:preflabel                 "FLCDetermination"@en ;
-        :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 19"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 19"@de ;
+        :hasDescriptionCitationSource  "DIN EN ISO 12004-2: 2021_07, 19"@en ;
         :hasExampleData                "intersection line method" ;
         :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 19"@en ;
         :hasLabelSource                "AFZ1-NZ50-25-D1Q"@en ;
@@ -8810,7 +8811,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has MinimumCrossSectionAfterFracture" ;
         rdfs:seeAlso   :MinimumCrossSectionAfterFracture ;
         rdfs:seeAlso   :hasMinimumCrossSectionAfterFracture_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM2> ;
+        :hasUnit       qudtUnit:MilliM2 ;
         :hasUnitLabel  "mm2" .
 
 :hasUser  rdf:type    rdf:Property ;
@@ -8842,7 +8843,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel        "DiameterAfterFracture1"@en ;
         skos:related          :DiameterAfterFracture2 ;
         rdf:type              owl:Class ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit       qudtUnit:MilliM ;
         :hasTypicalUnitLabel  "mm" .
 
 :MaterialInstabilityStrain
@@ -8863,7 +8864,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has EffecticStrain" ;
         rdfs:seeAlso   :EffecticStrain ;
         rdfs:seeAlso   :hasEffecticStrain_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "-" .
 
 :hasWidthStrain_UNITLESS
@@ -8872,7 +8873,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has WidthStrain" ;
         rdfs:seeAlso   :WidthStrain ;
         rdfs:seeAlso   :hasWidthStrain_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasUnit       qudtUnit:UNITLESS ;
         :hasUnitLabel  "1" .
 
 :hasDisplacement_MilliM
@@ -8881,7 +8882,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has Displacement" ;
         rdfs:seeAlso   :Displacement ;
         rdfs:seeAlso   :hasDisplacement_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasOperator  rdf:type  rdf:Property ;
@@ -8915,8 +8916,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@de ;
         :hasLabelSource                "AFZ1-NZ50-25-D1Q"@en ;
         :hasLabelSource                "AFZ1-NZ50-25-D1Q"@de ;
-        :hasLabelSource                "AFZ1-ST-D1"@en ;
         :hasLabelSource                "AFZ-BU-S1.TXT"@de ;
+        :hasLabelSource                "AFZ1-ST-D1"@en ;
         :hasLabelSource                " "@en ;
         :hasExampleData                "AFZ1-NZ50-25-D1Q" .
 
@@ -8948,7 +8949,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel  "hasProofStrengthPlasticExtension"@en .
 
 :MeanPlasticStrainRate
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PER-SEC> ;
+        :hasTypicalUnit                qudtUnit:PER-SEC ;
         :hasTypicalUnitLabel           "s-1" ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
@@ -8986,7 +8987,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, Tabelle 1"@de ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, Table 1"@en ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasSymbolLatex                "b_o"@en ;
         :hasSymbol                     "b_{0}"@en ;
         :hasSymbol                     "bo"@en ;
@@ -9004,7 +9005,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has EngineeringStress" ;
         rdfs:seeAlso   :EngineeringStress ;
         rdfs:seeAlso   :hasEngineeringStress_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :SampleProduction  rdf:type            owl:Class ;
@@ -9015,8 +9016,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:altlabel                  "sample production"@en ;
         skos:altlabel                  "Probenherstellung"@de ;
         skos:preflabel                 "SampleProduction"@en ;
-        :hasDescriptionCitationSource  "Authors"@de ;
         :hasDescriptionCitationSource  "Authors"@en ;
+        :hasDescriptionCitationSource  "Authors"@de ;
         :hasExampleData                "Wasserstrahlschneiden" ;
         :hasLabelSource                "K-Item"@de ;
         :hasLabelSource                "linguee"@en ;
@@ -9030,8 +9031,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "DefaultValue"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.14"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.14"@de ;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.14"@de ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.14"@en ;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.14"@de ;
         rdf:type                       skos:Concept .
 
 :hasSubJob  rdf:type    owl:ObjectProperty ;
@@ -9070,7 +9071,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept ;
         :hasSymbol                     "m"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasTypicalUnitLabel           "-" .
 
 :Grid   rdf:type                       skos:Concept ;
@@ -9081,8 +9082,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:preflabel                 "Grid"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en ;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@de ;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@de ;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en ;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@de ;
         rdf:type                       owl:Class .
 
 :hasTestTemperatur  rdf:type  rdf:Property ;
@@ -9123,7 +9124,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has WidthAfterFracture1" ;
         rdfs:seeAlso   :WidthAfterFracture1 ;
         rdfs:seeAlso   :hasWidthAfterFracture1_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :ThicknessAfterFracture2
@@ -9136,7 +9137,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         skos:related          :ThicknessAfterFracture1 ;
         :hasLabelSource       "AFZ1-Fz-S1Q.xlsx"@de ;
         rdf:type              skos:Concept ;
-        :hasTypicalUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit       qudtUnit:MilliM ;
         :hasTypicalUnitLabel  "mm" .
 
 :hasMinorTrueStrain  rdf:type  rdf:Property ;
@@ -9163,7 +9164,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdf:type                       owl:Class ;
         :hasSymbol                     "r-ges"@en ;
         :hasSymbolLatex                "r-ges"@en ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasTypicalUnitLabel           "1" ;
         :isBasedOn                     :WidthStrain ;
         :isBasedOn                     :TrueStrain .
@@ -9173,7 +9174,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has ClampingForce" ;
         rdfs:seeAlso   :ClampingForce ;
         rdfs:seeAlso   :hasClampingForce_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/N> ;
+        :hasUnit       qudtUnit:N ;
         :hasUnitLabel  "N" .
 
 :hasLaboratory  rdf:type  rdf:Property ;
@@ -9239,7 +9240,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has AbsoluteCrossheadTravel" ;
         rdfs:seeAlso   :AbsoluteCrossheadTravel ;
         rdfs:seeAlso   :hasAbsoluteCrossheadTravel_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :hasWidthStrain_Object
@@ -9286,7 +9287,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label           "StahlDigital Vocabulary"@en ;
         dc:description       "Vocabulary of project StahlDigital"@en ;
         dcterms:contributor  "Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm" ;
-        dcterms:date         "2024-04-17T15:24:30+00:00" ;
+        dcterms:date         "2024-04-17T16:24:16+00:00" ;
         owl:versionInfo      "0.1 (preliminary)"@en ;
         skos:prefLabel       "StahlDigital Vocabulary"@en .
 
@@ -9323,7 +9324,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has RadiusDie" ;
         rdfs:seeAlso   :RadiusDie ;
         rdfs:seeAlso   :hasRadiusDie_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MilliM> ;
+        :hasUnit       qudtUnit:MilliM ;
         :hasUnitLabel  "mm" .
 
 :ExtensometerGaugeLength
@@ -9350,7 +9351,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.5"@de ;
         :hasExampleData                "20" ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasSymbolLatex                "L_e"@en ;
         :hasSymbol                     "Le"@en ;
         :hasSymbol                     "L_{0}"@en ;
@@ -9367,7 +9368,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         rdfs:label     "has Stress" ;
         rdfs:seeAlso   :Stress ;
         rdfs:seeAlso   :hasStress_Object ;
-        :hasUnit       <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasUnit       qudtUnit:MegaPA ;
         :hasUnitLabel  "MPa" .
 
 :hasSpecimenWidth_Object
@@ -9388,7 +9389,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasLabelSource                "General Knowledge"@en ;
         :hasLabelSource                "General Knowledge"@de ;
         rdf:type                       skos:Concept ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MegaPA> ;
+        :hasTypicalUnit                qudtUnit:MegaPA ;
         :hasTypicalUnitLabel           "MPa" .
 
 :rollingDirection  rdf:type  owl:Class ;
@@ -9403,7 +9404,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :hasExampleData                "0.004" ;
         :isBasedOn                     :PercentageExtension ;
         :hasTypicalUnitLabel           "1" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/UNITLESS> ;
+        :hasTypicalUnit                qudtUnit:UNITLESS ;
         :hasSymbolLatex                "epsw(dL)"@en ;
         rdf:type                       owl:Class ;
         rdf:type                       skos:Concept ;
@@ -9445,7 +9446,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :EngineeringStress ;
         :isBasedOn                     :ModulusOfElasticity ;
         :hasTypicalUnitLabel           "%" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/PERCENT> ;
+        :hasTypicalUnit                qudtUnit:PERCENT ;
         :hasSymbolLatex                "A"@en ;
         :hasSymbolLatex                "A_{20mm}"@en ;
         :hasSymbol                     "A"@en ;
@@ -9507,7 +9508,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
         :isBasedOn                     :OriginalGaugeLength ;
         :isBasedOn                     :ExtensometerGaugeLength ;
         :hasTypicalUnitLabel           "mm" ;
-        :hasTypicalUnit                <http://qudt.org/vocab/unit/MilliM> ;
+        :hasTypicalUnit                qudtUnit:MilliM ;
         :hasSymbolLatex                "dL"@en ;
         :hasSymbol                     "dL"@en ;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.6"@de ;
