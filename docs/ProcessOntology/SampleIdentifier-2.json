@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/SampleIdentifier-2" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Unique ID (IWM intern)",
+        "value" : "\"Unique ID (IWM intern)\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -52,6 +52,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "DX56_D_FZ2_WR00_43",
         "type" : "literal"
@@ -67,12 +74,6 @@
       {
         "value" : "deepl translator",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "SampleIdentifier-2",
         "type" : "literal"
         }
       

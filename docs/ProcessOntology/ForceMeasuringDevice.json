@@ -2,25 +2,25 @@
 {
   "https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Die Kraftmesseinrichtung der Zugpr\u00FCfmaschine muss im relevanten Bereich mindestens der Klasse 1 nach ISO 7500-1 entsprechen.",
+        "value" : "\"Die Kraftmesseinrichtung der Zugpr\u00FCfmaschine muss im relevanten Bereich mindestens der Klasse 1 nach ISO 7500-1 entsprechen.\" [DIN EN ISO 6892-1]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Genauigkeit der Pr\u00FCfeinrichtungen: Die Kraftmesseinrichtung der Pr\u00FCfmaschine muss mindestens der Klasse 1 nach ISO 7500-1 entsprechen.",
+        "value" : "\"Genauigkeit der Pr\u00FCfeinrichtungen: Die Kraftmesseinrichtung der Pr\u00FCfmaschine muss mindestens der Klasse 1 nach ISO 7500-1 entsprechen.\" [DIN EN ISO 6892-1, 9]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Type of the force measurement (force transducer, strain gauges, ....)",
+        "value" : "\"Type of the force measurement (force transducer, strain gauges, ....)\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Type of the force transducer",
+        "value" : "\"Type of the force transducer\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -34,6 +34,13 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Type of the force measurement (force transducer, strain gauges, ....)",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ],
@@ -82,6 +89,37 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 9",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 9",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, G.3.1.1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "Bulge Druck: \u00D6ldruckaufnehmer in der Kammer unterhalb der Probe, Tiefungskraft: \u00D6ldruckaufnehmer am Tiefungskolben",
         "type" : "literal"
@@ -115,12 +153,6 @@
       {
         "value" : "DIN EN ISO 6892-1, G.3.1.1",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "ForceMeasuringDevice",
         "type" : "literal"
         }
       

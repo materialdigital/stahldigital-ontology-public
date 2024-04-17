@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/DisplacementTransducer" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Type of the displacement transducer.",
+        "value" : "\"Type of the displacement transducer.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -16,6 +16,13 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Type of the displacement transducer.",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ],
@@ -52,6 +59,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "Clip gauge",
         "type" : "literal"
@@ -83,12 +97,6 @@
       {
         "value" : "deepl translator",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "DisplacementTransducer",
         "type" : "literal"
         }
       

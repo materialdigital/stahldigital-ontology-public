@@ -7,22 +7,25 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Original width of the parallel length of a flat test piece</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">OriginalThickness</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">(Anfangs-)Dicke einer Flachprobe oder Wanddicke eines Rohres</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"(Anfangs-)Dicke einer Flachprobe oder Wanddicke eines Rohres" [DIN EN ISO 6892-1, Tabelle 1]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">Original width of the parallel length of a flat test piece</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The initial thickness of the specimen." [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">The initial thickness of the specimen.</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The thickness of the specimen." [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">The thickness of the specimen.</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Original width of the parallel length of a flat test piece" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Probendicke</ns0:altlabel>
@@ -44,6 +47,15 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">OriginalThickness</ns0:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, Table 1</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">1.5</ns0:hasExampleData>
@@ -68,9 +80,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, Table 1</ns0:hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">OriginalThickness</ns0:hasShortId>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">ao</ns0:hasSymbol>

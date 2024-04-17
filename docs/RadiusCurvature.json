@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/RadiusCurvature" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Kr\u00FCmmungsradius des Kuppelpols.",
+        "value" : "\"Kr\u00FCmmungsradius des Kuppelpols.\" [DIN EN ISO 16808:2022-08, 12]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,6 +46,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN ISO 16808:2022-08, 12",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 16808:2022-08, 12",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "DIN EN ISO 16808:2022-08, 12",
         "lang" : "en",
@@ -55,12 +68,6 @@
       {
         "value" : "DIN EN ISO 16808:2022-08, 4",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "RadiusCurvature",
         "type" : "literal"
         }
       

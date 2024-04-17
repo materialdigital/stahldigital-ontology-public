@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/SampleIdentifier" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Unique ID (IWM intern)",
+        "value" : "\"Unique ID (IWM intern)\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -16,6 +16,13 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Unique ID (IWM intern)",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ],
@@ -72,6 +79,19 @@
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "SampleIdentifier",
         "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Unique ID (IWM intern)",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -153,12 +173,6 @@
       {
         "value" : "deepl translator",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "SampleIdentifier",
         "type" : "literal"
         }
       

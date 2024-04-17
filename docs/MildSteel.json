@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/MildSteel" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Stahl mit niedrigem Kohlestoffgehalt, niedriger Streckgrenze und hoher Duktilit\u00E4t",
+        "value" : "\"Stahl mit niedrigem Kohlestoffgehalt, niedriger Streckgrenze und hoher Duktilit\u00E4t\" [DIN EN 10346_2015]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -58,6 +58,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN 10346_2015",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "DX56D",
         "type" : "literal"
@@ -67,12 +74,6 @@
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "DIN EN 10346_2015",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "MildSteel",
         "type" : "literal"
         }
       

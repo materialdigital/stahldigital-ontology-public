@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/GridSize" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Rastergr\u00F6\u00DFe",
+        "value" : "\"Rastergr\u00F6\u00DFe\" [DIN EN ISO 12004-2: 2021_07, 12]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -52,6 +52,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 12",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 12",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "AFZ1-NZ50-25-D1Q",
         "lang" : "en",
@@ -67,12 +80,6 @@
       {
         "value" : "DIN EN ISO 12004-2: 2021_07, 12",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "GridSize",
         "type" : "literal"
         }
       

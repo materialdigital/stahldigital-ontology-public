@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/TestingDirection" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "testing direction related to the rolling direction",
+        "value" : "\"testing direction related to the rolling direction\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -58,6 +58,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "quer",
         "type" : "literal"
@@ -67,12 +74,6 @@
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "AFZ1-Fz-S1Q.xlsx",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TestingDirection",
         "type" : "literal"
         }
       

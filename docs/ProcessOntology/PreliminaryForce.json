@@ -2,14 +2,20 @@
 {
   "https://w3id.org/steel/ProcessOntology/PreliminaryForce" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "\"Vorkraft\" in DIN EN ISO 6892-1",
+        "value" : "\"\"Vorkraft\" in DIN EN ISO 6892-1\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht \u00FCberschreitet",
+        "value" : "\"Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht \u00FCberschreitet\" [DIN EN ISO 6892-1, 10.2]",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\"Vorkraft\" in DIN EN ISO 6892-1",
+        "lang" : "en",
         "type" : "literal"
         }
       
@@ -70,6 +76,25 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 10.2",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 10.2",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "2",
         "type" : "literal"
@@ -91,12 +116,6 @@
       {
         "value" : "DX56_D_FZ2_WR00_43.TXT",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "PreliminaryForce",
         "type" : "literal"
         }
       

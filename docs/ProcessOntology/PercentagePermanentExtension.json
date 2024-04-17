@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Vergr\u00F6\u00DFerung der Extensometer-Messl\u00E4nge nach Entfernen einer festgelegten, auf die Probe aufgebrachten Zugspannung , angegeben in Prozent, bezogen auf die Extensometer-Messl\u00E4nge",
+        "value" : "\"Vergr\u00F6\u00DFerung der Extensometer-Messl\u00E4nge nach Entfernen einer festgelegten, auf die Probe aufgebrachten Zugspannung , angegeben in Prozent, bezogen auf die Extensometer-Messl\u00E4nge\" [DIN EN ISO 6892-1, 3.6.2]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "plastic engineering strain",
+        "value" : "\"plastic engineering strain\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -58,6 +58,25 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.6.2",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.6.2",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "0.001",
         "type" : "literal"
@@ -79,12 +98,6 @@
       {
         "value" : "DIN EN ISO 6892-1, 3.6.2",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "PercentagePermanentExtension",
         "type" : "literal"
         }
       

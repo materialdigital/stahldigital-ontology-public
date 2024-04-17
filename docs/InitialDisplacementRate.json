@@ -2,19 +2,19 @@
 {
   "https://w3id.org/steel/ProcessOntology/InitialDisplacementRate" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Pr\u00FCfgeschwindigkeit, die als Auftreffgeschwindigkeit bei Versuchsbeginn nominell eingestellt wurde ",
+        "value" : "\"Pr\u00FCfgeschwindigkeit, die als Auftreffgeschwindigkeit bei Versuchsbeginn nominell eingestellt wurde \" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "The velocity of the actuator",
+        "value" : "\"The velocity of the actuator\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "initial displacement rate",
+        "value" : "\"initial displacement rate\" [ISO 26203-2, 2011, 4]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -70,6 +70,25 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "2500",
         "type" : "literal"
@@ -91,12 +110,6 @@
       {
         "value" : "YS1-Fz-D1Q",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "InitialDisplacementRate",
         "type" : "literal"
         }
       

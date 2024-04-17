@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/TrueStrain" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "true strain",
+        "value" : "\"true strain\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -70,6 +70,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "0.004",
         "type" : "literal"
@@ -79,12 +86,6 @@
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "AFZ1-Fz-S1Q.xlsx",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TrueStrain",
         "type" : "literal"
         }
       

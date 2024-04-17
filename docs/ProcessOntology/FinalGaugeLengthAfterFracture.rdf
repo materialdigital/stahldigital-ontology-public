@@ -13,10 +13,10 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">length between gauge length (3.1) marks on the test piece measured after rupture, at room temperature, the two pieces having been carefully fitted back together so that their axes lie in a straight line</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"length between gauge length (3.1) marks on the test piece measured after rupture, at room temperature, the two pieces having been carefully fitted back together so that their axes lie in a straight line" [DIN EN ISO 6892-1, 3.1.2]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">Länge zwischen den Marken zur Kennzeichnung der Messlänge (3.1) auf der Probe, die nach dem Bruch bei Raumtemperatur gemessen wird, nachdem die beiden Probenbruchstücke sorgfältig so zusammengefügt wurden, dass ihre Achsen in einer Geraden liegen</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Länge zwischen den Marken zur Kennzeichnung der Messlänge (3.1) auf der Probe, die nach dem Bruch bei Raumtemperatur gemessen wird, nachdem die beiden Probenbruchstücke sorgfältig so zusammengefügt wurden, dass ihre Achsen in einer Geraden liegen" [DIN EN ISO 6892-1, 3.1.2]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">final gauge length after fracture</ns0:altlabel>
@@ -25,13 +25,16 @@
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">FinalGaugeLengthAfterFracture</ns0:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, 3.1.2</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, 3.1.2</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, 3.1.2</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, 3.1.2</ns0:hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">FinalGaugeLengthAfterFracture</ns0:hasShortId>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">
     <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Lu</ns0:hasSymbol>

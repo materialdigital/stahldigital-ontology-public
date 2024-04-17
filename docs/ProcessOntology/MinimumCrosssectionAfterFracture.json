@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/MinimumCrosssectionAfterFracture" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "minimum cross-sectional area after fracture",
+        "value" : "\"minimum cross-sectional area after fracture\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -52,6 +52,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "4879",
         "type" : "literal"
@@ -61,12 +68,6 @@
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "YS1-Fz-D1Q",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "MinimumCrosssectionAfterFracture",
         "type" : "literal"
         }
       

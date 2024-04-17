@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/CoefficientOfCorrelation" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "zus\u00E4tzliches Ergebnis der linearen Regression, welches die Qualit\u00E4t der Spannung-Dehnung-Kurve in dem untersuchten Bereich beschreibt",
+        "value" : "\"zus\u00E4tzliches Ergebnis der linearen Regression, welches die Qualit\u00E4t der Spannung-Dehnung-Kurve in dem untersuchten Bereich beschreibt\" [DIN EN ISO 6892-1, 3.15]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "DIN EN ISO 6892-1, 3.15",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "CoefficientOfCorrelation",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 6892-1, 3.15",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.15",
+        "lang" : "en",
         "type" : "literal"
         }
       

@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/MajorTrueStrain" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Gr\u00F6\u00DFere Form\u00E4nderung",
+        "value" : "\"Gr\u00F6\u00DFere Form\u00E4nderung\" [DIN EN ISO 12004-2: 2021_07, 8]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "major true strain",
+        "value" : "\"major true strain\" [DIN EN ISO 12004-2: 2021_07, 8]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -64,6 +64,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 8",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 8",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "0.40799999999999997",
         "type" : "literal"
@@ -85,12 +98,6 @@
       {
         "value" : "DIN EN ISO 12004-2: 2021_07, 8",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "MajorTrueStrain",
         "type" : "literal"
         }
       

@@ -2,13 +2,19 @@
 {
   "https://w3id.org/steel/ProcessOntology/TimeStamp" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Date and time when the experiment was conducted.",
+        "value" : "\"Date and time when the experiment was conducted.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Date when the experiment was conducted.",
+        "value" : "\"Date when the experiment was conducted.\" [Authors]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Date and time when the experiment was conducted.",
         "lang" : "en",
         "type" : "literal"
         }
@@ -22,6 +28,13 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Date when the experiment was conducted.",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ],
@@ -65,6 +78,13 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "TimeStamp",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
         "lang" : "en",
         "type" : "literal"
         }
@@ -142,12 +162,6 @@
       {
         "value" : "deepl translator",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TimeStamp",
         "type" : "literal"
         }
       

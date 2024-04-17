@@ -7,16 +7,22 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">The material used in the experiment.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Material</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">Bezeichnung des Werkstoffs.</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Bezeichnung des Werkstoffs." [General Knowledge]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">The material used in the experiment.</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Bezeichnung des Werkstoffs." [DIN EN ISO 16808:2022-08, 12]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The material used in the experiment." [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">material</ns0:altlabel>
@@ -37,6 +43,21 @@
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Material</ns0:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">General Knowledge</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">General Knowledge</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 16808:2022-08, 12</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 16808:2022-08, 12</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">ZStE340</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
@@ -52,22 +73,19 @@
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">AFZ-BU-S1.TXT</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 16808:2022-08, 12</ns0:hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 16808:2022-08, 12</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">General Knowledge</ns0:hasLabelSource>
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 16808:2022-08, 12</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">General Knowledge</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-ST-D1</ns0:hasLabelSource>
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">General Knowledge</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">AFZ1-NZ50-25-D1Q</ns0:hasLabelSource>
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-ST-D1</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 12004-2: 2021_07</ns0:hasLabelSource>
@@ -82,9 +100,9 @@
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">AWA_1_01_Rz-46N171</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-NZ50-25-D1Q</ns0:hasLabelSource>
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">AFZ1-NZ50-25-D1Q</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">Material</ns0:hasShortId>
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-NZ50-25-D1Q</ns0:hasLabelSource>
   </rdf:Description>
 </rdf:RDF>

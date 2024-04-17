@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/DualPhaseSteel" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Stahl mit einem ferritischen und martensitischen Grundgef\u00FCge und m\u00F6glicherweise mit Bainit als Zweitphase",
+        "value" : "\"Stahl mit einem ferritischen und martensitischen Grundgef\u00FCge und m\u00F6glicherweise mit Bainit als Zweitphase\" [DIN EN 10346_2015]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -58,6 +58,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN 10346_2015",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "HCT980X",
         "type" : "literal"
@@ -67,12 +74,6 @@
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "DIN EN 10346_2015",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "DualPhaseSteel",
         "type" : "literal"
         }
       

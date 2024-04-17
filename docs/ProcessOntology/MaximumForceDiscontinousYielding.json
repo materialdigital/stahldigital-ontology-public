@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/MaximumForceDiscontinousYielding" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "<bei Werkstoffen, die ein diskontinuierliches Flie\u00DFen zeigen> gr\u00F6\u00DFte Kraft, der die Probe w\u00E4hrend des Versuchs nach dem Beginn der Verfestigung standh\u00E4lt",
+        "value" : "\"<bei Werkstoffen, die ein diskontinuierliches Flie\u00DFen zeigen> gr\u00F6\u00DFte Kraft, der die Probe w\u00E4hrend des Versuchs nach dem Beginn der Verfestigung standh\u00E4lt\" [DIN EN ISO 6892-1, 3.9.2]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "DIN EN ISO 6892-1, 3.9.2",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "MaximumForceDiscontinousYielding",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 6892-1, 3.9.2",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.9.2",
+        "lang" : "en",
         "type" : "literal"
         }
       

@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/TrueTotalStrain" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "gesamte wahre Dehnung",
+        "value" : "\"gesamte wahre Dehnung\" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "true total strain ",
+        "value" : "\"true total strain \" [ISO 26203-2, 2011, 4]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -52,6 +52,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "ISO 26203-2, 2011, 4",
         "lang" : "en",
@@ -61,12 +74,6 @@
       {
         "value" : "Standard definition specific",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TrueTotalStrain",
         "type" : "literal"
         }
       

@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/TotalEngineeringStrain" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "gesamte (elastische und plastische) technische Dehnung",
+        "value" : "\"gesamte (elastische und plastische) technische Dehnung\" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "total engineering strain ",
+        "value" : "\"total engineering strain \" [ISO 26203-2, 2011, 4]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -52,6 +52,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "ISO 26203-2, 2011, 4",
         "lang" : "en",
@@ -61,12 +74,6 @@
       {
         "value" : "Standard definition specific",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TotalEngineeringStrain",
         "type" : "literal"
         }
       

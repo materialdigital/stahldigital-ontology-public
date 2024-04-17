@@ -2,19 +2,19 @@
 {
   "https://w3id.org/steel/ProcessOntology/TestPieceGeometry" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "The specimen geometry including nominal dimensions",
+        "value" : "\"The specimen geometry including nominal dimensions\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "The type of the specimen.",
+        "value" : "\"The type of the specimen.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "die Probengeometrie incl. Sollabmessungen",
+        "value" : "\"die Probengeometrie incl. Sollabmessungen\" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -28,6 +28,13 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "The type of the specimen.",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ],
@@ -107,6 +114,19 @@
       {
         "value" : "https://w3id.org/steel/ProcessOntology/TestStandard",
         "type" : "uri"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ],
@@ -193,12 +213,6 @@
       {
         "value" : "deepl translator",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TestPieceGeometry",
         "type" : "literal"
         }
       

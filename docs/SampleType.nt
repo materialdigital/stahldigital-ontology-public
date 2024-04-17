@@ -1,5 +1,5 @@
-<https://w3id.org/steel/ProcessOntology/SampleType> <http://purl.org/dc/terms/description> "The general type of the specimen."@en .
-<https://w3id.org/steel/ProcessOntology/SampleType> <http://purl.org/dc/terms/description> "die allgemeine Probenart"@de .
+<https://w3id.org/steel/ProcessOntology/SampleType> <http://purl.org/dc/terms/description> "\"The general type of the specimen.\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/SampleType> <http://purl.org/dc/terms/description> "\"die allgemeine Probenart\" [Authors]"@de .
 <https://w3id.org/steel/ProcessOntology/SampleType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/SampleType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/SampleType> <http://www.w3.org/2000/01/rdf-schema#label> "SampleType"@en .
@@ -9,7 +9,8 @@
 <https://w3id.org/steel/ProcessOntology/SampleType> <http://www.w3.org/2004/02/skos/core#altlabel> "sample type"@en .
 <https://w3id.org/steel/ProcessOntology/SampleType> <http://www.w3.org/2004/02/skos/core#preflabel> "SampleType"@en .
 <https://w3id.org/steel/ProcessOntology/SampleType> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> .
+<https://w3id.org/steel/ProcessOntology/SampleType> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
+<https://w3id.org/steel/ProcessOntology/SampleType> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
 <https://w3id.org/steel/ProcessOntology/SampleType> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Flachzugprobe" .
 <https://w3id.org/steel/ProcessOntology/SampleType> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "K-Item"@de .
 <https://w3id.org/steel/ProcessOntology/SampleType> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "linguee"@en .
-<https://w3id.org/steel/ProcessOntology/SampleType> <https://w3id.org/steel/ProcessOntology/hasShortId> "SampleType" .

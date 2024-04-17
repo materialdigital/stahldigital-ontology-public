@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/SampleType" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "The general type of the specimen.",
+        "value" : "\"The general type of the specimen.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "die allgemeine Probenart",
+        "value" : "\"die allgemeine Probenart\" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -70,6 +70,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "Flachzugprobe",
         "type" : "literal"
@@ -85,12 +98,6 @@
       {
         "value" : "linguee",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "SampleType",
         "type" : "literal"
         }
       

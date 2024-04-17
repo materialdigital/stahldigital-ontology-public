@@ -2,19 +2,25 @@
 {
   "https://w3id.org/steel/ProcessOntology/TestStandard" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Test Standard unter dem der hydraulische Tiefungsversuch durchgef\u00FChrt wurde.",
+        "value" : "\"Test Standard unter dem der hydraulische Tiefungsversuch durchgef\u00FChrt wurde.\" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Test standard to which the test is referred",
+        "value" : "\"Test Standard unter dem der hydraulische Tiefungsversuch durchgef\u00FChrt wurde.\" [wes]",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\"Test standard to which the test is referred\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "The norm according to which the experiment was conducted.",
+        "value" : "\"The norm according to which the experiment was conducted.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -28,6 +34,13 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "The norm according to which the experiment was conducted.",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ],
@@ -66,6 +79,25 @@
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "TestStandard",
         "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "wes",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -119,12 +151,6 @@
       {
         "value" : "DIN EN ISO 16808:2022-08, 12",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TestStandard",
         "type" : "literal"
         }
       

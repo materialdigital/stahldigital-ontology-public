@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/PistonSpeed" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Geschwindigkeit des Kolbens w\u00E4hrend des hydraulischen Tiefungsversuchs.",
+        "value" : "\"Geschwindigkeit des Kolbens w\u00E4hrend des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -52,6 +52,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN ISO 16808:2022-08, 12",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 16808:2022-08, 12",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "0.15",
         "type" : "literal"
@@ -73,12 +86,6 @@
       {
         "value" : "DIN EN ISO 16808:2022-08, 12",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "PistonSpeed",
         "type" : "literal"
         }
       

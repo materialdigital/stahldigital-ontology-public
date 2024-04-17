@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/AbsoluteCrossheadTravel" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Absolute position der Traverse",
+        "value" : "\"Absolute position der Traverse\" [Author]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Absolute position of the crosshead.",
+        "value" : "\"Absolute position of the crosshead.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -58,6 +58,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Author",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "1158.37",
         "type" : "literal"
@@ -73,12 +86,6 @@
       {
         "value" : "deepl translator",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "AbsoluteCrossheadTravel",
         "type" : "literal"
         }
       

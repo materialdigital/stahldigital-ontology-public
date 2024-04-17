@@ -1,8 +1,9 @@
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://purl.org/dc/terms/description> "The specimen geometry including nominal dimensions"@en .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://purl.org/dc/terms/description> "The type of the specimen."@en .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://purl.org/dc/terms/description> "die Probengeometrie incl. Sollabmessungen"@de .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://purl.org/dc/terms/description> "\"The specimen geometry including nominal dimensions\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://purl.org/dc/terms/description> "\"The type of the specimen.\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://purl.org/dc/terms/description> "\"die Probengeometrie incl. Sollabmessungen\" [Authors]"@de .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of the specimen."@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2000/01/rdf-schema#label> "TestPieceGeometry"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/SampleType> .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/TestStandard> .
@@ -16,6 +17,8 @@
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#preflabel> "TestPieceGeometry"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/SampleType> .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/TestStandard> .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Crashbox" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "FZ2 (L0=80_b0=20_R20)" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Flach-Zug" .
@@ -31,4 +34,3 @@
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "deepl translator"@en .
-<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasShortId> "TestPieceGeometry" .

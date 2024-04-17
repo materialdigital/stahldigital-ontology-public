@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/ExtensionAtFracture" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Displacement of the extensometer (!) length at fracture",
+        "value" : "\"Displacement of the extensometer (!) length at fracture\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -46,15 +46,16 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : "AFZ1-Fz-S1Q.xlsx",
-        "lang" : "de",
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
         "type" : "literal"
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "ExtensionAtFracture",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "AFZ1-Fz-S1Q.xlsx",
+        "lang" : "de",
         "type" : "literal"
         }
       

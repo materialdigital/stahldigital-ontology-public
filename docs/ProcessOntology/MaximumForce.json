@@ -2,19 +2,19 @@
 {
   "https://w3id.org/steel/ProcessOntology/MaximumForce" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Maximalkraft",
+        "value" : "\"Maximalkraft\" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "highest force that the test piece withstands during the test",
+        "value" : "\"highest force that the test piece withstands during the test\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "maximum force",
+        "value" : "\"maximum force\" [ISO 26203-2, 2011, 4]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -82,6 +82,25 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "500 kN",
         "type" : "literal"
@@ -114,12 +133,6 @@
       {
         "value" : "Standard definition specific",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "MaximumForce",
         "type" : "literal"
         }
       

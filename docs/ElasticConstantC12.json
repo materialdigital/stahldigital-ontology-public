@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/ElasticConstantC12" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Elastische Konstant, um das richtungsabh\u00E4ngige elastische Materialverhalten zu beschreiben",
+        "value" : "\"Elastische Konstant, um das richtungsabh\u00E4ngige elastische Materialverhalten zu beschreiben\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "General Knowledge",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "ElasticConstantC12",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "General Knowledge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "General Knowledge",
+        "lang" : "en",
         "type" : "literal"
         }
       

@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/TestDirection" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "die Orientierung der Proben muss die Richtung der geringsten Grenzform\u00E4nderung sein (Stahl Aussparungsrichtung quer zur WR, Aluminium Aussparungsrichtung l\u00E4ngs zur WR)",
+        "value" : "\"die Orientierung der Proben muss die Richtung der geringsten Grenzform\u00E4nderung sein (Stahl Aussparungsrichtung quer zur WR, Aluminium Aussparungsrichtung l\u00E4ngs zur WR)\" [DIN EN ISO 12004-2: 2021_07, 5]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -58,6 +58,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 5",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 5",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "quer",
         "type" : "literal"
@@ -79,12 +92,6 @@
       {
         "value" : "DIN EN ISO 12004-2: 2021_07, 5",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TestDirection",
         "type" : "literal"
         }
       

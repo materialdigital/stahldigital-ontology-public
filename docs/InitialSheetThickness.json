@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/InitialSheetThickness" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Ausgangsblechdicke",
+        "value" : "\"Ausgangsblechdicke\" [DIN EN ISO 12004-2: 2021_07, 9]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -52,6 +52,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 9",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 9",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "1,5",
         "type" : "literal"
@@ -73,12 +86,6 @@
       {
         "value" : "DIN EN ISO 12004-2: 2021_07, 9",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "InitialSheetThickness",
         "type" : "literal"
         }
       

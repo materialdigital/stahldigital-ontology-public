@@ -13,7 +13,7 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength_1Percentage">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">yield strength, 1 %</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"yield strength, 1 %" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength_1Percentage">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Rp1</ns0:altlabel>
@@ -22,10 +22,10 @@
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">ProofStrength_1Percentage</ns0:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength_1Percentage">
-    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-Fz-S1Q.xlsx</ns0:hasLabelSource>
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength_1Percentage">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">ProofStrength_1Percentage</ns0:hasShortId>
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-Fz-S1Q.xlsx</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength_1Percentage">
     <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Rp1</ns0:hasSymbol>
@@ -40,12 +40,12 @@
     <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">MPa</ns0:hasTypicalUnitLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength_1Percentage">
-    <ns0:isBasedOn xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://w3id.org/steel/ProcessOntology/EngineeringStress"/>
+    <ns0:isBasedOn xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://w3id.org/steel/ProcessOntology/PercentageExtension"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength_1Percentage">
     <ns0:isBasedOn xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://w3id.org/steel/ProcessOntology/ModulusOfElasticity"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength_1Percentage">
-    <ns0:isBasedOn xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://w3id.org/steel/ProcessOntology/PercentageExtension"/>
+    <ns0:isBasedOn xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://w3id.org/steel/ProcessOntology/EngineeringStress"/>
   </rdf:Description>
 </rdf:RDF>

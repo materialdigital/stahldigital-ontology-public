@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/PunchDiameter" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Stempeldurchmesser ",
+        "value" : "\"Stempeldurchmesser \" [DIN EN ISO 12004-2: 2021_07, 8]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -52,6 +52,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 8",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 8",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "100",
         "type" : "literal"
@@ -67,12 +80,6 @@
       {
         "value" : "DIN EN ISO 12004-2: 2021_07, 8",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "PunchDiameter",
         "type" : "literal"
         }
       

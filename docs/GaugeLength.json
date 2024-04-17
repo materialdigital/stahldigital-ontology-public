@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/GaugeLength" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "L\u00E4nge des parallelen Teils der Probe, an dem zu einem beliebigen Zeitpunkt w\u00E4hrend des Versuchs die Verl\u00E4ngerung gemessen wird",
+        "value" : "\"L\u00E4nge des parallelen Teils der Probe, an dem zu einem beliebigen Zeitpunkt w\u00E4hrend des Versuchs die Verl\u00E4ngerung gemessen wird\" [DIN EN ISO 6892-1, 3.1]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "length of the parallel portion of the test piece on which elongation is measured at any moment during the test",
+        "value" : "\"length of the parallel portion of the test piece on which elongation is measured at any moment during the test\" [DIN EN ISO 6892-1, 3.1]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -52,7 +52,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "DIN EN ISO 6892-1, 3.1",
         "lang" : "de",
         "type" : "literal"
@@ -65,8 +65,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "GaugeLength",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 6892-1, 3.1",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.1",
+        "lang" : "en",
         "type" : "literal"
         }
       

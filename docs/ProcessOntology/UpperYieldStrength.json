@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/UpperYieldStrength" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "h\u00F6chste Spannung, bevor der erste Kraftabfall auftritt",
+        "value" : "\"h\u00F6chste Spannung, bevor der erste Kraftabfall auftritt\" [DIN EN ISO 6892-1, 3.10.2.1]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "DIN EN ISO 6892-1, 3.10.2.1",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "UpperYieldStrength",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 6892-1, 3.10.2.1",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.10.2.1",
+        "lang" : "en",
         "type" : "literal"
         }
       

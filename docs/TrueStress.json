@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/TrueStress" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "true stress",
+        "value" : "\"true stress\" [ISO 26203-2, 2011, 4]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "wahre Spannung",
+        "value" : "\"wahre Spannung\" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -88,6 +88,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "9752",
         "type" : "literal"
@@ -115,12 +128,6 @@
       {
         "value" : "YS1-Fz-D1Q",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TrueStress",
         "type" : "literal"
         }
       

@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/YieldStrength" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "wenn der metallische Werkstoff diese Eigenschaft aufweist, die Spannung zu einem bestimmten Zeitpunkt w\u00E4hrend des Versuchs bei dem eine plastische Verformung ohne Zunahme der Kraft auftritt",
+        "value" : "\"wenn der metallische Werkstoff diese Eigenschaft aufweist, die Spannung zu einem bestimmten Zeitpunkt w\u00E4hrend des Versuchs bei dem eine plastische Verformung ohne Zunahme der Kraft auftritt\" [DIN EN ISO 6892-1, 3.10.2]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "DIN EN ISO 6892-1, 3.10.2",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "YieldStrength",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 6892-1, 3.10.2",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.10.2",
+        "lang" : "en",
         "type" : "literal"
         }
       

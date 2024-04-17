@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/Machine" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Data of the machine used for the experiment.",
+        "value" : "\"Data of the machine used for the experiment.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -16,6 +16,13 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Data of the machine used for the experiment.",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ],
@@ -71,6 +78,13 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "Machine",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
         "lang" : "en",
         "type" : "literal"
         }
@@ -160,12 +174,6 @@
       {
         "value" : "standard definition specific",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "Machine",
         "type" : "literal"
         }
       

@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/Stress" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Kraft zu einem beliebigen Zeitpunkt w\u00E4hrend des Versuchs dividiert durch den Anfangsquerschnitt der Probe",
+        "value" : "\"Kraft zu einem beliebigen Zeitpunkt w\u00E4hrend des Versuchs dividiert durch den Anfangsquerschnitt der Probe\" [DIN EN ISO 6892-1, 3.10]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -58,7 +58,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "DIN EN ISO 6892-1, 3.10",
         "lang" : "de",
         "type" : "literal"
@@ -71,8 +71,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "Stress",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 6892-1, 3.10",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.10",
+        "lang" : "en",
         "type" : "literal"
         }
       

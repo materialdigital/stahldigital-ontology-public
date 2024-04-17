@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/MaterialCard" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Eine Materialkarten beschreibt das Materialverhalten eines Werkstoffes in Form von Daten und Parametern",
+        "value" : "\"Eine Materialkarten beschreibt das Materialverhalten eines Werkstoffes in Form von Daten und Parametern\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -16,6 +16,13 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "The MaterialCard is a digital representation of a real world steel; for example HCT980X. It contains all information to reproduce the behaviour steel within a simulation as close as possible to it's real world counter part.",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ],
@@ -112,7 +119,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "General Knowledge",
         "lang" : "de",
         "type" : "literal"
@@ -125,8 +132,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "MaterialCard",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "General Knowledge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "General Knowledge",
+        "lang" : "en",
         "type" : "literal"
         }
       

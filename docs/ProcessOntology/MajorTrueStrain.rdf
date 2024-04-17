@@ -13,10 +13,10 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MajorTrueStrain">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">Größere Formänderung</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"major true strain" [DIN EN ISO 12004-2: 2021_07, 8]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MajorTrueStrain">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">major true strain</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Größere Formänderung" [DIN EN ISO 12004-2: 2021_07, 8]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MajorTrueStrain">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">major limit strain</ns0:altlabel>
@@ -31,6 +31,12 @@
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">MajorTrueStrain</ns0:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MajorTrueStrain">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 12004-2: 2021_07, 8</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MajorTrueStrain">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 12004-2: 2021_07, 8</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MajorTrueStrain">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">0.40799999999999997</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MajorTrueStrain">
@@ -41,9 +47,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MajorTrueStrain">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 12004-2: 2021_07, 8</ns0:hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MajorTrueStrain">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">MajorTrueStrain</ns0:hasShortId>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MajorTrueStrain">
     <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">ε_1</ns0:hasSymbol>

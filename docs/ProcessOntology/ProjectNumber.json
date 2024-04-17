@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/ProjectNumber" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Project identification number.",
+        "value" : "\"Project identification number.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -16,6 +16,13 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+        "value" : "Project identification number.",
+        "lang" : "en",
+        "type" : "literal"
         }
       
       ],
@@ -59,6 +66,13 @@
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
         "value" : "ProjectNumber",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
         "lang" : "en",
         "type" : "literal"
         }
@@ -130,12 +144,6 @@
       {
         "value" : "deepl translator",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "ProjectNumber",
         "type" : "literal"
         }
       

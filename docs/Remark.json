@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/Remark" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "A specific comment about the experiment.",
+        "value" : "\"A specific comment about the experiment.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -58,6 +58,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "Vorversuch",
         "type" : "literal"
@@ -79,12 +86,6 @@
       {
         "value" : "deepl translator",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "Remark",
         "type" : "literal"
         }
       

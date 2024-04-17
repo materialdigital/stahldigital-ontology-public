@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/OriginalDiameter" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "(Anfangs-)Probendurchmesser in der parallelen L\u00E4nge einer Rundprobe oder Durchmesser eines Drahtes mit Kreisquerschnitt oder Innendurchmesser eines Rohres",
+        "value" : "\"(Anfangs-)Probendurchmesser in der parallelen L\u00E4nge einer Rundprobe oder Durchmesser eines Drahtes mit Kreisquerschnitt oder Innendurchmesser eines Rohres\" [DIN EN ISO 6892-1, Tabelle 1]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "DIN EN ISO 6892-1, Tabelle 1",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "OriginalDiameter",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 6892-1, Tabelle 1",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, Table 1",
+        "lang" : "en",
         "type" : "literal"
         }
       

@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/Texture" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Textur des Mikrostrukturmodells, wird durch drei Eulerwinkel definiert",
+        "value" : "\"Textur des Mikrostrukturmodells, wird durch drei Eulerwinkel definiert\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -64,7 +64,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "General Knowledge",
         "lang" : "de",
         "type" : "literal"
@@ -77,8 +77,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "Texture",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "General Knowledge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "General Knowledge",
+        "lang" : "en",
         "type" : "literal"
         }
       

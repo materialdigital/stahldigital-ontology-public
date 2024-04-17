@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/StressRate" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Zunahme der Spannung je Zeiteinheit",
+        "value" : "\"Zunahme der Spannung je Zeiteinheit\" [DIN EN ISO 6892-1, 3.7.4]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "stress rate",
+        "value" : "\"stress rate\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -80,6 +80,25 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.7.4",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.7.4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "19.63",
         "type" : "literal"
@@ -101,12 +120,6 @@
       {
         "value" : "DIN EN ISO 6892-1, 3.7.4",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "StressRate",
         "type" : "literal"
         }
       

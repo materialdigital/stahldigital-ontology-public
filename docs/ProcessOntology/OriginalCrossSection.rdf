@@ -13,13 +13,13 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">Anfangsquerschnitt innerhalb der parallelen Länge</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"original cross-sectional area of the parallel length" [ISO 26203-2, 2011, 4]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">original cross-sectional area of the parallel length</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Anfangsquerschnitt innerhalb der parallelen Länge" [DIN EN ISO 6892-1, Tabelle 1]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">original crosssection area of the parallel length</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"original crosssection area of the parallel length" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">original cross-sectional area</ns0:altlabel>
@@ -31,13 +31,22 @@
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">OriginalCrossSection</ns0:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, Table 1</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">ISO 26203-2, 2011, 4</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">14.98</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">ISO 26203-2, 2011, 4</ns0:hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
-    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, Table 1</ns0:hasLabelSource>
@@ -46,7 +55,7 @@
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-Fz-S1Q.xlsx</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">OriginalCrossSection</ns0:hasShortId>
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
     <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">So</ns0:hasSymbol>

@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Spezifische plastische Arbeit, die zur Bestimmung des Punkts auf dem Flie\u00DFort verwendet wurde",
+        "value" : "\"Spezifische plastische Arbeit, die zur Bestimmung des Punkts auf dem Flie\u00DFort verwendet wurde\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "General Knowledge",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "SpecificPlasticWorkValue",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "General Knowledge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "General Knowledge",
+        "lang" : "en",
         "type" : "literal"
         }
       

@@ -16,10 +16,10 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">zeitabhängige technische Dehnrate = de(t)/dt</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"time-dependent engineering strain rate = de(t)/dt" [ISO 26203-2, 2011, 4]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">time-dependent engineering strain rate = de(t)/dt</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"zeitabhängige technische Dehnrate = de(t)/dt" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Dehnrate</ns0:altlabel>
@@ -37,6 +37,15 @@
     <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="https://w3id.org/steel/ProcessOntology/StrainRate"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">Authors</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">ISO 26203-2, 2011, 4</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">0.019</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
@@ -47,9 +56,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">ISO 26203-2, 2011, 4</ns0:hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">TimeDependentEngineeringStrainRate</ns0:hasShortId>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
     <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">e(t)</ns0:hasSymbol>

@@ -13,13 +13,13 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">initial displacement rate</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Prüfgeschwindigkeit, die als Auftreffgeschwindigkeit bei Versuchsbeginn nominell eingestellt wurde " [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">The velocity of the actuator</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"initial displacement rate" [ISO 26203-2, 2011, 4]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">Prüfgeschwindigkeit, die als Auftreffgeschwindigkeit bei Versuchsbeginn nominell eingestellt wurde </ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The velocity of the actuator" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Initial displacement rate v0</ns0:altlabel>
@@ -34,6 +34,15 @@
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">InitialDisplacementRate</ns0:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">ISO 26203-2, 2011, 4</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">Authors</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">2500</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
@@ -44,9 +53,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">ISO 26203-2, 2011, 4</ns0:hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">InitialDisplacementRate</ns0:hasShortId>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialDisplacementRate">
     <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">vo</ns0:hasSymbol>

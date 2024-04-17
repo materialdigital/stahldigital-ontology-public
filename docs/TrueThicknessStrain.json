@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/TrueThicknessStrain" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Umformgrad in Dickenrichtung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.",
+        "value" : "\"Umformgrad in Dickenrichtung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -58,6 +58,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN ISO 16808:2022-08, 12",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 16808:2022-08, 12",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "DIN EN ISO 12004-2: 2021_07, 8",
         "lang" : "de",
@@ -79,12 +92,6 @@
       {
         "value" : "DIN EN ISO 16808:2022-08, 4",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TrueThicknessStrain",
         "type" : "literal"
         }
       

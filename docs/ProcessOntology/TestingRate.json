@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/TestingRate" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "w\u00E4hrend des Versuchs verwendete Geschwindigkeit(en) als Oberbegriff",
+        "value" : "\"w\u00E4hrend des Versuchs verwendete Geschwindigkeit(en) als Oberbegriff\" [DIN EN ISO 6892-1, 3.7]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "DIN EN ISO 6892-1, 10.3",
         "lang" : "en",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TestingRate",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 6892-1, 10.3",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.7",
+        "lang" : "de",
         "type" : "literal"
         }
       

@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/FormingLimitDiagram" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Grenzform\u00E4nderungsdiagramm",
+        "value" : "\"Grenzform\u00E4nderungsdiagramm\" [DIN EN ISO 12004-2: 2021_07]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -52,8 +52,8 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : "DIN EN ISO 12004-2: 2021_07, 7",
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN ISO 12004-2: 2021_07",
         "lang" : "de",
         "type" : "literal"
         }
@@ -65,8 +65,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "FormingLimitDiagram",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 7",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 7",
+        "lang" : "en",
         "type" : "literal"
         }
       

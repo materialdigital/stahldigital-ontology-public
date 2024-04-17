@@ -19,7 +19,10 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Vorkraft" in DIN EN ISO 6892-1</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet" [DIN EN ISO 6892-1, 10.2]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">""Vorkraft" in DIN EN ISO 6892-1" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">preliminary force</ns0:altlabel>
@@ -34,19 +37,25 @@
     <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, 10.2</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, 10.2</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">2</ns0:hasExampleData>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
-    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DX56_D_FZ2_WR00_43.TXT</ns0:hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
-    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, 10.2</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, 10.2</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">PreliminaryForce</ns0:hasShortId>
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, 10.2</ns0:hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DX56_D_FZ2_WR00_43.TXT</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <ns0:hasTypicalUnit xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="http://qudt.org/vocab/unit/KiloN"/>

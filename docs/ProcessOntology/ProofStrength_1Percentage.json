@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/ProofStrength_1Percentage" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "yield strength, 1 %",
+        "value" : "\"yield strength, 1 %\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -46,15 +46,16 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : "AFZ1-Fz-S1Q.xlsx",
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
         "lang" : "en",
         "type" : "literal"
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "ProofStrength_1Percentage",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "AFZ1-Fz-S1Q.xlsx",
+        "lang" : "en",
         "type" : "literal"
         }
       

@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/PercentageExtension" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "engineering strain",
+        "value" : "\"engineering strain\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -58,6 +58,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "0.001",
         "type" : "literal"
@@ -84,12 +91,6 @@
       {
         "value" : "YS1-Fz-D1Q",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "PercentageExtension",
         "type" : "literal"
         }
       

@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/RadiusDie" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Matrizenkantenradius (innen) der Pr\u00FCfeinrichtung.",
+        "value" : "\"Matrizenkantenradius (innen) der Pr\u00FCfeinrichtung.\" [DIN EN ISO 16808:2022-08, 4]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "DIN EN ISO 16808:2022-08, 4",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "RadiusDie",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 16808:2022-08, 4",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 16808:2022-08, 4",
+        "lang" : "en",
         "type" : "literal"
         }
       

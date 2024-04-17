@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/WidthChange" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Change of the sample width.",
+        "value" : "\"Change of the sample width.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "change of width of the extensometer gauge length",
+        "value" : "\"change of width of the extensometer gauge length\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -64,6 +64,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "0.001",
         "type" : "literal"
@@ -90,12 +97,6 @@
       {
         "value" : "deepl translator",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "WidthChange",
         "type" : "literal"
         }
       

@@ -2,25 +2,25 @@
 {
   "https://w3id.org/steel/ProcessOntology/TestTemperature" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Pr\u00FCftemperatur",
+        "value" : "\"Pr\u00FCftemperatur\" [DIN EN ISO 12004-2: 2021_07, 5]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "The initial test temperature during the experiment (neglecting adiabatic heating)",
+        "value" : "\"The initial test temperature during the experiment (neglecting adiabatic heating)\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "The temperature during the experiment.",
+        "value" : "\"The temperature during the experiment.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Versuche unter kontrollierten Bedingungen m\u00FCssen bei einer Temperatur von (23 \u00B1 5) \u00B0C durchgef\u00FChrt werden.",
+        "value" : "\"Versuche unter kontrollierten Bedingungen m\u00FCssen bei einer Temperatur von (23 \u00B1 5) \u00B0C durchgef\u00FChrt werden.\" [DIN EN ISO 6892-1]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -82,6 +82,31 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 5",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 5",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "22",
         "type" : "literal"
@@ -132,12 +157,6 @@
       {
         "value" : "DX56_D_FZ2_WR00_43.TXT",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TestTemperature",
         "type" : "literal"
         }
       

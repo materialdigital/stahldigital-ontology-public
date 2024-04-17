@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/CrossheadDisplacement" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Displacement of the actuator",
+        "value" : "\"Displacement of the actuator\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -58,6 +58,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "14786",
         "type" : "literal"
@@ -73,12 +80,6 @@
       {
         "value" : "AFZ1-ST-D1",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "CrossheadDisplacement",
         "type" : "literal"
         }
       

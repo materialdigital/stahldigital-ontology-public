@@ -13,7 +13,7 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestDirection">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">die Orientierung der Proben muss die Richtung der geringsten Grenzformänderung sein (Stahl Aussparungsrichtung quer zur WR, Aluminium Aussparungsrichtung längs zur WR)</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"die Orientierung der Proben muss die Richtung der geringsten Grenzformänderung sein (Stahl Aussparungsrichtung quer zur WR, Aluminium Aussparungsrichtung längs zur WR)" [DIN EN ISO 12004-2: 2021_07, 5]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestDirection">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">test direction </ns0:altlabel>
@@ -28,10 +28,13 @@
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">TestDirection</ns0:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestDirection">
-    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">quer</ns0:hasExampleData>
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 12004-2: 2021_07, 5</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestDirection">
-    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 12004-2: 2021_07, 5</ns0:hasLabelSource>
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 12004-2: 2021_07, 5</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestDirection">
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">quer</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestDirection">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 12004-2: 2021_07, 13</ns0:hasLabelSource>
@@ -40,6 +43,6 @@
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-NZ50-25-D1Q</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestDirection">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">TestDirection</ns0:hasShortId>
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 12004-2: 2021_07, 5</ns0:hasLabelSource>
   </rdf:Description>
 </rdf:RDF>

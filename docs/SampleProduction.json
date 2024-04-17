@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/SampleProduction" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "der Herstellungsprozess der Probe",
+        "value" : "\"der Herstellungsprozess der Probe\" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "the production type for the manufactoring of the sample",
+        "value" : "\"the production type for the manufactoring of the sample\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -58,6 +58,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "Wasserstrahlschneiden",
         "type" : "literal"
@@ -73,12 +86,6 @@
       {
         "value" : "linguee",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "SampleProduction",
         "type" : "literal"
         }
       

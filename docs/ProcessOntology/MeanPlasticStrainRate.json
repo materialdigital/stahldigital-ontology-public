@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/MeanPlasticStrainRate" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Mittelwert der zeitabh\u00E4ngigen technischen Dehnrate: de(t)/dt im Bereich zwischen Flie\u00DFbeginn oder 1% Dehnung und Dehnung bei Maximalkraft",
+        "value" : "\"Mittelwert der zeitabh\u00E4ngigen technischen Dehnrate: de(t)/dt im Bereich zwischen Flie\u00DFbeginn oder 1% Dehnung und Dehnung bei Maximalkraft\" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "mean value of the time dependent engineering strain rate: de(t)/dt in the range between start of yield point or 1% strain and strain ar maximum force",
+        "value" : "\"mean value of the time dependent engineering strain rate: de(t)/dt in the range between start of yield point or 1% strain and strain ar maximum force\" [ISO 26203-2, 2011, 4]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -52,6 +52,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "ISO 26203-2, 2011, 4",
         "lang" : "en",
@@ -61,12 +74,6 @@
       {
         "value" : "Standard definition specific",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "MeanPlasticStrainRate",
         "type" : "literal"
         }
       

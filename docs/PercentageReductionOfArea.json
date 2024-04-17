@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "gr\u00F6\u00DFte w\u00E4hrend des Versuchs aufgetretene \u00C4nderung des Querschnitts, angegeben in Prozent, bezogen auf den Anfangsquerschnitt",
+        "value" : "\"gr\u00F6\u00DFte w\u00E4hrend des Versuchs aufgetretene \u00C4nderung des Querschnitts, angegeben in Prozent, bezogen auf den Anfangsquerschnitt\" [DIN EN ISO 6892-1, 3.8]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area",
+        "value" : "\"maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -64,6 +64,25 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.8",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.8",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "67.42",
         "type" : "literal"
@@ -96,12 +115,6 @@
       {
         "value" : "YS1-Fz-D1Q",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "PercentageReductionOfArea",
         "type" : "literal"
         }
       

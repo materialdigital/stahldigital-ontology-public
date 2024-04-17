@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "zus\u00E4tzliches Ergebnis der linearen Regression, welches den Unterschied der Spannungswerte von der Ausgleichsgeraden f\u00FCr die gegebenen Extensometer-Dehnungswerte in dem untersuchten Bereich beschreibt",
+        "value" : "\"zus\u00E4tzliches Ergebnis der linearen Regression, welches den Unterschied der Spannungswerte von der Ausgleichsgeraden f\u00FCr die gegebenen Extensometer-Dehnungswerte in dem untersuchten Bereich beschreibt\" [DIN EN ISO 6892-1, 3.16]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "DIN EN ISO 6892-1, 3.16",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "StandardDeviationOfTheSlope",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 6892-1, 3.16",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.16",
+        "lang" : "en",
         "type" : "literal"
         }
       

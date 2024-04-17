@@ -16,13 +16,13 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">Traversenweg je Zeiteinheit</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The displacement of the crosshead per time" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">The displacement of the crosshead per time</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The speed of the experiment." [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">The speed of the experiment.</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Traversenweg je Zeiteinheit" [DIN EN ISO 6892-1, 3.7.3]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">crosshead separation rate</ns0:altlabel>
@@ -40,13 +40,22 @@
     <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="https://w3id.org/steel/ProcessOntology/ParallelLength"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, 3.7.3</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, 3.7.3</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">0.1</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
-    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">4800</ns0:hasExampleData>
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">0.02</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
-    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">0.02</ns0:hasExampleData>
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">4800</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-ST-D1</ns0:hasLabelSource>
@@ -62,9 +71,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DX56_D_FZ2_WR00_43.TXT</ns0:hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">CrossheadSeparationRate</ns0:hasShortId>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">vc</ns0:hasSymbol>

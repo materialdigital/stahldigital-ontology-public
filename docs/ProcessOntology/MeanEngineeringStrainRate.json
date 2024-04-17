@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "mean engineering strain rate = A/tf",
+        "value" : "\"mean engineering strain rate = A/tf\" [ISO 26203-2, 2011, 4]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "mittlere technische Dehnrate = A/tf",
+        "value" : "\"mittlere technische Dehnrate = A/tf\" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -76,6 +76,25 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "1.0",
         "type" : "literal"
@@ -97,12 +116,6 @@
       {
         "value" : "YS1-Fz-D1Q",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "MeanEngineeringStrainRate",
         "type" : "literal"
         }
       

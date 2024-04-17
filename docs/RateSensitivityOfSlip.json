@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Scherratensensitivit\u00E4t, die im Kristallplastizit\u00E4tsmodell verwendet wurde",
+        "value" : "\"Scherratensensitivit\u00E4t, die im Kristallplastizit\u00E4tsmodell verwendet wurde\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "General Knowledge",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "RateSensitivityOfSlip",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "General Knowledge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "General Knowledge",
+        "lang" : "en",
         "type" : "literal"
         }
       

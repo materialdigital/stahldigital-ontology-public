@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Measuring system for measurement of extension in the area of the gauge length",
+        "value" : "\"Measuring system for measurement of extension in the area of the gauge length\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -52,6 +52,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "HG-Kamera \"Photron\" Cam. 1",
         "type" : "literal"
@@ -61,12 +68,6 @@
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "YS1-Fz-D1Q",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "ExtensionMeasuringSystem",
         "type" : "literal"
         }
       

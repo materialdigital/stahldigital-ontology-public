@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/DynamometerArea" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Querschnitt auf der fest eingespannten Seite der Probe, in der lediglich elastische Verformungen w\u00E4hrend des Versuchs erlaubt sind",
+        "value" : "\"Querschnitt auf der fest eingespannten Seite der Probe, in der lediglich elastische Verformungen w\u00E4hrend des Versuchs erlaubt sind\" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "area on the fixed side of the test piece where only elastic deformations are required during the test",
+        "value" : "\"area on the fixed side of the test piece where only elastic deformations are required during the test\" [ISO 26203-2, 2011, 4]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -52,7 +52,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "Authors",
         "lang" : "de",
         "type" : "literal"
@@ -65,8 +65,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "DynamometerArea",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
         "type" : "literal"
         }
       

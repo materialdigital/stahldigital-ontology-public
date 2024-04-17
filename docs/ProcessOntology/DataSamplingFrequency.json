@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/DataSamplingFrequency" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Die Frequenz-Bandweite jedes Messkanals sowie die Messwerterfassungsfrequenz sollten ausreichend hoch sein, damit die zu bestimmenden Werkstoffkenngr\u00F6\u00DFen aufgezeichnet werden k\u00F6nnen. So kann z. B. bei Ermittlung von ReH die Gleichung (A.1) zur Bestimmung der in 1/Sekunde angegebenen Mindestmesswert-erfassungsgrenze fmin verwendet werden:",
+        "value" : "\"Die Frequenz-Bandweite jedes Messkanals sowie die Messwerterfassungsfrequenz sollten ausreichend hoch sein, damit die zu bestimmenden Werkstoffkenngr\u00F6\u00DFen aufgezeichnet werden k\u00F6nnen. So kann z. B. bei Ermittlung von ReH die Gleichung (A.1) zur Bestimmung der in 1/Sekunde angegebenen Mindestmesswert-erfassungsgrenze fmin verwendet werden:\" [DIN EN ISO 6892-1]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,6 +46,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN ISO 6892-1",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "DIN EN ISO 6892-1, A.2.2",
         "lang" : "de",
@@ -55,12 +62,6 @@
       {
         "value" : "DIN EN ISO 6892-1, A.2.2",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "DataSamplingFrequency",
         "type" : "literal"
         }
       

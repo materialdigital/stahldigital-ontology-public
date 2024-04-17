@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/TestTime" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Duration from beginning of test to moment of fracture initiation",
+        "value" : "\"Duration from beginning of test to moment of fracture initiation\" [ISO 26203-2, 2011, 4]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Zeit zwischen Versuchsbeginn und Zeitpunkt der Bruchinitiierung",
+        "value" : "\"Zeit zwischen Versuchsbeginn und Zeitpunkt der Bruchinitiierung\" [Authors]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -52,6 +52,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "Authors",
         "lang" : "de",
@@ -61,12 +74,6 @@
       {
         "value" : "Standard definition specific",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TestTime",
         "type" : "literal"
         }
       

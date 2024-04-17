@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/FLCDetermination" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Die Bestimmung der FLC aus den Messungen sollte mit Hilfe des  \u201Epositionsabh\u00E4ngigen\u201C Verfahrens durchgef\u00FChrt werden.",
+        "value" : "\"Die Bestimmung der FLC aus den Messungen sollte mit Hilfe des  \u201Epositionsabh\u00E4ngigen\u201C Verfahrens durchgef\u00FChrt werden.\" [DIN EN ISO 12004-2: 2021_07, 19]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -52,6 +52,19 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 19",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 19",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "intersection line method",
         "type" : "literal"
@@ -73,12 +86,6 @@
       {
         "value" : "DIN EN ISO 12004-2: 2021_07, 19",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "FLCDetermination",
         "type" : "literal"
         }
       

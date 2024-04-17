@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/ProofStrengthTotalExtension" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Spannung, bei der die gesamte Extensometer-Dehnung (elastische und plastische Extensometer-Dehnung) einem vorgegebenen Prozentanteil der Extensometer-Messl\u00E4nge entspricht",
+        "value" : "\"Spannung, bei der die gesamte Extensometer-Dehnung (elastische und plastische Extensometer-Dehnung) einem vorgegebenen Prozentanteil der Extensometer-Messl\u00E4nge entspricht\" [DIN EN ISO 6892-1, 3.10.4]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "DIN EN ISO 6892-1, 3.10.4",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "ProofStrengthTotalExtension",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 6892-1, 3.10.4",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.10.4",
+        "lang" : "en",
         "type" : "literal"
         }
       

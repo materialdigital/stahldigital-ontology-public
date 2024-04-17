@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/EulerAngle1" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Einer von drei Winkel, die nach dem Schweizer Mathematiker Leonhard Euler benannt wurden und einen Satz von drei Winkeln darstellen, mit denen die Orientierung (Drehlage) eines festen K\u00F6rpers im dreidimensionalen euklidischen Raum beschrieben werden kann.",
+        "value" : "\"Einer von drei Winkel, die nach dem Schweizer Mathematiker Leonhard Euler benannt wurden und einen Satz von drei Winkeln darstellen, mit denen die Orientierung (Drehlage) eines festen K\u00F6rpers im dreidimensionalen euklidischen Raum beschrieben werden kann.\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "General Knowledge",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "EulerAngle1",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "General Knowledge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "General Knowledge",
+        "lang" : "en",
         "type" : "literal"
         }
       

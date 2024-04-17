@@ -16,10 +16,10 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Radius">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">Kerbradius (nur bei Schrägkerb-Scherzugproben)</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Radius of the notch (only for notched shear tensile specimens)" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Radius">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">Radius of the notch (only for notched shear tensile specimens)</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Kerbradius (nur bei Schrägkerb-Scherzugproben)" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Radius">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Radius</ns0:altlabel>
@@ -29,6 +29,12 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Radius">
     <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="https://w3id.org/steel/ProcessOntology/TestPieceGeometry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Radius">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Radius">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">Authors</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Radius">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">4</ns0:hasExampleData>
@@ -41,9 +47,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Radius">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">YS1-Sz0°-S1L</ns0:hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Radius">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">Radius</ns0:hasShortId>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Radius">
     <ns0:hasTypicalUnit xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="http://qudt.org/vocab/unit/MilliM"/>

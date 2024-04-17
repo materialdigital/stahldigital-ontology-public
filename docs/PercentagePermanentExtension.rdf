@@ -13,10 +13,10 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">Vergrößerung der Extensometer-Messlänge nach Entfernen einer festgelegten, auf die Probe aufgebrachten Zugspannung , angegeben in Prozent, bezogen auf die Extensometer-Messlänge</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Vergrößerung der Extensometer-Messlänge nach Entfernen einer festgelegten, auf die Probe aufgebrachten Zugspannung , angegeben in Prozent, bezogen auf die Extensometer-Messlänge" [DIN EN ISO 6892-1, 3.6.2]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">plastic engineering strain</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"plastic engineering strain" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">percentage permanent extension</ns0:altlabel>
@@ -26,6 +26,15 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">PercentagePermanentExtension</ns0:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, 3.6.2</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, 3.6.2</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">0.001</ns0:hasExampleData>
@@ -38,9 +47,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">AFZ1-Fz-S1Q.xlm</ns0:hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
-    <ns0:hasShortId xmlns:ns0="https://w3id.org/steel/ProcessOntology/">PercentagePermanentExtension</ns0:hasShortId>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
     <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">eps-plast</ns0:hasSymbol>

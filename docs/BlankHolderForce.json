@@ -2,13 +2,13 @@
 {
   "https://w3id.org/steel/ProcessOntology/BlankHolderForce" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Draw-in shall be prevented as much as possible",
+        "value" : "\"Draw-in shall be prevented as much as possible\" [DIN EN ISO 12004-2: 2021_07, 5]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Kraft zum Halten des Schnittteils, das Einschn\u00FCren muss sowie wie m\u00F6glich verhindert werden",
+        "value" : "\"Kraft zum Halten des Schnittteils, das Einschn\u00FCren muss sowie wie m\u00F6glich verhindert werden\" [DIN EN ISO 12004-2: 2021_07, 13]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -64,6 +64,25 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 13",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 12004-2: 2021_07, 5",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "325",
         "type" : "literal"
@@ -90,12 +109,6 @@
       {
         "value" : "DIN EN ISO 12004-2: 2021_07, 5",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "BlankHolderForce",
         "type" : "literal"
         }
       

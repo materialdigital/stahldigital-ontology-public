@@ -2,19 +2,19 @@
 {
   "https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "The displacement of the crosshead per time",
+        "value" : "\"The displacement of the crosshead per time\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "The speed of the experiment.",
+        "value" : "\"The speed of the experiment.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "Traversenweg je Zeiteinheit",
+        "value" : "\"Traversenweg je Zeiteinheit\" [DIN EN ISO 6892-1, 3.7.3]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -82,6 +82,25 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.7.3",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, 3.7.3",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "0.02",
         "type" : "literal"
@@ -125,12 +144,6 @@
       {
         "value" : "DX56_D_FZ2_WR00_43.TXT",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "CrossheadSeparationRate",
         "type" : "literal"
         }
       

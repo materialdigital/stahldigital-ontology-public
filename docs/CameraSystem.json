@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/CameraSystem" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Art des Kamerasystems, welches f\u00FCr den hydraulischen Tiefungsversuch verwendet wurde.",
+        "value" : "\"Art des Kamerasystems, welches f\u00FCr den hydraulischen Tiefungsversuch verwendet wurde.\" [DIN EN ISO 16808:2022-08, 12]",
         "lang" : "de",
         "type" : "literal"
         }
@@ -46,7 +46,7 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "DIN EN ISO 16808:2022-08, 12",
         "lang" : "de",
         "type" : "literal"
@@ -59,8 +59,15 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "CameraSystem",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "DIN EN ISO 16808:2022-08, 12",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 16808:2022-08, 12",
+        "lang" : "en",
         "type" : "literal"
         }
       

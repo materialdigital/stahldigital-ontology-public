@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/Work" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "deformation work",
+        "value" : "\"deformation work\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -46,15 +46,16 @@
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : "AFZ1-ST-D1",
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
         "lang" : "en",
         "type" : "literal"
         }
       
       ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "Work",
+    "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
+        "value" : "AFZ1-ST-D1",
+        "lang" : "en",
         "type" : "literal"
         }
       

@@ -2,7 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/TrueWidthStrain" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "true strain in width direction",
+        "value" : "\"true strain in width direction\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -46,6 +46,13 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "0.005",
         "type" : "literal"
@@ -55,12 +62,6 @@
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
         "value" : "AFZ1-Fz-S1Q.xlm",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "TrueWidthStrain",
         "type" : "literal"
         }
       

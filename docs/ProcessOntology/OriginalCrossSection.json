@@ -2,19 +2,19 @@
 {
   "https://w3id.org/steel/ProcessOntology/OriginalCrossSection" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "Anfangsquerschnitt innerhalb der parallelen L\u00E4nge",
+        "value" : "\"Anfangsquerschnitt innerhalb der parallelen L\u00E4nge\" [DIN EN ISO 6892-1, Tabelle 1]",
         "lang" : "de",
         "type" : "literal"
         }
       ,
       {
-        "value" : "original cross-sectional area of the parallel length",
+        "value" : "\"original cross-sectional area of the parallel length\" [ISO 26203-2, 2011, 4]",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "original crosssection area of the parallel length",
+        "value" : "\"original crosssection area of the parallel length\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -64,6 +64,31 @@
         }
       
       ],
+    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
+        "value" : "Authors",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, Tabelle 1",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "DIN EN ISO 6892-1, Table 1",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "ISO 26203-2, 2011, 4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "14.98",
         "type" : "literal"
@@ -91,12 +116,6 @@
       {
         "value" : "ISO 26203-2, 2011, 4",
         "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasShortId" : [ {
-        "value" : "OriginalCrossSection",
         "type" : "literal"
         }
       
