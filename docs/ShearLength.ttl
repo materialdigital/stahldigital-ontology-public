@@ -1,7 +1,5 @@
 
 
-<https://w3id.org/steel/ProcessOntology/ShearLength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MilliM> .
-<https://w3id.org/steel/ProcessOntology/ShearLength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
 <https://w3id.org/steel/ProcessOntology/ShearLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/ShearLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/ShearLength> <http://www.w3.org/2000/01/rdf-schema#label> "ShearLength"@en .
@@ -16,5 +14,7 @@
 <https://w3id.org/steel/ProcessOntology/ShearLength> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
 <https://w3id.org/steel/ProcessOntology/ShearLength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "7" .
 <https://w3id.org/steel/ProcessOntology/ShearLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0°-S1L"@de .
+<https://w3id.org/steel/ProcessOntology/ShearLength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MilliM> .
+<https://w3id.org/steel/ProcessOntology/ShearLength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
 
 

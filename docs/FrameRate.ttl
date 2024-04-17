@@ -1,7 +1,5 @@
 
 
-<https://w3id.org/steel/ProcessOntology/FrameRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s-1" .
-<https://w3id.org/steel/ProcessOntology/FrameRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/PER-SEC> .
 <https://w3id.org/steel/ProcessOntology/FrameRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/FrameRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/FrameRate> <http://www.w3.org/2000/01/rdf-schema#label> "FrameRate"@en .
@@ -16,5 +14,7 @@
 <https://w3id.org/steel/ProcessOntology/FrameRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "25" .
 <https://w3id.org/steel/ProcessOntology/FrameRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-NZ50-25-D1Q"@en .
 <https://w3id.org/steel/ProcessOntology/FrameRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/FrameRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/PER-SEC> .
+<https://w3id.org/steel/ProcessOntology/FrameRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s-1" .
 
 
