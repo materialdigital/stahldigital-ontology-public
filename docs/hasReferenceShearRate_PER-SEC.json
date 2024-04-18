@@ -1,6 +1,6 @@
 
 {
-  "https://w3id.org/steel/ProcessOntology/hasRefernceShearRate_PER-SEC" : {
+  "https://w3id.org/steel/ProcessOntology/hasReferenceShearRate_PER-SEC" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
         "type" : "uri"
@@ -13,18 +13,18 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "has RefernceShearRate",
+        "value" : "has ReferenceShearRate",
         "type" : "literal"
         }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/RefernceShearRate",
+        "value" : "https://w3id.org/steel/ProcessOntology/ReferenceShearRate",
         "type" : "uri"
         }
       ,
       {
-        "value" : "https://w3id.org/steel/ProcessOntology/hasRefernceShearRate_Object",
+        "value" : "https://w3id.org/steel/ProcessOntology/hasReferenceShearRate_Object",
         "type" : "uri"
         }
       

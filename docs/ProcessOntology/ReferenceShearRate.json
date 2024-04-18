@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "List of reference shear rate per slip family",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -26,6 +32,12 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/phenopowerlaw",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
         "value" : "https://material-digital.de/pmdco/ValueObject",
         "type" : "uri"
@@ -34,6 +46,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Reference shear rate",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "dot_gamma_0_sl",
         "lang" : "en",
         "type" : "literal"
         }
@@ -46,6 +64,12 @@
         }
       
       ],
+    "http://www.w3.org/2004/02/skos/core#related" : [ {
+        "value" : "https://w3id.org/steel/ProcessOntology/phenopowerlaw",
+        "type" : "uri"
+        }
+      
+      ],
     "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "General Knowledge",
         "lang" : "de",
@@ -55,6 +79,12 @@
       {
         "value" : "General Knowledge",
         "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
+        "value" : "[0.001, 0.001]",
         "type" : "literal"
         }
       
@@ -83,10 +113,20 @@
         "value" : "http://qudt.org/vocab/unit/UNITLESS",
         "type" : "uri"
         }
+      ,
+      {
+        "value" : "https://qudt.org/vocab/unit/PER-SEC",
+        "type" : "uri"
+        }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
         "value" : "-",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "1/s",
         "type" : "literal"
         }
       
