@@ -28,10 +28,10 @@
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">nominal engineering strain rate</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"nominelle technische Dehnrate = vo/Lc" [Authors]</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"nominal engineering strain rate = vo/Lc" [ISO 26203-2, 2011, 4]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"nominal engineering strain rate = vo/Lc" [ISO 26203-2, 2011, 4]</ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"nominelle technische Dehnrate = vo/Lc" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate">
     <ns0:isBasedOn xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="https://w3id.org/steel/ProcessOntology/ParallelLength"/>
