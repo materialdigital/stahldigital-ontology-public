@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:emmo="http://emmo.info/emmo#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmdco="https://material-digital.de/pmdco/" xmlns:qudt="http://qudt.org/schema/qudt/" xmlns:qudtUnit="http://qudt.org/vocab/unit/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="https://w3id.org/steel/ProcessOntology/">
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:emmo="http://emmo.info/emmo#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmdco="https://material-digital.de/pmdco/" xmlns:qudt="http://qudt.org/schema/qudt/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="https://w3id.org/steel/ProcessOntology/">
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasReferenceShearRate_PER-SEC">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -961,10 +961,10 @@
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EulerAngle1">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EulerAngle1">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EulerAngle1">
     <hasSymbol xml:lang="en">ϕ_1</hasSymbol>
@@ -1177,10 +1177,10 @@
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EulerAngleConvention">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EulerAngleConvention">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasPercentageTotalExtensionAtFracture_PERCENT">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -1459,10 +1459,10 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
-    <hasDescriptionCitationSource xml:lang="en">ISO 26203-2, 2011, 4</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
-    <hasDescriptionCitationSource xml:lang="de">Authors</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">ISO 26203-2, 2011, 4</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate">
     <hasExampleData>0.019</hasExampleData>
@@ -1795,10 +1795,10 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.11</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Fracture">
-    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.11</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.11</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Fracture">
-    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.11</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.11</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LatticeStructure">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1828,10 +1828,10 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LatticeStructure">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LatticeStructure">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSerialNumber_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -1912,10 +1912,10 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NumberOfVirtualExperiments">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NumberOfVirtualExperiments">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasElongation_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -1960,10 +1960,10 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MicrostructureModel">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MicrostructureModel">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMatPiecewiseLinearPlasticityLogInterpolation_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -2820,10 +2820,10 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 16808:2022-08, 4</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InnerDiameterDie">
-    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 4</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 4</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InnerDiameterDie">
-    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 4</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 4</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InnerDiameterDie">
     <hasSymbol xml:lang="en">d_die</hasSymbol>
@@ -3431,10 +3431,10 @@ or
     <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Laboratory">
-    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Laboratory">
-    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMildSteel_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -3716,16 +3716,16 @@ or
     <hasLabelSource xml:lang="de">AFZ-BU-S1.TXT</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <hasLabelSource xml:lang="en">AFZ1-ST-D1</hasLabelSource>
@@ -3743,10 +3743,10 @@ or
     <hasLabelSource xml:lang="de">AWA_1_01_Rz-46N171</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
+    <hasLabelSource xml:lang="de">AFZ1-NZ50-25-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <hasLabelSource xml:lang="de">AFZ1-NZ50-25-D1Q</hasLabelSource>
+    <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TotalLength">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -4190,10 +4190,10 @@ or
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EbsdFileName">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EbsdFileName">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -4481,10 +4481,10 @@ or
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SlipSystemNumber">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SlipSystemNumber">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasAmplitudeFile">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -4991,10 +4991,10 @@ or
     <skos:altlabel xml:lang="de">Fm</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
-    <skos:altlabel xml:lang="en">maximum force</skos:altlabel>
+    <skos:altlabel xml:lang="de">Maximalkraft</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
-    <skos:altlabel xml:lang="de">Maximalkraft</skos:altlabel>
+    <skos:altlabel xml:lang="en">maximum force</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
     <skos:preflabel xml:lang="en">MaximumForce</skos:preflabel>
@@ -5642,10 +5642,10 @@ or
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SpecificPlasticWork">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SpecificPlasticWork">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Test">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -5885,10 +5885,10 @@ or
     <skos:preflabel xml:lang="en">TransitionRadius</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TransitionRadius">
-    <hasDescriptionCitationSource xml:lang="de">Authors</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TransitionRadius">
-    <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TransitionRadius">
     <hasLabelSource xml:lang="en">ISO 26203-2, 2011, 4</hasLabelSource>
@@ -6368,10 +6368,10 @@ or
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NumberGrains">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NumberGrains">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NumberGrains">
     <hasSymbol xml:lang="en">N</hasSymbol>
@@ -6626,10 +6626,10 @@ or
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrystalPlasticityConstitutiveModel">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrystalPlasticityConstitutiveModel">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSampleCode_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -7049,19 +7049,19 @@ or
     <dcterms:description xml:lang="en">"lowest value of stress during plastic yielding, ignoring any initial transient effects" [DIN EN ISO 6892-1, 3.10.2.2]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LowerYieldStrength">
-    <skos:altlabel xml:lang="de">Dehn-/Streckgr. ReL</skos:altlabel>
+    <skos:altlabel xml:lang="en">lower yield strength</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LowerYieldStrength">
-    <skos:altlabel xml:lang="en">lower yield strength</skos:altlabel>
+    <skos:altlabel xml:lang="de">Dehn-/Streckgr. ReL</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LowerYieldStrength">
     <skos:preflabel xml:lang="en">LowerYieldStrength</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LowerYieldStrength">
-    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.10.2.2</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.10.2.2</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LowerYieldStrength">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.10.2.2</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.10.2.2</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LowerYieldStrength">
     <hasExampleData>420</hasExampleData>
@@ -7241,10 +7241,10 @@ or
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FEMSolver">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FEMSolver">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestTime_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -7508,10 +7508,10 @@ or
     <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.12</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComputerControlledTensileTestingMachine">
-    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.12</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ComputerControlledTensileTestingMachine">
-    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.12</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMeanPlasticStrainRate_PER-SEC">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -7634,10 +7634,10 @@ or
     <skos:preflabel xml:lang="en">StressRate</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StressRate">
-    <skos:related rdf:resource="https://w3id.org/steel/ProcessOntology/Time"/>
+    <skos:related rdf:resource="https://w3id.org/steel/ProcessOntology/EngineeringStress"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StressRate">
-    <skos:related rdf:resource="https://w3id.org/steel/ProcessOntology/EngineeringStress"/>
+    <skos:related rdf:resource="https://w3id.org/steel/ProcessOntology/Time"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StressRate">
     <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.7.4</hasDescriptionCitationSource>
@@ -8572,10 +8572,10 @@ or
     <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CameraSystem">
-    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CameraSystem">
-    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMaximumForce_N">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -8650,10 +8650,10 @@ or
     <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DataSamplingFrequency">
-    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, A.2.2</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, A.2.2</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DataSamplingFrequency">
-    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, A.2.2</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, A.2.2</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Damage">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -10076,10 +10076,10 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningLaw">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningLaw">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasExperimentIdentifier_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -10175,10 +10175,10 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <rdfs:subClassOf rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate">
-    <dcterms:description xml:lang="en">"nominal engineering strain rate = vo/Lc" [ISO 26203-2, 2011, 4]</dcterms:description>
+    <dcterms:description xml:lang="de">"nominelle technische Dehnrate = vo/Lc" [Authors]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate">
-    <dcterms:description xml:lang="de">"nominelle technische Dehnrate = vo/Lc" [Authors]</dcterms:description>
+    <dcterms:description xml:lang="en">"nominal engineering strain rate = vo/Lc" [ISO 26203-2, 2011, 4]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate">
     <skos:altlabel xml:lang="de">nominell</skos:altlabel>
@@ -10733,10 +10733,10 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PostProcessingSoftware">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PostProcessingSoftware">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEulerAngle2">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -11078,10 +11078,10 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.16</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope">
-    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.16</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.16</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope">
-    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.16</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.16</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope">
     <hasSymbol xml:lang="en">Sm</hasSymbol>
@@ -11524,10 +11524,10 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrystalPlasticityParameterFile">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrystalPlasticityParameterFile">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Composition">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -12016,10 +12016,10 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
     <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileStrength">
-    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.10.1</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.10.1</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileStrength">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.10.1</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.10.1</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileStrength">
     <hasExampleData>496</hasExampleData>
@@ -12124,10 +12124,10 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AmplitudeFile">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AmplitudeFile">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInitialThickness_MilliM">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -12443,10 +12443,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMaximumForceDiscontinousYielding_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -12554,10 +12554,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Time">
-    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Time">
-    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Time">
     <hasLabelSource xml:lang="de">Authors</hasLabelSource>
@@ -14839,10 +14839,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EulerAngle2">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EulerAngle2">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EulerAngle2">
     <hasSymbol xml:lang="en">φ</hasSymbol>
@@ -14887,10 +14887,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:preflabel xml:lang="en">PercentageElongation</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongation">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.4</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.4</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongation">
-    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.4</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.4</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongation">
     <hasExampleData>-3.93633e-05</hasExampleData>
@@ -14944,10 +14944,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningCurve">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningCurve">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -15277,10 +15277,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/BoundaryFile">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/BoundaryFile">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GridSize">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -15307,10 +15307,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:preflabel xml:lang="en">GridSize</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GridSize">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 12</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 12</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GridSize">
-    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 12</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 12</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GridSize">
     <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
@@ -15538,10 +15538,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AnisotropicYieldFunction">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AnisotropicYieldFunction">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Standard">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -15994,10 +15994,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:preflabel xml:lang="en">PercentagePermanentExtension</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
-    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.6.2</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.6.2</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.6.2</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.6.2</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension">
     <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
@@ -16528,10 +16528,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:preflabel xml:lang="en">InitialSheetThickness</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialSheetThickness">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 9</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 9</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialSheetThickness">
-    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 9</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 9</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialSheetThickness">
     <hasExampleData>1,5</hasExampleData>
@@ -16585,10 +16585,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ResultsFile">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ResultsFile">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PunchDiameter">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -16615,10 +16615,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:preflabel xml:lang="en">PunchDiameter</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PunchDiameter">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 8</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 8</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PunchDiameter">
-    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 8</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 8</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PunchDiameter">
     <hasExampleData>100</hasExampleData>
@@ -16672,10 +16672,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.6.6</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
-    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.6.6</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.6.6</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
-    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.6.6</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.6.6</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageTotalExtensionAtFracture">
     <hasSymbol xml:lang="en">At</hasSymbol>
@@ -18061,10 +18061,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:preflabel xml:lang="en">SpecimenWidth</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SpecimenWidth">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 11</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 11</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SpecimenWidth">
-    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 11</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 11</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SpecimenWidth">
     <hasExampleData>50</hasExampleData>
@@ -18901,10 +18901,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdfs:subClassOf rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
-    <dcterms:description xml:lang="de">"kleinster Querschnitt nach dem Bruch" [DIN EN ISO 6892-1, Tabelle 1]</dcterms:description>
+    <dcterms:description xml:lang="en">"minimum cross-sectional area after fracture" [Authors]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
-    <dcterms:description xml:lang="en">"minimum cross-sectional area after fracture" [Authors]</dcterms:description>
+    <dcterms:description xml:lang="de">"kleinster Querschnitt nach dem Bruch" [DIN EN ISO 6892-1, Tabelle 1]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <skos:altlabel xml:lang="en">SU</skos:altlabel>
@@ -18916,25 +18916,25 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:preflabel xml:lang="en">MinimumCrossSectionAfterFracture</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</hasDescriptionCitationSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, Table 1</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
-    <hasExampleData>4879</hasExampleData>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
-    <hasLabelSource xml:lang="en">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
+    <hasExampleData>4879</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, Table 1</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
+    <hasLabelSource xml:lang="en">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <hasSymbol xml:lang="en">Su</hasSymbol>
@@ -19039,10 +19039,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AnisotropicYieldFunctionParameters">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AnisotropicYieldFunctionParameters">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadDisplacement">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -19295,10 +19295,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasMaterial_Object"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GrainNumber">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GrainNumber">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GrainNumber">
     <rdfs:label xml:lang="en">GrainNumber</rdfs:label>
@@ -19379,10 +19379,13 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasExampleData>SZM100</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
-    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
@@ -19407,9 +19410,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
-    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Stress">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -19637,10 +19637,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:preflabel xml:lang="en">PressureChamber</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PressureChamber">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PressureChamber">
-    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PressureChamber">
     <hasLabelSource xml:lang="de">AFZ-BU-S1.TXT</hasLabelSource>
@@ -20702,10 +20702,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasExampleData>Instron 5985</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileTestingMachine">
-    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, A.2.1</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, A.2.1</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileTestingMachine">
-    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, A.2.1</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, A.2.1</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensileTestingMachine">
     <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
@@ -20753,10 +20753,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain">
-    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 4</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 4</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain">
-    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 4</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 4</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain">
     <hasSymbol xml:lang="en">ε_3^pl</hasSymbol>
@@ -21248,10 +21248,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <skos:preflabel xml:lang="en">ProofStrengthPlasticExtension</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.10.3</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.10.3</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension">
-    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, 3.10.3</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.10.3</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension">
     <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.10.3</hasLabelSource>
@@ -21329,10 +21329,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EvaluationMethod">
-    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EvaluationMethod">
-    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasExtensionAtFracture_MilliM">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -21928,10 +21928,10 @@ GT.0.0: Constant fading exponent</dcterms:description>
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Discretization">
-    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Discretization">
-    <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
+    <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Solver">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -22168,10 +22168,10 @@ GT.0.0: Constant fading exponent</dcterms:description>
     <skos:preflabel xml:lang="en">FLCDetermination</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FLCDetermination">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 19</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 19</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FLCDetermination">
-    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 19</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 19</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FLCDetermination">
     <hasExampleData>intersection line method</hasExampleData>
@@ -22474,10 +22474,10 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <hasLabelSource xml:lang="de">AFZ1-NZ50-25-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <hasLabelSource xml:lang="de">AFZ-BU-S1.TXT</hasLabelSource>
+    <hasLabelSource xml:lang="en">AFZ1-ST-D1</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <hasLabelSource xml:lang="en">AFZ1-ST-D1</hasLabelSource>
+    <hasLabelSource xml:lang="de">AFZ-BU-S1.TXT</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
     <hasLabelSource xml:lang="en"> </hasLabelSource>
@@ -22732,10 +22732,10 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <skos:preflabel xml:lang="en">SampleProduction</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleProduction">
-    <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleProduction">
-    <hasDescriptionCitationSource xml:lang="de">Authors</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleProduction">
     <hasExampleData>Wasserstrahlschneiden</hasExampleData>
@@ -22774,10 +22774,10 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.14</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DefaultValue">
-    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.14</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.14</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DefaultValue">
-    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.14</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.14</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSubJob">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -22906,10 +22906,10 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Grid">
-    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
+    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Grid">
-    <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
+    <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestTemperatur">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -23410,7 +23410,7 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <dcterms:contributor>Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm</dcterms:contributor>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
-    <dcterms:date>2024-04-18T23:24:01+00:00</dcterms:date>
+    <dcterms:date>2024-04-19T00:24:09+00:00</dcterms:date>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
     <owl:versionInfo xml:lang="en">0.1 (preliminary)</owl:versionInfo>
