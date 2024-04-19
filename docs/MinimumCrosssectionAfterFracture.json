@@ -43,6 +43,18 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "SU",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Su",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -70,9 +82,28 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "YS1-Sz0\u00B0-S1L",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
+        "value" : "S_{u}",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Su",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
         "value" : "S_{u}",
         "lang" : "en",
         "type" : "literal"
@@ -98,6 +129,16 @@
       ,
       {
         "value" : "https://w3id.org/steel/ProcessOntology/DiameterAfterFracture2",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture1",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "https://w3id.org/steel/ProcessOntology/ShearLengthAfterFracture2",
         "type" : "uri"
         }
       ,

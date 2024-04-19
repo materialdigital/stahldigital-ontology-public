@@ -36,15 +36,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:label "MinimumCrosssectionAfterFracture"@en;
   rdfs:subClassOf pmdco:ValueObject;
   dcterms:description "\"minimum cross-sectional area after fracture\" [Authors]"@en;
-  skos:altlabel "Minimum cross-sectional area after fracture"@en , "Bruchquerschnitt Su"@de;
+  skos:altlabel "Bruchquerschnitt Su"@de , "SU"@en , "Minimum cross-sectional area after fracture"@en , "Su"@de;
   skos:preflabel "MinimumCrosssectionAfterFracture"@en;
   :hasDescriptionCitationSource "Authors"@en;
   :hasExampleData "4879";
-  :hasLabelSource "YS1-Fz-D1Q"@de;
-  :hasSymbol "S_{u}"@en;
+  :hasLabelSource "YS1-Fz-D1Q"@de , "YS1-Sz0°-S1L"@de;
+  :hasSymbol "S_{u}"@en , "Su"@en;
+  :hasSymbolLatex "S_{u}"@en;
   :hasTypicalUnit qudtUnit:MilliM2;
   :hasTypicalUnitLabel "mm2";
-  :isBasedOn :ThicknessAfterFracture1 , :DiameterAfterFracture2 , :ThicknessAfterFracture2 , :WidthAfterFracture1 , :DiameterAfterFracture1 , :WidthAfterFracture2 .
+  :isBasedOn :DiameterAfterFracture2 , :ThicknessAfterFracture2 , :WidthAfterFracture1 , :ShearLengthAfterFracture1 , :DiameterAfterFracture1 , :ShearLengthAfterFracture2 , :WidthAfterFracture2 , :ThicknessAfterFracture1 .
 
 :hasStrainRateScaleIdendifier_Object
   rdf:type owl:ObjectProperty;
@@ -250,6 +251,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:range :WidthChange;
   skos:preflabel "hasWidthChange"@en .
 
+:hasShearStrength_Object
+  rdf:type owl:ObjectProperty , rdf:Property;
+  rdfs:label "hasShearStrength"@en;
+  rdfs:range :ShearStrength;
+  skos:preflabel "hasShearStrength"@en .
+
 :SampleType
   rdf:type owl:Class , skos:Concept;
   rdfs:label "SampleType"@en;
@@ -269,6 +276,18 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:seeAlso :Work , :hasWork_Object;
   :hasUnit qudtUnit:KiloJ;
   :hasUnitLabel "kJ" .
+
+:ShearLengthAfterFracture1
+  rdf:type skos:Concept , owl:Class;
+  rdfs:label "ShearLengthAfterFracture1"@en;
+  rdfs:seeAlso :ShearLengthAfterFracture1;
+  rdfs:subClassOf pmdco:ValueObject;
+  skos:altlabel "Probenbreite B1 nach Bruch"@de;
+  skos:preflabel "ShearLengthAfterFracture1"@en;
+  skos:related :ShearLengthAfterFracture1;
+  :hasLabelSource "YS1-Sz0°-S1L"@de;
+  :hasTypicalUnit qudtUnit:MilliM;
+  :hasTypicalUnitLabel "mm" .
 
 :hasMinTimeStep4ElementDel_SEC
   rdf:type rdf:Property , owl:DatatypeProperty;
@@ -433,6 +452,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:label "RollingDirection"@en;
   rdfs:seeAlso :TestingDirection;
   rdfs:subClassOf pmdco:ValueObject;
+  skos:altlabel "Walzrichtung"@de;
   skos:preflabel "RollingDirection"@en;
   skos:related :TestingDirection .
 
@@ -559,6 +579,13 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdf:type owl:Class;
   rdfs:label "Time series"@en , "Zeitreihe"@de;
   skos:preflabel "Time series"@en , "Zeitreihe"@de .
+
+:hasShearLengthAfterFracture2_MilliM
+  rdf:type rdf:Property , owl:DatatypeProperty;
+  rdfs:label "has ShearLengthAfterFracture2";
+  rdfs:seeAlso :ShearLengthAfterFracture2 , :hasShearLengthAfterFracture2_Object;
+  :hasUnit qudtUnit:MilliM;
+  :hasUnitLabel "mm" .
 
 :TestTime
   rdf:type skos:Concept , owl:Class;
@@ -864,15 +891,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:seeAlso :DeliveryDate , :hasDeliveryDate_Object .
 
 :PercentageReductionOfArea
-  rdf:type skos:Concept , owl:Class;
+  rdf:type owl:Class , skos:Concept;
   rdfs:label "PercentageReductionOfArea"@en;
   rdfs:subClassOf pmdco:ValueObject;
   dcterms:description "\"maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area\" [Authors]"@en , "\"größte während des Versuchs aufgetretene Änderung des Querschnitts, angegeben in Prozent, bezogen auf den Anfangsquerschnitt\" [DIN EN ISO 6892-1, 3.8]"@de;
-  skos:altlabel "percentage reduction of area"@en , "Brucheinschnürung Z"@de , "Z"@en;
+  skos:altlabel "Brucheinschnürung"@de , "percentage reduction of area"@en , "Brucheinschnürung Z"@de , "Z"@en;
   skos:preflabel "PercentageReductionOfArea"@en;
   :hasDescriptionCitationSource "Authors"@en , "DIN EN ISO 6892-1, 3.8"@en , "DIN EN ISO 6892-1, 3.8"@de;
   :hasExampleData "78.0" , "67.42";
-  :hasLabelSource "AFZ1-Fz-S1Q.xlsx"@en , "DIN EN ISO 6892-1, 3.8"@de , "DIN EN ISO 6892-1, 3.8"@en , "YS1-Fz-D1Q"@de;
+  :hasLabelSource "DIN EN ISO 6892-1, 3.8"@en , "DIN EN ISO 6892-1, 3.8"@de , "YS1-Fz-D1Q"@de , "YS1-Sz0°-S1L"@de , "AFZ1-Fz-S1Q.xlsx"@en;
   :hasSymbol "Z"@en;
   :hasSymbolLatex "Z"@en;
   :hasTypicalUnit qudtUnit:PERCENT;
@@ -1062,7 +1089,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "EngineeringStress"@en;
   :hasDescriptionCitationSource "Authors"@de , "ISO 26203-2, 2011, 4"@en;
   :hasExampleData "9751";
-  :hasLabelSource "Standard definition specific"@de , "AFZ1-Fz-S1Q.xlsx"@en , "YS1-Fz-D1Q"@de , "ISO 26203-2, 2011, 4"@en;
+  :hasLabelSource "Standard definition specific"@de , "AFZ1-Fz-S1Q.xlsx"@en , "YS1-Fz-D1Q"@de , "YS1-Sz0°-S1L"@de , "ISO 26203-2, 2011, 4"@en;
   :hasSymbol "Sig-technisch"@en , "R"@en;
   :hasSymbolLatex "Sig-technisch"@en , "R"@en;
   :hasTypicalUnit qudtUnit:MegaPA;
@@ -1245,7 +1272,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "Material"@en;
   :hasDescriptionCitationSource "General Knowledge"@en , "General Knowledge"@de , "Authors"@en , "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en;
   :hasExampleData "ZStE340" , "HX340LAD" , "42CrMoS4";
-  :hasLabelSource "AFZ1-Fz-S1Q.xlsx"@de , "AFZ-BU-S1.TXT"@de , "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en , "General Knowledge"@de , "General Knowledge"@en , "AFZ1-ST-D1"@en , "DIN EN ISO 12004-2: 2021_07"@en , "DIN EN ISO 12004-2: 2021_07, 7"@de , "YS1-Fz-D1Q"@de , "AWA_1_01_Rz-46N171"@de , "AFZ1-NZ50-25-D1Q"@en , "AFZ1-NZ50-25-D1Q"@de .
+  :hasLabelSource "AFZ1-Fz-S1Q.xlsx"@de , "AFZ-BU-S1.TXT"@de , "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en , "General Knowledge"@de , "General Knowledge"@en , "AFZ1-ST-D1"@en , "AFZ1-NZ50-25-D1Q"@de , "AFZ1-NZ50-25-D1Q"@en , "DIN EN ISO 12004-2: 2021_07"@en , "DIN EN ISO 12004-2: 2021_07, 7"@de , "YS1-Fz-D1Q"@de , "YS1-Sz0°-S1L"@de , "AWA_1_01_Rz-46N171"@de .
 
 :TotalLength
   rdf:type skos:Concept , owl:Class;
@@ -1457,11 +1484,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:label "Remark"@en;
   rdfs:subClassOf pmdco:ValueObject;
   dcterms:description "\"A specific comment about the experiment.\" [Authors]"@en;
-  skos:altlabel "Remark"@en , "Kommentar"@de , "Bemerkung"@de;
+  skos:altlabel "Bemerkungen"@de , "Testing Comment"@en , "Remark"@en , "Kommentar"@de , "Bemerkung"@de;
   skos:preflabel "Remark"@en;
   :hasDescriptionCitationSource "Authors"@en;
   :hasExampleData "Vorversuch";
-  :hasLabelSource "AFZ-BU-S1.TXT"@de , "DX56_D_FZ2_WR00_43.TXT"@de , "deepl translator"@en .
+  :hasLabelSource "YS1-Sz0°-S1L"@de , "DX56_D_FZ2_WR00_43.TXT"@de , "AFZ-BU-S1.TXT"@de , "deepl translator"@en .
 
 :SerialNumber
   rdf:type skos:Concept , owl:Class;
@@ -1553,6 +1580,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdf:type rdf:Property , owl:DatatypeProperty;
   rdfs:label "has PlasticityModel";
   rdfs:seeAlso :PlasticityModel , :hasPlasticityModel_Object .
+
+:hasShearLengthAfterFracture2_Object
+  rdf:type owl:ObjectProperty , rdf:Property;
+  rdfs:label "hasShearLengthAfterFracture2"@en;
+  rdfs:range :ShearLengthAfterFracture2;
+  skos:preflabel "hasShearLengthAfterFracture2"@en .
 
 :hasEbsdFileName
   rdf:type rdf:Property , owl:DatatypeProperty;
@@ -1663,12 +1696,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:seeAlso :MeasuringRange;
   rdfs:subClassOf pmdco:ValueObject;
   dcterms:description "\"Maximalkraft\" [Authors]"@de , "\"maximum force\" [ISO 26203-2, 2011, 4]"@en , "\"highest force that the test piece withstands during the test\" [Authors]"@en;
-  skos:altlabel "Fm"@de , "maximum force"@en , "Maximalkraft"@de;
+  skos:altlabel "Höchstzugkraft Fm"@de , "Fm"@de , "maximum force"@en , "Maximalkraft"@de;
   skos:preflabel "MaximumForce"@en;
   skos:related :MeasuringRange;
-  :hasDescriptionCitationSource "Authors"@en , "Authors"@de , "ISO 26203-2, 2011, 4"@en;
+  :hasDescriptionCitationSource "Authors"@de , "ISO 26203-2, 2011, 4"@en , "Authors"@en;
   :hasExampleData "500 kN" , "7008";
-  :hasLabelSource "AFZ1-Fz-S1Q.xlsx"@de , "Standard definition specific"@de , "ISO 26203-2, 2011, 4"@en , "K-Item"@de;
+  :hasLabelSource "K-Item"@de , "YS1-Sz0°-S1L"@de , "AFZ1-Fz-S1Q.xlsx"@de , "Standard definition specific"@de , "ISO 26203-2, 2011, 4"@en;
   :hasSymbol "Fm"@en;
   :hasSymbolLatex "F_{m}"@en , "Fm"@en;
   :hasTypicalUnit qudtUnit:N , qudtUnit:KiloN;
@@ -2768,14 +2801,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:seeAlso :Supplier , :hasSupplier_Object .
 
 :ThicknessAfterFracture1
-  rdf:type skos:Concept , owl:Class;
+  rdf:type owl:Class , skos:Concept;
   rdfs:label "ThicknessAfterFracture1"@en;
   rdfs:seeAlso :ThicknessAfterFracture2;
   rdfs:subClassOf pmdco:ValueObject;
   skos:altlabel "Probendicke A1 nach Bruch"@de;
   skos:preflabel "ThicknessAfterFracture1"@en;
   skos:related :ThicknessAfterFracture2;
-  :hasLabelSource "AFZ1-Fz-S1Q.xlsx"@de;
+  :hasLabelSource "YS1-Sz0°-S1L"@de , "AFZ1-Fz-S1Q.xlsx"@de;
   :hasTypicalUnit qudtUnit:MilliM;
   :hasTypicalUnitLabel "mm" .
 
@@ -2884,7 +2917,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "TestTemperature"@en;
   :hasDescriptionCitationSource "DIN EN ISO 12004-2: 2021_07, 5"@de , "DIN EN ISO 12004-2: 2021_07, 5"@en , "DIN EN ISO 6892-1"@de , "Authors"@en;
   :hasExampleData "22" , "25";
-  :hasLabelSource "AFZ1-NZ50-25-D1Q"@en , "DX56_D_FZ2_WR00_43.TXT"@de , "AFZ1-Fz-S1Q.xlsx"@de , "DIN EN ISO 12004-2: 2021_07, 5"@en , "DIN EN ISO 6892-1, 5"@de , "DIN EN ISO 6892-1, K.4"@en , "DIN EN ISO 12004-2: 2021_07, 13"@de;
+  :hasLabelSource "DIN EN ISO 12004-2: 2021_07, 13"@de , "DIN EN ISO 6892-1, K.4"@en , "YS1-Sz0°-S1L"@de , "AFZ1-NZ50-25-D1Q"@en , "DX56_D_FZ2_WR00_43.TXT"@de , "AFZ1-Fz-S1Q.xlsx"@de , "DIN EN ISO 12004-2: 2021_07, 5"@en , "DIN EN ISO 6892-1, 5"@de;
   :hasSymbol "T"@en;
   :hasSymbolLatex "T"@en;
   :hasTypicalUnit qudtUnit:DEG_C;
@@ -3126,6 +3159,13 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   :hasTypicalUnit qudtUnit:UNITLESS;
   :hasTypicalUnitLabel "1";
   :isBasedOn :WidthChange , :OriginalWidth .
+
+:hasShearLengthAfterFracture1_MilliM
+  rdf:type rdf:Property , owl:DatatypeProperty;
+  rdfs:label "has ShearLengthAfterFracture1";
+  rdfs:seeAlso :ShearLengthAfterFracture1 , :hasShearLengthAfterFracture1_Object;
+  :hasUnit qudtUnit:MilliM;
+  :hasUnitLabel "mm" .
 
 :CrossHardeningParameter
   rdf:type skos:Concept , owl:Class;
@@ -3480,7 +3520,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "OriginalGaugeLength"@en;
   :hasDescriptionCitationSource "Authors"@en , "DIN EN ISO 6892-1, 3.1.1"@en , "DIN EN ISO 6892-1, 3.1.1"@de;
   :hasExampleData "80" , "20";
-  :hasLabelSource "DIN EN ISO 6892-1, 3.1.1"@en , "DIN EN ISO 6892-1, 3.1.1"@de , "AFZ1-Fz-S1Q.xlsx"@de , "ISO 26203-2, 2011, 4"@en , "DX56_D_FZ2_WR00_43.TXT"@de;
+  :hasLabelSource "DX56_D_FZ2_WR00_43.TXT"@de , "DIN EN ISO 6892-1, 3.1.1"@en , "DIN EN ISO 6892-1, 3.1.1"@de , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-Sz0°-S1L"@de , "ISO 26203-2, 2011, 4"@en;
   :hasSymbol "L0"@en , "Lo"@en;
   :hasSymbolLatex "L_o"@en , "L_0"@en;
   :hasTypicalUnit qudtUnit:MilliM;
@@ -3555,6 +3595,13 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   dcterms:description "connects elastic strain with stress vi stiffness matrix"@en;
   skos:altlabel "Hooke"@en;
   skos:preflabel "ElasticityModel"@en .
+
+:hasShearStrength_MegaPA
+  rdf:type rdf:Property , owl:DatatypeProperty;
+  rdfs:label "has ShearStrength";
+  rdfs:seeAlso :ShearStrength , :hasShearStrength_Object;
+  :hasUnit qudtUnit:MegaPA;
+  :hasUnitLabel "MPa" .
 
 :hasRateSensitivityOfSlip_Object
   rdf:type owl:ObjectProperty , rdf:Property;
@@ -3649,7 +3696,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "Tester"@en;
   :hasDescriptionCitationSource "Authors"@en;
   :hasExampleData "Kürzel";
-  :hasLabelSource "YS1-Fz-D1Q"@de , "AFZ1-Fz-S1Q.xlsx"@de , " "@en .
+  :hasLabelSource "YS1-Fz-D1Q"@de , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-Sz0°-S1L"@de , " "@en .
 
 :Steel
   rdf:type skos:Concept , owl:Class;
@@ -4086,7 +4133,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "Time"@en;
   :hasDescriptionCitationSource "The time when the data point is recorded in relation to the start. "@en , "wes"@de , "wes"@en , "Authors"@de , "Authors"@en;
   :hasExampleData "0.694" , "s" , "0.05";
-  :hasLabelSource "YS1-Fz-D1Q"@de , "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en , "Authors"@de , "DX56_D_FZ2_WR00_43.TXT"@de , "ISO 26203-2, 2011, 4"@en , "DIN EN ISO 6892-1, Abb. 9"@de , "DIN EN ISO 6892-1, Fig. 9"@en , "AFZ1-Fz-S1Q.xlsx"@de , "AFZ1-NZ50-25-D1Q"@en , "AFZ1-ST-D1"@en , "AFZ-BU-S1.TXT"@de;
+  :hasLabelSource "YS1-Fz-D1Q"@de , "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en , "Authors"@de , "DX56_D_FZ2_WR00_43.TXT"@de , "ISO 26203-2, 2011, 4"@en , "DIN EN ISO 6892-1, Abb. 9"@de , "DIN EN ISO 6892-1, Fig. 9"@en , "AFZ1-Fz-S1Q.xlsx"@de , "AFZ-BU-S1.TXT"@de , "AFZ1-ST-D1"@en , "AFZ1-NZ50-25-D1Q"@en , "YS1-Sz0°-S1L"@de;
   :hasSymbol "t"@en;
   :hasSymbolLatex "t"@en;
   :hasTypicalUnit qudtUnit:SEC;
@@ -4266,14 +4313,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   :hasTypicalUnitLabel "mm/s" .
 
 :ExtensionAtFracture
-  rdf:type skos:Concept , owl:Class;
+  rdf:type owl:Class , skos:Concept;
   rdfs:label "ExtensionAtFracture"@en;
+  rdfs:seeAlso :OriginalCrosssection;
   rdfs:subClassOf pmdco:ValueObject;
   dcterms:description "\"Displacement of the extensometer (!) length at fracture\" [Authors]"@en;
-  skos:altlabel "DLBruch"@de;
+  skos:altlabel "Bruchverlängerung"@de , "DLBruch"@de;
   skos:preflabel "ExtensionAtFracture"@en;
+  skos:related :OriginalCrosssection;
   :hasDescriptionCitationSource "Authors"@en;
-  :hasLabelSource "AFZ1-Fz-S1Q.xlsx"@de;
+  :hasLabelSource "YS1-Sz0°-S1L"@de , "AFZ1-Fz-S1Q.xlsx"@de;
   :hasSymbolLatex "dLBruch"@en;
   :hasTypicalUnit qudtUnit:MilliM;
   :hasTypicalUnitLabel "mm";
@@ -4282,6 +4331,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :FlowStressExponent_a
   rdf:type owl:Class;
   rdfs:comment "DAMASK phenopower law parameter"@en .
+
+:hasShearLengthAfterFracture1_Object
+  rdf:type owl:ObjectProperty , rdf:Property;
+  rdfs:label "hasShearLengthAfterFracture1"@en;
+  rdfs:range :ShearLengthAfterFracture1;
+  skos:preflabel "hasShearLengthAfterFracture1"@en .
 
 :HCT980X
   rdf:type owl:Class , skos:Concept;
@@ -4699,6 +4754,18 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:range :Steel;
   skos:preflabel "hasSteel"@en .
 
+:ShearLengthAfterFracture2
+  rdf:type owl:Class , skos:Concept;
+  rdfs:label "ShearLengthAfterFracture2"@en;
+  rdfs:seeAlso :ShearLengthAfterFracture1;
+  rdfs:subClassOf pmdco:ValueObject;
+  skos:altlabel "Probenbreite B2 nach Bruch"@de;
+  skos:preflabel "ShearLengthAfterFracture2"@en;
+  skos:related :ShearLengthAfterFracture1;
+  :hasLabelSource "YS1-Sz0°-S1L"@de;
+  :hasTypicalUnit qudtUnit:MilliM;
+  :hasTypicalUnitLabel "mm" .
+
 :Ductility
   rdf:type owl:Class;
   rdfs:label "ductility"@en , "Duktilität"@de;
@@ -4853,12 +4920,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:seeAlso :ForceMeasuringDevice;
   rdfs:subClassOf pmdco:ValueObject;
   dcterms:description "\"Vorkraft\" in DIN EN ISO 6892-1"@en , "\"Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet\" [DIN EN ISO 6892-1, 10.2]"@de , "\"\"Vorkraft\" in DIN EN ISO 6892-1\" [Authors]"@en;
-  skos:altlabel "preliminary force"@en , "Vorkraft"@de;
+  skos:altlabel "preliminary force"@en , "Vorkraft"@de , "Vorlast"@de;
   skos:preflabel "PreliminaryForce"@en;
   skos:related :ForceMeasuringDevice;
   :hasDescriptionCitationSource "Authors"@en , "DIN EN ISO 6892-1, 10.2"@en , "DIN EN ISO 6892-1, 10.2"@de;
-  :hasExampleData "2";
-  :hasLabelSource "DIN EN ISO 6892-1, 10.2"@en , "DIN EN ISO 6892-1, 10.2"@de , "DX56_D_FZ2_WR00_43.TXT"@de;
+  :hasExampleData "2" , "0.105";
+  :hasLabelSource "DIN EN ISO 6892-1, 10.2"@en , "DIN EN ISO 6892-1, 10.2"@de , "YS1-Sz0°-S1L"@de , "DX56_D_FZ2_WR00_43.TXT"@de;
   :hasTypicalUnit qudtUnit:KiloN , qudtUnit:MegaPA;
   :hasTypicalUnitLabel "kN" , "MPa" .
 
@@ -4886,11 +4953,13 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "ductile failure"@en , "duktiles Versagen"@de .
 
 :SampleCode
-  rdf:type skos:Concept , owl:Class;
+  rdf:type owl:Class , skos:Concept;
   rdfs:label "SampleCode"@en;
   rdfs:subClassOf pmdco:ValueObject;
-  skos:altlabel "Label ID"@en;
+  dcterms:description "\"QR-Code from Label System\" [Authors]"@en;
+  skos:altlabel "QR-Code"@de , "Label ID"@en , "QR-Code from Label System"@en;
   skos:preflabel "SampleCode"@en;
+  :hasDescriptionCitationSource "Authors"@en;
   :hasLabelSource "AFZ1-NZ50-25-D1Q"@en .
 
 :ReferenceJob
@@ -5256,16 +5325,17 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdf:type skos:Concept , owl:Class;
   rdfs:label "OriginalCrosssection"@en;
   rdfs:subClassOf pmdco:ValueObject;
-  dcterms:description "\"original cross-sectional area of the parallel length\" [Authors]"@en;
-  skos:altlabel "Original cross section"@en , "Anfangsquerschnitt S0"@de;
+  dcterms:description "\"original cross-sectional area of the parallel length\" [Authors]"@en , "\"original crosssection area of the parallel length\" [Authors]"@en;
+  skos:altlabel "Anfangsquerschnitt S0"@de , "S0"@en , "Anfangsquerschnitt So"@de , "Original cross section"@en;
   skos:preflabel "OriginalCrosssection"@en;
   :hasDescriptionCitationSource "Authors"@en;
   :hasExampleData "14.98";
-  :hasLabelSource "YS1-Fz-D1Q"@de;
-  :hasSymbol "S_{0}"@en;
+  :hasLabelSource "YS1-Sz0°-S1L"@de , "YS1-Fz-D1Q"@de;
+  :hasSymbol "S_{0}"@en , "S0"@en;
+  :hasSymbolLatex "S_{0}"@en;
   :hasTypicalUnit qudtUnit:MilliM2;
   :hasTypicalUnitLabel "mm2";
-  :isBasedOn :Diameter , :OriginalWidth , :OriginalThickness .
+  :isBasedOn :OriginalWidth , :OriginalThickness , :ShearLength , :Diameter .
 
 :FailureCriteriaTypeAdd4StrainAverage
   rdf:type owl:Class , skos:Concept;
@@ -5295,7 +5365,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "OriginalThickness"@en;
   :hasDescriptionCitationSource "DIN EN ISO 6892-1, Tabelle 1"@de , "DIN EN ISO 6892-1, Table 1"@en , "Authors"@en;
   :hasExampleData "1.5" , "1.55" , "1490";
-  :hasLabelSource "YS1-Fz-D1Q"@de , "DX56_D_FZ2_WR00_43.TXT"@de , "AFZ1-ST-D1"@en , "AFZ1-Fz-S1Q.xlsx"@de , "DIN EN ISO 6892-1, Table 1"@en;
+  :hasLabelSource "DIN EN ISO 6892-1, Table 1"@en , "YS1-Fz-D1Q"@de , "DX56_D_FZ2_WR00_43.TXT"@de , "AFZ1-ST-D1"@en , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-Sz0°-S1L"@de;
   :hasSymbol "ao"@en , "a_{0}"@en;
   :hasSymbolLatex "a_o"@en;
   :hasTypicalUnit qudtUnit:MilliM;
@@ -5484,11 +5554,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:label "DisplacementTransducer"@en;
   rdfs:subClassOf pmdco:ValueObject;
   dcterms:description "\"Type of the displacement transducer.\" [Authors]"@en;
-  skos:altlabel "Displacement transducer"@en , "Wegaufnehmer"@de;
+  skos:altlabel "Displacement transducer"@en , "Dehnungsaufnehmer"@de , "Wegaufnehmer"@de;
   skos:preflabel "DisplacementTransducer"@en;
   :hasDescriptionCitationSource "Authors"@en;
-  :hasExampleData "Tiefungskolben" , "Clip gauge" , "makroXtens";
-  :hasLabelSource "DX56_D_FZ2_WR00_43.TXT"@de , "AFZ-BU-S1.TXT"@de , "deepl translator"@en .
+  :hasExampleData "makroXtens" , "Clip gauge" , "Tiefungskolben";
+  :hasLabelSource "AFZ-BU-S1.TXT"@de , "deepl translator"@en , "DX56_D_FZ2_WR00_43.TXT"@de .
 
 :hasFracture
   rdf:type rdf:Property , owl:DatatypeProperty;
@@ -5552,8 +5622,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "TestPieceGeometry"@en;
   skos:related :SampleType , :TestStandard;
   :hasDescriptionCitationSource "Authors"@de , "Authors"@en;
-  :hasExampleData "Flach-Zug" , "FzA20" , "FZ2 (L0=80_b0=20_R20)" , "Nakajima Specimen" , "Crashbox";
-  :hasLabelSource "DIN EN ISO 12004-2: 2021_07, 11"@de , "AFZ1-NZ50-25-D1Q"@en , "deepl translator"@en , " "@en , "YS1-Fz-D1Q"@de , "DX56_D_FZ2_WR00_43.TXT"@de , "AFZ1-ST-D1"@en , "AFZ1-Fz-S1Q.xlsx"@en , "AFZ1-Fz-S1Q.xlsx"@de , "DIN EN ISO 12004-2: 2021_07, 11"@en .
+  :hasExampleData "Flach-Zug" , "FzA20" , "FZ2 (L0=80_b0=20_R20)" , "Nakajima Specimen" , "Sz0°" , "Crashbox";
+  :hasLabelSource "DIN EN ISO 12004-2: 2021_07, 11"@de , "DIN EN ISO 12004-2: 2021_07, 11"@en , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-Sz0°-S1L"@de , "AFZ1-NZ50-25-D1Q"@en , "deepl translator"@en , " "@en , "YS1-Fz-D1Q"@de , "DX56_D_FZ2_WR00_43.TXT"@de , "AFZ1-ST-D1"@en , "AFZ1-Fz-S1Q.xlsx"@en .
 
 :Supplier
   rdf:type owl:Class , skos:Concept;
@@ -5671,17 +5741,17 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "hasResultsFile"@en .
 
 :TestingDirection
-  rdf:type skos:Concept , owl:Class;
+  rdf:type owl:Class , skos:Concept;
   rdfs:label "TestingDirection"@en;
   rdfs:seeAlso :RollingDirection;
   rdfs:subClassOf pmdco:ValueObject;
   dcterms:description "\"testing direction related to the rolling direction\" [Authors]"@en;
-  skos:altlabel "testing direction"@en;
+  skos:altlabel "testing direction"@en , "Orientierung"@de;
   skos:preflabel "TestingDirection"@en;
   skos:related :RollingDirection;
   :hasDescriptionCitationSource "Authors"@en;
   :hasExampleData "quer";
-  :hasLabelSource "AFZ1-Fz-S1Q.xlsx"@de .
+  :hasLabelSource "YS1-Sz0°-S1L"@de , "AFZ1-Fz-S1Q.xlsx"@de .
 
 :hasMassDensity_Object
   rdf:type owl:ObjectProperty;
@@ -5866,7 +5936,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:related :ForceMeasuringSystem , :ForceMeasuringDevice;
   :hasDescriptionCitationSource "Authors"@en;
   :hasExampleData "82.0348" , "2438" , "0.105";
-  :hasLabelSource "YS1-Fz-D1Q"@de , "AFZ-BU-S1.TXT"@de , "DIN EN ISO 6892-1, Tabelle 1"@de , "DIN EN ISO 6892-1, Table 1"@en , "AFZ1-NZ50-25-D1Q"@en , "deepl translator"@en , "AFZ1-Fz-S1Q.xlsx"@de , "AFZ1-ST-D1"@en , "DX56_D_FZ2_WR00_43.TXT"@de;
+  :hasLabelSource "YS1-Fz-D1Q"@de , "AFZ-BU-S1.TXT"@de , "DIN EN ISO 6892-1, Tabelle 1"@de , "DIN EN ISO 6892-1, Table 1"@en , "AFZ1-NZ50-25-D1Q"@en , "deepl translator"@en , "DX56_D_FZ2_WR00_43.TXT"@de , "AFZ1-ST-D1"@en , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-Sz0°-S1L"@de;
   :hasSymbol "F"@en;
   :hasSymbolLatex "F"@en;
   :hasTypicalUnit qudtUnit:KiloN , qudtUnit:N;
@@ -6126,12 +6196,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:seeAlso :Machine;
   rdfs:subClassOf pmdco:ValueObject;
   dcterms:description "\"Displacement of the actuator\" [Authors]"@en;
-  skos:altlabel "Machine Displacement"@en;
+  skos:altlabel "Machine Displacement"@en , "Maschine"@de;
   skos:preflabel "CrossheadDisplacement"@en;
   skos:related :Machine;
   :hasDescriptionCitationSource "Authors"@en;
   :hasExampleData "14786";
-  :hasLabelSource "AFZ1-ST-D1"@en , "AFZ1-Fz-S1Q.xlsx"@de;
+  :hasLabelSource "AFZ1-Fz-S1Q.xlsx"@de , "YS1-Sz0°-S1L"@de , "AFZ1-ST-D1"@en;
   :hasTypicalUnit qudtUnit:MilliM;
   :hasTypicalUnitLabel "mm" .
 
@@ -6220,7 +6290,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "Machine"@en;
   :hasDescriptionCitationSource "Authors"@en;
   :hasExampleData "ZwickRoell Blechumformprüfmaschine 600kN - BUP600" , "SZM500" , "Instron 5985" , "SZM100";
-  :hasLabelSource "YS1-FzR4-S1Q"@de , "YS1-FzR4-S1Q"@en , "YS1-Fz-D1Q"@de , "AFZ-BU-S1.TXT"@de , "K-Type"@en , "AFZ1-Fz-S1Q.xlsx"@de , "standard definition specific"@en , "AFZ1-ST-D1"@en , "deepl translator"@en , "AFZ1-NZ50-25-D1Q"@en , "YS1-Sz0°-S1L"@de .
+  :hasLabelSource "YS1-FzR4-S1Q"@en , "YS1-FzR4-S1Q"@de , "YS1-Sz0°-S1L"@de , "YS1-Fz-D1Q"@de , "AFZ-BU-S1.TXT"@de , "K-Type"@en , "AFZ1-Fz-S1Q.xlsx"@de , "standard definition specific"@en , "AFZ1-ST-D1"@en , "deepl translator"@en , "AFZ1-NZ50-25-D1Q"@en .
 
 :Stress
   rdf:type skos:Concept , owl:Class;
@@ -7074,8 +7144,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "CrossheadSeparationRate"@en;
   skos:related :ParallelLength;
   :hasDescriptionCitationSource "Authors"@en , "DIN EN ISO 6892-1, 3.7.3"@en , "DIN EN ISO 6892-1, 3.7.3"@de;
-  :hasExampleData "0.1" , "0.02" , "4800";
-  :hasLabelSource "AFZ1-ST-D1"@en , "DIN EN ISO 6892-1, 3.7.3"@en , "DIN EN ISO 6892-1, 3.7.3"@de , "AFZ1-Fz-S1Q.xlsx"@de , "DX56_D_FZ2_WR00_43.TXT"@de;
+  :hasExampleData "0.1" , "4800" , "0.02";
+  :hasLabelSource "AFZ1-ST-D1"@en , "DIN EN ISO 6892-1, 3.7.3"@en , "YS1-Sz0°-S1L"@de , "DIN EN ISO 6892-1, 3.7.3"@de , "AFZ1-Fz-S1Q.xlsx"@de , "DX56_D_FZ2_WR00_43.TXT"@de;
   :hasSymbol "vc"@en;
   :hasSymbolLatex "\\nu_c"@en;
   :hasTypicalUnit qudtUnit:MilliM-PER-SEC;
@@ -7133,6 +7203,20 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:label "hasMaterialClass"@en;
   rdfs:range :MaterialClass;
   skos:preflabel "hasMaterialClass"@en .
+
+:ShearStrength
+  rdf:type skos:Concept , owl:Class;
+  rdfs:label "ShearStrength"@en;
+  rdfs:subClassOf pmdco:ValueObject;
+  dcterms:description "\"shear strength\" [Authors]"@en;
+  skos:altlabel "Zugfestigkeit Rm"@de;
+  skos:preflabel "ShearStrength"@en;
+  :hasDescriptionCitationSource "Authors"@en;
+  :hasExampleData "468";
+  :hasLabelSource "YS1-Sz0°-S1L"@de;
+  :hasTypicalUnit qudtUnit:MegaPA;
+  :hasTypicalUnitLabel "MPa";
+  :isBasedOn :EngineeringStress .
 
 :DiameterAfterFracture1
   rdf:type skos:Concept , owl:Class;
@@ -7192,7 +7276,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:preflabel "SampleIdentifier"@en;
   :hasDescriptionCitationSource "Unique ID (IWM intern)"@de , "Authors"@en;
   :hasExampleData "AFZ-BU-S1" , "AFZ1-ST-D1" , "AFZ1-Fz-101Q" , "AWA_1_01_Rz" , "AFZ1-NZ50-25-D1Q";
-  :hasLabelSource "AWA_1_01_Rz-46N171"@de , "YS1-Fz-D1Q"@de , "deepl translator"@en , "AFZ1-Fz-S1Q.xlsx"@de , "AFZ1-NZ50-25-D1Q"@en , "AFZ1-NZ50-25-D1Q"@de , "AFZ-BU-S1.TXT"@de , "AFZ1-ST-D1"@en , " "@en .
+  :hasLabelSource " "@en , "AWA_1_01_Rz-46N171"@de , "YS1-Fz-D1Q"@de , "deepl translator"@en , "YS1-Sz0°-S1L"@de , "AFZ1-Fz-S1Q.xlsx"@de , "AFZ1-NZ50-25-D1Q"@en , "AFZ1-NZ50-25-D1Q"@de , "AFZ-BU-S1.TXT"@de , "AFZ1-ST-D1"@en .
 
 :hasTestingFacility_Object
   rdf:type owl:ObjectProperty , rdf:Property;
@@ -7330,7 +7414,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:seeAlso :TestTemperatur , :hasTestTemperatur_Object .
 
 :TestStandard
-  rdf:type skos:Concept , owl:Class;
+  rdf:type owl:Class , skos:Concept;
   rdfs:comment "The norm according to which the experiment was conducted."@en;
   rdfs:label "TestStandard"@en;
   rdfs:subClassOf pmdco:ValueObject;
@@ -7356,7 +7440,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:altlabel "Probendicke A2 nach Bruch"@de;
   skos:preflabel "ThicknessAfterFracture2"@en;
   skos:related :ThicknessAfterFracture1;
-  :hasLabelSource "AFZ1-Fz-S1Q.xlsx"@de;
+  :hasLabelSource "YS1-Sz0°-S1L"@de , "AFZ1-Fz-S1Q.xlsx"@de;
   :hasTypicalUnit qudtUnit:MilliM;
   :hasTypicalUnitLabel "mm" .
 
@@ -7482,7 +7566,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   rdfs:label "StahlDigital Vocabulary"@en;
   dc:description "Vocabulary of project StahlDigital"@en;
   dcterms:contributor "Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm";
-  dcterms:date "2024-04-19T20:24:00+00:00";
+  dcterms:date "2024-04-19T21:24:08+00:00";
   owl:versionInfo "0.1 (preliminary)"@en;
   skos:prefLabel "StahlDigital Vocabulary"@en .
 
@@ -7520,19 +7604,19 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   :hasUnitLabel "mm" .
 
 :ExtensometerGaugeLength
-  rdf:type owl:Class , skos:Concept;
+  rdf:type skos:Concept , owl:Class;
   rdfs:comment "The intial gauge length used for measurement of extension by means of an extensometer"@en;
   rdfs:label "ExtensometerGaugeLength"@en;
-  rdfs:seeAlso :OriginalGaugeLength , :ExtensionMeasuringSystem;
+  rdfs:seeAlso :ExtensionMeasuringSystem , :OriginalGaugeLength;
   rdfs:subClassOf pmdco:ValueObject;
-  dcterms:description "\"The intial gauge length Le used for measurement of extension by means of an extensometer\" [Authors]"@en , "\"initial extensometer gauge length used for measurement of extension by means of an extensometer\" [DIN EN ISO 6892-1, 3.5]"@en , "\"Anfangsmesslänge des Dehnungsaufnehmers (Extensometer), die zum Messen der Verlängerung (3.6) benutzt wird\" [DIN EN ISO 6892-1, 3.5]"@de , "\"The intial gauge length used for measurement of extension by means of an extensometer\" [Authors]"@en;
-  skos:altlabel "Messlänge Lo"@de , "Messlänge L0"@de , "Extensometer gauge length "@en , "extensometer gauge length"@en;
+  dcterms:description "\"initial extensometer gauge length used for measurement of extension by means of an extensometer\" [DIN EN ISO 6892-1, 3.5]"@en , "\"The intial gauge length Le used for measurement of extension by means of an extensometer\" [Authors]"@en , "\"Anfangsmesslänge des Dehnungsaufnehmers (Extensometer), die zum Messen der Verlängerung (3.6) benutzt wird\" [DIN EN ISO 6892-1, 3.5]"@de , "\"The intial gauge length used for measurement of extension by means of an extensometer\" [Authors]"@en;
+  skos:altlabel "Messlänge Lo"@de , "Extensometer gauge length "@en , "L0"@en , "extensometer gauge length"@en , "Messlänge L0"@de;
   skos:preflabel "ExtensometerGaugeLength"@en;
-  skos:related :OriginalGaugeLength , :ExtensionMeasuringSystem;
-  :hasDescriptionCitationSource "Authors"@en , "DIN EN ISO 6892-1, 3.5"@en , "DIN EN ISO 6892-1, 3.5"@de;
+  skos:related :ExtensionMeasuringSystem , :OriginalGaugeLength;
+  :hasDescriptionCitationSource "Authors"@en , "DIN EN ISO 6892-1, 3.5"@de , "DIN EN ISO 6892-1, 3.5"@en;
   :hasExampleData "20" , "20.94";
-  :hasLabelSource "DIN EN ISO 6892-1, 3.5"@en , "DIN EN ISO 6892-1, 3.5"@de , " "@en , "ISO 26203-2, 2011, 4"@en , "YS1-Fz-D1Q"@de , "AFZ1-Fz-S1Q.xlsx"@de;
-  :hasSymbol "Le"@en , "L_{0}"@en;
+  :hasLabelSource "ISO 26203-2, 2011, 4"@en , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-Sz0°-S1L"@de , "DIN EN ISO 6892-1, 3.5"@de , "DIN EN ISO 6892-1, 3.5"@en , " "@en , "YS1-Fz-D1Q"@de;
+  :hasSymbol "L_{0}"@en , "Le"@en;
   :hasSymbolLatex "L_e"@en;
   :hasTypicalUnit qudtUnit:MilliM;
   :hasTypicalUnitLabel "mm" .
@@ -7637,7 +7721,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
   skos:related :ExtensionMeasuringSystem , :DisplacementTransducer , :ExtensometerGaugeLength;
   :hasDescriptionCitationSource "DIN EN ISO 6892-1, 3.6"@de , "DIN EN ISO 6892-1, 3.6"@en , "Authors"@en;
   :hasExampleData "0.001" , "0.026" , "-3.93633e-05";
-  :hasLabelSource "DIN EN ISO 6892-1, 3.6"@de , "DIN EN ISO 6892-1, 3.6"@en , "DX56_D_FZ2_WR00_43.TXT"@de , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-Fz-D1Q"@de;
+  :hasLabelSource "YS1-Fz-D1Q"@de , "DIN EN ISO 6892-1, 3.6"@de , "DIN EN ISO 6892-1, 3.6"@en , "YS1-Sz0°-S1L"@de , "DX56_D_FZ2_WR00_43.TXT"@de , "AFZ1-Fz-S1Q.xlsx"@de;
   :hasSymbol "dL"@en;
   :hasSymbolLatex "dL"@en;
   :hasTypicalUnit qudtUnit:MilliM;
