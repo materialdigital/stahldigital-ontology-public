@@ -1,0 +1,17 @@
+
+
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://www.w3.org/2000/01/rdf-schema#label> "NotchTensileStrength"@en .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://purl.org/dc/terms/description> "\"notch tensile strength\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://www.w3.org/2004/02/skos/core#altlabel> "Rm"@de .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://www.w3.org/2004/02/skos/core#preflabel> "NotchTensileStrength"@en .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "468" .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MegaPA> .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/EngineeringStress> .
+
+

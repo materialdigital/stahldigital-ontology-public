@@ -329,6 +329,7 @@
 <https://w3id.org/steel/ProcessOntology/CrossheadDisplacement> <https://w3id.org/steel/ProcessOntology/hasExampleData> "14786" .
 <https://w3id.org/steel/ProcessOntology/CrossheadDisplacement> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
 <https://w3id.org/steel/ProcessOntology/CrossheadDisplacement> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-ST-D1"@en .
+<https://w3id.org/steel/ProcessOntology/CrossheadDisplacement> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/CrossheadDisplacement> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/CrossheadDisplacement> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MilliM> .
 <https://w3id.org/steel/ProcessOntology/CrossheadDisplacement> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
@@ -348,6 +349,7 @@
 <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
 <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.7.3"@de .
 <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.7.3"@en .
+<https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "0.01" .
 <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "0.02" .
 <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "0.1" .
 <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "4800" .
@@ -356,6 +358,8 @@
 <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.7.3"@de .
 <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.7.3"@en .
 <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
+<https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasSymbol> "vc"@en .
 <https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "\\nu_c"@en .
@@ -562,6 +566,7 @@
 <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <http://www.w3.org/2004/02/skos/core#altlabel> "Dehnungsaufnehmer"@de .
 <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <http://www.w3.org/2004/02/skos/core#altlabel> "Displacement transducer"@en .
 <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <http://www.w3.org/2004/02/skos/core#altlabel> "Wegaufnehmer"@de .
+<https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <http://www.w3.org/2004/02/skos/core#altlabel> "extensometer system"@en .
 <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <http://www.w3.org/2004/02/skos/core#preflabel> "DisplacementTransducer"@en .
 <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
 <https://w3id.org/steel/ProcessOntology/DisplacementTransducer> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Clip gauge" .
@@ -788,6 +793,8 @@
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "Standard definition specific"@de .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasSymbol> "R"@en .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Sig-technisch"@en .
@@ -889,6 +896,7 @@
 <https://w3id.org/steel/ProcessOntology/ExperimentIdentifier> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
 <https://w3id.org/steel/ProcessOntology/ExperimentIdentifier> <https://w3id.org/steel/ProcessOntology/hasExampleData> "46NT71" .
 <https://w3id.org/steel/ProcessOntology/ExperimentIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AWA_1_01_Rz-46N171"@de .
+<https://w3id.org/steel/ProcessOntology/ExperimentIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/ExperimentalTest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/ExperimentalTest> <http://www.w3.org/2000/01/rdf-schema#comment> "Suclasses like Tensile Test"@en .
 <https://w3id.org/steel/ProcessOntology/ExperimentalTest> <http://www.w3.org/2000/01/rdf-schema#label> "Experimental test"@en .
@@ -932,6 +940,8 @@
 <https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.6"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasSymbol> "dL"@en .
 <https://w3id.org/steel/ProcessOntology/Extension> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "dL"@en .
@@ -951,6 +961,7 @@
 <https://w3id.org/steel/ProcessOntology/ExtensionAtFracture> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> .
 <https://w3id.org/steel/ProcessOntology/ExtensionAtFracture> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
 <https://w3id.org/steel/ProcessOntology/ExtensionAtFracture> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
+<https://w3id.org/steel/ProcessOntology/ExtensionAtFracture> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/ExtensionAtFracture> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/ExtensionAtFracture> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "dLBruch"@en .
 <https://w3id.org/steel/ProcessOntology/ExtensionAtFracture> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MilliM> .
@@ -997,6 +1008,8 @@
 <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.5"@en .
 <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
 <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> <https://w3id.org/steel/ProcessOntology/hasSymbol> "L_{0}"@en .
 <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Le"@en .
@@ -1217,6 +1230,8 @@
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, Table 1"@en .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "deepl translator"@en .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasSymbol> "F"@en .
@@ -1986,6 +2001,7 @@
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@de .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@en .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasExampleData> "42CrMoS4" .
+<https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasExampleData> "H340LAD" .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasExampleData> "HX340LAD" .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasExampleData> "ZStE340" .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
@@ -2001,6 +2017,8 @@
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@de .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@en .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/MaterialCard> <http://purl.org/dc/terms/description> "\"Eine Materialkarten beschreibt das Materialverhalten eines Werkstoffes in Form von Daten und Parametern\" [General Knowledge]"@de .
 <https://w3id.org/steel/ProcessOntology/MaterialCard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2076,10 +2094,12 @@
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "ISO 26203-2, 2011, 4"@en .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasExampleData> "500 kN" .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasExampleData> "7008" .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasExampleData> "7690" .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "K-Item"@de .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "Standard definition specific"@de .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Fm"@en .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "F_{m}"@en .
@@ -2406,6 +2426,19 @@
 <https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s-1" .
 <https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/InitialDisplacementRate> .
 <https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/ParallelLength> .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://purl.org/dc/terms/description> "\"notch tensile strength\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://www.w3.org/2000/01/rdf-schema#label> "NotchTensileStrength"@en .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://www.w3.org/2004/02/skos/core#altlabel> "Rm"@de .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <http://www.w3.org/2004/02/skos/core#preflabel> "NotchTensileStrength"@en .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "468" .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MegaPA> .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
+<https://w3id.org/steel/ProcessOntology/NotchTensileStrength> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/EngineeringStress> .
 <https://w3id.org/steel/ProcessOntology/NumberFailedIntegrationPoints> <http://purl.org/dc/terms/description> "Number or percentage of failed integration points prior to element deletion.\nGT.0.0: Number of integration points which must fail before element is deleted.\nLT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must fail before an element is deleted. For shell formulations with 4 integration points per layer, the layer is considered failed if any of the integration points in the layer fails."@en .
 <https://w3id.org/steel/ProcessOntology/NumberFailedIntegrationPoints> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/NumberFailedIntegrationPoints> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2508,11 +2541,15 @@
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#altlabel> "Anfangsquerschnitt S0"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#altlabel> "Anfangsquerschnitt So"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#altlabel> "Original cross section"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#altlabel> "S0"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#altlabel> "S0"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <http://www.w3.org/2004/02/skos/core#preflabel> "OriginalCrosssection"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasExampleData> "14.98" .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasExampleData> "15.05" .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasSymbol> "S0"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> <https://w3id.org/steel/ProcessOntology/hasSymbol> "S_{0}"@en .
@@ -2555,12 +2592,15 @@
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.1.1"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.1.1"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "20" .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "30" .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasExampleData> "80" .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.1.1"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.1.1"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasSymbol> "L0"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalGaugeLength> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Lo"@en .
@@ -2590,11 +2630,14 @@
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasExampleData> "1.5" .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasExampleData> "1.55" .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasExampleData> "1490" .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasExampleData> "1499" .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-ST-D1"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, Table 1"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasSymbol> "a_{0}"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasSymbol> "ao"@en .
@@ -2621,6 +2664,7 @@
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, Tabelle 1"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, Table 1"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasExampleData> "10040" .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasExampleData> "10054" .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasExampleData> "20.04" .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
@@ -2628,6 +2672,8 @@
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, Table 1"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasSymbol> "b_{0}"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasSymbol> "bo"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "b_o"@en .
@@ -3024,6 +3070,7 @@
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 10.2"@de .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 10.2"@en .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/KiloN> .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MegaPA> .
@@ -3405,6 +3452,7 @@
 <https://w3id.org/steel/ProcessOntology/Remark> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Vorversuch" .
 <https://w3id.org/steel/ProcessOntology/Remark> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/Remark> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
+<https://w3id.org/steel/ProcessOntology/Remark> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/Remark> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/Remark> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "deepl translator"@en .
 <https://w3id.org/steel/ProcessOntology/ResultsFile> <http://purl.org/dc/terms/description> "\"Datei, die die Ergebnisse eines virtuellen Versuchs beinhaltet.\" [General Knowledge]"@de .
@@ -3466,6 +3514,7 @@
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/2004/02/skos/core#altlabel> "Probennummer"@de .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/2004/02/skos/core#altlabel> "Sample identifier"@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/2004/02/skos/core#altlabel> "Specimen Name"@en .
+<https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/2004/02/skos/core#altlabel> "Specimen name"@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <http://www.w3.org/2004/02/skos/core#preflabel> "SampleIdentifier"@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Unique ID (IWM intern)"@de .
@@ -3474,6 +3523,7 @@
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasExampleData> "AFZ1-NZ50-25-D1Q" .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasExampleData> "AFZ1-ST-D1" .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasExampleData> "AWA_1_01_Rz" .
+<https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasExampleData> "YS1-FzR4-S1Q" .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> " "@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
@@ -3482,6 +3532,8 @@
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-ST-D1"@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AWA_1_01_Rz-46N171"@de .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/SampleIdentifier> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "deepl translator"@en .
 <https://w3id.org/steel/ProcessOntology/SampleInfos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -4082,6 +4134,7 @@
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Flach-Zug" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "FzA20" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Nakajima Specimen" .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Notched Flat tensile Specimen" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Sz0\u00B0" .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> " "@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
@@ -4092,6 +4145,8 @@
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 12004-2: 2021_07, 11"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "deepl translator"@en .
 <https://w3id.org/steel/ProcessOntology/TestPieceLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -4168,6 +4223,8 @@
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 5"@de .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, K.4"@en .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
+<https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasSymbol> "T"@en .
 <https://w3id.org/steel/ProcessOntology/TestTemperature> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "T"@en .
@@ -4202,6 +4259,7 @@
 <https://w3id.org/steel/ProcessOntology/Tester> <https://w3id.org/steel/ProcessOntology/hasLabelSource> " "@en .
 <https://w3id.org/steel/ProcessOntology/Tester> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
 <https://w3id.org/steel/ProcessOntology/Tester> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/Tester> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/Tester> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/TestingDirection> <http://purl.org/dc/terms/description> "\"testing direction related to the rolling direction\" [Authors]"@en .
 <https://w3id.org/steel/ProcessOntology/TestingDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -4325,6 +4383,8 @@
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0\u00B0-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasSymbol> "t"@en .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "t"@en .
@@ -6454,6 +6514,18 @@
 <https://w3id.org/steel/ProcessOntology/hasNominalEngineeringStrainRate_PER-SEC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/hasNominalEngineeringStrainRate_Object> .
 <https://w3id.org/steel/ProcessOntology/hasNominalEngineeringStrainRate_PER-SEC> <https://w3id.org/steel/ProcessOntology/hasUnit> <http://qudt.org/vocab/unit/PER-SEC> .
 <https://w3id.org/steel/ProcessOntology/hasNominalEngineeringStrainRate_PER-SEC> <https://w3id.org/steel/ProcessOntology/hasUnitLabel> "s-1" .
+<https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA> <http://www.w3.org/2000/01/rdf-schema#label> "has NotchTensileStrength" .
+<https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/NotchTensileStrength> .
+<https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_Object> .
+<https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA> <https://w3id.org/steel/ProcessOntology/hasUnit> <http://qudt.org/vocab/unit/MegaPA> .
+<https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA> <https://w3id.org/steel/ProcessOntology/hasUnitLabel> "MPa" .
+<https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_Object> <http://www.w3.org/2000/01/rdf-schema#label> "hasNotchTensileStrength"@en .
+<https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_Object> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/NotchTensileStrength> .
+<https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_Object> <http://www.w3.org/2004/02/skos/core#preflabel> "hasNotchTensileStrength"@en .
 <https://w3id.org/steel/ProcessOntology/hasNumberFailedIntegrationPoints_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/steel/ProcessOntology/hasNumberFailedIntegrationPoints_Object> <http://www.w3.org/2000/01/rdf-schema#label> "hasNumberFailedIntegrationPoints"@en .
 <https://w3id.org/steel/ProcessOntology/hasNumberFailedIntegrationPoints_Object> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/NumberFailedIntegrationPoints> .
@@ -8147,7 +8219,7 @@
 <https://w3id.org/steel/ProcessOntology/workflowSteps> <http://www.w3.org/2004/02/skos/core#preflabel> "steps"@en .
 <https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/elements/1.1/description> "Vocabulary of project StahlDigital"@en .
 <https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/contributor> "Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm" .
-<https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/date> "2024-04-19T21:24:08+00:00" .
+<https://w3id.org/steel/ProcessOntology> <http://purl.org/dc/terms/date> "2024-04-19T22:23:52+00:00" .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/2000/01/rdf-schema#label> "StahlDigital Vocabulary"@en .
 <https://w3id.org/steel/ProcessOntology> <http://www.w3.org/2002/07/owl#versionInfo> "0.1 (preliminary)"@en .

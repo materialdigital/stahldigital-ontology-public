@@ -3195,10 +3195,10 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <skos:preflabel xml:lang="de">Pyiron Job</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
     <rdfs:label xml:lang="en">EngineeringStress</rdfs:label>
@@ -3234,19 +3234,25 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
     <hasExampleData>9751</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
-    <hasLabelSource xml:lang="de">Standard definition specific</hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
-    <hasLabelSource xml:lang="en">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
     <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
+    <hasLabelSource xml:lang="en">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
     <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
     <hasLabelSource xml:lang="en">ISO 26203-2, 2011, 4</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
+    <hasLabelSource xml:lang="de">Standard definition specific</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EngineeringStress">
     <hasSymbol xml:lang="en">Sig-technisch</hasSymbol>
@@ -3806,6 +3812,9 @@ or
     <hasExampleData>ZStE340</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <hasExampleData>H340LAD</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <hasExampleData>HX340LAD</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
@@ -3824,6 +3833,12 @@ or
     <hasLabelSource xml:lang="en">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
@@ -3839,6 +3854,9 @@ or
     <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <hasLabelSource xml:lang="de">AWA_1_01_Rz-46N171</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <hasLabelSource xml:lang="en">DIN EN ISO 12004-2: 2021_07</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
@@ -3849,9 +3867,6 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <hasLabelSource xml:lang="de">AWA_1_01_Rz-46N171</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TotalLength">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -4300,6 +4315,45 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EbsdFileName">
     <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <rdfs:label xml:lang="en">NotchTensileStrength</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <rdfs:subClassOf rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <dcterms:description xml:lang="en">"notch tensile strength" [Authors]</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <skos:altlabel xml:lang="de">Rm</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <skos:preflabel xml:lang="en">NotchTensileStrength</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <hasExampleData>468</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <hasTypicalUnit rdf:resource="http://qudt.org/vocab/unit/MegaPA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <hasTypicalUnitLabel>MPa</hasTypicalUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NotchTensileStrength">
+    <isBasedOn rdf:resource="https://w3id.org/steel/ProcessOntology/EngineeringStress"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -4494,6 +4548,9 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Remark">
     <hasLabelSource xml:lang="en">deepl translator</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Remark">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SerialNumber">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -5144,6 +5201,9 @@ or
     <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
+    <hasExampleData>7690</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
     <hasExampleData>500 kN</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
@@ -5153,16 +5213,19 @@ or
     <hasLabelSource xml:lang="de">K-Item</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
-    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
-    <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
+    <hasLabelSource xml:lang="en">ISO 26203-2, 2011, 4</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
     <hasLabelSource xml:lang="de">Standard definition specific</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
-    <hasLabelSource xml:lang="en">ISO 26203-2, 2011, 4</hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
+    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
+    <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaximumForce">
     <hasSymbol xml:lang="en">Fm</hasSymbol>
@@ -6309,6 +6372,27 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasDiameter_Object">
     <skos:preflabel xml:lang="en">hasDiameter</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA">
+    <rdfs:label>has NotchTensileStrength</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/NotchTensileStrength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA">
+    <hasUnit rdf:resource="http://qudt.org/vocab/unit/MegaPA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_MegaPA">
+    <hasUnitLabel>MPa</hasUnitLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestProperty">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -8509,10 +8593,10 @@ or
     <isBasedOn rdf:resource="https://w3id.org/steel/ProcessOntology/Width"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture2">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture2">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture2">
     <rdfs:label xml:lang="en">WidthAfterFracture2</rdfs:label>
@@ -8930,22 +9014,16 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <rdfs:subClassOf rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
+    <dcterms:description xml:lang="de">"Versuche unter kontrollierten Bedingungen müssen bei einer Temperatur von (23 ± 5) °C durchgeführt werden." [DIN EN ISO 6892-1]</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
     <dcterms:description xml:lang="de">"Prüftemperatur" [DIN EN ISO 12004-2: 2021_07, 5]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
     <dcterms:description xml:lang="en">"The temperature during the experiment." [Authors]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <dcterms:description xml:lang="de">"Versuche unter kontrollierten Bedingungen müssen bei einer Temperatur von (23 ± 5) °C durchgeführt werden." [DIN EN ISO 6892-1]</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
     <dcterms:description xml:lang="en">"The initial test temperature during the experiment (neglecting adiabatic heating)" [Authors]</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <skos:altlabel xml:lang="de">Prüftemperatur</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <skos:altlabel xml:lang="de">Temperatur</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
     <skos:altlabel xml:lang="en">Temperature</skos:altlabel>
@@ -8954,13 +9032,19 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <skos:altlabel xml:lang="en">test temperature</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
+    <skos:altlabel xml:lang="de">Prüftemperatur</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
+    <skos:altlabel xml:lang="de">Temperatur</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
     <skos:preflabel xml:lang="en">TestTemperature</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 5</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 5</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 5</hasDescriptionCitationSource>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 5</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
     <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1</hasDescriptionCitationSource>
@@ -8969,34 +9053,40 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <hasExampleData>22</hasExampleData>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
     <hasExampleData>25</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <hasLabelSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 13</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, K.4</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
-    <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
+    <hasExampleData>22</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
     <hasLabelSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 5</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
+    <hasLabelSource xml:lang="de">DIN EN ISO 12004-2: 2021_07, 13</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
+    <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
+    <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
+    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, K.4</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
+    <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
     <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 5</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
+    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestTemperature">
     <hasSymbol xml:lang="en">T</hasSymbol>
@@ -9300,6 +9390,9 @@ Identifier which relates the Table to descibe the yield stress by using differen
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExperimentIdentifier">
     <hasLabelSource xml:lang="de">AWA_1_01_Rz-46N171</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExperimentIdentifier">
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMaximumForceNoDiscontinousYielding_N">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -9772,6 +9865,21 @@ Identifier which relates the Table to descibe the yield stress by using differen
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasShearLengthAfterFracture1_MilliM">
     <hasUnitLabel>mm</hasUnitLabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_Object">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_Object">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_Object">
+    <rdfs:label xml:lang="en">hasNotchTensileStrength</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_Object">
+    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/NotchTensileStrength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasNotchTensileStrength_Object">
+    <skos:preflabel xml:lang="en">hasNotchTensileStrength</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossHardeningParameter">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -10079,10 +10187,10 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <skos:preflabel xml:lang="en">hasForce</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice">
     <rdfs:comment xml:lang="en">Type of the force measurement (force transducer, strain gauges, ....)</rdfs:comment>
@@ -10820,22 +10928,31 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <hasExampleData>20</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
+    <hasExampleData>30</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
     <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
-    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.1.1</hasLabelSource>
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
+    <hasLabelSource xml:lang="en">ISO 26203-2, 2011, 4</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
     <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.1.1</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
+    <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.1.1</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
     <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
     <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
-    <hasLabelSource xml:lang="en">ISO 26203-2, 2011, 4</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength">
     <hasSymbol xml:lang="en">L0</hasSymbol>
@@ -11327,16 +11444,19 @@ Identifier which relates the Table to descibe the yield stress by using differen
     <hasExampleData>Kürzel</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Tester">
+    <hasLabelSource xml:lang="en"> </hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Tester">
+    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Tester">
     <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Tester">
     <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Tester">
-    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Tester">
-    <hasLabelSource xml:lang="en"> </hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Steel">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -12773,10 +12893,16 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasLabelSource xml:lang="en">AFZ1-ST-D1</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Time">
-    <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Time">
-    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Time">
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Time">
+    <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Time">
     <hasSymbol xml:lang="en">t</hasSymbol>
@@ -13407,6 +13533,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensionAtFracture">
     <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensionAtFracture">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensionAtFracture">
     <hasSymbolLatex xml:lang="en">dLBruch</hasSymbolLatex>
@@ -15202,10 +15331,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <rdfs:label xml:lang="en">PreliminaryForce</rdfs:label>
@@ -15260,6 +15389,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 10.2</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PreliminaryForce">
     <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
@@ -16519,10 +16651,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasTypicalUnitLabel>MPa</hasTypicalUnitLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
     <rdfs:label xml:lang="en">OriginalCrosssection</rdfs:label>
@@ -16531,16 +16663,19 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdfs:subClassOf rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
-    <dcterms:description xml:lang="en">"original cross-sectional area of the parallel length" [Authors]</dcterms:description>
+    <dcterms:description xml:lang="en">"original crosssection area of the parallel length" [Authors]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
-    <dcterms:description xml:lang="en">"original crosssection area of the parallel length" [Authors]</dcterms:description>
+    <dcterms:description xml:lang="en">"original cross-sectional area of the parallel length" [Authors]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
     <skos:altlabel xml:lang="de">Anfangsquerschnitt S0</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
     <skos:altlabel xml:lang="en">S0</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
+    <skos:altlabel xml:lang="de">S0</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
     <skos:altlabel xml:lang="de">Anfangsquerschnitt So</skos:altlabel>
@@ -16555,13 +16690,22 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
+    <hasExampleData>15.05</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
     <hasExampleData>14.98</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
-    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
-    <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
+    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrosssection">
     <hasSymbol xml:lang="en">S_{0}</hasSymbol>
@@ -16654,6 +16798,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <rdfs:subClassOf rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
+    <dcterms:description xml:lang="en">"Original width of the parallel length of a flat test piece" [Authors]</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <dcterms:description xml:lang="de">"(Anfangs-)Dicke einer Flachprobe oder Wanddicke eines Rohres" [DIN EN ISO 6892-1, Tabelle 1]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
@@ -16663,22 +16810,19 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <dcterms:description xml:lang="en">"The thickness of the specimen." [Authors]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <dcterms:description xml:lang="en">"Original width of the parallel length of a flat test piece" [Authors]</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <skos:altlabel xml:lang="de">Probendicke</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <skos:altlabel xml:lang="en">Original thickness</skos:altlabel>
+    <skos:altlabel xml:lang="en">original thickness</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <skos:altlabel xml:lang="de">Probendicke a0</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <skos:altlabel xml:lang="en">original thickness</skos:altlabel>
+    <skos:altlabel xml:lang="de">Probendicke a</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <skos:altlabel xml:lang="de">Probendicke a</skos:altlabel>
+    <skos:altlabel xml:lang="en">Original thickness</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
+    <skos:altlabel xml:lang="de">Probendicke</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <skos:altlabel xml:lang="en">Thickness</skos:altlabel>
@@ -16696,31 +16840,40 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
+    <hasExampleData>1490</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <hasExampleData>1.5</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <hasExampleData>1.55</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <hasExampleData>1490</hasExampleData>
+    <hasExampleData>1499</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, Table 1</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
+    <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
+    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <hasLabelSource xml:lang="en">AFZ1-ST-D1</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
-    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalThickness">
     <hasSymbol xml:lang="en">ao</hasSymbol>
@@ -17296,13 +17449,16 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <dcterms:description xml:lang="en">"Type of the displacement transducer." [Authors]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DisplacementTransducer">
+    <skos:altlabel xml:lang="de">Wegaufnehmer</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DisplacementTransducer">
+    <skos:altlabel xml:lang="en">extensometer system</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DisplacementTransducer">
     <skos:altlabel xml:lang="en">Displacement transducer</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DisplacementTransducer">
     <skos:altlabel xml:lang="de">Dehnungsaufnehmer</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DisplacementTransducer">
-    <skos:altlabel xml:lang="de">Wegaufnehmer</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DisplacementTransducer">
     <skos:preflabel xml:lang="en">DisplacementTransducer</skos:preflabel>
@@ -17320,13 +17476,13 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasExampleData>Tiefungskolben</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DisplacementTransducer">
-    <hasLabelSource xml:lang="de">AFZ-BU-S1.TXT</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DisplacementTransducer">
     <hasLabelSource xml:lang="en">deepl translator</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DisplacementTransducer">
     <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DisplacementTransducer">
+    <hasLabelSource xml:lang="de">AFZ-BU-S1.TXT</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFracture">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -17554,6 +17710,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasExampleData>FZ2 (L0=80_b0=20_R20)</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
+    <hasExampleData>Notched Flat tensile Specimen</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
     <hasExampleData>Nakajima Specimen</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
@@ -17569,7 +17728,16 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasLabelSource xml:lang="en">DIN EN ISO 12004-2: 2021_07, 11</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
+    <hasLabelSource xml:lang="en">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
     <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
+    <hasLabelSource xml:lang="en">AFZ1-ST-D1</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
+    <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
     <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
@@ -17584,16 +17752,13 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasLabelSource xml:lang="en"> </hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
     <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
-    <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
-    <hasLabelSource xml:lang="en">AFZ1-ST-D1</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPieceGeometry">
-    <hasLabelSource xml:lang="en">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Supplier">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -18589,6 +18754,12 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasLabelSource xml:lang="de">AFZ-BU-S1.TXT</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
     <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
@@ -18607,10 +18778,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasLabelSource xml:lang="en">AFZ1-ST-D1</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
-    <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
-    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
+    <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Force">
     <hasSymbol xml:lang="en">F</hasSymbol>
@@ -18778,10 +18949,10 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
     <hasUnitLabel>mm s -1</hasUnitLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture1">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture1">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture1">
     <rdfs:label xml:lang="en">WidthAfterFracture1</rdfs:label>
@@ -19397,6 +19568,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadDisplacement">
     <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadDisplacement">
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadDisplacement">
     <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
@@ -22381,6 +22555,9 @@ GT.0.0: Constant fading exponent</dcterms:description>
     <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, 3.7.3</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
+    <hasExampleData>0.01</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <hasExampleData>0.1</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
@@ -22390,7 +22567,19 @@ GT.0.0: Constant fading exponent</dcterms:description>
     <hasExampleData>0.02</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
+    <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <hasLabelSource xml:lang="en">AFZ1-ST-D1</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
+    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.7.3</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.7.3</hasLabelSource>
@@ -22399,13 +22588,7 @@ GT.0.0: Constant fading exponent</dcterms:description>
     <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
-    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.7.3</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
-    <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate">
     <hasSymbol xml:lang="en">vc</hasSymbol>
@@ -22759,10 +22942,10 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasOperator_Object"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
     <rdfs:comment xml:lang="en">Unique ID (IWM intern)</rdfs:comment>
@@ -22777,46 +22960,67 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <dcterms:description xml:lang="en">"Unique ID (IWM intern)" [Authors]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <skos:altlabel xml:lang="en">Specimen Name</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <skos:altlabel xml:lang="de">Probenbezeichnung</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <skos:altlabel xml:lang="de">Probennummer</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <skos:altlabel xml:lang="de">NAME</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <skos:altlabel xml:lang="de">Proben-Nr.</skos:altlabel>
+    <skos:altlabel xml:lang="en">Specimen name</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
     <skos:altlabel xml:lang="en">Sample identifier</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <skos:preflabel xml:lang="en">SampleIdentifier</skos:preflabel>
+    <skos:altlabel xml:lang="en">Specimen Name</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <hasDescriptionCitationSource xml:lang="de">Unique ID (IWM intern)</hasDescriptionCitationSource>
+    <skos:altlabel xml:lang="de">NAME</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <skos:altlabel xml:lang="de">Probennummer</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <skos:altlabel xml:lang="de">Probenbezeichnung</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <skos:altlabel xml:lang="de">Proben-Nr.</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <skos:preflabel xml:lang="en">SampleIdentifier</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
     <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <hasExampleData>AFZ-BU-S1</hasExampleData>
+    <hasDescriptionCitationSource xml:lang="de">Unique ID (IWM intern)</hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <hasExampleData>YS1-FzR4-S1Q</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
     <hasExampleData>AFZ1-ST-D1</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <hasExampleData>AFZ1-Fz-101Q</hasExampleData>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
     <hasExampleData>AWA_1_01_Rz</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <hasExampleData>AFZ1-Fz-101Q</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <hasExampleData>AFZ-BU-S1</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
     <hasExampleData>AFZ1-NZ50-25-D1Q</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <hasLabelSource xml:lang="en">AFZ1-ST-D1</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <hasLabelSource xml:lang="de">AFZ1-NZ50-25-D1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <hasLabelSource xml:lang="en">deepl translator</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
     <hasLabelSource xml:lang="en"> </hasLabelSource>
@@ -22825,28 +23029,19 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <hasLabelSource xml:lang="de">AWA_1_01_Rz-46N171</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <hasLabelSource xml:lang="en">deepl translator</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <hasLabelSource xml:lang="de">AFZ1-NZ50-25-D1Q</hasLabelSource>
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
     <hasLabelSource xml:lang="de">AFZ-BU-S1.TXT</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
-    <hasLabelSource xml:lang="en">AFZ1-ST-D1</hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SampleIdentifier">
+    <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestingFacility_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -22954,10 +23149,10 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <hasTypicalUnitLabel>s-1</hasTypicalUnitLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <rdfs:comment xml:lang="en">Original width of the parallel length of a flat test piece</rdfs:comment>
@@ -22972,16 +23167,13 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <rdfs:subClassOf rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <dcterms:description xml:lang="de">"(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes" [DIN EN ISO 6892-1, Tabelle 1]</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <dcterms:description xml:lang="en">"The width of the specimen." [Authors]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <dcterms:description xml:lang="en">"Original width of the parallel length of a flat test piece" [Authors]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <skos:altlabel xml:lang="en">Width</skos:altlabel>
+    <dcterms:description xml:lang="de">"(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes" [DIN EN ISO 6892-1, Tabelle 1]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <skos:altlabel xml:lang="en">Original width</skos:altlabel>
@@ -22990,13 +23182,16 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <skos:altlabel xml:lang="de">Probenbreite b0</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <skos:altlabel xml:lang="de">Probenbreite</skos:altlabel>
+    <skos:altlabel xml:lang="en">Width</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <skos:altlabel xml:lang="de">Probenbreite b</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <skos:altlabel xml:lang="en">original width</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <skos:altlabel xml:lang="de">Probenbreite b</skos:altlabel>
+    <skos:altlabel xml:lang="de">Probenbreite</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <skos:preflabel xml:lang="en">OriginalWidth</skos:preflabel>
@@ -23008,19 +23203,19 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</hasDescriptionCitationSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <hasDescriptionCitationSource xml:lang="en">DIN EN ISO 6892-1, Table 1</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <hasExampleData>10054</hasExampleData>
+    <hasDescriptionCitationSource xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <hasExampleData>20.04</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
+    <hasExampleData>10040</hasExampleData>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <hasExampleData>10054</hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
@@ -23029,16 +23224,25 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, Table 1</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <hasSymbol xml:lang="en">b_{0}</hasSymbol>
+    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <hasSymbol xml:lang="en">bo</hasSymbol>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <hasSymbol xml:lang="en">b_{0}</hasSymbol>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <hasSymbolLatex xml:lang="en">b_o</hasSymbolLatex>
@@ -23779,7 +23983,7 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <dcterms:contributor>Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm</dcterms:contributor>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
-    <dcterms:date>2024-04-19T21:24:08+00:00</dcterms:date>
+    <dcterms:date>2024-04-19T22:23:52+00:00</dcterms:date>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
     <owl:versionInfo xml:lang="en">0.1 (preliminary)</owl:versionInfo>
@@ -23950,22 +24154,28 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <hasLabelSource xml:lang="en">ISO 26203-2, 2011, 4</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <hasLabelSource xml:lang="en"> </hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.5</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
     <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
     <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.5</hasLabelSource>
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
     <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.5</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <hasLabelSource xml:lang="en"> </hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
     <hasSymbol xml:lang="en">L_{0}</hasSymbol>
@@ -24373,19 +24583,25 @@ GT.0.0: Fixed value for stress-state independent critical equivalent plastic str
     <hasLabelSource xml:lang="de">YS1-Fz-D1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
-    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.6</hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
+    <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
     <hasLabelSource xml:lang="en">DIN EN ISO 6892-1, 3.6</hasLabelSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
+    <hasLabelSource xml:lang="de">DIN EN ISO 6892-1, 3.6</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
     <hasLabelSource xml:lang="de">YS1-Sz0°-S1L</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
     <hasLabelSource xml:lang="de">DX56_D_FZ2_WR00_43.TXT</hasLabelSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
-    <hasLabelSource xml:lang="de">AFZ1-Fz-S1Q.xlsx</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Extension">
     <hasSymbol xml:lang="en">dL</hasSymbol>
