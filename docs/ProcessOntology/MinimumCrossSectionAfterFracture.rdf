@@ -13,13 +13,13 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"minimum cross-sectional area after fracture" [Authors]</ns0:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"kleinster Querschnitt nach dem Bruch" [DIN EN ISO 6892-1, Tabelle 1]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"minimum cross-sectional area after fracture" [DIN EN ISO 6892-1, Table 1]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"minimum cross-sectional area after fracture" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">SU</ns0:altlabel>
@@ -34,13 +34,13 @@
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">MinimumCrossSectionAfterFracture</ns0:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
+    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</ns0:hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, Table 1</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Authors</ns0:hasDescriptionCitationSource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
-    <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, Tabelle 1</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MinimumCrossSectionAfterFracture">
     <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">4879</ns0:hasExampleData>
