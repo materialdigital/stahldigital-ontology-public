@@ -19,6 +19,9 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Slope of the elastic pasrt of the stress-strain curve: in the elastic pasrt of the stress-strain curve the value of the slope can closely agree with the value of the modulus of elasticity if optimal conditions are used (high resolution, double-sided averaging extensometers, proper alignment of the test piece, etc.)" [ISO 26203-2, 2011, 5]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Steigung des elastischen Teils der Spannungs-Dehnungs-Kurve</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">slope of the elastic part of the stress-strain curve</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve">

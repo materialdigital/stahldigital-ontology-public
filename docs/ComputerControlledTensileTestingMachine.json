@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"machine for which the control and monitoring of the test, the measurements, and the data processing are undertaken by computer\" [DIN EN ISO 6892-1, 3.12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "computer-controlled tensile testing machine",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "rechnergest\u00FCtzte Zugpr\u00FCfmaschine",
+        "lang" : "de",
         "type" : "literal"
         }
       

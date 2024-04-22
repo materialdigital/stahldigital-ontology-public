@@ -4,8 +4,10 @@
 <https://w3id.org/steel/ProcessOntology/TotalLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/TotalLength> <http://www.w3.org/2000/01/rdf-schema#label> "TotalLength"@en .
 <https://w3id.org/steel/ProcessOntology/TotalLength> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/TotalLength> <http://purl.org/dc/terms/description> "\"total length of test piece\" [DIN EN ISO 6892-1, Table 1]"@en .
 <https://w3id.org/steel/ProcessOntology/TotalLength> <http://purl.org/dc/terms/description> "\"Gesamtlänge der Probe\" [DIN EN ISO 6892-1, Tabelle 1]"@de .
 <https://w3id.org/steel/ProcessOntology/TotalLength> <http://www.w3.org/2004/02/skos/core#altlabel> "total length"@en .
+<https://w3id.org/steel/ProcessOntology/TotalLength> <http://www.w3.org/2004/02/skos/core#altlabel> "Gesamtlänge der Probe"@de .
 <https://w3id.org/steel/ProcessOntology/TotalLength> <http://www.w3.org/2004/02/skos/core#preflabel> "TotalLength"@en .
 <https://w3id.org/steel/ProcessOntology/TotalLength> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, Table 1"@en .
 <https://w3id.org/steel/ProcessOntology/TotalLength> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, Tabelle 1"@de .

@@ -6,15 +6,17 @@
 <https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/Machine> .
 <https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://purl.org/dc/terms/description> "\"Data of the machine used for the experiment.\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://purl.org/dc/terms/description> "\"The machine should be designed in order to provide outputs giving analogue signals untreated by the software\" [DIN EN ISO 6892-1, A.2.1]"@en .
 <https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://purl.org/dc/terms/description> "\"Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt.\" [DIN EN ISO 6892-1]"@de .
-<https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://www.w3.org/2004/02/skos/core#altlabel> "tensile testing machine"@en .
-<https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://www.w3.org/2004/02/skos/core#altlabel> "Prüfmaschine"@de .
 <https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://www.w3.org/2004/02/skos/core#altlabel> "Machine Type"@en .
+<https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://www.w3.org/2004/02/skos/core#altlabel> "Prüfmaschine"@de .
+<https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://www.w3.org/2004/02/skos/core#altlabel> "tensile testing machine"@en .
+<https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://www.w3.org/2004/02/skos/core#altlabel> "Zugprüfmaschine"@de .
 <https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://www.w3.org/2004/02/skos/core#preflabel> "TensileTestingMachine"@en .
 <https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/Machine> .
-<https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
 <https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1"@de .
 <https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, A.2.1"@en .
+<https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
 <https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Instron 5985" .
 <https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, A.2.1"@en .
 <https://w3id.org/steel/ProcessOntology/TensileTestingMachine> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, A.2.1"@de .

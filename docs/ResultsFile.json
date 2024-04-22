@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"File containing the results of a single virtual experiment\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Ergebnis-Datei",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Results file",
         "lang" : "en",
         "type" : "literal"

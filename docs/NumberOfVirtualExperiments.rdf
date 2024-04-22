@@ -16,7 +16,13 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Anzahl an durchgeführten virtuellen Versuchen" [General Knowledge]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NumberOfVirtualExperiments">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Number of virtual experiments carried out" [General Knowledge]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NumberOfVirtualExperiments">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Number of virtual experiments</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NumberOfVirtualExperiments">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Anzahl der virtuellen Versuche</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NumberOfVirtualExperiments">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">NumberOfVirtualExperiments</ns0:preflabel>

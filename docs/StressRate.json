@@ -8,6 +8,12 @@
         }
       ,
       {
+        "value" : "\"increase of stress per time\" [DIN EN ISO 6892-1, 3.7.4]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"stress rate\" [Authors]",
         "lang" : "en",
         "type" : "literal"
@@ -51,6 +57,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Geschw.",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Spannungsgeschwindigkeit",
         "lang" : "de",
         "type" : "literal"
         }

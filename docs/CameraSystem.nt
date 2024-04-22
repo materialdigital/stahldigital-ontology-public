@@ -1,9 +1,11 @@
 <https://w3id.org/steel/ProcessOntology/CameraSystem> <http://purl.org/dc/terms/description> "\"Art des Kamerasystems, welches f\u00FCr den hydraulischen Tiefungsversuch verwendet wurde.\" [DIN EN ISO 16808:2022-08, 12]"@de .
+<https://w3id.org/steel/ProcessOntology/CameraSystem> <http://purl.org/dc/terms/description> "\"Type of camera system used for the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]"@en .
 <https://w3id.org/steel/ProcessOntology/CameraSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/CameraSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/CameraSystem> <http://www.w3.org/2000/01/rdf-schema#label> "CameraSystem"@en .
 <https://w3id.org/steel/ProcessOntology/CameraSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/CameraSystem> <http://www.w3.org/2004/02/skos/core#altlabel> "Camera System"@en .
+<https://w3id.org/steel/ProcessOntology/CameraSystem> <http://www.w3.org/2004/02/skos/core#altlabel> "Kamerasystem"@de .
 <https://w3id.org/steel/ProcessOntology/CameraSystem> <http://www.w3.org/2004/02/skos/core#preflabel> "CameraSystem"@en .
 <https://w3id.org/steel/ProcessOntology/CameraSystem> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@de .
 <https://w3id.org/steel/ProcessOntology/CameraSystem> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@en .

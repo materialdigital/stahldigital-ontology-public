@@ -5,6 +5,8 @@
 <https://w3id.org/steel/ProcessOntology/HardeningCurve> <http://www.w3.org/2000/01/rdf-schema#label> "HardeningCurve"@en .
 <https://w3id.org/steel/ProcessOntology/HardeningCurve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/HardeningCurve> <http://purl.org/dc/terms/description> "\"Tabellarische Darstellung des Verfestigungsgesetzes auf der Gleiteebene in Form von Spannungs-Dehnungs-Daten \" [General Knowledge]"@de .
+<https://w3id.org/steel/ProcessOntology/HardeningCurve> <http://purl.org/dc/terms/description> "\"Tabular stress and strain data of the hardening law on the slip plane\" [General Knowledge]"@en .
+<https://w3id.org/steel/ProcessOntology/HardeningCurve> <http://www.w3.org/2004/02/skos/core#altlabel> "Verfestigungskurve"@de .
 <https://w3id.org/steel/ProcessOntology/HardeningCurve> <http://www.w3.org/2004/02/skos/core#altlabel> "Hardening curve"@en .
 <https://w3id.org/steel/ProcessOntology/HardeningCurve> <http://www.w3.org/2004/02/skos/core#preflabel> "HardeningCurve"@en .
 <https://w3id.org/steel/ProcessOntology/HardeningCurve> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@en .

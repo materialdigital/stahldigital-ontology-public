@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/LatticeStructure" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Crystall structure of the material considered\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Kristallstruktur des Werkstoffs\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Kristallstruktur",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Lattice Structure",
         "lang" : "en",
         "type" : "literal"

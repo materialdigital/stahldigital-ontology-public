@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Pressure measred in the chamber.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -34,6 +40,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Bulge Druck",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Druck im Werkzeug",
         "lang" : "de",
         "type" : "literal"
         }

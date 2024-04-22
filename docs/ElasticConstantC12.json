@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/ElasticConstantC12" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Elastic constant to describe the anisotropic elastic material behaviour\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Elastische Konstant, um das richtungsabh\u00E4ngige elastische Materialverhalten zu beschreiben\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Elastic constant C12",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Elastische Konstante C12",
+        "lang" : "de",
         "type" : "literal"
         }
       

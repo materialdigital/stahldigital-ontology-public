@@ -8,8 +8,20 @@
         }
       ,
       {
+        "value" : "\"Strain rate used for the microstructure simulation\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Zunahme der mit einem Extensometer in der Extensometer-Messl\u00E4nge gemessenen Dehnung je Zeiteinheit\" [DIN EN ISO 6892-1, 3.7.1]",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\"increase of strain, measured with an extensometer, in extensometer gauge length\" [DIN EN ISO 6892-1, 3.7.1]",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -73,6 +85,18 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Dehngeschwindigkeit",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Dehnrate",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Strain Rate",
         "lang" : "en",
         "type" : "literal"

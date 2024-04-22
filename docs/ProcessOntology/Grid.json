@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Type of grid used for DIC measurements.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Gitter",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Grid",
         "lang" : "en",
         "type" : "literal"

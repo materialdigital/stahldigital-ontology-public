@@ -18,11 +18,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasUnit       <https://qudt.org/vocab/unit/PER-SEC>;
         :hasUnitLabel  "1/s" .
 
-:ElasticConstantC44  rdf:type          skos:Concept , owl:Class;
+:ElasticConstantC44  rdf:type          owl:Class , skos:Concept;
         rdfs:label                     "ElasticConstantC44"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Elastische Konstant, um das richtungsabhängige elastische Materialverhalten zu beschreiben\" [General Knowledge]"@de;
-        skos:altlabel                  "Elastic constant C44"@en;
+        dcterms:description            "\"Elastic constant to describe the anisotropic elastic material behaviour\" [General Knowledge]"@en , "\"Elastische Konstant, um das richtungsabhängige elastische Materialverhalten zu beschreiben\" [General Knowledge]"@de;
+        skos:altlabel                  "Elastische Konstante C44"@de , "Elastic constant C44"@en;
         skos:preflabel                 "ElasticConstantC44"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -68,11 +68,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasUnit       qudtUnit:MilliM;
         :hasUnitLabel  "mm" .
 
-:ElasticConstantC12  rdf:type          owl:Class , skos:Concept;
+:ElasticConstantC12  rdf:type          skos:Concept , owl:Class;
         rdfs:label                     "ElasticConstantC12"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Elastische Konstant, um das richtungsabhängige elastische Materialverhalten zu beschreiben\" [General Knowledge]"@de;
-        skos:altlabel                  "Elastic constant C12"@en;
+        dcterms:description            "\"Elastische Konstant, um das richtungsabhängige elastische Materialverhalten zu beschreiben\" [General Knowledge]"@de , "\"Elastic constant to describe the anisotropic elastic material behaviour\" [General Knowledge]"@en;
+        skos:altlabel                  "Elastische Konstante C12"@de , "Elastic constant C12"@en;
         skos:preflabel                 "ElasticConstantC12"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -280,11 +280,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasUnitLabel  "s" .
 
 :HardeningParameterTau0
-        rdf:type                       skos:Concept , owl:Class;
+        rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "HardeningParameterTau0"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de;
-        skos:altlabel                  "Hardening parameter tau0"@en;
+        dcterms:description            "\"Hardening parameter used in Voce-type hardening law of the crystal plasticity constitutive model\" [General Knowledge]"@en , "\"Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de;
+        skos:altlabel                  "Hardening parameter tau0"@en , "Verfestigungsparameter tau0"@de;
         skos:preflabel                 "HardeningParameterTau0"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -329,8 +329,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :EulerAngle1  rdf:type                 owl:Class , skos:Concept;
         rdfs:label                     "EulerAngle1"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Einer von drei Winkel, die nach dem Schweizer Mathematiker Leonhard Euler benannt wurden und einen Satz von drei Winkeln darstellen, mit denen die Orientierung (Drehlage) eines festen Körpers im dreidimensionalen euklidischen Raum beschrieben werden kann.\" [General Knowledge]"@de;
-        skos:altlabel                  "First euler angle"@en;
+        dcterms:description            "\"Einer von drei Winkel, die nach dem Schweizer Mathematiker Leonhard Euler benannt wurden und einen Satz von drei Winkeln darstellen, mit denen die Orientierung (Drehlage) eines festen Körpers im dreidimensionalen euklidischen Raum beschrieben werden kann.\" [General Knowledge]"@de , "\"One of three euler angles that are introduced by Leonhard Euler to describe the orientation of a rigid body with respect to a fixed coordinate system\" [General Knowledge]"@en;
+        skos:altlabel                  "Erster Euler Winkel"@de , "First euler angle"@en;
         skos:preflabel                 "EulerAngle1"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -346,7 +346,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "TestingRate"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"während des Versuchs verwendete Geschwindigkeit(en) als Oberbegriff\" [DIN EN ISO 6892-1, 3.7]"@de;
-        skos:altlabel                  "Testing rate"@en;
+        skos:altlabel                  "Testing rate"@en , "Prüfgeschwindigkeit"@de;
         skos:preflabel                 "TestingRate"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 10.3"@en , "DIN EN ISO 6892-1, 3.7"@de;
         :hasLabelSource                "DIN EN ISO 6892-1, 10.3"@en , "DIN EN ISO 6892-1, 3.7"@de .
@@ -405,8 +405,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "EulerAngleConvention"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Verwendte Konvention zur beschreibung der Euler Winkel\" [General Knowledge]"@de;
-        skos:altlabel                  "Euler angle convention"@en;
+        dcterms:description            "\"Convention used to describe the Euler angles, e.g. Bunge\" [General Knowledge]"@en , "\"Verwendte Konvention zur beschreibung der Euler Winkel\" [General Knowledge]"@de;
+        skos:altlabel                  "Euler angle convention"@en , "Konvention der Euler Winkel"@de;
         skos:preflabel                 "EulerAngleConvention"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -467,14 +467,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:seeAlso  :EulerAngle3 , :hasEulerAngle3_Object .
 
 :RelativeStandardDeviationOfTheSlope
-        rdf:type                       skos:Concept , owl:Class;
+        rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "RelativeStandardDeviationOfTheSlope"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Quotient der Standardabweichung der Steigung und der Steigung im untersuchten Bereich multipliziert mit 100 %\" [DIN EN ISO 6892-1, 3.17]"@de;
-        skos:altlabel                  "relative standard deviation of the slope"@en;
+        dcterms:description            "\"quotient of the standard deviation of the slope and the slope in the evaluation range, multiplied by 100 %\" [DIN EN ISO 6892-1, 3.17]"@en , "\"Quotient der Standardabweichung der Steigung und der Steigung im untersuchten Bereich multipliziert mit 100 %\" [DIN EN ISO 6892-1, 3.17]"@de;
+        skos:altlabel                  "relative standard deviation of the slope"@en , "relative Standardabweichung der Steigung"@de;
         skos:preflabel                 "RelativeStandardDeviationOfTheSlope"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.17"@de , "DIN EN ISO 6892-1, 3.17"@en;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.17"@de , "DIN EN ISO 6892-1, 3.17"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.17"@en , "DIN EN ISO 6892-1, 3.17"@de;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.17"@en , "DIN EN ISO 6892-1, 3.17"@de;
         :hasSymbol                     "Sm(rel)"@en;
         :hasSymbolLatex                "S_m(rel)"@en;
         :hasTypicalUnit                qudtUnit:PERCENT;
@@ -497,12 +497,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:seeAlso                   :StrainRate;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"time-dependent engineering strain rate = de(t)/dt\" [ISO 26203-2, 2011, 4]"@en , "\"zeitabhängige technische Dehnrate = de(t)/dt\" [Authors]"@de;
-        skos:altlabel                  "Dehnrate"@de , "time dependent engineering strain rate"@en , "Time-dependent engineering strain rate"@en;
+        skos:altlabel                  "Dehnrate"@de , "time dependent engineering strain rate"@en , "Time-dependent engineering strain rate"@en , "zeitabhängige technische Dehnrate"@de;
         skos:preflabel                 "TimeDependentEngineeringStrainRate"@en;
         skos:related                   :StrainRate;
         :hasDescriptionCitationSource  "Authors"@en , "ISO 26203-2, 2011, 4"@en , "Authors"@de;
         :hasExampleData                "0.019";
-        :hasLabelSource                "Standard definition specific"@de , "YS1-Fz-D1Q"@de , "ISO 26203-2, 2011, 4"@en;
+        :hasLabelSource                "YS1-Fz-D1Q"@de , "Standard definition specific"@de , "ISO 26203-2, 2011, 4"@en;
         :hasSymbol                     "e(t)"@en;
         :hasSymbolLatex                "\\dot{e(t)}"@en;
         :hasTypicalUnit                qudtUnit:PER-SEC;
@@ -558,7 +558,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "TestTime"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"Duration from beginning of test to moment of fracture initiation\" [ISO 26203-2, 2011, 4]"@en , "\"Zeit zwischen Versuchsbeginn und Zeitpunkt der Bruchinitiierung\" [Authors]"@de;
-        skos:altlabel                  "test time"@en;
+        skos:altlabel                  "test time"@en , "Versuchszeit"@de;
         skos:preflabel                 "TestTime"@en;
         :hasDescriptionCitationSource  "ISO 26203-2, 2011, 4"@en , "Authors"@de;
         :hasLabelSource                "Standard definition specific"@en , "Authors"@de;
@@ -582,11 +582,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :TrueThicknessStrain  rdf:type         skos:Concept , owl:Class;
         rdfs:label                     "TrueThicknessStrain"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Umformgrad in Dickenrichtung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]"@de;
-        skos:altlabel                  "true thickness strain"@en , "True thickness strain"@en , "Dickenformänderung"@de;
+        dcterms:description            "\"True thickness strain received from post-processing the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]"@en , "\"Umformgrad in Dickenrichtung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]"@de;
+        skos:altlabel                  "Dickenformänderung"@de , "true thickness strain"@en , "Umformgrad in Dickenrichtung"@de , "True thickness strain"@en;
         skos:preflabel                 "TrueThicknessStrain"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 16808:2022-08, 4"@de , "DIN EN ISO 12004-2: 2021_07, 8"@en , "DIN EN ISO 12004-2: 2021_07, 8"@de;
+        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 12004-2: 2021_07, 8"@en , "DIN EN ISO 12004-2: 2021_07, 8"@de , "DIN EN ISO 16808:2022-08, 4"@de;
         :hasSymbol                     "ε_3"@en;
         :hasSymbolLatex                "\\epsilon_3"@en , "ε_3"@en .
 
@@ -599,8 +599,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :Fracture  rdf:type                    owl:Class , skos:Concept;
         rdfs:label                     "Fracture"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Zustand, wenn die Probe vollständig geteilt ist\" [DIN EN ISO 6892-1, 3.11]"@de;
-        skos:altlabel                  "fracture"@en;
+        dcterms:description            "\"phenomenon which is deemed to occur when total separation of the test piece occurs\" [DIN EN ISO 6892-1, 3.11]"@en , "\"Zustand, wenn die Probe vollständig geteilt ist\" [DIN EN ISO 6892-1, 3.11]"@de;
+        skos:altlabel                  "fracture"@en , "Bruch"@de;
         skos:preflabel                 "Fracture"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.11"@en , "DIN EN ISO 6892-1, 3.11"@de;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.11"@en , "DIN EN ISO 6892-1, 3.11"@de .
@@ -608,8 +608,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :LatticeStructure  rdf:type            skos:Concept , owl:Class;
         rdfs:label                     "LatticeStructure"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Kristallstruktur des Werkstoffs\" [General Knowledge]"@de;
-        skos:altlabel                  "Lattice Structure"@en;
+        dcterms:description            "\"Crystall structure of the material considered\" [General Knowledge]"@en , "\"Kristallstruktur des Werkstoffs\" [General Knowledge]"@de;
+        skos:altlabel                  "Lattice Structure"@en , "Kristallstruktur"@de;
         skos:preflabel                 "LatticeStructure"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -635,8 +635,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "NumberOfVirtualExperiments"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Anzahl an durchgeführten virtuellen Versuchen\" [General Knowledge]"@de;
-        skos:altlabel                  "Number of virtual experiments"@en;
+        dcterms:description            "\"Anzahl an durchgeführten virtuellen Versuchen\" [General Knowledge]"@de , "\"Number of virtual experiments carried out\" [General Knowledge]"@en;
+        skos:altlabel                  "Number of virtual experiments"@en , "Anzahl der virtuellen Versuche"@de;
         skos:preflabel                 "NumberOfVirtualExperiments"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -650,8 +650,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :MicrostructureModel  rdf:type         skos:Concept , owl:Class;
         rdfs:label                     "MicrostructureModel"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Input-Datei eines Mikrostrukturmodells für den jeweiligen Solver\" [General Knowledge]"@de;
-        skos:altlabel                  "Microstructure model"@en;
+        dcterms:description            "\"input-file describing the microstructure model for chosen solver\" [General Knowledge]"@en , "\"Input-Datei eines Mikrostrukturmodells für den jeweiligen Solver\" [General Knowledge]"@de;
+        skos:altlabel                  "Microstructure model"@en , "Mikrostructurmodel"@de;
         skos:preflabel                 "MicrostructureModel"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -821,11 +821,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :YieldStrength  rdf:type               skos:Concept , owl:Class;
         rdfs:label                     "YieldStrength"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"wenn der metallische Werkstoff diese Eigenschaft aufweist, die Spannung zu einem bestimmten Zeitpunkt während des Versuchs bei dem eine plastische Verformung ohne Zunahme der Kraft auftritt\" [DIN EN ISO 6892-1, 3.10.2]"@de;
-        skos:altlabel                  "yield strength"@en;
+        dcterms:description            "\"wenn der metallische Werkstoff diese Eigenschaft aufweist, die Spannung zu einem bestimmten Zeitpunkt während des Versuchs bei dem eine plastische Verformung ohne Zunahme der Kraft auftritt\" [DIN EN ISO 6892-1, 3.10.2]"@de , "\"when the metallic material exhibits a yield phenomenon, stress corresponding to the point reached during the test at which plastic deformation occurs without any increase in the force\" [DIN EN ISO 6892-1, 3.10.2]"@en;
+        skos:altlabel                  "Streckgrenze"@de , "yield strength"@en;
         skos:preflabel                 "YieldStrength"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.2"@en , "DIN EN ISO 6892-1, 3.10.2"@de;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.10.2"@en , "DIN EN ISO 6892-1, 3.10.2"@de;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.2"@de , "DIN EN ISO 6892-1, 3.10.2"@en;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.10.2"@de , "DIN EN ISO 6892-1, 3.10.2"@en;
         :hasTypicalUnit                qudtUnit:MegaPA;
         :hasTypicalUnitLabel           "MPa" .
 
@@ -847,11 +847,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "PercentageReductionOfArea"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area\" [Authors]"@en , "\"größte während des Versuchs aufgetretene Änderung des Querschnitts, angegeben in Prozent, bezogen auf den Anfangsquerschnitt\" [DIN EN ISO 6892-1, 3.8]"@de;
+        dcterms:description            "\"maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area\" [Authors]"@en , "\"maximum change in cross-sectional area which has occurred during the test\" [DIN EN ISO 6892-1, 3.8]"@en , "\"größte während des Versuchs aufgetretene Änderung des Querschnitts, angegeben in Prozent, bezogen auf den Anfangsquerschnitt\" [DIN EN ISO 6892-1, 3.8]"@de;
         skos:altlabel                  "Brucheinschnürung"@de , "percentage reduction of area"@en , "Brucheinschnürung Z"@de , "Z"@en;
         skos:preflabel                 "PercentageReductionOfArea"@en;
         :hasDescriptionCitationSource  "Authors"@en , "DIN EN ISO 6892-1, 3.8"@en , "DIN EN ISO 6892-1, 3.8"@de;
-        :hasExampleData                "78.0" , "67.42";
+        :hasExampleData                "67.42" , "78.0";
         :hasLabelSource                "DIN EN ISO 6892-1, 3.8"@en , "DIN EN ISO 6892-1, 3.8"@de , "YS1-Fz-D1Q"@de , "YS1-Sz0°-S1L"@de , "AFZ1-Fz-S1Q.xlsx"@en;
         :hasSymbol                     "Z"@en;
         :hasSymbolLatex                "Z"@en;
@@ -939,14 +939,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasExampleData  "Bulge DM100";
         :hasLabelSource  "deepl translator"@en , "AFZ-BU-S1.TXT"@de .
 
-:InnerDiameterDie  rdf:type            owl:Class , skos:Concept;
+:InnerDiameterDie  rdf:type            skos:Concept , owl:Class;
         rdfs:label                     "InnerDiameterDie"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Matrizendurchmesser (innen) der Prüfeinrichtung.\" [DIN EN ISO 16808:2022-08, 4]"@de;
-        skos:altlabel                  "Diameter of the die (inner)"@en;
+        dcterms:description            "\"Matrizendurchmesser (innen) der Prüfeinrichtung.\" [DIN EN ISO 16808:2022-08, 4]"@de , "\"Diameter of the die (inner) of the testing machine.\" [DIN EN ISO 16808:2022-08, 4]"@en;
+        skos:altlabel                  "Matrizendurchmesser (innen)"@de , "Diameter of the die (inner)"@en;
         skos:preflabel                 "InnerDiameterDie"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 4"@de , "DIN EN ISO 16808:2022-08, 4"@en;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@de , "DIN EN ISO 16808:2022-08, 4"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 16808:2022-08, 4"@de;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 16808:2022-08, 4"@de;
         :hasSymbol                     "d_die"@en;
         :hasSymbolLatex                "d_die"@en;
         :hasTypicalUnit                qudtUnit:MilliM;
@@ -960,8 +960,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "ReferenceShearRate"@en;
         rdfs:seeAlso                   :phenopowerlaw;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Referenzscherrate, die im Kristallplastizitätsmodell verwendet wurde\" [General Knowledge]"@de , "List of reference shear rate per slip family"@en;
-        skos:altlabel                  "Reference shear rate"@en , "dot_gamma_0_sl"@en;
+        dcterms:description            "List of reference shear rate per slip family"@en , "\"Reference shear rate used in the crystal plasticity constitutive model\" [General Knowledge]"@en , "\"Referenzscherrate, die im Kristallplastizitätsmodell verwendet wurde\" [General Knowledge]"@de;
+        skos:altlabel                  "dot_gamma_0_sl"@en , "Referenzscherrate"@de , "Reference shear rate"@en;
         skos:preflabel                 "ReferenceShearRate"@en;
         skos:related                   :phenopowerlaw;
         :hasDescriptionCitationSource  "General Knowledge"@de , "General Knowledge"@en;
@@ -998,7 +998,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "GaugeLength"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"length of the parallel portion of the test piece on which elongation is measured at any moment during the test\" [DIN EN ISO 6892-1, 3.1]"@en , "\"Länge des parallelen Teils der Probe, an dem zu einem beliebigen Zeitpunkt während des Versuchs die Verlängerung gemessen wird\" [DIN EN ISO 6892-1, 3.1]"@de;
-        skos:altlabel                  "gauge length"@en;
+        skos:altlabel                  "Messlänge"@de , "gauge length"@en;
         skos:preflabel                 "GaugeLength"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.1"@en , "DIN EN ISO 6892-1, 3.1"@de;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.1"@en , "DIN EN ISO 6892-1, 3.1"@de;
@@ -1025,11 +1025,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "EngineeringStress"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"technische Spannung\" [Authors]"@de , "\"engineering stress\" [ISO 26203-2, 2011, 4]"@en;
-        skos:altlabel                  "Sigma-technisch"@de , "engineering stress"@en , "Sigma Tech"@en;
+        skos:altlabel                  "technische Spannung"@de , "Sigma-technisch"@de , "engineering stress"@en , "Sigma Tech"@en;
         skos:preflabel                 "EngineeringStress"@en;
         :hasDescriptionCitationSource  "Authors"@de , "ISO 26203-2, 2011, 4"@en;
         :hasExampleData                "9751";
-        :hasLabelSource                "YS1-FzR4-S1Q"@de , "YS1-FzR4-S1Q"@en , "YS1-Fz-D1Q"@de , "AFZ1-Fz-S1Q.xlsx"@en , "YS1-Sz0°-S1L"@de , "ISO 26203-2, 2011, 4"@en , "Standard definition specific"@de;
+        :hasLabelSource                "YS1-FzR4-S1Q"@en , "YS1-Fz-D1Q"@de , "YS1-FzR4-S1Q"@de , "AFZ1-Fz-S1Q.xlsx"@en , "YS1-Sz0°-S1L"@de , "ISO 26203-2, 2011, 4"@en , "Standard definition specific"@de;
         :hasSymbol                     "Sig-technisch"@en , "R"@en;
         :hasSymbolLatex                "Sig-technisch"@en , "R"@en;
         :hasTypicalUnit                qudtUnit:MegaPA;
@@ -1115,8 +1115,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :Laboratory  rdf:type                  owl:Class , skos:Concept;
         rdfs:label                     "Laboratory"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Prüflabor, das die Werte des hydraulischen Tiefungsversuchs gemessen hat.\" [DIN EN ISO 16808:2022-08, 12]"@de;
-        skos:altlabel                  "Laboratory"@en;
+        dcterms:description            "\"Laboratory that measured the bulge test values\" [DIN EN ISO 16808:2022-08, 12]"@en , "\"Prüflabor, das die Werte des hydraulischen Tiefungsversuchs gemessen hat.\" [DIN EN ISO 16808:2022-08, 12]"@de;
+        skos:altlabel                  "Prüflabor"@de , "Laboratory"@en;
         skos:preflabel                 "Laboratory"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de .
@@ -1164,8 +1164,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :LatentHardeningQ0  rdf:type           skos:Concept , owl:Class;
         rdfs:label                     "LatentHardeningQ0"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Parameter, der in der Interaktionsmatrix die Fremdverfestigung (latent hardning) eines Gleitsystems innerhalb der gleichen Gleitsystem-Familie beschreibt\" [General Knowledge]"@de;
-        skos:altlabel                  "LatentHardening q0"@en;
+        dcterms:description            "\"Parameter, der in der Interaktionsmatrix die Fremdverfestigung (latent hardning) eines Gleitsystems innerhalb der gleichen Gleitsystem-Familie beschreibt\" [General Knowledge]"@de , "Off-diagonal elements in Interaction matrix q_ab for the same slip system family"@en;
+        skos:altlabel                  "Latent Hardening Parameter"@de , "LatentHardening q0"@en;
         skos:preflabel                 "LatentHardeningQ0"@en;
         :hasDescriptionCitationSource  "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@de , "General Knowledge"@en;
@@ -1194,18 +1194,18 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:comment                   "The material used in the experiment."@en;
         rdfs:label                     "Material"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Bezeichnung des Werkstoffs.\" [General Knowledge]"@de , "\"Bezeichnung des Werkstoffs.\" [DIN EN ISO 16808:2022-08, 12]"@de , "\"The material used in the experiment.\" [Authors]"@en;
-        skos:altlabel                  "material"@en , "Material"@de , "Material"@en , "MATERIAL_NAME"@en , "Werkstoff"@de;
+        dcterms:description            "\"Identification of material.\" [General Knowledge]"@en , "\"Bezeichnung des Werkstoffs.\" [General Knowledge]"@de , "\"Bezeichnung des Werkstoffs.\" [DIN EN ISO 16808:2022-08, 12]"@de , "\"Identification of material.\" [DIN EN ISO 16808:2022-08, 12]"@en , "\"The material used in the experiment.\" [Authors]"@en;
+        skos:altlabel                  "material"@en , "Material"@de , "Material"@en , "Werkstoffbezeichnung"@de , "MATERIAL_NAME"@en , "Werkstoff"@de;
         skos:preflabel                 "Material"@en;
-        :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de , "Authors"@en , "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en;
+        :hasDescriptionCitationSource  "General Knowledge"@de , "General Knowledge"@en , "Authors"@en , "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en;
         :hasExampleData                "ZStE340" , "H340LAD" , "HX340LAD" , "42CrMoS4";
-        :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@de , "AFZ-BU-S1.TXT"@de , "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en , "YS1-FzR4-S1Q"@de , "YS1-FzR4-S1Q"@en , "General Knowledge"@de , "General Knowledge"@en , "AFZ1-ST-D1"@en , "AFZ1-NZ50-25-D1Q"@de , "AFZ1-NZ50-25-D1Q"@en , "AWA_1_01_Rz-46N171"@de , "DIN EN ISO 12004-2: 2021_07"@en , "DIN EN ISO 12004-2: 2021_07, 7"@de , "YS1-Fz-D1Q"@de , "YS1-Sz0°-S1L"@de .
+        :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@de , "AFZ-BU-S1.TXT"@de , "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de , "YS1-FzR4-S1Q"@de , "YS1-FzR4-S1Q"@en , "General Knowledge"@en , "General Knowledge"@de , "AFZ1-ST-D1"@en , "AFZ1-NZ50-25-D1Q"@de , "AFZ1-NZ50-25-D1Q"@en , "AWA_1_01_Rz-46N171"@de , "DIN EN ISO 12004-2: 2021_07"@en , "DIN EN ISO 12004-2: 2021_07, 7"@de , "YS1-Fz-D1Q"@de , "YS1-Sz0°-S1L"@de .
 
 :TotalLength  rdf:type                 skos:Concept , owl:Class;
         rdfs:label                     "TotalLength"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Gesamtlänge der Probe\" [DIN EN ISO 6892-1, Tabelle 1]"@de;
-        skos:altlabel                  "total length"@en;
+        dcterms:description            "\"total length of test piece\" [DIN EN ISO 6892-1, Table 1]"@en , "\"Gesamtlänge der Probe\" [DIN EN ISO 6892-1, Tabelle 1]"@de;
+        skos:altlabel                  "total length"@en , "Gesamtlänge der Probe"@de;
         skos:preflabel                 "TotalLength"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, Table 1"@en , "DIN EN ISO 6892-1, Tabelle 1"@de;
         :hasLabelSource                "DIN EN ISO 6892-1, Tabelle 1"@de , "DIN EN ISO 6892-1, Table 1"@en;
@@ -1341,8 +1341,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :EbsdFileName  rdf:type                owl:Class , skos:Concept;
         rdfs:label                     "EbsdFileName"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Name der EBSD-Datei, die für die Auswertung verwendet wurde.\" [General Knowledge]"@de;
-        skos:altlabel                  "EBSD file name"@en;
+        dcterms:description            "\"Name of the EBSD-File used for the post-processing.\" [General Knowledge]"@en , "\"Name der EBSD-Datei, die für die Auswertung verwendet wurde.\" [General Knowledge]"@de;
+        skos:altlabel                  "EBSD-Dateinamen"@de , "EBSD file name"@en;
         skos:preflabel                 "EbsdFileName"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -1362,11 +1362,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :isBasedOn                     :EngineeringStress .
 
 :HardeningParameterTheta0
-        rdf:type                       owl:Class , skos:Concept;
+        rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "HardeningParameterTheta0"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de;
-        skos:altlabel                  "Hardening parameter theta0"@en;
+        dcterms:description            "\"Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de , "\"Hardening parameter used in Voce-type hardening law of the crystal plasticity constitutive model\" [General Knowledge]"@en;
+        skos:altlabel                  "Hardening parameter theta0"@en , "Verfestigungsparameter theta0"@de;
         skos:preflabel                 "HardeningParameterTheta0"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -1390,7 +1390,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "TotalEngineeringStrain"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"gesamte (elastische und plastische) technische Dehnung\" [Authors]"@de , "\"total engineering strain \" [ISO 26203-2, 2011, 4]"@en;
-        skos:altlabel                  "total engineering strain "@en;
+        skos:altlabel                  "gesamte technische Dehnung"@de , "total engineering strain "@en;
         skos:preflabel                 "TotalEngineeringStrain"@en;
         :hasDescriptionCitationSource  "Authors"@de , "ISO 26203-2, 2011, 4"@en;
         :hasLabelSource                "ISO 26203-2, 2011, 4"@en , "Standard definition specific"@de;
@@ -1443,8 +1443,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :SlipSystemNumber  rdf:type            skos:Concept , owl:Class;
         rdfs:label                     "SlipSystemNumber"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Anzahl an Gleitsystemen, die im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de;
-        skos:altlabel                  "Slip system number"@en;
+        dcterms:description            "\"Anzahl an Gleitsystemen, die im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de , "\"Number of slip systems used in the crystal plasticity constitutive model\" [General Knowledge]"@en;
+        skos:altlabel                  "Slip system number"@en , "Gleitsystemanzahl"@de;
         skos:preflabel                 "SlipSystemNumber"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -1520,8 +1520,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :EulerAngle3  rdf:type                 owl:Class , skos:Concept;
         rdfs:label                     "EulerAngle3"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Einer von drei Winkel, die nach dem Schweizer Mathematiker Leonhard Euler benannt wurden und einen Satz von drei Winkeln darstellen, mit denen die Orientierung (Drehlage) eines festen Körpers im dreidimensionalen euklidischen Raum beschrieben werden kann.\" [General Knowledge]"@de;
-        skos:altlabel                  "Third euler angle"@en;
+        dcterms:description            "\"One of three euler angles that are introduced by Leonhard Euler to describe the orientation of a rigid body with respect to a fixed coordinate system\" [General Knowledge]"@en , "\"Einer von drei Winkel, die nach dem Schweizer Mathematiker Leonhard Euler benannt wurden und einen Satz von drei Winkeln darstellen, mit denen die Orientierung (Drehlage) eines festen Körpers im dreidimensionalen euklidischen Raum beschrieben werden kann.\" [General Knowledge]"@de;
+        skos:altlabel                  "Third euler angle"@en , "Dritter Euler Winkel"@de;
         skos:preflabel                 "EulerAngle3"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -1534,28 +1534,28 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:range      :ExtensionMeasuringSystem;
         skos:preflabel  "hasExtensionMeasuringSystem"@en .
 
-:UpperYieldStrength  rdf:type          skos:Concept , owl:Class;
+:UpperYieldStrength  rdf:type          owl:Class , skos:Concept;
         rdfs:label                     "UpperYieldStrength"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"höchste Spannung, bevor der erste Kraftabfall auftritt\" [DIN EN ISO 6892-1, 3.10.2.1]"@de;
-        skos:altlabel                  "upper yield strength"@en;
+        dcterms:description            "\"höchste Spannung, bevor der erste Kraftabfall auftritt\" [DIN EN ISO 6892-1, 3.10.2.1]"@de , "\"maximum value of stress prior to the first decrease in force\" [DIN EN ISO 6892-1, 3.10.2.1]"@en;
+        skos:altlabel                  "obere Streckgrenze"@de , "upper yield strength"@en;
         skos:preflabel                 "UpperYieldStrength"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.2.1"@de , "DIN EN ISO 6892-1, 3.10.2.1"@en;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.10.2.1"@de , "DIN EN ISO 6892-1, 3.10.2.1"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.2.1"@en , "DIN EN ISO 6892-1, 3.10.2.1"@de;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.10.2.1"@en , "DIN EN ISO 6892-1, 3.10.2.1"@de;
         :hasSymbol                     "ReH"@en;
         :hasSymbolLatex                "R_{eH}"@en;
         :hasTypicalUnit                qudtUnit:MegaPA;
         :hasTypicalUnitLabel           "MPa" .
 
 :MaximumForceDiscontinousYielding
-        rdf:type                       skos:Concept , owl:Class;
+        rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "MaximumForceDiscontinousYielding"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"<bei Werkstoffen, die ein diskontinuierliches Fließen zeigen> größte Kraft, der die Probe während des Versuchs nach dem Beginn der Verfestigung standhält\" [DIN EN ISO 6892-1, 3.9.2]"@de;
-        skos:altlabel                  "maximum force \"discontinous yielding\""@en;
+        dcterms:description            "\"<bei Werkstoffen, die ein diskontinuierliches Fließen zeigen> größte Kraft, der die Probe während des Versuchs nach dem Beginn der Verfestigung standhält\" [DIN EN ISO 6892-1, 3.9.2]"@de , "\"<materials displaying discontinuous yielding> highest force that the test piece withstands during the test after the beginning of work-hardening\" [DIN EN ISO 6892-1, 3.9.2]"@en;
+        skos:altlabel                  "Höchstkraft"@de , "maximum force \"discontinous yielding\""@en;
         skos:preflabel                 "MaximumForceDiscontinousYielding"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.9.2"@de , "DIN EN ISO 6892-1, 3.9.2"@en;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.9.2"@de , "DIN EN ISO 6892-1, 3.9.2"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.9.2"@en , "DIN EN ISO 6892-1, 3.9.2"@de;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.9.2"@en , "DIN EN ISO 6892-1, 3.9.2"@de;
         :hasSymbol                     "Fm"@en;
         :hasSymbolLatex                "F_m"@en;
         :hasTypicalUnit                qudtUnit:N;
@@ -1571,7 +1571,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "FinalGaugeLengthAfterFracture"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"length between gauge length (3.1) marks on the test piece measured after rupture, at room temperature, the two pieces having been carefully fitted back together so that their axes lie in a straight line\" [DIN EN ISO 6892-1, 3.1.2]"@en , "\"Länge zwischen den Marken zur Kennzeichnung der Messlänge (3.1) auf der Probe, die nach dem Bruch bei Raumtemperatur gemessen wird, nachdem die beiden Probenbruchstücke sorgfältig so zusammengefügt wurden, dass ihre Achsen in einer Geraden liegen\" [DIN EN ISO 6892-1, 3.1.2]"@de;
-        skos:altlabel                  "final gauge length after fracture"@en;
+        skos:altlabel                  "Messlänge nach dem Bruch"@de , "final gauge length after fracture"@en;
         skos:preflabel                 "FinalGaugeLengthAfterFracture"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.1.2"@en , "DIN EN ISO 6892-1, 3.1.2"@de;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.1.2"@en , "DIN EN ISO 6892-1, 3.1.2"@de;
@@ -1587,12 +1587,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :InitialThickness  rdf:type            owl:Class , skos:Concept;
         rdfs:label                     "Anfangsdicke"@de , "initial thickness"@en , "InitialThickness"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Ausgangsblechdicke\" [DIN EN ISO 16808:2022-08, 4]"@de;
-        skos:altlabel                  "Dicke der Probe"@de , "Initial thickness of the sheet"@en;
+        dcterms:description            "\"Ausgangsblechdicke\" [DIN EN ISO 16808:2022-08, 4]"@de , "\"Initial thickness of the sheet.\" [DIN EN ISO 16808:2022-08, 4]"@en;
+        skos:altlabel                  "Dicke der Probe"@de , "Ausgangsblechdicke"@de , "Initial thickness of the sheet"@en;
         skos:preflabel                 "InitialThickness"@en , "initial thickness"@en , "Anfangsdicke"@de;
-        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 4"@de , "DIN EN ISO 16808:2022-08, 4"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 16808:2022-08, 4"@de;
         :hasExampleData                "1.496";
-        :hasLabelSource                "AFZ-BU-S1.TXT"@de , "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 16808:2022-08, 4"@de;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 16808:2022-08, 4"@de , "AFZ-BU-S1.TXT"@de;
         :hasSymbol                     "t_0"@en;
         :hasSymbolLatex                "t_0"@en;
         :hasTypicalUnit                qudtUnit:MilliM;
@@ -1804,8 +1804,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :SpecificPlasticWork  rdf:type         skos:Concept , owl:Class;
         rdfs:label                     "SpecificPlasticWork"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Daten für die spezifische plastische Arbeit der durchgeführten Mikrostruktursimulation\" [General Knowledge]"@de;
-        skos:altlabel                  "Specific plastic work"@en;
+        dcterms:description            "\"Daten für die spezifische plastische Arbeit der durchgeführten Mikrostruktursimulation\" [General Knowledge]"@de , "\"Specific plastic work data of the microstructure simulation caried out\" [General Knowledge]"@en;
+        skos:altlabel                  "Spezifische plastische Arbeit"@de , "Specific plastic work"@en;
         skos:preflabel                 "SpecificPlasticWork"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -1849,7 +1849,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:seeAlso                   :TestPieceGeometry;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"The length of the parallel part of the specimen\" [Authors]"@en , "\"Länge des parallelen reduzierten Querschnitts der Probe\" [DIN EN ISO 6892-1, 3.2]"@de , "\"length of the parallel reduced section of the test piece\" [DIN EN ISO 6892-1, 3.2]"@en , "\"The length of the experiment (description replaced by Zugversuch Instron)\" [Authors]"@en;
-        skos:altlabel                  "Versuchslänge"@de , "Parallel length"@en , "parallele Messlänge Lc"@de , "parallel length"@en , "LC"@en;
+        skos:altlabel                  "Versuchslänge"@de , "Parallel length"@en , "parallele Messlänge Lc"@de , "parallele Länge"@de , "parallel length"@en , "LC"@en;
         skos:preflabel                 "ParallelLength"@en;
         skos:related                   :TestPieceGeometry;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.2"@en , "DIN EN ISO 6892-1, 3.2"@de , "Authors"@en;
@@ -1868,9 +1868,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "TransitionRadius"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"Übergangsradius zwischewn dem Parallelen Bereich und dem Kopfbereich der Probe\" [Authors]"@de , "\"transition radius between parallel part and clamping part of the test piece\" [Authors]"@en;
-        skos:altlabel                  "transition radius"@en;
+        skos:altlabel                  "transition radius"@en , "Übergangsradius"@de;
         skos:preflabel                 "TransitionRadius"@en;
-        :hasDescriptionCitationSource  "Authors"@de , "Authors"@en;
+        :hasDescriptionCitationSource  "Authors"@en , "Authors"@de;
         :hasLabelSource                "ISO 26203-2, 2011, 4"@en , "Linguee"@de;
         :hasSymbol                     "r"@en;
         :hasSymbolLatex                "r"@en;
@@ -1895,11 +1895,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:range      :InteractionMatrix;
         skos:preflabel  "hasInteractionMatrix"@en .
 
-:InteractionMatrix  rdf:type           owl:Class , skos:Concept;
+:InteractionMatrix  rdf:type           skos:Concept , owl:Class;
         rdfs:label                     "InteractionMatrix"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Interaktionsmatrix, die im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de;
-        skos:altlabel                  "Interaction matrix"@en;
+        dcterms:description            "\"Interaction matrix used in the crystal plasticity constitutive model\" [General Knowledge]"@en , "\"Interaktionsmatrix, die im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de;
+        skos:altlabel                  "Interaction matrix"@en , "Interaktionsmatrix"@de;
         skos:preflabel                 "InteractionMatrix"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -2000,11 +2000,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "PercentagePlasticExtensionAtMaximumForce"@en;
         rdfs:seeAlso                   :ModulusOfElasticity;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"percentage plastic extension at maximum force, Fm\" [ISO 26203-2, 2011, 4]"@en , "\"plastische Verlängerung der Extensometer-Messlänge bei Höchstkraft, angegeben in Prozent\" [DIN EN ISO 6892-1, 3.6.5]"@de , "\"plastische Verlängerung der Extensometer-Messlänge bei Höchstkraft, angegeben in Prozent, bezogen auf die Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.5]"@de , "\"uniform elongation\" [Authors]"@en;
-        skos:altlabel                  "percentage plastic extension at maximum force"@en , "Ag"@en , "Gleichmaßdehnung Ag"@de;
+        dcterms:description            "\"percentage plastic extension at maximum force, Fm\" [ISO 26203-2, 2011, 4]"@en , "\"plastische Verlängerung der Extensometer-Messlänge bei Höchstkraft, angegeben in Prozent\" [DIN EN ISO 6892-1, 3.6.5]"@de , "\"plastische Verlängerung der Extensometer-Messlänge bei Höchstkraft, angegeben in Prozent, bezogen auf die Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.5]"@de , "\"plastic extension at maximum force, expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.5]"@en , "\"uniform elongation\" [Authors]"@en;
+        skos:altlabel                  "percentage plastic extension at maximum force"@en , "plastische Extensometer-Dehnung bei Höchstkraft"@de , "Ag"@en , "Gleichmaßdehnung Ag"@de;
         skos:preflabel                 "PercentagePlasticExtensionAtMaximumForce"@en;
         skos:related                   :ModulusOfElasticity;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.5"@de , "DIN EN ISO 6892-1, 3.6.5"@en , "Authors"@en , "ISO 26203-2, 2011, 4"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.5"@en , "DIN EN ISO 6892-1, 3.6.5"@de , "Authors"@en , "ISO 26203-2, 2011, 4"@en;
         :hasExampleData                "16.34" , "14";
         :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@en , "DIN EN ISO 6892-1, 3.6.5"@de , "DIN EN ISO 6892-1, 3.6.5"@en , "ISO 26203-2, 2011, 4"@en , "YS1-Fz-D1Q"@de;
         :hasSymbol                     "Ag"@en , "A_{g}"@en;
@@ -2016,8 +2016,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :NumberGrains  rdf:type                skos:Concept , owl:Class;
         rdfs:label                     "NumberGrains"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Anzahl an Körnern, die mit Hilfe der Euler-Winkel representiert werden.\" [General Knowledge]"@de;
-        skos:altlabel                  "Number of grains"@en;
+        dcterms:description            "\"Anzahl an Körnern, die mit Hilfe der Euler-Winkel representiert werden.\" [General Knowledge]"@de , "\"Number of grains represented by the euler angles.\" [General Knowledge]"@en;
+        skos:altlabel                  "Number of grains"@en , "Kornanzahl"@de;
         skos:preflabel                 "NumberGrains"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -2073,15 +2073,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:altlabel                  "Datum"@de , "Datum/Uhrzeit"@de , "Date/Time"@en , "Date"@en;
         skos:preflabel                 "TimeStamp"@en;
         :hasDescriptionCitationSource  "Authors"@en;
-        :hasExampleData                "13/06/2016" , "10-11-16" , "45093.6" , "11.03.2016";
+        :hasExampleData                "42654" , "13/06/2016" , "45093.6" , "11.03.2016";
         :hasLabelSource                "AFZ-BU-S1.TXT"@de , "YS1-FzR4-S1Q"@en , "YS1-FzR4-S1Q"@de , "YS1-Fz-D1Q"@de , "deepl translator"@en , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-Sz0°-S1L"@de , "AFZ1-ST-D1"@en , "AFZ1-NZ50-25-D1Q"@en .
 
 :CrystalPlasticityConstitutiveModel
         rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "CrystalPlasticityConstitutiveModel"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Beschreibung des verwendeten Kristallplastizitätsmodells\" [General Knowledge]"@de;
-        skos:altlabel                  "Crystal plasticity constitutive model"@en;
+        dcterms:description            "\"Description of the crystal plasticity constitutive model used for the microstructure simulations\" [General Knowledge]"@en , "\"Beschreibung des verwendeten Kristallplastizitätsmodells\" [General Knowledge]"@de;
+        skos:altlabel                  "Kristalplastizitätsmodell"@de , "Crystal plasticity constitutive model"@en;
         skos:preflabel                 "CrystalPlasticityConstitutiveModel"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -2217,11 +2217,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "LowerYieldStrength"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"kleinste Spannung während des plastischen Fließens, wobei Einschwingerscheinungen nicht berücksichtigt werden\" [DIN EN ISO 6892-1, 3.10.2.2]"@de , "\"lowest value of stress during plastic yielding, ignoring any initial transient effects\" [DIN EN ISO 6892-1, 3.10.2.2]"@en;
-        skos:altlabel                  "Dehn-/Streckgr. ReL"@de , "lower yield strength"@en;
+        skos:altlabel                  "untere Streckgrenze"@de , "Dehn-/Streckgr. ReL"@de , "lower yield strength"@en;
         skos:preflabel                 "LowerYieldStrength"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.2.2"@en , "DIN EN ISO 6892-1, 3.10.2.2"@de;
         :hasExampleData                "420";
-        :hasLabelSource                "YS1-Fz-D1Q"@de , "DIN EN ISO 6892-1, 3.10.2.2"@en , "DIN EN ISO 6892-1, 3.10.2.2"@de , "ISO 26203-2, 2011, 4"@en;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.10.2.2"@en , "DIN EN ISO 6892-1, 3.10.2.2"@de , "ISO 26203-2, 2011, 4"@en , "YS1-Fz-D1Q"@de;
         :hasSymbol                     "ReL"@en , "R_{eL}"@en;
         :hasSymbolLatex                "R_{eL}"@en;
         :hasTypicalUnit                qudtUnit:MegaPA;
@@ -2265,8 +2265,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :FEMSolver  rdf:type                   owl:Class , skos:Concept;
         rdfs:label                     "FEMSolver"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"FEM Solver, die für die Durchführung der Finite-Elemente-Simulationen verwendet wurde\" [General Knowledge]"@de;
-        skos:altlabel                  "FEM Solver"@en;
+        dcterms:description            "\"FEM Solver, die für die Durchführung der Finite-Elemente-Simulationen verwendet wurde\" [General Knowledge]"@de , "\"FEM Solver used for carring out the microstructure simulations\" [General Knowledge]"@en;
+        skos:altlabel                  "FEM Solver"@en , "FEM Solver"@de;
         skos:preflabel                 "FEMSolver"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -2282,7 +2282,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:seeAlso                   :StrainRate;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"mittlere technische Dehnrate = A/tf\" [Authors]"@de , "\"mean engineering strain rate = A/tf\" [ISO 26203-2, 2011, 4]"@en;
-        skos:altlabel                  "mittlere"@de , "Mean engineering strain rate"@en , "mean engineering strain rate"@en;
+        skos:altlabel                  "mittlere"@de , "Mean engineering strain rate"@en , "mittlere technische Dehnrate"@de , "mean engineering strain rate"@en;
         skos:preflabel                 "MeanEngineeringStrainRate"@en;
         skos:related                   :StrainRate;
         :hasDescriptionCitationSource  "ISO 26203-2, 2011, 4"@en , "Authors"@en , "Authors"@de;
@@ -2323,11 +2323,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "PercentagePermanentElongation"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Zunahme der Anfangsmesslänge (3.1.1) einer Probe nach Entfernen einer festgelegten Zugspannung, angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)\" [DIN EN ISO 6892-1, 3.4.1]"@de;
-        skos:altlabel                  "percentage permanent elongation"@en;
+        dcterms:description            "\"increase in the original gauge length (3.1.1) of a test piece after removal of a specified stress, expressed as a percentage of the original gauge length\" [DIN EN ISO 6892-1, 3.4.1]"@en , "\"Zunahme der Anfangsmesslänge (3.1.1) einer Probe nach Entfernen einer festgelegten Zugspannung, angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)\" [DIN EN ISO 6892-1, 3.4.1]"@de;
+        skos:altlabel                  "percentage permanent elongation"@en , "bleibende Dehnung"@de;
         skos:preflabel                 "PercentagePermanentElongation"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.4.1"@en , "DIN EN ISO 6892-1, 3.4.1"@de;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.4.1"@en , "DIN EN ISO 6892-1, 3.4.1"@de;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.4.1"@de , "DIN EN ISO 6892-1, 3.4.1"@en;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.4.1"@de , "DIN EN ISO 6892-1, 3.4.1"@en;
         :hasTypicalUnit                qudtUnit:PERCENT;
         :hasTypicalUnitLabel           "%" .
 
@@ -2349,8 +2349,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "ComputerControlledTensileTestingMachine"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Maschine, bei der die Regelung und Überwachung des Versuches, die Messungen und die Datenverarbeitung von einem Computer durchgeführt werden\" [DIN EN ISO 6892-1, 3.12]"@de;
-        skos:altlabel                  "computer-controlled tensile testing machine"@en;
+        dcterms:description            "\"machine for which the control and monitoring of the test, the measurements, and the data processing are undertaken by computer\" [DIN EN ISO 6892-1, 3.12]"@en , "\"Maschine, bei der die Regelung und Überwachung des Versuches, die Messungen und die Datenverarbeitung von einem Computer durchgeführt werden\" [DIN EN ISO 6892-1, 3.12]"@de;
+        skos:altlabel                  "rechnergestützte Zugprüfmaschine"@de , "computer-controlled tensile testing machine"@en;
         skos:preflabel                 "ComputerControlledTensileTestingMachine"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.12"@en , "DIN EN ISO 6892-1, 3.12"@de;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.12"@en , "DIN EN ISO 6892-1, 3.12"@de .
@@ -2387,11 +2387,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "StressRate"@en;
         rdfs:seeAlso                   :Time , :EngineeringStress;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"stress rate\" [Authors]"@en , "\"Zunahme der Spannung je Zeiteinheit\" [DIN EN ISO 6892-1, 3.7.4]"@de;
-        skos:altlabel                  "Geschw."@de , "stress rate"@en;
+        dcterms:description            "\"increase of stress per time\" [DIN EN ISO 6892-1, 3.7.4]"@en , "\"stress rate\" [Authors]"@en , "\"Zunahme der Spannung je Zeiteinheit\" [DIN EN ISO 6892-1, 3.7.4]"@de;
+        skos:altlabel                  "Spannungsgeschwindigkeit"@de , "Geschw."@de , "stress rate"@en;
         skos:preflabel                 "StressRate"@en;
         skos:related                   :Time , :EngineeringStress;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.7.4"@en , "DIN EN ISO 6892-1, 3.7.4"@de , "Authors"@en;
+        :hasDescriptionCitationSource  "Authors"@en , "DIN EN ISO 6892-1, 3.7.4"@de , "DIN EN ISO 6892-1, 3.7.4"@en;
         :hasExampleData                "19.63";
         :hasLabelSource                "AFZ1-Fz-S1Q.xlm"@de , "DIN EN ISO 6892-1, 3.7.4"@en , "DIN EN ISO 6892-1, 3.7.4"@de;
         :hasSymbol                     "dSig/dt"@en , "R"@en;
@@ -2437,14 +2437,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:preflabel  "hasCrystalPlasticityConstitutiveModel"@en .
 
 :MaximumForceNoDiscontinousYielding
-        rdf:type                       skos:Concept , owl:Class;
+        rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "MaximumForceNoDiscontinousYielding"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"<bei Werkstoffen, die kein diskontinuierliches Fließen zeigen> größte Kraft, der die Probe während des Versuchs standhält\" [DIN EN ISO 6892-1, 3.9.1]"@de;
-        skos:altlabel                  "maximum force \"no discontinous yielding\""@en;
+        dcterms:description            "\"<materials displaying no discontinuous yielding> highest force that the test piece withstands during the test\" [DIN EN ISO 6892-1, 3.9.1]"@en , "\"<bei Werkstoffen, die kein diskontinuierliches Fließen zeigen> größte Kraft, der die Probe während des Versuchs standhält\" [DIN EN ISO 6892-1, 3.9.1]"@de;
+        skos:altlabel                  "Höchstkraft"@de , "maximum force \"no discontinous yielding\""@en;
         skos:preflabel                 "MaximumForceNoDiscontinousYielding"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.9.1"@de , "DIN EN ISO 6892-1, 3.9.1"@en;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.9.1"@de , "DIN EN ISO 6892-1, 3.9.1"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.9.1"@en , "DIN EN ISO 6892-1, 3.9.1"@de;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.9.1"@en , "DIN EN ISO 6892-1, 3.9.1"@de;
         :hasSymbol                     "Fm"@en;
         :hasSymbolLatex                "F_m"@en;
         :hasTypicalUnit                qudtUnit:N;
@@ -2520,11 +2520,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasUnit       qudtUnit:MilliM2;
         :hasUnitLabel  "mm2" .
 
-:OriginalDiameter  rdf:type            skos:Concept , owl:Class;
+:OriginalDiameter  rdf:type            owl:Class , skos:Concept;
         rdfs:label                     "OriginalDiameter"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"(Anfangs-)Probendurchmesser in der parallelen Länge einer Rundprobe oder Durchmesser eines Drahtes mit Kreisquerschnitt oder Innendurchmesser eines Rohres\" [DIN EN ISO 6892-1, Tabelle 1]"@de;
-        skos:altlabel                  "original diameter"@en;
+        dcterms:description            "\"(Anfangs-)Probendurchmesser in der parallelen Länge einer Rundprobe oder Durchmesser eines Drahtes mit Kreisquerschnitt oder Innendurchmesser eines Rohres\" [DIN EN ISO 6892-1, Tabelle 1]"@de , "\"original diameter of the parallel length of a circular test piece, or diameter of round wire or internal diameter of a tube\" [DIN EN ISO 6892-1, Table 1]"@en;
+        skos:altlabel                  "original diameter"@en , "(Anfangs-)Probendurchmesser in der parallelen Länge einer Rundprobe oder Durchmesser eines Drahtes mit Kreisquerschnitt oder Innendurchmesser eines Rohres"@de;
         skos:preflabel                 "OriginalDiameter"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, Tabelle 1"@de , "DIN EN ISO 6892-1, Table 1"@en;
         :hasLabelSource                "DIN EN ISO 6892-1, Tabelle 1"@de , "DIN EN ISO 6892-1, Table 1"@en;
@@ -2582,14 +2582,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasTypicalUnitLabel           "mm" .
 
 :PermanentSetStrength
-        rdf:type                       owl:Class , skos:Concept;
+        rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "PermanentSetStrength"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Spannun, bei der nach Wegnahme der Kraft eine vorgegebene bleibende Dehnung oder Extensometer-Dehnung , angegeben jeweils als Prozentanteil der Anfangsmesslänge oder der Extensometer-Messlänge, nicht überschritten wurde\" [DIN EN ISO 6892-1, 3.10.5]"@de;
-        skos:altlabel                  "permanent set strength"@en;
+        dcterms:description            "\"Spannun, bei der nach Wegnahme der Kraft eine vorgegebene bleibende Dehnung oder Extensometer-Dehnung , angegeben jeweils als Prozentanteil der Anfangsmesslänge oder der Extensometer-Messlänge, nicht überschritten wurde\" [DIN EN ISO 6892-1, 3.10.5]"@de , "\"stress at which, after removal of force, a specified permanent elongation or extension, expressed respectively as a percentage of original gauge length, or extensometer gauge length, has not been exceeded\" [DIN EN ISO 6892-1, 3.10.5]"@en;
+        skos:altlabel                  "permanent set strength"@en , "Grenzwert der Spannung für eine vorgegebene bleibende Dehnung"@de;
         skos:preflabel                 "PermanentSetStrength"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.5"@de , "DIN EN ISO 6892-1, 3.10.5"@en;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.10.5"@de , "DIN EN ISO 6892-1, 3.10.5"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.5"@en , "DIN EN ISO 6892-1, 3.10.5"@de;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.10.5"@en , "DIN EN ISO 6892-1, 3.10.5"@de;
         :hasSymbol                     "Rr"@en;
         :hasSymbolLatex                "R_{r}"@en;
         :hasTypicalUnit                qudtUnit:MegaPA;
@@ -2672,8 +2672,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :CameraSystem  rdf:type                owl:Class , skos:Concept;
         rdfs:label                     "CameraSystem"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Art des Kamerasystems, welches für den hydraulischen Tiefungsversuch verwendet wurde.\" [DIN EN ISO 16808:2022-08, 12]"@de;
-        skos:altlabel                  "Camera System"@en;
+        dcterms:description            "\"Art des Kamerasystems, welches für den hydraulischen Tiefungsversuch verwendet wurde.\" [DIN EN ISO 16808:2022-08, 12]"@de , "\"Type of camera system used for the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]"@en;
+        skos:altlabel                  "Camera System"@en , "Kamerasystem"@de;
         skos:preflabel                 "CameraSystem"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de .
@@ -2701,10 +2701,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "DataSamplingFrequency"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"Die Frequenz-Bandweite jedes Messkanals sowie die Messwerterfassungsfrequenz sollten ausreichend hoch sein, damit die zu bestimmenden Werkstoffkenngrößen aufgezeichnet werden können. So kann z. B. bei Ermittlung von ReH die Gleichung (A.1) zur Bestimmung der in 1/Sekunde angegebenen Mindestmesswert-erfassungsgrenze fmin verwendet werden:\" [DIN EN ISO 6892-1]"@de;
-        skos:altlabel                  "data sampling frequency"@en;
+        skos:altlabel                  "Messwerterfassungsfrequenz"@de , "data sampling frequency"@en;
         skos:preflabel                 "DataSamplingFrequency"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1"@de;
-        :hasLabelSource                "DIN EN ISO 6892-1, A.2.2"@en , "DIN EN ISO 6892-1, A.2.2"@de .
+        :hasLabelSource                "DIN EN ISO 6892-1, A.2.2"@de , "DIN EN ISO 6892-1, A.2.2"@en .
 
 :Damage  rdf:type       owl:Class;
         rdfs:label      "Damage"@en , "Schaden"@de;
@@ -2817,13 +2817,13 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:altlabel   "ND"@en;
         skos:preflabel  "normal direction"@en , "Normalenrichtung"@de .
 
-:TrueStress  rdf:type                  skos:Concept , owl:Class;
+:TrueStress  rdf:type                  owl:Class , skos:Concept;
         rdfs:label                     "wahre Spannung"@de , "True Stress"@en , "TrueStress"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"true stress\" [ISO 26203-2, 2011, 4]"@en , "\"wahre Spannung\" [Authors]"@de;
-        skos:altlabel                  "Sigw(dL)"@de , "true stress"@en , "Sigma True"@en;
+        skos:altlabel                  "wahre Spannung"@de , "Sigw(dL)"@de , "true stress"@en , "Sigma True"@en;
         skos:preflabel                 "wahre Spannung"@de , "TrueStress"@en , "True Stress"@en;
-        :hasDescriptionCitationSource  "ISO 26203-2, 2011, 4"@en , "Authors"@de;
+        :hasDescriptionCitationSource  "Authors"@de , "ISO 26203-2, 2011, 4"@en;
         :hasExampleData                "9752";
         :hasLabelSource                "Standard definition specific"@de , "YS1-Fz-D1Q"@de , "ISO 26203-2, 2011, 4"@en , "AFZ1-Fz-S1Q.xlsx"@en;
         :hasSymbol                     "Sigw"@en;
@@ -2891,8 +2891,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "PercentageTotalExtensionAtMaximumForce"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Percentage total extension at maximum force Fm (total strain at maximum force, Fm)\" [DIN EN ISO 6892-1, 3.6.4]"@en , "\"gesamte Verlängerung (elastische plus plastische Verlängerung) der Extensometer-Messlänge bei Höchstkraft, angegeben in Prozent, bezogen auf die Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.4]"@de , "\"gesamte Verlängerung der Extensometer-Messlänge bei Höchstkraft, angegeben in Prozent, bezogen auf die Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.4]"@de;
-        skos:altlabel                  "percentage total extension at maximum force"@en;
+        dcterms:description            "\"Percentage total extension at maximum force Fm (total strain at maximum force, Fm)\" [DIN EN ISO 6892-1, 3.6.4]"@en , "\"gesamte Verlängerung (elastische plus plastische Verlängerung) der Extensometer-Messlänge bei Höchstkraft, angegeben in Prozent, bezogen auf die Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.4]"@de , "\"total extension (elastic extension plus plastic extension) at maximum force, expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.4]"@en , "\"gesamte Verlängerung der Extensometer-Messlänge bei Höchstkraft, angegeben in Prozent, bezogen auf die Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.4]"@de;
+        skos:altlabel                  "gesamte Extensometer-Dehnung bei Höchstkraft"@de , "percentage total extension at maximum force"@en;
         skos:preflabel                 "PercentageTotalExtensionAtMaximumForce"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.4"@en , "DIN EN ISO 6892-1, 3.6.4"@de;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.6.4"@en , "DIN EN ISO 6892-1, 3.6.4"@de , "ISO 26203-2, 2011, 4"@en;
@@ -2909,10 +2909,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "Strain"@en , "Dehnung"@de;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"in Prozent angegebene Verlängerung der Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.1]"@de , "\"extension expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.1]"@en;
-        skos:altlabel                  "percentage extension “strain”"@en;
-        skos:preflabel                 "Dehnung"@de , "Strain"@en;
+        skos:altlabel                  "Extensometer-Dehnung"@de , "percentage extension “strain”"@en;
+        skos:preflabel                 "Strain"@en , "Dehnung"@de;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.1"@de , "DIN EN ISO 6892-1, 3.6.1"@en;
-        :hasLabelSource                "ISO 26203-2, 2011, 4"@en , "DIN EN ISO 6892-1, 3.6.1"@de , "DIN EN ISO 6892-1, 3.6.1"@en;
+        :hasLabelSource                "ISO 26203-2, 2011, 4"@en , "DIN EN ISO 6892-1, 3.6.1"@en , "DIN EN ISO 6892-1, 3.6.1"@de;
         :hasSymbol                     "e"@en;
         :hasSymbolLatex                "e"@en;
         :hasTypicalUnit                qudtUnit:PERCENT;
@@ -3009,11 +3009,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasTypicalUnit       <https://qudt.org/vocab/unit/UNITLESS>;
         :hasTypicalUnitLabel  "1" .
 
-:ElasticConstantC11  rdf:type          owl:Class , skos:Concept;
+:ElasticConstantC11  rdf:type          skos:Concept , owl:Class;
         rdfs:label                     "ElasticConstantC11"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Elastische Konstant, um das richtungsabhängige elastische Materialverhalten zu beschreiben\" [General Knowledge]"@de;
-        skos:altlabel                  "Elastic constant C11"@en;
+        dcterms:description            "\"Elastic constant to describe the anisotropic elastic material behaviour\" [General Knowledge]"@en , "\"Elastische Konstant, um das richtungsabhängige elastische Materialverhalten zu beschreiben\" [General Knowledge]"@de;
+        skos:altlabel                  "Elastische Konstante C11"@de , "Elastic constant C11"@en;
         skos:preflabel                 "ElasticConstantC11"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -3102,10 +3102,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:comment                   "Type of the force measurement (force transducer, strain gauges, ....)"@en;
         rdfs:label                     "ForceMeasuringDevice"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Type of the force transducer\" [Authors]"@en , "\"Genauigkeit der Prüfeinrichtungen: Die Kraftmesseinrichtung der Prüfmaschine muss mindestens der Klasse 1 nach ISO 7500-1 entsprechen.\" [DIN EN ISO 6892-1, 9]"@de , "\"Die Kraftmesseinrichtung der Zugprüfmaschine muss im relevanten Bereich mindestens der Klasse 1 nach ISO 7500-1 entsprechen.\" [DIN EN ISO 6892-1]"@de , "\"Type of the force measurement (force transducer, strain gauges, ....)\" [Authors]"@en;
-        skos:altlabel                  "Kraftmesseinrichtung"@de , "force-measuring system"@en , "force-measuring device"@en , "Kraftaufnehmer"@de;
+        dcterms:description            "\"Type of the force transducer\" [Authors]"@en , "\"Genauigkeit der Prüfeinrichtungen: Die Kraftmesseinrichtung der Prüfmaschine muss mindestens der Klasse 1 nach ISO 7500-1 entsprechen.\" [DIN EN ISO 6892-1, 9]"@de , "\"\nThe force-measuring system of the testing machine shall be in accordance with ISO 7500-1, class 1,\nor better.\" [DIN EN ISO 6892-1, 9]"@en , "\"The force-measuring system of the testing machine shall be in accordance with ISO 7500-1, class 1, in the relevant range\" [DIN EN ISO 6892-1, G.3.1.1]"@en , "\"Die Kraftmesseinrichtung der Zugprüfmaschine muss im relevanten Bereich mindestens der Klasse 1 nach ISO 7500-1 entsprechen.\" [DIN EN ISO 6892-1]"@de , "\"Type of the force measurement (force transducer, strain gauges, ....)\" [Authors]"@en;
+        skos:altlabel                  "Kraftmesseinrichtung"@de , "force-measuring system"@en , "force-measuring device"@en , "Kraftmesseinrichtungen"@de , "Kraftaufnehmer"@de;
         skos:preflabel                 "ForceMeasuringDevice"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 9"@de , "DIN EN ISO 6892-1, 9"@en , "DIN EN ISO 6892-1"@de , "Authors"@en , "DIN EN ISO 6892-1, G.3.1.1"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 9"@en , "DIN EN ISO 6892-1"@de , "Authors"@en , "DIN EN ISO 6892-1, G.3.1.1"@en , "DIN EN ISO 6892-1, 9"@de;
         :hasExampleData                "Bulge Druck: Öldruckaufnehmer in der Kammer unterhalb der Probe, Tiefungskraft: Öldruckaufnehmer am Tiefungskolben";
         :hasLabelSource                "DIN EN ISO 6892-1, 9"@en , "DIN EN ISO 6892-1, 9"@de , "AFZ-BU-S1.TXT"@de , "DIN EN ISO 6892-1, G.3.1.1"@en , "DIN EN ISO 6892-1, G.3.1.1"@de .
 
@@ -3134,8 +3134,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :HardeningLaw  rdf:type                skos:Concept , owl:Class;
         rdfs:label                     "HardeningLaw"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Verfestigungsgesetz auf der Gleitebene, das für das Kristalplastizitätsmodell des Mikrostrukturmodells verwendet wird\" [General Knowledge]"@de;
-        skos:altlabel                  "Hardening law"@en;
+        dcterms:description            "\"Verfestigungsgesetz auf der Gleitebene, das für das Kristalplastizitätsmodell des Mikrostrukturmodells verwendet wird\" [General Knowledge]"@de , "\"Hardening law on slip plane used for the crystal plasticity model of the microstructure model\" [General Knowledge]"@en;
+        skos:altlabel                  "Verfestigungsgesetz"@de , "Hardening law"@en;
         skos:preflabel                 "HardeningLaw"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -3174,7 +3174,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:seeAlso                   :StrainRate;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"nominal engineering strain rate = vo/Lc\" [ISO 26203-2, 2011, 4]"@en , "\"nominelle technische Dehnrate = vo/Lc\" [Authors]"@de;
-        skos:altlabel                  "nominell"@de , "Nominal engineering strain rate"@en , "nominal engineering strain rate"@en;
+        skos:altlabel                  "nominelle Dehnrate"@de , "nominell"@de , "Nominal engineering strain rate"@en , "nominal engineering strain rate"@en;
         skos:preflabel                 "NominalEngineeringStrainRate"@en;
         skos:related                   :StrainRate;
         :hasDescriptionCitationSource  "Authors"@en , "Authors"@de , "ISO 26203-2, 2011, 4"@en;
@@ -3326,13 +3326,13 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:comment                   "The intial gauge length given by the specimen geometry"@en;
         rdfs:label                     "OriginalGaugeLength"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"length between gauge length marks on the test piece measured at room temperature before the test\" [DIN EN ISO 6892-1, 3.1.1]"@en , "\"Länge zwischen den Marken zur Kennzeichnung der Messlänge (3.1) auf der Probe, die vor dem Versuch bei Raumtemperatur gemessen wird\" [DIN EN ISO 6892-1, 3.1.1]"@de , "\"The intial gauge length given by the specimen geometry\" [Authors]"@en;
-        skos:altlabel                  "original gauge length"@en , "L0"@en , "Messlänge Standardweg"@de , "Messlänge Lo"@de;
+        dcterms:description            "\"length between gauge length (3.1) marks on the test piece measured at room temperature before the testlength between gauge length (3.1) marks on the test piece measured at room temperature before the test\" [DIN EN ISO 6892-1, 3.1.1]"@en , "\"length between gauge length marks on the test piece measured at room temperature before the test\" [DIN EN ISO 6892-1, 3.1.1]"@en , "\"The intial gauge length given by the specimen geometry\" [Authors]"@en , "\"Länge zwischen den Marken zur Kennzeichnung der Messlänge (3.1) auf der Probe, die vor dem Versuch bei Raumtemperatur gemessen wird\" [DIN EN ISO 6892-1, 3.1.1]"@de;
+        skos:altlabel                  "Messlänge Standardweg"@de , "Anfangsmesslänge"@de , "original gauge length"@en , "L0"@en , "Messlänge Lo"@de;
         skos:preflabel                 "OriginalGaugeLength"@en;
-        :hasDescriptionCitationSource  "Authors"@en , "DIN EN ISO 6892-1, 3.1.1"@en , "DIN EN ISO 6892-1, 3.1.1"@de;
-        :hasExampleData                "80" , "20" , "30";
-        :hasLabelSource                "DX56_D_FZ2_WR00_43.TXT"@de , "YS1-FzR4-S1Q"@en , "YS1-FzR4-S1Q"@de , "ISO 26203-2, 2011, 4"@en , "DIN EN ISO 6892-1, 3.1.1"@de , "DIN EN ISO 6892-1, 3.1.1"@en , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-Sz0°-S1L"@de;
-        :hasSymbol                     "L0"@en , "Lo"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.1.1"@de , "DIN EN ISO 6892-1, 3.1.1"@en , "Authors"@en;
+        :hasExampleData                "30" , "80" , "20";
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.1.1"@de , "DIN EN ISO 6892-1, 3.1.1"@en , "AFZ1-Fz-S1Q.xlsx"@de , "DX56_D_FZ2_WR00_43.TXT"@de , "YS1-FzR4-S1Q"@en , "YS1-FzR4-S1Q"@de , "YS1-Sz0°-S1L"@de , "ISO 26203-2, 2011, 4"@en;
+        :hasSymbol                     "Lo"@en , "L0"@en;
         :hasSymbolLatex                "L_o"@en , "L_0"@en;
         :hasTypicalUnit                qudtUnit:MilliM;
         :hasTypicalUnitLabel           "mm" .
@@ -3347,8 +3347,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "PostProcessingSoftware"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Software, die für die Datenverarbeitung verwendet wurde.\" [General Knowledge]"@de;
-        skos:altlabel                  "Post-processing software"@en;
+        dcterms:description            "\"Software, die für die Datenverarbeitung verwendet wurde.\" [General Knowledge]"@de , "\"Software used for post-processing.\" [General Knowledge]"@en;
+        skos:altlabel                  "Auswerte Software"@de , "Post-processing software"@en;
         skos:preflabel                 "PostProcessingSoftware"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -3472,14 +3472,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:preflabel  "hasInv_ShearRateSensitivity"@en .
 
 :StandardDeviationOfTheSlope
-        rdf:type                       owl:Class , skos:Concept;
+        rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "StandardDeviationOfTheSlope"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"zusätzliches Ergebnis der linearen Regression, welches den Unterschied der Spannungswerte von der Ausgleichsgeraden für die gegebenen Extensometer-Dehnungswerte in dem untersuchten Bereich beschreibt\" [DIN EN ISO 6892-1, 3.16]"@de;
-        skos:altlabel                  "standard deviation of the slope"@en;
+        dcterms:description            "\"additional result of the linear regression which describes the difference of the stress values from the best fit line for the given extension values in the evaluation range\" [DIN EN ISO 6892-1, 3.16]"@en , "\"zusätzliches Ergebnis der linearen Regression, welches den Unterschied der Spannungswerte von der Ausgleichsgeraden für die gegebenen Extensometer-Dehnungswerte in dem untersuchten Bereich beschreibt\" [DIN EN ISO 6892-1, 3.16]"@de;
+        skos:altlabel                  "Standardabweichung der Steigung"@de , "standard deviation of the slope"@en;
         skos:preflabel                 "StandardDeviationOfTheSlope"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.16"@de , "DIN EN ISO 6892-1, 3.16"@en;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.16"@de , "DIN EN ISO 6892-1, 3.16"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.16"@en , "DIN EN ISO 6892-1, 3.16"@de;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.16"@en , "DIN EN ISO 6892-1, 3.16"@de;
         :hasSymbol                     "Sm"@en;
         :hasSymbolLatex                "S_m"@en;
         :hasTypicalUnit                qudtUnit:MegaPA;
@@ -3500,7 +3500,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:preflabel                 "Tester"@en;
         :hasDescriptionCitationSource  "Authors"@en;
         :hasExampleData                "Kürzel";
-        :hasLabelSource                " "@en , "YS1-Sz0°-S1L"@de , "YS1-Fz-D1Q"@de , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-FzR4-S1Q"@de .
+        :hasLabelSource                "YS1-Fz-D1Q"@de , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-FzR4-S1Q"@de , "YS1-Sz0°-S1L"@de .
 
 :Steel  rdf:type         skos:Concept , owl:Class;
         rdfs:label       "Steel"@en , "Stahl"@de , "steel"@en;
@@ -3616,8 +3616,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "CrystalPlasticityParameterFile"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Datei, die die Parameter des Kristallplastizitätsmodells beinhaltet\" [General Knowledge]"@de;
-        skos:altlabel                  "Crystal plasticity parameter file"@en;
+        dcterms:description            "\"Datei, die die Parameter des Kristallplastizitätsmodells beinhaltet\" [General Knowledge]"@de , "\"File containing parameters of the crystal plasticity constitutive model used\" [General Knowledge]"@en;
+        skos:altlabel                  "Kristallplastizitätsparameter-Datei"@de , "Crystal plasticity parameter file"@en;
         skos:preflabel                 "CrystalPlasticityParameterFile"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -3632,14 +3632,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasDescriptionCitationSource  "Authors"@de;
         :hasLabelSource                "K-Item"@de .
 
-:BiaxialStress  rdf:type               skos:Concept , owl:Class;
+:BiaxialStress  rdf:type               owl:Class , skos:Concept;
         rdfs:label                     "BiaxialStress"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Biaxiale Spannung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]"@de;
-        skos:altlabel                  "Biaxial stress"@en;
+        dcterms:description            "\"Biaxial stress received from post-processing the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]"@en , "\"Biaxiale Spannung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]"@de;
+        skos:altlabel                  "Biaxiale Spannung"@de , "Biaxial stress"@en;
         skos:preflabel                 "BiaxialStress"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@de , "DIN EN ISO 16808:2022-08, 4"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 16808:2022-08, 4"@de;
         :hasSymbol                     "σ_B"@en;
         :hasSymbolLatex                "\\sigma_B"@en;
         :hasTypicalUnit                qudtUnit:MegaPA;
@@ -3737,12 +3737,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :PistonSpeed  rdf:type                 skos:Concept , owl:Class;
         rdfs:label                     "PistonSpeed"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Geschwindigkeit des Kolbens während des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]"@de;
-        skos:altlabel                  "Tiefziehgeschwindigkeit (VD)"@de , "Piston Speed"@en;
+        dcterms:description            "\"Speed of the piston used in the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]"@en , "\"Geschwindigkeit des Kolbens während des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]"@de;
+        skos:altlabel                  "Kolbengeschwindigkeit"@de , "Tiefziehgeschwindigkeit (VD)"@de , "Piston Speed"@en;
         skos:preflabel                 "PistonSpeed"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de;
         :hasExampleData                "0.15";
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de , "AFZ-BU-S1.TXT"@de;
+        :hasLabelSource                "AFZ-BU-S1.TXT"@de , "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de;
         :hasTypicalUnit                qudtUnit:MilliM-PER-SEC;
         :hasTypicalUnitLabel           "mm/s" .
 
@@ -3761,10 +3761,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "TensileStrength"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"tensile strength\" [Authors]"@en , "\"stress corresponding to the maximum force\" [DIN EN ISO 6892-1, 3.10.1]"@en , "\"Spannung, die der Höchstkraft entspricht\" [DIN EN ISO 6892-1, 3.10.1]"@de;
-        skos:altlabel                  "Rm"@en , "Zugfestigkeit Rm"@de , "tensile strength"@en;
+        skos:altlabel                  "Rm"@en , "Zugfestigkeit"@de , "Zugfestigkeit Rm"@de , "tensile strength"@en;
         skos:preflabel                 "TensileStrength"@en;
         :hasDescriptionCitationSource  "Authors"@en , "DIN EN ISO 6892-1, 3.10.1"@en , "DIN EN ISO 6892-1, 3.10.1"@de;
-        :hasExampleData                "496" , "468";
+        :hasExampleData                "468" , "496";
         :hasLabelSource                "YS1-Fz-D1Q"@de , "ISO 26203-2, 2011, 4"@en , "DIN EN ISO 6892-1, 3.10.1"@en , "DIN EN ISO 6892-1, 3.10.1"@de , "AFZ1-Fz-S1Q.xlsx"@en;
         :hasSymbol                     "R_{m}"@en , "Rm"@en;
         :hasSymbolLatex                "R_{m}"@en , "R_m"@en;
@@ -3787,11 +3787,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :AmplitudeFile  rdf:type               owl:Class , skos:Concept;
         rdfs:label                     "AmplitudeFile"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Datei mit Informationen zu den verwendeten Amplituden für die Mikrostruktursimulation\" [General Knowledge]"@de;
-        skos:altlabel                  "Amplitude file"@en;
+        dcterms:description            "\"File containing information regarding the amplitude used for micorstructure simulation\" [General Knowledge]"@en , "\"Datei mit Informationen zu den verwendeten Amplituden für die Mikrostruktursimulation\" [General Knowledge]"@de;
+        skos:altlabel                  "Amplitude file"@en , "Amplituden-Datei"@de;
         skos:preflabel                 "AmplitudeFile"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
-        :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
+        :hasLabelSource                "General Knowledge"@de , "General Knowledge"@en .
 
 :hasInitialThickness_MilliM
         rdf:type       rdf:Property , owl:DatatypeProperty;
@@ -3825,14 +3825,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         dc:description  "time and date when the execution of a job instance was started"@en;
         skos:preflabel  "start time"@en .
 
-:RadiusDie  rdf:type                   skos:Concept , owl:Class;
+:RadiusDie  rdf:type                   owl:Class , skos:Concept;
         rdfs:label                     "RadiusDie"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Matrizenkantenradius (innen) der Prüfeinrichtung.\" [DIN EN ISO 16808:2022-08, 4]"@de;
-        skos:altlabel                  "Radius of the die (inner)"@en;
+        dcterms:description            "\"Radius of the die (inner) of the testing machine. \" [DIN EN ISO 16808:2022-08, 4]"@en , "\"Matrizenkantenradius (innen) der Prüfeinrichtung.\" [DIN EN ISO 16808:2022-08, 4]"@de;
+        skos:altlabel                  "Radius of the die (inner)"@en , "Matrizenkantenradius (innen)"@de;
         skos:preflabel                 "RadiusDie"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 4"@de , "DIN EN ISO 16808:2022-08, 4"@en;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@de , "DIN EN ISO 16808:2022-08, 4"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 16808:2022-08, 4"@de;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 16808:2022-08, 4"@de;
         :hasSymbol                     "R_1"@en;
         :hasSymbolLatex                "R_1"@en;
         :hasTypicalUnit                qudtUnit:MilliM;
@@ -3888,8 +3888,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "SpecificPlasticWorkValue"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Spezifische plastische Arbeit, die zur Bestimmung des Punkts auf dem Fließort verwendet wurde\" [General Knowledge]"@de;
-        skos:altlabel                  "Specific plastic work value"@en;
+        dcterms:description            "\"Spezifische plastische Arbeit, die zur Bestimmung des Punkts auf dem Fließort verwendet wurde\" [General Knowledge]"@de , "\"Specific plastic work used for idenfication of a point on the yield surface\" [General Knowledge]"@en;
+        skos:altlabel                  "Wert der spezifische plastische Arbeit"@de , "Specific plastic work value"@en;
         skos:preflabel                 "SpecificPlasticWorkValue"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -3908,7 +3908,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :Time   rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "Time"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "Authors"@de , "\"Zeit während des hydraulischen Tiefungsversuchs.\" [wes]"@de , "\"0.694\" [The time when the data point is recorded in relation to the start. ]"@en , "\"The time when the data point is recorded in relation to the start. \" [Authors]"@en , "\"Zeit während des hydraulischen Tiefungsversuchs.\" [Authors]"@de , "\"Recorded time during the hydraulic bulge test.\" [wes]"@en;
+        dcterms:description            "Authors"@de , "\"Recorded time during the hydraulic bulge test.\" [Authors]"@en , "\"Zeit während des hydraulischen Tiefungsversuchs.\" [wes]"@de , "\"0.694\" [The time when the data point is recorded in relation to the start. ]"@en , "\"The time when the data point is recorded in relation to the start. \" [Authors]"@en , "\"Zeit während des hydraulischen Tiefungsversuchs.\" [Authors]"@de , "\"Recorded time during the hydraulic bulge test.\" [wes]"@en;
         skos:altlabel                  "Zeit"@de , "time"@en , "Prüfzeit"@de , "Time"@en;
         skos:preflabel                 "Time"@en;
         :hasDescriptionCitationSource  "The time when the data point is recorded in relation to the start. "@en , "wes"@de , "wes"@en , "Authors"@de , "Authors"@en;
@@ -3957,14 +3957,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:preflabel  "Experimental test"@en , "Experimentaler Test"@de .
 
 :CoefficientOfCorrelation
-        rdf:type                       owl:Class , skos:Concept;
+        rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "CoefficientOfCorrelation"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"zusätzliches Ergebnis der linearen Regression, welches die Qualität der Spannung-Dehnung-Kurve in dem untersuchten Bereich beschreibt\" [DIN EN ISO 6892-1, 3.15]"@de;
-        skos:altlabel                  "coefficient of correlation"@en;
+        dcterms:description            "\"additional result of the linear regression which describes the quality of the stress-strain curve in the evaluation range\" [DIN EN ISO 6892-1, 3.15]"@en , "\"zusätzliches Ergebnis der linearen Regression, welches die Qualität der Spannung-Dehnung-Kurve in dem untersuchten Bereich beschreibt\" [DIN EN ISO 6892-1, 3.15]"@de;
+        skos:altlabel                  "Bestimmtheitsmaß"@de , "coefficient of correlation"@en;
         skos:preflabel                 "CoefficientOfCorrelation"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.15"@de , "DIN EN ISO 6892-1, 3.15"@en;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.15"@de , "DIN EN ISO 6892-1, 3.15"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.15"@en , "DIN EN ISO 6892-1, 3.15"@de;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.15"@en , "DIN EN ISO 6892-1, 3.15"@de;
         :hasSymbol                     "R2"@en;
         :hasSymbolLatex                "R^2"@en;
         :hasTypicalUnit                qudtUnit:UNITLESS;
@@ -4013,13 +4013,13 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasUnit       qudtUnit:MegaPA;
         :hasUnitLabel  "MPa" .
 
-:TestPiece  rdf:type     owl:Class , skos:Concept;
+:TestPiece  rdf:type     skos:Concept , owl:Class;
         rdfs:comment     "Something that a test is perfomed on"@en;
         rdfs:label       "TestPiece"@en , "Test piece"@en , "Probe"@de;
         rdfs:subClassOf  pmdco:ValueObject;
-        skos:altlabel    "test piece"@en , " specimen"@en , "sample"@en;
+        skos:altlabel    "Probe"@de , "test piece"@en , " specimen"@en , "sample"@en;
         skos:preflabel   "Test piece"@en , "Probe"@de , "TestPiece"@en;
-        :hasLabelSource  "DIN EN ISO 6892-1, Table 1"@en , "DIN EN ISO 6892-1, Tabelle 1"@de .
+        :hasLabelSource  "DIN EN ISO 6892-1, Tabelle 1"@de , "DIN EN ISO 6892-1, Table 1"@en .
 
 :hasFailureCriteriaTypeAdd_Object
         rdf:type        owl:ObjectProperty;
@@ -4053,22 +4053,22 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:range      :ReferenceShearRate;
         skos:preflabel  "hasReferenceShearRate"@en .
 
-:StrainRate  rdf:type                  skos:Concept , owl:Class;
+:StrainRate  rdf:type                  owl:Class , skos:Concept;
         rdfs:comment                   "the rate at which a material deforms under applied stress. It is a measure of how quickly the material's shape or dimensions change in response to external forces, such as tension, compression, or shear. Strain rate is typically expressed in units of inverse time (e.g., s^-1 or min^-1)."@en;
         rdfs:label                     "StrainRate"@en;
-        rdfs:seeAlso                   :CrossheadSeparationRate , :PercentageExtension , :Time , :ParallelLength;
+        rdfs:seeAlso                   :Time , :PercentageExtension , :ParallelLength , :CrossheadSeparationRate;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Zunahme der mit einem Extensometer in der Extensometer-Messlänge gemessenen Dehnung je Zeiteinheit\" [DIN EN ISO 6892-1, 3.7.1]"@de , "\"Dehnrate, die für die Mikrostruktursimulation verwendet wurde\" [General Knowledge]"@de , "\"strain rate either of the parallel length or of the gauge length/extensometer length (should be specified)\" [Authors]"@en;
-        skos:altlabel                  "Strain Rate"@en , "strain rate"@en , "Strain rate"@en;
+        dcterms:description            "\"increase of strain, measured with an extensometer, in extensometer gauge length\" [DIN EN ISO 6892-1, 3.7.1]"@en , "\"strain rate either of the parallel length or of the gauge length/extensometer length (should be specified)\" [Authors]"@en , "\"Dehnrate, die für die Mikrostruktursimulation verwendet wurde\" [General Knowledge]"@de , "\"Strain rate used for the microstructure simulation\" [General Knowledge]"@en , "\"Zunahme der mit einem Extensometer in der Extensometer-Messlänge gemessenen Dehnung je Zeiteinheit\" [DIN EN ISO 6892-1, 3.7.1]"@de;
+        skos:altlabel                  "Dehnrate"@de , "Strain rate"@en , "Strain Rate"@en , "strain rate"@en , "Dehngeschwindigkeit"@de;
         skos:preflabel                 "StrainRate"@en;
-        skos:related                   :CrossheadSeparationRate , :PercentageExtension , :ParallelLength , :Time;
-        :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de , "Authors"@en , "DIN EN ISO 6892-1, 3.7.1"@de , "DIN EN ISO 6892-1, 3.7.1"@en;
+        skos:related                   :ParallelLength , :Time , :CrossheadSeparationRate , :PercentageExtension;
+        :hasDescriptionCitationSource  "General Knowledge"@de , "General Knowledge"@en , "DIN EN ISO 6892-1, 3.7.1"@de , "Authors"@en , "DIN EN ISO 6892-1, 3.7.1"@en;
         :hasExampleData                "0.001";
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.7.1"@en , "DIN EN ISO 6892-1, 3.7.1"@de , "General Knowledge"@en , "General Knowledge"@de , "AFZ1-Fz-S1Q.xlsx"@en;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.7.1"@de , "DIN EN ISO 6892-1, 3.7.1"@en , "AFZ1-Fz-S1Q.xlsx"@en , "General Knowledge"@de , "General Knowledge"@en;
         :hasSymbol                     "eLe"@en;
         :hasSymbolLatex                "\\dot{e}_{L_e}"@en;
         :hasTypicalUnit                qudtUnit:PER-SEC;
-        :hasTypicalUnitLabel           "s-1" , "1/s" .
+        :hasTypicalUnitLabel           "1/s" , "s-1" .
 
 :PunchVelocity  rdf:type               owl:Class , skos:Concept;
         rdfs:label                     "PunchVelocity"@en;
@@ -4157,13 +4157,13 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasUnit       qudtUnit:PERCENT;
         :hasUnitLabel  "%" .
 
-:RadiusCurvature  rdf:type             owl:Class , skos:Concept;
+:RadiusCurvature  rdf:type             skos:Concept , owl:Class;
         rdfs:label                     "RadiusCurvature"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Krümmungsradius des Kuppelpols.\" [DIN EN ISO 16808:2022-08, 12]"@de;
-        skos:altlabel                  "Radius of curvature"@en;
+        dcterms:description            "\"Radius of the curvature in the dome.\" [DIN EN ISO 16808:2022-08, 12]"@en , "\"Krümmungsradius des Kuppelpols.\" [DIN EN ISO 16808:2022-08, 12]"@de;
+        skos:altlabel                  "Krümmungsradius"@de , "Radius of curvature"@en;
         skos:preflabel                 "RadiusCurvature"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 4"@de;
         :hasSymbol                     "ρ"@en;
         :hasSymbolLatex                "\\rho"@en;
@@ -4345,14 +4345,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:preflabel  "hasPreliminaryForce"@en .
 
 :PercentageYieldPointExtension
-        rdf:type                       owl:Class , skos:Concept;
+        rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "PercentageYieldPointExtension"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"<bei Werkstoffen, die ein diskontinuierliches Fließen zeigen> Verlängerung (3.6) der Extensometer-Messlänge zwischen dem Beginn örtlichen Fließens und dem Einsetzen gleichmäßiger Verfestigung, angegeben in Prozent, bezogen auf die Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.3]"@de;
-        skos:altlabel                  "percentage yield point extension"@en;
+        dcterms:description            "\"<bei Werkstoffen, die ein diskontinuierliches Fließen zeigen> Verlängerung (3.6) der Extensometer-Messlänge zwischen dem Beginn örtlichen Fließens und dem Einsetzen gleichmäßiger Verfestigung, angegeben in Prozent, bezogen auf die Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.3]"@de , "\"in discontinuous yielding materials, the extension between the start of yielding and the start of uniform work-hardening, expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.3]"@en;
+        skos:altlabel                  "Streckgrenzen-Extensometer-Dehnung"@de , "percentage yield point extension"@en;
         skos:preflabel                 "PercentageYieldPointExtension"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.3"@de , "DIN EN ISO 6892-1, 3.6.3"@en;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.6.3"@de , "DIN EN ISO 6892-1, 3.6.3"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.3"@en , "DIN EN ISO 6892-1, 3.6.3"@de;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.6.3"@en , "DIN EN ISO 6892-1, 3.6.3"@de;
         :hasSymbol                     "Ae"@en;
         :hasSymbolLatex                "A_e"@en;
         :hasTypicalUnit                qudtUnit:PERCENT;
@@ -4382,11 +4382,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :EffecticStrain  rdf:type              skos:Concept , owl:Class;
         rdfs:label                     "EffecticStrain"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Daten für die effektive Dehnung der durchgeführten Mikrostruktursimulation\" [General Knowledge]"@de;
-        skos:altlabel                  "Effective strain"@en;
+        dcterms:description            "\"Effective strain data of the microstructure simulation caried out\" [General Knowledge]"@en , "\"Daten für die effektive Dehnung der durchgeführten Mikrostruktursimulation\" [General Knowledge]"@de;
+        skos:altlabel                  "Effektive Dehnung"@de , "Effective strain"@en;
         skos:preflabel                 "EffecticStrain"@en;
-        :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
-        :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
+        :hasDescriptionCitationSource  "General Knowledge"@de , "General Knowledge"@en;
+        :hasLabelSource                "General Knowledge"@de , "General Knowledge"@en;
         :hasTypicalUnit                qudtUnit:UNITLESS;
         :hasTypicalUnitLabel           "-" .
 
@@ -4528,11 +4528,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:preflabel  "hasEstimatedStrainRateOverTheParallelLength"@en .
 
 :HardeningParameterTau1
-        rdf:type                       skos:Concept , owl:Class;
+        rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "HardeningParameterTau1"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de;
-        skos:altlabel                  "Hardening parameter tau1"@en;
+        dcterms:description            "\"Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de , "\"Hardening parameter used in Voce-type hardening law of the crystal plasticity constitutive model\" [General Knowledge]"@en;
+        skos:altlabel                  "Hardening parameter tau1"@en , "Verfestigungsparameter tau1"@de;
         skos:preflabel                 "HardeningParameterTau1"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -4574,10 +4574,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "ModulusOfElasticity"@en;
         rdfs:seeAlso                   :EngineeringStress , :PercentageExtension;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Elastizitätsmodul\" [Authors]"@de , "\"Quotient der Änderung der Spannung ΔR und Änderung der prozentualen Dehnung Δe in dem untersuchten Bereich multipliziert mit 100 %\" [DIN EN ISO 6892-1, 3.13]"@de , "\"Modulus of elasticity\" [ISO 26203-2, 2011, 4]"@en;
-        skos:altlabel                  "E"@en , "modulus of elasticity"@en , "E-Modul"@de;
+        dcterms:description            "\"Elastizitätsmodul\" [Authors]"@de , "\"Quotient der Änderung der Spannung ΔR und Änderung der prozentualen Dehnung Δe in dem untersuchten Bereich multipliziert mit 100 %\" [DIN EN ISO 6892-1, 3.13]"@de , "\"quotient of change of stress ΔR and change of percentage extension Δe in the range of evaluation, multiplied by 100 %\" [DIN EN ISO 6892-1, 3.13]"@en , "\"Modulus of elasticity\" [ISO 26203-2, 2011, 4]"@en;
+        skos:altlabel                  "E"@en , "modulus of elasticity"@en , "E-Modul"@de , "Elastizitätsmodul"@de;
         skos:preflabel                 "ModulusOfElasticity"@en;
-        skos:related                   :EngineeringStress , :PercentageExtension;
+        skos:related                   :PercentageExtension , :EngineeringStress;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.13"@en , "DIN EN ISO 6892-1, 3.13"@de , "ISO 26203-2, 2011, 4"@en , "Authors"@en , "Authors"@de;
         :hasExampleData                "187170" , "210000";
         :hasLabelSource                "DIN EN ISO 6892-1, 3.13"@en , "DIN EN ISO 6892-1, 3.13"@de , "AFZ1-Fz-S1Q.xlsx"@en , "ISO 26203-2, 2011, 4"@en , "YS1-Fz-D1Q"@de;
@@ -4623,8 +4623,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :EulerAngle2  rdf:type                 skos:Concept , owl:Class;
         rdfs:label                     "EulerAngle2"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Einer von drei Winkel, die nach dem Schweizer Mathematiker Leonhard Euler benannt wurden und einen Satz von drei Winkeln darstellen, mit denen die Orientierung (Drehlage) eines festen Körpers im dreidimensionalen euklidischen Raum beschrieben werden kann.\" [General Knowledge]"@de;
-        skos:altlabel                  "Second euler angle"@en;
+        dcterms:description            "\"Einer von drei Winkel, die nach dem Schweizer Mathematiker Leonhard Euler benannt wurden und einen Satz von drei Winkeln darstellen, mit denen die Orientierung (Drehlage) eines festen Körpers im dreidimensionalen euklidischen Raum beschrieben werden kann.\" [General Knowledge]"@de , "\"One of three euler angles that are introduced by Leonhard Euler to describe the orientation of a rigid body with respect to a fixed coordinate system\" [General Knowledge]"@en;
+        skos:altlabel                  "Second euler angle"@en , "Zweiter Euler Winkel"@de;
         skos:preflabel                 "EulerAngle2"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -4641,10 +4641,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "PercentageElongation"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Verlängerung (3.3), angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)\" [DIN EN ISO 6892-1, 3.4]"@de;
+        dcterms:description            "\"Verlängerung (3.3), angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)\" [DIN EN ISO 6892-1, 3.4]"@de , "\"elongation expressed as a percentage of the original gauge length\" [DIN EN ISO 6892-1, 3.4]"@en;
         skos:altlabel                  "percentage elongation"@en , "Dehnung"@de;
         skos:preflabel                 "PercentageElongation"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.4"@de , "DIN EN ISO 6892-1, 3.4"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.4"@en , "DIN EN ISO 6892-1, 3.4"@de;
         :hasExampleData                "-3.93633e-05";
         :hasLabelSource                "DIN EN ISO 6892-1, 3.4"@en , "DIN EN ISO 6892-1, 3.4"@de , "DX56_D_FZ2_WR00_43.TXT"@de;
         :hasTypicalUnit                qudtUnit:MilliM , qudtUnit:PERCENT;
@@ -4653,8 +4653,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :HardeningCurve  rdf:type              skos:Concept , owl:Class;
         rdfs:label                     "HardeningCurve"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Tabellarische Darstellung des Verfestigungsgesetzes auf der Gleiteebene in Form von Spannungs-Dehnungs-Daten \" [General Knowledge]"@de;
-        skos:altlabel                  "Hardening curve"@en;
+        dcterms:description            "\"Tabellarische Darstellung des Verfestigungsgesetzes auf der Gleiteebene in Form von Spannungs-Dehnungs-Daten \" [General Knowledge]"@de , "\"Tabular stress and strain data of the hardening law on the slip plane\" [General Knowledge]"@en;
+        skos:altlabel                  "Verfestigungskurve"@de , "Hardening curve"@en;
         skos:preflabel                 "HardeningCurve"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -4663,11 +4663,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "PreliminaryForce"@en;
         rdfs:seeAlso                   :ForceMeasuringDevice;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Vorkraft\" in DIN EN ISO 6892-1"@en , "\"Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet\" [DIN EN ISO 6892-1, 10.2]"@de , "\"\"Vorkraft\" in DIN EN ISO 6892-1\" [Authors]"@en;
+        dcterms:description            "\"In order to ensure the alignment of the test piece and grip arrangement, a preliminary force may be applied provided it does not exceed a value corresponding to 5 % of the specified or expected yield strength\" [DIN EN ISO 6892-1, 10.2]"@en , "\"Vorkraft\" in DIN EN ISO 6892-1"@en , "\"Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet\" [DIN EN ISO 6892-1, 10.2]"@de , "\"\"Vorkraft\" in DIN EN ISO 6892-1\" [Authors]"@en;
         skos:altlabel                  "preliminary force"@en , "Vorkraft"@de , "Vorlast"@de;
         skos:preflabel                 "PreliminaryForce"@en;
         skos:related                   :ForceMeasuringDevice;
-        :hasDescriptionCitationSource  "Authors"@en , "DIN EN ISO 6892-1, 10.2"@en , "DIN EN ISO 6892-1, 10.2"@de;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 10.2"@de , "DIN EN ISO 6892-1, 10.2"@en , "Authors"@en;
         :hasExampleData                "2" , "0.105";
         :hasLabelSource                "DIN EN ISO 6892-1, 10.2"@en , "DIN EN ISO 6892-1, 10.2"@de , "YS1-FzR4-S1Q"@de , "YS1-Sz0°-S1L"@de , "DX56_D_FZ2_WR00_43.TXT"@de;
         :hasTypicalUnit                qudtUnit:KiloN , qudtUnit:MegaPA;
@@ -4758,8 +4758,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :BoundaryFile  rdf:type                owl:Class , skos:Concept;
         rdfs:label                     "BoundaryFile"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Datei mit Informationen zu den verwendeten Randbedingungen für die Mikrostruktursimulation\" [General Knowledge]"@de;
-        skos:altlabel                  "Boundary file"@en;
+        dcterms:description            "\"File containing information regarding the boundaries used for micorstructure simulation\" [General Knowledge]"@en , "\"Datei mit Informationen zu den verwendeten Randbedingungen für die Mikrostruktursimulation\" [General Knowledge]"@de;
+        skos:altlabel                  "Boundary file"@en , "Bounadry-Datei"@de;
         skos:preflabel                 "BoundaryFile"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -4839,8 +4839,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "AnisotropicYieldFunction"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Anisotropes Fließortmodell, das für die Bestimmung der Parameter verwendet wurde\" [General Knowledge]"@de;
-        skos:altlabel                  "Anisotropic yield function"@en;
+        dcterms:description            "\"Anisotropic yield model used for the parameter identification\" [General Knowledge]"@en , "\"Anisotropes Fließortmodell, das für die Bestimmung der Parameter verwendet wurde\" [General Knowledge]"@de;
+        skos:altlabel                  "Anisotropic yield function"@en , "Anisotropes Fließortmodell"@de;
         skos:preflabel                 "AnisotropicYieldFunction"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -4876,7 +4876,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "TrueTotalStrain"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"true total strain \" [ISO 26203-2, 2011, 4]"@en , "\"gesamte wahre Dehnung\" [Authors]"@de;
-        skos:altlabel                  "true total strain "@en;
+        skos:altlabel                  "true total strain "@en , "gesamte wahre Dehnung"@de;
         skos:preflabel                 "TrueTotalStrain"@en;
         :hasDescriptionCitationSource  "ISO 26203-2, 2011, 4"@en , "Authors"@de;
         :hasLabelSource                "ISO 26203-2, 2011, 4"@en , "Standard definition specific"@de;
@@ -4975,12 +4975,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "PercentagePermanentExtension"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Vergrößerung der Extensometer-Messlänge nach Entfernen einer festgelegten, auf die Probe aufgebrachten Zugspannung , angegeben in Prozent, bezogen auf die Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.2]"@de , "\"plastic engineering strain\" [Authors]"@en;
-        skos:altlabel                  "percentage permanent extension"@en , "e-plast"@de;
+        dcterms:description            "\"Vergrößerung der Extensometer-Messlänge nach Entfernen einer festgelegten, auf die Probe aufgebrachten Zugspannung , angegeben in Prozent, bezogen auf die Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.2]"@de , "\"plastic engineering strain\" [Authors]"@en , "\"increase in the extensometer gauge length, after removal of a specified stress from the test piece, expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.2]"@en;
+        skos:altlabel                  "bleibende Extensometer-Dehnung"@de , "percentage permanent extension"@en , "e-plast"@de;
         skos:preflabel                 "PercentagePermanentExtension"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.2"@en , "DIN EN ISO 6892-1, 3.6.2"@de , "Authors"@en;
         :hasExampleData                "0.001";
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.6.2"@en , "DIN EN ISO 6892-1, 3.6.2"@de , "AFZ1-Fz-S1Q.xlm"@de;
+        :hasLabelSource                "AFZ1-Fz-S1Q.xlm"@de , "DIN EN ISO 6892-1, 3.6.2"@en , "DIN EN ISO 6892-1, 3.6.2"@de;
         :hasSymbol                     "eps-plast"@en;
         :hasSymbolLatex                "eps-plast"@en;
         :hasTypicalUnit                qudtUnit:PERCENT , qudtUnit:UNITLESS;
@@ -4995,8 +4995,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "OriginalCrossSection"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"original cross-sectional area of the parallel length\" [ISO 26203-2, 2011, 4]"@en , "\"Anfangsquerschnitt innerhalb der parallelen Länge\" [DIN EN ISO 6892-1, Tabelle 1]"@de , "\"original crosssection area of the parallel length\" [Authors]"@en;
-        skos:altlabel                  "original cross-sectional area"@en , "S0"@en;
+        dcterms:description            "\"original cross-sectional area of the parallel length\" [ISO 26203-2, 2011, 4]"@en , "\"Anfangsquerschnitt innerhalb der parallelen Länge\" [DIN EN ISO 6892-1, Tabelle 1]"@de , "\"original cross-sectional area of the parallel length\" [DIN EN ISO 6892-1, Table 1]"@en , "\"original crosssection area of the parallel length\" [Authors]"@en;
+        skos:altlabel                  "Anfangsquerschnitt"@de , "original cross-sectional area"@en , "S0"@en;
         skos:preflabel                 "OriginalCrossSection"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, Table 1"@en , "DIN EN ISO 6892-1, Tabelle 1"@de , "Authors"@en , "ISO 26203-2, 2011, 4"@en;
         :hasExampleData                "14.98";
@@ -5077,7 +5077,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:comment                   "Original width of the parallel length of a flat test piece"@en;
         rdfs:label                     "OriginalThickness"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Original width of the parallel length of a flat test piece\" [Authors]"@en , "\"(Anfangs-)Dicke einer Flachprobe oder Wanddicke eines Rohres\" [DIN EN ISO 6892-1, Tabelle 1]"@de , "\"The initial thickness of the specimen.\" [Authors]"@en , "\"The thickness of the specimen.\" [Authors]"@en;
+        dcterms:description            "\"Original width of the parallel length of a flat test piece\" [Authors]"@en , "\"(Anfangs-)Dicke einer Flachprobe oder Wanddicke eines Rohres\" [DIN EN ISO 6892-1, Tabelle 1]"@de , "\"The initial thickness of the specimen.\" [Authors]"@en , "\"original thickness of a flat test piece or wall thickness of a tube\" [DIN EN ISO 6892-1, Table 1]"@en , "\"The thickness of the specimen.\" [Authors]"@en;
         skos:altlabel                  "original thickness"@en , "Probendicke a0"@de , "Probendicke a"@de , "Original thickness"@en , "Probendicke"@de , "Thickness"@en;
         skos:preflabel                 "OriginalThickness"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, Tabelle 1"@de , "DIN EN ISO 6892-1, Table 1"@en , "Authors"@en;
@@ -5099,7 +5099,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "SlopeElasticPartStressStrainCurve"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"die Steigung des elastischen Teils der Spannungs-Dehnungs Kurve: die Steigung des elastischen Teils der Spannungs-Dehnungs-Kurve kann sehr nah mit dem Wert für das Elastizitätsmodul übereinstimmen, wenn optimale Bedingunge vorliegen (hohe Auflösung, doppelseitige Mittelung ders Extensometers, genaue Probenausrichtung, etc.)\" [Authors]"@de , "\"Slope of the elastic pasrt of the stress-strain curve: in the elastic pasrt of the stress-strain curve the value of the slope can closely agree with the value of the modulus of elasticity if optimal conditions are used (high resolution, double-sided averaging extensometers, proper alignment of the test piece, etc.)\" [ISO 26203-2, 2011, 5]"@en;
-        skos:altlabel                  "slope of the elastic part of the stress-strain curve"@en;
+        skos:altlabel                  "Steigung des elastischen Teils der Spannungs-Dehnungs-Kurve"@de , "slope of the elastic part of the stress-strain curve"@en;
         skos:preflabel                 "SlopeElasticPartStressStrainCurve"@en;
         :hasDescriptionCitationSource  "ISO 26203-2, 2011, 5"@en , "Authors"@de;
         :hasLabelSource                "Authors"@de , "ISO 26203-2, 2011, 4"@en;
@@ -5126,8 +5126,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :ResultsFile  rdf:type                 owl:Class , skos:Concept;
         rdfs:label                     "ResultsFile"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Datei, die die Ergebnisse eines virtuellen Versuchs beinhaltet.\" [General Knowledge]"@de;
-        skos:altlabel                  "Results file"@en;
+        dcterms:description            "\"File containing the results of a single virtual experiment\" [General Knowledge]"@en , "\"Datei, die die Ergebnisse eines virtuellen Versuchs beinhaltet.\" [General Knowledge]"@de;
+        skos:altlabel                  "Results file"@en , "Ergebnis-Datei"@de;
         skos:preflabel                 "ResultsFile"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -5148,14 +5148,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :isBasedOn                     :TestStandard .
 
 :PercentageTotalExtensionAtFracture
-        rdf:type                       skos:Concept , owl:Class;
+        rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "PercentageTotalExtensionAtFracture"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"gesamte Verlängerung (elastische plus plastische Verlängerung) der Extensometer-Messlänge beim Bruch, angegeben in Prozent, bezogen auf die Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.6]"@de;
-        skos:altlabel                  "percentage total extension at fracture"@en;
+        dcterms:description            "\"total extension (elastic extension plus plastic extension) at the moment of fracture, expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.6]"@en , "\"gesamte Verlängerung (elastische plus plastische Verlängerung) der Extensometer-Messlänge beim Bruch, angegeben in Prozent, bezogen auf die Extensometer-Messlänge\" [DIN EN ISO 6892-1, 3.6.6]"@de;
+        skos:altlabel                  "gesamte Extensometer-Dehnung beim Bruch"@de , "percentage total extension at fracture"@en;
         skos:preflabel                 "PercentageTotalExtensionAtFracture"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.6"@de , "DIN EN ISO 6892-1, 3.6.6"@en;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.6.6"@de , "DIN EN ISO 6892-1, 3.6.6"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6.6"@en , "DIN EN ISO 6892-1, 3.6.6"@de;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.6.6"@en , "DIN EN ISO 6892-1, 3.6.6"@de;
         :hasSymbol                     "At"@en;
         :hasSymbolLatex                "A_t"@en;
         :hasTypicalUnit                qudtUnit:PERCENT;
@@ -5249,7 +5249,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "EngineeringStrain"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"time dependent engineering strain \" [ISO 26203-2, 2011, 4]"@en , "\"zeitabhängige technische Dehnung\" [Authors]"@de;
-        skos:altlabel                  "engineering strain "@en;
+        skos:altlabel                  "engineering strain "@en , "technische Dehnung"@de;
         skos:preflabel                 "EngineeringStrain"@en;
         :hasDescriptionCitationSource  "ISO 26203-2, 2011, 4"@en , "Authors"@de;
         :hasLabelSource                "Standard definition specific"@de , "ISO 26203-2, 2011, 4"@en;
@@ -5328,7 +5328,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:related                   :SampleType , :TestStandard;
         :hasDescriptionCitationSource  "Authors"@de , "Authors"@en;
         :hasExampleData                "Flach-Zug" , "FzA20" , "FZ2 (L0=80_b0=20_R20)" , "Notched Flat tensile Specimen" , "Nakajima Specimen" , "Sz0°" , "Crashbox";
-        :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 11"@de , "DIN EN ISO 12004-2: 2021_07, 11"@en , "AFZ1-Fz-S1Q.xlsx"@en , "AFZ1-Fz-S1Q.xlsx"@de , "AFZ1-ST-D1"@en , "DX56_D_FZ2_WR00_43.TXT"@de , "YS1-Sz0°-S1L"@de , "AFZ1-NZ50-25-D1Q"@en , "deepl translator"@en , " "@en , "YS1-FzR4-S1Q"@en , "YS1-FzR4-S1Q"@de , "YS1-Fz-D1Q"@de .
+        :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 11"@de , "DIN EN ISO 12004-2: 2021_07, 11"@en , "AFZ1-Fz-S1Q.xlsx"@de , "AFZ1-Fz-S1Q.xlsx"@en , "AFZ1-ST-D1"@en , "YS1-Sz0°-S1L"@de , "AFZ1-NZ50-25-D1Q"@en , "deepl translator"@en , "YS1-FzR4-S1Q"@en , "YS1-FzR4-S1Q"@de , "YS1-Fz-D1Q"@de , "DX56_D_FZ2_WR00_43.TXT"@de .
 
 :Supplier  rdf:type      owl:Class , skos:Concept;
         rdfs:label       "Supplier"@en;
@@ -5464,12 +5464,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "InitialDisplacementRate"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Prüfgeschwindigkeit, die als Auftreffgeschwindigkeit bei Versuchsbeginn nominell eingestellt wurde \" [Authors]"@de , "\"initial displacement rate\" [ISO 26203-2, 2011, 4]"@en , "\"The velocity of the actuator\" [Authors]"@en;
-        skos:altlabel                  "Initial displacement rate v0"@en , "initial displacement rate"@en , "Abzugsgeschwindigkeit"@de;
+        dcterms:description            "\"The velocity of the actuator\" [Authors]"@en , "\"Prüfgeschwindigkeit, die als Auftreffgeschwindigkeit bei Versuchsbeginn nominell eingestellt wurde \" [Authors]"@de , "\"initial displacement rate\" [ISO 26203-2, 2011, 4]"@en;
+        skos:altlabel                  "Initial displacement rate v0"@en , "initial displacement rate"@en , "Abzugsgeschwindigkeit"@de , "Püfgeschwindigkeit"@de;
         skos:preflabel                 "InitialDisplacementRate"@en;
         :hasDescriptionCitationSource  "ISO 26203-2, 2011, 4"@en , "Authors"@en , "Authors"@de;
         :hasExampleData                "2500";
-        :hasLabelSource                "YS1-Fz-D1Q"@de , "DIN EN ISO 6892-1, 3.7"@de , "ISO 26203-2, 2011, 4"@en;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.7"@de , "ISO 26203-2, 2011, 4"@en , "YS1-Fz-D1Q"@de;
         :hasSymbol                     "vo"@en;
         :hasSymbolLatex                "v_{o}"@en;
         :hasTypicalUnit                qudtUnit:MilliM-PER-SEC;
@@ -5504,8 +5504,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :LatentHardeningQ1  rdf:type           owl:Class , skos:Concept;
         rdfs:label                     "LatentHardeningQ1"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Parameter, der in der Interaktionsmatrix die Fremdverfestigung (latent hardning) eines Gleitsystems infolge eines Gleitsystems aus einer anderen Gleitsystem-Familie beschreibt\" [General Knowledge]"@de;
-        skos:altlabel                  "LatentHardening q1"@en;
+        dcterms:description            "Off-diagonal elements in Interaction matrix q_ab for different slip system family"@en , "\"Parameter, der in der Interaktionsmatrix die Fremdverfestigung (latent hardning) eines Gleitsystems infolge eines Gleitsystems aus einer anderen Gleitsystem-Familie beschreibt\" [General Knowledge]"@de;
+        skos:altlabel                  "LatentHardening q1"@en , "Latent Hardening Parameter q01"@de;
         skos:preflabel                 "LatentHardeningQ1"@en;
         :hasDescriptionCitationSource  "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@de , "General Knowledge"@en;
@@ -5523,14 +5523,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasTypicalUnitLabel  "mm/min" .
 
 :EstimatedStrainRateOverTheParallelLength
-        rdf:type                       skos:Concept , owl:Class;
+        rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "EstimatedStrainRateOverTheParallelLength"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Zunahme der Dehnung über die parallele Länge der Probe je Zeiteinheit, basierend auf der Traversengeschwindigkeit und der parallelen Länge der Probe\" [DIN EN ISO 6892-1, 3.7.2]"@de;
-        skos:altlabel                  "estimated strain rate over the parallel length"@en;
+        dcterms:description            "\"estimated strain rate over the parallel length\" [DIN EN ISO 6892-1, 3.7.2]"@en , "\"Zunahme der Dehnung über die parallele Länge der Probe je Zeiteinheit, basierend auf der Traversengeschwindigkeit und der parallelen Länge der Probe\" [DIN EN ISO 6892-1, 3.7.2]"@de;
+        skos:altlabel                  "estimated strain rate over the parallel length"@en , "abgeschätzte Dehngeschwindigkeit über die parallele Länge"@de;
         skos:preflabel                 "EstimatedStrainRateOverTheParallelLength"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.7.2"@de , "DIN EN ISO 6892-1, 3.7.2"@en;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.7.2"@de , "DIN EN ISO 6892-1, 3.7.2"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.7.2"@en , "DIN EN ISO 6892-1, 3.7.2"@de;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.7.2"@en , "DIN EN ISO 6892-1, 3.7.2"@de;
         :hasSymbol                     "eLc"@en;
         :hasSymbolLatex                "\\dot{e}_{L_c}"@en;
         :hasTypicalUnit                qudtUnit:PER-SEC;
@@ -5619,7 +5619,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:seeAlso                   :ForceMeasuringSystem , :ForceMeasuringDevice;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"The force measured with the force measuring system\" [Authors]"@en , "\"The force that is measured using the Force-measuring device.\" [Authors]"@en , "\"The force measured by the load cell\" [Authors]"@en;
-        skos:altlabel                  "force"@en , "Standardkraft"@de , "F"@de , "Force"@en , "Tiefungskraft"@de;
+        skos:altlabel                  "force"@en , "Standardkraft"@de , "F"@de , "Kraft"@de , "Force"@en , "Tiefungskraft"@de;
         skos:preflabel                 "Force"@en , "Kraft"@de;
         skos:related                   :ForceMeasuringSystem , :ForceMeasuringDevice;
         :hasDescriptionCitationSource  "Authors"@en;
@@ -5738,11 +5738,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:preflabel  "hasGrade"@en .
 
 :HardeningParameterTheta1
-        rdf:type                       skos:Concept , owl:Class;
+        rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "HardeningParameterTheta1"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de;
-        skos:altlabel                  "Hardening parameter theta1"@en;
+        dcterms:description            "\"Hardening parameter used in Voce-type hardening law of the crystal plasticity constitutive model\" [General Knowledge]"@en , "\"Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de;
+        skos:altlabel                  "Hardening parameter theta1"@en , "Verfestigungsparameter theta1"@de;
         skos:preflabel                 "HardeningParameterTheta1"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -5829,12 +5829,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "MinimumCrossSectionAfterFracture"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"kleinster Querschnitt nach dem Bruch\" [DIN EN ISO 6892-1, Tabelle 1]"@de , "\"minimum cross-sectional area after fracture\" [Authors]"@en;
-        skos:altlabel                  "SU"@en , "minimum cross-sectional area after fracture"@en;
+        dcterms:description            "\"kleinster Querschnitt nach dem Bruch\" [DIN EN ISO 6892-1, Tabelle 1]"@de , "\"minimum cross-sectional area after fracture\" [DIN EN ISO 6892-1, Table 1]"@en , "\"minimum cross-sectional area after fracture\" [Authors]"@en;
+        skos:altlabel                  "SU"@en , "minimum cross-sectional area after fracture"@en , "kleinster Querschnitt nach dem Bruch"@de;
         skos:preflabel                 "MinimumCrossSectionAfterFracture"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, Tabelle 1"@de , "DIN EN ISO 6892-1, Table 1"@en , "Authors"@en;
         :hasExampleData                "4879";
-        :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@en , "DIN EN ISO 6892-1, Table 1"@en , "DIN EN ISO 6892-1, Tabelle 1"@de;
+        :hasLabelSource                "DIN EN ISO 6892-1, Tabelle 1"@de , "AFZ1-Fz-S1Q.xlsx"@en , "DIN EN ISO 6892-1, Table 1"@en;
         :hasSymbol                     "Su"@en;
         :hasSymbolLatex                "S_{u}"@en;
         :hasTypicalUnit                qudtUnit:MilliM2;
@@ -5864,8 +5864,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "AnisotropicYieldFunctionParameters"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Parameters des betrachteten anisotropen Fließortmodells\" [General Knowledge]"@de;
-        skos:altlabel                  "Anisotropic yield function parameters"@en;
+        dcterms:description            "\"Parameters of the anisotropic yield function considered\" [General Knowledge]"@en , "\"Parameters des betrachteten anisotropen Fließortmodells\" [General Knowledge]"@de;
+        skos:altlabel                  "Anisotropic yield function parameters"@en , "Anisotrope Fließortparameter"@de;
         skos:preflabel                 "AnisotropicYieldFunctionParameters"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -5925,7 +5925,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "TruePlasticStrain"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"wahre plastische Dehnung\" [Authors]"@de , "\"true plastic strain\" [ISO 26203-2, 2011, 4]"@en;
-        skos:altlabel                  "true plastic strain"@en;
+        skos:altlabel                  "true plastic strain"@en , "wahre plastische Dehnung"@de;
         skos:preflabel                 "TruePlasticStrain"@en;
         :hasDescriptionCitationSource  "ISO 26203-2, 2011, 4"@en , "Authors"@de;
         :hasLabelSource                "ISO 26203-2, 2011, 4"@en , "Standard definition specific"@de;
@@ -5949,8 +5949,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :GrainNumber  rdf:type                 owl:Class , skos:Concept;
         rdfs:label                     "GrainNumber"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Anzahl der Körner im Mikrostrukturmodell\" [General Knowledge]"@de;
-        skos:altlabel                  "Grain Number"@en;
+        dcterms:description            "\"Anzahl der Körner im Mikrostrukturmodell\" [General Knowledge]"@de , "\"Number of grains used for the microstructure model\" [General Knowledge]"@en;
+        skos:altlabel                  "Kornanzahl"@de , "Grain Number"@en;
         skos:preflabel                 "GrainNumber"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -5969,8 +5969,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :Stress  rdf:type                      skos:Concept , owl:Class;
         rdfs:label                     "Stress"@en , "Spannung"@de;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Kraft zu einem beliebigen Zeitpunkt während des Versuchs dividiert durch den Anfangsquerschnitt der Probe\" [DIN EN ISO 6892-1, 3.10]"@de;
-        skos:altlabel                  "stress"@en;
+        dcterms:description            "\"at any moment during the test, force divided by the original cross-sectional area, So, of the test piece\" [DIN EN ISO 6892-1, 3.10]"@en , "\"Kraft zu einem beliebigen Zeitpunkt während des Versuchs dividiert durch den Anfangsquerschnitt der Probe\" [DIN EN ISO 6892-1, 3.10]"@de;
+        skos:altlabel                  "Spannung"@de , "stress"@en;
         skos:preflabel                 "Stress"@en , "Spannung"@de;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10"@de , "DIN EN ISO 6892-1, 3.10"@en;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.10"@de , "DIN EN ISO 6892-1, 3.10"@en;
@@ -5984,7 +5984,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "PlasticEngineeringStrain"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"plastische technische Dehnung\" [Authors]"@de , "\"plastic engineering strain \" [ISO 26203-2, 2011, 4]"@en;
-        skos:altlabel                  "plastic engineering strain"@en;
+        skos:altlabel                  "plastic engineering strain"@en , "plastische technische Dehnung"@de;
         skos:preflabel                 "PlasticEngineeringStrain"@en;
         :hasDescriptionCitationSource  "ISO 26203-2, 2011, 4"@en , "Authors"@de;
         :hasLabelSource                "Standard definition specific"@de , "ISO 26203-2, 2011, 4"@en;
@@ -6033,11 +6033,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :PressureChamber  rdf:type             owl:Class , skos:Concept;
         rdfs:label                     "PressureChamber"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Druck im Werkzeug.\" [DIN EN ISO 16808:2022-08, 12]"@de;
-        skos:altlabel                  "Pressure in the Chamber"@en , "Bulge Druck"@de;
+        dcterms:description            "\"Pressure measred in the chamber.\" [DIN EN ISO 16808:2022-08, 12]"@en , "\"Druck im Werkzeug.\" [DIN EN ISO 16808:2022-08, 12]"@de;
+        skos:altlabel                  "Pressure in the Chamber"@en , "Bulge Druck"@de , "Druck im Werkzeug"@de;
         skos:preflabel                 "PressureChamber"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en;
-        :hasLabelSource                "AFZ-BU-S1.TXT"@de , "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 4"@de;
+        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de;
+        :hasLabelSource                "AFZ-BU-S1.TXT"@de , "DIN EN ISO 16808:2022-08, 4"@de , "DIN EN ISO 16808:2022-08, 12"@en;
         :hasSymbol                     "p"@en;
         :hasSymbolLatex                "p"@en;
         :hasTypicalUnit                qudtUnit:MegaPA;
@@ -6052,11 +6052,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 
 :MaterialCard  rdf:type                owl:Class , skos:Concept;
         rdfs:comment                   "The MaterialCard is a digital representation of a real world steel; for example HCT980X. It contains all information to reproduce the behaviour steel within a simulation as close as possible to it's real world counter part."@en;
-        rdfs:label                     "MaterialCard"@en , "Material Card"@en , "Materialkarte"@de , "Material Karte"@de , "material card"@en;
+        rdfs:label                     "material card"@en , "Material Karte"@de , "MaterialCard"@en , "Material Card"@en , "Materialkarte"@de;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Eine Materialkarten beschreibt das Materialverhalten eines Werkstoffes in Form von Daten und Parametern\" [General Knowledge]"@de;
-        skos:altlabel                  "MaterialKarte"@de , "Digitale Werkstoffbeschreibung"@de , "Material Card"@en , "MaterialCard"@en;
-        skos:preflabel                 "MaterialCard"@en , "Material Card"@en , "Material Karte"@de , "Materialkarte"@de , "material card"@en;
+        dcterms:description            "\"A material card contains material data or parameter to describe the material bahaviour in a simulation. \" [General Knowledge]"@en , "\"Eine Materialkarten beschreibt das Materialverhalten eines Werkstoffes in Form von Daten und Parametern\" [General Knowledge]"@de;
+        skos:altlabel                  "MaterialKarte"@de , "Digitale Werkstoffbeschreibung"@de , "Materialkarte"@de , "Material Card"@en , "MaterialCard"@en;
+        skos:preflabel                 "Material Karte"@de , "Materialkarte"@de , "material card"@en , "MaterialCard"@en , "Material Card"@en;
         :hasDescriptionCitationSource  "General Knowledge"@de , "General Knowledge"@en;
         :hasLabelSource                "General Knowledge"@de , "General Knowledge"@en .
 
@@ -6118,7 +6118,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "DynamometerArea"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"area on the fixed side of the test piece where only elastic deformations are required during the test\" [ISO 26203-2, 2011, 4]"@en , "\"Querschnitt auf der fest eingespannten Seite der Probe, in der lediglich elastische Verformungen während des Versuchs erlaubt sind\" [Authors]"@de;
-        skos:altlabel                  "dynamometer area"@en;
+        skos:altlabel                  "dynamometer area"@en , "Dynamometerquerschnitt"@de;
         skos:preflabel                 "DynamometerArea"@en;
         :hasDescriptionCitationSource  "Authors"@de , "ISO 26203-2, 2011, 4"@en;
         :hasLabelSource                "Authors"@de , "ISO 26203-2, 2011, 4"@en;
@@ -6147,9 +6147,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "Elongation"@en , "Dehnung"@de;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"increase in the original gauge length (3.1.1) at any moment during the test\" [DIN EN ISO 6892-1, 3.3]"@en , "\"Zunahme der Anfangsmesslänge (3.1.1) zu einem beliebigen Zeitpunkt während des Versuchs\" [DIN EN ISO 6892-1, 3.3]"@de;
-        skos:altlabel                  "elongation"@en;
+        skos:altlabel                  "elongation"@en , "Verlängerung"@de;
         skos:preflabel                 "Dehnung"@de , "Elongation"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.3"@en , "DIN EN ISO 6892-1, 3.3"@de;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.3"@de , "DIN EN ISO 6892-1, 3.3"@en;
         :hasLabelSource                "ISO 26203-2, 2011, 4"@en , "DIN EN ISO 6892-1, 3.3"@de , "DIN EN ISO 6892-1, 3.3"@en;
         :hasTypicalUnit                qudtUnit:MilliM;
         :hasTypicalUnitLabel           "mm" .
@@ -6161,14 +6161,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:preflabel  "hasTensileTestingMachine"@en .
 
 :InnerDiameterBlankHolder
-        rdf:type                       owl:Class , skos:Concept;
+        rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "InnerDiameterBlankHolder"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Durchmesser des Niederhalters (innen) der Prüfeinrichtung.\" [DIN EN ISO 16808:2022-08, 4]"@de;
-        skos:altlabel                  "Diameter of the blank holder (inner)"@en;
+        dcterms:description            "\"Diameter of the blank holder (inner) of the testing machine.\" [DIN EN ISO 16808:2022-08, 4]"@en , "\"Durchmesser des Niederhalters (innen) der Prüfeinrichtung.\" [DIN EN ISO 16808:2022-08, 4]"@de;
+        skos:altlabel                  "Diameter of the blank holder (inner)"@en , "Durchmesser des Niederhalters (innen)"@de;
         skos:preflabel                 "InnerDiameterBlankHolder"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 4"@de , "DIN EN ISO 16808:2022-08, 4"@en;
-        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@de , "DIN EN ISO 16808:2022-08, 4"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 16808:2022-08, 4"@de;
+        :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 16808:2022-08, 4"@de;
         :hasSymbol                     "d_BH"@en;
         :hasSymbolLatex                "d_BH"@en;
         :hasTypicalUnit                qudtUnit:MilliM;
@@ -6249,14 +6249,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasExampleData       "[95.e+6, 96.e+6]";
         :hasTypicalUnitLabel  "Pa" .
 
-:Texture  rdf:type                     owl:Class , skos:Concept;
+:Texture  rdf:type                     skos:Concept , owl:Class;
         rdfs:label                     "Textur"@de , "Texture"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Textur des Mikrostrukturmodells, wird durch drei Eulerwinkel definiert\" [General Knowledge]"@de;
-        skos:altlabel                  "Oberflächenbeschaffenheit"@de , "Texture"@en;
+        dcterms:description            "\"Texture of the microstructure model defined by three euler angles\" [General Knowledge]"@en , "\"Textur des Mikrostrukturmodells, wird durch drei Eulerwinkel definiert\" [General Knowledge]"@de;
+        skos:altlabel                  "Textur"@de , "Oberflächenbeschaffenheit"@de , "Texture"@en;
         skos:preflabel                 "Textur"@de , "Texture"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
-        :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
+        :hasLabelSource                "General Knowledge"@de , "General Knowledge"@en .
 
 :hasSampleInfos  rdf:type  rdf:Property , owl:DatatypeProperty;
         rdfs:label    "has SampleInfos";
@@ -6276,10 +6276,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :Software  rdf:type                    owl:Class , skos:Concept;
         rdfs:label                     "Software"@en , "Software"@de , "software"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Software, die für die Versuchsdurchführung und Datenverarbeitung verwendet wurde.\" [DIN EN ISO 16808:2022-08, 12]"@de;
-        skos:altlabel                  "Programm"@de , "Software"@en;
-        skos:preflabel                 "software"@en , "Software"@en , "Software"@de;
-        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de;
+        dcterms:description            "\"Software used for measurement and post-processing.\" [DIN EN ISO 16808:2022-08, 12]"@en , "\"Software, die für die Versuchsdurchführung und Datenverarbeitung verwendet wurde.\" [DIN EN ISO 16808:2022-08, 12]"@de;
+        skos:altlabel                  "Programm"@de , "Software"@en , "Software"@de;
+        skos:preflabel                 "Software"@de , "software"@en , "Software"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@de , "DIN EN ISO 16808:2022-08, 12"@en .
 
 :hasTransitionRadius_Object
@@ -6291,8 +6291,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :User   rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "User"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Person, die die EBSD-Messung ausgewertet hat.\" [General Knowledge]"@de;
-        skos:altlabel                  "User"@en;
+        dcterms:description            "\"Person performed the post-processing of the EBSD data.\" [General Knowledge]"@en , "\"Person, die die EBSD-Messung ausgewertet hat.\" [General Knowledge]"@de;
+        skos:altlabel                  "Benutzer"@de , "User"@en;
         skos:preflabel                 "User"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -6332,11 +6332,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "TensileTestingMachine"@en;
         rdfs:seeAlso                   :Machine;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Data of the machine used for the experiment.\" [Authors]"@en , "\"Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt.\" [DIN EN ISO 6892-1]"@de;
-        skos:altlabel                  "tensile testing machine"@en , "Prüfmaschine"@de , "Machine Type"@en;
+        dcterms:description            "\"Data of the machine used for the experiment.\" [Authors]"@en , "\"The machine should be designed in order to provide outputs giving analogue signals untreated by the software\" [DIN EN ISO 6892-1, A.2.1]"@en , "\"Die Prüfmaschine sollte mit einer analogen Messwertausgabe, die nicht durch die Software beeinflusst wird, ausgerüstet sein. Ist eine solche Ausgabe nicht vorgesehen, sollten digitale Rohdaten ausgegeben werden können. Der Prüfmaschinenhersteller sollte Auskunft über die Erzeugung der digitalen Rohdaten und ihre Verarbeitung durch die Software geben. Die Rohdaten sollten in SI-Einheiten angegeben werden und sich auf die Kraft, die Verlängerung (der Extensometer-Messlänge), den Traversenweg, die Zeit und die Probenmaße beziehen. Ein Beispiel eines geeigneten Datenformats ist in Bild A.1 dargestellt.\" [DIN EN ISO 6892-1]"@de;
+        skos:altlabel                  "Machine Type"@en , "Prüfmaschine"@de , "tensile testing machine"@en , "Zugprüfmaschine"@de;
         skos:preflabel                 "TensileTestingMachine"@en;
         skos:related                   :Machine;
-        :hasDescriptionCitationSource  "Authors"@en , "DIN EN ISO 6892-1"@de , "DIN EN ISO 6892-1, A.2.1"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1"@de , "DIN EN ISO 6892-1, A.2.1"@en , "Authors"@en;
         :hasExampleData                "Instron 5985";
         :hasLabelSource                "DIN EN ISO 6892-1, A.2.1"@en , "DIN EN ISO 6892-1, A.2.1"@de , "AFZ1-Fz-S1Q.xlsx"@de .
 
@@ -6349,8 +6349,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "TruePlasticThicknessStrain"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Plastischer Anteil des Umformgrads in Dickenrichtung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]"@de;
-        skos:altlabel                  "True plastic thickness strain"@en;
+        dcterms:description            "\"True plastic thickness strain received from post-processing the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]"@en , "\"Plastischer Anteil des Umformgrads in Dickenrichtung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]"@de;
+        skos:altlabel                  "True plastic thickness strain"@en , "Plastischer Anteil des Umformgrads in Dickenrichtung"@de;
         skos:preflabel                 "TruePlasticThicknessStrain"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 4"@en , "DIN EN ISO 16808:2022-08, 4"@de;
@@ -6370,14 +6370,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:comment  "DAMASK phenopower law parameter"@en .
 
 :ProofStrengthTotalExtension
-        rdf:type                       skos:Concept , owl:Class;
+        rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "ProofStrengthTotalExtension"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Spannung, bei der die gesamte Extensometer-Dehnung (elastische und plastische Extensometer-Dehnung) einem vorgegebenen Prozentanteil der Extensometer-Messlänge entspricht\" [DIN EN ISO 6892-1, 3.10.4]"@de;
-        skos:altlabel                  "proof strength, total extension"@en;
+        dcterms:description            "\"stress at which total extension (elastic extension plus plastic extension) is equal to a specified percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.10.4]"@en , "\"Spannung, bei der die gesamte Extensometer-Dehnung (elastische und plastische Extensometer-Dehnung) einem vorgegebenen Prozentanteil der Extensometer-Messlänge entspricht\" [DIN EN ISO 6892-1, 3.10.4]"@de;
+        skos:altlabel                  "Dehngrenze bei gesamter Extensometer-Dehnung"@de , "proof strength, total extension"@en;
         skos:preflabel                 "ProofStrengthTotalExtension"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.4"@de , "DIN EN ISO 6892-1, 3.10.4"@en;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.10.4"@de , "DIN EN ISO 6892-1, 3.10.4"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.4"@en , "DIN EN ISO 6892-1, 3.10.4"@de;
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.10.4"@en , "DIN EN ISO 6892-1, 3.10.4"@de;
         :hasSymbol                     "Rt"@en;
         :hasSymbolLatex                "R_{t}"@en;
         :hasTypicalUnit                qudtUnit:MegaPA;
@@ -6504,10 +6504,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "ProofStrengthPlasticExtension"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"stress at which the plastic extension is equal to a specified percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.10.3]"@en , "\"Spannung, bei der die plastische Extensometer-Dehnung einem vorgegebenen Prozentanteil der Extensometer-Messlänge entspricht\" [DIN EN ISO 6892-1, 3.10.3]"@de;
-        skos:altlabel                  "proof strength, plastic extension"@en;
+        skos:altlabel                  "Dehngrenze bei plastischer Extensometer-Dehnung"@de , "proof strength, plastic extension"@en;
         skos:preflabel                 "ProofStrengthPlasticExtension"@en;
-        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.3"@de , "DIN EN ISO 6892-1, 3.10.3"@en;
-        :hasLabelSource                "DIN EN ISO 6892-1, 3.10.3"@en , "DIN EN ISO 6892-1, 3.10.3"@de , "ISO 26203-2, 2011, 4"@en;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.10.3"@en , "DIN EN ISO 6892-1, 3.10.3"@de;
+        :hasLabelSource                "ISO 26203-2, 2011, 4"@en , "DIN EN ISO 6892-1, 3.10.3"@en , "DIN EN ISO 6892-1, 3.10.3"@de;
         :hasSymbol                     "Rp"@en;
         :hasSymbolLatex                "R_{p}"@en;
         :hasTypicalUnit                qudtUnit:MegaPA;
@@ -6525,8 +6525,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :EvaluationMethod  rdf:type            owl:Class , skos:Concept;
         rdfs:label                     "EvaluationMethod"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Bewertungsverfahren zur Bestimmung der Krümmung und der Formänderung.\" [DIN EN ISO 16808:2022-08, 12]"@de;
-        skos:altlabel                  "Evaluation method"@en;
+        dcterms:description            "\"Bewertungsverfahren zur Bestimmung der Krümmung und der Formänderung.\" [DIN EN ISO 16808:2022-08, 12]"@de , "\"Evaluation method used for identification of the curvature and the average strain.\" [DIN EN ISO 16808:2022-08, 12]"@en;
+        skos:altlabel                  "Bewertungsverfahren"@de , "Evaluation method"@en;
         skos:preflabel                 "EvaluationMethod"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de .
@@ -6726,8 +6726,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :Discretization  rdf:type              skos:Concept , owl:Class;
         rdfs:label                     "Discretization"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Diskretisierung bzw. die Anzahl an Elementen für das Mikrostrukturmodell\" [General Knowledge]"@de;
-        skos:altlabel                  "Discretization"@en;
+        dcterms:description            "\"Diskretisierung bzw. die Anzahl an Elementen für das Mikrostrukturmodell\" [General Knowledge]"@de , "\"Discretization or rather number of elements used for the microstructure model\" [General Knowledge]"@en;
+        skos:altlabel                  "Diskritisierung"@de , "Discretization"@en;
         skos:preflabel                 "Discretization"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de .
@@ -6762,17 +6762,17 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "CrossheadSeparationRate"@en;
         rdfs:seeAlso                   :ParallelLength;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"The displacement of the crosshead per time\" [Authors]"@en , "\"The speed of the experiment.\" [Authors]"@en , "\"Traversenweg je Zeiteinheit\" [DIN EN ISO 6892-1, 3.7.3]"@de;
-        skos:altlabel                  "crosshead separation rate"@en , "v0"@en , "Prüfgeschwindigkeit"@de;
+        dcterms:description            "\"The displacement of the crosshead per time\" [Authors]"@en , "\"displacement of the crossheads per time\" [DIN EN ISO 6892-1, 3.7.3]"@en , "\"Traversenweg je Zeiteinheit\" [DIN EN ISO 6892-1, 3.7.3]"@de , "\"The speed of the experiment.\" [Authors]"@en;
+        skos:altlabel                  "crosshead separation rate"@en , "Traversengeschwindigkeit"@de , "Prüfgeschwindigkeit"@de , "v0"@en;
         skos:preflabel                 "CrossheadSeparationRate"@en;
         skos:related                   :ParallelLength;
-        :hasDescriptionCitationSource  "Authors"@en , "DIN EN ISO 6892-1, 3.7.3"@en , "DIN EN ISO 6892-1, 3.7.3"@de;
-        :hasExampleData                "0.01" , "0.1" , "4800" , "0.02";
-        :hasLabelSource                "DX56_D_FZ2_WR00_43.TXT"@de , "YS1-FzR4-S1Q"@de , "YS1-FzR4-S1Q"@en , "AFZ1-ST-D1"@en , "DIN EN ISO 6892-1, 3.7.3"@de , "DIN EN ISO 6892-1, 3.7.3"@en , "YS1-Sz0°-S1L"@de , "AFZ1-Fz-S1Q.xlsx"@de;
+        :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.7.3"@de , "DIN EN ISO 6892-1, 3.7.3"@en , "Authors"@en;
+        :hasExampleData                "0.01" , "0.02" , "0.1" , "4800";
+        :hasLabelSource                "DIN EN ISO 6892-1, 3.7.3"@de , "DIN EN ISO 6892-1, 3.7.3"@en , "AFZ1-ST-D1"@en , "YS1-Sz0°-S1L"@de , "DX56_D_FZ2_WR00_43.TXT"@de , "YS1-FzR4-S1Q"@de , "YS1-FzR4-S1Q"@en , "AFZ1-Fz-S1Q.xlsx"@de;
         :hasSymbol                     "vc"@en;
         :hasSymbolLatex                "\\nu_c"@en;
         :hasTypicalUnit                qudtUnit:MilliM-PER-SEC;
-        :hasTypicalUnitLabel           "mm s -1" , "mm/s" .
+        :hasTypicalUnitLabel           "mm/s" , "mm s -1" .
 
 :hasGridSize_Object  rdf:type  owl:ObjectProperty , rdf:Property;
         rdfs:label      "hasGridSize"@en;
@@ -6892,7 +6892,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:preflabel                 "SampleIdentifier"@en;
         :hasDescriptionCitationSource  "Authors"@en , "Unique ID (IWM intern)"@de;
         :hasExampleData                "YS1-FzR4-S1Q" , "AFZ1-ST-D1" , "AWA_1_01_Rz" , "AFZ1-Fz-101Q" , "AFZ-BU-S1" , "AFZ1-NZ50-25-D1Q";
-        :hasLabelSource                "AFZ1-ST-D1"@en , "AFZ1-Fz-S1Q.xlsx"@de , "AFZ1-NZ50-25-D1Q"@de , "AFZ1-NZ50-25-D1Q"@en , "deepl translator"@en , " "@en , "AWA_1_01_Rz-46N171"@de , "YS1-FzR4-S1Q"@de , "YS1-FzR4-S1Q"@en , "AFZ-BU-S1.TXT"@de , "YS1-Sz0°-S1L"@de , "YS1-Fz-D1Q"@de .
+        :hasLabelSource                "AFZ1-ST-D1"@en , "AFZ1-Fz-S1Q.xlsx"@de , "AFZ1-NZ50-25-D1Q"@de , "deepl translator"@en , "AWA_1_01_Rz-46N171"@de , "YS1-FzR4-S1Q"@de , "YS1-FzR4-S1Q"@en , "AFZ-BU-S1.TXT"@de , "YS1-Sz0°-S1L"@de , "YS1-Fz-D1Q"@de , "AFZ1-NZ50-25-D1Q"@en .
 
 :hasTestingFacility_Object
         rdf:type        owl:ObjectProperty , rdf:Property;
@@ -6923,7 +6923,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "MeanPlasticStrainRate"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"mean value of the time dependent engineering strain rate: de(t)/dt in the range between start of yield point or 1% strain and strain ar maximum force\" [ISO 26203-2, 2011, 4]"@en , "\"Mittelwert der zeitabhängigen technischen Dehnrate: de(t)/dt im Bereich zwischen Fließbeginn oder 1% Dehnung und Dehnung bei Maximalkraft\" [Authors]"@de;
-        skos:altlabel                  "mean plastic strain rate"@en;
+        skos:altlabel                  "mean plastic strain rate"@en , "mittlere plastische Dehnrate"@de;
         skos:preflabel                 "MeanPlasticStrainRate"@en;
         :hasDescriptionCitationSource  "ISO 26203-2, 2011, 4"@en , "Authors"@de;
         :hasLabelSource                "ISO 26203-2, 2011, 4"@en , "Standard definition specific"@de;
@@ -6937,8 +6937,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "OriginalWidth"@en;
         rdfs:seeAlso                   :TestPieceGeometry;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"The width of the specimen.\" [Authors]"@en , "\"Original width of the parallel length of a flat test piece\" [Authors]"@en , "\"(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes\" [DIN EN ISO 6892-1, Tabelle 1]"@de;
-        skos:altlabel                  "Original width"@en , "Probenbreite b0"@de , "Width"@en , "Probenbreite b"@de , "original width"@en , "Probenbreite"@de;
+        dcterms:description            "\"original width of the parallel length of a flat test piece or average width of the longi\ntudinal strip taken from a tube or width of flat wire\" [DIN EN ISO 6892-1, Table 1]"@en , "\"The width of the specimen.\" [Authors]"@en , "\"Original width of the parallel length of a flat test piece\" [Authors]"@en , "\"(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes\" [DIN EN ISO 6892-1, Tabelle 1]"@de;
+        skos:altlabel                  "Probenbreite b0"@de , "Width"@en , "Probenbreite b"@de , "original width"@en , "(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes"@de , "Probenbreite"@de , "Original width"@en;
         skos:preflabel                 "OriginalWidth"@en;
         skos:related                   :TestPieceGeometry;
         :hasDescriptionCitationSource  "Authors"@en , "DIN EN ISO 6892-1, Table 1"@en , "DIN EN ISO 6892-1, Tabelle 1"@de;
@@ -6969,8 +6969,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :DefaultValue  rdf:type                owl:Class , skos:Concept;
         rdfs:label                     "DefaultValue"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"unterer oder oberer Wert für die Spannung beziehungsweise Extensometer-Dehnung, der für die Beschreibung des Bereichs, in dem der Elastizitätsmodul berechnet wird, benutzt wird\" [DIN EN ISO 6892-1, 3.14]"@de;
-        skos:altlabel                  "default value"@en;
+        dcterms:description            "\"unterer oder oberer Wert für die Spannung beziehungsweise Extensometer-Dehnung, der für die Beschreibung des Bereichs, in dem der Elastizitätsmodul berechnet wird, benutzt wird\" [DIN EN ISO 6892-1, 3.14]"@de , "\"lower or upper value for stress respectively strain which is used for the description of the range where the modulus of elasticity is calculated\" [DIN EN ISO 6892-1, 3.14]"@en;
+        skos:altlabel                  "Vorgabewert"@de , "default value"@en;
         skos:preflabel                 "DefaultValue"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.14"@en , "DIN EN ISO 6892-1, 3.14"@de;
         :hasLabelSource                "DIN EN ISO 6892-1, 3.14"@en , "DIN EN ISO 6892-1, 3.14"@de .
@@ -6997,11 +6997,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasLabelSource                "AFZ1-NZ50-25-D1Q"@en .
 
 :RateSensitivityOfSlip
-        rdf:type                       owl:Class , skos:Concept;
+        rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "RateSensitivityOfSlip"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Scherratensensitivität, die im Kristallplastizitätsmodell verwendet wurde\" [General Knowledge]"@de;
-        skos:altlabel                  "Rate sensitivity of slip "@en;
+        dcterms:description            "\"Scherratensensitivität, die im Kristallplastizitätsmodell verwendet wurde\" [General Knowledge]"@de , "\"Rate sensivity of slip used in the crystal plasticity constitutive model\" [General Knowledge]"@en;
+        skos:altlabel                  "Rate sensitivity of slip "@en , "Scherratensensititvität"@de;
         skos:preflabel                 "RateSensitivityOfSlip"@en;
         :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
         :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
@@ -7012,8 +7012,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :Grid   rdf:type                       skos:Concept , owl:Class;
         rdfs:label                     "Grid"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Art des Gitters, welches für die DIC-Messungen verwendet wurde.\" [DIN EN ISO 16808:2022-08, 12]"@de;
-        skos:altlabel                  "Grid"@en;
+        dcterms:description            "\"Type of grid used for DIC measurements.\" [DIN EN ISO 16808:2022-08, 12]"@en , "\"Art des Gitters, welches für die DIC-Messungen verwendet wurde.\" [DIN EN ISO 16808:2022-08, 12]"@de;
+        skos:altlabel                  "Grid"@en , "Gitter"@de;
         skos:preflabel                 "Grid"@en;
         :hasDescriptionCitationSource  "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de;
         :hasLabelSource                "DIN EN ISO 16808:2022-08, 12"@en , "DIN EN ISO 16808:2022-08, 12"@de .
@@ -7027,9 +7027,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "TestStandard"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"Test Standard unter dem der hydraulische Tiefungsversuch durchgeführt wurde.\" [wes]"@de , "\"Test Standard unter dem der hydraulische Tiefungsversuch durchgeführt wurde.\" [Authors]"@de , "\"Test standard to which the test is referred\" [Authors]"@en , "\"The norm according to which the experiment was conducted.\" [Authors]"@en;
-        skos:altlabel                  "Prüfnorm"@de , "Test standard"@en , "Testing Standard"@en;
+        skos:altlabel                  "Test Standard"@de , "Prüfnorm"@de , "Test standard"@en , "Testing Standard"@en;
         skos:preflabel                 "TestStandard"@en;
-        :hasDescriptionCitationSource  "wes"@de , "Authors"@en , "Authors"@de;
+        :hasDescriptionCitationSource  "Authors"@en , "Authors"@de , "wes"@de;
         :hasExampleData                "DIN EN ISO 16808" , "DIN EN ISO 12004-2" , "DIN EN ISO 6892-1";
         :hasLabelSource                "DIN EN ISO 12004-2: 2021_07, 8"@en , "Authors"@de , "AFZ-BU-S1.TXT"@de , "AFZ1-NZ50-25-D1Q"@en , "AFZ1-NZ50-25-D1Q"@de , "DIN EN ISO 16808:2022-08, 12"@en .
 
@@ -7168,7 +7168,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label           "StahlDigital Vocabulary"@en;
         dc:description       "Vocabulary of project StahlDigital"@en;
         dcterms:contributor  "Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm";
-        dcterms:date         "2024-04-22T11:24:05+00:00";
+        dcterms:date         "2024-04-22T14:18:05+00:00";
         owl:versionInfo      "0.1 (preliminary)"@en;
         skos:prefLabel       "StahlDigital Vocabulary"@en .
 
@@ -7209,12 +7209,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:seeAlso                   :ExtensionMeasuringSystem , :OriginalGaugeLength;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"initial extensometer gauge length used for measurement of extension by means of an extensometer\" [DIN EN ISO 6892-1, 3.5]"@en , "\"The intial gauge length Le used for measurement of extension by means of an extensometer\" [Authors]"@en , "\"Anfangsmesslänge des Dehnungsaufnehmers (Extensometer), die zum Messen der Verlängerung (3.6) benutzt wird\" [DIN EN ISO 6892-1, 3.5]"@de , "\"The intial gauge length used for measurement of extension by means of an extensometer\" [Authors]"@en;
-        skos:altlabel                  "Messlänge Lo"@de , "Extensometer gauge length "@en , "L0"@en , "extensometer gauge length"@en , "Messlänge L0"@de;
+        skos:altlabel                  "Extensometer gauge length "@en , "L0"@en , "Extensometer-Messlänge"@de , "extensometer gauge length"@en , "Messlänge L0"@de , "Messlänge Lo"@de;
         skos:preflabel                 "ExtensometerGaugeLength"@en;
         skos:related                   :ExtensionMeasuringSystem , :OriginalGaugeLength;
         :hasDescriptionCitationSource  "Authors"@en , "DIN EN ISO 6892-1, 3.5"@de , "DIN EN ISO 6892-1, 3.5"@en;
         :hasExampleData                "20" , "20.94";
-        :hasLabelSource                "ISO 26203-2, 2011, 4"@en , "YS1-Fz-D1Q"@de , " "@en , "DIN EN ISO 6892-1, 3.5"@de , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-Sz0°-S1L"@de , "YS1-FzR4-S1Q"@en , "YS1-FzR4-S1Q"@de , "DIN EN ISO 6892-1, 3.5"@en;
+        :hasLabelSource                "ISO 26203-2, 2011, 4"@en , "YS1-Fz-D1Q"@de , "DIN EN ISO 6892-1, 3.5"@de , "AFZ1-Fz-S1Q.xlsx"@de , "YS1-Sz0°-S1L"@de , "YS1-FzR4-S1Q"@en , "YS1-FzR4-S1Q"@de , "DIN EN ISO 6892-1, 3.5"@en;
         :hasSymbol                     "L_{0}"@en , "Le"@en;
         :hasSymbolLatex                "L_e"@en;
         :hasTypicalUnit                qudtUnit:MilliM;
@@ -7235,11 +7235,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 :EffectiveStress  rdf:type             owl:Class , skos:Concept;
         rdfs:label                     "EffectiveStress"@en;
         rdfs:subClassOf                pmdco:ValueObject;
-        dcterms:description            "\"Daten für die effektive Spannung der durchgeführten Mikrostruktursimulation\" [General Knowledge]"@de;
-        skos:altlabel                  "Effective stress"@en;
+        dcterms:description            "\"Effective stress data of the microstructure simulation caried out\" [General Knowledge]"@en , "\"Daten für die effektive Spannung der durchgeführten Mikrostruktursimulation\" [General Knowledge]"@de;
+        skos:altlabel                  "Effektive Spannung"@de , "Effective stress"@en;
         skos:preflabel                 "EffectiveStress"@en;
-        :hasDescriptionCitationSource  "General Knowledge"@en , "General Knowledge"@de;
-        :hasLabelSource                "General Knowledge"@en , "General Knowledge"@de;
+        :hasDescriptionCitationSource  "General Knowledge"@de , "General Knowledge"@en;
+        :hasLabelSource                "General Knowledge"@de , "General Knowledge"@en;
         :hasTypicalUnit                qudtUnit:MegaPA;
         :hasTypicalUnitLabel           "MPa" .
 
@@ -7271,10 +7271,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label                     "PercentageElongationAfterFracture"@en;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"bleibende Verlängerung (3.3) der Messlänge nach dem Bruch (Lu − Lo), angegeben in Prozent, bezogen auf die Anfangsmesslänge (3.1.1)\" [DIN EN ISO 6892-1, 3.4.2]"@de , "\"permanent elongation of the gauge length after fracture, (Lu − Lo), expressed as a percentage of the original gauge length (3.1.1)\" [DIN EN ISO 6892-1, 3.4.2]"@en , "\"percentage elongation after fracture\" [Authors]"@en;
-        skos:altlabel                  "percentage elongation after fracture"@en , "A"@en , "Bruchdehnung A_20mm"@de;
+        skos:altlabel                  "Bruchdehnung"@de , "percentage elongation after fracture"@en , "A"@en , "Bruchdehnung A_20mm"@de;
         skos:preflabel                 "PercentageElongationAfterFracture"@en;
         :hasDescriptionCitationSource  "Authors"@en , "DIN EN ISO 6892-1, 3.4.2"@en , "DIN EN ISO 6892-1, 3.4.2"@de;
-        :hasExampleData                "37.8" , "35.6";
+        :hasExampleData                "35.6" , "37.8";
         :hasLabelSource                "AFZ1-Fz-S1Q.xlsx"@en , "ISO 26203-2, 2011, 4"@en , "YS1-Fz-D1Q"@de , "DIN EN ISO 6892-1, 3.4.2"@de , "DIN EN ISO 6892-1, 3.4.2"@en;
         :hasSymbol                     "A"@en , "A20mm"@en , "A_{20mm}"@en;
         :hasSymbolLatex                "A"@en , "A_{20mm}"@en;
@@ -7308,7 +7308,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:seeAlso                   :ExtensometerGaugeLength , :ExtensionMeasuringSystem , :DisplacementTransducer;
         rdfs:subClassOf                pmdco:ValueObject;
         dcterms:description            "\"increase in the extensometer gauge length (3.5), at any moment during the test\" [DIN EN ISO 6892-1, 3.6]"@en , "\"Zunahme der Extensometer-Messlänge zu einem beliebigen Zeitpunkt des Versuchs\" [DIN EN ISO 6892-1, 3.6]"@de , "\"Displacement of the extensometer (!) length\" [Authors]"@en , "\"Verlängerung (der Extensometer-Messlänge)\" [DIN EN ISO 6892-1, 3.6]"@de;
-        skos:altlabel                  "Standardweg"@de , "Displacement"@en , "extension"@en , "dL"@de , "Extension"@en;
+        skos:altlabel                  "Verlängerung (der Extensometer-Messlänge)"@de , "Displacement"@en , "extension"@en , "dL"@de , "Extension"@en , "Standardweg"@de;
         skos:preflabel                 "Extension"@en;
         skos:related                   :ExtensionMeasuringSystem , :DisplacementTransducer , :ExtensometerGaugeLength;
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1, 3.6"@de , "DIN EN ISO 6892-1, 3.6"@en , "Authors"@en;

@@ -16,6 +16,9 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"maximum change in cross-sectional area which has occurred during the test" [DIN EN ISO 6892-1, 3.8]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"größte während des Versuchs aufgetretene Änderung des Querschnitts, angegeben in Prozent, bezogen auf den Anfangsquerschnitt" [DIN EN ISO 6892-1, 3.8]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea">
@@ -43,10 +46,10 @@
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, 3.8</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea">
-    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">78.0</ns0:hasExampleData>
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">67.42</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea">
-    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">67.42</ns0:hasExampleData>
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">78.0</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, 3.8</ns0:hasLabelSource>

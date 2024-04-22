@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Texture of the microstructure model defined by three euler angles\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -40,6 +46,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Oberfl\u00E4chenbeschaffenheit",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Textur",
         "lang" : "de",
         "type" : "literal"
         }

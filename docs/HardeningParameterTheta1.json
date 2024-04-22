@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/HardeningParameterTheta1" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Hardening parameter used in Voce-type hardening law of the crystal plasticity constitutive model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Verfestigungsparameter, f\u00FCr das Voce-typ Verfestigungsmodell, welches im Kristallplastizit\u00E4tsmodell verwendet wird\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Hardening parameter theta1",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Verfestigungsparameter theta1",
+        "lang" : "de",
         "type" : "literal"
         }
       

@@ -7,17 +7,19 @@
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <http://www.w3.org/2000/01/rdf-schema#label> "InitialThickness"@en .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <http://purl.org/dc/terms/description> "\"Ausgangsblechdicke\" [DIN EN ISO 16808:2022-08, 4]"@de .
+<https://w3id.org/steel/ProcessOntology/InitialThickness> <http://purl.org/dc/terms/description> "\"Initial thickness of the sheet.\" [DIN EN ISO 16808:2022-08, 4]"@en .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <http://www.w3.org/2004/02/skos/core#altlabel> "Dicke der Probe"@de .
+<https://w3id.org/steel/ProcessOntology/InitialThickness> <http://www.w3.org/2004/02/skos/core#altlabel> "Ausgangsblechdicke"@de .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <http://www.w3.org/2004/02/skos/core#altlabel> "Initial thickness of the sheet"@en .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <http://www.w3.org/2004/02/skos/core#preflabel> "InitialThickness"@en .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <http://www.w3.org/2004/02/skos/core#preflabel> "initial thickness"@en .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <http://www.w3.org/2004/02/skos/core#preflabel> "Anfangsdicke"@de .
-<https://w3id.org/steel/ProcessOntology/InitialThickness> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 4"@de .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 4"@en .
+<https://w3id.org/steel/ProcessOntology/InitialThickness> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 4"@de .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <https://w3id.org/steel/ProcessOntology/hasExampleData> "1.496" .
-<https://w3id.org/steel/ProcessOntology/InitialThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 4"@en .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 4"@de .
+<https://w3id.org/steel/ProcessOntology/InitialThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <https://w3id.org/steel/ProcessOntology/hasSymbol> "t_0"@en .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "t_0"@en .
 <https://w3id.org/steel/ProcessOntology/InitialThickness> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MilliM> .

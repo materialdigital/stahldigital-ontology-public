@@ -22,6 +22,9 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"percentage elongation after fracture" [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongationAfterFracture">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Bruchdehnung</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongationAfterFracture">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">percentage elongation after fracture</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongationAfterFracture">
@@ -43,10 +46,10 @@
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, 3.4.2</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongationAfterFracture">
-    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">37.8</ns0:hasExampleData>
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">35.6</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongationAfterFracture">
-    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">35.6</ns0:hasExampleData>
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">37.8</ns0:hasExampleData>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PercentageElongationAfterFracture">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">AFZ1-Fz-S1Q.xlsx</ns0:hasLabelSource>

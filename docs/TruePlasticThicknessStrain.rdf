@@ -13,10 +13,16 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"True plastic thickness strain received from post-processing the hydraulic bulge test." [DIN EN ISO 16808:2022-08, 12]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Plastischer Anteil des Umformgrads in Dickenrichtung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs." [DIN EN ISO 16808:2022-08, 12]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">True plastic thickness strain</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Plastischer Anteil des Umformgrads in Dickenrichtung</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">TruePlasticThicknessStrain</ns0:preflabel>

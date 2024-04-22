@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"phenomenon which is deemed to occur when total separation of the test piece occurs\" [DIN EN ISO 6892-1, 3.11]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Bruch",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "fracture",
         "lang" : "en",
         "type" : "literal"

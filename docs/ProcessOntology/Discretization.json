@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/Discretization" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Discretization or rather number of elements used for the microstructure model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Diskretisierung bzw. die Anzahl an Elementen f\u00FCr das Mikrostrukturmodell\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Discretization",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Diskritisierung",
+        "lang" : "de",
         "type" : "literal"
         }
       

@@ -16,6 +16,12 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Parameter, der in der Interaktionsmatrix die Fremdverfestigung (latent hardning) eines Gleitsystems innerhalb der gleichen Gleitsystem-Familie beschreibt" [General Knowledge]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LatentHardeningQ0">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">Off-diagonal elements in Interaction matrix q_ab for the same slip system family</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LatentHardeningQ0">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Latent Hardening Parameter</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LatentHardeningQ0">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">LatentHardening q0</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LatentHardeningQ0">

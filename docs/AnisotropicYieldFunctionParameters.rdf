@@ -13,10 +13,16 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AnisotropicYieldFunctionParameters">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Parameters of the anisotropic yield function considered" [General Knowledge]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AnisotropicYieldFunctionParameters">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Parameters des betrachteten anisotropen Fließortmodells" [General Knowledge]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AnisotropicYieldFunctionParameters">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Anisotropic yield function parameters</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AnisotropicYieldFunctionParameters">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Anisotrope Fließortparameter</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/AnisotropicYieldFunctionParameters">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">AnisotropicYieldFunctionParameters</ns0:preflabel>

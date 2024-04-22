@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"total length of test piece\" [DIN EN ISO 6892-1, Table 1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Gesamtl\u00E4nge der Probe",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "total length",
         "lang" : "en",
         "type" : "literal"

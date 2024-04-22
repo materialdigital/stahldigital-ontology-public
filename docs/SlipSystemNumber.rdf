@@ -16,7 +16,13 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Anzahl an Gleitsystemen, die im Kristallplastizitätsmodell verwendet wird" [General Knowledge]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SlipSystemNumber">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Number of slip systems used in the crystal plasticity constitutive model" [General Knowledge]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SlipSystemNumber">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Slip system number</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SlipSystemNumber">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Gleitsystemanzahl</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SlipSystemNumber">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">SlipSystemNumber</ns0:preflabel>

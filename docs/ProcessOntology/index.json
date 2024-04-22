@@ -15,7 +15,7 @@
       
       ],
     "http://purl.org/dc/terms/date" : [ {
-        "value" : "2024-04-22T11:24:05+00:00",
+        "value" : "2024-04-22T14:18:05+00:00",
         "type" : "literal"
         }
       
@@ -207,6 +207,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"File containing information regarding the amplitude used for micorstructure simulation\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -236,6 +242,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Amplitude file",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Amplituden-Datei",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -281,6 +293,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Anisotropic yield model used for the parameter identification\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -308,6 +326,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Anisotropes Flie\u00DFortmodell",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Anisotropic yield function",
         "lang" : "en",
         "type" : "literal"
@@ -355,6 +379,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Parameters of the anisotropic yield function considered\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -382,6 +412,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Anisotrope Flie\u00DFortparameter",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Anisotropic yield function parameters",
         "lang" : "en",
         "type" : "literal"
@@ -527,6 +563,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/BiaxialStress" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Biaxial stress received from post-processing the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Biaxiale Spannung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]",
         "lang" : "de",
         "type" : "literal"
@@ -560,6 +602,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Biaxial stress",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Biaxiale Spannung",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -758,6 +806,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"File containing information regarding the boundaries used for micorstructure simulation\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -785,6 +839,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Bounadry-Datei",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Boundary file",
         "lang" : "en",
         "type" : "literal"
@@ -1011,6 +1071,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Type of camera system used for the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -1040,6 +1106,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Camera System",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Kamerasystem",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -1549,6 +1621,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/CoefficientOfCorrelation" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"additional result of the linear regression which describes the quality of the stress-strain curve in the evaluation range\" [DIN EN ISO 6892-1, 3.15]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"zus\u00E4tzliches Ergebnis der linearen Regression, welches die Qualit\u00E4t der Spannung-Dehnung-Kurve in dem untersuchten Bereich beschreibt\" [DIN EN ISO 6892-1, 3.15]",
         "lang" : "de",
         "type" : "literal"
@@ -1580,6 +1658,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Bestimmtheitsma\u00DF",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "coefficient of correlation",
         "lang" : "en",
         "type" : "literal"
@@ -1945,6 +2029,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"machine for which the control and monitoring of the test, the measurements, and the data processing are undertaken by computer\" [DIN EN ISO 6892-1, 3.12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -1974,6 +2064,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "computer-controlled tensile testing machine",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "rechnergest\u00FCtzte Zugpr\u00FCfmaschine",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -2307,6 +2403,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"displacement of the crossheads per time\" [DIN EN ISO 6892-1, 3.7.3]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2341,6 +2443,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Pr\u00FCfgeschwindigkeit",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Traversengeschwindigkeit",
         "lang" : "de",
         "type" : "literal"
         }
@@ -2499,6 +2607,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Description of the crystal plasticity constitutive model used for the microstructure simulations\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2528,6 +2642,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Crystal plasticity constitutive model",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Kristalplastizit\u00E4tsmodell",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -2573,6 +2693,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"File containing parameters of the crystal plasticity constitutive model used\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2602,6 +2728,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Crystal plasticity parameter file",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Kristallplastizit\u00E4tsparameter-Datei",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -3101,6 +3233,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Messwerterfassungsfrequenz",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "data sampling frequency",
         "lang" : "en",
         "type" : "literal"
@@ -3138,6 +3276,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/DefaultValue" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"lower or upper value for stress respectively strain which is used for the description of the range where the modulus of elasticity is calculated\" [DIN EN ISO 6892-1, 3.14]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"unterer oder oberer Wert f\u00FCr die Spannung beziehungsweise Extensometer-Dehnung, der f\u00FCr die Beschreibung des Bereichs, in dem der Elastizit\u00E4tsmodul berechnet wird, benutzt wird\" [DIN EN ISO 6892-1, 3.14]",
         "lang" : "de",
         "type" : "literal"
@@ -3169,6 +3313,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Vorgabewert",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "default value",
         "lang" : "en",
         "type" : "literal"
@@ -3624,6 +3774,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/Discretization" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Discretization or rather number of elements used for the microstructure model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Diskretisierung bzw. die Anzahl an Elementen f\u00FCr das Mikrostrukturmodell\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -3657,6 +3813,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Discretization",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Diskritisierung",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -4144,6 +4306,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Dynamometerquerschnitt",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "dynamometer area",
         "lang" : "en",
         "type" : "literal"
@@ -4217,6 +4385,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Name of the EBSD-File used for the post-processing.\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -4246,6 +4420,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "EBSD file name",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "EBSD-Dateinamen",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -4291,6 +4471,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Effective strain data of the microstructure simulation caried out\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -4320,6 +4506,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Effective strain",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Effektive Dehnung",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -4377,6 +4569,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Effective stress data of the microstructure simulation caried out\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -4406,6 +4604,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Effective stress",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Effektive Spannung",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -4459,6 +4663,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/ElasticConstantC11" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Elastic constant to describe the anisotropic elastic material behaviour\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Elastische Konstant, um das richtungsabh\u00E4ngige elastische Materialverhalten zu beschreiben\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -4492,6 +4702,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Elastic constant C11",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Elastische Konstante C11",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -4552,6 +4768,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/ElasticConstantC12" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Elastic constant to describe the anisotropic elastic material behaviour\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Elastische Konstant, um das richtungsabh\u00E4ngige elastische Materialverhalten zu beschreiben\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -4585,6 +4807,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Elastic constant C12",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Elastische Konstante C12",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -4645,6 +4873,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/ElasticConstantC44" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Elastic constant to describe the anisotropic elastic material behaviour\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Elastische Konstant, um das richtungsabh\u00E4ngige elastische Materialverhalten zu beschreiben\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -4678,6 +4912,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Elastic constant C44",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Elastische Konstante C44",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -5056,6 +5296,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Verl\u00E4ngerung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "elongation",
         "lang" : "en",
         "type" : "literal"
@@ -5162,6 +5408,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "engineering strain ",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "technische Dehnung",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -5280,6 +5532,12 @@
       {
         "value" : "engineering stress",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "technische Spannung",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -5410,6 +5668,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"estimated strain rate over the parallel length\" [DIN EN ISO 6892-1, 3.7.2]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -5437,6 +5701,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "abgesch\u00E4tzte Dehngeschwindigkeit \u00FCber die parallele L\u00E4nge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "estimated strain rate over the parallel length",
         "lang" : "en",
         "type" : "literal"
@@ -5510,6 +5780,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"One of three euler angles that are introduced by Leonhard Euler to describe the orientation of a rigid body with respect to a fixed coordinate system\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -5537,6 +5813,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Erster Euler Winkel",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "First euler angle",
         "lang" : "en",
         "type" : "literal"
@@ -5598,6 +5880,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"One of three euler angles that are introduced by Leonhard Euler to describe the orientation of a rigid body with respect to a fixed coordinate system\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -5627,6 +5915,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Second euler angle",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Zweiter Euler Winkel",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -5686,6 +5980,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"One of three euler angles that are introduced by Leonhard Euler to describe the orientation of a rigid body with respect to a fixed coordinate system\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -5713,6 +6013,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Dritter Euler Winkel",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Third euler angle",
         "lang" : "en",
         "type" : "literal"
@@ -5770,6 +6076,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/EulerAngleConvention" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Convention used to describe the Euler angles, e.g. Bunge\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Verwendte Konvention zur beschreibung der Euler Winkel\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -5803,6 +6115,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Euler angle convention",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Konvention der Euler Winkel",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -5848,6 +6166,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Evaluation method used for identification of the curvature and the average strain.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -5875,6 +6199,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Bewertungsverfahren",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Evaluation method",
         "lang" : "en",
         "type" : "literal"
@@ -6193,6 +6523,12 @@
       ,
       {
         "value" : "Standardweg",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Verl\u00E4ngerung (der Extensometer-Messl\u00E4nge)",
         "lang" : "de",
         "type" : "literal"
         }
@@ -6622,6 +6958,12 @@
         }
       ,
       {
+        "value" : "Extensometer-Messl\u00E4nge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "L0",
         "lang" : "en",
         "type" : "literal"
@@ -6695,12 +7037,6 @@
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : " ",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "AFZ1-Fz-S1Q.xlsx",
         "lang" : "de",
         "type" : "literal"
@@ -6785,6 +7121,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/FEMSolver" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"FEM Solver used for carring out the microstructure simulations\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"FEM Solver, die f\u00FCr die Durchf\u00FChrung der Finite-Elemente-Simulationen verwendet wurde\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -6816,6 +7158,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "FEM Solver",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "FEM Solver",
         "lang" : "en",
         "type" : "literal"
@@ -7839,6 +8187,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Messl\u00E4nge nach dem Bruch",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "final gauge length after fracture",
         "lang" : "en",
         "type" : "literal"
@@ -8089,6 +8443,12 @@
         }
       ,
       {
+        "value" : "Kraft",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Standardkraft",
         "lang" : "de",
         "type" : "literal"
@@ -8320,6 +8680,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"\nThe force-measuring system of the testing machine shall be in accordance with ISO 7500-1, class 1,\nor better.\" [DIN EN ISO 6892-1, 9]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Die Kraftmesseinrichtung der Zugpr\u00FCfmaschine muss im relevanten Bereich mindestens der Klasse 1 nach ISO 7500-1 entsprechen.\" [DIN EN ISO 6892-1]",
         "lang" : "de",
         "type" : "literal"
@@ -8328,6 +8694,12 @@
       {
         "value" : "\"Genauigkeit der Pr\u00FCfeinrichtungen: Die Kraftmesseinrichtung der Pr\u00FCfmaschine muss mindestens der Klasse 1 nach ISO 7500-1 entsprechen.\" [DIN EN ISO 6892-1, 9]",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\"The force-measuring system of the testing machine shall be in accordance with ISO 7500-1, class 1, in the relevant range\" [DIN EN ISO 6892-1, G.3.1.1]",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -8383,6 +8755,12 @@
       ,
       {
         "value" : "Kraftmesseinrichtung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Kraftmesseinrichtungen",
         "lang" : "de",
         "type" : "literal"
         }
@@ -8721,6 +9099,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"phenomenon which is deemed to occur when total separation of the test piece occurs\" [DIN EN ISO 6892-1, 3.11]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -8748,6 +9132,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Bruch",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "fracture",
         "lang" : "en",
         "type" : "literal"
@@ -9071,6 +9461,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Messl\u00E4nge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "gauge length",
         "lang" : "en",
         "type" : "literal"
@@ -9310,6 +9706,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Number of grains used for the microstructure model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -9339,6 +9741,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Grain Number",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Kornanzahl",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -9454,6 +9862,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Type of grid used for DIC measurements.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -9481,6 +9895,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Gitter",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Grid",
         "lang" : "en",
         "type" : "literal"
@@ -9915,6 +10335,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Tabular stress and strain data of the hardening law on the slip plane\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -9944,6 +10370,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Hardening curve",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Verfestigungskurve",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -10063,6 +10495,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/HardeningLaw" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Hardening law on slip plane used for the crystal plasticity model of the microstructure model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Verfestigungsgesetz auf der Gleitebene, das f\u00FCr das Kristalplastizit\u00E4tsmodell des Mikrostrukturmodells verwendet wird\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -10096,6 +10534,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Hardening law",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Verfestigungsgesetz",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -10153,6 +10597,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/HardeningParameterTau0" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Hardening parameter used in Voce-type hardening law of the crystal plasticity constitutive model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Verfestigungsparameter, f\u00FCr das Voce-typ Verfestigungsmodell, welches im Kristallplastizit\u00E4tsmodell verwendet wird\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -10186,6 +10636,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Hardening parameter tau0",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Verfestigungsparameter tau0",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -10246,6 +10702,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/HardeningParameterTau1" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Hardening parameter used in Voce-type hardening law of the crystal plasticity constitutive model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Verfestigungsparameter, f\u00FCr das Voce-typ Verfestigungsmodell, welches im Kristallplastizit\u00E4tsmodell verwendet wird\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -10279,6 +10741,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Hardening parameter tau1",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Verfestigungsparameter tau1",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -10339,6 +10807,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Hardening parameter used in Voce-type hardening law of the crystal plasticity constitutive model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Verfestigungsparameter, f\u00FCr das Voce-typ Verfestigungsmodell, welches im Kristallplastizit\u00E4tsmodell verwendet wird\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -10372,6 +10846,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Hardening parameter theta0",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Verfestigungsparameter theta0",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -10432,6 +10912,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/HardeningParameterTheta1" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Hardening parameter used in Voce-type hardening law of the crystal plasticity constitutive model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Verfestigungsparameter, f\u00FCr das Voce-typ Verfestigungsmodell, welches im Kristallplastizit\u00E4tsmodell verwendet wird\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -10465,6 +10951,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Hardening parameter theta1",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Verfestigungsparameter theta1",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -10861,6 +11353,12 @@
         }
       ,
       {
+        "value" : "P\u00FCfgeschwindigkeit",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "initial displacement rate",
         "lang" : "en",
         "type" : "literal"
@@ -11156,6 +11654,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Initial thickness of the sheet.\" [DIN EN ISO 16808:2022-08, 4]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -11195,6 +11699,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Ausgangsblechdicke",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Dicke der Probe",
         "lang" : "de",
         "type" : "literal"
@@ -11294,6 +11804,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/InnerDiameterBlankHolder" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Diameter of the blank holder (inner) of the testing machine.\" [DIN EN ISO 16808:2022-08, 4]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Durchmesser des Niederhalters (innen) der Pr\u00FCfeinrichtung.\" [DIN EN ISO 16808:2022-08, 4]",
         "lang" : "de",
         "type" : "literal"
@@ -11327,6 +11843,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Diameter of the blank holder (inner)",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Durchmesser des Niederhalters (innen)",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -11394,6 +11916,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/InnerDiameterDie" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Diameter of the die (inner) of the testing machine.\" [DIN EN ISO 16808:2022-08, 4]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Matrizendurchmesser (innen) der Pr\u00FCfeinrichtung.\" [DIN EN ISO 16808:2022-08, 4]",
         "lang" : "de",
         "type" : "literal"
@@ -11427,6 +11955,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Diameter of the die (inner)",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Matrizendurchmesser (innen)",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -11494,6 +12028,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/InteractionMatrix" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Interaction matrix used in the crystal plasticity constitutive model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Interaktionsmatrix, die im Kristallplastizit\u00E4tsmodell verwendet wird\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -11527,6 +12067,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Interaction matrix",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Interaktionsmatrix",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -11914,6 +12460,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/Laboratory" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Laboratory that measured the bulge test values\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Pr\u00FCflabor, das die Werte des hydraulischen Tiefungsversuchs gemessen hat.\" [DIN EN ISO 16808:2022-08, 12]",
         "lang" : "de",
         "type" : "literal"
@@ -11947,6 +12499,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Laboratory",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Pr\u00FCflabor",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -11992,6 +12550,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "Off-diagonal elements in Interaction matrix q_ab for the same slip system family",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -12019,6 +12583,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Latent Hardening Parameter",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "LatentHardening q0",
         "lang" : "en",
         "type" : "literal"
@@ -12079,6 +12649,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "Off-diagonal elements in Interaction matrix q_ab for different slip system family",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -12106,6 +12682,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Latent Hardening Parameter q01",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "LatentHardening q1",
         "lang" : "en",
         "type" : "literal"
@@ -12162,6 +12744,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/LatticeStructure" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Crystall structure of the material considered\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Kristallstruktur des Werkstoffs\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -12193,6 +12781,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Kristallstruktur",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Lattice Structure",
         "lang" : "en",
         "type" : "literal"
@@ -12342,6 +12936,12 @@
       {
         "value" : "lower yield strength",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "untere Streckgrenze",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -13211,6 +13811,18 @@
         }
       ,
       {
+        "value" : "\"Identification of material.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\"Identification of material.\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"The material used in the experiment.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
@@ -13268,6 +13880,12 @@
       ,
       {
         "value" : "Werkstoff",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Werkstoffbezeichnung",
         "lang" : "de",
         "type" : "literal"
         }
@@ -13439,6 +14057,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/MaterialCard" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"A material card contains material data or parameter to describe the material bahaviour in a simulation. \" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Eine Materialkarten beschreibt das Materialverhalten eines Werkstoffes in Form von Daten und Parametern\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -13520,6 +14144,12 @@
       ,
       {
         "value" : "MaterialKarte",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Materialkarte",
         "lang" : "de",
         "type" : "literal"
         }
@@ -14011,6 +14641,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"<materials displaying discontinuous yielding> highest force that the test piece withstands during the test after the beginning of work-hardening\" [DIN EN ISO 6892-1, 3.9.2]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -14038,6 +14674,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "H\u00F6chstkraft",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "maximum force \"discontinous yielding\"",
         "lang" : "en",
         "type" : "literal"
@@ -14111,6 +14753,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"<materials displaying no discontinuous yielding> highest force that the test piece withstands during the test\" [DIN EN ISO 6892-1, 3.9.1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -14138,6 +14786,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "H\u00F6chstkraft",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "maximum force \"no discontinous yielding\"",
         "lang" : "en",
         "type" : "literal"
@@ -14332,6 +14986,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "mittlere technische Dehnrate",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -14476,6 +15136,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "mean plastic strain rate",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "mittlere plastische Dehnrate",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -14907,6 +15573,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"input-file describing the microstructure model for chosen solver\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -14936,6 +15608,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Microstructure model",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Mikrostructurmodel",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -15155,6 +15833,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"minimum cross-sectional area after fracture\" [DIN EN ISO 6892-1, Table 1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -15184,6 +15868,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "SU",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "kleinster Querschnitt nach dem Bruch",
+        "lang" : "de",
         "type" : "literal"
         }
       ,
@@ -15640,6 +16330,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"quotient of change of stress \u0394R and change of percentage extension \u0394e in the range of evaluation, multiplied by 100 %\" [DIN EN ISO 6892-1, 3.13]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -15685,6 +16381,12 @@
       ,
       {
         "value" : "E-Modul",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Elastizit\u00E4tsmodul",
         "lang" : "de",
         "type" : "literal"
         }
@@ -15962,6 +16664,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "nominelle Dehnrate",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -16225,6 +16933,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Number of grains represented by the euler angles.\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -16252,6 +16966,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Kornanzahl",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Number of grains",
         "lang" : "en",
         "type" : "literal"
@@ -16313,6 +17033,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Number of virtual experiments carried out\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -16340,6 +17066,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Anzahl der virtuellen Versuche",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Number of virtual experiments",
         "lang" : "en",
         "type" : "literal"
@@ -16584,6 +17316,12 @@
         }
       ,
       {
+        "value" : "\"original cross-sectional area of the parallel length\" [DIN EN ISO 6892-1, Table 1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"original cross-sectional area of the parallel length\" [ISO 26203-2, 2011, 4]",
         "lang" : "en",
         "type" : "literal"
@@ -16621,6 +17359,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Anfangsquerschnitt",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "S0",
         "lang" : "en",
         "type" : "literal"
@@ -16932,6 +17676,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"original diameter of the parallel length of a circular test piece, or diameter of round wire or internal diameter of a tube\" [DIN EN ISO 6892-1, Table 1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -16959,6 +17709,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "(Anfangs-)Probendurchmesser in der parallelen L\u00E4nge einer Rundprobe oder Durchmesser eines Drahtes mit Kreisquerschnitt oder Innendurchmesser eines Rohres",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "original diameter",
         "lang" : "en",
         "type" : "literal"
@@ -17040,6 +17796,12 @@
         }
       ,
       {
+        "value" : "\"length between gauge length (3.1) marks on the test piece measured at room temperature before the testlength between gauge length (3.1) marks on the test piece measured at room temperature before the test\" [DIN EN ISO 6892-1, 3.1.1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"length between gauge length marks on the test piece measured at room temperature before the test\" [DIN EN ISO 6892-1, 3.1.1]",
         "lang" : "en",
         "type" : "literal"
@@ -17078,6 +17840,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Anfangsmessl\u00E4nge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "L0",
         "lang" : "en",
         "type" : "literal"
@@ -17254,6 +18022,12 @@
       ,
       {
         "value" : "\"The thickness of the specimen.\" [Authors]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\"original thickness of a flat test piece or wall thickness of a tube\" [DIN EN ISO 6892-1, Table 1]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -17475,6 +18249,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"original width of the parallel length of a flat test piece or average width of the longi\ntudinal strip taken from a tube or width of flat wire\" [DIN EN ISO 6892-1, Table 1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -17515,6 +18295,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "(Anfangs-)Breite einer Flachprobe in der parallelen L\u00E4nge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Original width",
         "lang" : "en",
         "type" : "literal"
@@ -17764,6 +18550,12 @@
         }
       ,
       {
+        "value" : "parallele L\u00E4nge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "parallele Messl\u00E4nge Lc",
         "lang" : "de",
         "type" : "literal"
@@ -17888,6 +18680,12 @@
     "http://purl.org/dc/terms/description" : [ {
         "value" : "\"Verl\u00E4ngerung (3.3), angegeben in Prozent, bezogen auf die Anfangsmessl\u00E4nge (3.1.1)\" [DIN EN ISO 6892-1, 3.4]",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\"elongation expressed as a percentage of the original gauge length\" [DIN EN ISO 6892-1, 3.4]",
+        "lang" : "en",
         "type" : "literal"
         }
       
@@ -18045,6 +18843,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "A",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Bruchdehnung",
+        "lang" : "de",
         "type" : "literal"
         }
       ,
@@ -18336,6 +19140,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"increase in the original gauge length (3.1.1) of a test piece after removal of a specified stress, expressed as a percentage of the original gauge length\" [DIN EN ISO 6892-1, 3.4.1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -18363,6 +19173,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "bleibende Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "percentage permanent elongation",
         "lang" : "en",
         "type" : "literal"
@@ -18424,6 +19240,12 @@
         }
       ,
       {
+        "value" : "\"increase in the extensometer gauge length, after removal of a specified stress from the test piece, expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.2]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"plastic engineering strain\" [Authors]",
         "lang" : "en",
         "type" : "literal"
@@ -18455,6 +19277,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "bleibende Extensometer-Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "e-plast",
         "lang" : "de",
         "type" : "literal"
@@ -18580,6 +19408,12 @@
         }
       ,
       {
+        "value" : "\"plastic extension at maximum force, expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.5]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"plastische Verl\u00E4ngerung der Extensometer-Messl\u00E4nge bei H\u00F6chstkraft, angegeben in Prozent\" [DIN EN ISO 6892-1, 3.6.5]",
         "lang" : "de",
         "type" : "literal"
@@ -18643,6 +19477,12 @@
       {
         "value" : "percentage plastic extension at maximum force",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "plastische Extensometer-Dehnung bei H\u00F6chstkraft",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -18787,6 +19627,12 @@
       ,
       {
         "value" : "\"maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area\" [Authors]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\"maximum change in cross-sectional area which has occurred during the test\" [DIN EN ISO 6892-1, 3.8]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -18954,6 +19800,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"total extension (elastic extension plus plastic extension) at the moment of fracture, expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.6]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -18981,6 +19833,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "gesamte Extensometer-Dehnung beim Bruch",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "percentage total extension at fracture",
         "lang" : "en",
         "type" : "literal"
@@ -19066,6 +19924,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"total extension (elastic extension plus plastic extension) at maximum force, expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.4]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -19093,6 +19957,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "gesamte Extensometer-Dehnung bei H\u00F6chstkraft",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "percentage total extension at maximum force",
         "lang" : "en",
         "type" : "literal"
@@ -19172,6 +20042,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"in discontinuous yielding materials, the extension between the start of yielding and the start of uniform work-hardening, expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.3]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -19199,6 +20075,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Streckgrenzen-Extensometer-Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "percentage yield point extension",
         "lang" : "en",
         "type" : "literal"
@@ -19272,6 +20154,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"stress at which, after removal of force, a specified permanent elongation or extension, expressed respectively as a percentage of original gauge length, or extensometer gauge length, has not been exceeded\" [DIN EN ISO 6892-1, 3.10.5]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -19299,6 +20187,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Grenzwert der Spannung f\u00FCr eine vorgegebene bleibende Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "permanent set strength",
         "lang" : "en",
         "type" : "literal"
@@ -19449,6 +20343,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Speed of the piston used in the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -19476,6 +20376,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Kolbengeschwindigkeit",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Piston Speed",
         "lang" : "en",
         "type" : "literal"
@@ -19588,6 +20494,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "plastic engineering strain",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "plastische technische Dehnung",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -19946,6 +20858,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/PostProcessingSoftware" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Software used for post-processing.\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Software, die f\u00FCr die Datenverarbeitung verwendet wurde.\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -19977,6 +20895,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Auswerte Software",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Post-processing software",
         "lang" : "en",
         "type" : "literal"
@@ -20063,6 +20987,12 @@
   "https://w3id.org/steel/ProcessOntology/PreliminaryForce" : {
     "http://purl.org/dc/terms/description" : [ {
         "value" : "\"\"Vorkraft\" in DIN EN ISO 6892-1\" [Authors]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\"In order to ensure the alignment of the test piece and grip arrangement, a preliminary force may be applied provided it does not exceed a value corresponding to 5 % of the specified or expected yield strength\" [DIN EN ISO 6892-1, 10.2]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -20233,6 +21163,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Pressure measred in the chamber.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -20261,6 +21197,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Bulge Druck",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Druck im Werkzeug",
         "lang" : "de",
         "type" : "literal"
         }
@@ -20774,6 +21716,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Dehngrenze bei plastischer Extensometer-Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "proof strength, plastic extension",
         "lang" : "en",
         "type" : "literal"
@@ -20853,6 +21801,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"stress at which total extension (elastic extension plus plastic extension) is equal to a specified percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.10.4]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -20880,6 +21834,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Dehngrenze bei gesamter Extensometer-Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "proof strength, total extension",
         "lang" : "en",
         "type" : "literal"
@@ -21887,6 +22847,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Radius of the curvature in the dome.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -21914,6 +22880,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Kr\u00FCmmungsradius",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Radius of curvature",
         "lang" : "en",
         "type" : "literal"
@@ -21987,6 +22959,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Radius of the die (inner) of the testing machine. \" [DIN EN ISO 16808:2022-08, 4]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -22014,6 +22992,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Matrizenkantenradius (innen)",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Radius of the die (inner)",
         "lang" : "en",
         "type" : "literal"
@@ -22083,6 +23067,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Rate sensivity of slip used in the crystal plasticity constitutive model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Scherratensensitivit\u00E4t, die im Kristallplastizit\u00E4tsmodell verwendet wurde\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -22116,6 +23106,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Rate sensitivity of slip ",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Scherratensensititvit\u00E4t",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -22285,6 +23281,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/ReferenceShearRate" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Reference shear rate used in the crystal plasticity constitutive model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Referenzscherrate, die im Kristallplastizit\u00E4tsmodell verwendet wurde\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -22330,6 +23332,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Reference shear rate",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Referenzscherrate",
+        "lang" : "de",
         "type" : "literal"
         }
       ,
@@ -22495,6 +23503,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"quotient of the standard deviation of the slope and the slope in the evaluation range, multiplied by 100 %\" [DIN EN ISO 6892-1, 3.17]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -22522,6 +23536,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "relative Standardabweichung der Steigung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "relative standard deviation of the slope",
         "lang" : "en",
         "type" : "literal"
@@ -22711,6 +23731,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"File containing the results of a single virtual experiment\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -22738,6 +23764,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Ergebnis-Datei",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Results file",
         "lang" : "en",
         "type" : "literal"
@@ -23075,12 +24107,6 @@
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : " ",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "AFZ-BU-S1.TXT",
         "lang" : "de",
         "type" : "literal"
@@ -24171,6 +25197,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Number of slip systems used in the crystal plasticity constitutive model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -24198,6 +25230,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Gleitsystemanzahl",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Slip system number",
         "lang" : "en",
         "type" : "literal"
@@ -24278,6 +25316,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Steigung des elastischen Teils der Spannungs-Dehnungs-Kurve",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "slope of the elastic part of the stress-strain curve",
         "lang" : "en",
         "type" : "literal"
@@ -24347,6 +25391,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/Software" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Software used for measurement and post-processing.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Software, die f\u00FCr die Versuchsdurchf\u00FChrung und Datenverarbeitung verwendet wurde.\" [DIN EN ISO 16808:2022-08, 12]",
         "lang" : "de",
         "type" : "literal"
@@ -24391,6 +25441,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Programm",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Software",
         "lang" : "de",
         "type" : "literal"
         }
@@ -24577,6 +25633,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Specific plastic work data of the microstructure simulation caried out\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -24606,6 +25668,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Specific plastic work",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Spezifische plastische Arbeit",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -24647,6 +25715,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Specific plastic work used for idenfication of a point on the yield surface\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Spezifische plastische Arbeit, die zur Bestimmung des Punkts auf dem Flie\u00DFort verwendet wurde\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -24680,6 +25754,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Specific plastic work value",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Wert der spezifische plastische Arbeit",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -24893,6 +25973,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"additional result of the linear regression which describes the difference of the stress values from the best fit line for the given extension values in the evaluation range\" [DIN EN ISO 6892-1, 3.16]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"zus\u00E4tzliches Ergebnis der linearen Regression, welches den Unterschied der Spannungswerte von der Ausgleichsgeraden f\u00FCr die gegebenen Extensometer-Dehnungswerte in dem untersuchten Bereich beschreibt\" [DIN EN ISO 6892-1, 3.16]",
         "lang" : "de",
         "type" : "literal"
@@ -24924,6 +26010,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Standardabweichung der Steigung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "standard deviation of the slope",
         "lang" : "en",
         "type" : "literal"
@@ -25216,6 +26308,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Extensometer-Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "percentage extension \u201Cstrain\u201D",
         "lang" : "en",
         "type" : "literal"
@@ -25303,8 +26401,20 @@
         }
       ,
       {
+        "value" : "\"Strain rate used for the microstructure simulation\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Zunahme der mit einem Extensometer in der Extensometer-Messl\u00E4nge gemessenen Dehnung je Zeiteinheit\" [DIN EN ISO 6892-1, 3.7.1]",
         "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\"increase of strain, measured with an extensometer, in extensometer gauge length\" [DIN EN ISO 6892-1, 3.7.1]",
+        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -25368,6 +26478,18 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Dehngeschwindigkeit",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Dehnrate",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Strain Rate",
         "lang" : "en",
         "type" : "literal"
@@ -25783,6 +26905,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"at any moment during the test, force divided by the original cross-sectional area, So, of the test piece\" [DIN EN ISO 6892-1, 3.10]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -25816,6 +26944,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Spannung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "stress",
         "lang" : "en",
         "type" : "literal"
@@ -25913,6 +27047,12 @@
         }
       ,
       {
+        "value" : "\"increase of stress per time\" [DIN EN ISO 6892-1, 3.7.4]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"stress rate\" [Authors]",
         "lang" : "en",
         "type" : "literal"
@@ -25956,6 +27096,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Geschw.",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Spannungsgeschwindigkeit",
         "lang" : "de",
         "type" : "literal"
         }
@@ -26449,6 +27595,12 @@
         }
       ,
       {
+        "value" : "Zugfestigkeit",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Zugfestigkeit Rm",
         "lang" : "de",
         "type" : "literal"
@@ -26634,6 +27786,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"The machine should be designed in order to provide outputs giving analogue signals untreated by the software\" [DIN EN ISO 6892-1, A.2.1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -26674,6 +27832,12 @@
       ,
       {
         "value" : "Pr\u00FCfmaschine",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Zugpr\u00FCfmaschine",
         "lang" : "de",
         "type" : "literal"
         }
@@ -26935,6 +28099,12 @@
         }
       ,
       {
+        "value" : "Probe",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "sample",
         "lang" : "en",
         "type" : "literal"
@@ -27148,12 +28318,6 @@
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : " ",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "AFZ1-Fz-S1Q.xlsx",
         "lang" : "de",
         "type" : "literal"
@@ -27372,6 +28536,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Pr\u00FCfnorm",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Test Standard",
         "lang" : "de",
         "type" : "literal"
         }
@@ -27783,6 +28953,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Versuchszeit",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "test time",
         "lang" : "en",
         "type" : "literal"
@@ -27917,12 +29093,6 @@
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : " ",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "AFZ1-Fz-S1Q.xlsx",
         "lang" : "de",
         "type" : "literal"
@@ -28233,6 +29403,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Pr\u00FCfgeschwindigkeit",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Testing rate",
         "lang" : "en",
         "type" : "literal"
@@ -28280,6 +29456,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Texture of the microstructure model defined by three euler angles\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -28314,6 +29496,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Oberfl\u00E4chenbeschaffenheit",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Textur",
         "lang" : "de",
         "type" : "literal"
         }
@@ -28525,6 +29713,12 @@
   "https://w3id.org/steel/ProcessOntology/Time" : {
     "http://purl.org/dc/terms/description" : [ {
         "value" : "\"0.694\" [The time when the data point is recorded in relation to the start. ]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\"Recorded time during the hydraulic bulge test.\" [Authors]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -28843,6 +30037,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "zeitabh\u00E4ngige technische Dehnrate",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -29137,17 +30337,17 @@
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
-        "value" : "10-11-16",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "11.03.2016",
         "type" : "literal"
         }
       ,
       {
         "value" : "13/06/2016",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "42654",
         "type" : "literal"
         }
       ,
@@ -29288,6 +30488,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "gesamte technische Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "total engineering strain ",
         "lang" : "en",
         "type" : "literal"
@@ -29361,6 +30567,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"total length of test piece\" [DIN EN ISO 6892-1, Table 1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -29388,6 +30600,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Gesamtl\u00E4nge der Probe",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "total length",
         "lang" : "en",
         "type" : "literal"
@@ -29496,6 +30714,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "transition radius",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\u00DCbergangsradius",
+        "lang" : "de",
         "type" : "literal"
         }
       
@@ -29747,6 +30971,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "wahre plastische Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -29906,6 +31136,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"True plastic thickness strain received from post-processing the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -29933,6 +31169,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Plastischer Anteil des Umformgrads in Dickenrichtung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "True plastic thickness strain",
         "lang" : "en",
         "type" : "literal"
@@ -30179,6 +31421,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "wahre Spannung",
+        "lang" : "de",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -30389,6 +31637,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/TrueThicknessStrain" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"True thickness strain received from post-processing the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Umformgrad in Dickenrichtung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]",
         "lang" : "de",
         "type" : "literal"
@@ -30428,6 +31682,12 @@
       {
         "value" : "True thickness strain",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Umformgrad in Dickenrichtung",
+        "lang" : "de",
         "type" : "literal"
         }
       ,
@@ -30544,6 +31804,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "gesamte wahre Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "true total strain ",
         "lang" : "en",
         "type" : "literal"
@@ -30864,6 +32130,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"maximum value of stress prior to the first decrease in force\" [DIN EN ISO 6892-1, 3.10.2.1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -30891,6 +32163,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "obere Streckgrenze",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "upper yield strength",
         "lang" : "en",
         "type" : "literal"
@@ -30960,6 +32238,12 @@
   ,
   "https://w3id.org/steel/ProcessOntology/User" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Person performed the post-processing of the EBSD data.\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Person, die die EBSD-Messung ausgewertet hat.\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -30991,6 +32275,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Benutzer",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "User",
         "lang" : "en",
         "type" : "literal"
@@ -31797,6 +33087,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"when the metallic material exhibits a yield phenomenon, stress corresponding to the point reached during the test at which plastic deformation occurs without any increase in the force\" [DIN EN ISO 6892-1, 3.10.2]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -31824,6 +33120,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Streckgrenze",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "yield strength",
         "lang" : "en",
         "type" : "literal"

@@ -1,8 +1,10 @@
 <https://w3id.org/steel/ProcessOntology/OriginalDiameter> <http://purl.org/dc/terms/description> "\"(Anfangs-)Probendurchmesser in der parallelen L\u00E4nge einer Rundprobe oder Durchmesser eines Drahtes mit Kreisquerschnitt oder Innendurchmesser eines Rohres\" [DIN EN ISO 6892-1, Tabelle 1]"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalDiameter> <http://purl.org/dc/terms/description> "\"original diameter of the parallel length of a circular test piece, or diameter of round wire or internal diameter of a tube\" [DIN EN ISO 6892-1, Table 1]"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalDiameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/OriginalDiameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/OriginalDiameter> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalDiameter"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalDiameter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/OriginalDiameter> <http://www.w3.org/2004/02/skos/core#altlabel> "(Anfangs-)Probendurchmesser in der parallelen L\u00E4nge einer Rundprobe oder Durchmesser eines Drahtes mit Kreisquerschnitt oder Innendurchmesser eines Rohres"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalDiameter> <http://www.w3.org/2004/02/skos/core#altlabel> "original diameter"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalDiameter> <http://www.w3.org/2004/02/skos/core#preflabel> "OriginalDiameter"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalDiameter> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, Tabelle 1"@de .

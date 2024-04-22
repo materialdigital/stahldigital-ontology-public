@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/PostProcessingSoftware" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Software used for post-processing.\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Software, die f\u00FCr die Datenverarbeitung verwendet wurde.\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Auswerte Software",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Post-processing software",
         "lang" : "en",
         "type" : "literal"

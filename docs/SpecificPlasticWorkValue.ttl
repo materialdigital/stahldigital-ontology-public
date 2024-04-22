@@ -5,6 +5,8 @@
 <https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue> <http://www.w3.org/2000/01/rdf-schema#label> "SpecificPlasticWorkValue"@en .
 <https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue> <http://purl.org/dc/terms/description> "\"Spezifische plastische Arbeit, die zur Bestimmung des Punkts auf dem Fließort verwendet wurde\" [General Knowledge]"@de .
+<https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue> <http://purl.org/dc/terms/description> "\"Specific plastic work used for idenfication of a point on the yield surface\" [General Knowledge]"@en .
+<https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue> <http://www.w3.org/2004/02/skos/core#altlabel> "Wert der spezifische plastische Arbeit"@de .
 <https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue> <http://www.w3.org/2004/02/skos/core#altlabel> "Specific plastic work value"@en .
 <https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue> <http://www.w3.org/2004/02/skos/core#preflabel> "SpecificPlasticWorkValue"@en .
 <https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@en .

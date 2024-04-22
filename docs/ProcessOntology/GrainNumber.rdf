@@ -16,6 +16,12 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Anzahl der Körner im Mikrostrukturmodell" [General Knowledge]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GrainNumber">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Number of grains used for the microstructure model" [General Knowledge]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GrainNumber">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Kornanzahl</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GrainNumber">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Grain Number</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GrainNumber">

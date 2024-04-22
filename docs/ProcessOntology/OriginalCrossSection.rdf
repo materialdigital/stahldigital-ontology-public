@@ -19,7 +19,13 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Anfangsquerschnitt innerhalb der parallelen Länge" [DIN EN ISO 6892-1, Tabelle 1]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"original cross-sectional area of the parallel length" [DIN EN ISO 6892-1, Table 1]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"original crosssection area of the parallel length" [Authors]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Anfangsquerschnitt</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalCrossSection">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">original cross-sectional area</ns0:altlabel>

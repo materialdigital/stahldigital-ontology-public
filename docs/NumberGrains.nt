@@ -1,8 +1,10 @@
 <https://w3id.org/steel/ProcessOntology/NumberGrains> <http://purl.org/dc/terms/description> "\"Anzahl an K\u00F6rnern, die mit Hilfe der Euler-Winkel representiert werden.\" [General Knowledge]"@de .
+<https://w3id.org/steel/ProcessOntology/NumberGrains> <http://purl.org/dc/terms/description> "\"Number of grains represented by the euler angles.\" [General Knowledge]"@en .
 <https://w3id.org/steel/ProcessOntology/NumberGrains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/NumberGrains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/NumberGrains> <http://www.w3.org/2000/01/rdf-schema#label> "NumberGrains"@en .
 <https://w3id.org/steel/ProcessOntology/NumberGrains> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/NumberGrains> <http://www.w3.org/2004/02/skos/core#altlabel> "Kornanzahl"@de .
 <https://w3id.org/steel/ProcessOntology/NumberGrains> <http://www.w3.org/2004/02/skos/core#altlabel> "Number of grains"@en .
 <https://w3id.org/steel/ProcessOntology/NumberGrains> <http://www.w3.org/2004/02/skos/core#preflabel> "NumberGrains"@en .
 <https://w3id.org/steel/ProcessOntology/NumberGrains> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@de .

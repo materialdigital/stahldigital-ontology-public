@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/User" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Person performed the post-processing of the EBSD data.\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Person, die die EBSD-Messung ausgewertet hat.\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Benutzer",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "User",
         "lang" : "en",
         "type" : "literal"

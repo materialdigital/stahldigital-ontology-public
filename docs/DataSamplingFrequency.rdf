@@ -16,6 +16,9 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Die Frequenz-Bandweite jedes Messkanals sowie die Messwerterfassungsfrequenz sollten ausreichend hoch sein, damit die zu bestimmenden Werkstoffkenngrößen aufgezeichnet werden können. So kann z. B. bei Ermittlung von ReH die Gleichung (A.1) zur Bestimmung der in 1/Sekunde angegebenen Mindestmesswert-erfassungsgrenze fmin verwendet werden:" [DIN EN ISO 6892-1]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DataSamplingFrequency">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Messwerterfassungsfrequenz</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DataSamplingFrequency">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">data sampling frequency</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DataSamplingFrequency">
@@ -25,9 +28,9 @@
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DataSamplingFrequency">
-    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, A.2.2</ns0:hasLabelSource>
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, A.2.2</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DataSamplingFrequency">
-    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, A.2.2</ns0:hasLabelSource>
+    <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, A.2.2</ns0:hasLabelSource>
   </rdf:Description>
 </rdf:RDF>

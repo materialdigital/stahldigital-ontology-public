@@ -4,16 +4,18 @@
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <http://www.w3.org/2000/01/rdf-schema#label> "PistonSpeed"@en .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/PistonSpeed> <http://purl.org/dc/terms/description> "\"Speed of the piston used in the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]"@en .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <http://purl.org/dc/terms/description> "\"Geschwindigkeit des Kolbens während des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]"@de .
+<https://w3id.org/steel/ProcessOntology/PistonSpeed> <http://www.w3.org/2004/02/skos/core#altlabel> "Kolbengeschwindigkeit"@de .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <http://www.w3.org/2004/02/skos/core#altlabel> "Tiefziehgeschwindigkeit (VD)"@de .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <http://www.w3.org/2004/02/skos/core#altlabel> "Piston Speed"@en .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <http://www.w3.org/2004/02/skos/core#preflabel> "PistonSpeed"@en .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@en .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@de .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <https://w3id.org/steel/ProcessOntology/hasExampleData> "0.15" .
+<https://w3id.org/steel/ProcessOntology/PistonSpeed> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 12"@en .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 12"@de .
-<https://w3id.org/steel/ProcessOntology/PistonSpeed> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MilliM-PER-SEC> .
 <https://w3id.org/steel/ProcessOntology/PistonSpeed> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm/s" .
 

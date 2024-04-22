@@ -12,6 +12,12 @@
         "lang" : "en",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"minimum cross-sectional area after fracture\" [DIN EN ISO 6892-1, Table 1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -41,6 +47,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "SU",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "kleinster Querschnitt nach dem Bruch",
+        "lang" : "de",
         "type" : "literal"
         }
       ,

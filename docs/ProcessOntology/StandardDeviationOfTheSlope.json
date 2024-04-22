@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"additional result of the linear regression which describes the difference of the stress values from the best fit line for the given extension values in the evaluation range\" [DIN EN ISO 6892-1, 3.16]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"zus\u00E4tzliches Ergebnis der linearen Regression, welches den Unterschied der Spannungswerte von der Ausgleichsgeraden f\u00FCr die gegebenen Extensometer-Dehnungswerte in dem untersuchten Bereich beschreibt\" [DIN EN ISO 6892-1, 3.16]",
         "lang" : "de",
         "type" : "literal"
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Standardabweichung der Steigung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "standard deviation of the slope",
         "lang" : "en",
         "type" : "literal"

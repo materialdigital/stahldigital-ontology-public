@@ -1,16 +1,18 @@
 
 
-<https://w3id.org/steel/ProcessOntology/RadiusDie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/RadiusDie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/RadiusDie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/RadiusDie> <http://www.w3.org/2000/01/rdf-schema#label> "RadiusDie"@en .
 <https://w3id.org/steel/ProcessOntology/RadiusDie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/RadiusDie> <http://purl.org/dc/terms/description> "\"Radius of the die (inner) of the testing machine. \" [DIN EN ISO 16808:2022-08, 4]"@en .
 <https://w3id.org/steel/ProcessOntology/RadiusDie> <http://purl.org/dc/terms/description> "\"Matrizenkantenradius (innen) der Prüfeinrichtung.\" [DIN EN ISO 16808:2022-08, 4]"@de .
 <https://w3id.org/steel/ProcessOntology/RadiusDie> <http://www.w3.org/2004/02/skos/core#altlabel> "Radius of the die (inner)"@en .
+<https://w3id.org/steel/ProcessOntology/RadiusDie> <http://www.w3.org/2004/02/skos/core#altlabel> "Matrizenkantenradius (innen)"@de .
 <https://w3id.org/steel/ProcessOntology/RadiusDie> <http://www.w3.org/2004/02/skos/core#preflabel> "RadiusDie"@en .
-<https://w3id.org/steel/ProcessOntology/RadiusDie> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 4"@de .
 <https://w3id.org/steel/ProcessOntology/RadiusDie> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 4"@en .
-<https://w3id.org/steel/ProcessOntology/RadiusDie> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 4"@de .
+<https://w3id.org/steel/ProcessOntology/RadiusDie> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 4"@de .
 <https://w3id.org/steel/ProcessOntology/RadiusDie> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 4"@en .
+<https://w3id.org/steel/ProcessOntology/RadiusDie> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 4"@de .
 <https://w3id.org/steel/ProcessOntology/RadiusDie> <https://w3id.org/steel/ProcessOntology/hasSymbol> "R_1"@en .
 <https://w3id.org/steel/ProcessOntology/RadiusDie> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "R_1"@en .
 <https://w3id.org/steel/ProcessOntology/RadiusDie> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MilliM> .

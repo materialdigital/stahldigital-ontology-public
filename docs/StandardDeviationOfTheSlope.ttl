@@ -1,16 +1,18 @@
 
 
-<https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <http://www.w3.org/2000/01/rdf-schema#label> "StandardDeviationOfTheSlope"@en .
 <https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <http://purl.org/dc/terms/description> "\"additional result of the linear regression which describes the difference of the stress values from the best fit line for the given extension values in the evaluation range\" [DIN EN ISO 6892-1, 3.16]"@en .
 <https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <http://purl.org/dc/terms/description> "\"zusätzliches Ergebnis der linearen Regression, welches den Unterschied der Spannungswerte von der Ausgleichsgeraden für die gegebenen Extensometer-Dehnungswerte in dem untersuchten Bereich beschreibt\" [DIN EN ISO 6892-1, 3.16]"@de .
+<https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <http://www.w3.org/2004/02/skos/core#altlabel> "Standardabweichung der Steigung"@de .
 <https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <http://www.w3.org/2004/02/skos/core#altlabel> "standard deviation of the slope"@en .
 <https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <http://www.w3.org/2004/02/skos/core#preflabel> "StandardDeviationOfTheSlope"@en .
-<https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.16"@de .
 <https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.16"@en .
-<https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.16"@de .
+<https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.16"@de .
 <https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.16"@en .
+<https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.16"@de .
 <https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Sm"@en .
 <https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "S_m"@en .
 <https://w3id.org/steel/ProcessOntology/StandardDeviationOfTheSlope> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MegaPA> .

@@ -16,6 +16,12 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"unterer oder oberer Wert für die Spannung beziehungsweise Extensometer-Dehnung, der für die Beschreibung des Bereichs, in dem der Elastizitätsmodul berechnet wird, benutzt wird" [DIN EN ISO 6892-1, 3.14]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DefaultValue">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"lower or upper value for stress respectively strain which is used for the description of the range where the modulus of elasticity is calculated" [DIN EN ISO 6892-1, 3.14]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DefaultValue">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Vorgabewert</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DefaultValue">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">default value</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DefaultValue">

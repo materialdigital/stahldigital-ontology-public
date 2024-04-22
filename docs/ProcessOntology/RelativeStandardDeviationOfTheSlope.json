@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"quotient of the standard deviation of the slope and the slope in the evaluation range, multiplied by 100 %\" [DIN EN ISO 6892-1, 3.17]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "relative Standardabweichung der Steigung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "relative standard deviation of the slope",
         "lang" : "en",
         "type" : "literal"

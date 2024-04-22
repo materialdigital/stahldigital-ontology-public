@@ -1,8 +1,10 @@
 <https://w3id.org/steel/ProcessOntology/BoundaryFile> <http://purl.org/dc/terms/description> "\"Datei mit Informationen zu den verwendeten Randbedingungen f\u00FCr die Mikrostruktursimulation\" [General Knowledge]"@de .
+<https://w3id.org/steel/ProcessOntology/BoundaryFile> <http://purl.org/dc/terms/description> "\"File containing information regarding the boundaries used for micorstructure simulation\" [General Knowledge]"@en .
 <https://w3id.org/steel/ProcessOntology/BoundaryFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/BoundaryFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/BoundaryFile> <http://www.w3.org/2000/01/rdf-schema#label> "BoundaryFile"@en .
 <https://w3id.org/steel/ProcessOntology/BoundaryFile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/BoundaryFile> <http://www.w3.org/2004/02/skos/core#altlabel> "Bounadry-Datei"@de .
 <https://w3id.org/steel/ProcessOntology/BoundaryFile> <http://www.w3.org/2004/02/skos/core#altlabel> "Boundary file"@en .
 <https://w3id.org/steel/ProcessOntology/BoundaryFile> <http://www.w3.org/2004/02/skos/core#preflabel> "BoundaryFile"@en .
 <https://w3id.org/steel/ProcessOntology/BoundaryFile> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@de .

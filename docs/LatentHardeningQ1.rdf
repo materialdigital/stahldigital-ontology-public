@@ -13,10 +13,16 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LatentHardeningQ1">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">Off-diagonal elements in Interaction matrix q_ab for different slip system family</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LatentHardeningQ1">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Parameter, der in der Interaktionsmatrix die Fremdverfestigung (latent hardning) eines Gleitsystems infolge eines Gleitsystems aus einer anderen Gleitsystem-Familie beschreibt" [General Knowledge]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LatentHardeningQ1">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">LatentHardening q1</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LatentHardeningQ1">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Latent Hardening Parameter q01</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LatentHardeningQ1">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">LatentHardeningQ1</ns0:preflabel>

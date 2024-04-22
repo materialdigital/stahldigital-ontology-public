@@ -4,15 +4,17 @@
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <http://www.w3.org/2000/01/rdf-schema#label> "PressureChamber"@en .
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/PressureChamber> <http://purl.org/dc/terms/description> "\"Pressure measred in the chamber.\" [DIN EN ISO 16808:2022-08, 12]"@en .
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <http://purl.org/dc/terms/description> "\"Druck im Werkzeug.\" [DIN EN ISO 16808:2022-08, 12]"@de .
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <http://www.w3.org/2004/02/skos/core#altlabel> "Pressure in the Chamber"@en .
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <http://www.w3.org/2004/02/skos/core#altlabel> "Bulge Druck"@de .
+<https://w3id.org/steel/ProcessOntology/PressureChamber> <http://www.w3.org/2004/02/skos/core#altlabel> "Druck im Werkzeug"@de .
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <http://www.w3.org/2004/02/skos/core#preflabel> "PressureChamber"@en .
-<https://w3id.org/steel/ProcessOntology/PressureChamber> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@de .
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@en .
+<https://w3id.org/steel/ProcessOntology/PressureChamber> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@de .
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
-<https://w3id.org/steel/ProcessOntology/PressureChamber> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 12"@en .
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 4"@de .
+<https://w3id.org/steel/ProcessOntology/PressureChamber> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 12"@en .
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <https://w3id.org/steel/ProcessOntology/hasSymbol> "p"@en .
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "p"@en .
 <https://w3id.org/steel/ProcessOntology/PressureChamber> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MegaPA> .

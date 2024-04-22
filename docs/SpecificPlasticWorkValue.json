@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/SpecificPlasticWorkValue" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Specific plastic work used for idenfication of a point on the yield surface\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Spezifische plastische Arbeit, die zur Bestimmung des Punkts auf dem Flie\u00DFort verwendet wurde\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Specific plastic work value",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Wert der spezifische plastische Arbeit",
+        "lang" : "de",
         "type" : "literal"
         }
       

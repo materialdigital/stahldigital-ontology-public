@@ -1,8 +1,10 @@
 <https://w3id.org/steel/ProcessOntology/Grid> <http://purl.org/dc/terms/description> "\"Art des Gitters, welches f\u00FCr die DIC-Messungen verwendet wurde.\" [DIN EN ISO 16808:2022-08, 12]"@de .
+<https://w3id.org/steel/ProcessOntology/Grid> <http://purl.org/dc/terms/description> "\"Type of grid used for DIC measurements.\" [DIN EN ISO 16808:2022-08, 12]"@en .
 <https://w3id.org/steel/ProcessOntology/Grid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/Grid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/Grid> <http://www.w3.org/2000/01/rdf-schema#label> "Grid"@en .
 <https://w3id.org/steel/ProcessOntology/Grid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/Grid> <http://www.w3.org/2004/02/skos/core#altlabel> "Gitter"@de .
 <https://w3id.org/steel/ProcessOntology/Grid> <http://www.w3.org/2004/02/skos/core#altlabel> "Grid"@en .
 <https://w3id.org/steel/ProcessOntology/Grid> <http://www.w3.org/2004/02/skos/core#preflabel> "Grid"@en .
 <https://w3id.org/steel/ProcessOntology/Grid> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@de .

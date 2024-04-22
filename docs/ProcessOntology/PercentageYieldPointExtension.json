@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"in discontinuous yielding materials, the extension between the start of yielding and the start of uniform work-hardening, expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.3]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Streckgrenzen-Extensometer-Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "percentage yield point extension",
         "lang" : "en",
         "type" : "literal"

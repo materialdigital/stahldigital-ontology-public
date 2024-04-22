@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalDiameter">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalDiameter">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalDiameter">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">OriginalDiameter</ns0:label>
@@ -16,7 +16,13 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"(Anfangs-)Probendurchmesser in der parallelen Länge einer Rundprobe oder Durchmesser eines Drahtes mit Kreisquerschnitt oder Innendurchmesser eines Rohres" [DIN EN ISO 6892-1, Tabelle 1]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalDiameter">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"original diameter of the parallel length of a circular test piece, or diameter of round wire or internal diameter of a tube" [DIN EN ISO 6892-1, Table 1]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalDiameter">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">original diameter</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalDiameter">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">(Anfangs-)Probendurchmesser in der parallelen Länge einer Rundprobe oder Durchmesser eines Drahtes mit Kreisquerschnitt oder Innendurchmesser eines Rohres</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalDiameter">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">OriginalDiameter</ns0:preflabel>

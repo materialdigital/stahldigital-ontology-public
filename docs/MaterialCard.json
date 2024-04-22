@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/MaterialCard" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"A material card contains material data or parameter to describe the material bahaviour in a simulation. \" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Eine Materialkarten beschreibt das Materialverhalten eines Werkstoffes in Form von Daten und Parametern\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -83,6 +89,12 @@
       ,
       {
         "value" : "MaterialKarte",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Materialkarte",
         "lang" : "de",
         "type" : "literal"
         }

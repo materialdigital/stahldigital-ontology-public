@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Number of grains used for the microstructure model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Grain Number",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Kornanzahl",
+        "lang" : "de",
         "type" : "literal"
         }
       

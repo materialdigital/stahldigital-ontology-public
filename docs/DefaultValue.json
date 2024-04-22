@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/DefaultValue" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"lower or upper value for stress respectively strain which is used for the description of the range where the modulus of elasticity is calculated\" [DIN EN ISO 6892-1, 3.14]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"unterer oder oberer Wert f\u00FCr die Spannung beziehungsweise Extensometer-Dehnung, der f\u00FCr die Beschreibung des Bereichs, in dem der Elastizit\u00E4tsmodul berechnet wird, benutzt wird\" [DIN EN ISO 6892-1, 3.14]",
         "lang" : "de",
         "type" : "literal"
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Vorgabewert",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "default value",
         "lang" : "en",
         "type" : "literal"

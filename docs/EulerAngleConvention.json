@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/EulerAngleConvention" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Convention used to describe the Euler angles, e.g. Bunge\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Verwendte Konvention zur beschreibung der Euler Winkel\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Euler angle convention",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Konvention der Euler Winkel",
+        "lang" : "de",
         "type" : "literal"
         }
       

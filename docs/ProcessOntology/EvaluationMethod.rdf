@@ -16,6 +16,12 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Bewertungsverfahren zur Bestimmung der Krümmung und der Formänderung." [DIN EN ISO 16808:2022-08, 12]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EvaluationMethod">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Evaluation method used for identification of the curvature and the average strain." [DIN EN ISO 16808:2022-08, 12]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EvaluationMethod">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Bewertungsverfahren</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EvaluationMethod">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Evaluation method</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EvaluationMethod">

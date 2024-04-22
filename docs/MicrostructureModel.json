@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"input-file describing the microstructure model for chosen solver\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Microstructure model",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Mikrostructurmodel",
+        "lang" : "de",
         "type" : "literal"
         }
       

@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "Off-diagonal elements in Interaction matrix q_ab for the same slip system family",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Latent Hardening Parameter",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "LatentHardening q0",
         "lang" : "en",
         "type" : "literal"

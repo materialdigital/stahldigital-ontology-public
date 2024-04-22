@@ -12,6 +12,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"The machine should be designed in order to provide outputs giving analogue signals untreated by the software\" [DIN EN ISO 6892-1, A.2.1]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -52,6 +58,12 @@
       ,
       {
         "value" : "Pr\u00FCfmaschine",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Zugpr\u00FCfmaschine",
         "lang" : "de",
         "type" : "literal"
         }

@@ -1,9 +1,11 @@
 <https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension> <http://purl.org/dc/terms/description> "\"Vergr\u00F6\u00DFerung der Extensometer-Messl\u00E4nge nach Entfernen einer festgelegten, auf die Probe aufgebrachten Zugspannung , angegeben in Prozent, bezogen auf die Extensometer-Messl\u00E4nge\" [DIN EN ISO 6892-1, 3.6.2]"@de .
+<https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension> <http://purl.org/dc/terms/description> "\"increase in the extensometer gauge length, after removal of a specified stress from the test piece, expressed as a percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.6.2]"@en .
 <https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension> <http://purl.org/dc/terms/description> "\"plastic engineering strain\" [Authors]"@en .
 <https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension> <http://www.w3.org/2000/01/rdf-schema#label> "PercentagePermanentExtension"@en .
 <https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension> <http://www.w3.org/2004/02/skos/core#altlabel> "bleibende Extensometer-Dehnung"@de .
 <https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension> <http://www.w3.org/2004/02/skos/core#altlabel> "e-plast"@de .
 <https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension> <http://www.w3.org/2004/02/skos/core#altlabel> "percentage permanent extension"@en .
 <https://w3id.org/steel/ProcessOntology/PercentagePermanentExtension> <http://www.w3.org/2004/02/skos/core#preflabel> "PercentagePermanentExtension"@en .

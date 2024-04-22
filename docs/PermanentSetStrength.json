@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"stress at which, after removal of force, a specified permanent elongation or extension, expressed respectively as a percentage of original gauge length, or extensometer gauge length, has not been exceeded\" [DIN EN ISO 6892-1, 3.10.5]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Grenzwert der Spannung f\u00FCr eine vorgegebene bleibende Dehnung",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "permanent set strength",
         "lang" : "en",
         "type" : "literal"

@@ -4,8 +4,10 @@
 <https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain> <http://www.w3.org/2000/01/rdf-schema#label> "TruePlasticThicknessStrain"@en .
 <https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain> <http://purl.org/dc/terms/description> "\"True plastic thickness strain received from post-processing the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]"@en .
 <https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain> <http://purl.org/dc/terms/description> "\"Plastischer Anteil des Umformgrads in Dickenrichtung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]"@de .
 <https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain> <http://www.w3.org/2004/02/skos/core#altlabel> "True plastic thickness strain"@en .
+<https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain> <http://www.w3.org/2004/02/skos/core#altlabel> "Plastischer Anteil des Umformgrads in Dickenrichtung"@de .
 <https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain> <http://www.w3.org/2004/02/skos/core#preflabel> "TruePlasticThicknessStrain"@en .
 <https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@en .
 <https://w3id.org/steel/ProcessOntology/TruePlasticThicknessStrain> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@de .

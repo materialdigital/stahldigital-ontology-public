@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Radius of the curvature in the dome.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Kr\u00FCmmungsradius",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Radius of curvature",
         "lang" : "en",
         "type" : "literal"

@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"estimated strain rate over the parallel length\" [DIN EN ISO 6892-1, 3.7.2]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "abgesch\u00E4tzte Dehngeschwindigkeit \u00FCber die parallele L\u00E4nge",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "estimated strain rate over the parallel length",
         "lang" : "en",
         "type" : "literal"

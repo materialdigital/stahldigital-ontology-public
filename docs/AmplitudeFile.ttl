@@ -4,12 +4,14 @@
 <https://w3id.org/steel/ProcessOntology/AmplitudeFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/AmplitudeFile> <http://www.w3.org/2000/01/rdf-schema#label> "AmplitudeFile"@en .
 <https://w3id.org/steel/ProcessOntology/AmplitudeFile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/AmplitudeFile> <http://purl.org/dc/terms/description> "\"File containing information regarding the amplitude used for micorstructure simulation\" [General Knowledge]"@en .
 <https://w3id.org/steel/ProcessOntology/AmplitudeFile> <http://purl.org/dc/terms/description> "\"Datei mit Informationen zu den verwendeten Amplituden für die Mikrostruktursimulation\" [General Knowledge]"@de .
 <https://w3id.org/steel/ProcessOntology/AmplitudeFile> <http://www.w3.org/2004/02/skos/core#altlabel> "Amplitude file"@en .
+<https://w3id.org/steel/ProcessOntology/AmplitudeFile> <http://www.w3.org/2004/02/skos/core#altlabel> "Amplituden-Datei"@de .
 <https://w3id.org/steel/ProcessOntology/AmplitudeFile> <http://www.w3.org/2004/02/skos/core#preflabel> "AmplitudeFile"@en .
 <https://w3id.org/steel/ProcessOntology/AmplitudeFile> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@en .
 <https://w3id.org/steel/ProcessOntology/AmplitudeFile> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@de .
-<https://w3id.org/steel/ProcessOntology/AmplitudeFile> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@en .
 <https://w3id.org/steel/ProcessOntology/AmplitudeFile> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@de .
+<https://w3id.org/steel/ProcessOntology/AmplitudeFile> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@en .
 
 

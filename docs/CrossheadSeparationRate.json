@@ -18,6 +18,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"displacement of the crossheads per time\" [DIN EN ISO 6892-1, 3.7.3]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -52,6 +58,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Pr\u00FCfgeschwindigkeit",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Traversengeschwindigkeit",
         "lang" : "de",
         "type" : "literal"
         }

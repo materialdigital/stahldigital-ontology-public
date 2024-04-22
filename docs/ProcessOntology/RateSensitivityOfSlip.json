@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Rate sensivity of slip used in the crystal plasticity constitutive model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Scherratensensitivit\u00E4t, die im Kristallplastizit\u00E4tsmodell verwendet wurde\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Rate sensitivity of slip ",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Scherratensensititvit\u00E4t",
+        "lang" : "de",
         "type" : "literal"
         }
       

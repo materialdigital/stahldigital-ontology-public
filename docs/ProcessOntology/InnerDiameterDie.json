@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/InnerDiameterDie" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Diameter of the die (inner) of the testing machine.\" [DIN EN ISO 16808:2022-08, 4]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Matrizendurchmesser (innen) der Pr\u00FCfeinrichtung.\" [DIN EN ISO 16808:2022-08, 4]",
         "lang" : "de",
         "type" : "literal"
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Diameter of the die (inner)",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Matrizendurchmesser (innen)",
+        "lang" : "de",
         "type" : "literal"
         }
       

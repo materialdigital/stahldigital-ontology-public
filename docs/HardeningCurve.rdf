@@ -16,6 +16,12 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Tabellarische Darstellung des Verfestigungsgesetzes auf der Gleiteebene in Form von Spannungs-Dehnungs-Daten " [General Knowledge]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningCurve">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Tabular stress and strain data of the hardening law on the slip plane" [General Knowledge]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningCurve">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Verfestigungskurve</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningCurve">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Hardening curve</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HardeningCurve">

@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/FEMSolver" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"FEM Solver used for carring out the microstructure simulations\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"FEM Solver, die f\u00FCr die Durchf\u00FChrung der Finite-Elemente-Simulationen verwendet wurde\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "FEM Solver",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "FEM Solver",
         "lang" : "en",
         "type" : "literal"

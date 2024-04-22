@@ -1,11 +1,13 @@
 
 
-<https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0> <http://www.w3.org/2000/01/rdf-schema#label> "HardeningParameterTheta0"@en .
 <https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0> <http://purl.org/dc/terms/description> "\"Verfestigungsparameter, für das Voce-typ Verfestigungsmodell, welches im Kristallplastizitätsmodell verwendet wird\" [General Knowledge]"@de .
+<https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0> <http://purl.org/dc/terms/description> "\"Hardening parameter used in Voce-type hardening law of the crystal plasticity constitutive model\" [General Knowledge]"@en .
 <https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0> <http://www.w3.org/2004/02/skos/core#altlabel> "Hardening parameter theta0"@en .
+<https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0> <http://www.w3.org/2004/02/skos/core#altlabel> "Verfestigungsparameter theta0"@de .
 <https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0> <http://www.w3.org/2004/02/skos/core#preflabel> "HardeningParameterTheta0"@en .
 <https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@en .
 <https://w3id.org/steel/ProcessOntology/HardeningParameterTheta0> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@de .

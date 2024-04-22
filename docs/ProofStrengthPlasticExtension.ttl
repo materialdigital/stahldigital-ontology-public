@@ -6,13 +6,14 @@
 <https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <http://purl.org/dc/terms/description> "\"stress at which the plastic extension is equal to a specified percentage of the extensometer gauge length\" [DIN EN ISO 6892-1, 3.10.3]"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <http://purl.org/dc/terms/description> "\"Spannung, bei der die plastische Extensometer-Dehnung einem vorgegebenen Prozentanteil der Extensometer-Messlänge entspricht\" [DIN EN ISO 6892-1, 3.10.3]"@de .
+<https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <http://www.w3.org/2004/02/skos/core#altlabel> "Dehngrenze bei plastischer Extensometer-Dehnung"@de .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <http://www.w3.org/2004/02/skos/core#altlabel> "proof strength, plastic extension"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <http://www.w3.org/2004/02/skos/core#preflabel> "ProofStrengthPlasticExtension"@en .
-<https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.10.3"@de .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.10.3"@en .
+<https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.10.3"@de .
+<https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.10.3"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.10.3"@de .
-<https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Rp"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "R_{p}"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrengthPlasticExtension> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MegaPA> .

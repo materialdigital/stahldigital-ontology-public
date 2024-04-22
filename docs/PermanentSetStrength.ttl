@@ -1,16 +1,18 @@
 
 
-<https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <http://www.w3.org/2000/01/rdf-schema#label> "PermanentSetStrength"@en .
 <https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <http://purl.org/dc/terms/description> "\"Spannun, bei der nach Wegnahme der Kraft eine vorgegebene bleibende Dehnung oder Extensometer-Dehnung , angegeben jeweils als Prozentanteil der Anfangsmesslänge oder der Extensometer-Messlänge, nicht überschritten wurde\" [DIN EN ISO 6892-1, 3.10.5]"@de .
+<https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <http://purl.org/dc/terms/description> "\"stress at which, after removal of force, a specified permanent elongation or extension, expressed respectively as a percentage of original gauge length, or extensometer gauge length, has not been exceeded\" [DIN EN ISO 6892-1, 3.10.5]"@en .
 <https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <http://www.w3.org/2004/02/skos/core#altlabel> "permanent set strength"@en .
+<https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <http://www.w3.org/2004/02/skos/core#altlabel> "Grenzwert der Spannung für eine vorgegebene bleibende Dehnung"@de .
 <https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <http://www.w3.org/2004/02/skos/core#preflabel> "PermanentSetStrength"@en .
-<https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.10.5"@de .
 <https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.10.5"@en .
-<https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.10.5"@de .
+<https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 3.10.5"@de .
 <https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.10.5"@en .
+<https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 3.10.5"@de .
 <https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Rr"@en .
 <https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "R_{r}"@en .
 <https://w3id.org/steel/ProcessOntology/PermanentSetStrength> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MegaPA> .

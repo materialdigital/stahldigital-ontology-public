@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"One of three euler angles that are introduced by Leonhard Euler to describe the orientation of a rigid body with respect to a fixed coordinate system\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Erster Euler Winkel",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "First euler angle",
         "lang" : "en",
         "type" : "literal"

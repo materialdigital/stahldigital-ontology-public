@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/BiaxialStress" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Biaxial stress received from post-processing the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Biaxiale Spannung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]",
         "lang" : "de",
         "type" : "literal"
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Biaxial stress",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Biaxiale Spannung",
+        "lang" : "de",
         "type" : "literal"
         }
       

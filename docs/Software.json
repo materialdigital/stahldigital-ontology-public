@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/Software" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Software used for measurement and post-processing.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Software, die f\u00FCr die Versuchsdurchf\u00FChrung und Datenverarbeitung verwendet wurde.\" [DIN EN ISO 16808:2022-08, 12]",
         "lang" : "de",
         "type" : "literal"
@@ -46,6 +52,12 @@
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Programm",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Software",
         "lang" : "de",
         "type" : "literal"
         }

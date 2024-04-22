@@ -5,6 +5,8 @@
 <https://w3id.org/steel/ProcessOntology/GrainNumber> <http://www.w3.org/2000/01/rdf-schema#label> "GrainNumber"@en .
 <https://w3id.org/steel/ProcessOntology/GrainNumber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/GrainNumber> <http://purl.org/dc/terms/description> "\"Anzahl der Körner im Mikrostrukturmodell\" [General Knowledge]"@de .
+<https://w3id.org/steel/ProcessOntology/GrainNumber> <http://purl.org/dc/terms/description> "\"Number of grains used for the microstructure model\" [General Knowledge]"@en .
+<https://w3id.org/steel/ProcessOntology/GrainNumber> <http://www.w3.org/2004/02/skos/core#altlabel> "Kornanzahl"@de .
 <https://w3id.org/steel/ProcessOntology/GrainNumber> <http://www.w3.org/2004/02/skos/core#altlabel> "Grain Number"@en .
 <https://w3id.org/steel/ProcessOntology/GrainNumber> <http://www.w3.org/2004/02/skos/core#preflabel> "GrainNumber"@en .
 <https://w3id.org/steel/ProcessOntology/GrainNumber> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@en .

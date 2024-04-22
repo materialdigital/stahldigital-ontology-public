@@ -5,6 +5,8 @@
 <https://w3id.org/steel/ProcessOntology/CrystalPlasticityParameterFile> <http://www.w3.org/2000/01/rdf-schema#label> "CrystalPlasticityParameterFile"@en .
 <https://w3id.org/steel/ProcessOntology/CrystalPlasticityParameterFile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/CrystalPlasticityParameterFile> <http://purl.org/dc/terms/description> "\"Datei, die die Parameter des Kristallplastizitätsmodells beinhaltet\" [General Knowledge]"@de .
+<https://w3id.org/steel/ProcessOntology/CrystalPlasticityParameterFile> <http://purl.org/dc/terms/description> "\"File containing parameters of the crystal plasticity constitutive model used\" [General Knowledge]"@en .
+<https://w3id.org/steel/ProcessOntology/CrystalPlasticityParameterFile> <http://www.w3.org/2004/02/skos/core#altlabel> "Kristallplastizitätsparameter-Datei"@de .
 <https://w3id.org/steel/ProcessOntology/CrystalPlasticityParameterFile> <http://www.w3.org/2004/02/skos/core#altlabel> "Crystal plasticity parameter file"@en .
 <https://w3id.org/steel/ProcessOntology/CrystalPlasticityParameterFile> <http://www.w3.org/2004/02/skos/core#preflabel> "CrystalPlasticityParameterFile"@en .
 <https://w3id.org/steel/ProcessOntology/CrystalPlasticityParameterFile> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@en .

@@ -13,7 +13,13 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrystalPlasticityConstitutiveModel">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Description of the crystal plasticity constitutive model used for the microstructure simulations" [General Knowledge]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrystalPlasticityConstitutiveModel">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Beschreibung des verwendeten Kristallplastizitätsmodells" [General Knowledge]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrystalPlasticityConstitutiveModel">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Kristalplastizitätsmodell</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/CrystalPlasticityConstitutiveModel">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Crystal plasticity constitutive model</ns0:altlabel>

@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/HardeningLaw" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Hardening law on slip plane used for the crystal plasticity model of the microstructure model\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Verfestigungsgesetz auf der Gleitebene, das f\u00FCr das Kristalplastizit\u00E4tsmodell des Mikrostrukturmodells verwendet wird\" [General Knowledge]",
         "lang" : "de",
         "type" : "literal"
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Hardening law",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Verfestigungsgesetz",
+        "lang" : "de",
         "type" : "literal"
         }
       

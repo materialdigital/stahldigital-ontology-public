@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/TrueThicknessStrain" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"True thickness strain received from post-processing the hydraulic bulge test.\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Umformgrad in Dickenrichtung ermittelt mit Hilfe des hydraulischen Tiefungsversuchs.\" [DIN EN ISO 16808:2022-08, 12]",
         "lang" : "de",
         "type" : "literal"
@@ -41,6 +47,12 @@
       {
         "value" : "True thickness strain",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Umformgrad in Dickenrichtung",
+        "lang" : "de",
         "type" : "literal"
         }
       ,

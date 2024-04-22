@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Description of the crystal plasticity constitutive model used for the microstructure simulations\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Crystal plasticity constitutive model",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Kristalplastizit\u00E4tsmodell",
+        "lang" : "de",
         "type" : "literal"
         }
       

@@ -19,6 +19,9 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Länge zwischen den Marken zur Kennzeichnung der Messlänge (3.1) auf der Probe, die nach dem Bruch bei Raumtemperatur gemessen wird, nachdem die beiden Probenbruchstücke sorgfältig so zusammengefügt wurden, dass ihre Achsen in einer Geraden liegen" [DIN EN ISO 6892-1, 3.1.2]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Messlänge nach dem Bruch</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">final gauge length after fracture</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FinalGaugeLengthAfterFracture">

@@ -19,6 +19,10 @@
     <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"original width of the parallel length of a flat test piece or average width of the longi
+tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table 1]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The width of the specimen." [Authors]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
@@ -26,9 +30,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes" [DIN EN ISO 6892-1, Tabelle 1]</ns0:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Original width</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Probenbreite b0</ns0:altlabel>
@@ -43,7 +44,13 @@
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">original width</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Probenbreite</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Original width</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">OriginalWidth</ns0:preflabel>

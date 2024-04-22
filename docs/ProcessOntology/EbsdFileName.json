@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Name of the EBSD-File used for the post-processing.\" [General Knowledge]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "EBSD file name",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "EBSD-Dateinamen",
+        "lang" : "de",
         "type" : "literal"
         }
       

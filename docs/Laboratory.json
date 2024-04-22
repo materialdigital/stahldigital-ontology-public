@@ -2,6 +2,12 @@
 {
   "https://w3id.org/steel/ProcessOntology/Laboratory" : {
     "http://purl.org/dc/terms/description" : [ {
+        "value" : "\"Laboratory that measured the bulge test values\" [DIN EN ISO 16808:2022-08, 12]",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "\"Pr\u00FCflabor, das die Werte des hydraulischen Tiefungsversuchs gemessen hat.\" [DIN EN ISO 16808:2022-08, 12]",
         "lang" : "de",
         "type" : "literal"
@@ -35,6 +41,12 @@
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
         "value" : "Laboratory",
         "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "Pr\u00FCflabor",
+        "lang" : "de",
         "type" : "literal"
         }
       

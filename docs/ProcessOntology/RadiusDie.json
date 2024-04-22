@@ -6,6 +6,12 @@
         "lang" : "de",
         "type" : "literal"
         }
+      ,
+      {
+        "value" : "\"Radius of the die (inner) of the testing machine. \" [DIN EN ISO 16808:2022-08, 4]",
+        "lang" : "en",
+        "type" : "literal"
+        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -33,6 +39,12 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+        "value" : "Matrizenkantenradius (innen)",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      ,
+      {
         "value" : "Radius of the die (inner)",
         "lang" : "en",
         "type" : "literal"

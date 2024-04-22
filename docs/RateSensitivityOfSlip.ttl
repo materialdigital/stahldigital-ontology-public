@@ -1,11 +1,13 @@
 
 
-<https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip> <http://www.w3.org/2000/01/rdf-schema#label> "RateSensitivityOfSlip"@en .
 <https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
 <https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip> <http://purl.org/dc/terms/description> "\"Scherratensensitivität, die im Kristallplastizitätsmodell verwendet wurde\" [General Knowledge]"@de .
+<https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip> <http://purl.org/dc/terms/description> "\"Rate sensivity of slip used in the crystal plasticity constitutive model\" [General Knowledge]"@en .
 <https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip> <http://www.w3.org/2004/02/skos/core#altlabel> "Rate sensitivity of slip "@en .
+<https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip> <http://www.w3.org/2004/02/skos/core#altlabel> "Scherratensensititvität"@de .
 <https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip> <http://www.w3.org/2004/02/skos/core#preflabel> "RateSensitivityOfSlip"@en .
 <https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@en .
 <https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@de .

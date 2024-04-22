@@ -1,8 +1,10 @@
 <https://w3id.org/steel/ProcessOntology/RadiusCurvature> <http://purl.org/dc/terms/description> "\"Kr\u00FCmmungsradius des Kuppelpols.\" [DIN EN ISO 16808:2022-08, 12]"@de .
+<https://w3id.org/steel/ProcessOntology/RadiusCurvature> <http://purl.org/dc/terms/description> "\"Radius of the curvature in the dome.\" [DIN EN ISO 16808:2022-08, 12]"@en .
 <https://w3id.org/steel/ProcessOntology/RadiusCurvature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/RadiusCurvature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/RadiusCurvature> <http://www.w3.org/2000/01/rdf-schema#label> "RadiusCurvature"@en .
 <https://w3id.org/steel/ProcessOntology/RadiusCurvature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/RadiusCurvature> <http://www.w3.org/2004/02/skos/core#altlabel> "Kr\u00FCmmungsradius"@de .
 <https://w3id.org/steel/ProcessOntology/RadiusCurvature> <http://www.w3.org/2004/02/skos/core#altlabel> "Radius of curvature"@en .
 <https://w3id.org/steel/ProcessOntology/RadiusCurvature> <http://www.w3.org/2004/02/skos/core#preflabel> "RadiusCurvature"@en .
 <https://w3id.org/steel/ProcessOntology/RadiusCurvature> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 16808:2022-08, 12"@de .
