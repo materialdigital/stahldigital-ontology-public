@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ElasticConstantC44">
+    <ns0:hasTypicalUnit xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="http://qudt.org/vocab/unit/MegaPA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ElasticConstantC44">
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">MPa</ns0:hasTypicalUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ElasticConstantC44">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ElasticConstantC44">
@@ -41,11 +47,5 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ElasticConstantC44">
     <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">C_44</ns0:hasSymbol>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ElasticConstantC44">
-    <ns0:hasTypicalUnit xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="http://qudt.org/vocab/unit/MegaPA"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ElasticConstantC44">
-    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">MPa</ns0:hasTypicalUnitLabel>
   </rdf:Description>
 </rdf:RDF>

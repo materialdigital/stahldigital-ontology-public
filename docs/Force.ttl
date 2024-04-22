@@ -1,21 +1,21 @@
 
 
-<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2000/01/rdf-schema#label> "Kraft"@de .
-<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2000/01/rdf-schema#label> "Force"@en .
-<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ForceMeasuringSystem> .
-<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> .
-<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
-<https://w3id.org/steel/ProcessOntology/Force> <http://purl.org/dc/terms/description> "\"The force measured with the force measuring system\" [Authors]"@en .
-<https://w3id.org/steel/ProcessOntology/Force> <http://purl.org/dc/terms/description> "\"The force that is measured using the Force-measuring device.\" [Authors]"@en .
-<https://w3id.org/steel/ProcessOntology/Force> <http://purl.org/dc/terms/description> "\"The force measured by the load cell\" [Authors]"@en .
 <https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2004/02/skos/core#altlabel> "force"@en .
 <https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2004/02/skos/core#altlabel> "Standardkraft"@de .
 <https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2004/02/skos/core#altlabel> "F"@de .
 <https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2004/02/skos/core#altlabel> "Kraft"@de .
 <https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2004/02/skos/core#altlabel> "Force"@en .
 <https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2004/02/skos/core#altlabel> "Tiefungskraft"@de .
+<https://w3id.org/steel/ProcessOntology/Force> <http://purl.org/dc/terms/description> "\"The force measured with the force measuring system\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/Force> <http://purl.org/dc/terms/description> "\"The force that is measured using the Force-measuring device.\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/Force> <http://purl.org/dc/terms/description> "\"The force measured by the load cell\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ForceMeasuringSystem> .
+<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> .
+<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2000/01/rdf-schema#label> "Kraft"@de .
+<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2000/01/rdf-schema#label> "Force"@en .
+<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2004/02/skos/core#preflabel> "Force"@en .
 <https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2004/02/skos/core#preflabel> "Kraft"@de .
 <https://w3id.org/steel/ProcessOntology/Force> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/ForceMeasuringSystem> .
@@ -25,9 +25,9 @@
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasExampleData> "2438" .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasExampleData> "0.105" .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
-<https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, Tabelle 1"@de .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, Table 1"@en .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-NZ50-25-D1Q"@en .
@@ -36,11 +36,11 @@
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-ST-D1"@en .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0°-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
-<https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasSymbol> "F"@en .
-<https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "F"@en .
-<https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/KiloN> .
-<https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/N> .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "kN" .
 <https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "N" .
+<https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/KiloN> .
+<https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/N> .
+<https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "F"@en .
+<https://w3id.org/steel/ProcessOntology/Force> <https://w3id.org/steel/ProcessOntology/hasSymbol> "F"@en .
 
 

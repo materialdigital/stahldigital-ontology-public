@@ -1,21 +1,21 @@
 
 
-<https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2000/01/rdf-schema#comment> "The material used in the experiment."@en .
-<https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2000/01/rdf-schema#label> "Material"@en .
-<https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
-<https://w3id.org/steel/ProcessOntology/Material> <http://purl.org/dc/terms/description> "\"Identification of material.\" [General Knowledge]"@en .
-<https://w3id.org/steel/ProcessOntology/Material> <http://purl.org/dc/terms/description> "\"Bezeichnung des Werkstoffs.\" [General Knowledge]"@de .
-<https://w3id.org/steel/ProcessOntology/Material> <http://purl.org/dc/terms/description> "\"Bezeichnung des Werkstoffs.\" [DIN EN ISO 16808:2022-08, 12]"@de .
-<https://w3id.org/steel/ProcessOntology/Material> <http://purl.org/dc/terms/description> "\"Identification of material.\" [DIN EN ISO 16808:2022-08, 12]"@en .
-<https://w3id.org/steel/ProcessOntology/Material> <http://purl.org/dc/terms/description> "\"The material used in the experiment.\" [Authors]"@en .
 <https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2004/02/skos/core#altlabel> "material"@en .
 <https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2004/02/skos/core#altlabel> "Material"@de .
 <https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2004/02/skos/core#altlabel> "Material"@en .
 <https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2004/02/skos/core#altlabel> "Werkstoffbezeichnung"@de .
 <https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2004/02/skos/core#altlabel> "MATERIAL_NAME"@en .
 <https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2004/02/skos/core#altlabel> "Werkstoff"@de .
+<https://w3id.org/steel/ProcessOntology/Material> <http://purl.org/dc/terms/description> "\"Identification of material.\" [General Knowledge]"@en .
+<https://w3id.org/steel/ProcessOntology/Material> <http://purl.org/dc/terms/description> "\"Bezeichnung des Werkstoffs.\" [General Knowledge]"@de .
+<https://w3id.org/steel/ProcessOntology/Material> <http://purl.org/dc/terms/description> "\"Bezeichnung des Werkstoffs.\" [DIN EN ISO 16808:2022-08, 12]"@de .
+<https://w3id.org/steel/ProcessOntology/Material> <http://purl.org/dc/terms/description> "\"Identification of material.\" [DIN EN ISO 16808:2022-08, 12]"@en .
+<https://w3id.org/steel/ProcessOntology/Material> <http://purl.org/dc/terms/description> "\"The material used in the experiment.\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2000/01/rdf-schema#label> "Material"@en .
+<https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2000/01/rdf-schema#comment> "The material used in the experiment."@en .
+<https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/Material> <http://www.w3.org/2004/02/skos/core#preflabel> "Material"@en .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@de .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "General Knowledge"@en .
@@ -30,8 +30,8 @@
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 12"@en .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 12"@de .
-<https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@en .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "General Knowledge"@de .
 <https://w3id.org/steel/ProcessOntology/Material> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-ST-D1"@en .

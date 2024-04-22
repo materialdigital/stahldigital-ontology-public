@@ -1,30 +1,30 @@
 
 
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#label> "NominalEngineeringStrainRate"@en .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/StrainRate> .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://purl.org/dc/terms/description> "\"nominelle technische Dehnrate = vo/Lc\" [Authors]"@de .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://purl.org/dc/terms/description> "\"nominal engineering strain rate = vo/Lc\" [ISO 26203-2, 2011, 4]"@en .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "ISO 26203-2, 2011, 4"@en .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/StrainRate> .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#preflabel> "NominalEngineeringStrainRate"@en .
 <https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "nominelle Dehnrate"@de .
 <https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "nominell"@de .
 <https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "Nominal engineering strain rate"@en .
 <https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "nominal engineering strain rate"@en .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#preflabel> "NominalEngineeringStrainRate"@en .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/StrainRate> .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "ISO 26203-2, 2011, 4"@en .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "1.0" .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://purl.org/dc/terms/description> "\"nominal engineering strain rate = vo/Lc\" [ISO 26203-2, 2011, 4]"@en .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://purl.org/dc/terms/description> "\"nominelle technische Dehnrate = vo/Lc\" [Authors]"@de .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/ParallelLength> .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/InitialDisplacementRate> .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s-1" .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/PER-SEC> .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "\\dot{e}_{nom}"@en .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasSymbol> "enom"@en .
 <https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "Standard definition specific"@de .
 <https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
 <https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasSymbol> "enom"@en .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "\\dot{e}_{nom}"@en .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/PER-SEC> .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s-1" .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/ParallelLength> .
-<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/InitialDisplacementRate> .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "1.0" .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#label> "NominalEngineeringStrainRate"@en .
+<https://w3id.org/steel/ProcessOntology/NominalEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/StrainRate> .
 
 

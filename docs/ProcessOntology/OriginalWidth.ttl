@@ -1,15 +1,5 @@
 
 
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2000/01/rdf-schema#comment> "Original width of the parallel length of a flat test piece"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalWidth"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> .
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://purl.org/dc/terms/description> "\"original width of the parallel length of a flat test piece or average width of the longi\ntudinal strip taken from a tube or width of flat wire\" [DIN EN ISO 6892-1, Table 1]"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://purl.org/dc/terms/description> "\"The width of the specimen.\" [Authors]"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://purl.org/dc/terms/description> "\"Original width of the parallel length of a flat test piece\" [Authors]"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://purl.org/dc/terms/description> "\"(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes\" [DIN EN ISO 6892-1, Tabelle 1]"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2004/02/skos/core#altlabel> "Probenbreite b0"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2004/02/skos/core#altlabel> "Width"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2004/02/skos/core#altlabel> "Probenbreite b"@de .
@@ -17,6 +7,16 @@
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2004/02/skos/core#altlabel> "(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2004/02/skos/core#altlabel> "Probenbreite"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2004/02/skos/core#altlabel> "Original width"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://purl.org/dc/terms/description> "\"original width of the parallel length of a flat test piece or average width of the longi\ntudinal strip taken from a tube or width of flat wire\" [DIN EN ISO 6892-1, Table 1]"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://purl.org/dc/terms/description> "\"The width of the specimen.\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://purl.org/dc/terms/description> "\"Original width of the parallel length of a flat test piece\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://purl.org/dc/terms/description> "\"(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes\" [DIN EN ISO 6892-1, Tabelle 1]"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalWidth"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2000/01/rdf-schema#comment> "Original width of the parallel length of a flat test piece"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2004/02/skos/core#preflabel> "OriginalWidth"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/TestPieceGeometry> .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
@@ -32,10 +32,10 @@
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MilliM> .
+<https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "b_o"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasSymbol> "bo"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasSymbol> "b_{0}"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "b_o"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MilliM> .
-<https://w3id.org/steel/ProcessOntology/OriginalWidth> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
 
 
