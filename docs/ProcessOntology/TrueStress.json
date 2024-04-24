@@ -1,19 +1,6 @@
 
 {
   "https://w3id.org/steel/ProcessOntology/TrueStress" : {
-    "http://purl.org/dc/terms/description" : [ {
-        "value" : "\"true stress\" [ISO 26203-2, 2011, 4]",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "\"wahre Spannung\" [Authors]",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
@@ -26,20 +13,8 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "True Stress",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "TrueStress",
         "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "wahre Spannung",
-        "lang" : "de",
         "type" : "literal"
         }
       
@@ -51,12 +26,6 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Sigma True",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Sigw(dL)",
         "lang" : "de",
         "type" : "literal"
@@ -67,41 +36,10 @@
         "lang" : "en",
         "type" : "literal"
         }
-      ,
-      {
-        "value" : "wahre Spannung",
-        "lang" : "de",
-        "type" : "literal"
-        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "True Stress",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "TrueStress",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "wahre Spannung",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
-        "value" : "Authors",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "ISO 26203-2, 2011, 4",
         "lang" : "en",
         "type" : "literal"
         }
@@ -114,24 +52,6 @@
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : "AFZ1-Fz-S1Q.xlsx",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "ISO 26203-2, 2011, 4",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Standard definition specific",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "YS1-Fz-D1Q",
         "lang" : "de",
         "type" : "literal"
@@ -140,13 +60,6 @@
       ],
     "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
         "value" : "Sigw",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
-        "value" : "Sig{w}",
         "lang" : "en",
         "type" : "literal"
         }

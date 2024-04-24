@@ -1,25 +1,6 @@
 
 {
   "https://w3id.org/steel/ProcessOntology/TimeStamp" : {
-    "http://purl.org/dc/terms/description" : [ {
-        "value" : "\"Date and time when the experiment was conducted.\" [Authors]",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "\"Date when the experiment was conducted.\" [Authors]",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Date and time when the experiment was conducted.",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
@@ -28,13 +9,6 @@
       {
         "value" : "http://www.w3.org/2004/02/skos/core#Concept",
         "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Date when the experiment was conducted.",
-        "lang" : "en",
-        "type" : "literal"
         }
       
       ],
@@ -58,19 +32,7 @@
         }
       ,
       {
-        "value" : "Date/Time",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Datum",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Datum/Uhrzeit",
         "lang" : "de",
         "type" : "literal"
         }
@@ -91,77 +53,14 @@
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
-        "value" : "11.03.2016",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "13/06/2016",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "42654",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "45093.6",
         "type" : "literal"
         }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : "AFZ-BU-S1.TXT",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "AFZ1-Fz-S1Q.xlsx",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "AFZ1-NZ50-25-D1Q",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "AFZ1-ST-D1",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "YS1-Fz-D1Q",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "YS1-FzR4-S1Q",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "YS1-FzR4-S1Q",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "YS1-Sz0\u00B0-S1L",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "deepl translator",
-        "lang" : "en",
         "type" : "literal"
         }
       

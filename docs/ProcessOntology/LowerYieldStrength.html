@@ -23,7 +23,7 @@
         <div class="jumbotron">
   <h1 class="display-3">LowerYieldStrength</h1>
   <p class="lead subtitle"></p>
-  <p class="lead">Represents the Lower Yield Strength of a material, which is the stress point at which the material transitions from elastic deformation to plastic deformation, without an increase in applied load. It is a crucial parameter in materials science, used for designing and analyzing the structural integrity and durability of materials under operational loads. The values are typically measured in Pascals (Pa).</p>
+  <p class="lead"></p>
   <hr class="my-4">
   <p>
     <dl></dl>
@@ -46,12 +46,12 @@
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
+            <td>http://www.w3.org/2002/07/owl#Class</td>
           </tr>
         
           <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2002/07/owl#Class</td>
+            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
           </tr>
         
           <tr>
@@ -65,18 +65,8 @@
           </tr>
         
           <tr>
-            <td>http://purl.org/dc/terms/description</td>
-            <td>"kleinste Spannung während des plastischen Fließens, wobei Einschwingerscheinungen nicht berücksichtigt werden" [DIN EN ISO 6892-1, 3.10.2.2]</td>
-          </tr>
-        
-          <tr>
-            <td>http://purl.org/dc/terms/description</td>
-            <td>"lowest value of stress during plastic yielding, ignoring any initial transient effects" [DIN EN ISO 6892-1, 3.10.2.2]</td>
-          </tr>
-        
-          <tr>
             <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>untere Streckgrenze</td>
+            <td>lower yield strength</td>
           </tr>
         
           <tr>
@@ -85,23 +75,8 @@
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>lower yield strength</td>
-          </tr>
-        
-          <tr>
             <td>http://www.w3.org/2004/02/skos/core#preflabel</td>
             <td>LowerYieldStrength</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource</td>
-            <td>DIN EN ISO 6892-1, 3.10.2.2</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource</td>
-            <td>DIN EN ISO 6892-1, 3.10.2.2</td>
           </tr>
         
           <tr>
@@ -111,36 +86,11 @@
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>DIN EN ISO 6892-1, 3.10.2.2</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>DIN EN ISO 6892-1, 3.10.2.2</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
-            <td>ISO 26203-2, 2011, 4</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
             <td>YS1-Fz-D1Q</td>
           </tr>
         
           <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
-            <td>ReL</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasSymbol</td>
-            <td>R_{eL}</td>
-          </tr>
-        
-          <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasSymbolLatex</td>
             <td>R_{eL}</td>
           </tr>
         
@@ -169,20 +119,20 @@
     <li>
         <a
             title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href="http://www.w3.org/2004/02/skos/core#Concept"
-            >Concept</a> via
+            href=".//rdfsites/http/www.w3.org/2002/07/owl#Class"
+            >Class</a> via
         <a
-            href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
             >type</a>
     </li>
     
     <li>
         <a
             title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href="http://www.w3.org/2002/07/owl#Class"
-            >Class</a> via
+            href=".//rdfsites/http/www.w3.org/2004/02/skos/core#Concept"
+            >Concept</a> via
         <a
-            href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
             >type</a>
     </li>
     
@@ -192,27 +142,27 @@
             href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
             >ValueObject</a> via
         <a
-            href="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
             >subClassOf</a>
     </li>
     
     <li>
         <a
             title="https://w3id.org/steel/ProcessOntology/hasTypicalUnit"
-            href="http://qudt.org/vocab/unit/MegaPA"
+            href=".//rdfsites/http/qudt.org/vocab/unit/MegaPA"
             >MegaPA</a> via
         <a
-            href="./hasTypicalUnit"
-            >has typical unit</a>
+            href=".//ProcessOntology/hasTypicalUnit"
+            >hasTypicalUnit</a>
     </li>
     
     <li>
         <a
             title="https://w3id.org/steel/ProcessOntology/isBasedOn"
-            href="./EngineeringStress"
+            href=".//ProcessOntology/EngineeringStress"
             >EngineeringStress</a> via
         <a
-            href="./isBasedOn"
+            href=".//ProcessOntology/isBasedOn"
             >isBasedOn</a>
     </li>
     
@@ -225,20 +175,20 @@
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
-            href="./hasLowerYieldStrength_MegaPA"
+            href=".//ProcessOntology/hasLowerYieldStrength_MegaPA"
             >has LowerYieldStrength</a> via
         <a
-            href="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#seeAlso"
             >seeAlso</a>
     </li>
     
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#range"
-            href="./hasLowerYieldStrength_Object"
+            href=".//ProcessOntology/hasLowerYieldStrength_Object"
             >hasLowerYieldStrength</a> via
         <a
-            href="http://www.w3.org/2000/01/rdf-schema#range"
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
             >range</a>
     </li>
     

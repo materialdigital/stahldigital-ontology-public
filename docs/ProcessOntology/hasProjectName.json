@@ -10,34 +10,11 @@
         "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
         "type" : "uri"
         }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/Test",
-        "type" : "uri"
-        }
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "has ProjectName",
         "type" : "literal"
-        }
-      ,
-      {
-        "value" : "has project name",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/ProjectName",
-        "type" : "uri"
         }
       
       ],
@@ -49,13 +26,6 @@
       {
         "value" : "https://w3id.org/steel/ProcessOntology/hasProjectName_Object",
         "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "has project name",
-        "lang" : "en",
-        "type" : "literal"
         }
       
       ]

@@ -1,19 +1,6 @@
 
 {
   "https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate" : {
-    "http://purl.org/dc/terms/description" : [ {
-        "value" : "\"time-dependent engineering strain rate = de(t)/dt\" [ISO 26203-2, 2011, 4]",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "\"zeitabh\u00E4ngige technische Dehnrate = de(t)/dt\" [Authors]",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
@@ -55,18 +42,6 @@
         "lang" : "en",
         "type" : "literal"
         }
-      ,
-      {
-        "value" : "time dependent engineering strain rate",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "zeitabh\u00E4ngige technische Dehnrate",
-        "lang" : "de",
-        "type" : "literal"
-        }
       
       ],
     "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
@@ -84,18 +59,6 @@
       ],
     "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "Authors",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Authors",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "ISO 26203-2, 2011, 4",
         "lang" : "en",
         "type" : "literal"
         }
@@ -108,34 +71,8 @@
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : "ISO 26203-2, 2011, 4",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Standard definition specific",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "YS1-Fz-D1Q",
         "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
-        "value" : "e(t)",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
-        "value" : "\\dot{e(t)}",
-        "lang" : "en",
         "type" : "literal"
         }
       

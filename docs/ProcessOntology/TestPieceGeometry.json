@@ -1,25 +1,6 @@
 
 {
   "https://w3id.org/steel/ProcessOntology/TestPieceGeometry" : {
-    "http://purl.org/dc/terms/description" : [ {
-        "value" : "\"The specimen geometry including nominal dimensions\" [Authors]",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "\"The type of the specimen.\" [Authors]",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "\"die Probengeometrie incl. Sollabmessungen\" [Authors]",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
@@ -31,13 +12,6 @@
         }
       
       ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "The type of the specimen.",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
         "value" : "TestPieceGeometry",
         "lang" : "en",
@@ -46,11 +20,6 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/SampleType",
-        "type" : "uri"
-        }
-      ,
-      {
         "value" : "https://w3id.org/steel/ProcessOntology/TestStandard",
         "type" : "uri"
         }
@@ -63,32 +32,8 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Probenform",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Probengeometrie",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Probentyp",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Specimen Type",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Specimen type",
-        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -107,11 +52,6 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#related" : [ {
-        "value" : "https://w3id.org/steel/ProcessOntology/SampleType",
-        "type" : "uri"
-        }
-      ,
-      {
         "value" : "https://w3id.org/steel/ProcessOntology/TestStandard",
         "type" : "uri"
         }
@@ -119,122 +59,20 @@
       ],
     "https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource" : [ {
         "value" : "Authors",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Authors",
         "lang" : "en",
         "type" : "literal"
         }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
-        "value" : "Crashbox",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "FZ2 (L0=80_b0=20_R20)",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Flach-Zug",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "FzA20",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Nakajima Specimen",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Notched Flat tensile Specimen",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Sz0\u00B0",
         "type" : "literal"
         }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : "AFZ1-Fz-S1Q.xlsx",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "AFZ1-Fz-S1Q.xlsx",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "AFZ1-NZ50-25-D1Q",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "AFZ1-ST-D1",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 12004-2: 2021_07, 11",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 12004-2: 2021_07, 11",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DX56_D_FZ2_WR00_43.TXT",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "YS1-Fz-D1Q",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "YS1-FzR4-S1Q",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "YS1-FzR4-S1Q",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "YS1-Sz0\u00B0-S1L",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "deepl translator",
-        "lang" : "en",
         "type" : "literal"
         }
       

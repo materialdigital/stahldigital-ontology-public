@@ -5,56 +5,6 @@
         "value" : "http://qudt.org/schema/qudt/Unit",
         "type" : "uri"
         }
-      ,
-      {
-        "value" : "http://www.w3.org/2002/07/owl#Class",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-        "value" : "Stress rate, e.g. referenced by tensile tests",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "Mega Pascal per Second",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Mega Pascal pro Sekunde",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-        "value" : "http://qudt.org/vocab/unit/MegaPA",
-        "type" : "uri"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#preflabel" : [ {
-        "value" : "Mega Pascal per Second",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Mega Pascal pro Sekunde",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      
-      ],
-    "http://www.w3.org/2004/02/skos/core#related" : [ {
-        "value" : "http://qudt.org/vocab/unit/MegaPA",
-        "type" : "uri"
-        }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasUnitLabel" : [ {

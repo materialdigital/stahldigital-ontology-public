@@ -6,12 +6,6 @@
         "lang" : "en",
         "type" : "literal"
         }
-      ,
-      {
-        "value" : "Material identification for which this erosion definition applies.A unique number or label must be specified",
-        "lang" : "en",
-        "type" : "literal"
-        }
       
       ],
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -54,11 +48,6 @@
       ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
         "value" : "1c",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "2a",
         "type" : "literal"
         }
       

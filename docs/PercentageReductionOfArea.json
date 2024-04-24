@@ -2,19 +2,7 @@
 {
   "https://w3id.org/steel/ProcessOntology/PercentageReductionOfArea" : {
     "http://purl.org/dc/terms/description" : [ {
-        "value" : "\"gr\u00F6\u00DFte w\u00E4hrend des Versuchs aufgetretene \u00C4nderung des Querschnitts, angegeben in Prozent, bezogen auf den Anfangsquerschnitt\" [DIN EN ISO 6892-1, 3.8]",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "\"maximum change in cross-sectional area which has occured during the test expressed as a percentage of the original cross-sectional area\" [Authors]",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "\"maximum change in cross-sectional area which has occurred during the test\" [DIN EN ISO 6892-1, 3.8]",
         "lang" : "en",
         "type" : "literal"
         }
@@ -45,20 +33,8 @@
       
       ],
     "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
-        "value" : "Brucheinschn\u00FCrung",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "Brucheinschn\u00FCrung Z",
         "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "Z",
-        "lang" : "en",
         "type" : "literal"
         }
       ,
@@ -81,70 +57,22 @@
         "lang" : "en",
         "type" : "literal"
         }
-      ,
-      {
-        "value" : "DIN EN ISO 6892-1, 3.8",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 6892-1, 3.8",
-        "lang" : "en",
-        "type" : "literal"
-        }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasExampleData" : [ {
-        "value" : "67.42",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "78.0",
         "type" : "literal"
         }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasLabelSource" : [ {
-        "value" : "AFZ1-Fz-S1Q.xlsx",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 6892-1, 3.8",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "DIN EN ISO 6892-1, 3.8",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      ,
-      {
         "value" : "YS1-Fz-D1Q",
-        "lang" : "de",
-        "type" : "literal"
-        }
-      ,
-      {
-        "value" : "YS1-Sz0\u00B0-S1L",
         "lang" : "de",
         "type" : "literal"
         }
       
       ],
     "https://w3id.org/steel/ProcessOntology/hasSymbol" : [ {
-        "value" : "Z",
-        "lang" : "en",
-        "type" : "literal"
-        }
-      
-      ],
-    "https://w3id.org/steel/ProcessOntology/hasSymbolLatex" : [ {
         "value" : "Z",
         "lang" : "en",
         "type" : "literal"
