@@ -1,5 +1,9 @@
 
 
+<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Time> .
+<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Extension> .
+<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> .
+<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s-1" .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#label> "TimeDependentEngineeringStrainRate"@en .
@@ -13,9 +17,5 @@
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "0.019" .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
 <https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/PER-SEC> .
-<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s-1" .
-<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Time> .
-<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Extension> .
-<https://w3id.org/steel/ProcessOntology/TimeDependentEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> .
 
 
