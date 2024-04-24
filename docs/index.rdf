@@ -3878,6 +3878,9 @@ or
     <rdfs:label xml:lang="en">Material</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <rdfs:seeAlso rdf:resource="https://material-digital.de/pmdco/MaterialDesignation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <rdfs:subClassOf rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
@@ -3896,9 +3899,6 @@ or
     <dcterms:description xml:lang="en">"The material used in the experiment." [Authors]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <skos:altlabel xml:lang="en">material</skos:altlabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <skos:altlabel xml:lang="de">Material</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
@@ -3914,7 +3914,13 @@ or
     <skos:altlabel xml:lang="de">Werkstoff</skos:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <skos:altlabel xml:lang="en">material</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <skos:preflabel xml:lang="en">Material</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
+    <skos:related rdf:resource="https://material-digital.de/pmdco/MaterialDesignation"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <hasDescriptionCitationSource xml:lang="de">General Knowledge</hasDescriptionCitationSource>
@@ -3956,10 +3962,10 @@ or
     <hasLabelSource xml:lang="de">DIN EN ISO 16808:2022-08, 12</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
+    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
-    <hasLabelSource xml:lang="en">YS1-FzR4-S1Q</hasLabelSource>
+    <hasLabelSource xml:lang="de">YS1-FzR4-S1Q</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Material">
     <hasLabelSource xml:lang="en">General Knowledge</hasLabelSource>
@@ -24628,7 +24634,7 @@ tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table
     <dcterms:contributor>Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm</dcterms:contributor>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
-    <dcterms:date>2024-04-24T07:03:06+00:00</dcterms:date>
+    <dcterms:date>2024-04-24T09:12:20+00:00</dcterms:date>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
     <owl:versionInfo xml:lang="en">0.1 (preliminary)</owl:versionInfo>

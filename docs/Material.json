@@ -57,6 +57,12 @@
         }
       
       ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "https://material-digital.de/pmdco/MaterialDesignation",
+        "type" : "uri"
+        }
+      
+      ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
         "value" : "https://material-digital.de/pmdco/ValueObject",
         "type" : "uri"
@@ -104,6 +110,12 @@
         "value" : "Material",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2004/02/skos/core#related" : [ {
+        "value" : "https://material-digital.de/pmdco/MaterialDesignation",
+        "type" : "uri"
         }
       
       ],
