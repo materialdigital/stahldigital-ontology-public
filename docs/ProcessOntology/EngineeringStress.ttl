@@ -1,5 +1,19 @@
 
 
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2000/01/rdf-schema#label> "EngineeringStress"@en .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://purl.org/dc/terms/description> "\"technische Spannung\" [Authors]"@de .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://purl.org/dc/terms/description> "\"engineering stress\" [ISO 26203-2, 2011, 4]"@en .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#altlabel> "technische Spannung"@de .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#altlabel> "Sigma-technisch"@de .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#altlabel> "engineering stress"@en .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#altlabel> "Sigma Tech"@en .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#preflabel> "EngineeringStress"@en .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "ISO 26203-2, 2011, 4"@en .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasExampleData> "9751" .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
@@ -7,27 +21,13 @@
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0°-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "Standard definition specific"@de .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasExampleData> "9751" .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "ISO 26203-2, 2011, 4"@en .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#preflabel> "EngineeringStress"@en .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#altlabel> "technische Spannung"@de .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#altlabel> "Sigma-technisch"@de .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#altlabel> "engineering stress"@en .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2004/02/skos/core#altlabel> "Sigma Tech"@en .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://purl.org/dc/terms/description> "\"technische Spannung\" [Authors]"@de .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://purl.org/dc/terms/description> "\"engineering stress\" [ISO 26203-2, 2011, 4]"@en .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/2000/01/rdf-schema#label> "EngineeringStress"@en .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Force> .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MegaPA> .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "Sig-technisch"@en .
-<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "R"@en .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Sig-technisch"@en .
 <https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasSymbol> "R"@en .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "Sig-technisch"@en .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "R"@en .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MegaPA> .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/OriginalCrosssection> .
+<https://w3id.org/steel/ProcessOntology/EngineeringStress> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Force> .
 
 
