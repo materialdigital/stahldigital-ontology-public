@@ -1,20 +1,1007 @@
 Validation Report
 Conforms: False
 Results (215):
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
 	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :YieldStress
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :YieldStress->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :StrainRateFormulationFlag
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :StrainRateFormulationFlag->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :MassDensity
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :MassDensity->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :PercentagePlasticExtensionAtMaximumForce
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :PercentagePlasticExtensionAtMaximumForce->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :MatPiecewiseLinearPlasticityLogInterpolation
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :MatPiecewiseLinearPlasticityLogInterpolation->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :TimeDependentEngineeringStrainRate
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :TimeDependentEngineeringStrainRate->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :TestingFacility
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :TestingFacility->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :PercentageExtension
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :PercentageExtension->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :TestPieceLength
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :TestPieceLength->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :YoungsModulus
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :YoungsModulus->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :ProjectNumber
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :ProjectNumber->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :PercentageElongationAfterFracture
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :PercentageElongationAfterFracture->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :CharacteristicEngineeringStrainRate
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :CharacteristicEngineeringStrainRate->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :Machine
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :Machine->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :StrainRateScaleParameterP
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :StrainRateScaleParameterP->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :ProjectName
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :ProjectName->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :ExtensionMeasuringSystem
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :ExtensionMeasuringSystem->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :TestPieceGeometry
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :TestPieceGeometry->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :EngineeringStress
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :EngineeringStress->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :OriginalThickness
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :OriginalThickness->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :TensileStrength
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :TensileStrength->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :ForceAtFracture
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :ForceAtFracture->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :FrameRate
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :FrameRate->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :NominalEngineeringStrainRate
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :NominalEngineeringStrainRate->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :PercentageReductionOfArea
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :PercentageReductionOfArea->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :StrainRateScaleIdendifier
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :StrainRateScaleIdendifier->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :InitialDisplacementRate
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :InitialDisplacementRate->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :Force
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :Force->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :Tester
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :Tester->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :ModulusOfElasticity
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :ModulusOfElasticity->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :TestTemperatur
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :TestTemperatur->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :MinTimeStep4ElementDel
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :MinTimeStep4ElementDel->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :Material
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :Material->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :OriginalWidth
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :OriginalWidth->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :TangentYieldModulus
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :TangentYieldModulus->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :OriginalCrosssection
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :OriginalCrosssection->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :FailureTreatment
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :FailureTreatment->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :Extension
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :Extension->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :TrueStressAtFracture
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :TrueStressAtFracture->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :LowerYieldStrength
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :LowerYieldStrength->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :PoissonRatio
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :PoissonRatio->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :MatPiecewiseLinearPlasticity
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :MatPiecewiseLinearPlasticity->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :MinimumCrosssectionAfterFracture
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :MinimumCrosssectionAfterFracture->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :MaterialIdentifier
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :MaterialIdentifier->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :YieldingIdentifier
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :YieldingIdentifier->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :ExtensometerGaugeLength
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :ExtensometerGaugeLength->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :TimeStamp
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :TimeStamp->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :TrueStress
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :TrueStress->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :StrainRateScaleParameterC
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :StrainRateScaleParameterC->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :ParallelLength
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :ParallelLength->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :MeanEngineeringStrainRate
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :MeanEngineeringStrainRate->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :Time
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :Time->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :TruePlasticStrainAtFracture
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :TruePlasticStrainAtFracture->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :SampleIdentifier
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :SampleIdentifier->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :ForceMeasuringSystem
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :ForceMeasuringSystem->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasOriginalWidth_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasOriginalWidth_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasPercentageReductionOfArea_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasPercentageReductionOfArea_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTruePlasticStrainAtFracture_PERCENT
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTruePlasticStrainAtFracture_PERCENT->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTangentYieldModulus_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTangentYieldModulus_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasForceMeasuringSystem
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasForceMeasuringSystem->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasExtensometerGaugeLength_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasExtensometerGaugeLength_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMatPiecewiseLinearPlasticityLogInterpolation_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMatPiecewiseLinearPlasticityLogInterpolation_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasStrainRateScaleParameterP_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasStrainRateScaleParameterP_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTimeDependentEngineeringStrainRate_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTimeDependentEngineeringStrainRate_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasOriginalCrosssection_MilliM2
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasOriginalCrosssection_MilliM2->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMachine
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMachine->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasStrainRateFormulationFlag
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasStrainRateFormulationFlag->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTestTemperatur_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTestTemperatur_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMatPiecewiseLinearPlasticity
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMatPiecewiseLinearPlasticity->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasFrameRate_PER-SEC
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasFrameRate_PER-SEC->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTestTemperatur
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTestTemperatur->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTester_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTester_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasProjectNumber_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasProjectNumber_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMaterial_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMaterial_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasPercentageExtension_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasPercentageExtension_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasEngineeringStress_MegaPA
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasEngineeringStress_MegaPA->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTestPieceGeometry_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTestPieceGeometry_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasNominalEngineeringStrainRate_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasNominalEngineeringStrainRate_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTensileStrength_MegaPA
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTensileStrength_MegaPA->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMinimumCrosssectionAfterFracture_MilliM2
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMinimumCrosssectionAfterFracture_MilliM2->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasStrainRateScaleParameterP_UNITLESS
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasStrainRateScaleParameterP_UNITLESS->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasYieldStress_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasYieldStress_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :attributeB
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :attributeB->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTestingFacility
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTestingFacility->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasOriginalThickness_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasOriginalThickness_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasLowerYieldStrength_MegaPA
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasLowerYieldStrength_MegaPA->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasStrainRateScaleIdendifier_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasStrainRateScaleIdendifier_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasModulusOfElasticity_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasModulusOfElasticity_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasParallelLength_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasParallelLength_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasExtensometerGaugeLength_MilliM
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasExtensometerGaugeLength_MilliM->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMinTimeStep4ElementDel_SEC
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMinTimeStep4ElementDel_SEC->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasFailureTreatment_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasFailureTreatment_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTrueStressAtFracture_MegaPA
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTrueStressAtFracture_MegaPA->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTrueStress_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTrueStress_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMaterial
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMaterial->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasFailureTreatment_UNITLESS
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasFailureTreatment_UNITLESS->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMeanEngineeringStrainRate_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMeanEngineeringStrainRate_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasForceMeasuringSystem_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasForceMeasuringSystem_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasParallelLength_MilliM
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasParallelLength_MilliM->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasYoungsModulus_MegaPA
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasYoungsModulus_MegaPA->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasModulusOfElasticity_MegaPA
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasModulusOfElasticity_MegaPA->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasPercentageElongationAfterFracture_PERCENT
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasPercentageElongationAfterFracture_PERCENT->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMinTimeStep4ElementDel_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMinTimeStep4ElementDel_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasProjectName_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasProjectName_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasNominalEngineeringStrainRate_PER-SEC
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasNominalEngineeringStrainRate_PER-SEC->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTrueStress_MegaPA
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTrueStress_MegaPA->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasYieldingIdentifier_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasYieldingIdentifier_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTestPieceLength_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTestPieceLength_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasCharacteristicEngineeringStrainRate_PER-SEC
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasCharacteristicEngineeringStrainRate_PER-SEC->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTensileStrength_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTensileStrength_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMinimumCrosssectionAfterFracture_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMinimumCrosssectionAfterFracture_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasPercentageElongationAfterFracture_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasPercentageElongationAfterFracture_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTestPieceLength_MilliM
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTestPieceLength_MilliM->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTrueStressAtFracture_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTrueStressAtFracture_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasOriginalWidth_MilliM
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasOriginalWidth_MilliM->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasPoissonRatio_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasPoissonRatio_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTime
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTime->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasLowerYieldStrength_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasLowerYieldStrength_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMachine_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMachine_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasExtension_MilliM
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasExtension_MilliM->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTimeStamp_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTimeStamp_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasForce_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasForce_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasPercentagePlasticExtensionAtMaximumForce_PERCENT
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasPercentagePlasticExtensionAtMaximumForce_PERCENT->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasExtensionMeasuringSystem_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasExtensionMeasuringSystem_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasExtension_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasExtension_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasYieldStress_MegaPA
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasYieldStress_MegaPA->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasYoungsModulus_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasYoungsModulus_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasOriginalCrosssection_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasOriginalCrosssection_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMeanEngineeringStrainRate_PER-SEC
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMeanEngineeringStrainRate_PER-SEC->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasForce_KiloN
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasForce_KiloN->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMaterialIdentifier_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMaterialIdentifier_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasCharacteristicEngineeringStrainRate_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasCharacteristicEngineeringStrainRate_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasStrainRateFormulationFlag_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasStrainRateFormulationFlag_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasPoissonRatio_UNITLESS
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasPoissonRatio_UNITLESS->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :relationB
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :relationB->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTester
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTester->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasFrameRate_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasFrameRate_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
 	Focus Node: :hasMatPiecewiseLinearPlasticityLogInterpolation
-	Value Node: Literal("has MatPiecewiseLinearPlasticityLogInterpolation")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMatPiecewiseLinearPlasticityLogInterpolation->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
 	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasProjectName
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasProjectName->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasSampleIdentifier
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasSampleIdentifier->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTime_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTime_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMassDensity_GM-PER-CentiM3
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMassDensity_GM-PER-CentiM3->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMassDensity_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMassDensity_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasInitialDisplacementRate_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasInitialDisplacementRate_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasPercentagePlasticExtensionAtMaximumForce_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasPercentagePlasticExtensionAtMaximumForce_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTestingFacility_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTestingFacility_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :attributeA
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :attributeA->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasSampleIdentifier_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasSampleIdentifier_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasExtensionMeasuringSystem
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasExtensionMeasuringSystem->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasOriginalThickness_MilliM
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasOriginalThickness_MilliM->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTestPieceGeometry
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTestPieceGeometry->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasEngineeringStress_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasEngineeringStress_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasStrainRateScaleParameterC_UNITLESS
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasStrainRateScaleParameterC_UNITLESS->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasMatPiecewiseLinearPlasticity_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasMatPiecewiseLinearPlasticity_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTangentYieldModulus_MegaPA
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTangentYieldModulus_MegaPA->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasForceAtFracture_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasForceAtFracture_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :relationA
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :relationA->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTimeStamp
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTimeStamp->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasStrainRateScaleParameterC_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasStrainRateScaleParameterC_Object->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasForceAtFracture
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasForceAtFracture->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTimeDependentEngineeringStrainRate_PER-SEC
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTimeDependentEngineeringStrainRate_PER-SEC->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasPercentageReductionOfArea_PERCENT
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasPercentageReductionOfArea_PERCENT->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
 	Focus Node: :hasProjectNumber
-	Value Node: Literal("has ProjectNumber")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasProjectNumber->rdfs:comment
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Focus Node: :hasTruePlasticStrainAtFracture_Object
+	Result Path: rdfs:comment
+	Message: Less than 1 values on :hasTruePlasticStrainAtFracture_Object->rdfs:comment
+Constraint Violation in SPARQLConstraintComponent (http://www.w3.org/ns/shacl#SPARQLConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: ex:ClassConnectedShape
+	Focus Node: :ConceptC
+	Value Node: :ConceptC
+	Source Constraint: [ sh:select Literal("
+    SELECT $this WHERE
+    {
+    $this a owl:Class .
+    FILTER NOT EXISTS {$this rdfs:subClassOf ?any1} .
+    FILTER NOT EXISTS {?any2 owl:equivalentClass $this} .
+    FILTER NOT EXISTS {$this owl:equivalentClass ?any3} .
+    FILTER NOT EXISTS {?any4 rdfs:subClassOf $this} .
+    FILTER NOT EXISTS {?any5 rdfs:range $this} .
+    FILTER NOT EXISTS {?any6 rdfs:domain $this} .
+    }
+    ") ]
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
@@ -32,8 +1019,15 @@ Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasPoissonRatio_UNITLESS
-	Value Node: Literal("has PoissonRatio")
+	Focus Node: :hasOriginalCrosssection_MilliM2
+	Value Node: Literal("has OriginalCrosssection")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasMachine
+	Value Node: Literal("has Machine")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
@@ -46,8 +1040,22 @@ Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasMaterial
-	Value Node: Literal("has Material")
+	Focus Node: :hasMatPiecewiseLinearPlasticity
+	Value Node: Literal("has MatPiecewiseLinearPlasticity")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasFrameRate_PER-SEC
+	Value Node: Literal("has FrameRate")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasTestTemperatur
+	Value Node: Literal("has TestTemperatur")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
@@ -60,8 +1068,15 @@ Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasTangentYieldModulus_MegaPA
-	Value Node: Literal("has TangentYieldModulus")
+	Focus Node: :hasTensileStrength_MegaPA
+	Value Node: Literal("has TensileStrength")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasMinimumCrosssectionAfterFracture_MilliM2
+	Value Node: Literal("has MinimumCrosssectionAfterFracture")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
@@ -74,15 +1089,50 @@ Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasYoungsModulus_MegaPA
-	Value Node: Literal("has YoungsModulus")
+	Focus Node: :hasTestingFacility
+	Value Node: Literal("has TestingFacility")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasExtension_MilliM
-	Value Node: Literal("has Extension")
+	Focus Node: :hasLowerYieldStrength_MegaPA
+	Value Node: Literal("has LowerYieldStrength")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasExtensometerGaugeLength_MilliM
+	Value Node: Literal("has ExtensometerGaugeLength")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasMinTimeStep4ElementDel_SEC
+	Value Node: Literal("has MinTimeStep4ElementDel")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasTrueStressAtFracture_MegaPA
+	Value Node: Literal("has TrueStressAtFracture")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasMaterial
+	Value Node: Literal("has Material")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasFailureTreatment_UNITLESS
+	Value Node: Literal("has FailureTreatment")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
@@ -95,29 +1145,50 @@ Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasYieldStress_MegaPA
-	Value Node: Literal("has YieldStress")
+	Focus Node: :hasYoungsModulus_MegaPA
+	Value Node: Literal("has YoungsModulus")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasTester
-	Value Node: Literal("has Tester")
+	Focus Node: :hasModulusOfElasticity_MegaPA
+	Value Node: Literal("has ModulusOfElasticity")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasTimeStamp
-	Value Node: Literal("has TimeStamp")
+	Focus Node: :hasPercentageElongationAfterFracture_PERCENT
+	Value Node: Literal("has PercentageElongationAfterFracture")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasTestingFacility
-	Value Node: Literal("has TestingFacility")
+	Focus Node: :hasNominalEngineeringStrainRate_PER-SEC
+	Value Node: Literal("has NominalEngineeringStrainRate")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasTrueStress_MegaPA
+	Value Node: Literal("has TrueStress")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasCharacteristicEngineeringStrainRate_PER-SEC
+	Value Node: Literal("has CharacteristicEngineeringStrainRate")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasTestPieceLength_MilliM
+	Value Node: Literal("has TestPieceLength")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
@@ -137,113 +1208,22 @@ Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasTestPieceLength_MilliM
-	Value Node: Literal("has TestPieceLength")
+	Focus Node: :hasExtension_MilliM
+	Value Node: Literal("has Extension")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasFailureTreatment_UNITLESS
-	Value Node: Literal("has FailureTreatment")
+	Focus Node: :hasPercentagePlasticExtensionAtMaximumForce_PERCENT
+	Value Node: Literal("has PercentagePlasticExtensionAtMaximumForce")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasOriginalCrosssection_MilliM2
-	Value Node: Literal("has OriginalCrosssection")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasTimeDependentEngineeringStrainRate_PER-SEC
-	Value Node: Literal("has TimeDependentEngineeringStrainRate")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasMachine
-	Value Node: Literal("has Machine")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasLowerYieldStrength_MegaPA
-	Value Node: Literal("has LowerYieldStrength")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasTestTemperatur
-	Value Node: Literal("has TestTemperatur")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasMinTimeStep4ElementDel_SEC
-	Value Node: Literal("has MinTimeStep4ElementDel")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasForceAtFracture
-	Value Node: Literal("has ForceAtFracture")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasProjectName
-	Value Node: Literal("has ProjectName")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasOriginalThickness_MilliM
-	Value Node: Literal("has OriginalThickness")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasMatPiecewiseLinearPlasticity
-	Value Node: Literal("has MatPiecewiseLinearPlasticity")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasTrueStressAtFracture_MegaPA
-	Value Node: Literal("has TrueStressAtFracture")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasNominalEngineeringStrainRate_PER-SEC
-	Value Node: Literal("has NominalEngineeringStrainRate")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasModulusOfElasticity_MegaPA
-	Value Node: Literal("has ModulusOfElasticity")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasPercentageReductionOfArea_PERCENT
-	Value Node: Literal("has PercentageReductionOfArea")
+	Focus Node: :hasYieldStress_MegaPA
+	Value Node: Literal("has YieldStress")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
@@ -256,8 +1236,43 @@ Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasExtensometerGaugeLength_MilliM
-	Value Node: Literal("has ExtensometerGaugeLength")
+	Focus Node: :hasForce_KiloN
+	Value Node: Literal("has Force")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasPoissonRatio_UNITLESS
+	Value Node: Literal("has PoissonRatio")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasTester
+	Value Node: Literal("has Tester")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasMatPiecewiseLinearPlasticityLogInterpolation
+	Value Node: Literal("has MatPiecewiseLinearPlasticityLogInterpolation")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasProjectName
+	Value Node: Literal("has ProjectName")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasSampleIdentifier
+	Value Node: Literal("has SampleIdentifier")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
@@ -277,8 +1292,8 @@ Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasSampleIdentifier
-	Value Node: Literal("has SampleIdentifier")
+	Focus Node: :hasOriginalThickness_MilliM
+	Value Node: Literal("has OriginalThickness")
 	Result Path: rdfs:label
 	Message: Value is not Literal with datatype rdf:langString
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
@@ -291,34 +1306,6 @@ Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasTensileStrength_MegaPA
-	Value Node: Literal("has TensileStrength")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasCharacteristicEngineeringStrainRate_PER-SEC
-	Value Node: Literal("has CharacteristicEngineeringStrainRate")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasMinimumCrosssectionAfterFracture_MilliM2
-	Value Node: Literal("has MinimumCrosssectionAfterFracture")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasForce_KiloN
-	Value Node: Literal("has Force")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
 	Focus Node: :hasStrainRateScaleParameterC_UNITLESS
 	Value Node: Literal("has StrainRateScaleParameterC")
 	Result Path: rdfs:label
@@ -326,1029 +1313,42 @@ Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#
 Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasFrameRate_PER-SEC
-	Value Node: Literal("has FrameRate")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasTrueStress_MegaPA
-	Value Node: Literal("has TrueStress")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasPercentageElongationAfterFracture_PERCENT
-	Value Node: Literal("has PercentageElongationAfterFracture")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
-	Focus Node: :hasPercentagePlasticExtensionAtMaximumForce_PERCENT
-	Value Node: Literal("has PercentagePlasticExtensionAtMaximumForce")
-	Result Path: rdfs:label
-	Message: Value is not Literal with datatype rdf:langString
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMatPiecewiseLinearPlasticityLogInterpolation
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMatPiecewiseLinearPlasticityLogInterpolation->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTangentYieldModulus_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTangentYieldModulus_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMassDensity_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMassDensity_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasPercentageElongationAfterFracture_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasPercentageElongationAfterFracture_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasProjectNumber
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasProjectNumber->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTruePlasticStrainAtFracture_PERCENT
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTruePlasticStrainAtFracture_PERCENT->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTestTemperatur_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTestTemperatur_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasPoissonRatio_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasPoissonRatio_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasForceMeasuringSystem
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasForceMeasuringSystem->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasPoissonRatio_UNITLESS
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasPoissonRatio_UNITLESS->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasPercentagePlasticExtensionAtMaximumForce_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasPercentagePlasticExtensionAtMaximumForce_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasYoungsModulus_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasYoungsModulus_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasStrainRateFormulationFlag
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasStrainRateFormulationFlag->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMaterial
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMaterial->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasEngineeringStress_MegaPA
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasEngineeringStress_MegaPA->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :relationA
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :relationA->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasStrainRateScaleParameterP_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasStrainRateScaleParameterP_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTruePlasticStrainAtFracture_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTruePlasticStrainAtFracture_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
 	Focus Node: :hasTangentYieldModulus_MegaPA
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTangentYieldModulus_MegaPA->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Value Node: Literal("has TangentYieldModulus")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasStrainRateScaleParameterP_UNITLESS
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasStrainRateScaleParameterP_UNITLESS->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasOriginalWidth_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasOriginalWidth_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasYieldingIdentifier_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasYieldingIdentifier_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasYoungsModulus_MegaPA
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasYoungsModulus_MegaPA->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasExtension_MilliM
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasExtension_MilliM->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasProjectNumber_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasProjectNumber_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasYieldStress_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasYieldStress_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasParallelLength_MilliM
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasParallelLength_MilliM->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasYieldStress_MegaPA
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasYieldStress_MegaPA->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasOriginalCrosssection_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasOriginalCrosssection_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasStrainRateScaleParameterC_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasStrainRateScaleParameterC_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTester
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTester->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
 	Focus Node: :hasTimeStamp
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTimeStamp->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Value Node: Literal("has TimeStamp")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTestingFacility
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTestingFacility->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasStrainRateScaleIdendifier_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasStrainRateScaleIdendifier_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasOriginalWidth_MilliM
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasOriginalWidth_MilliM->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasSampleIdentifier_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasSampleIdentifier_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasFailureTreatment_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasFailureTreatment_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTime_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTime_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTime
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTime->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTestPieceLength_MilliM
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTestPieceLength_MilliM->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasFailureTreatment_UNITLESS
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasFailureTreatment_UNITLESS->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasOriginalCrosssection_MilliM2
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasOriginalCrosssection_MilliM2->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasPercentageExtension_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasPercentageExtension_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasForce_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasForce_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTimeDependentEngineeringStrainRate_PER-SEC
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTimeDependentEngineeringStrainRate_PER-SEC->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMachine
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMachine->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasLowerYieldStrength_MegaPA
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasLowerYieldStrength_MegaPA->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasPercentageReductionOfArea_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasPercentageReductionOfArea_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasExtensometerGaugeLength_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasExtensometerGaugeLength_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasStrainRateFormulationFlag_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasStrainRateFormulationFlag_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTimeStamp_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTimeStamp_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTestTemperatur
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTestTemperatur->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTester_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTester_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasForceAtFracture_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasForceAtFracture_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMinTimeStep4ElementDel_SEC
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMinTimeStep4ElementDel_SEC->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasForceMeasuringSystem_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasForceMeasuringSystem_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMinTimeStep4ElementDel_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMinTimeStep4ElementDel_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
 	Focus Node: :hasForceAtFracture
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasForceAtFracture->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Value Node: Literal("has ForceAtFracture")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasEngineeringStress_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasEngineeringStress_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasTimeDependentEngineeringStrainRate_PER-SEC
+	Value Node: Literal("has TimeDependentEngineeringStrainRate")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
 	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMaterial_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMaterial_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasProjectName
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasProjectName->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :attributeA
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :attributeA->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasOriginalThickness_MilliM
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasOriginalThickness_MilliM->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTrueStressAtFracture_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTrueStressAtFracture_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasFrameRate_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasFrameRate_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasExtensionMeasuringSystem_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasExtensionMeasuringSystem_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMatPiecewiseLinearPlasticity
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMatPiecewiseLinearPlasticity->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTrueStressAtFracture_MegaPA
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTrueStressAtFracture_MegaPA->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasCharacteristicEngineeringStrainRate_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasCharacteristicEngineeringStrainRate_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTestingFacility_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTestingFacility_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasNominalEngineeringStrainRate_PER-SEC
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasNominalEngineeringStrainRate_PER-SEC->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTensileStrength_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTensileStrength_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasInitialDisplacementRate_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasInitialDisplacementRate_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTimeDependentEngineeringStrainRate_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTimeDependentEngineeringStrainRate_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasModulusOfElasticity_MegaPA
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasModulusOfElasticity_MegaPA->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasOriginalThickness_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasOriginalThickness_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
 	Focus Node: :hasPercentageReductionOfArea_PERCENT
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasPercentageReductionOfArea_PERCENT->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasNominalEngineeringStrainRate_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasNominalEngineeringStrainRate_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTrueStress_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTrueStress_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMeanEngineeringStrainRate_PER-SEC
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMeanEngineeringStrainRate_PER-SEC->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasExtensometerGaugeLength_MilliM
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasExtensometerGaugeLength_MilliM->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMassDensity_GM-PER-CentiM3
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMassDensity_GM-PER-CentiM3->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMeanEngineeringStrainRate_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMeanEngineeringStrainRate_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasExtensionMeasuringSystem
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasExtensionMeasuringSystem->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasSampleIdentifier
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasSampleIdentifier->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTestPieceGeometry_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTestPieceGeometry_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMinimumCrosssectionAfterFracture_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMinimumCrosssectionAfterFracture_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasModulusOfElasticity_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasModulusOfElasticity_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTestPieceLength_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTestPieceLength_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTestPieceGeometry
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTestPieceGeometry->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :attributeB
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :attributeB->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTensileStrength_MegaPA
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTensileStrength_MegaPA->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasCharacteristicEngineeringStrainRate_PER-SEC
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasCharacteristicEngineeringStrainRate_PER-SEC->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMinimumCrosssectionAfterFracture_MilliM2
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMinimumCrosssectionAfterFracture_MilliM2->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasLowerYieldStrength_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasLowerYieldStrength_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasForce_KiloN
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasForce_KiloN->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMatPiecewiseLinearPlasticityLogInterpolation_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMatPiecewiseLinearPlasticityLogInterpolation_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasStrainRateScaleParameterC_UNITLESS
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasStrainRateScaleParameterC_UNITLESS->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasFrameRate_PER-SEC
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasFrameRate_PER-SEC->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasTrueStress_MegaPA
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasTrueStress_MegaPA->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMaterialIdentifier_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMaterialIdentifier_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasPercentageElongationAfterFracture_PERCENT
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasPercentageElongationAfterFracture_PERCENT->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMatPiecewiseLinearPlasticity_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMatPiecewiseLinearPlasticity_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasExtension_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasExtension_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasProjectName_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasProjectName_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasParallelLength_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasParallelLength_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasPercentagePlasticExtensionAtMaximumForce_PERCENT
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasPercentagePlasticExtensionAtMaximumForce_PERCENT->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :relationB
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :relationB->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :hasMachine_Object
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :hasMachine_Object->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :YieldStress
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :YieldStress->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :StrainRateScaleParameterC
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :StrainRateScaleParameterC->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :Material
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :Material->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :SampleIdentifier
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :SampleIdentifier->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :StrainRateFormulationFlag
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :StrainRateFormulationFlag->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :ExtensometerGaugeLength
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :ExtensometerGaugeLength->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :MinimumCrosssectionAfterFracture
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :MinimumCrosssectionAfterFracture->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :TruePlasticStrainAtFracture
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :TruePlasticStrainAtFracture->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :StrainRateScaleParameterP
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :StrainRateScaleParameterP->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :ProjectName
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :ProjectName->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :ProjectNumber
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :ProjectNumber->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :PoissonRatio
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :PoissonRatio->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :StrainRateScaleIdendifier
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :StrainRateScaleIdendifier->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :MaterialIdentifier
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :MaterialIdentifier->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :FrameRate
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :FrameRate->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :Extension
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :Extension->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :FailureTreatment
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :FailureTreatment->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :ForceMeasuringSystem
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :ForceMeasuringSystem->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :ForceAtFracture
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :ForceAtFracture->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :ModulusOfElasticity
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :ModulusOfElasticity->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :YieldingIdentifier
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :YieldingIdentifier->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :MeanEngineeringStrainRate
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :MeanEngineeringStrainRate->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :EngineeringStress
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :EngineeringStress->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :TestPieceGeometry
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :TestPieceGeometry->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :PercentageExtension
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :PercentageExtension->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :PercentagePlasticExtensionAtMaximumForce
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :PercentagePlasticExtensionAtMaximumForce->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :InitialDisplacementRate
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :InitialDisplacementRate->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :OriginalThickness
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :OriginalThickness->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :TangentYieldModulus
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :TangentYieldModulus->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :TensileStrength
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :TensileStrength->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :MatPiecewiseLinearPlasticity
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :MatPiecewiseLinearPlasticity->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :TimeStamp
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :TimeStamp->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :MassDensity
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :MassDensity->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :TestPieceLength
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :TestPieceLength->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :NominalEngineeringStrainRate
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :NominalEngineeringStrainRate->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :Time
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :Time->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :TestTemperatur
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :TestTemperatur->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :MinTimeStep4ElementDel
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :MinTimeStep4ElementDel->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :Force
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :Force->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :CharacteristicEngineeringStrainRate
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :CharacteristicEngineeringStrainRate->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :OriginalWidth
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :OriginalWidth->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :ExtensionMeasuringSystem
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :ExtensionMeasuringSystem->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :PercentageReductionOfArea
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :PercentageReductionOfArea->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :ParallelLength
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :ParallelLength->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :Machine
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :Machine->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :TimeDependentEngineeringStrainRate
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :TimeDependentEngineeringStrainRate->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :OriginalCrosssection
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :OriginalCrosssection->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :TrueStressAtFracture
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :TrueStressAtFracture->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :Tester
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :Tester->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :TestingFacility
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :TestingFacility->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :YoungsModulus
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :YoungsModulus->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :TrueStress
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :TrueStress->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :LowerYieldStrength
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :LowerYieldStrength->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :MatPiecewiseLinearPlasticityLogInterpolation
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :MatPiecewiseLinearPlasticityLogInterpolation->rdfs:comment
-Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:comment ]
-	Focus Node: :PercentageElongationAfterFracture
-	Result Path: rdfs:comment
-	Message: Less than 1 values on :PercentageElongationAfterFracture->rdfs:comment
-Constraint Violation in SPARQLConstraintComponent (http://www.w3.org/ns/shacl#SPARQLConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: ex:ClassConnectedShape
-	Focus Node: :ConceptC
-	Value Node: :ConceptC
-	Source Constraint: [ sh:select Literal("
-    SELECT $this WHERE
-    {
-    $this a owl:Class .
-    FILTER NOT EXISTS {$this rdfs:subClassOf ?any1} .
-    FILTER NOT EXISTS {?any2 owl:equivalentClass $this} .
-    FILTER NOT EXISTS {$this owl:equivalentClass ?any3} .
-    FILTER NOT EXISTS {?any4 rdfs:subClassOf $this} .
-    FILTER NOT EXISTS {?any5 rdfs:range $this} .
-    FILTER NOT EXISTS {?any6 rdfs:domain $this} .
-    }
-    ") ]
+	Value Node: Literal("has PercentageReductionOfArea")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
+Constraint Violation in DatatypeConstraintComponent (http://www.w3.org/ns/shacl#DatatypeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype rdf:langString ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path rdfs:label ]
+	Focus Node: :hasProjectNumber
+	Value Node: Literal("has ProjectNumber")
+	Result Path: rdfs:label
+	Message: Value is not Literal with datatype rdf:langString
