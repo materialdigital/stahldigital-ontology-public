@@ -6058,6 +6058,27 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasRadiusCurvature_Object">
     <skos:preflabel xml:lang="en">hasRadiusCurvature</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Empty">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Empty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Empty">
+    <rdfs:label xml:lang="en">Empty</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Empty">
+    <rdfs:subClassOf rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Empty">
+    <dcterms:description xml:lang="en">Empty meta or column data</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Empty">
+    <skos:altlabel xml:lang="en">Empty meta or column data</skos:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Empty">
+    <skos:preflabel xml:lang="en">Empty</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldSurface">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -21285,6 +21306,21 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GrainNumber">
     <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEmpty_Object">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEmpty_Object">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEmpty_Object">
+    <rdfs:label xml:lang="en">hasEmpty</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEmpty_Object">
+    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/Empty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEmpty_Object">
+    <skos:preflabel xml:lang="en">hasEmpty</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Machine">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -25293,6 +25329,21 @@ tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Clamping">
     <hasLabelSource xml:lang="en">AFZ1-NZ50-25-D1Q</hasLabelSource>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEmpty">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEmpty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEmpty">
+    <rdfs:label>has Empty</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEmpty">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/Empty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEmpty">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasEmpty_Object"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RateSensitivityOfSlip">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -25915,7 +25966,7 @@ tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table
     <dcterms:contributor>Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm</dcterms:contributor>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
-    <dcterms:date>2024-05-02T16:40:44+00:00</dcterms:date>
+    <dcterms:date>2024-05-06T09:24:07+00:00</dcterms:date>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
     <owl:versionInfo xml:lang="en">0.1 (preliminary)</owl:versionInfo>
