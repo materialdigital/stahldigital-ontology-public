@@ -1,39 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">The intial gauge length used for measurement of extension by means of an extensometer</ns0:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">ExtensometerGaugeLength</ns0:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"initial extensometer gauge length used for measurement of extension by means of an extensometer" [DIN EN ISO 6892-1, 3.5]</ns0:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The intial gauge length Le used for measurement of extension by means of an extensometer" [Authors]</ns0:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Anfangsmesslänge des Dehnungsaufnehmers (Extensometer), die zum Messen der Verlängerung (3.6) benutzt wird" [DIN EN ISO 6892-1, 3.5]</ns0:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The intial gauge length used for measurement of extension by means of an extensometer" [Authors]</ns0:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Extensometer gauge length </ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
@@ -50,6 +17,39 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Messlänge Lo</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"initial extensometer gauge length used for measurement of extension by means of an extensometer" [DIN EN ISO 6892-1, 3.5]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The intial gauge length Le used for measurement of extension by means of an extensometer" [Authors]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Anfangsmesslänge des Dehnungsaufnehmers (Extensometer), die zum Messen der Verlängerung (3.6) benutzt wird" [DIN EN ISO 6892-1, 3.5]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The intial gauge length used for measurement of extension by means of an extensometer" [Authors]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/ExtensionMeasuringSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/OriginalGaugeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">ExtensometerGaugeLength</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">The intial gauge length used for measurement of extension by means of an extensometer</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">ExtensometerGaugeLength</ns0:preflabel>
@@ -100,18 +100,18 @@
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, 3.5</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">L_{0}</ns0:hasSymbol>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Le</ns0:hasSymbol>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:hasSymbolLatex xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">L_e</ns0:hasSymbolLatex>
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">mm</ns0:hasTypicalUnitLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
     <ns0:hasTypicalUnit xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
-    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">mm</ns0:hasTypicalUnitLabel>
+    <ns0:hasSymbolLatex xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">L_e</ns0:hasSymbolLatex>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">L_{0}</ns0:hasSymbol>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength">
+    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">Le</ns0:hasSymbol>
   </rdf:Description>
 </rdf:RDF>
