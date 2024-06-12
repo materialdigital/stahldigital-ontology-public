@@ -3548,29 +3548,6 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ScriptJob">
     <skos:preflabel xml:lang="en">Script Job</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
-    <rdfs:comment xml:lang="en">Definition in the Workflow Group: "A workflow is a chain of well-documented process steps to create or handle data for a specific problem in order to deliver a particular set of outputs."
-or
-"chain of steps"</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
-    <rdfs:label xml:lang="en">Digital workflow</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
-    <rdfs:label xml:lang="de">Digitaler Arbeitsablauf</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
-    <rdfs:subClassOf rdf:resource="https://w3id.org/steel/ProcessOntology/Workflow"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
-    <skos:preflabel xml:lang="en">Digital workflow</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
-    <skos:preflabel xml:lang="de">Digitaler Arbeitsablauf</skos:preflabel>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCrossheadSeparationRate_MilliM-PER-SEC">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -3594,6 +3571,29 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCrossheadSeparationRate_MilliM-PER-SEC">
     <hasUnitLabel>mm s -1</hasUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
+    <rdfs:comment xml:lang="en">Definition in the Workflow Group: "A workflow is a chain of well-documented process steps to create or handle data for a specific problem in order to deliver a particular set of outputs."
+or
+"chain of steps"</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
+    <rdfs:label xml:lang="en">Digital workflow</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
+    <rdfs:label xml:lang="de">Digitaler Arbeitsablauf</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/steel/ProcessOntology/Workflow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
+    <skos:preflabel xml:lang="en">Digital workflow</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DigitalWorkflow">
+    <skos:preflabel xml:lang="de">Digitaler Arbeitsablauf</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasBatchNumber">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -9817,21 +9817,6 @@ Identifier which relates the Table to descibe the yield stress by using differen
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NakajimaTest">
     <skos:preflabel xml:lang="de">Nakajima Test</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHomogenizationModel">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHomogenizationModel">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHomogenizationModel">
-    <rdfs:label>has HomogenizationModel</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHomogenizationModel">
-    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/HomogenizationModel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHomogenizationModel">
-    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasHomogenizationModel_Object"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCoefficientOfCorrelation_UNITLESS">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -9852,6 +9837,21 @@ Identifier which relates the Table to descibe the yield stress by using differen
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCoefficientOfCorrelation_UNITLESS">
     <hasUnitLabel>-</hasUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHomogenizationModel">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHomogenizationModel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHomogenizationModel">
+    <rdfs:label>has HomogenizationModel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHomogenizationModel">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/HomogenizationModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHomogenizationModel">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasHomogenizationModel_Object"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasElasticConstantC11_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -11964,6 +11964,18 @@ or better." [DIN EN ISO 6892-1, 9]</dcterms:description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TargetClampingForce">
     <hasTypicalUnitLabel>kN</hasTypicalUnitLabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LoadingTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LoadingTime">
+    <rdfs:comment xml:lang="en">Tensile test meta data entry from BAM file</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LoadingTime">
+    <rdfs:label xml:lang="de">Belastungszeit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/LoadingTime">
+    <skos:preflabel xml:lang="de">Belastungszeit</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/stripTension">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -13721,6 +13733,18 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMaximumForceDiscontinousYielding_Object">
     <skos:preflabel xml:lang="en">hasMaximumForceDiscontinousYielding</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialStrain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialStrain">
+    <rdfs:comment xml:lang="en">Tensile test meta data entry from BAM file</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialStrain">
+    <rdfs:label xml:lang="de">Anfangsdehnung</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialStrain">
+    <skos:preflabel xml:lang="de">Anfangsdehnung</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WorkflowStep">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -23445,6 +23469,18 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Job">
     <skos:preflabel xml:lang="de">Job</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RemainingStress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RemainingStress">
+    <rdfs:comment xml:lang="en">Tensile test meta data entry from BAM file</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RemainingStress">
+    <rdfs:label xml:lang="de">Restspannung</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/RemainingStress">
+    <skos:preflabel xml:lang="de">Restspannung</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasGrade">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -24557,6 +24593,12 @@ GT.0.0: Constant fading exponent</dcterms:description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingForce">
     <skos:preflabel xml:lang="de">Walzkraft</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Rp02">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Rp02">
+    <rdfs:comment xml:lang="en">Rp0,2 parameter</rdfs:comment>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/FLCDetermination">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -24652,6 +24694,18 @@ GT.0.0: Constant fading exponent</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTrueFractureStress_Object">
     <skos:preflabel xml:lang="en">hasTrueFractureStress</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialStress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialStress">
+    <rdfs:comment xml:lang="en">Tensile test meta data entry from BAM file</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialStress">
+    <rdfs:label xml:lang="de">Anfangsspannung</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/InitialStress">
+    <skos:preflabel xml:lang="de">Anfangsspannung</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMaterialClass_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -26020,7 +26074,7 @@ tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table
     <dcterms:contributor>Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm</dcterms:contributor>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
-    <dcterms:date>2024-05-14T05:23:59+00:00</dcterms:date>
+    <dcterms:date>2024-06-12T04:24:04+00:00</dcterms:date>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
     <owl:versionInfo xml:lang="en">0.1 (preliminary)</owl:versionInfo>
