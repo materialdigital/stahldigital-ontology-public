@@ -1,9 +1,5 @@
 
 
-<https://w3id.org/steel/ProcessOntology/TestTime> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "t_{f]"@en .
-<https://w3id.org/steel/ProcessOntology/TestTime> <https://w3id.org/steel/ProcessOntology/hasSymbol> "tf"@en .
-<https://w3id.org/steel/ProcessOntology/TestTime> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s" .
-<https://w3id.org/steel/ProcessOntology/TestTime> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/SEC> .
 <https://w3id.org/steel/ProcessOntology/TestTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/TestTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/TestTime> <http://www.w3.org/2000/01/rdf-schema#label> "TestTime"@en .
@@ -17,5 +13,9 @@
 <https://w3id.org/steel/ProcessOntology/TestTime> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
 <https://w3id.org/steel/ProcessOntology/TestTime> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "Standard definition specific"@en .
 <https://w3id.org/steel/ProcessOntology/TestTime> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "Authors"@de .
+<https://w3id.org/steel/ProcessOntology/TestTime> <https://w3id.org/steel/ProcessOntology/hasSymbol> "tf"@en .
+<https://w3id.org/steel/ProcessOntology/TestTime> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "t_{f]"@en .
+<https://w3id.org/steel/ProcessOntology/TestTime> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/SEC> .
+<https://w3id.org/steel/ProcessOntology/TestTime> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s" .
 
 

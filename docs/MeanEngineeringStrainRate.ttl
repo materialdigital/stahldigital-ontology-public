@@ -1,31 +1,31 @@
 
 
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "ISO 26203-2, 2011, 4"@en .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/StrainRate> .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#preflabel> "MeanEngineeringStrainRate"@en .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "mittlere"@de .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "mittlere technische Dehnrate"@de .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "Mean engineering strain rate"@en .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "mean engineering strain rate"@en .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://purl.org/dc/terms/description> "\"mittlere technische Dehnrate = A/tf\" [Authors]"@de .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://purl.org/dc/terms/description> "\"mean engineering strain rate = A/tf\" [ISO 26203-2, 2011, 4]"@en .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/StrainRate> .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Extension> .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Time> .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s-1" .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/PER-SEC> .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "\\dot{e}_{mean}"@en .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasSymbol> "emean"@en .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "Standard definition specific"@de .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
-<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "1.0" .
 <https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#label> "MeanEngineeringStrainRate"@en .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/StrainRate> .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://purl.org/dc/terms/description> "\"mittlere technische Dehnrate = A/tf\" [Authors]"@de .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://purl.org/dc/terms/description> "\"mean engineering strain rate = A/tf\" [ISO 26203-2, 2011, 4]"@en .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "mittlere"@de .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "Mean engineering strain rate"@en .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "mittlere technische Dehnrate"@de .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#altlabel> "mean engineering strain rate"@en .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#preflabel> "MeanEngineeringStrainRate"@en .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/StrainRate> .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "ISO 26203-2, 2011, 4"@en .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasExampleData> "1.0" .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "Standard definition specific"@de .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "ISO 26203-2, 2011, 4"@en .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasSymbol> "emean"@en .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "\\dot{e}_{mean}"@en .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/PER-SEC> .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s-1" .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/ExtensometerGaugeLength> .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Extension> .
+<https://w3id.org/steel/ProcessOntology/MeanEngineeringStrainRate> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Time> .
 
 

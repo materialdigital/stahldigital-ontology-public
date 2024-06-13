@@ -1,5 +1,7 @@
 
 
+<https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/2000/01/rdf-schema#comment> "Modulus of elasticity"@en .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/2000/01/rdf-schema#label> "YoungsModulus"@en .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/2000/01/rdf-schema#label> "Young's modulus"@en .
@@ -10,8 +12,6 @@
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/2004/02/skos/core#preflabel> "Young's modulus"@en .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <https://w3id.org/steel/ProcessOntology/hasExampleData> "210000" .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "LS-DYNA_Manual_Volume_2"@en .
-<https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/YoungsModulus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <https://qudt.org/vocab/unit/MegaPA> .
 <https://w3id.org/steel/ProcessOntology/YoungsModulus> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
 
