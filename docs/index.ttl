@@ -279,6 +279,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasUnit       <https://qudt.org/vocab/unit/SEC>;
         :hasUnitLabel  "s" .
 
+:AlloyDevelopment  rdf:type  owl:Class .
+
 :HardeningParameterTau0
         rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "HardeningParameterTau0"@en;
@@ -1009,6 +1011,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label    "has HCT980X";
         rdfs:seeAlso  :HCT980X , :hasHCT980X_Object .
 
+:EDX    rdf:type  owl:Class .
+
 :hasTester  rdf:type  rdf:Property , owl:DatatypeProperty;
         rdfs:label    "has Tester";
         rdfs:seeAlso  :Tester , :hasTester_Object .
@@ -1195,6 +1199,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:altlabel    "code damask"@en , "Damask Ablauf"@de;
         skos:preflabel   "Damask code"@en , "Damask Code"@de .
 
+:Modulus  rdf:type  owl:Class .
+
 :hasTypicalUnitLabel  rdf:type  owl:DatatypeProperty;
         rdfs:label      "has typical unit label"@en;
         rdfs:range      xsd:string;
@@ -1269,6 +1275,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasSymbolLatex                "L_t"@en;
         :hasTypicalUnit                qudtUnit:MilliM;
         :hasTypicalUnitLabel           "mm" .
+
+:EDS    rdf:type  owl:Class .
 
 :stripWidth  rdf:type   owl:Class;
         rdfs:label      "strip width"@en , "Bandbreite"@de;
@@ -2865,15 +2873,17 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasDescriptionCitationSource  "DIN EN ISO 6892-1"@de;
         :hasLabelSource                "DIN EN ISO 6892-1, A.2.2"@de , "DIN EN ISO 6892-1, A.2.2"@en .
 
-:Damage  rdf:type       owl:Class;
-        rdfs:label      "Damage"@en , "Schaden"@de;
-        skos:preflabel  "Damage"@en , "Schaden"@de .
-
 :hasModulusOfElasticity_Object
         rdf:type        owl:ObjectProperty , rdf:Property;
         rdfs:label      "hasModulusOfElasticity"@en;
         rdfs:range      :ModulusOfElasticity;
         skos:preflabel  "hasModulusOfElasticity"@en .
+
+:Damage  rdf:type       owl:Class;
+        rdfs:label      "Damage"@en , "Schaden"@de;
+        skos:preflabel  "Damage"@en , "Schaden"@de .
+
+:Annealing  rdf:type  owl:Class .
 
 :hasHCT980C_Object  rdf:type  owl:ObjectProperty , rdf:Property;
         rdfs:label      "hasHCT980C"@en;
@@ -3164,6 +3174,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasUnit       qudtUnit:MilliM;
         :hasUnitLabel  "mm" .
 
+:Demonstrator  rdf:type  owl:Class .
+
 :hasNotchTensileStrength_Object
         rdf:type        owl:ObjectProperty , rdf:Property;
         rdfs:label      "hasNotchTensileStrength"@en;
@@ -3358,18 +3370,18 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasTypicalUnitLabel           "s-1";
         :isBasedOn                     :ParallelLength , :InitialDisplacementRate .
 
-:hasFailureStrain_Object
-        rdf:type        owl:ObjectProperty;
-        rdfs:label      "hasFailureStrain"@en;
-        rdfs:range      :FailureStrain;
-        skos:preflabel  "hasFailureStrain"@en .
-
 :hasDynamometerArea_MilliM2
         rdf:type       rdf:Property , owl:DatatypeProperty;
         rdfs:label     "has DynamometerArea";
         rdfs:seeAlso   :DynamometerArea , :hasDynamometerArea_Object;
         :hasUnit       qudtUnit:MilliM2;
         :hasUnitLabel  "mm2" .
+
+:hasFailureStrain_Object
+        rdf:type        owl:ObjectProperty;
+        rdfs:label      "hasFailureStrain"@en;
+        rdfs:range      :FailureStrain;
+        skos:preflabel  "hasFailureStrain"@en .
 
 :SpecificHeatCapacity
         rdf:type              owl:Class , skos:Concept;
@@ -3475,6 +3487,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:comment    "A machine pervorming an experimental test"@en;
         rdfs:label      "Testing machine"@en , "Prüfmaschine"@de;
         skos:preflabel  "Testing machine"@en , "Prüfmaschine"@de .
+
+:Casting  rdf:type  owl:Class .
 
 :hasPreliminaryForce_MegaPA
         rdf:type       rdf:Property , owl:DatatypeProperty;
@@ -6133,6 +6147,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:range      :TestDirection;
         skos:preflabel  "hasTestDirection"@en .
 
+:MachineProtocol  rdf:type  owl:Class .
+
 :TruePlasticStrainAtFracture
         rdf:type                       owl:Class , skos:Concept;
         rdfs:label                     "TruePlasticStrainAtFracture"@en;
@@ -7370,16 +7386,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasTypicalUnit       :HBW;
         :hasTypicalUnitLabel  "HBW" .
 
-:DiameterAfterFracture1
-        rdf:type              skos:Concept , owl:Class;
-        rdfs:label            "DiameterAfterFracture1"@en;
-        rdfs:seeAlso          :DiameterAfterFracture2;
-        rdfs:subClassOf       pmdco:ValueObject;
-        skos:altlabel         "Probendurchmesser nach Bruch D1"@de;
-        skos:preflabel        "DiameterAfterFracture1"@en;
-        skos:related          :DiameterAfterFracture2;
-        :hasTypicalUnit       qudtUnit:MilliM;
-        :hasTypicalUnitLabel  "mm" .
+:hasEffecticStrain_UNITLESS
+        rdf:type       rdf:Property , owl:DatatypeProperty;
+        rdfs:label     "has EffecticStrain";
+        rdfs:seeAlso   :EffecticStrain , :hasEffecticStrain_Object;
+        :hasUnit       qudtUnit:UNITLESS;
+        :hasUnitLabel  "-" .
 
 :MaterialInstabilityStrain
         rdf:type              skos:Concept , owl:Class;
@@ -7392,12 +7404,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasLabelSource       "LS-DYNA_Manual_Volume_2"@en;
         :hasTypicalUnitLabel  "-" .
 
-:hasEffecticStrain_UNITLESS
-        rdf:type       rdf:Property , owl:DatatypeProperty;
-        rdfs:label     "has EffecticStrain";
-        rdfs:seeAlso   :EffecticStrain , :hasEffecticStrain_Object;
-        :hasUnit       qudtUnit:UNITLESS;
-        :hasUnitLabel  "-" .
+:DiameterAfterFracture1
+        rdf:type              skos:Concept , owl:Class;
+        rdfs:label            "DiameterAfterFracture1"@en;
+        rdfs:seeAlso          :DiameterAfterFracture2;
+        rdfs:subClassOf       pmdco:ValueObject;
+        skos:altlabel         "Probendurchmesser nach Bruch D1"@de;
+        skos:preflabel        "DiameterAfterFracture1"@en;
+        skos:related          :DiameterAfterFracture2;
+        :hasTypicalUnit       qudtUnit:MilliM;
+        :hasTypicalUnitLabel  "mm" .
 
 :hasDisplacement_MilliM
         rdf:type       rdf:Property , owl:DatatypeProperty;
@@ -7731,7 +7747,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         dc:description       "Vocabulary of project StahlDigital"@en;
         dcterms:contributor  "Clemens Fehrenbach, Alexander Butz, Alexander Wessel, Andreas Trondl, Silke Klitschke, Paul Zierep, Lukas Morand, Dirk Helm";
         dcterms:created      "2023";
-        dcterms:date         "2024-06-13T11:04:09+00:00";
+        dcterms:date         "2024-06-17T11:24:07+00:00";
         owl:versionInfo      "1.0"@en;
         skos:prefLabel       "StahlDigital Vocabulary"@en .
 
@@ -7935,6 +7951,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         :hasExampleData       "4";
         :hasLabelSource       "LS-DYNA_Manual_Volume_2"@en;
         :hasTypicalUnitLabel  "-" .
+
+:SEM    rdf:type  owl:Class .
 
 :hasTestPieceProducer
         rdf:type      rdf:Property , owl:DatatypeProperty;

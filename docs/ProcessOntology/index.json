@@ -21,7 +21,7 @@
       
       ],
     "http://purl.org/dc/terms/date" : [ {
-        "value" : "2024-06-13T11:04:09+00:00",
+        "value" : "2024-06-17T11:24:07+00:00",
         "type" : "literal"
         }
       
@@ -202,6 +202,15 @@
     "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
         "value" : "mm",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/AlloyDevelopment" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
@@ -460,6 +469,15 @@
         "value" : "General Knowledge",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/Annealing" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
@@ -1572,6 +1590,15 @@
         "value" : "DIN EN ISO 16808:2022-08, 12",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/Casting" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
@@ -3869,6 +3896,15 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/Demonstrator" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/Diameter" : {
     "http://purl.org/dc/terms/description" : [ {
         "value" : "The initial diameter of the parallel length",
@@ -4800,6 +4836,24 @@
     "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
         "value" : "mm2",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/EDS" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/EDX" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
@@ -14355,6 +14409,15 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/MachineProtocol" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/MajorTrueStrain" : {
     "http://purl.org/dc/terms/description" : [ {
         "value" : "\"Gr\u00F6\u00DFere Form\u00E4nderung\" [DIN EN ISO 12004-2: 2021_07, 8]",
@@ -17384,6 +17447,15 @@
         "value" : "Modell",
         "lang" : "de",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/Modulus" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
@@ -25137,6 +25209,15 @@
         "value" : "Rp0,2 parameter",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/SEM" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
