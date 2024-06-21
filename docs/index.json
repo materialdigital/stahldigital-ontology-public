@@ -21,7 +21,7 @@
       
       ],
     "http://purl.org/dc/terms/date" : [ {
-        "value" : "2024-06-17T11:24:07+00:00",
+        "value" : "2024-06-21T07:24:09+00:00",
         "type" : "literal"
         }
       
@@ -25884,6 +25884,15 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/Sensor" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/SerialNumber" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -28940,6 +28949,15 @@
     "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
         "value" : "1",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/TemperatureSensor" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]

@@ -1,30 +1,30 @@
 
 
-<https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "The norm according to which the experiment was conducted."@en .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/2000/01/rdf-schema#label> "TestStandard"@en .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <http://purl.org/dc/terms/description> "\"Test Standard unter dem der hydraulische Tiefungsversuch durchgeführt wurde.\" [wes]"@de .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <http://purl.org/dc/terms/description> "\"Test Standard unter dem der hydraulische Tiefungsversuch durchgeführt wurde.\" [Authors]"@de .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <http://purl.org/dc/terms/description> "\"Test standard to which the test is referred\" [Authors]"@en .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <http://purl.org/dc/terms/description> "\"The norm according to which the experiment was conducted.\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "wes"@de .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/2004/02/skos/core#preflabel> "TestStandard"@en .
 <https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/2004/02/skos/core#altlabel> "Test Standard"@de .
 <https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/2004/02/skos/core#altlabel> "Prüfnorm"@de .
 <https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/2004/02/skos/core#altlabel> "Test standard"@en .
 <https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/2004/02/skos/core#altlabel> "Testing Standard"@en .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/2004/02/skos/core#preflabel> "TestStandard"@en .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "wes"@de .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasExampleData> "DIN EN ISO 16808" .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasExampleData> "DIN EN ISO 12004-2" .
-<https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasExampleData> "DIN EN ISO 6892-1" .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <http://purl.org/dc/terms/description> "\"Test Standard unter dem der hydraulische Tiefungsversuch durchgeführt wurde.\" [wes]"@de .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <http://purl.org/dc/terms/description> "\"Test Standard unter dem der hydraulische Tiefungsversuch durchgeführt wurde.\" [Authors]"@de .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <http://purl.org/dc/terms/description> "\"Test standard to which the test is referred\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <http://purl.org/dc/terms/description> "\"The norm according to which the experiment was conducted.\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/2000/01/rdf-schema#label> "TestStandard"@en .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "The norm according to which the experiment was conducted."@en .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 12004-2: 2021_07, 8"@en .
 <https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "Authors"@de .
 <https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-NZ50-25-D1Q"@en .
 <https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-NZ50-25-D1Q"@de .
 <https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 16808:2022-08, 12"@en .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasExampleData> "DIN EN ISO 16808" .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasExampleData> "DIN EN ISO 12004-2" .
+<https://w3id.org/steel/ProcessOntology/TestStandard> <https://w3id.org/steel/ProcessOntology/hasExampleData> "DIN EN ISO 6892-1" .
 
 

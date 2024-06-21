@@ -47,23 +47,28 @@
         <table>
         
           <tr>
-            <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
+            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
+            <td>Kraftmesseinrichtung</td>
           </tr>
         
           <tr>
-            <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
-            <td>http://www.w3.org/2002/07/owl#Class</td>
+            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
+            <td>force-measuring system</td>
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2000/01/rdf-schema#label</td>
-            <td>ForceMeasuringDevice</td>
+            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
+            <td>force-measuring device</td>
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
-            <td>https://material-digital.de/pmdco/ValueObject</td>
+            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
+            <td>Kraftmesseinrichtungen</td>
+          </tr>
+        
+          <tr>
+            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
+            <td>Kraftaufnehmer</td>
           </tr>
         
           <tr>
@@ -99,28 +104,23 @@ or better." [DIN EN ISO 6892-1, 9]</td>
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Kraftmesseinrichtung</td>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>https://material-digital.de/pmdco/ValueObject</td>
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>force-measuring system</td>
+            <td>http://www.w3.org/2000/01/rdf-schema#label</td>
+            <td>ForceMeasuringDevice</td>
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>force-measuring device</td>
+            <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
+            <td>http://www.w3.org/2004/02/skos/core#Concept</td>
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Kraftmesseinrichtungen</td>
-          </tr>
-        
-          <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Kraftaufnehmer</td>
+            <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
+            <td>http://www.w3.org/2002/07/owl#Class</td>
           </tr>
         
           <tr>
@@ -154,11 +154,6 @@ or better." [DIN EN ISO 6892-1, 9]</td>
           </tr>
         
           <tr>
-            <td>https://w3id.org/steel/ProcessOntology/hasExampleData</td>
-            <td>Bulge Druck: Öldruckaufnehmer in der Kammer unterhalb der Probe, Tiefungskraft: Öldruckaufnehmer am Tiefungskolben</td>
-          </tr>
-        
-          <tr>
             <td>https://w3id.org/steel/ProcessOntology/hasLabelSource</td>
             <td>DIN EN ISO 6892-1, 9</td>
           </tr>
@@ -183,12 +178,27 @@ or better." [DIN EN ISO 6892-1, 9]</td>
             <td>DIN EN ISO 6892-1, G.3.1.1</td>
           </tr>
         
+          <tr>
+            <td>https://w3id.org/steel/ProcessOntology/hasExampleData</td>
+            <td>Bulge Druck: Öldruckaufnehmer in der Kammer unterhalb der Probe, Tiefungskraft: Öldruckaufnehmer am Tiefungskolben</td>
+          </tr>
+        
         </table>
 
         
           <h3>Linked Resources</h3>
 
 <ul>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
+            >ValueObject</a> via
+        <a
+            href="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
+    </li>
     
     <li>
         <a
@@ -208,16 +218,6 @@ or better." [DIN EN ISO 6892-1, 9]</td>
         <a
             href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
             >type</a>
-    </li>
-    
-    <li>
-        <a
-            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
-            href=".//rdfsites/https/material-digital.de/pmdco/ValueObject"
-            >ValueObject</a> via
-        <a
-            href="http://www.w3.org/2000/01/rdf-schema#subClassOf"
-            >subClassOf</a>
     </li>
     
 </ul>
@@ -268,22 +268,22 @@ or better." [DIN EN ISO 6892-1, 9]</td>
     
     <li>
         <a
-            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
-            href="./PreliminaryForce"
-            >PreliminaryForce</a> via
-        <a
-            href="http://www.w3.org/2000/01/rdf-schema#seeAlso"
-            >seeAlso</a>
-    </li>
-    
-    <li>
-        <a
             title="http://www.w3.org/2004/02/skos/core#related"
             href="./PreliminaryForce"
             >PreliminaryForce</a> via
         <a
             href="http://www.w3.org/2004/02/skos/core#related"
             >related</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            href="./PreliminaryForce"
+            >PreliminaryForce</a> via
+        <a
+            href="http://www.w3.org/2000/01/rdf-schema#seeAlso"
+            >seeAlso</a>
     </li>
     
     <li>

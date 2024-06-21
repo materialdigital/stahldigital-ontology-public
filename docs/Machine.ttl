@@ -1,24 +1,25 @@
 
 
-<https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2000/01/rdf-schema#comment> "Data of the machine used for the experiment."@en .
-<https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2000/01/rdf-schema#label> "Machine"@en .
-<https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
-<https://w3id.org/steel/ProcessOntology/Machine> <http://purl.org/dc/terms/description> "\"Data of the machine used for the experiment.\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasExampleData> "ZwickRoell Blechumformprüfmaschine 600kN - BUP600" .
+<https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasExampleData> "SZM500" .
+<https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Instron 5985" .
+<https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasExampleData> "SZM100" .
+<https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
+<https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2004/02/skos/core#preflabel> "Machine"@en .
 <https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2004/02/skos/core#altlabel> "Testing machine"@en .
 <https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2004/02/skos/core#altlabel> "Maschinendaten"@de .
 <https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2004/02/skos/core#altlabel> "Machine Type"@en .
 <https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2004/02/skos/core#altlabel> "Prüfmaschine"@de .
 <https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2004/02/skos/core#altlabel> "Testing Machine"@en .
-<https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2004/02/skos/core#preflabel> "Machine"@en .
-<https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
-<https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasExampleData> "ZwickRoell Blechumformprüfmaschine 600kN - BUP600" .
-<https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasExampleData> "SZM500" .
-<https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasExampleData> "Instron 5985" .
-<https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasExampleData> "SZM100" .
+<https://w3id.org/steel/ProcessOntology/Machine> <http://purl.org/dc/terms/description> "\"Data of the machine used for the experiment.\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2000/01/rdf-schema#label> "Machine"@en .
+<https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/2000/01/rdf-schema#comment> "Data of the machine used for the experiment."@en .
+<https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/Machine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
 <https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
+<https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-NZ50-25-D1Q"@en .
 <https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0°-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
 <https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
@@ -27,6 +28,5 @@
 <https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "standard definition specific"@en .
 <https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-ST-D1"@en .
 <https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "deepl translator"@en .
-<https://w3id.org/steel/ProcessOntology/Machine> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-NZ50-25-D1Q"@en .
 
 

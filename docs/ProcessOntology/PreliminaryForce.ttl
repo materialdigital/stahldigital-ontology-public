@@ -1,32 +1,32 @@
 
 
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2000/01/rdf-schema#label> "PreliminaryForce"@en .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 10.2"@de .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 10.2"@en .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2004/02/skos/core#preflabel> "PreliminaryForce"@en .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2004/02/skos/core#altlabel> "preliminary force"@en .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2004/02/skos/core#altlabel> "Vorkraft"@de .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2004/02/skos/core#altlabel> "Vorlast"@de .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://purl.org/dc/terms/description> "\"In order to ensure the alignment of the test piece and grip arrangement, a preliminary force may be applied provided it does not exceed a value corresponding to 5 % of the specified or expected yield strength\" [DIN EN ISO 6892-1, 10.2]"@en .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://purl.org/dc/terms/description> "\"Vorkraft\" in DIN EN ISO 6892-1"@en .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://purl.org/dc/terms/description> "\"Um ein Ausrichten der Probe in der Einspannvorrichtung zu erreichen, darf eine Vorkraft aufgebracht werden, die 5 % des spezifizierten oder zu erwartenden Streckgrenzenwertes nicht überschreitet\" [DIN EN ISO 6892-1, 10.2]"@de .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://purl.org/dc/terms/description> "\"\"Vorkraft\" in DIN EN ISO 6892-1\" [Authors]"@en .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2004/02/skos/core#altlabel> "preliminary force"@en .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2004/02/skos/core#altlabel> "Vorkraft"@de .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2004/02/skos/core#altlabel> "Vorlast"@de .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2004/02/skos/core#preflabel> "PreliminaryForce"@en .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 10.2"@de .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, 10.2"@en .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasExampleData> "2" .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasExampleData> "0.105" .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/ForceMeasuringDevice> .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/2000/01/rdf-schema#label> "PreliminaryForce"@en .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "kN" .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/KiloN> .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MegaPA> .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 10.2"@en .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DIN EN ISO 6892-1, 10.2"@de .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0°-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "DX56_D_FZ2_WR00_43.TXT"@de .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/KiloN> .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MegaPA> .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "kN" .
-<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasExampleData> "0.105" .
+<https://w3id.org/steel/ProcessOntology/PreliminaryForce> <https://w3id.org/steel/ProcessOntology/hasExampleData> "2" .
 
 

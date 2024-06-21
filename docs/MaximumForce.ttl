@@ -1,22 +1,22 @@
 
 
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2000/01/rdf-schema#label> "MaximumForce"@en .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/MeasuringRange> .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://purl.org/dc/terms/description> "\"Maximalkraft\" [Authors]"@de .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://purl.org/dc/terms/description> "\"maximum force\" [ISO 26203-2, 2011, 4]"@en .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://purl.org/dc/terms/description> "\"highest force that the test piece withstands during the test\" [Authors]"@en .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2004/02/skos/core#altlabel> "Höchstzugkraft Fm"@de .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2004/02/skos/core#altlabel> "Fm"@de .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2004/02/skos/core#altlabel> "maximum force"@en .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2004/02/skos/core#altlabel> "Maximalkraft"@de .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2004/02/skos/core#preflabel> "MaximumForce"@en .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/MeasuringRange> .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@de .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "ISO 26203-2, 2011, 4"@en .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "Authors"@en .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/steel/ProcessOntology/MeasuringRange> .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2004/02/skos/core#preflabel> "MaximumForce"@en .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2004/02/skos/core#altlabel> "Höchstzugkraft Fm"@de .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2004/02/skos/core#altlabel> "Fm"@de .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2004/02/skos/core#altlabel> "Maximalkraft"@de .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2004/02/skos/core#altlabel> "maximum force"@en .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://purl.org/dc/terms/description> "\"Maximalkraft\" [Authors]"@de .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://purl.org/dc/terms/description> "\"maximum force\" [ISO 26203-2, 2011, 4]"@en .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://purl.org/dc/terms/description> "\"highest force that the test piece withstands during the test\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/steel/ProcessOntology/MeasuringRange> .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/2000/01/rdf-schema#label> "MaximumForce"@en .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasExampleData> "7690" .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasExampleData> "500 kN" .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasExampleData> "7008" .
@@ -26,13 +26,13 @@
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0°-S1L"@de .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-Fz-S1Q.xlsx"@de .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Fm"@en .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "F_{m}"@en .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "Fm"@en .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/N> .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/KiloN> .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Force> .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "kN" .
 <https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "N" .
-<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/Force> .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/N> .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/KiloN> .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "F_{m}"@en .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "Fm"@en .
+<https://w3id.org/steel/ProcessOntology/MaximumForce> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Fm"@en .
 
 

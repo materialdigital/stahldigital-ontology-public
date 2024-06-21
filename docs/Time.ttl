@@ -1,9 +1,10 @@
 
 
-<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2000/01/rdf-schema#label> "Time"@en .
-<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2004/02/skos/core#preflabel> "Time"@en .
+<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2004/02/skos/core#altlabel> "Zeit"@de .
+<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2004/02/skos/core#altlabel> "time"@en .
+<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2004/02/skos/core#altlabel> "Prüfzeit"@de .
+<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2004/02/skos/core#altlabel> "Time"@en .
 <https://w3id.org/steel/ProcessOntology/Time> <http://purl.org/dc/terms/description> "Authors"@de .
 <https://w3id.org/steel/ProcessOntology/Time> <http://purl.org/dc/terms/description> "\"Recorded time during the hydraulic bulge test.\" [Authors]"@en .
 <https://w3id.org/steel/ProcessOntology/Time> <http://purl.org/dc/terms/description> "\"Zeit während des hydraulischen Tiefungsversuchs.\" [wes]"@de .
@@ -11,11 +12,10 @@
 <https://w3id.org/steel/ProcessOntology/Time> <http://purl.org/dc/terms/description> "\"The time when the data point is recorded in relation to the start. \" [Authors]"@en .
 <https://w3id.org/steel/ProcessOntology/Time> <http://purl.org/dc/terms/description> "\"Zeit während des hydraulischen Tiefungsversuchs.\" [Authors]"@de .
 <https://w3id.org/steel/ProcessOntology/Time> <http://purl.org/dc/terms/description> "\"Recorded time during the hydraulic bulge test.\" [wes]"@en .
-<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2004/02/skos/core#altlabel> "Zeit"@de .
-<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2004/02/skos/core#altlabel> "time"@en .
-<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2004/02/skos/core#altlabel> "Prüfzeit"@de .
-<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2004/02/skos/core#altlabel> "Time"@en .
-<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2004/02/skos/core#preflabel> "Time"@en .
+<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/2000/01/rdf-schema#label> "Time"@en .
+<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/steel/ProcessOntology/Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "The time when the data point is recorded in relation to the start. "@en .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "wes"@de .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "wes"@en .
@@ -36,12 +36,12 @@
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ-BU-S1.TXT"@de .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-ST-D1"@en .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Sz0°-S1L"@de .
-<https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@en .
+<https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-NZ50-25-D1Q"@en .
-<https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasSymbol> "t"@en .
-<https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "t"@en .
-<https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/SEC> .
 <https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "s" .
+<https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/SEC> .
+<https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "t"@en .
+<https://w3id.org/steel/ProcessOntology/Time> <https://w3id.org/steel/ProcessOntology/hasSymbol> "t"@en .
 
 
