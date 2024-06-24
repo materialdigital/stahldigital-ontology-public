@@ -1,9 +1,5 @@
 
 
-<https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/PercentageExtension> .
-<https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/ModulusOfElasticity> .
-<https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/EngineeringStress> .
-<https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
 <https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <http://www.w3.org/2000/01/rdf-schema#label> "ProofStrength_0.2Percentage"@en .
@@ -17,5 +13,9 @@
 <https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <https://w3id.org/steel/ProcessOntology/hasSymbol> "Rp02"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "R_{p02}"@en .
 <https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MegaPA> .
+<https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "MPa" .
+<https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/PercentageExtension> .
+<https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/ModulusOfElasticity> .
+<https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage> <https://w3id.org/steel/ProcessOntology/isBasedOn> <https://w3id.org/steel/ProcessOntology/EngineeringStress> .
 
 
