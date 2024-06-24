@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Dehnrate</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Strain rate</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">the rate at which a material deforms under applied stress. It is a measure of how quickly the material's shape or dimensions change in response to external forces, such as tension, compression, or shear. Strain rate is typically expressed in units of inverse time (e.g., s^-1 or min^-1).</ns0:comment>
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Strain Rate</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">StrainRate</ns0:label>
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">strain rate</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/Time"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/PercentageExtension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/ParallelLength"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
+    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Dehngeschwindigkeit</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"increase of strain, measured with an extensometer, in extensometer gauge length" [DIN EN ISO 6892-1, 3.7.1]</ns0:description>
@@ -43,19 +31,31 @@
     <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"Zunahme der mit einem Extensometer in der Extensometer-Messlänge gemessenen Dehnung je Zeiteinheit" [DIN EN ISO 6892-1, 3.7.1]</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Dehnrate</ns0:altlabel>
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Strain rate</ns0:altlabel>
+    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/Time"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Strain Rate</ns0:altlabel>
+    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/PercentageExtension"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">strain rate</ns0:altlabel>
+    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/ParallelLength"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Dehngeschwindigkeit</ns0:altlabel>
+    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/CrossheadSeparationRate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">StrainRate</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">the rate at which a material deforms under applied stress. It is a measure of how quickly the material's shape or dimensions change in response to external forces, such as tension, compression, or shear. Strain rate is typically expressed in units of inverse time (e.g., s^-1 or min^-1).</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">StrainRate</ns0:preflabel>
@@ -88,7 +88,19 @@
     <ns0:hasDescriptionCitationSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">DIN EN ISO 6892-1, 3.7.1</ns0:hasDescriptionCitationSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">0.001</ns0:hasExampleData>
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">1/s</ns0:hasTypicalUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">s-1</ns0:hasTypicalUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
+    <ns0:hasTypicalUnit xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="http://qudt.org/vocab/unit/PER-SEC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
+    <ns0:hasSymbolLatex xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">\dot{e}_{L_e}</ns0:hasSymbolLatex>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
+    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">eLe</ns0:hasSymbol>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="de">DIN EN ISO 6892-1, 3.7.1</ns0:hasLabelSource>
@@ -106,18 +118,6 @@
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">General Knowledge</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">eLe</ns0:hasSymbol>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:hasSymbolLatex xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">\dot{e}_{L_e}</ns0:hasSymbolLatex>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:hasTypicalUnit xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="http://qudt.org/vocab/unit/PER-SEC"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">1/s</ns0:hasTypicalUnitLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRate">
-    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">s-1</ns0:hasTypicalUnitLabel>
+    <ns0:hasExampleData xmlns:ns0="https://w3id.org/steel/ProcessOntology/">0.001</ns0:hasExampleData>
   </rdf:Description>
 </rdf:RDF>

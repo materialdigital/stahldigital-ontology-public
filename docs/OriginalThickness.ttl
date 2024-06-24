@@ -1,21 +1,21 @@
 
 
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2000/01/rdf-schema#comment> "Original width of the parallel length of a flat test piece"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalThickness"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://purl.org/dc/terms/description> "\"Original width of the parallel length of a flat test piece\" [Authors]"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://purl.org/dc/terms/description> "\"(Anfangs-)Dicke einer Flachprobe oder Wanddicke eines Rohres\" [DIN EN ISO 6892-1, Tabelle 1]"@de .
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://purl.org/dc/terms/description> "\"The initial thickness of the specimen.\" [Authors]"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://purl.org/dc/terms/description> "\"original thickness of a flat test piece or wall thickness of a tube\" [DIN EN ISO 6892-1, Table 1]"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://purl.org/dc/terms/description> "\"The thickness of the specimen.\" [Authors]"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2004/02/skos/core#altlabel> "original thickness"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2004/02/skos/core#altlabel> "Probendicke a0"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2004/02/skos/core#altlabel> "Probendicke a"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2004/02/skos/core#altlabel> "Original thickness"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2004/02/skos/core#altlabel> "Probendicke"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2004/02/skos/core#altlabel> "Thickness"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://purl.org/dc/terms/description> "\"Original width of the parallel length of a flat test piece\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://purl.org/dc/terms/description> "\"(Anfangs-)Dicke einer Flachprobe oder Wanddicke eines Rohres\" [DIN EN ISO 6892-1, Tabelle 1]"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://purl.org/dc/terms/description> "\"The initial thickness of the specimen.\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://purl.org/dc/terms/description> "\"original thickness of a flat test piece or wall thickness of a tube\" [DIN EN ISO 6892-1, Table 1]"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://purl.org/dc/terms/description> "\"The thickness of the specimen.\" [Authors]"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://material-digital.de/pmdco/ValueObject> .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalThickness"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2000/01/rdf-schema#comment> "Original width of the parallel length of a flat test piece"@en .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <http://www.w3.org/2004/02/skos/core#preflabel> "OriginalThickness"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, Tabelle 1"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasDescriptionCitationSource> "DIN EN ISO 6892-1, Table 1"@en .
@@ -32,10 +32,10 @@
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-FzR4-S1Q"@de .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "AFZ1-ST-D1"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasLabelSource> "YS1-Fz-D1Q"@de .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MilliM> .
+<https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "a_o"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasSymbol> "ao"@en .
 <https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasSymbol> "a_{0}"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasSymbolLatex> "a_o"@en .
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasTypicalUnit> <http://qudt.org/vocab/unit/MilliM> .
-<https://w3id.org/steel/ProcessOntology/OriginalThickness> <https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel> "mm" .
 
 

@@ -1,37 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Original width of the parallel length of a flat test piece</ns0:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">OriginalWidth</ns0:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/TestPieceGeometry"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"original width of the parallel length of a flat test piece or average width of the longi
-tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table 1]</ns0:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The width of the specimen." [Authors]</ns0:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Original width of the parallel length of a flat test piece" [Authors]</ns0:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes" [DIN EN ISO 6892-1, Tabelle 1]</ns0:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Probenbreite b0</ns0:altlabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
@@ -51,6 +20,37 @@ tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <ns0:altlabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Original width</ns0:altlabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"original width of the parallel length of a flat test piece or average width of the longi
+tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table 1]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"The width of the specimen." [Authors]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">"Original width of the parallel length of a flat test piece" [Authors]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="de">"(Anfangs-)Breite einer Flachprobe in der parallelen Länge oder mittlere Breite einer Rohrstreifenprobe oder eines Profildrahtes" [DIN EN ISO 6892-1, Tabelle 1]</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://material-digital.de/pmdco/ValueObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://w3id.org/steel/ProcessOntology/TestPieceGeometry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">OriginalWidth</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Original width of the parallel length of a flat test piece</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <ns0:preflabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">OriginalWidth</ns0:preflabel>
@@ -98,18 +98,18 @@ tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table
     <ns0:hasLabelSource xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">YS1-FzR4-S1Q</ns0:hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">bo</ns0:hasSymbol>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">b_{0}</ns0:hasSymbol>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:hasSymbolLatex xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">b_o</ns0:hasSymbolLatex>
+    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">mm</ns0:hasTypicalUnitLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
     <ns0:hasTypicalUnit xmlns:ns0="https://w3id.org/steel/ProcessOntology/" rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
-    <ns0:hasTypicalUnitLabel xmlns:ns0="https://w3id.org/steel/ProcessOntology/">mm</ns0:hasTypicalUnitLabel>
+    <ns0:hasSymbolLatex xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">b_o</ns0:hasSymbolLatex>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">bo</ns0:hasSymbol>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/OriginalWidth">
+    <ns0:hasSymbol xmlns:ns0="https://w3id.org/steel/ProcessOntology/" xml:lang="en">b_{0}</ns0:hasSymbol>
   </rdf:Description>
 </rdf:RDF>

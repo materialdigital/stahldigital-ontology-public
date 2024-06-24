@@ -21,7 +21,7 @@
       
       ],
     "http://purl.org/dc/terms/date" : [ {
-        "value" : "2024-06-24T15:24:10+00:00",
+        "value" : "2024-06-24T16:23:54+00:00",
         "type" : "literal"
         }
       
@@ -28972,6 +28972,15 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/Temperature" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/TemperatureSensor" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -31370,6 +31379,24 @@
         "value" : "General Knowledge",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/ThermalConductivity" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/ThermalExpansionCoefficient" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
