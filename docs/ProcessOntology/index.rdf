@@ -2151,6 +2151,9 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/IndentationDiameterAverage">
     <hasTypicalUnitLabel>mm</hasTypicalUnitLabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SpinFinishPumpSpeed%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MicrostructureModel">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -2459,6 +2462,27 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMeanEngineeringStrainRate_PER-SEC">
     <hasUnitLabel>s-1</hasUnitLabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
+    <rdfs:label>has InnerDiameterDie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/InnerDiameterDie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
+    <hasUnit rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
+    <hasUnitLabel>mm</hasUnitLabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldingIdentifierIsoThermal">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -2488,27 +2512,6 @@ LT.0.0: |LCSDG| is the ID of a function (*DEFINE_FUNCTION) with the arguments tr
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YieldingIdentifierIsoThermal">
     <hasTypicalUnitLabel>-</hasTypicalUnitLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
-    <rdfs:label>has InnerDiameterDie</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
-    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/InnerDiameterDie"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
-    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
-    <hasUnit rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInnerDiameterDie_MilliM">
-    <hasUnitLabel>mm</hasUnitLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasPlasticEngineeringStrain_PERCENT">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -3802,6 +3805,9 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTargetClampingForce_Object">
     <skos:preflabel xml:lang="en">hasTargetClampingForce</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TextileCount%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/UltimateTensileStrength">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -4534,21 +4540,6 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HCT980C">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasClamping">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasClamping">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasClamping">
-    <rdfs:label>has Clamping</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasClamping">
-    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/Clamping"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasClamping">
-    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasClamping_Object"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHardeningParameterTau0_MegaPA">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -4569,6 +4560,21 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasHardeningParameterTau0_MegaPA">
     <hasUnitLabel>MPa</hasUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasClamping">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasClamping">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasClamping">
+    <rdfs:label>has Clamping</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasClamping">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/Clamping"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasClamping">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasClamping_Object"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EbsdFileName">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -5003,6 +5009,9 @@ or
     <hasLabelSource xml:lang="de">General Knowledge</hasLabelSource>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SlipSystemNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MeltSpinning">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasAmplitudeFile">
@@ -5860,6 +5869,12 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Displacement">
     <hasTypicalUnitLabel>mm</hasTypicalUnitLabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HoleDiameter%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SpinPackTemperature%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCRMUncertainty_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
@@ -5946,6 +5961,9 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasPunchVelocity_Object">
     <skos:preflabel xml:lang="en">hasPunchVelocity</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/UltimateElongationPercentage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEulerAngle3_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -8380,6 +8398,9 @@ or
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTime_Object">
     <skos:preflabel xml:lang="en">hasTime</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/QuenchFlow%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ProofStrength_0.2Percentage">
     <isBasedOn rdf:resource="https://w3id.org/steel/ProcessOntology/PercentageExtension"/>
   </rdf:Description>
@@ -8804,6 +8825,9 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Deformation">
     <skos:preflabel xml:lang="de">Verfomung</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GodetTemperature%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasBrinellHardness_HBW">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -9290,6 +9314,9 @@ or
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthChange">
     <hasDescriptionCitationSource xml:lang="en">Authors</hasDescriptionCitationSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TensionAtWinder%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/WidthAfterFracture2">
     <rdfs:label xml:lang="en">WidthAfterFracture2</rdfs:label>
@@ -10903,21 +10930,6 @@ Identifier which relates the Table to descibe the yield stress by using differen
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobMetadata">
     <skos:preflabel xml:lang="de">Job-Metadaten</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
-    <rdfs:label xml:lang="en">Chemical Composition</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
-    <rdfs:label xml:lang="de">Chemische Zusammensetzung</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
-    <skos:preflabel xml:lang="en">Chemical Composition</skos:preflabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
-    <skos:preflabel xml:lang="de">Chemische Zusammensetzung</skos:preflabel>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLowerYieldStrength_MegaPA">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -10938,6 +10950,21 @@ Identifier which relates the Table to descibe the yield stress by using differen
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLowerYieldStrength_MegaPA">
     <hasUnitLabel>MPa</hasUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
+    <rdfs:label xml:lang="en">Chemical Composition</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
+    <rdfs:label xml:lang="de">Chemische Zusammensetzung</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
+    <skos:preflabel xml:lang="en">Chemical Composition</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ChemicalComposition">
+    <skos:preflabel xml:lang="de">Chemische Zusammensetzung</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasForce_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -11526,6 +11553,9 @@ or better." [DIN EN ISO 6892-1, 9]</dcterms:description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInitialSheetThickness_MilliM">
     <hasUnitLabel>mm</hasUnitLabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PressureAtExtruder%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasBrinellHardnessUncertainty_HBW">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -11651,6 +11681,9 @@ or better." [DIN EN ISO 6892-1, 9]</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMeasurementResolutionUncertainty_HBW">
     <hasUnitLabel>HBW</hasUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PumpSpeed%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLatentHardeningQ0_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -12875,6 +12908,21 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Experiment">
     <skos:preflabel xml:lang="de">Experiment</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLubricationSystem_Object">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLubricationSystem_Object">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLubricationSystem_Object">
+    <rdfs:label xml:lang="en">hasLubricationSystem</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLubricationSystem_Object">
+    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/LubricationSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLubricationSystem_Object">
+    <skos:preflabel xml:lang="en">hasLubricationSystem</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStrainRateScaleParameterC_UNITLESS">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -12895,21 +12943,6 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStrainRateScaleParameterC_UNITLESS">
     <hasUnitLabel>1</hasUnitLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLubricationSystem_Object">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLubricationSystem_Object">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLubricationSystem_Object">
-    <rdfs:label xml:lang="en">hasLubricationSystem</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLubricationSystem_Object">
-    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/LubricationSystem"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasLubricationSystem_Object">
-    <skos:preflabel xml:lang="en">hasLubricationSystem</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/IndenterIdentifier">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -12932,20 +12965,29 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/IndenterIdentifier">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel">
-    <rdfs:label>has CrystalPlasticityConstitutiveModel</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
+    <rdfs:label>has IndentationDiameterVertical</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel">
-    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/CrystalPlasticityConstitutiveModel"/>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/IndentationDiameterVertical"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel">
-    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel_Object"/>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
+    <hasUnit rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
+    <hasUnitLabel>mm</hasUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Filter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTaylorQuinneyCoefficient_UNITLESS">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -12968,26 +13010,20 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTaylorQuinneyCoefficient_UNITLESS">
     <hasUnitLabel>1</hasUnitLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
-    <rdfs:label>has IndentationDiameterVertical</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel">
+    <rdfs:label>has CrystalPlasticityConstitutiveModel</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
-    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/IndentationDiameterVertical"/>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/CrystalPlasticityConstitutiveModel"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
-    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
-    <hasUnit rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterVertical_MilliM">
-    <hasUnitLabel>mm</hasUnitLabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasCrystalPlasticityConstitutiveModel_Object"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTotalEngineeringStrain_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -13183,6 +13219,9 @@ LT.0.0: Applies only to shells. |NUMFIP| is the percentage of layers which must 
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSpecificHeatCapacity_J-Per-Gm-K">
     <hasUnitLabel>J/(g*K)</hasUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GodetSpeedWinder%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/PistonSpeed">
     <hasLabelSource xml:lang="de">AFZ-BU-S1.TXT</hasLabelSource>
@@ -14204,6 +14243,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasDamageTreatment_UNITLESS">
     <hasUnitLabel>1</hasUnitLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/YarnTenacity%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasMaximumForceDiscontinousYielding_N">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -15264,6 +15306,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTime_SEC">
     <hasUnitLabel>s</hasUnitLabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/GodetSpeed%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TrueStressAtFracture">
     <isBasedOn rdf:resource="https://w3id.org/steel/ProcessOntology/ForceAtFracture"/>
   </rdf:Description>
@@ -15350,6 +15395,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/JobOutput">
     <skos:preflabel xml:lang="de">Job-Output-Parameter</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtruderTemperature%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTensileTestingMachine">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -18926,6 +18974,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/DisplacementTransducer">
     <skos:altlabel xml:lang="de">Dehnungsaufnehmer</skos:altlabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/SandSize%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasFracture">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -21321,6 +21372,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/StrainRateFormulationFlag">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/QuenchLength%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasProofStrengthPlasticExtension_MegaPA">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -21926,6 +21980,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MaterialCard">
     <rdfs:label xml:lang="de">Materialkarte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/NumberOfHoles%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasEvaluationMethod">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -22842,6 +22899,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/User">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/QuantityOfSand%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStiffnessComponent_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
@@ -23757,6 +23817,9 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/EvaluationMethod">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/HoleToCapilarLengthRatio%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasExtensionAtFracture_MilliM">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -23829,6 +23892,27 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestPiecePreparation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
+    <rdfs:label>has InteractionMatrix</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/InteractionMatrix"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
+    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
+    <hasUnit rdf:resource="http://qudt.org/vocab/unit/UNITLESS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
+    <hasUnitLabel>-</hasUnitLabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasPercentageElongationAfterFracture_PERCENT">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -23864,27 +23948,6 @@ N.GT.0: The Nth additional history variable is the driving quantity for damage.<
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasTestPieceGeometry">
     <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasTestPieceGeometry_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
-    <rdfs:label>has InteractionMatrix</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
-    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/InteractionMatrix"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
-    <rdfs:seeAlso rdf:resource="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
-    <hasUnit rdf:resource="http://qudt.org/vocab/unit/UNITLESS"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInteractionMatrix_UNITLESS">
-    <hasUnitLabel>-</hasUnitLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasInitialCriticalStrength_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -24709,6 +24772,9 @@ GT.0.0: Constant fading exponent</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingForce">
     <skos:preflabel xml:lang="de">Walzkraft</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtruderHeadPressure%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/Rp02">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -25962,6 +26028,21 @@ tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasWidthStrain_Object">
     <skos:preflabel xml:lang="en">hasWidthStrain</skos:preflabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStressRate_Object">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStressRate_Object">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStressRate_Object">
+    <rdfs:label xml:lang="en">hasStressRate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStressRate_Object">
+    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/StressRate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStressRate_Object">
+    <skos:preflabel xml:lang="en">hasStressRate</skos:preflabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasExtensometerGaugeLength_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
@@ -26010,20 +26091,20 @@ tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/processChainSimulation">
     <skos:preflabel xml:lang="de">Prozesskettensimulation</skos:preflabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStressRate_Object">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStressRate_Object">
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve_Object">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStressRate_Object">
-    <rdfs:label xml:lang="en">hasStressRate</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve_Object">
+    <rdfs:label xml:lang="en">hasSlopeElasticPartStressStrainCurve</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStressRate_Object">
-    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/StressRate"/>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve_Object">
+    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasStressRate_Object">
-    <skos:preflabel xml:lang="en">hasStressRate</skos:preflabel>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve_Object">
+    <skos:preflabel xml:lang="en">hasSlopeElasticPartStressStrainCurve</skos:preflabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestDirection">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -26091,21 +26172,6 @@ tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasAbsoluteCrossheadTravel_MilliM">
     <hasUnitLabel>mm</hasUnitLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve_Object">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve_Object">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve_Object">
-    <rdfs:label xml:lang="en">hasSlopeElasticPartStressStrainCurve</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve_Object">
-    <rdfs:range rdf:resource="https://w3id.org/steel/ProcessOntology/SlopeElasticPartStressStrainCurve"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasSlopeElasticPartStressStrainCurve_Object">
-    <skos:preflabel xml:lang="en">hasSlopeElasticPartStressStrainCurve</skos:preflabel>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIndentationDiameterAverage_Object">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
@@ -26160,6 +26226,9 @@ tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/MatTabulatedJohnsonCook">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/TestNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/rollingSpeed">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -26197,7 +26266,7 @@ tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table
     <dcterms:created>2023</dcterms:created>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
-    <dcterms:date>2024-06-24T16:23:54+00:00</dcterms:date>
+    <dcterms:date>2024-07-10T04:24:03+00:00</dcterms:date>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology">
     <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
@@ -26705,6 +26774,9 @@ tudinal strip taken from a tube or width of flat wire" [DIN EN ISO 6892-1, Table
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasIdentifier_Object">
     <skos:preflabel xml:lang="en">hasIdentifier</skos:preflabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/ExtruderSpeed%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/steel/ProcessOntology/hasRollingDirection">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>

@@ -21,7 +21,7 @@
       
       ],
     "http://purl.org/dc/terms/date" : [ {
-        "value" : "2024-06-24T16:23:54+00:00",
+        "value" : "2024-07-10T04:24:03+00:00",
         "type" : "literal"
         }
       
@@ -7656,6 +7656,33 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/ExtruderHeadPressure%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/ExtruderSpeed%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/ExtruderTemperature%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/FEMSolver" : {
     "http://purl.org/dc/terms/description" : [ {
         "value" : "\"FEM Solver used for carring out the microstructure simulations\" [General Knowledge]",
@@ -8599,6 +8626,15 @@
         "value" : "R\u00FCckkopplung",
         "lang" : "de",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/Filter" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
@@ -10116,6 +10152,33 @@
     }
   ,
   "https://w3id.org/steel/ProcessOntology/GlassbendingProcess" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/GodetSpeed%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/GodetSpeedWinder%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/GodetTemperature%20" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
         "type" : "uri"
@@ -11844,6 +11907,24 @@
         "value" : "Hockett Sherby initiale Flie\u00DFspannung",
         "lang" : "de",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/HoleDiameter%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/HoleToCapilarLengthRatio%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
@@ -16610,6 +16691,15 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/MeltSpinning" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/MicroalloyedSteel" : {
     "http://purl.org/dc/terms/description" : [ {
         "value" : "\"Mikrolegierte St\u00E4hle erzielen ihre hohen Festigkeiten durch die Legierung mit Niob, Titan und Vanadium\" [DIN EN 10346_2015]",
@@ -18189,6 +18279,15 @@
         "value" : "N",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/NumberOfHoles%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
@@ -22384,6 +22483,15 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/PressureAtExtruder%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/PressureChamber" : {
     "http://purl.org/dc/terms/description" : [ {
         "value" : "\"Druck im Werkzeug.\" [DIN EN ISO 16808:2022-08, 12]",
@@ -23390,6 +23498,15 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/PumpSpeed%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/PunchDiameter" : {
     "http://purl.org/dc/terms/description" : [ {
         "value" : "\"Stempeldurchmesser \" [DIN EN ISO 12004-2: 2021_07, 8]",
@@ -23856,6 +23973,33 @@
         "value" : "Pyiron project",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/QuantityOfSand%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/QuenchFlow%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/QuenchLength%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
@@ -25866,6 +26010,15 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/SandSize%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/ScriptJob" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -27329,6 +27482,24 @@
     "https://w3id.org/steel/ProcessOntology/hasTypicalUnitLabel" : [ {
         "value" : "mm",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/SpinFinishPumpSpeed%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/SpinPackTemperature%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
@@ -29354,6 +29525,15 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/TensionAtWinder%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/Test" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -29489,6 +29669,15 @@
         "value" : "DIN EN ISO 12004-2: 2021_07, 5",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/TestNumber" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
@@ -31275,6 +31464,15 @@
         "value" : "Pr\u00FCfgeschwindigkeit",
         "lang" : "de",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/TextileCount%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
@@ -33871,6 +34069,15 @@
       ]
     }
   ,
+  "https://w3id.org/steel/ProcessOntology/UltimateElongationPercentage" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
   "https://w3id.org/steel/ProcessOntology/UltimateTensileStrength" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://www.w3.org/2002/07/owl#Class",
@@ -34888,6 +35095,15 @@
         "value" : "Workflow step",
         "lang" : "en",
         "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://w3id.org/steel/ProcessOntology/YarnTenacity%20" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
         }
       
       ]
